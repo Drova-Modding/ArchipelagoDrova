@@ -1,0 +1,2364 @@
+{
+ "QuestVars_AlcoholForSecretReveal": {
+  "guid": "f87353ea6bf2ff841a7309adc06fa388",
+  "name": "QuestVars_AlcoholForSecretReveal",
+  "title": "Not my Beer",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_AlcoholForSecretReveal",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_AlcoholForSecretReveal",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_YouLookTired": {
+  "guid": "b89b0bc4dc34d3844b851e2162d99390",
+  "name": "QuestVars_YouLookTired",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_WorkerWorkerWorker": {
+  "guid": "cdd1150051f816d4387953b4249e0eda",
+  "name": "QuestVars_WorkerWorkerWorker",
+  "title": "Work, Work",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_WorkerWorkerWorker",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_WorkerWorkerWorker",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheWayToTheMine": {
+  "guid": "56f99b094b125b24db6f7ae146a59c09",
+  "name": "QuestVars_TheWayToTheMine",
+  "title": "The Road to the Pit",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_TheWayToTheMine",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Mine",
+  "journalTopic": "Topic_TheWayToTheMine",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_Mine (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_Dreams": {
+  "guid": "75b8d590d4ab3d64abf19a19e452a37e",
+  "name": "QuestVars_Dreams",
+  "title": "Dreams of another World",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_Dreams",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_Dreams",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "Rebellion": {
+  "guid": "046a8baf11ffc2049a04fadbf40c4f10",
+  "name": "Rebellion",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_Shrines": {
+  "guid": "52e55ceed49fe7f4f99e9ef500d134d6",
+  "name": "QuestVars_Shrines",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_TheOutcast": {
+  "guid": "6fb4efda6a762ef4b952e19c2f580900",
+  "name": "QuestVars_TheOutcast",
+  "title": "The Stolen Package",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_TheOutcast",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_TheOutcast",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_AttackWoodcamp": {
+  "guid": "9b4fc32522212bf4999fa6021816dedb",
+  "name": "QuestVars_AttackWoodcamp",
+  "title": "The Situation at the Woodcutter Camp",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_AttackWoodcamp",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_AttackWoodcamp",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Nemeton"
+   ]
+  },
+  "notes": "QuestGraph references only moorlager/nemeton-side faction bool(s) (JoinedMoorlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BanditMineBrutus": {
+  "guid": "ca43f0b526eb6684780bc41baa70553a",
+  "name": "QuestVars_BanditMineBrutus",
+  "title": "Missing",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_BanditMineBrutus",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_BanditMineBrutus",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_DAS_WayToArenaMaster": {
+  "guid": "ec4dcd79267907644ba0ac466e38d26b",
+  "name": "QuestVars_DAS_WayToArenaMaster",
+  "title": "Blood and Iron in the Arena",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_DAS_WayToArenaMaster",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_DAS_WayToArenaMaster",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Nemeton"
+   ]
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheFallowField": {
+  "guid": "6f5a16f5af8ead14a9cbb704e9819973",
+  "name": "QuestVars_TheFallowField",
+  "title": "A Nest of Bloodflies",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TheFallowField",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_TheFallowField",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_VoteFromEugen": {
+  "guid": "450e76437c373d04fa3a137c1792a586",
+  "name": "QuestVars_VoteFromEugen",
+  "title": "Eugen's Squad",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_VoteFromEugen",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_VoteFromEugen",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_OldMan": {
+  "guid": "4e6d5f41669ee3e44837ae95b5a6feac",
+  "name": "QuestVars_OldMan",
+  "title": "The Old Man at the Market",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_OldMan",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_OldMan",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_IronForFarmers": {
+  "guid": "5a5e171956d22fd49b2a2cab17b0cdfb",
+  "name": "QuestVars_IronForFarmers",
+  "title": "Bog Iron for the Farmers",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_IronForFarmers",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_IronForFarmers",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_YourOwnRunestone": {
+  "guid": "1f024bde2420ddc48a52f4029683013b",
+  "name": "QuestVars_YourOwnRunestone",
+  "title": "Your Very Own Runestone",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_YourOwnRunestone",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_MainQuest",
+  "journalTopic": "Topic_YourOwnRunestone",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_MainQuest (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheWayToTheLeuchtwald": {
+  "guid": "3771303b3f3a93b49a61815b7f7ae52d",
+  "name": "QuestVars_TheWayToTheLeuchtwald",
+  "title": "The Way to the Forest Primeval",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_TheWayToTheLeuchtwald",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_MainQuest",
+  "journalTopic": "Topic_TheWayToTheLeuchtwald",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_MainQuest (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_StalkerFlussbett": {
+  "guid": "2782f57957ef90241a1fbe3b03e2d0d4",
+  "name": "QuestVars_StalkerFlussbett",
+  "title": "Wood Protects from Snaptors",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_StalkerFlussbett",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_StalkerFlussbett",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_EverybodyUnderstandsThat": {
+  "guid": "e0e2c2900f6382543ba4b932e7b907c8",
+  "name": "QuestVars_EverybodyUnderstandsThat",
+  "title": "A Talisman for Helma",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_EverybodyUnderstandsThat",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_EverybodyUnderstandsThat",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": [
+    "Ruinenlager"
+   ]
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_MySickSister": {
+  "guid": "4248d6f76dbc7734fa94e8b3580ec6d2",
+  "name": "QuestVars_MySickSister",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_GettingInvolved": {
+  "guid": "5b791b0ec78b8f643b08ff8bd89fe96d",
+  "name": "QuestVars_GettingInvolved",
+  "title": "Jendrik the Woodcutter",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically."
+ },
+ "Intro_Miraculix": {
+  "guid": "4b64679f88ec5e84c859afaae11c5630",
+  "name": "Intro_Miraculix",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_BluntHoe": {
+  "guid": "382fa498d9d6e0845a39974dad334f78",
+  "name": "QuestVars_BluntHoe",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_ShotsForRipper_Config": {
+  "guid": "befc7516d037f5a4aaaabd44aba6258b",
+  "name": "QuestVars_ShotsForRipper_Config",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_DeepInTheSwamp": {
+  "guid": "772bb563d1f37cb4e93e0ff40fad3495",
+  "name": "QuestVars_DeepInTheSwamp",
+  "title": "The Man in the Moor",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_DeepInTheSwamp",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_DeepInTheSwamp",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_EnteringRedTower": {
+  "guid": "179e4c0c233dd144b9dc5bc831636932",
+  "name": "QuestVars_EnteringRedTower",
+  "title": "The Way to the Red Tower",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_EnteringRedTower",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RedTower",
+  "journalTopic": "Topic_EnteringRedTower",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Nemeton",
+    "Ruinenlager"
+   ]
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides AND the quest owns journal entries for both paths (Nemeton, Ruinenlager) -> the quest ships real content for either choice and is reachable either way. Journal topic group = TopicGroup_RedTower (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_KarottesWeapon": {
+  "guid": "9e19ddf873cd8fe40a229aaafa83afc7",
+  "name": "QuestVars_KarottesWeapon",
+  "title": "Karotte's Weapon",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_KarottesWeapon",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_KarottesWeapon",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_Armor": {
+  "guid": "8b553915da33b8246a31a75a6a748be7",
+  "name": "QuestVars_Armor",
+  "title": "Strange Piece of Armor",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_Armor",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_Armor",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FishingForDunja": {
+  "guid": "9d12583f34d54ee47a45c0cb0c030b44",
+  "name": "QuestVars_FishingForDunja",
+  "title": "Fish for Dunja",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_FishingForDunja",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_FishingForDunja",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_HauerNemeton": {
+  "guid": "1d31b59d527ca404190a9f1e04ae88d2",
+  "name": "QuestVars_HauerNemeton",
+  "title": "Nemeton wants YOU!",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_HauerNemeton",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_HauerNemeton",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Nemeton"
+   ]
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_OneFaction": {
+  "guid": "48bad9c8c9af2654f818f447a845a49a",
+  "name": "QuestVars_OneFaction",
+  "title": "Drova, Land of Legends",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_OneFaction",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_MainQuest",
+  "journalTopic": "Topic_OneFaction",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "CanJoinMoorlager",
+    "CanJoinRuinenlager",
+    "FoundMoorlager",
+    "FoundRuinenlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=CanJoinMoorlager,FoundMoorlager ruin=CanJoinRuinenlager,FoundRuinenlager,JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_MainQuest (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_MikeschKnowTheWay": {
+  "guid": "7c13d7a7fc9022c43a355ede15f10410",
+  "name": "QuestVars_MikeschKnowTheWay",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_LucrativeBusiness": {
+  "guid": "bc618af353ce5054abc3b9fbf74054f2",
+  "name": "QuestVars_LucrativeBusiness",
+  "title": "Lucrative Business",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_LucrativeBusiness",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_LucrativeBusiness",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_ButterfliesAllAround": {
+  "guid": "75ffb106a9be498409d93fdd2492f6e8",
+  "name": "QuestVars_ButterfliesAllAround",
+  "title": "Help in the Grove",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_ButterfliesAllAround",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_ButterfliesAllAround",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (ruinenlager). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_DeepInTheMine": {
+  "guid": "f2205131453039f40b740500e571cd28",
+  "name": "QuestVars_DeepInTheMine",
+  "title": "Levin's Vote",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_DeepInTheMine",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Mine",
+  "journalTopic": "Topic_DeepInTheMine",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Mine (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_DeepInTheAcademy": {
+  "guid": "4cc15886f0f210f4e80e1847981e893c",
+  "name": "QuestVars_DeepInTheAcademy",
+  "title": "The Secret in the Academy",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_DeepInTheAcademy",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_DeepInTheAcademy",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "Library": {
+  "guid": "3cd511ed74ebfcd4799104caaac6baa1",
+  "name": "Library",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_DoroNemetonEscort": {
+  "guid": "4b45a1aab8b0d7d4dbceb36950d70769",
+  "name": "QuestVars_DoroNemetonEscort",
+  "title": "The Road to Nemeton",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_DoroNemetonEscort",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_DoroNemetonEscort",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Nemeton"
+   ]
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_NothingIsFree": {
+  "guid": "fc8dbc445b07beb4ba8651d8924e32e9",
+  "name": "QuestVars_NothingIsFree",
+  "title": "No Such Thing as a Free Lunch",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_NothingIsFree",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_NothingIsFree",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_PaperChase": {
+  "guid": "10ac562c9bc140f4d90e7ab3254586e0",
+  "name": "QuestVars_PaperChase",
+  "title": "My Very Own Talisman",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_PaperChase",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_PaperChase",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BanditMine": {
+  "guid": "5b56b27c4742f8341818af316199aa0a",
+  "name": "QuestVars_BanditMine",
+  "title": "Missing",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency."
+ },
+ "QuestVars_EntranceToShadyDistrict": {
+  "guid": "f7979c9a17951ce4f9de79d5508e5431",
+  "name": "QuestVars_EntranceToShadyDistrict",
+  "title": "The Dark Quarter",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_EntranceToShadyDistrict",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_EntranceToShadyDistrict",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton,ruinenlager). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "Kaserne": {
+  "guid": "6144464f45f5ce040a1139ff6e85c153",
+  "name": "Kaserne",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_CityDungeon": {
+  "guid": "8d61e8bff45734747955a94df6b9dd09",
+  "name": "QuestVars_CityDungeon",
+  "title": "The temple near the Forest Primeval",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_CityDungeon",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RedTower",
+  "journalTopic": "Topic_CityDungeon",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_RedTower (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TiaasEintopf": {
+  "guid": "60fde4524aca52741b9b717e29389bab",
+  "name": "QuestVars_TiaasEintopf",
+  "title": "Tiaa's Stew",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_TiaasEintopf",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_TiaasEintopf",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheBlackhead": {
+  "guid": "96ff6c5c6902c894e96d2594e4b1fd2b",
+  "name": "QuestVars_TheBlackhead",
+  "title": "An Uninvited Guest",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TheBlackhead",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Woodcamp",
+  "journalTopic": "Topic_TheBlackhead",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Woodcamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BrokenTrust": {
+  "guid": "a270d52b7556813468cebba94a6166e2",
+  "name": "QuestVars_BrokenTrust",
+  "title": "Broken Trust",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_BrokenTrust",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_BrokenTrust",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheSecretPlace": {
+  "guid": "bbfff8d4b1264024ab8626b6e9285757",
+  "name": "QuestVars_TheSecretPlace",
+  "title": "Kessia needs to Relax",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TheSecretPlace",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Mine",
+  "journalTopic": "Topic_TheSecretPlace",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Mine (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheCuriousRelic": {
+  "guid": "fb1109d1f9ac21e49860be0aaaeb83af",
+  "name": "QuestVars_TheCuriousRelic",
+  "title": "A Relic of the Bygones",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TheCuriousRelic",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_TheCuriousRelic",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FoodForFarmers": {
+  "guid": "cc7b4d0be0dd5c54bb4aba67bc692671",
+  "name": "QuestVars_FoodForFarmers",
+  "title": "Food for the Workers",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_FoodForFarmers",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_FoodForFarmers",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BabsiStalkerHunt": {
+  "guid": "3d8e2ba2cedb001459507b19ba1fc498",
+  "name": "QuestVars_BabsiStalkerHunt",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_BabsiStalkerHunt",
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_ThePoorSheep": {
+  "guid": "d0dd56fe3da963544a70f6127e537ada",
+  "name": "QuestVars_ThePoorSheep",
+  "title": "Trouble on the Heath",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_ThePoorSheep",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_ThePoorSheep",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheLiesOfLocke": {
+  "guid": "24488416e272f264dba7e292863cbdfe",
+  "name": "QuestVars_TheLiesOfLocke",
+  "title": "Sticky Fingers",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TheLiesOfLocke",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_TheLiesOfLocke",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_Debt": {
+  "guid": "868b6148c79f7c544b6665c5ac58b6b2",
+  "name": "QuestVars_Debt",
+  "title": "Debt isn't real.",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_Debt",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_Debt",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only moorlager/nemeton-side faction bool(s) (JoinedMoorlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_SomeoneHasToDoIt": {
+  "guid": "a22dd897f335a3445887e37a8ce9ce96",
+  "name": "QuestVars_SomeoneHasToDoIt",
+  "title": "Someone's Got to Do It!",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_SomeoneHasToDoIt",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Woodcamp",
+  "journalTopic": "Topic_SomeoneHasToDoIt",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Woodcamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BirkasNewLife": {
+  "guid": "ad4dbe24863d6d54591b9a0498002060",
+  "name": "QuestVars_BirkasNewLife",
+  "title": "Birka's New Life",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_BirkasNewLife",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_BirkasNewLife",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_AuwaldDungeon": {
+  "guid": "bb4fe79e82c209447945de867cc67be0",
+  "name": "QuestVars_AuwaldDungeon",
+  "title": "The Divine Crystal in the Floodplain Forest",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_AuwaldDungeon",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RedTower",
+  "journalTopic": "Topic_AuwaldDungeon",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Nemeton",
+    "Ruinenlager"
+   ]
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides AND the quest owns journal entries for both paths (Nemeton, Ruinenlager) -> the quest ships real content for either choice and is reachable either way. Journal topic group = TopicGroup_RedTower (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_Traps": {
+  "guid": "8b71340259c80704eb4836867e9c6ff4",
+  "name": "QuestVars_Traps",
+  "title": "Traps for Chunnaic",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_Traps",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_Traps",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_StolenWeapons": {
+  "guid": "77dcb26abf69fa847ac8ed5c8af02e04",
+  "name": "QuestVars_StolenWeapons",
+  "title": "The Vanished Weapons",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_StolenWeapons",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_StolenWeapons",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton,ruinenlager). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_AufnahmezeremonieRuinenlager": {
+  "guid": "5e5229ff1cfa15a4c90fc41f95c80eef",
+  "name": "QuestVars_AufnahmezeremonieRuinenlager",
+  "title": "The Academy",
+  "faction": "ruinenlager",
+  "confidence": "high",
+  "questgraph": "QuestGraph_AufnahmezeremonieRuinenlager",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_AufnahmezeremonieRuinenlager",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Ruinenlager"
+   ]
+  },
+  "notes": "Post-join Remnants ceremony. Journal: 'Jero has accepted me as a full member of the Remnants.' Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_HuntTheRippers": {
+  "guid": "9277085eae7296a4f921b34cd41f905a",
+  "name": "QuestVars_HuntTheRippers",
+  "title": "Ripper Hunt",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_HuntTheRippers",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_HuntTheRippers",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton,ruinenlager). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_INeedToWorkAgain": {
+  "guid": "8087d20af00aad64386fb6cac4c6b6b3",
+  "name": "QuestVars_INeedToWorkAgain",
+  "title": "Injured Hewer",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_INeedToWorkAgain",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Mine",
+  "journalTopic": "Topic_INeedToWorkAgain",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Mine (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_WayIntoTheCraftsHouse": {
+  "guid": "eadc25a6b20de764dba589ce7e8fa4ea",
+  "name": "QuestVars_WayIntoTheCraftsHouse",
+  "title": "That damned Muc!",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_WayIntoTheCraftsHouse",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_WayIntoTheCraftsHouse",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_WoodcampRipper": {
+  "guid": "4dccfba12420b8c428e741f2299e1b26",
+  "name": "QuestVars_WoodcampRipper",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_WoodcampRipper",
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_PartOfTheRuinenlager": {
+  "guid": "6d4c898551fcdee49a3f06a2e96cb969",
+  "name": "QuestVars_PartOfTheRuinenlager",
+  "title": "Joining the Remnants",
+  "faction": "ruinenlager",
+  "confidence": "high",
+  "questgraph": "QuestGraph_PartOfTheRuinenlager",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_PartOfTheRuinenlager",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "CanJoinRuinenlager",
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": [
+    "Ruinenlager"
+   ]
+  },
+  "notes": "THE Ruinenlager join quest. Journal: 'If I want to see the druids, I'd have to join the Remnants... I need both Blades of Jero - Eugen and Boris - to vote for me.' Owns a JoinedRuinenlager GBool; graph refs CanJoinRuinenlager. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BetThat": {
+  "guid": "49b2f9199eeac7141b408d27967316d1",
+  "name": "QuestVars_BetThat",
+  "title": "Wanna Bet?",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_BetThat",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_BetThat",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BeautySleep": {
+  "guid": "f0531eba42a59b54ab8559540a51b581",
+  "name": "QuestVars_BeautySleep",
+  "title": "Beauty Sleep",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_BeautySleep",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Mine",
+  "journalTopic": "Topic_BeautySleep",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Mine (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FavourOfCraftsmenSmith": {
+  "guid": "32ba265487a560a4e94428c4deba905b",
+  "name": "QuestVars_FavourOfCraftsmenSmith",
+  "title": "Bear Claw",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_FavourOfCraftsmenSmith",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_FavourOfCraftsmenSmith",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only ruinenlager-side faction bool(s) (JoinedRuinenlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BombusBeehives": {
+  "guid": "a8a37a470776b81439a8295eb67229fd",
+  "name": "QuestVars_BombusBeehives",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_LoadCrystals": {
+  "guid": "428379bdd162b98419c29d432532852d",
+  "name": "QuestVars_LoadCrystals",
+  "title": "Magical power for the Divine Crystals",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_LoadCrystals",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RedTower",
+  "journalTopic": "Topic_LoadCrystals",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Moorlager"
+   ]
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_RedTower (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "Dungeon": {
+  "guid": "66e87b03d7feff0409bde600688ddd21",
+  "name": "Dungeon",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_OnlyOneThingHelps": {
+  "guid": "dfac43f1502769f46992742c37d31a14",
+  "name": "QuestVars_OnlyOneThingHelps",
+  "title": "Only One Thing to Do",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_OnlyOneThingHelps",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Woodcamp",
+  "journalTopic": "Topic_OnlyOneThingHelps",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Woodcamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_ShowMeWhatYouGot": {
+  "guid": "94a41d012e6cfeb4a93b43780a4e7b65",
+  "name": "QuestVars_ShowMeWhatYouGot",
+  "title": "Always Training",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_ShowMeWhatYouGot",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_ShowMeWhatYouGot",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FavourOfCraftsmenGardeners": {
+  "guid": "20822a1f19cd6084989212c837681196",
+  "name": "QuestVars_FavourOfCraftsmenGardeners",
+  "title": "The Herbalist and his Herbs",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_FavourOfCraftsmenGardeners",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_FavourOfCraftsmenGardeners",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QVars_Roots": {
+  "guid": "8306391c0afbea643aaa0b097ca78034",
+  "name": "QVars_Roots",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_FrogsAndRustmoss": {
+  "guid": "652247739b602ee4dbfb2be88cd00382",
+  "name": "QuestVars_FrogsAndRustmoss",
+  "title": "Frogs' Legs for Elgar",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_FrogsAndRustmoss",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_FrogsAndRustmoss",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TaronsLastPiglet": {
+  "guid": "271cea1e7d93b9647b30e8c9f8defc3c",
+  "name": "QuestVars_TaronsLastPiglet",
+  "title": "Taron's Last Piglet",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TaronsLastPiglet",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_TaronsLastPiglet",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheDoppelgangers": {
+  "guid": "b830a100a6debfb44a8b64d10b07c910",
+  "name": "QuestVars_TheDoppelgangers",
+  "title": "Weird Demeanor",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_TheDoppelgangers",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_TheDoppelgangers",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only moorlager/nemeton-side faction bool(s) (JoinedMoorlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_Brutus": {
+  "guid": "9d4ad299b54fa9f4da359d39570fffc2",
+  "name": "QuestVars_Brutus",
+  "title": "The Secret of the Ruin Raiders",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_Brutus",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_Brutus",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_YouDoNotFitHere": {
+  "guid": "3f97ca013e71e3746b3efdfdb4809bbe",
+  "name": "QuestVars_YouDoNotFitHere",
+  "title": "Wayward in the Forest",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_YouDoNotFitHere",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Magiewald",
+  "journalTopic": "Topic_YouDoNotFitHere",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Magiewald (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_PartOfTheFamily": {
+  "guid": "51eddcff603a03c4ea4171d1ba201596",
+  "name": "QuestVars_PartOfTheFamily",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_PartOfTheFamily",
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_FoodInTheMine": {
+  "guid": "3e492b4c96bda064cbd3ede1fd6f145c",
+  "name": "QuestVars_FoodInTheMine",
+  "title": "Meat for the Hewers",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_FoodInTheMine",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Mine",
+  "journalTopic": "Topic_FoodInTheMine",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Mine (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_YouBetterKeepMeSafe": {
+  "guid": "85d9f93a17065764bb969964fe7ae305",
+  "name": "QuestVars_YouBetterKeepMeSafe",
+  "title": "Escort to the Remnants' Camp",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_YouBetterKeepMeSafe",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_YouBetterKeepMeSafe",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BertinesRevenge": {
+  "guid": "380ef58b4cd2c5348b351168c0bc39ba",
+  "name": "QuestVars_BertinesRevenge",
+  "title": "Bertine's Revenge",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_BertinesRevenge",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_BertinesRevenge",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_WoodForAdwin": {
+  "guid": "c2949191b0888f0428bd036f0d0157fa",
+  "name": "QuestVars_WoodForAdwin",
+  "title": "Wood for Adwin",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_WoodForAdwin",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_WoodForAdwin",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FeedTheCanary": {
+  "guid": "5544311ed7e69d748a6d57938a7f38e8",
+  "name": "QuestVars_FeedTheCanary",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_FastTravel": {
+  "guid": "dd19301f7e454fa48af4f5dc773ec7e9",
+  "name": "QuestVars_FastTravel",
+  "title": "Traveling Merchants",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_FastTravel",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_FastTravel",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheRenegadeFriend": {
+  "guid": "5c03bfac9ba95ef488806d8fffe1017a",
+  "name": "QuestVars_TheRenegadeFriend",
+  "title": "The Rogue Friend",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TheRenegadeFriend",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Woodcamp",
+  "journalTopic": "Topic_TheRenegadeFriend",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Woodcamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_ExpeditionRuinenlager": {
+  "guid": "27a7faadcf8af7040ac480afc5aadbf1",
+  "name": "QuestVars_ExpeditionRuinenlager",
+  "title": "The Expedition",
+  "faction": "ruinenlager",
+  "confidence": "high",
+  "questgraph": "QuestGraph_ExpeditionRuinenlager",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_ExpeditionRuinenlager",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Ruinenlager"
+   ]
+  },
+  "notes": "Ruinenlager branch of 'The Expedition' (Kilian/Darwin/Eugen). Parallel same-titled quest to QuestVars_ExpeditionNemeton -> mutually exclusive faction branches. Paired assets CutsceneData_WatchBoarExpeditionRL / EntityInfo_NPC_Boar_Luminous_ExpeditionRL. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_ManpowerForTheBridge": {
+  "guid": "a5b804c5f1d948b46a910f014f56ab32",
+  "name": "QuestVars_ManpowerForTheBridge",
+  "title": "Labor for the Bridge",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_ManpowerForTheBridge",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Woodcamp",
+  "journalTopic": "Topic_ManpowerForTheBridge",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Woodcamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_Graffiti": {
+  "guid": "fdca7fbfe8272c44597a198bf412db6a",
+  "name": "QuestVars_Graffiti",
+  "title": "Defaced Walls",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_Graffiti",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_Graffiti",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TrankVergessens": {
+  "guid": "e6a7f2384f3e0c242b34920a5481aba2",
+  "name": "QuestVars_TrankVergessens",
+  "title": "Potion of Forgetfulness",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TrankVergessens",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_TrankVergessens",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_ExpeditionNemeton": {
+  "guid": "6e1317d67a8de5142b470ede58af33a1",
+  "name": "QuestVars_ExpeditionNemeton",
+  "title": "The Expedition",
+  "faction": "nemeton",
+  "confidence": "high",
+  "questgraph": "QuestGraph_ExpeditionNemeton",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_ExpeditionNemeton",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": [
+    "Nemeton"
+   ]
+  },
+  "notes": "Nemeton branch of 'The Expedition' (Mombert). Parallel same-titled quest to QuestVars_ExpeditionRuinenlager -> mutually exclusive faction branches. Paired assets CutsceneData_WatchBoarExpeditionML / EntityInfo_NPC_Boar_Luminous_ExpeditionML. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheTrader": {
+  "guid": "5c7aa1ab08bbbb844b49f9bd8912d819",
+  "name": "QuestVars_TheTrader",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TheTrader",
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_JobForBoris": {
+  "guid": "3fd974b39a1e6be44b81a4ed1a4c6764",
+  "name": "QuestVars_JobForBoris",
+  "title": "Boris's Vote to Join the Remnants",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_JobForBoris",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_JobForBoris",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FireFestival": {
+  "guid": "9a31428bab78737499f76b2ac2a8274a",
+  "name": "QuestVars_FireFestival",
+  "title": "The Festival of Fire",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_FireFestival",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_FireFestival",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_AlrauneForAidan": {
+  "guid": "0da14158f06fff24586e5b2763cd332b",
+  "name": "QuestVars_AlrauneForAidan",
+  "title": "The Power of Potions",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_AlrauneForAidan",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_AlrauneForAidan",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_LostShoes": {
+  "guid": "970b74263de6fd24a9ad597635d853b5",
+  "name": "QuestVars_LostShoes",
+  "title": "No Shoes No Joy",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_LostShoes",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_LostShoes",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TheBattleBuddies": {
+  "guid": "3ef9b07467e826245a3d5d4cde5a0e69",
+  "name": "QuestVars_TheBattleBuddies",
+  "title": null,
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_TheBattleBuddies",
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_InsideRedTower": {
+  "guid": "74246a10037ad54499552f40e53d5716",
+  "name": "QuestVars_InsideRedTower",
+  "title": "In the Red Tower",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_InsideRedTower",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_MainQuest",
+  "journalTopic": "Topic_InsideRedTower",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_MainQuest (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_VoteFromBoris": {
+  "guid": "e57c02d2a8f106f45b426c443099bd4b",
+  "name": "QuestVars_VoteFromBoris",
+  "title": "Boris's Squad",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_VoteFromBoris",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_VoteFromBoris",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TraderLostItem": {
+  "guid": "0f9d2eaf333971e43b22091decdd773d",
+  "name": "QuestVars_TraderLostItem",
+  "title": "Lost Bag",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_TraderLostItem",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_TraderLostItem",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_WayToTheLibrary": {
+  "guid": "2e7b2fac2678aab459ed68ed105d336d",
+  "name": "QuestVars_WayToTheLibrary",
+  "title": "The Way into the Library",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_WayToTheLibrary",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RedTower",
+  "journalTopic": "Topic_WayToTheLibrary",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_RedTower (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_WorkOnFarm": {
+  "guid": "34dfff1c900819941b8cb6fb63c60795",
+  "name": "QuestVars_WorkOnFarm",
+  "title": "Work on the Farm",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_WorkOnFarm",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_WorkOnFarm",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_JourneyToTheRoots": {
+  "guid": "6bb3e9e30ac0e85439f2e1ee49162569",
+  "name": "QuestVars_JourneyToTheRoots",
+  "title": "The Journey to the Roots of the Mother",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_JourneyToTheRoots",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Magiewald",
+  "journalTopic": "Topic_JourneyToTheRoots",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Magiewald (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_Rats": {
+  "guid": "bf434b2c3dda53c49ab97ab905747b71",
+  "name": "QuestVars_Rats",
+  "title": "Rats!",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_Rats",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_Rats",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton,ruinenlager). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FeedingTheSheep": {
+  "guid": "352eddc4e7e857d4089c649050e97ee4",
+  "name": "QuestVars_FeedingTheSheep",
+  "title": "Feeding Sheep",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_FeedingTheSheep",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_FeedingTheSheep",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FreedomForThePiglets": {
+  "guid": "f9400aa1d162b2b4091ed12439dce230",
+  "name": "QuestVars_FreedomForThePiglets",
+  "title": "Piglets need to run free",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_FreedomForThePiglets",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Magiewald",
+  "journalTopic": "Topic_FreedomForThePiglets",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton,ruinenlager). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_Magiewald (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_TrustTest": {
+  "guid": "f5d65eb767b5dc544995fd87b16de706",
+  "name": "QuestVars_TrustTest",
+  "title": "Trial of Trust",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_TrustTest",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Magiewald",
+  "journalTopic": "Topic_TrustTest",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph never references a faction bool, but faction-conditional DialogueTree(s) referencing this quest's GQuestState exist (nemeton,ruinenlager). That could be dialogue flavour OR a gate on the quest offer - not distinguishable statically. Journal topic group = TopicGroup_Magiewald (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_ShotsForRipper": {
+  "guid": "6883e642439f3ec4ba6ec0cdf98eaa44",
+  "name": "QuestVars_ShotsForRipper",
+  "title": "Eugen's Vote to Join the Remnants",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_ShotsForRipper",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RuinCamp",
+  "journalTopic": "Topic_ShotsForRipper",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references faction bools of BOTH sides (moor=JoinedMoorlager ruin=JoinedRuinenlager) but ships NO per-faction journal entries. Referencing both does NOT imply neutrality: QuestVars_PartOfTheRuinenlager is a proven Ruinenlager-locked quest that also references JoinedMoorlager (as an anti-check). Polarity is not statically provable (NodeCanvas graph logic is LZ77-compressed inside _serializedBytes), so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_RuinCamp (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_FavourOfCraftsmenCarpenters": {
+  "guid": "ed1c8300e6926f1499c42b27a2f07d4c",
+  "name": "QuestVars_FavourOfCraftsmenCarpenters",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_EnteringRedTowerRL": {
+  "guid": "49a99c9bd816c06449471c56ba107aa5",
+  "name": "QuestVars_EnteringRedTowerRL",
+  "title": "The Way to the Red Tower",
+  "faction": "ruinenlager",
+  "confidence": "high",
+  "questgraph": "QuestGraph_EnteringRedTower",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RedTower",
+  "journalTopic": "Topic_EnteringRedTower",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Nemeton",
+    "Ruinenlager"
+   ]
+  },
+  "notes": "Ruinenlager state-variant of the shared QuestGraph_EnteringRedTower (which carries Entry_00_Ruinenlager / Entry_04_1_RuinenlagerQuest journal entries). RL=Ruinenlager. Journal topic group = TopicGroup_RedTower (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_RipperAmbush": {
+  "guid": "b98975738345ec4468fe261b1a5a7cdf",
+  "name": "QuestVars_RipperAmbush",
+  "title": "Prosperity",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_RipperAmbush",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_World",
+  "journalTopic": "Topic_RipperAmbush",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_World (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_AnOldRecipe": {
+  "guid": "a17c914bbb667a84c8ab917378d2d377",
+  "name": "QuestVars_AnOldRecipe",
+  "title": "Cooking with Roarke",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_AnOldRecipe",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Magiewald",
+  "journalTopic": "Topic_AnOldRecipe",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Magiewald (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_ReturnOrKeepTheRing": {
+  "guid": "8d148a1ce15846d44a72c7469bfc7f0d",
+  "name": "QuestVars_ReturnOrKeepTheRing",
+  "title": "A ring...",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_ReturnOrKeepTheRing",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Tavern",
+  "journalTopic": "Topic_ReturnOrKeepTheRing",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Tavern (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_EnteringRedTowerML": {
+  "guid": "bc9102c2c7f654843984454f9bb30827",
+  "name": "QuestVars_EnteringRedTowerML",
+  "title": "The Way to the Red Tower",
+  "faction": "nemeton",
+  "confidence": "high",
+  "questgraph": "QuestGraph_EnteringRedTower",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_RedTower",
+  "journalTopic": "Topic_EnteringRedTower",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager",
+    "JoinedRuinenlager"
+   ],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": [
+    "Nemeton",
+    "Ruinenlager"
+   ]
+  },
+  "notes": "Nemeton state-variant of the shared QuestGraph_EnteringRedTower (which carries Entry_00_Nemeton / Entry_04_x_NemetonQuest journal entries). ML=Moorlager=Nemeton (proven: FactionLocaConfig._nemetonFactionBool -> GBool 'JoinedMoorlager'; ExpeditionML/RL pairing). Journal topic group = TopicGroup_RedTower (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_SaveSweetCay": {
+  "guid": "ddd865555165b454b9c77ad1f198f8d0",
+  "name": "QuestVars_SaveSweetCay",
+  "title": null,
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": null,
+  "questState": "QuestState",
+  "topicGroup": null,
+  "journalTopic": null,
+  "playerFacing": false,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. NO journal title/topic resolved - likely an internal/hidden var list rather than a player-facing quest; not recommended as an AP location."
+ },
+ "QuestVars_ItPaidOff": {
+  "guid": "e08cffaea333e56498beb71ad90b088d",
+  "name": "QuestVars_ItPaidOff",
+  "title": "A Spot in the Deep Mine",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_ItPaidOff",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Mine",
+  "journalTopic": "Topic_ItPaidOff",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Mine (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_BanditsOnTheBridge": {
+  "guid": "2cd70d300eb883e4dac7bb339ec925cc",
+  "name": "QuestVars_BanditsOnTheBridge",
+  "title": "The bridge, again?",
+  "faction": "unknown",
+  "confidence": "low",
+  "questgraph": "QuestGraph_BanditsOnTheBridge",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_BanditsOnTheBridge",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [
+    "JoinedMoorlager"
+   ],
+   "factionConditionalDialogue": [
+    "nemeton",
+    "ruinenlager"
+   ],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "QuestGraph references only moorlager/nemeton-side faction bool(s) (JoinedMoorlager). The check POLARITY (requires-joined vs blocked-if-joined) is NOT statically provable - NodeCanvas graph logic is LZ77-compressed inside _serializedBytes. Both readings occur in this game, so this is excluded rather than risk an unreachable location. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ },
+ "QuestVars_LetterToAsmus": {
+  "guid": "6a96fb72520c7d349a5085ee3a529b87",
+  "name": "QuestVars_LetterToAsmus",
+  "title": "Letter for Asmus",
+  "faction": "neutral",
+  "confidence": "medium",
+  "questgraph": "QuestGraph_LetterToAsmus",
+  "questState": "QuestState",
+  "topicGroup": "TopicGroup_Nemeton",
+  "journalTopic": "Topic_LetterToAsmus",
+  "playerFacing": true,
+  "evidence": {
+   "graphFactionBoolRefs": [],
+   "factionConditionalDialogue": [],
+   "journalEntryFactionSuffixes": []
+  },
+  "notes": "Neither the QuestGraph nor any faction-conditional DialogueTree references any faction bool -> no static evidence of any faction dependency. Journal topic group = TopicGroup_Nemeton (NOTE: group is a LOCATION/hub, not a faction - e.g. QuestVars_HauerNemeton is Nemeton-side content filed under TopicGroup_RuinCamp)."
+ }
+}

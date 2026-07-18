@@ -1,0 +1,1280 @@
+{
+ "051def0f-b747-4506-a091-0cede3b3a68e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "065f6f7f-6054-4c7b-80e3-e97d0f325735": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "06f8383d-d5d8-447a-88bb-da18b00d52a8": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Slated_Vertical_Fancy_Silver"
+ },
+ "07c0e661-91ff-43e7-a742-d5e62d2a4a8e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Fancy_Silver"
+ },
+ "089920c1-f35f-4fee-9323-0291738ec551": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_01"
+ },
+ "09468086-f7f3-4a11-b439-a111b7efc7d7": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "0a67a7c6-365d-469f-8811-43b79cf91628": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "0b0ff590-a916-4178-96d3-f77192ea2f1c": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "0c35e882-943a-49af-b91c-3b6066a8e0c9": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "0df8c761-ffd5-4d3e-b489-63548583891b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "0ecf68ee-9fca-4f48-889e-2be8de515a0b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "106e02a5-9b06-46bd-beb1-370324e05fd7": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_01"
+ },
+ "1181e72f-69ee-44b4-b9d0-1d02ed402b98": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "11ba1b7f-0a30-4b0e-bd39-7faf50aca46c": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Vertical"
+ },
+ "11ce1000-9502-4bb3-bb03-67fe71e04abc": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "11ff4ad0-dc1e-4343-8af1-e6a2129d324f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "1248632e-4f8f-4bec-85ac-34d3c612449e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "128f359f-60d0-440b-99aa-0f8e4082b4db": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "12f5b986-bf70-46fc-a642-9a3c733b3f8e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Hole_Swamp"
+ },
+ "1437237c-bbc3-4278-8d60-3caf0c6358bb": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "15b9fe04-d989-458a-99fd-b922dad56468": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Silver"
+ },
+ "16cf79fd-bbbf-4bb5-9c5f-e1cb63b6572f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "1711f32c-bf16-47b9-8225-c565bdad7388": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_01"
+ },
+ "19d713a5-12dc-491d-92a7-98b12ca802fd": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Vertical"
+ },
+ "1a4bd783-b92d-4231-9f87-440acf1df5ed": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_01"
+ },
+ "1cab1d2d-5186-41f8-9da4-c687566cc099": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze_Thieves"
+ },
+ "1d6f1b5c-9acd-4f89-a5c0-fa575497e8cf": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Even_Silver"
+ },
+ "1ea67fd9-662e-49fc-b8e7-62b471130751": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Round_Small_Silver"
+ },
+ "219cd437-62db-47cd-bf8c-f94c080cdf2b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_01"
+ },
+ "221b6498-6c0e-427f-9cda-48d0524316a5": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "2481f682-fdc7-4ac8-b3b1-ddf6f6f706ad": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Vertical"
+ },
+ "24d1f649-a6d2-4f81-8129-0265b0483024": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Environment_Interior_Lootable_JewelCase"
+ },
+ "2a865ac8-0633-48d4-9d63-d00ab6e333d7": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "2ad8158a-0e4b-484c-ae9e-14f25afe38af": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_03"
+ },
+ "2ba32124-27b3-4ba4-a3ad-9f02a8191e00": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Environment_Interior_Lootable_JewelCase"
+ },
+ "2c5dd922-2686-4aae-a59e-ba8135bf7318": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_01"
+ },
+ "2d1bbb6f-d21f-4029-94a9-633d09f10160": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "2f5492e6-2e02-4f83-b4a1-59c047d64059": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "2f8eef0a-a02b-4206-a8e9-e5731d09b593": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "3195b644-6f6c-4f61-b4b7-8b24fb4cb09b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "31e108c8-9d12-48c6-938f-9e761e2a7ebd": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_TreeStump"
+ },
+ "32035069-4d40-4261-a53b-2d9ecd39981f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_00"
+ },
+ "32b030ac-bc87-47fa-8132-0ede79d1a24d": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Base"
+ },
+ "3418da6b-9e9f-4520-b51f-c82c37f5168e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "35019b00-be01-4fd4-a59f-52bfd33495aa": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Curly_Silver"
+ },
+ "36f6bcd8-92d5-4ed8-a04d-35b3772126ae": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Shod_Silver"
+ },
+ "37d763f3-8e1b-4eb5-8684-8f9de9e88c52": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_01"
+ },
+ "38a546a8-2e8e-4aa3-bac0-59f851abc7cc": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Vertical"
+ },
+ "39a7aa21-2c96-4b46-9680-5e4f3b8d10af": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Silver"
+ },
+ "3a942cf9-bc8a-4964-b586-d11485e797ee": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Slated_Even_Silver"
+ },
+ "3ab0b6e0-65e9-44ef-bb09-8a214d92d6a4": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "3ace3e9c-195d-4086-8d6c-f3e1de60a9dc": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "3d573903-6b27-430a-98c4-c99c805bc310": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Silver"
+ },
+ "3d8311f8-6bed-4232-abb8-9c11df2f17ed": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Curly_Silver"
+ },
+ "3db90aca-f620-4b66-972b-10dc63fecb56": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "3e2e9e52-8528-4604-8335-3ac5cd35d538": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Shod_Silver"
+ },
+ "3f52de3e-546e-4cad-8d5a-ed0022a48c78": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "3faf4aec-ddcb-49c3-a5cf-3953818a6dbc": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "4056267f-8bf5-4b54-850b-cac173752588": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "4075316f-38d3-4340-aa01-337de2ae30d9": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "41db5911-1e98-4d62-b5d4-9d8fbad194b9": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Slated_Fancy_Silver"
+ },
+ "437e7ac2-625f-4043-8a0d-00e7adecf3d3": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "43c8b5c5-ad0b-4184-ac59-6bfd7c89c320": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "44845fa3-9d00-4366-89e6-7e6b64bf05d3": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Slated_Vertical_Curly_Silver"
+ },
+ "45e8ba41-f6bc-4475-a162-8ea95972a759": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "47c441dc-047c-4541-855e-090727c8013b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Curly_Silver"
+ },
+ "4807dfd2-2d7c-44a4-bf48-925ae400af24": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "496e3d5c-cccc-4d24-9687-f170fe811c72": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "497bfb24-067e-4cfe-8039-bbada7f635c5": {
+  "can_lockpick": false,
+  "keys": [
+   "key_chest_BanditCamp"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Fancy_Silver"
+ },
+ "56ad4c09-9125-4e44-ab51-3e03f4d0a1c4": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_01"
+ },
+ "56d5bcee-be24-4901-b459-283a04d49963": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Fancy_Bronze"
+ },
+ "5716c09c-4ea0-475c-959f-6260da3b006d": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_01"
+ },
+ "571c7440-a7b5-4136-a1ea-caf9b6957e5b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "5ad62f56-93a7-4a8b-855c-6b471ed8ebbf": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Vertical"
+ },
+ "5cdad66d-5004-43c4-9f14-c9d172de3c10": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "5dd3dbb0-3e0a-4c53-a0b8-49fcbb6493d5": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Vertical"
+ },
+ "5fbfc61e-1cce-46d5-9c96-3603db894beb": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Dungeon_Catacomb_Sarkophagus_Complex_Closed_00"
+ },
+ "60476aad-8aa1-4da0-b973-0748ef4bc5ae": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Even_Silver"
+ },
+ "613819e3-824b-41e6-9a3b-d4dca8bcecff": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "636e523d-de10-44be-b622-5bcadec8eb5d": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "64088c4b-d1d1-4c70-868f-3dd1b7418bde": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Round_Small_Bronze"
+ },
+ "64ed7b12-775e-439c-a2bf-6c64e1c3c180": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_04"
+ },
+ "651836a5-af76-483f-aa71-604c144babc3": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "65c96df8-b736-458c-8150-db71cf0eb992": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Vertical"
+ },
+ "6783f3fb-7858-44cc-b34f-582f998e1b28": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "69ff72f1-2e98-4d24-83ac-065a7cb3e7ab": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "6a8c1d7c-734f-4d98-8841-c17546810ec2": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "6ba56351-468c-4b80-ac66-8d3c96c23918": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_04"
+ },
+ "6d79f28d-da48-445c-9d91-67e2ad42c4d1": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Shod_Silver"
+ },
+ "6e290c2c-4a4b-4bf0-91b2-0db047fe3668": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "6f4e73ab-438a-4382-ae96-17968d9c625e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "6ffb8968-1275-40d6-b932-414d7e92b75f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_TreeStump"
+ },
+ "7189a92e-c4e5-4f31-b122-29e9d831aeee": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "723fe516-8d60-4def-94d7-0d76c71f5560": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_02"
+ },
+ "73382405-d4af-406e-9c51-17081c897a24": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "77c62446-4594-4b84-9280-2fd4c6ebcd23": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "78c84abb-d150-4b08-ad7d-cbeb63dd0875": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "7b5ab01d-3762-444c-9744-407be0087ce6": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_03"
+ },
+ "7c6da9de-b282-4494-b050-684f757bc502": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "7c8402b5-96c3-4342-8861-d2803ce1279f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "7cb58c42-51a5-46e6-aaaa-ea36faa61a6d": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Hole_Swamp"
+ },
+ "7e4f42cc-bf65-4ab2-8b9b-f542995ae75d": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Shod_Silver"
+ },
+ "801ad6ac-aa3b-4324-afe2-fa0004936675": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "8146fbb2-a9e1-434f-9faa-ea8ee9f9fef8": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "82c33fb9-1d72-489b-8afd-8836d96d042d": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "83538df8-8516-4117-aa84-4a46872c2965": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "846e8b74-9194-46e6-bc14-0ec7d7634c78": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "854b3780-66b0-4989-adf2-facce5d955db": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_01"
+ },
+ "88823faa-6581-4778-bfec-3021da053ce9": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Slated_Curly_Silver"
+ },
+ "88ad5412-0df1-40fb-a242-2f3d416dbd2e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_TreeStump"
+ },
+ "895af681-551f-4ed6-8ae1-6a569d3d7d3b": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Round_Small_Silver"
+ },
+ "897f4b45-4f4d-4774-a5da-ff6e6f6a163c": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "8ccae760-9885-4b14-b30b-837eb000181f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "90247a28-817c-4977-b8b7-8777b3bc79f1": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Round_Small_Silver"
+ },
+ "91bfcef2-9221-45b5-bf73-439fffaded4f": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Slated_Vertical_Fancy_Silver"
+ },
+ "93021938-1265-4ed7-bedd-9c9f044b56fe": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Even_Silver"
+ },
+ "930d08cf-af3c-40f1-a1f1-87427be727a4": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_04"
+ },
+ "9363346e-b942-4057-9e3c-3e26bc568df2": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Fancy_Silver"
+ },
+ "976d003a-f735-4e6b-a4dd-275b4225e391": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Environment_Interior_Lootable_JewelCase"
+ },
+ "97d7682f-89f0-4158-8ccc-33518bf3a0b7": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "993a526b-b8b6-4eae-94f6-bf0f64026795": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "99fcc173-9d99-4d85-93a9-0a2af0fcbc1c": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_01"
+ },
+ "9c866fd5-eed0-4a7c-b2aa-9309f6e477ae": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "9ca633e0-bb54-4365-87e8-4e38d4b1d123": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "9d088f0e-2be3-437e-8b72-83d69f41203b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "9d43e732-12b1-4ac4-82fb-5819d6eeb3a1": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Even_Silver"
+ },
+ "9e978830-1b83-425c-a2e6-53a8f8639031": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "9eaf689e-4dd6-48fc-9325-8c3a67296e49": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "9ef36818-d9a4-4d48-8968-4cf20e7665f0": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "a01b477a-9e28-4f89-8120-0933760446f7": {
+  "can_lockpick": true,
+  "keys": [
+   "key_chest_delani"
+  ],
+  "lockpick_talent": null,
+  "object": "Chest_Delani"
+ },
+ "a0ffaae8-0c4a-4d7c-90a1-e0b6bb273d1a": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "a13617ad-3ef2-4a2e-9dd8-63a3c3401e89": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "a15ceb1a-4b0b-4c94-a4ab-4a5c85973b11": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "a1a18a53-59a5-4f37-b90d-19386dd45701": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Chest_ShotsForRipper"
+ },
+ "a22152a6-1915-427f-ba03-a88a94bc4b2a": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "a2907094-eb1b-4b76-b625-a63b490c1773": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "a48ba27c-eb34-4072-8be6-d25f9c07037e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "a843de56-c325-40a7-bbd8-8b575d22fa5b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "a8d4717e-9c53-4d9d-a289-d4be375e1670": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "a9d4c289-d47c-4ddf-9f09-e33161ba8f3c": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "acd0a64b-9c71-4b21-9fb2-35ea335a38bb": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_03"
+ },
+ "af4ad889-9c72-4171-bf66-195bc23b8849": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "b021264f-7d49-43da-ab12-faed87df97f8": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Fancy_Silver"
+ },
+ "b15c55fe-800f-491b-a841-94b6fab487f8": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Vertical"
+ },
+ "b5028d86-5ecc-4d83-b08d-bf6a7833c513": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_04"
+ },
+ "b6b0b0c6-4c28-4719-a719-9be7edbef4ef": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "b9510822-5799-4413-b4cf-01fa481cc8af": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "b99b8618-f89f-4cdd-b355-6ff45b1c15f2": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_TreeStump"
+ },
+ "ba7dc4c8-166f-4f92-9a2c-074f98580c8a": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "ba960668-7efb-475e-a4ed-80cc6cc33d85": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Vertical"
+ },
+ "bc274ae8-4bd3-4aa3-99ed-8576be6e6c05": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Shod_Silver"
+ },
+ "bcfac599-2619-4832-bc3e-c0d211b0268a": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "bf8dc045-178e-4e32-92c5-ab69e4da9c40": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_01"
+ },
+ "c03eb3b6-dd24-4bdb-b92e-c6ab25f6abef": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "c0d58a5b-c720-412a-862e-ce4bc90d42ad": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "c1dc6a5d-a500-4a99-a4d1-3358f5c99b61": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Dungeon_Catacomb_Sarkophagus_Simple_Closed_00"
+ },
+ "c3281290-a710-4401-9c05-8f02739d4955": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "c3f1029c-5ec3-40c9-869c-a3da171d936f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "c404b4ae-e560-434f-9e34-71a63a0bef31": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "cc7a689e-95c5-4197-8d63-3660f2da4eef": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "cdde9cf9-4581-4e22-930c-4d62562c70f4": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "ce76b496-dd61-4e85-8207-9908ea6cbe7b": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "cfb58fa8-27d0-4962-8b6b-db8b901914c6": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Slated_Vertical_Curly_Silver"
+ },
+ "d0b325f2-b611-4dfc-b7cc-f5488a881c7c": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "d0f75b10-3e15-4829-9bb6-1df6bbdebfac": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "d136ea62-b57f-4dc2-94d9-54b612d07d4b": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Environment_Interior_Lootable_JewelCase"
+ },
+ "d1d4e4cf-8107-4d9c-b132-3929ebc7ee64": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_00"
+ },
+ "d2199e8a-a22d-4a48-a69f-9cb688ebc269": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Even_Bronze"
+ },
+ "d62d4fe2-6ed2-47e0-97aa-41acc555a533": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "d6617621-8594-483e-8ed5-4cb9c9d138ae": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_05"
+ },
+ "d664a98b-9b67-4a4e-94f4-73c258399ee0": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": "b1e0dd0d7043fdf42ac1f84b02f5625a",
+  "object": "Container_Chest_Shod_Silver"
+ },
+ "d8782a82-fd22-47a7-b478-3cc1b68f854e": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Curly_Silver"
+ },
+ "d91a539b-b276-4174-9180-121bad3e8447": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "da1a80ab-c331-413d-8e4d-121d24839acc": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_TreeStump"
+ },
+ "da9a8fc0-31fc-4630-a8a6-0910ac91a788": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_01"
+ },
+ "de47d050-0316-48fe-afb9-328164186ebb": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_02"
+ },
+ "df294d0f-3d88-46fb-897c-b52f0902732a": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "df3b70e9-0e7f-4632-a191-e58e8d96cecc": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "e13cddbf-a38a-4ee0-bde5-3d86e6de5e56": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Curly_Silver"
+ },
+ "e3bd3c39-8e37-43c2-ae0e-f8e201c76fc1": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Dungeon_Catacomb_Sarkophagus_Complex_Closed_00"
+ },
+ "e45c7b2b-9aa5-4224-b96c-ec26f5efee4f": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Fancy_Bronze"
+ },
+ "e508a3ef-e24a-4089-8a15-ed3791b5a57f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "e5121d5a-a741-4708-a3ca-ed4e9c61bc39": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Half_00"
+ },
+ "e67575ec-b525-4ba6-8449-5e9ef0a5529f": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "e6dd19af-5edc-4f5b-b6ee-93e87ef8d9d7": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_TreeStump"
+ },
+ "e744a40a-aa14-4174-896f-e4b354a97238": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "e9dcfcb9-50d9-48ca-a184-dfde1273de44": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Round_Small_Bronze"
+ },
+ "ea657f73-68da-483d-ad78-e8ca718de1f6": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "f18e1406-b7d3-4e5d-b197-3217709a0f8f": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "f2093e0c-f5d5-4628-96c3-682b35387954": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "f23c4a6a-fa43-483c-a515-060e62f5f565": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_00"
+ },
+ "f27fb088-233a-4dc6-8509-33b769d38ed9": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag"
+ },
+ "f3305316-8bc5-422c-b373-65958218f18b": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze_01"
+ },
+ "f3380510-f5b8-4ffe-97bb-24bfdb9d3ab3": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_00"
+ },
+ "f3809d1c-8d30-41ee-8290-a12a6012cfcc": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_00"
+ },
+ "f5ed5244-d7ca-474f-9554-108a5f7ec38c": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_01"
+ },
+ "f87fb973-90f8-49cf-aed3-d27c8e0aabd2": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Slated_Vertical_Curly_Bronze"
+ },
+ "fc8a9274-0ed8-436f-85f1-70c5d2b4f1de": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Sitting_01"
+ },
+ "fd766972-3956-42f1-95d1-baa805d216cf": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Corpse_Skeleton_Lying_01"
+ },
+ "ff42bcde-6d53-4bdb-a4b6-e1c4ca18b8e1": {
+  "can_lockpick": true,
+  "keys": [],
+  "lockpick_talent": null,
+  "object": "Container_Bag_Satchel_04"
+ },
+ "ffe64021-cd5b-4bb4-8d8e-bb2259e479b9": {
+  "can_lockpick": true,
+  "keys": [
+   "misc_key_locked_door"
+  ],
+  "lockpick_talent": null,
+  "object": "Container_Chest_Round_Small_Bronze"
+ }
+}

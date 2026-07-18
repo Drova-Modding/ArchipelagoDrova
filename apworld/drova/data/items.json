@@ -1,0 +1,6442 @@
+[
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762002,
+  "kind": "Item",
+  "name": "Armor Chest Bandit T1",
+  "readable_id": "armor_chest_bandit_T1"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762003,
+  "kind": "Item",
+  "name": "Armor Chest Bandit T2",
+  "readable_id": "armor_chest_bandit_T2"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762004,
+  "kind": "Item",
+  "name": "Armor Chest Bandit T4",
+  "readable_id": "armor_chest_bandit_T4"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762005,
+  "kind": "Item",
+  "name": "Armor Chest Banshee",
+  "readable_id": "armor_chest_banshee"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762006,
+  "kind": "Item",
+  "name": "Armor Chest Draugr",
+  "readable_id": "armor_chest_draugr"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762007,
+  "kind": "Item",
+  "name": "Armor Chest Draugr Brutus",
+  "readable_id": "armor_chest_draugr_brutus"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762008,
+  "kind": "Item",
+  "name": "Armor Chest Draugr Dagger",
+  "readable_id": "armor_chest_draugr_dagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762009,
+  "kind": "Item",
+  "name": "Armor Chest Draugr Mage",
+  "readable_id": "armor_chest_draugr_mage"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762010,
+  "kind": "Item",
+  "name": "Armor Chest Draugr Spear",
+  "readable_id": "armor_chest_draugr_spear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762011,
+  "kind": "Item",
+  "name": "Armor Chest Druid Atlanter",
+  "readable_id": "armor_chest_druid_atlanter"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762012,
+  "kind": "Item",
+  "name": "Armor Chest Heavy Atlanter",
+  "readable_id": "armor_chest_heavy_atlanter"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762013,
+  "kind": "Item",
+  "name": "Armor Chest Leather Magielager Name",
+  "readable_id": "armor_chest_leather_magielager_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762014,
+  "kind": "Item",
+  "name": "Armor Chest Leather Name",
+  "readable_id": "armor_chest_leather_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762015,
+  "kind": "Item",
+  "name": "Armor Chest Leather Strong Name",
+  "readable_id": "armor_chest_leather_strong_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762016,
+  "kind": "Item",
+  "name": "Armor Chest Leather Strong Name Player",
+  "readable_id": "armor_chest_leather_strong_name_player"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762017,
+  "kind": "Item",
+  "name": "Armor Chest Lendha Dylara",
+  "readable_id": "armor_chest_lendha_dylara"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762018,
+  "kind": "Item",
+  "name": "Armor Chest Lendha Heavy Name",
+  "readable_id": "armor_chest_lendha_heavy_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762019,
+  "kind": "Item",
+  "name": "Armor Chest Lendha Name",
+  "readable_id": "armor_chest_lendha_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762020,
+  "kind": "Item",
+  "name": "Armor Chest Light Atlanter",
+  "readable_id": "armor_chest_light_atlanter"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762021,
+  "kind": "Item",
+  "name": "Armor Chest Manshee",
+  "readable_id": "armor_chest_manshee"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762022,
+  "kind": "Item",
+  "name": "Armor Chest Miner Name",
+  "readable_id": "armor_chest_miner_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762023,
+  "kind": "Item",
+  "name": "Armor Chest Nemeton Chief Name",
+  "readable_id": "armor_chest_nemeton_chief_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762024,
+  "kind": "Item",
+  "name": "Armor Chest Nemeton Craftsman Name",
+  "readable_id": "armor_chest_nemeton_craftsman_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762025,
+  "kind": "Item",
+  "name": "Armor Chest Nemeton Guardian Druid Name",
+  "readable_id": "armor_chest_nemeton_guardian_druid_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762026,
+  "kind": "Item",
+  "name": "Armor Chest Nemeton Guardian Heavy Name",
+  "readable_id": "armor_chest_nemeton_guardian_heavy_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762027,
+  "kind": "Item",
+  "name": "Armor Chest Nemeton Guardian Light Name",
+  "readable_id": "armor_chest_nemeton_guardian_light_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762028,
+  "kind": "Item",
+  "name": "Armor Chest Nemeton Merchant Name",
+  "readable_id": "armor_chest_nemeton_merchant_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762029,
+  "kind": "Item",
+  "name": "Armor Chest Nemeton Social Name",
+  "readable_id": "armor_chest_nemeton_social_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762030,
+  "kind": "Item",
+  "name": "Armor Chest Ruinenlager Chief Name",
+  "readable_id": "armor_chest_ruinenlager_chief_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762031,
+  "kind": "Item",
+  "name": "Armor Chest Ruinenlager Fighter Druid Name",
+  "readable_id": "armor_chest_ruinenlager_fighter_druid_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762032,
+  "kind": "Item",
+  "name": "Armor Chest Ruinenlager Fighter Fight Name",
+  "readable_id": "armor_chest_ruinenlager_fighter_fight_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762033,
+  "kind": "Item",
+  "name": "Armor Chest Ruinenlager Fighter Heavy Name",
+  "readable_id": "armor_chest_ruinenlager_fighter_heavy_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762034,
+  "kind": "Item",
+  "name": "Armor Chest Ruinenlager Gladiator",
+  "readable_id": "armor_chest_ruinenlager_gladiator"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762035,
+  "kind": "Item",
+  "name": "Armor Chest Ruinenlager Gladiator Noeffect",
+  "readable_id": "armor_chest_ruinenlager_gladiator_noeffect"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762036,
+  "kind": "Item",
+  "name": "Armor Chest Ruinenlager Heavy Name",
+  "readable_id": "armor_chest_ruinenlager_heavy_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762037,
+  "kind": "Item",
+  "name": "Armor Chest Ruinenlager Name",
+  "readable_id": "armor_chest_ruinenlager_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762038,
+  "kind": "Item",
+  "name": "Armor Chest Shirt Ragged Name",
+  "readable_id": "armor_chest_shirt_ragged_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762039,
+  "kind": "Item",
+  "name": "Armor Chest Tunic Name",
+  "readable_id": "armor_chest_tunic_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762040,
+  "kind": "Item",
+  "name": "Armor Chest Tunic Noble Name",
+  "readable_id": "armor_chest_tunic_noble_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762041,
+  "kind": "Item",
+  "name": "Armor Chest Tunic Ragged 2",
+  "readable_id": "armor_chest_tunic_ragged_2"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762042,
+  "kind": "Item",
+  "name": "Armor Druid Intro",
+  "readable_id": "armor_druid_intro"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762043,
+  "kind": "Item",
+  "name": "Armor Feet Shoe Lost",
+  "readable_id": "armor_feet_shoe_lost"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762044,
+  "kind": "Item",
+  "name": "Armor Underwear Chest",
+  "readable_id": "armor_underwear_chest"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762045,
+  "kind": "Item",
+  "name": "Cons Familiar Firefly",
+  "readable_id": "cons_Familiar_Firefly"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762046,
+  "kind": "Item",
+  "name": "Cons Flow AggressiveCry",
+  "readable_id": "cons_flow_aggressiveCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762048,
+  "kind": "Item",
+  "name": "Cons Flow Bady Scream Shockwave",
+  "readable_id": "cons_flow_bady_scream_shockwave"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762049,
+  "kind": "Item",
+  "name": "Cons Flow BattleCry",
+  "readable_id": "cons_flow_battleCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762050,
+  "kind": "Item",
+  "name": "Cons Flow Blink",
+  "readable_id": "cons_flow_blink"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762051,
+  "kind": "Item",
+  "name": "Cons Flow BloodRage",
+  "readable_id": "cons_flow_bloodRage"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762052,
+  "kind": "Item",
+  "name": "Cons Flow BullRush",
+  "readable_id": "cons_flow_bullRush"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762053,
+  "kind": "Item",
+  "name": "Cons Flow BullRush Bady",
+  "readable_id": "cons_flow_bullRush_bady"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762054,
+  "kind": "Item",
+  "name": "Cons Flow Conflagration",
+  "readable_id": "cons_flow_conflagration"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762060,
+  "kind": "Item",
+  "name": "Cons Flow Conjure Insects",
+  "readable_id": "cons_flow_conjure_insects"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762061,
+  "kind": "Item",
+  "name": "Cons Flow Conjure Insects Ebru",
+  "readable_id": "cons_flow_conjure_insects_ebru"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762062,
+  "kind": "Item",
+  "name": "Cons Flow Conjure Pack",
+  "readable_id": "cons_flow_conjure_pack"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762063,
+  "kind": "Item",
+  "name": "Cons Flow Conjure Rats",
+  "readable_id": "cons_flow_conjure_rats"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762064,
+  "kind": "Item",
+  "name": "Cons Flow Conjure Ripper",
+  "readable_id": "cons_flow_conjure_ripper"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762065,
+  "kind": "Item",
+  "name": "Cons Flow Conjure Ripper Ebru",
+  "readable_id": "cons_flow_conjure_ripper_ebru"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762066,
+  "kind": "Item",
+  "name": "Cons Flow Dash",
+  "readable_id": "cons_flow_dash"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762067,
+  "kind": "Item",
+  "name": "Cons Flow Diemo Bramble",
+  "readable_id": "cons_flow_diemo_bramble"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762068,
+  "kind": "Item",
+  "name": "Cons Flow Diemo Conjureboars",
+  "readable_id": "cons_flow_diemo_conjureboars"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762069,
+  "kind": "Item",
+  "name": "Cons Flow Diemo Explodingshrooms",
+  "readable_id": "cons_flow_diemo_explodingshrooms"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762070,
+  "kind": "Item",
+  "name": "Cons Flow Diemo Throwflux",
+  "readable_id": "cons_flow_diemo_throwflux"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762071,
+  "kind": "Item",
+  "name": "Cons Flow EnergyProjectile",
+  "readable_id": "cons_flow_energyProjectile"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762072,
+  "kind": "Item",
+  "name": "Cons Flow Execute",
+  "readable_id": "cons_flow_execute"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762073,
+  "kind": "Item",
+  "name": "Cons Flow FerventCry",
+  "readable_id": "cons_flow_ferventCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762074,
+  "kind": "Item",
+  "name": "Cons Flow FireCry",
+  "readable_id": "cons_flow_fireCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762075,
+  "kind": "Item",
+  "name": "Cons Flow FlowForm",
+  "readable_id": "cons_flow_flowForm"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762076,
+  "kind": "Item",
+  "name": "Cons Flow FogForm",
+  "readable_id": "cons_flow_fogForm"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762077,
+  "kind": "Item",
+  "name": "Cons Flow HeavyBlow",
+  "readable_id": "cons_flow_heavyBlow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762078,
+  "kind": "Item",
+  "name": "Cons Flow HeavyBlow Bady",
+  "readable_id": "cons_flow_heavyBlow_bady"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762079,
+  "kind": "Item",
+  "name": "Cons Flow Infection",
+  "readable_id": "cons_flow_infection"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762080,
+  "kind": "Item",
+  "name": "Cons Flow Infection Bady",
+  "readable_id": "cons_flow_infection_bady"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762081,
+  "kind": "Item",
+  "name": "Cons Flow Jero Blink",
+  "readable_id": "cons_flow_jero_Blink"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762083,
+  "kind": "Item",
+  "name": "Cons Flow Jero Finisher",
+  "readable_id": "cons_flow_jero_finisher"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762082,
+  "kind": "Item",
+  "name": "Cons Flow Jero FireZones",
+  "readable_id": "cons_flow_jero_FireZones"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762084,
+  "kind": "Item",
+  "name": "Cons Flow Jero Lightning",
+  "readable_id": "cons_flow_jero_lightning"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762085,
+  "kind": "Item",
+  "name": "Cons Flow MagicNuke",
+  "readable_id": "cons_flow_magicNuke"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762086,
+  "kind": "Item",
+  "name": "Cons Flow MagicVision",
+  "readable_id": "cons_flow_magicVision"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762087,
+  "kind": "Item",
+  "name": "Cons Flow Molvina CrowAttack",
+  "readable_id": "cons_flow_molvina_crowAttack"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762088,
+  "kind": "Item",
+  "name": "Cons Flow Molvina Finisher",
+  "readable_id": "cons_flow_molvina_finisher"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762089,
+  "kind": "Item",
+  "name": "Cons Flow Molvina Root Aoe",
+  "readable_id": "cons_flow_molvina_root_aoe"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762090,
+  "kind": "Item",
+  "name": "Cons Flow Molvina Thunder",
+  "readable_id": "cons_flow_molvina_thunder"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762091,
+  "kind": "Item",
+  "name": "Cons Flow Molvina Thunder Onplayer",
+  "readable_id": "cons_flow_molvina_thunder_onplayer"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762093,
+  "kind": "Item",
+  "name": "Cons Flow ObsidianSpear",
+  "readable_id": "cons_flow_obsidianSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762094,
+  "kind": "Item",
+  "name": "Cons Flow Pierce",
+  "readable_id": "cons_flow_pierce"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762095,
+  "kind": "Item",
+  "name": "Cons Flow Root Aoe",
+  "readable_id": "cons_flow_root_aoe"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762096,
+  "kind": "Item",
+  "name": "Cons Flow Root Cone",
+  "readable_id": "cons_flow_root_cone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762097,
+  "kind": "Item",
+  "name": "Cons Flow ShockingBlow",
+  "readable_id": "cons_flow_shockingBlow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762098,
+  "kind": "Item",
+  "name": "Cons Flow ShockingBlow Bady",
+  "readable_id": "cons_flow_shockingBlow_bady"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762099,
+  "kind": "Item",
+  "name": "Cons Flow SpartanKick",
+  "readable_id": "cons_flow_spartanKick"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762100,
+  "kind": "Item",
+  "name": "Cons Flow Thunderstorm",
+  "readable_id": "cons_flow_thunderstorm"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762101,
+  "kind": "Item",
+  "name": "Cons Flow VenomCry",
+  "readable_id": "cons_flow_venomCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762102,
+  "kind": "Item",
+  "name": "Cons Flow WhirlingEnergy",
+  "readable_id": "cons_flow_whirlingEnergy"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762103,
+  "kind": "Item",
+  "name": "Cons Flow Wound",
+  "readable_id": "cons_flow_wound"
+ },
+ {
+  "amount": 250,
+  "classification": "filler",
+  "id": 4762000,
+  "kind": "Xp",
+  "name": "Experience Boost",
+  "readable_id": ""
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762104,
+  "kind": "Item",
+  "name": "Flow AggressiveCry",
+  "readable_id": "flow_aggressiveCry"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762105,
+  "kind": "Item",
+  "name": "Flow Ballista",
+  "readable_id": "flow_ballista"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762106,
+  "kind": "Item",
+  "name": "Flow BattleCry",
+  "readable_id": "flow_battleCry"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762107,
+  "kind": "Item",
+  "name": "Flow Blast",
+  "readable_id": "flow_blast"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762108,
+  "kind": "Item",
+  "name": "Flow Blink",
+  "readable_id": "flow_blink"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762109,
+  "kind": "Item",
+  "name": "Flow BloodRage",
+  "readable_id": "flow_bloodRage"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762110,
+  "kind": "Item",
+  "name": "Flow BruntShot",
+  "readable_id": "flow_bruntShot"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762111,
+  "kind": "Item",
+  "name": "Flow BullRush",
+  "readable_id": "flow_bullRush"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762112,
+  "kind": "Item",
+  "name": "Flow Conflagration",
+  "readable_id": "flow_conflagration"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762113,
+  "kind": "Item",
+  "name": "Flow Conjure Insects",
+  "readable_id": "flow_conjure_insects"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762114,
+  "kind": "Item",
+  "name": "Flow Conjure Pack",
+  "readable_id": "flow_conjure_pack"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762115,
+  "kind": "Item",
+  "name": "Flow Conjure Rats",
+  "readable_id": "flow_conjure_rats"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762116,
+  "kind": "Item",
+  "name": "Flow Conjure SpiritCall",
+  "readable_id": "flow_conjure_spiritCall"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762117,
+  "kind": "Item",
+  "name": "Flow Cyclone",
+  "readable_id": "flow_cyclone"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762118,
+  "kind": "Item",
+  "name": "Flow Dash",
+  "readable_id": "flow_dash"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762119,
+  "kind": "Item",
+  "name": "Flow DashStab",
+  "readable_id": "flow_dashStab"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762120,
+  "kind": "Item",
+  "name": "Flow EnergyProjectile",
+  "readable_id": "flow_energyProjectile"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762121,
+  "kind": "Item",
+  "name": "Flow Execute",
+  "readable_id": "flow_execute"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762122,
+  "kind": "Item",
+  "name": "Flow FerventCry",
+  "readable_id": "flow_ferventCry"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762123,
+  "kind": "Item",
+  "name": "Flow FireCry",
+  "readable_id": "flow_fireCry"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762124,
+  "kind": "Item",
+  "name": "Flow FlowForm",
+  "readable_id": "flow_flowForm"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762125,
+  "kind": "Item",
+  "name": "Flow FogForm",
+  "readable_id": "flow_fogForm"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762126,
+  "kind": "Item",
+  "name": "Flow GraspingRoots",
+  "readable_id": "flow_graspingRoots"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762127,
+  "kind": "Item",
+  "name": "Flow HeavyBlow",
+  "readable_id": "flow_heavyBlow"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762128,
+  "kind": "Item",
+  "name": "Flow Infection",
+  "readable_id": "flow_infection"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762129,
+  "kind": "Item",
+  "name": "Flow MagicNuke",
+  "readable_id": "flow_magicNuke"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762130,
+  "kind": "Item",
+  "name": "Flow MagicVision",
+  "readable_id": "flow_magicVision"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762131,
+  "kind": "Item",
+  "name": "Flow NatureTouch",
+  "readable_id": "flow_natureTouch"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762132,
+  "kind": "Item",
+  "name": "Flow ObsidianSpear",
+  "readable_id": "flow_obsidianSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762133,
+  "kind": "Item",
+  "name": "Flow Pierce",
+  "readable_id": "flow_pierce"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762134,
+  "kind": "Item",
+  "name": "Flow PoisonArrow",
+  "readable_id": "flow_poisonArrow"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762135,
+  "kind": "Item",
+  "name": "Flow Ricochet",
+  "readable_id": "flow_ricochet"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762136,
+  "kind": "Item",
+  "name": "Flow Root Aoe",
+  "readable_id": "flow_root_aoe"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762137,
+  "kind": "Item",
+  "name": "Flow Root Cone",
+  "readable_id": "flow_root_cone"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762138,
+  "kind": "Item",
+  "name": "Flow ShockingBlow",
+  "readable_id": "flow_shockingBlow"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762139,
+  "kind": "Item",
+  "name": "Flow SpartanKick",
+  "readable_id": "flow_spartanKick"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762140,
+  "kind": "Item",
+  "name": "Flow SpiritShot",
+  "readable_id": "flow_spiritShot"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762141,
+  "kind": "Item",
+  "name": "Flow Sunder",
+  "readable_id": "flow_sunder"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762142,
+  "kind": "Item",
+  "name": "Flow Thunderstorm",
+  "readable_id": "flow_thunderstorm"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762143,
+  "kind": "Item",
+  "name": "Flow TravelForm",
+  "readable_id": "flow_travelForm"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762144,
+  "kind": "Item",
+  "name": "Flow VenomCry",
+  "readable_id": "flow_venomCry"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762145,
+  "kind": "Item",
+  "name": "Flow WhirlingEnergy",
+  "readable_id": "flow_whirlingEnergy"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762146,
+  "kind": "Item",
+  "name": "Flow Wound",
+  "readable_id": "flow_wound"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762147,
+  "kind": "Item",
+  "name": "Helmet Antlers Name",
+  "readable_id": "helmet_antlers_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762148,
+  "kind": "Item",
+  "name": "Helmet Atlanter Champion",
+  "readable_id": "helmet_atlanter_champion"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762149,
+  "kind": "Item",
+  "name": "Helmet Atlanter Name",
+  "readable_id": "helmet_atlanter_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762150,
+  "kind": "Item",
+  "name": "Helmet Barbarian Name",
+  "readable_id": "helmet_barbarian_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762151,
+  "kind": "Item",
+  "name": "Helmet Blindfold Dark Name",
+  "readable_id": "helmet_blindfold_dark_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762152,
+  "kind": "Item",
+  "name": "Helmet Blindfold Light Name",
+  "readable_id": "helmet_blindfold_light_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762153,
+  "kind": "Item",
+  "name": "Helmet Brutus Name",
+  "readable_id": "helmet_brutus_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762154,
+  "kind": "Item",
+  "name": "Helmet Cauldron Name",
+  "readable_id": "helmet_cauldron_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762155,
+  "kind": "Item",
+  "name": "Helmet Crown Name",
+  "readable_id": "helmet_crown_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762156,
+  "kind": "Item",
+  "name": "Helmet Draugr Dark Name",
+  "readable_id": "helmet_draugr_dark_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762157,
+  "kind": "Item",
+  "name": "Helmet Draugr Mage Name",
+  "readable_id": "helmet_draugr_mage_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762158,
+  "kind": "Item",
+  "name": "Helmet Draugr Silver Name",
+  "readable_id": "helmet_draugr_silver_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762159,
+  "kind": "Item",
+  "name": "Helmet Earprotection Name",
+  "readable_id": "helmet_earprotection_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762160,
+  "kind": "Item",
+  "name": "Helmet Ede Bandage",
+  "readable_id": "helmet_ede_bandage"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762161,
+  "kind": "Item",
+  "name": "Helmet Gladiator Name",
+  "readable_id": "helmet_gladiator_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762162,
+  "kind": "Item",
+  "name": "Helmet Hood Bandit Name",
+  "readable_id": "helmet_hood_bandit_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762163,
+  "kind": "Item",
+  "name": "Helmet Hood Bandit T4 Name",
+  "readable_id": "helmet_hood_bandit_t4_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762164,
+  "kind": "Item",
+  "name": "Helmet Ironwings Name",
+  "readable_id": "helmet_ironwings_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762165,
+  "kind": "Item",
+  "name": "Helmet Leathercap Name",
+  "readable_id": "helmet_leathercap_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762166,
+  "kind": "Item",
+  "name": "Helmet Legionare Name",
+  "readable_id": "helmet_legionare_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762167,
+  "kind": "Item",
+  "name": "Helmet Mask Arrogant Name",
+  "readable_id": "helmet_mask_arrogant_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762168,
+  "kind": "Item",
+  "name": "Helmet Mask Death Name",
+  "readable_id": "helmet_mask_death_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762169,
+  "kind": "Item",
+  "name": "Helmet Mask Empathetic Name",
+  "readable_id": "helmet_mask_empathetic_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762170,
+  "kind": "Item",
+  "name": "Helmet Mask Frog Name",
+  "readable_id": "helmet_mask_frog_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762171,
+  "kind": "Item",
+  "name": "Helmet Mask Obito Name",
+  "readable_id": "helmet_mask_obito_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762172,
+  "kind": "Item",
+  "name": "Helmet Mask Rational Name",
+  "readable_id": "helmet_mask_rational_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762173,
+  "kind": "Item",
+  "name": "Helmet Mask Sheep Name",
+  "readable_id": "helmet_mask_sheep_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762174,
+  "kind": "Item",
+  "name": "Helmet Mask Vodoo Name",
+  "readable_id": "helmet_mask_vodoo_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762175,
+  "kind": "Item",
+  "name": "Helmet Mushroom Name",
+  "readable_id": "helmet_mushroom_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762176,
+  "kind": "Item",
+  "name": "Helmet Nemeton Guard1 Name",
+  "readable_id": "helmet_nemeton_guard1_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762177,
+  "kind": "Item",
+  "name": "Helmet Nemeton Guard2 Name",
+  "readable_id": "helmet_nemeton_guard2_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762178,
+  "kind": "Item",
+  "name": "Helmet None",
+  "readable_id": "helmet_none"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762179,
+  "kind": "Item",
+  "name": "Helmet Onion Name",
+  "readable_id": "helmet_onion_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762180,
+  "kind": "Item",
+  "name": "Helmet Ruinenlager Guard1 Name",
+  "readable_id": "helmet_ruinenlager_guard1_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762181,
+  "kind": "Item",
+  "name": "Helmet Ruinenlager Guard2 Name",
+  "readable_id": "helmet_ruinenlager_guard2_name"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762182,
+  "kind": "Item",
+  "name": "Helmet Straw Name",
+  "readable_id": "helmet_straw_name"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762201,
+  "kind": "Item",
+  "name": "Item Acidbomb",
+  "readable_id": "item_acidbomb"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762202,
+  "kind": "Item",
+  "name": "Item Acidsecretion",
+  "readable_id": "item_acidsecretion"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762203,
+  "kind": "Item",
+  "name": "Item Acidtrap",
+  "readable_id": "item_acidtrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762204,
+  "kind": "Item",
+  "name": "Item Aditroast",
+  "readable_id": "item_aditroast"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762205,
+  "kind": "Item",
+  "name": "Item Agilostew",
+  "readable_id": "item_agilostew"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762183,
+  "kind": "Item",
+  "name": "Item AldriksNote",
+  "readable_id": "item_AldriksNote"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762206,
+  "kind": "Item",
+  "name": "Item Alraune",
+  "readable_id": "item_alraune"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762207,
+  "kind": "Item",
+  "name": "Item Apple",
+  "readable_id": "item_apple"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762208,
+  "kind": "Item",
+  "name": "Item Armorring 0",
+  "readable_id": "item_armorring_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762209,
+  "kind": "Item",
+  "name": "Item Armorring 1",
+  "readable_id": "item_armorring_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762210,
+  "kind": "Item",
+  "name": "Item Atlanteanarmorparts",
+  "readable_id": "item_atlanteanarmorparts"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762213,
+  "kind": "Item",
+  "name": "Item Atlanter Coin",
+  "readable_id": "item_atlanter_coin"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762214,
+  "kind": "Item",
+  "name": "Item Atlanter Wine",
+  "readable_id": "item_atlanter_wine"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762211,
+  "kind": "Item",
+  "name": "Item AtlanterAcademyText",
+  "readable_id": "item_atlanterAcademyText"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762212,
+  "kind": "Item",
+  "name": "Item AtlanterRune",
+  "readable_id": "item_atlanterRune"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762215,
+  "kind": "Item",
+  "name": "Item AuwaldDungeon",
+  "readable_id": "item_auwaldDungeon"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762184,
+  "kind": "Item",
+  "name": "Item BanditsOnTheBridge",
+  "readable_id": "item_BanditsOnTheBridge"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762216,
+  "kind": "Item",
+  "name": "Item Beak",
+  "readable_id": "item_beak"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762217,
+  "kind": "Item",
+  "name": "Item Bear Claw",
+  "readable_id": "item_bear_claw"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762218,
+  "kind": "Item",
+  "name": "Item Bearfur",
+  "readable_id": "item_bearfur"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762219,
+  "kind": "Item",
+  "name": "Item Beartrap",
+  "readable_id": "item_beartrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762220,
+  "kind": "Item",
+  "name": "Item Beer",
+  "readable_id": "item_beer"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762221,
+  "kind": "Item",
+  "name": "Item Berry",
+  "readable_id": "item_berry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762222,
+  "kind": "Item",
+  "name": "Item Berserkerring",
+  "readable_id": "item_berserkerring"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762223,
+  "kind": "Item",
+  "name": "Item Berserkerring 2",
+  "readable_id": "item_berserkerring_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762224,
+  "kind": "Item",
+  "name": "Item Bigligering",
+  "readable_id": "item_bigligering"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762225,
+  "kind": "Item",
+  "name": "Item Bigquiver",
+  "readable_id": "item_bigquiver"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762226,
+  "kind": "Item",
+  "name": "Item Blackboard Butterflies",
+  "readable_id": "item_blackboard_Butterflies"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762227,
+  "kind": "Item",
+  "name": "Item Blackboard Woodcamp",
+  "readable_id": "item_blackboard_woodcamp"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762228,
+  "kind": "Item",
+  "name": "Item Blanktrap",
+  "readable_id": "item_blanktrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762229,
+  "kind": "Item",
+  "name": "Item Bloodbornering",
+  "readable_id": "item_bloodbornering"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762230,
+  "kind": "Item",
+  "name": "Item Bloodquitostinger",
+  "readable_id": "item_bloodquitostinger"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762231,
+  "kind": "Item",
+  "name": "Item Bloodthirstamulet",
+  "readable_id": "item_bloodthirstamulet"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762232,
+  "kind": "Item",
+  "name": "Item Boartooth",
+  "readable_id": "item_boartooth"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762233,
+  "kind": "Item",
+  "name": "Item Boartusk",
+  "readable_id": "item_boartusk"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762234,
+  "kind": "Item",
+  "name": "Item BogIron",
+  "readable_id": "item_bogIron"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762235,
+  "kind": "Item",
+  "name": "Item Bogwheat",
+  "readable_id": "item_bogwheat"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762236,
+  "kind": "Item",
+  "name": "Item Bomb",
+  "readable_id": "item_bomb"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762237,
+  "kind": "Item",
+  "name": "Item BottlePost",
+  "readable_id": "item_bottlePost"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762238,
+  "kind": "Item",
+  "name": "Item Brokenwings",
+  "readable_id": "item_brokenwings"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762239,
+  "kind": "Item",
+  "name": "Item Brutus Seal Active",
+  "readable_id": "item_brutus_seal_active"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762240,
+  "kind": "Item",
+  "name": "Item Brutus Seal Inactive",
+  "readable_id": "item_brutus_seal_inactive"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762241,
+  "kind": "Item",
+  "name": "Item Callashroom",
+  "readable_id": "item_callashroom"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762242,
+  "kind": "Item",
+  "name": "Item Callashroom Extract",
+  "readable_id": "item_callashroom_extract"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762243,
+  "kind": "Item",
+  "name": "Item Cavemushroom",
+  "readable_id": "item_cavemushroom"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762244,
+  "kind": "Item",
+  "name": "Item Chunnaic Diamond",
+  "readable_id": "item_chunnaic_diamond"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762245,
+  "kind": "Item",
+  "name": "Item Claw",
+  "readable_id": "item_claw"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762246,
+  "kind": "Item",
+  "name": "Item Cleavageskull",
+  "readable_id": "item_cleavageskull"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762247,
+  "kind": "Item",
+  "name": "Item Crowtrap",
+  "readable_id": "item_crowtrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762248,
+  "kind": "Item",
+  "name": "Item Diamond",
+  "readable_id": "item_diamond"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762249,
+  "kind": "Item",
+  "name": "Item DiaryKora",
+  "readable_id": "item_diaryKora"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762250,
+  "kind": "Item",
+  "name": "Item Earthroot",
+  "readable_id": "item_earthroot"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762251,
+  "kind": "Item",
+  "name": "Item Egg",
+  "readable_id": "item_egg"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762252,
+  "kind": "Item",
+  "name": "Item Energycrystal Aufwald Charged",
+  "readable_id": "item_energycrystal_aufwald_charged"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762253,
+  "kind": "Item",
+  "name": "Item Energycrystal Brutus Charged",
+  "readable_id": "item_energycrystal_brutus_charged"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762254,
+  "kind": "Item",
+  "name": "Item Energycrystal CityDungeon Charged",
+  "readable_id": "item_energycrystal_cityDungeon_charged"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762255,
+  "kind": "Item",
+  "name": "Item Engraving Stones",
+  "readable_id": "item_engraving_stones"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762256,
+  "kind": "Item",
+  "name": "Item EntryMine",
+  "readable_id": "item_entryMine"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762257,
+  "kind": "Item",
+  "name": "Item EscortLetter",
+  "readable_id": "item_escortLetter"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762258,
+  "kind": "Item",
+  "name": "Item Essence Atlanter",
+  "readable_id": "item_essence_atlanter"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762259,
+  "kind": "Item",
+  "name": "Item Essence Stone",
+  "readable_id": "item_essence_stone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762260,
+  "kind": "Item",
+  "name": "Item Essence Void",
+  "readable_id": "item_essence_void"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762261,
+  "kind": "Item",
+  "name": "Item FarmersFood",
+  "readable_id": "item_farmersFood"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762262,
+  "kind": "Item",
+  "name": "Item Feather",
+  "readable_id": "item_feather"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762263,
+  "kind": "Item",
+  "name": "Item Fish Bass",
+  "readable_id": "item_fish_bass"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762264,
+  "kind": "Item",
+  "name": "Item Fish Dead",
+  "readable_id": "item_fish_dead"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762265,
+  "kind": "Item",
+  "name": "Item Fish Trout",
+  "readable_id": "item_fish_trout"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762266,
+  "kind": "Item",
+  "name": "Item Fishing",
+  "readable_id": "item_fishing"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762267,
+  "kind": "Item",
+  "name": "Item Fishpan",
+  "readable_id": "item_fishpan"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762268,
+  "kind": "Item",
+  "name": "Item FlowPlant 0",
+  "readable_id": "item_flowPlant_0"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762269,
+  "kind": "Item",
+  "name": "Item FlowPlant 1",
+  "readable_id": "item_flowPlant_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762270,
+  "kind": "Item",
+  "name": "Item Flowcatchertalisman",
+  "readable_id": "item_flowcatchertalisman"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762271,
+  "kind": "Item",
+  "name": "Item Fogears",
+  "readable_id": "item_fogears"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762272,
+  "kind": "Item",
+  "name": "Item Fogstew",
+  "readable_id": "item_fogstew"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762273,
+  "kind": "Item",
+  "name": "Item Foodpile",
+  "readable_id": "item_foodpile"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762274,
+  "kind": "Item",
+  "name": "Item Foodpile Strong",
+  "readable_id": "item_foodpile_strong"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762275,
+  "kind": "Item",
+  "name": "Item Forestessence",
+  "readable_id": "item_forestessence"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762276,
+  "kind": "Item",
+  "name": "Item Foxpaw",
+  "readable_id": "item_foxpaw"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762277,
+  "kind": "Item",
+  "name": "Item Frogleg",
+  "readable_id": "item_frogleg"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762278,
+  "kind": "Item",
+  "name": "Item Furtuft",
+  "readable_id": "item_furtuft"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762279,
+  "kind": "Item",
+  "name": "Item Glauglocke",
+  "readable_id": "item_glauglocke"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762280,
+  "kind": "Item",
+  "name": "Item Gnarlyroot",
+  "readable_id": "item_gnarlyroot"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762281,
+  "kind": "Item",
+  "name": "Item Golemsalve",
+  "readable_id": "item_golemsalve"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762282,
+  "kind": "Item",
+  "name": "Item Harpybrew",
+  "readable_id": "item_harpybrew"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762283,
+  "kind": "Item",
+  "name": "Item Harpyiefeather",
+  "readable_id": "item_harpyiefeather"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762284,
+  "kind": "Item",
+  "name": "Item Headdress Magicamp",
+  "readable_id": "item_headdress_magicamp"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762285,
+  "kind": "Item",
+  "name": "Item Headleshen",
+  "readable_id": "item_headleshen"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762286,
+  "kind": "Item",
+  "name": "Item HealthPlant 0",
+  "readable_id": "item_healthPlant_0"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762287,
+  "kind": "Item",
+  "name": "Item HealthPlant 1",
+  "readable_id": "item_healthPlant_1"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762288,
+  "kind": "Item",
+  "name": "Item HealthPlant 2",
+  "readable_id": "item_healthPlant_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762289,
+  "kind": "Item",
+  "name": "Item Heart",
+  "readable_id": "item_heart"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762290,
+  "kind": "Item",
+  "name": "Item Herb Past",
+  "readable_id": "item_herb_past"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762185,
+  "kind": "Item",
+  "name": "Item HiddenTreasure",
+  "readable_id": "item_HiddenTreasure"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762291,
+  "kind": "Item",
+  "name": "Item Honey",
+  "readable_id": "item_honey"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762292,
+  "kind": "Item",
+  "name": "Item HoneyMead",
+  "readable_id": "item_honeyMead"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762293,
+  "kind": "Item",
+  "name": "Item Hunterquiver",
+  "readable_id": "item_hunterquiver"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762294,
+  "kind": "Item",
+  "name": "Item Hunterstrophy",
+  "readable_id": "item_hunterstrophy"
+ },
+ {
+  "amount": 20,
+  "classification": "filler",
+  "id": 4762295,
+  "kind": "Item",
+  "name": "Item IronArrow",
+  "readable_id": "item_ironArrow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762296,
+  "kind": "Item",
+  "name": "Item IronStone",
+  "readable_id": "item_ironStone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762297,
+  "kind": "Item",
+  "name": "Item Ironbar",
+  "readable_id": "item_ironbar"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762298,
+  "kind": "Item",
+  "name": "Item Ironlump",
+  "readable_id": "item_ironlump"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762299,
+  "kind": "Item",
+  "name": "Item Ironore",
+  "readable_id": "item_ironore"
+ },
+ {
+  "amount": 10,
+  "classification": "filler",
+  "id": 4762300,
+  "kind": "Item",
+  "name": "Item Jaggedthrowingknife",
+  "readable_id": "item_jaggedthrowingknife"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762301,
+  "kind": "Item",
+  "name": "Item Karottegladius Broken",
+  "readable_id": "item_karottegladius_broken"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762186,
+  "kind": "Item",
+  "name": "Item KendrickGoodsBook",
+  "readable_id": "item_KendrickGoodsBook"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762187,
+  "kind": "Item",
+  "name": "Item KendrickHideout",
+  "readable_id": "item_KendrickHideout"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762188,
+  "kind": "Item",
+  "name": "Item KendrickSagar",
+  "readable_id": "item_KendrickSagar"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762189,
+  "kind": "Item",
+  "name": "Item KendrickThreat",
+  "readable_id": "item_KendrickThreat"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762302,
+  "kind": "Item",
+  "name": "Item Kiepe",
+  "readable_id": "item_kiepe"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762303,
+  "kind": "Item",
+  "name": "Item Kiepe Rubble",
+  "readable_id": "item_kiepe_rubble"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762304,
+  "kind": "Item",
+  "name": "Item LanternFruit",
+  "readable_id": "item_lanternFruit"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762305,
+  "kind": "Item",
+  "name": "Item Leather",
+  "readable_id": "item_leather"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762379,
+  "kind": "Item",
+  "name": "Item Letter AtlanterDungeon 0",
+  "readable_id": "item_letter_atlanterDungeon_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762380,
+  "kind": "Item",
+  "name": "Item Letter AtlanterDungeon Colony",
+  "readable_id": "item_letter_atlanterDungeon_colony"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762381,
+  "kind": "Item",
+  "name": "Item Letter AtlanterDungeon Drova",
+  "readable_id": "item_letter_atlanterDungeon_drova"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762382,
+  "kind": "Item",
+  "name": "Item Letter AtlanterDungeon Fire",
+  "readable_id": "item_letter_atlanterDungeon_fire"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762383,
+  "kind": "Item",
+  "name": "Item Letter AtlanterDungeon Intro",
+  "readable_id": "item_letter_atlanterDungeon_intro"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762384,
+  "kind": "Item",
+  "name": "Item Letter Fleshboss 0",
+  "readable_id": "item_letter_fleshboss_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762385,
+  "kind": "Item",
+  "name": "Item Letter Fleshboss 1",
+  "readable_id": "item_letter_fleshboss_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762386,
+  "kind": "Item",
+  "name": "Item Letter Fleshboss 2",
+  "readable_id": "item_letter_fleshboss_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762387,
+  "kind": "Item",
+  "name": "Item Letter Fleshboss Intro Fleshmoor",
+  "readable_id": "item_letter_fleshboss_intro_fleshmoor"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762388,
+  "kind": "Item",
+  "name": "Item Letter Fleshboss Pre0",
+  "readable_id": "item_letter_fleshboss_pre0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762389,
+  "kind": "Item",
+  "name": "Item Letter Fleshboss Pre1",
+  "readable_id": "item_letter_fleshboss_pre1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762390,
+  "kind": "Item",
+  "name": "Item Letter Foresttavern Chapter1",
+  "readable_id": "item_letter_foresttavern_chapter1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762391,
+  "kind": "Item",
+  "name": "Item Letter Foresttavern Chapter3",
+  "readable_id": "item_letter_foresttavern_chapter3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762392,
+  "kind": "Item",
+  "name": "Item Letter Library 0",
+  "readable_id": "item_letter_library_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762393,
+  "kind": "Item",
+  "name": "Item Letter Library 1",
+  "readable_id": "item_letter_library_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762394,
+  "kind": "Item",
+  "name": "Item Letter Library 2",
+  "readable_id": "item_letter_library_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762395,
+  "kind": "Item",
+  "name": "Item Letter Library 3",
+  "readable_id": "item_letter_library_3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762396,
+  "kind": "Item",
+  "name": "Item Letter Library CircleRoom Note1",
+  "readable_id": "item_letter_library_circleRoom_note1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762397,
+  "kind": "Item",
+  "name": "Item Letter Library CircleRoom Note2",
+  "readable_id": "item_letter_library_circleRoom_note2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762398,
+  "kind": "Item",
+  "name": "Item Letter Library EnergyRoom Note",
+  "readable_id": "item_letter_library_energyRoom_note"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762399,
+  "kind": "Item",
+  "name": "Item Letter Library GolemRoom Note1",
+  "readable_id": "item_letter_library_golemRoom_note1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762400,
+  "kind": "Item",
+  "name": "Item Letter Library GolemRoom Note2",
+  "readable_id": "item_letter_library_golemRoom_note2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762401,
+  "kind": "Item",
+  "name": "Item Letter Library GolemRoom Note3",
+  "readable_id": "item_letter_library_golemRoom_note3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762402,
+  "kind": "Item",
+  "name": "Item Letter Library GolemRoom Note4",
+  "readable_id": "item_letter_library_golemRoom_note4"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762403,
+  "kind": "Item",
+  "name": "Item Letter Library NatureRoom Note",
+  "readable_id": "item_letter_library_natureRoom_note"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762404,
+  "kind": "Item",
+  "name": "Item Letter Library SoundRoom Note",
+  "readable_id": "item_letter_library_soundRoom_note"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762405,
+  "kind": "Item",
+  "name": "Item Letter Library SoundRoom Note2",
+  "readable_id": "item_letter_library_soundRoom_note2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762406,
+  "kind": "Item",
+  "name": "Item Letter Library SpearRoom Note1",
+  "readable_id": "item_letter_library_spearRoom_note1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762407,
+  "kind": "Item",
+  "name": "Item Letter Library SpearRoom Note2",
+  "readable_id": "item_letter_library_spearRoom_note2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762408,
+  "kind": "Item",
+  "name": "Item Letter Library SpearRoom Note3",
+  "readable_id": "item_letter_library_spearRoom_note3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762378,
+  "kind": "Item",
+  "name": "Item Letter Reija",
+  "readable_id": "item_letter_Reija"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762409,
+  "kind": "Item",
+  "name": "Item Letter Shrine Apus Circinus",
+  "readable_id": "item_letter_shrine_apus_circinus"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762410,
+  "kind": "Item",
+  "name": "Item Letter Shrine Bootes Auriga",
+  "readable_id": "item_letter_shrine_bootes_auriga"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762411,
+  "kind": "Item",
+  "name": "Item Letter Shrine Cygnus",
+  "readable_id": "item_letter_shrine_cygnus"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762412,
+  "kind": "Item",
+  "name": "Item Letter Shrine Luna",
+  "readable_id": "item_letter_shrine_luna"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762413,
+  "kind": "Item",
+  "name": "Item Letter Shrine Sol",
+  "readable_id": "item_letter_shrine_sol"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762414,
+  "kind": "Item",
+  "name": "Item Letter Shrine Terra Borealis",
+  "readable_id": "item_letter_shrine_terra_borealis"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762415,
+  "kind": "Item",
+  "name": "Item Letter Shrine Vela",
+  "readable_id": "item_letter_shrine_vela"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762416,
+  "kind": "Item",
+  "name": "Item Letter Sick Siser",
+  "readable_id": "item_letter_sick_siser"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762306,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Armor",
+  "readable_id": "item_letterAtlanter_Armor"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762307,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Arrival",
+  "readable_id": "item_letterAtlanter_Arrival"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762308,
+  "kind": "Item",
+  "name": "Item LetterAtlanter AtlanterCreation",
+  "readable_id": "item_letterAtlanter_AtlanterCreation"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762309,
+  "kind": "Item",
+  "name": "Item LetterAtlanter AtlanterProblems",
+  "readable_id": "item_letterAtlanter_AtlanterProblems"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762310,
+  "kind": "Item",
+  "name": "Item LetterAtlanter AtlanterRevolt",
+  "readable_id": "item_letterAtlanter_AtlanterRevolt"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762311,
+  "kind": "Item",
+  "name": "Item LetterAtlanter CancelledResearch",
+  "readable_id": "item_letterAtlanter_CancelledResearch"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762312,
+  "kind": "Item",
+  "name": "Item LetterAtlanter DangerousRunes",
+  "readable_id": "item_letterAtlanter_DangerousRunes"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762313,
+  "kind": "Item",
+  "name": "Item LetterAtlanter DangerousTravels",
+  "readable_id": "item_letterAtlanter_DangerousTravels"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762314,
+  "kind": "Item",
+  "name": "Item LetterAtlanter DangerousTravels2",
+  "readable_id": "item_letterAtlanter_DangerousTravels2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762315,
+  "kind": "Item",
+  "name": "Item LetterAtlanter DrivaniusAttitude",
+  "readable_id": "item_letterAtlanter_DrivaniusAttitude"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762316,
+  "kind": "Item",
+  "name": "Item LetterAtlanter EmergingFog",
+  "readable_id": "item_letterAtlanter_EmergingFog"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762317,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Excalibur",
+  "readable_id": "item_letterAtlanter_Excalibur"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762318,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Extractor2",
+  "readable_id": "item_letterAtlanter_Extractor2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762319,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Eye",
+  "readable_id": "item_letterAtlanter_Eye"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762320,
+  "kind": "Item",
+  "name": "Item LetterAtlanter FirstDownfall",
+  "readable_id": "item_letterAtlanter_FirstDownfall"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762321,
+  "kind": "Item",
+  "name": "Item LetterAtlanter ItsMoreDangerous",
+  "readable_id": "item_letterAtlanter_ItsMoreDangerous"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762322,
+  "kind": "Item",
+  "name": "Item LetterAtlanter ItsMoreDangerous2",
+  "readable_id": "item_letterAtlanter_ItsMoreDangerous2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762323,
+  "kind": "Item",
+  "name": "Item LetterAtlanter LightAndDarkness",
+  "readable_id": "item_letterAtlanter_LightAndDarkness"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762324,
+  "kind": "Item",
+  "name": "Item LetterAtlanter NewsRedTower",
+  "readable_id": "item_letterAtlanter_NewsRedTower"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762325,
+  "kind": "Item",
+  "name": "Item LetterAtlanter OlafDiary",
+  "readable_id": "item_letterAtlanter_OlafDiary"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762326,
+  "kind": "Item",
+  "name": "Item LetterAtlanter ReijaAndMonko",
+  "readable_id": "item_letterAtlanter_ReijaAndMonko"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762327,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Revolt1",
+  "readable_id": "item_letterAtlanter_Revolt1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762328,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Revolt2",
+  "readable_id": "item_letterAtlanter_Revolt2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762329,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Revolt3",
+  "readable_id": "item_letterAtlanter_Revolt3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762330,
+  "kind": "Item",
+  "name": "Item LetterAtlanter RuneVessel Nemeton",
+  "readable_id": "item_letterAtlanter_RuneVessel_Nemeton"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762331,
+  "kind": "Item",
+  "name": "Item LetterAtlanter RuneVessel Ruinenlager",
+  "readable_id": "item_letterAtlanter_RuneVessel_Ruinenlager"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762332,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Senat",
+  "readable_id": "item_letterAtlanter_Senat"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762333,
+  "kind": "Item",
+  "name": "Item LetterAtlanter ShiftingPriorities",
+  "readable_id": "item_letterAtlanter_ShiftingPriorities"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762334,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Shrines",
+  "readable_id": "item_letterAtlanter_Shrines"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762335,
+  "kind": "Item",
+  "name": "Item LetterAtlanter SpreadingDanger",
+  "readable_id": "item_letterAtlanter_SpreadingDanger"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762336,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Stars",
+  "readable_id": "item_letterAtlanter_Stars"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762337,
+  "kind": "Item",
+  "name": "Item LetterAtlanter ThirdDownfall",
+  "readable_id": "item_letterAtlanter_ThirdDownfall"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762338,
+  "kind": "Item",
+  "name": "Item LetterAtlanter ToTheRuinRaiders",
+  "readable_id": "item_letterAtlanter_ToTheRuinRaiders"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762339,
+  "kind": "Item",
+  "name": "Item LetterAtlanter WhereIsDrivanius",
+  "readable_id": "item_letterAtlanter_WhereIsDrivanius"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762340,
+  "kind": "Item",
+  "name": "Item LetterAtlanter WhereIsDrivanius2",
+  "readable_id": "item_letterAtlanter_WhereIsDrivanius2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762341,
+  "kind": "Item",
+  "name": "Item LetterAtlanter Workerletter",
+  "readable_id": "item_letterAtlanter_Workerletter"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762342,
+  "kind": "Item",
+  "name": "Item LetterAuwaldDungeon 0",
+  "readable_id": "item_letterAuwaldDungeon_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762343,
+  "kind": "Item",
+  "name": "Item LetterAuwaldDungeon 1",
+  "readable_id": "item_letterAuwaldDungeon_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762344,
+  "kind": "Item",
+  "name": "Item LetterAuwaldDungeon 2",
+  "readable_id": "item_letterAuwaldDungeon_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762345,
+  "kind": "Item",
+  "name": "Item LetterAuwaldDungeon 3",
+  "readable_id": "item_letterAuwaldDungeon_3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762346,
+  "kind": "Item",
+  "name": "Item LetterAuwaldDungeon 4",
+  "readable_id": "item_letterAuwaldDungeon_4"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762347,
+  "kind": "Item",
+  "name": "Item LetterAuwaldDungeon 5",
+  "readable_id": "item_letterAuwaldDungeon_5"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762348,
+  "kind": "Item",
+  "name": "Item LetterCelts Anatoli",
+  "readable_id": "item_letterCelts_Anatoli"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762349,
+  "kind": "Item",
+  "name": "Item LetterCelts BoundaryStone",
+  "readable_id": "item_letterCelts_BoundaryStone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762350,
+  "kind": "Item",
+  "name": "Item LetterCelts Diemo",
+  "readable_id": "item_letterCelts_Diemo"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762351,
+  "kind": "Item",
+  "name": "Item LetterCelts Jero",
+  "readable_id": "item_letterCelts_Jero"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762352,
+  "kind": "Item",
+  "name": "Item LetterCelts Nemeton",
+  "readable_id": "item_letterCelts_Nemeton"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762353,
+  "kind": "Item",
+  "name": "Item LetterCelts Roarke",
+  "readable_id": "item_letterCelts_Roarke"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762354,
+  "kind": "Item",
+  "name": "Item LetterCelts SafeHaven",
+  "readable_id": "item_letterCelts_SafeHaven"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762355,
+  "kind": "Item",
+  "name": "Item LetterCelts Spark",
+  "readable_id": "item_letterCelts_Spark"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762356,
+  "kind": "Item",
+  "name": "Item LetterCelts Treason",
+  "readable_id": "item_letterCelts_Treason"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762357,
+  "kind": "Item",
+  "name": "Item LetterCityDungeon 0",
+  "readable_id": "item_letterCityDungeon_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762358,
+  "kind": "Item",
+  "name": "Item LetterCityDungeon 1",
+  "readable_id": "item_letterCityDungeon_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762359,
+  "kind": "Item",
+  "name": "Item LetterCityDungeon 2",
+  "readable_id": "item_letterCityDungeon_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762360,
+  "kind": "Item",
+  "name": "Item LetterCityDungeon 3",
+  "readable_id": "item_letterCityDungeon_3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762361,
+  "kind": "Item",
+  "name": "Item LetterCityDungeon GodPaintings",
+  "readable_id": "item_letterCityDungeon_GodPaintings"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762362,
+  "kind": "Item",
+  "name": "Item LetterCityDungeon Underground 0",
+  "readable_id": "item_letterCityDungeon_Underground_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762363,
+  "kind": "Item",
+  "name": "Item LetterCityDungeon Underground 1",
+  "readable_id": "item_letterCityDungeon_Underground_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762364,
+  "kind": "Item",
+  "name": "Item LetterCityDungeon Underground 2",
+  "readable_id": "item_letterCityDungeon_Underground_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762365,
+  "kind": "Item",
+  "name": "Item LetterFromEtzel",
+  "readable_id": "item_letterFromEtzel"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762366,
+  "kind": "Item",
+  "name": "Item LetterMehlunaToBady",
+  "readable_id": "item_letterMehlunaToBady"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762367,
+  "kind": "Item",
+  "name": "Item LetterRedTower 0",
+  "readable_id": "item_letterRedTower_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762368,
+  "kind": "Item",
+  "name": "Item LetterRedTower 1",
+  "readable_id": "item_letterRedTower_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762369,
+  "kind": "Item",
+  "name": "Item LetterRedTower 2",
+  "readable_id": "item_letterRedTower_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762370,
+  "kind": "Item",
+  "name": "Item LetterRedTower 3",
+  "readable_id": "item_letterRedTower_3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762371,
+  "kind": "Item",
+  "name": "Item LetterRedTower 5",
+  "readable_id": "item_letterRedTower_5"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762372,
+  "kind": "Item",
+  "name": "Item LetterTableBrutus 0",
+  "readable_id": "item_letterTableBrutus_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762373,
+  "kind": "Item",
+  "name": "Item LetterTableBrutus 1",
+  "readable_id": "item_letterTableBrutus_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762374,
+  "kind": "Item",
+  "name": "Item LetterTableBrutus 2",
+  "readable_id": "item_letterTableBrutus_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762375,
+  "kind": "Item",
+  "name": "Item LetterTableBrutus 3",
+  "readable_id": "item_letterTableBrutus_3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762376,
+  "kind": "Item",
+  "name": "Item LetterToAsmus Open",
+  "readable_id": "item_letterToAsmus_open"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762377,
+  "kind": "Item",
+  "name": "Item LetterToAsmus Sealed",
+  "readable_id": "item_letterToAsmus_sealed"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762417,
+  "kind": "Item",
+  "name": "Item Letterboard Fragment",
+  "readable_id": "item_letterboard_fragment"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762418,
+  "kind": "Item",
+  "name": "Item LetterfromolafaboutBrutus",
+  "readable_id": "item_letterfromolafaboutBrutus"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762419,
+  "kind": "Item",
+  "name": "Item Lifering",
+  "readable_id": "item_lifering"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762420,
+  "kind": "Item",
+  "name": "Item Logwood",
+  "readable_id": "item_logwood"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762421,
+  "kind": "Item",
+  "name": "Item LuminousTruffle",
+  "readable_id": "item_luminousTruffle"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762422,
+  "kind": "Item",
+  "name": "Item Lyra",
+  "readable_id": "item_lyra"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762423,
+  "kind": "Item",
+  "name": "Item Magicresring 0",
+  "readable_id": "item_magicresring_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762424,
+  "kind": "Item",
+  "name": "Item Magicresring 1",
+  "readable_id": "item_magicresring_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762190,
+  "kind": "Item",
+  "name": "Item Map Treasure Forest",
+  "readable_id": "item_Map_Treasure_Forest"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762191,
+  "kind": "Item",
+  "name": "Item Map Treasure Garden",
+  "readable_id": "item_Map_Treasure_Garden"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762192,
+  "kind": "Item",
+  "name": "Item Map Treasure GeorgsFarm",
+  "readable_id": "item_Map_Treasure_GeorgsFarm"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762193,
+  "kind": "Item",
+  "name": "Item Map Treasure Heath",
+  "readable_id": "item_Map_Treasure_Heath"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762194,
+  "kind": "Item",
+  "name": "Item Map Treasure PrimevalForest",
+  "readable_id": "item_Map_Treasure_PrimevalForest"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762195,
+  "kind": "Item",
+  "name": "Item Map Treasure Rotmoor",
+  "readable_id": "item_Map_Treasure_Rotmoor"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762196,
+  "kind": "Item",
+  "name": "Item Map Treasure WayToMine",
+  "readable_id": "item_Map_Treasure_WayToMine"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762425,
+  "kind": "Item",
+  "name": "Item Marinatedmeatleg",
+  "readable_id": "item_marinatedmeatleg"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762426,
+  "kind": "Item",
+  "name": "Item Mastersmemory",
+  "readable_id": "item_mastersmemory"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762427,
+  "kind": "Item",
+  "name": "Item Meat Raw",
+  "readable_id": "item_meat_raw"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762428,
+  "kind": "Item",
+  "name": "Item Meat Stringy",
+  "readable_id": "item_meat_stringy"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762429,
+  "kind": "Item",
+  "name": "Item Mediumquiver",
+  "readable_id": "item_mediumquiver"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762197,
+  "kind": "Item",
+  "name": "Item MeriksBusiness",
+  "readable_id": "item_MeriksBusiness"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762430,
+  "kind": "Item",
+  "name": "Item MikeschLetter",
+  "readable_id": "item_mikeschLetter"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762431,
+  "kind": "Item",
+  "name": "Item MineRelic",
+  "readable_id": "item_mineRelic"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762432,
+  "kind": "Item",
+  "name": "Item MudLotus",
+  "readable_id": "item_mudLotus"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762433,
+  "kind": "Item",
+  "name": "Item Mudmash",
+  "readable_id": "item_mudmash"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762434,
+  "kind": "Item",
+  "name": "Item MumbertDiarrhoea",
+  "readable_id": "item_mumbertDiarrhoea"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762435,
+  "kind": "Item",
+  "name": "Item Mushroom",
+  "readable_id": "item_mushroom"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762436,
+  "kind": "Item",
+  "name": "Item Needlelichen",
+  "readable_id": "item_needlelichen"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762437,
+  "kind": "Item",
+  "name": "Item PackageBrutusMineWeapons",
+  "readable_id": "item_packageBrutusMineWeapons"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762438,
+  "kind": "Item",
+  "name": "Item PackageToMoorlager",
+  "readable_id": "item_packageToMoorlager"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762439,
+  "kind": "Item",
+  "name": "Item Paperchasestone Band",
+  "readable_id": "item_paperchasestone_band"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762440,
+  "kind": "Item",
+  "name": "Item Paperchasestone Cleansed",
+  "readable_id": "item_paperchasestone_cleansed"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762441,
+  "kind": "Item",
+  "name": "Item Paperchasestone Raw",
+  "readable_id": "item_paperchasestone_raw"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762442,
+  "kind": "Item",
+  "name": "Item Paperchasestone Rune",
+  "readable_id": "item_paperchasestone_rune"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762443,
+  "kind": "Item",
+  "name": "Item Permaherb Flow",
+  "readable_id": "item_permaherb_flow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762444,
+  "kind": "Item",
+  "name": "Item Permaherb Life",
+  "readable_id": "item_permaherb_life"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762445,
+  "kind": "Item",
+  "name": "Item Permaherb Mind",
+  "readable_id": "item_permaherb_mind"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762446,
+  "kind": "Item",
+  "name": "Item Permaherb Skill",
+  "readable_id": "item_permaherb_skill"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762447,
+  "kind": "Item",
+  "name": "Item Permaherb Strength",
+  "readable_id": "item_permaherb_strength"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762448,
+  "kind": "Item",
+  "name": "Item Permapotion Flow",
+  "readable_id": "item_permapotion_flow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762449,
+  "kind": "Item",
+  "name": "Item Permapotion Life",
+  "readable_id": "item_permapotion_life"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762450,
+  "kind": "Item",
+  "name": "Item Permapotion Mind",
+  "readable_id": "item_permapotion_mind"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762451,
+  "kind": "Item",
+  "name": "Item Permapotion Skill",
+  "readable_id": "item_permapotion_skill"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762452,
+  "kind": "Item",
+  "name": "Item Permapotion Strength",
+  "readable_id": "item_permapotion_strength"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762453,
+  "kind": "Item",
+  "name": "Item Pigfur",
+  "readable_id": "item_pigfur"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762454,
+  "kind": "Item",
+  "name": "Item Pigglet Food",
+  "readable_id": "item_pigglet_food"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762455,
+  "kind": "Item",
+  "name": "Item PlayWithKids",
+  "readable_id": "item_playWithKids"
+ },
+ {
+  "amount": 10,
+  "classification": "filler",
+  "id": 4762456,
+  "kind": "Item",
+  "name": "Item PoisonedThrowingKnife",
+  "readable_id": "item_poisonedThrowingKnife"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762459,
+  "kind": "Item",
+  "name": "Item Potion Flow 0",
+  "readable_id": "item_potion_flow_0"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762460,
+  "kind": "Item",
+  "name": "Item Potion Flow 1",
+  "readable_id": "item_potion_flow_1"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762461,
+  "kind": "Item",
+  "name": "Item Potion Health 0",
+  "readable_id": "item_potion_health_0"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762462,
+  "kind": "Item",
+  "name": "Item Potion Health 1",
+  "readable_id": "item_potion_health_1"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762463,
+  "kind": "Item",
+  "name": "Item Potion Respec",
+  "readable_id": "item_potion_respec"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762464,
+  "kind": "Item",
+  "name": "Item Potion Windwalker",
+  "readable_id": "item_potion_windwalker"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762465,
+  "kind": "Item",
+  "name": "Item Povage",
+  "readable_id": "item_povage"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762466,
+  "kind": "Item",
+  "name": "Item RedGlyphStone",
+  "readable_id": "item_redGlyphStone"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762467,
+  "kind": "Item",
+  "name": "Item RedHerb",
+  "readable_id": "item_redHerb"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762468,
+  "kind": "Item",
+  "name": "Item Redmushroomtincture",
+  "readable_id": "item_redmushroomtincture"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762469,
+  "kind": "Item",
+  "name": "Item Resin",
+  "readable_id": "item_resin"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762470,
+  "kind": "Item",
+  "name": "Item Ring God",
+  "readable_id": "item_ring_god"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762471,
+  "kind": "Item",
+  "name": "Item Ripper Head",
+  "readable_id": "item_ripper_head"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762472,
+  "kind": "Item",
+  "name": "Item Ripper Head HuntTheRipper",
+  "readable_id": "item_ripper_head_huntTheRipper"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762473,
+  "kind": "Item",
+  "name": "Item Ripperfur",
+  "readable_id": "item_ripperfur"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762474,
+  "kind": "Item",
+  "name": "Item Riptoothchain",
+  "readable_id": "item_riptoothchain"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762475,
+  "kind": "Item",
+  "name": "Item Riverbedmoss",
+  "readable_id": "item_riverbedmoss"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762476,
+  "kind": "Item",
+  "name": "Item Rivercharm",
+  "readable_id": "item_rivercharm"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762477,
+  "kind": "Item",
+  "name": "Item RoastedMeat",
+  "readable_id": "item_roastedMeat"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762478,
+  "kind": "Item",
+  "name": "Item RoastedMeat T2",
+  "readable_id": "item_roastedMeat_t2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762479,
+  "kind": "Item",
+  "name": "Item RoastedTrout",
+  "readable_id": "item_roastedTrout"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762480,
+  "kind": "Item",
+  "name": "Item Roastedcallamushroom",
+  "readable_id": "item_roastedcallamushroom"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762481,
+  "kind": "Item",
+  "name": "Item Roastofthepast",
+  "readable_id": "item_roastofthepast"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762482,
+  "kind": "Item",
+  "name": "Item RootTrap",
+  "readable_id": "item_rootTrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762483,
+  "kind": "Item",
+  "name": "Item Rootstew",
+  "readable_id": "item_rootstew"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762484,
+  "kind": "Item",
+  "name": "Item Rubble",
+  "readable_id": "item_rubble"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762485,
+  "kind": "Item",
+  "name": "Item Rubin",
+  "readable_id": "item_rubin"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762486,
+  "kind": "Item",
+  "name": "Item Rubintalisman",
+  "readable_id": "item_rubintalisman"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762487,
+  "kind": "Item",
+  "name": "Item Ruinenlager Bandit",
+  "readable_id": "item_ruinenlager_bandit"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762488,
+  "kind": "Item",
+  "name": "Item Ruinherb",
+  "readable_id": "item_ruinherb"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762489,
+  "kind": "Item",
+  "name": "Item Runestone",
+  "readable_id": "item_runestone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762490,
+  "kind": "Item",
+  "name": "Item Runestone Empty",
+  "readable_id": "item_runestone_empty"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762491,
+  "kind": "Item",
+  "name": "Item Rustmoss BadFromGera",
+  "readable_id": "item_rustmoss_BadFromGera"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762492,
+  "kind": "Item",
+  "name": "Item Rustymosspipe",
+  "readable_id": "item_rustymosspipe"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762493,
+  "kind": "Item",
+  "name": "Item Salve Healing",
+  "readable_id": "item_salve_healing"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762494,
+  "kind": "Item",
+  "name": "Item Sealstone Past",
+  "readable_id": "item_sealstone_past"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762495,
+  "kind": "Item",
+  "name": "Item SearchingForArenaFighter",
+  "readable_id": "item_searchingForArenaFighter"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762496,
+  "kind": "Item",
+  "name": "Item SearchingGraffiti",
+  "readable_id": "item_searchingGraffiti"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762497,
+  "kind": "Item",
+  "name": "Item Secret Foglets",
+  "readable_id": "item_secret_foglets"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762498,
+  "kind": "Item",
+  "name": "Item Shadowfur",
+  "readable_id": "item_shadowfur"
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762499,
+  "kind": "Item",
+  "name": "Item Shadowmushroom",
+  "readable_id": "item_shadowmushroom"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762500,
+  "kind": "Item",
+  "name": "Item Shaftofpurefury",
+  "readable_id": "item_shaftofpurefury"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762501,
+  "kind": "Item",
+  "name": "Item Sheepfur",
+  "readable_id": "item_sheepfur"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762502,
+  "kind": "Item",
+  "name": "Item Shell 01",
+  "readable_id": "item_shell_01"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762503,
+  "kind": "Item",
+  "name": "Item Shell 02",
+  "readable_id": "item_shell_02"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762504,
+  "kind": "Item",
+  "name": "Item Shiningfur",
+  "readable_id": "item_shiningfur"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762505,
+  "kind": "Item",
+  "name": "Item ShinyStone",
+  "readable_id": "item_shinyStone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762506,
+  "kind": "Item",
+  "name": "Item SignOfAtonement",
+  "readable_id": "item_signOfAtonement"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762507,
+  "kind": "Item",
+  "name": "Item Silberringmind 0",
+  "readable_id": "item_silberringmind_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762508,
+  "kind": "Item",
+  "name": "Item Silberringmind 1",
+  "readable_id": "item_silberringmind_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762509,
+  "kind": "Item",
+  "name": "Item Silberringmind 2",
+  "readable_id": "item_silberringmind_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762510,
+  "kind": "Item",
+  "name": "Item Silberringskill 0",
+  "readable_id": "item_silberringskill_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762511,
+  "kind": "Item",
+  "name": "Item Silberringskill 1",
+  "readable_id": "item_silberringskill_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762512,
+  "kind": "Item",
+  "name": "Item Silberringskill 2",
+  "readable_id": "item_silberringskill_2"
+ },
+ {
+  "amount": 20,
+  "classification": "filler",
+  "id": 4762513,
+  "kind": "Item",
+  "name": "Item SilverArrow",
+  "readable_id": "item_silverArrow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762514,
+  "kind": "Item",
+  "name": "Item SilverStone",
+  "readable_id": "item_silverStone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762515,
+  "kind": "Item",
+  "name": "Item Silverlump",
+  "readable_id": "item_silverlump"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762516,
+  "kind": "Item",
+  "name": "Item Silverore",
+  "readable_id": "item_silverore"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762517,
+  "kind": "Item",
+  "name": "Item Silverringstrength 0",
+  "readable_id": "item_silverringstrength_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762518,
+  "kind": "Item",
+  "name": "Item Silverringstrength 1",
+  "readable_id": "item_silverringstrength_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762519,
+  "kind": "Item",
+  "name": "Item Silverringstrength 2",
+  "readable_id": "item_silverringstrength_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762520,
+  "kind": "Item",
+  "name": "Item Skulldew",
+  "readable_id": "item_skulldew"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762521,
+  "kind": "Item",
+  "name": "Item Slingermunition",
+  "readable_id": "item_slingermunition"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762522,
+  "kind": "Item",
+  "name": "Item Spider Thread",
+  "readable_id": "item_spider_thread"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762523,
+  "kind": "Item",
+  "name": "Item SpiritVessel GreatTusk",
+  "readable_id": "item_spiritVessel_greatTusk"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762524,
+  "kind": "Item",
+  "name": "Item Spiritamulet 0",
+  "readable_id": "item_spiritamulet_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762525,
+  "kind": "Item",
+  "name": "Item Spiritamulet 1",
+  "readable_id": "item_spiritamulet_1"
+ },
+ {
+  "amount": 10,
+  "classification": "filler",
+  "id": 4762526,
+  "kind": "Item",
+  "name": "Item Splittertrap",
+  "readable_id": "item_splittertrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762529,
+  "kind": "Item",
+  "name": "Item Sprigganheart",
+  "readable_id": "item_sprigganheart"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762530,
+  "kind": "Item",
+  "name": "Item Stalker Egg",
+  "readable_id": "item_stalker_egg"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762531,
+  "kind": "Item",
+  "name": "Item Stalkerfeather",
+  "readable_id": "item_stalkerfeather"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762532,
+  "kind": "Item",
+  "name": "Item Stew Tiaa Manipulated",
+  "readable_id": "item_stew_tiaa_manipulated"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762533,
+  "kind": "Item",
+  "name": "Item StolenPackage",
+  "readable_id": "item_stolenPackage"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762534,
+  "kind": "Item",
+  "name": "Item StrangeFossil",
+  "readable_id": "item_strangeFossil"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762535,
+  "kind": "Item",
+  "name": "Item TalismanJourneyToTheRoots",
+  "readable_id": "item_talismanJourneyToTheRoots"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762536,
+  "kind": "Item",
+  "name": "Item TarnishedSilverCup",
+  "readable_id": "item_tarnishedSilverCup"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762537,
+  "kind": "Item",
+  "name": "Item Teeth",
+  "readable_id": "item_teeth"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762538,
+  "kind": "Item",
+  "name": "Item Tendonofglory",
+  "readable_id": "item_tendonofglory"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762539,
+  "kind": "Item",
+  "name": "Item Thornfetish",
+  "readable_id": "item_thornfetish"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762540,
+  "kind": "Item",
+  "name": "Item ThornyRanke",
+  "readable_id": "item_thornyRanke"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762541,
+  "kind": "Item",
+  "name": "Item Traps",
+  "readable_id": "item_traps"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762542,
+  "kind": "Item",
+  "name": "Item TreasureMap Auwald",
+  "readable_id": "item_treasureMap_auwald"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762543,
+  "kind": "Item",
+  "name": "Item Trinket Boxer",
+  "readable_id": "item_trinket_boxer"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762544,
+  "kind": "Item",
+  "name": "Item Trinket DoriansHeirloom",
+  "readable_id": "item_trinket_doriansHeirloom"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762545,
+  "kind": "Item",
+  "name": "Item Trinket PureDmg",
+  "readable_id": "item_trinket_pureDmg"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762546,
+  "kind": "Item",
+  "name": "Item Troutskewersbombus",
+  "readable_id": "item_troutskewersbombus"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762547,
+  "kind": "Item",
+  "name": "Item Vipertooth",
+  "readable_id": "item_vipertooth"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762198,
+  "kind": "Item",
+  "name": "Item VoragoFragment 0",
+  "readable_id": "item_VoragoFragment_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762199,
+  "kind": "Item",
+  "name": "Item VoragoFragment 1",
+  "readable_id": "item_VoragoFragment_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762200,
+  "kind": "Item",
+  "name": "Item Whiskey StoneWall",
+  "readable_id": "item_Whiskey_StoneWall"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762548,
+  "kind": "Item",
+  "name": "Item Whispersilkbag",
+  "readable_id": "item_whispersilkbag"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762549,
+  "kind": "Item",
+  "name": "Item Windtalisman",
+  "readable_id": "item_windtalisman"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762550,
+  "kind": "Item",
+  "name": "Item Wine",
+  "readable_id": "item_wine"
+ },
+ {
+  "amount": 20,
+  "classification": "filler",
+  "id": 4762551,
+  "kind": "Item",
+  "name": "Item WoodArrow",
+  "readable_id": "item_woodArrow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762552,
+  "kind": "Item",
+  "name": "Item YellowGlyphStone",
+  "readable_id": "item_yellowGlyphStone"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762554,
+  "kind": "Item",
+  "name": "Key Chest BanditCamp",
+  "readable_id": "key_chest_BanditCamp"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762555,
+  "kind": "Item",
+  "name": "Key Chest Delani",
+  "readable_id": "key_chest_delani"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762556,
+  "kind": "Item",
+  "name": "Key Chest MineBanditEntry",
+  "readable_id": "key_chest_mineBanditEntry"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762557,
+  "kind": "Item",
+  "name": "Key Chest MineBanditMainKey",
+  "readable_id": "key_chest_mineBanditMainKey"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762558,
+  "kind": "Item",
+  "name": "Key Extractor",
+  "readable_id": "key_extractor"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762559,
+  "kind": "Item",
+  "name": "Key Harald",
+  "readable_id": "key_harald"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762560,
+  "kind": "Item",
+  "name": "Key Harvey",
+  "readable_id": "key_harvey"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762561,
+  "kind": "Item",
+  "name": "Key Mursel Mine",
+  "readable_id": "key_mursel_mine"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762562,
+  "kind": "Item",
+  "name": "Key Ratcellar",
+  "readable_id": "key_ratcellar"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762563,
+  "kind": "Item",
+  "name": "Key Ruinenexplorer",
+  "readable_id": "key_ruinenexplorer"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762553,
+  "kind": "Item",
+  "name": "Key ShadyDistrict",
+  "readable_id": "key_ShadyDistrict"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762564,
+  "kind": "Item",
+  "name": "Key SleepingTavernKey",
+  "readable_id": "key_sleepingTavernKey"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762565,
+  "kind": "Item",
+  "name": "Key TavernKey",
+  "readable_id": "key_tavernKey"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762566,
+  "kind": "Item",
+  "name": "Key TavernKey Cellar",
+  "readable_id": "key_tavernKey_Cellar"
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762567,
+  "kind": "Item",
+  "name": "Key TristanBillKey",
+  "readable_id": "key_tristanBillKey"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762001,
+  "kind": "LearningPoint",
+  "name": "Learning Point",
+  "readable_id": ""
+ },
+ {
+  "amount": 1,
+  "classification": "progression",
+  "id": 4762568,
+  "kind": "Item",
+  "name": "Misc Key Locked Door",
+  "readable_id": "misc_key_locked_door"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762569,
+  "kind": "Item",
+  "name": "Misc Map Leuchtwald",
+  "readable_id": "misc_map_leuchtwald"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762570,
+  "kind": "Item",
+  "name": "Misc Map Nemeton",
+  "readable_id": "misc_map_nemeton"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762571,
+  "kind": "Item",
+  "name": "Misc Map Ruincamp",
+  "readable_id": "misc_map_ruincamp"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762572,
+  "kind": "Item",
+  "name": "Misc Map Tristan",
+  "readable_id": "misc_map_tristan"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762573,
+  "kind": "Item",
+  "name": "Misc Worldmap",
+  "readable_id": "misc_worldmap"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762574,
+  "kind": "Item",
+  "name": "Misc Worldmap Detailed",
+  "readable_id": "misc_worldmap_detailed"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762575,
+  "kind": "Item",
+  "name": "Misc Worldmap Shrines",
+  "readable_id": "misc_worldmap_shrines"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762576,
+  "kind": "Item",
+  "name": "Recipe Acidbomb",
+  "readable_id": "recipe_acidbomb"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762577,
+  "kind": "Item",
+  "name": "Recipe Acidtrap",
+  "readable_id": "recipe_acidtrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762578,
+  "kind": "Item",
+  "name": "Recipe Aditroast",
+  "readable_id": "recipe_aditroast"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762579,
+  "kind": "Item",
+  "name": "Recipe Agilostew",
+  "readable_id": "recipe_agilostew"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762580,
+  "kind": "Item",
+  "name": "Recipe Beartrap",
+  "readable_id": "recipe_beartrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762581,
+  "kind": "Item",
+  "name": "Recipe Bigquiver",
+  "readable_id": "recipe_bigquiver"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762582,
+  "kind": "Item",
+  "name": "Recipe Blanktrap",
+  "readable_id": "recipe_blanktrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762583,
+  "kind": "Item",
+  "name": "Recipe Bomb",
+  "readable_id": "recipe_bomb"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762584,
+  "kind": "Item",
+  "name": "Recipe Crowfeettrap",
+  "readable_id": "recipe_crowfeettrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762585,
+  "kind": "Item",
+  "name": "Recipe Elixier Concentration",
+  "readable_id": "recipe_elixier_concentration"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762586,
+  "kind": "Item",
+  "name": "Recipe Elixier Life",
+  "readable_id": "recipe_elixier_life"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762587,
+  "kind": "Item",
+  "name": "Recipe Elixier Skill",
+  "readable_id": "recipe_elixier_skill"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762588,
+  "kind": "Item",
+  "name": "Recipe Elixier Spirit",
+  "readable_id": "recipe_elixier_spirit"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762589,
+  "kind": "Item",
+  "name": "Recipe Elixier Strength",
+  "readable_id": "recipe_elixier_strength"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762590,
+  "kind": "Item",
+  "name": "Recipe Farmersmeal",
+  "readable_id": "recipe_farmersmeal"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762591,
+  "kind": "Item",
+  "name": "Recipe Fishpan",
+  "readable_id": "recipe_fishpan"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762592,
+  "kind": "Item",
+  "name": "Recipe Flow AggressiveCry",
+  "readable_id": "recipe_flow_aggressiveCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762593,
+  "kind": "Item",
+  "name": "Recipe Flow Ballista",
+  "readable_id": "recipe_flow_ballista"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762594,
+  "kind": "Item",
+  "name": "Recipe Flow BattleCry",
+  "readable_id": "recipe_flow_battleCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762595,
+  "kind": "Item",
+  "name": "Recipe Flow Blink",
+  "readable_id": "recipe_flow_blink"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762596,
+  "kind": "Item",
+  "name": "Recipe Flow BloodRage",
+  "readable_id": "recipe_flow_bloodRage"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762597,
+  "kind": "Item",
+  "name": "Recipe Flow BruntShot",
+  "readable_id": "recipe_flow_bruntShot"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762598,
+  "kind": "Item",
+  "name": "Recipe Flow BullRush",
+  "readable_id": "recipe_flow_bullRush"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762599,
+  "kind": "Item",
+  "name": "Recipe Flow Conflagration",
+  "readable_id": "recipe_flow_conflagration"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762600,
+  "kind": "Item",
+  "name": "Recipe Flow Cyclone",
+  "readable_id": "recipe_flow_cyclone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762601,
+  "kind": "Item",
+  "name": "Recipe Flow Dash",
+  "readable_id": "recipe_flow_dash"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762602,
+  "kind": "Item",
+  "name": "Recipe Flow Dashstab",
+  "readable_id": "recipe_flow_dashstab"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762603,
+  "kind": "Item",
+  "name": "Recipe Flow EnergyProjectile",
+  "readable_id": "recipe_flow_energyProjectile"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762604,
+  "kind": "Item",
+  "name": "Recipe Flow Execute",
+  "readable_id": "recipe_flow_execute"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762605,
+  "kind": "Item",
+  "name": "Recipe Flow FerventCry",
+  "readable_id": "recipe_flow_ferventCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762606,
+  "kind": "Item",
+  "name": "Recipe Flow FireCry",
+  "readable_id": "recipe_flow_fireCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762607,
+  "kind": "Item",
+  "name": "Recipe Flow FlowForm",
+  "readable_id": "recipe_flow_flowForm"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762608,
+  "kind": "Item",
+  "name": "Recipe Flow FogForm",
+  "readable_id": "recipe_flow_fogForm"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762609,
+  "kind": "Item",
+  "name": "Recipe Flow HeavyBlow",
+  "readable_id": "recipe_flow_heavyBlow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762610,
+  "kind": "Item",
+  "name": "Recipe Flow Infection",
+  "readable_id": "recipe_flow_infection"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762611,
+  "kind": "Item",
+  "name": "Recipe Flow MagicVision",
+  "readable_id": "recipe_flow_magicVision"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762612,
+  "kind": "Item",
+  "name": "Recipe Flow Magicnuke",
+  "readable_id": "recipe_flow_magicnuke"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762613,
+  "kind": "Item",
+  "name": "Recipe Flow ObsidianSpear",
+  "readable_id": "recipe_flow_obsidianSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762614,
+  "kind": "Item",
+  "name": "Recipe Flow Pierce",
+  "readable_id": "recipe_flow_pierce"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762615,
+  "kind": "Item",
+  "name": "Recipe Flow PoisonArrow",
+  "readable_id": "recipe_flow_poisonArrow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762616,
+  "kind": "Item",
+  "name": "Recipe Flow Ricochet",
+  "readable_id": "recipe_flow_ricochet"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762617,
+  "kind": "Item",
+  "name": "Recipe Flow Root Aoe",
+  "readable_id": "recipe_flow_root_aoe"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762618,
+  "kind": "Item",
+  "name": "Recipe Flow Root Cone",
+  "readable_id": "recipe_flow_root_cone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762619,
+  "kind": "Item",
+  "name": "Recipe Flow ShockingBlow",
+  "readable_id": "recipe_flow_shockingBlow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762620,
+  "kind": "Item",
+  "name": "Recipe Flow SpartanKick",
+  "readable_id": "recipe_flow_spartanKick"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762621,
+  "kind": "Item",
+  "name": "Recipe Flow Sunder",
+  "readable_id": "recipe_flow_sunder"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762622,
+  "kind": "Item",
+  "name": "Recipe Flow Thunderstorm",
+  "readable_id": "recipe_flow_thunderstorm"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762623,
+  "kind": "Item",
+  "name": "Recipe Flow VenomCry",
+  "readable_id": "recipe_flow_venomCry"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762624,
+  "kind": "Item",
+  "name": "Recipe Flow WhirlingEnergy",
+  "readable_id": "recipe_flow_whirlingEnergy"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762625,
+  "kind": "Item",
+  "name": "Recipe Flow Wound",
+  "readable_id": "recipe_flow_wound"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762626,
+  "kind": "Item",
+  "name": "Recipe Flowpotion 0",
+  "readable_id": "recipe_flowpotion_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762627,
+  "kind": "Item",
+  "name": "Recipe Flowpotion 1",
+  "readable_id": "recipe_flowpotion_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762628,
+  "kind": "Item",
+  "name": "Recipe Fogstew",
+  "readable_id": "recipe_fogstew"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762629,
+  "kind": "Item",
+  "name": "Recipe Foodpile",
+  "readable_id": "recipe_foodpile"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762630,
+  "kind": "Item",
+  "name": "Recipe Foodpile Strong",
+  "readable_id": "recipe_foodpile_strong"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762631,
+  "kind": "Item",
+  "name": "Recipe Golemsalve",
+  "readable_id": "recipe_golemsalve"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762632,
+  "kind": "Item",
+  "name": "Recipe Harpybrew",
+  "readable_id": "recipe_harpybrew"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762633,
+  "kind": "Item",
+  "name": "Recipe Healingsalve",
+  "readable_id": "recipe_healingsalve"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762634,
+  "kind": "Item",
+  "name": "Recipe Healingsalve 2",
+  "readable_id": "recipe_healingsalve_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762635,
+  "kind": "Item",
+  "name": "Recipe Healingsalve 3",
+  "readable_id": "recipe_healingsalve_3"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762636,
+  "kind": "Item",
+  "name": "Recipe Honeybeer",
+  "readable_id": "recipe_honeybeer"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762637,
+  "kind": "Item",
+  "name": "Recipe Hunterstrophy",
+  "readable_id": "recipe_hunterstrophy"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762638,
+  "kind": "Item",
+  "name": "Recipe Ironarrow",
+  "readable_id": "recipe_ironarrow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762639,
+  "kind": "Item",
+  "name": "Recipe Ironbar",
+  "readable_id": "recipe_ironbar"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762640,
+  "kind": "Item",
+  "name": "Recipe Ironlump",
+  "readable_id": "recipe_ironlump"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762641,
+  "kind": "Item",
+  "name": "Recipe Ironstone",
+  "readable_id": "recipe_ironstone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762642,
+  "kind": "Item",
+  "name": "Recipe Jaggedthrowingknife",
+  "readable_id": "recipe_jaggedthrowingknife"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762643,
+  "kind": "Item",
+  "name": "Recipe Leather",
+  "readable_id": "recipe_leather"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762644,
+  "kind": "Item",
+  "name": "Recipe Lockpick",
+  "readable_id": "recipe_lockpick"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762645,
+  "kind": "Item",
+  "name": "Recipe Marinatedmeatleg",
+  "readable_id": "recipe_marinatedmeatleg"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762646,
+  "kind": "Item",
+  "name": "Recipe Meat 2",
+  "readable_id": "recipe_meat_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762647,
+  "kind": "Item",
+  "name": "Recipe Meat Cooked",
+  "readable_id": "recipe_meat_cooked"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762648,
+  "kind": "Item",
+  "name": "Recipe Mediumquiver",
+  "readable_id": "recipe_mediumquiver"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762649,
+  "kind": "Item",
+  "name": "Recipe Mudmash",
+  "readable_id": "recipe_mudmash"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762650,
+  "kind": "Item",
+  "name": "Recipe Poisonedthrowingknife",
+  "readable_id": "recipe_poisonedthrowingknife"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762651,
+  "kind": "Item",
+  "name": "Recipe Potion Health 0",
+  "readable_id": "recipe_potion_health_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762652,
+  "kind": "Item",
+  "name": "Recipe Potion Health 1",
+  "readable_id": "recipe_potion_health_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762653,
+  "kind": "Item",
+  "name": "Recipe Potion Windwalker",
+  "readable_id": "recipe_potion_windwalker"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762654,
+  "kind": "Item",
+  "name": "Recipe Rivercharm",
+  "readable_id": "recipe_rivercharm"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762655,
+  "kind": "Item",
+  "name": "Recipe Roastedcallamushroom",
+  "readable_id": "recipe_roastedcallamushroom"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762656,
+  "kind": "Item",
+  "name": "Recipe Roastofthepast",
+  "readable_id": "recipe_roastofthepast"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762657,
+  "kind": "Item",
+  "name": "Recipe Rootstew",
+  "readable_id": "recipe_rootstew"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762658,
+  "kind": "Item",
+  "name": "Recipe Rustymosspipe",
+  "readable_id": "recipe_rustymosspipe"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762659,
+  "kind": "Item",
+  "name": "Recipe Silberringmind 0",
+  "readable_id": "recipe_silberringmind_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762660,
+  "kind": "Item",
+  "name": "Recipe Silberringmind 1",
+  "readable_id": "recipe_silberringmind_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762661,
+  "kind": "Item",
+  "name": "Recipe Silberringmind 2",
+  "readable_id": "recipe_silberringmind_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762662,
+  "kind": "Item",
+  "name": "Recipe Silberringskill 0",
+  "readable_id": "recipe_silberringskill_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762663,
+  "kind": "Item",
+  "name": "Recipe Silberringskill 1",
+  "readable_id": "recipe_silberringskill_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762664,
+  "kind": "Item",
+  "name": "Recipe Silberringskill 2",
+  "readable_id": "recipe_silberringskill_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762665,
+  "kind": "Item",
+  "name": "Recipe Silverarrow",
+  "readable_id": "recipe_silverarrow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762666,
+  "kind": "Item",
+  "name": "Recipe Silverlump",
+  "readable_id": "recipe_silverlump"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762667,
+  "kind": "Item",
+  "name": "Recipe Silverringstrength 0",
+  "readable_id": "recipe_silverringstrength_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762668,
+  "kind": "Item",
+  "name": "Recipe Silverringstrength 1",
+  "readable_id": "recipe_silverringstrength_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762669,
+  "kind": "Item",
+  "name": "Recipe Silverringstrength 2",
+  "readable_id": "recipe_silverringstrength_2"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762670,
+  "kind": "Item",
+  "name": "Recipe Silverstone",
+  "readable_id": "recipe_silverstone"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762671,
+  "kind": "Item",
+  "name": "Recipe Smashironbar",
+  "readable_id": "recipe_smashironbar"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762672,
+  "kind": "Item",
+  "name": "Recipe Spiritamulet 0",
+  "readable_id": "recipe_spiritamulet_0"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762673,
+  "kind": "Item",
+  "name": "Recipe Spiritamulet 1",
+  "readable_id": "recipe_spiritamulet_1"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762674,
+  "kind": "Item",
+  "name": "Recipe Splittertrap",
+  "readable_id": "recipe_splittertrap"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762676,
+  "kind": "Item",
+  "name": "Recipe Thronyvine",
+  "readable_id": "recipe_thronyvine"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762677,
+  "kind": "Item",
+  "name": "Recipe Throwingknife",
+  "readable_id": "recipe_throwingknife"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762678,
+  "kind": "Item",
+  "name": "Recipe Thrownet",
+  "readable_id": "recipe_thrownet"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762679,
+  "kind": "Item",
+  "name": "Recipe Troutskewersbombus",
+  "readable_id": "recipe_troutskewersbombus"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762680,
+  "kind": "Item",
+  "name": "Recipe Whispersilkbag",
+  "readable_id": "recipe_whispersilkbag"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762681,
+  "kind": "Item",
+  "name": "Recipe Woodenarrow",
+  "readable_id": "recipe_woodenarrow"
+ },
+ {
+  "amount": 1,
+  "classification": "filler",
+  "id": 4762682,
+  "kind": "Item",
+  "name": "Recipe Yggdrasil",
+  "readable_id": "recipe_yggdrasil"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762683,
+  "kind": "Item",
+  "name": "Weapon Axe AncientAxe",
+  "readable_id": "weapon_axe_ancientAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762684,
+  "kind": "Item",
+  "name": "Weapon Axe Bady Dull",
+  "readable_id": "weapon_axe_bady_dull"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762685,
+  "kind": "Item",
+  "name": "Weapon Axe Bady Sharp",
+  "readable_id": "weapon_axe_bady_sharp"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762686,
+  "kind": "Item",
+  "name": "Weapon Axe BarbarianBattleAxe",
+  "readable_id": "weapon_axe_barbarianBattleAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762687,
+  "kind": "Item",
+  "name": "Weapon Axe BearSlaughtererAxe",
+  "readable_id": "weapon_axe_bearSlaughtererAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762688,
+  "kind": "Item",
+  "name": "Weapon Axe BeardedAxe",
+  "readable_id": "weapon_axe_beardedAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762689,
+  "kind": "Item",
+  "name": "Weapon Axe BerserkAxe",
+  "readable_id": "weapon_axe_berserkAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762690,
+  "kind": "Item",
+  "name": "Weapon Axe Blaansoldsword",
+  "readable_id": "weapon_axe_blaansoldsword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762691,
+  "kind": "Item",
+  "name": "Weapon Axe BloodReaper",
+  "readable_id": "weapon_axe_bloodReaper"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762692,
+  "kind": "Item",
+  "name": "Weapon Axe BroadAxe",
+  "readable_id": "weapon_axe_broadAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762693,
+  "kind": "Item",
+  "name": "Weapon Axe BronzeTusk",
+  "readable_id": "weapon_axe_bronzeTusk"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762694,
+  "kind": "Item",
+  "name": "Weapon Axe CoarseBronzeAxe",
+  "readable_id": "weapon_axe_coarseBronzeAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762695,
+  "kind": "Item",
+  "name": "Weapon Axe CoarseDoubleAxe",
+  "readable_id": "weapon_axe_coarseDoubleAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762696,
+  "kind": "Item",
+  "name": "Weapon Axe CoarseWarAxe",
+  "readable_id": "weapon_axe_coarseWarAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762697,
+  "kind": "Item",
+  "name": "Weapon Axe DeformedAxe",
+  "readable_id": "weapon_axe_deformedAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762698,
+  "kind": "Item",
+  "name": "Weapon Axe DoubleAxe",
+  "readable_id": "weapon_axe_doubleAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762699,
+  "kind": "Item",
+  "name": "Weapon Axe Draugr",
+  "readable_id": "weapon_axe_draugr"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762700,
+  "kind": "Item",
+  "name": "Weapon Axe GreatAxe",
+  "readable_id": "weapon_axe_greatAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762701,
+  "kind": "Item",
+  "name": "Weapon Axe HeavyNailClub",
+  "readable_id": "weapon_axe_heavyNailClub"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762702,
+  "kind": "Item",
+  "name": "Weapon Axe HighlandAxe",
+  "readable_id": "weapon_axe_highlandAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762703,
+  "kind": "Item",
+  "name": "Weapon Axe Improvisedpickaxe",
+  "readable_id": "weapon_axe_improvisedpickaxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762704,
+  "kind": "Item",
+  "name": "Weapon Axe Iron-BoundGreatAxe",
+  "readable_id": "weapon_axe_iron-BoundGreatAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762705,
+  "kind": "Item",
+  "name": "Weapon Axe JawboneAxe",
+  "readable_id": "weapon_axe_jawboneAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762706,
+  "kind": "Item",
+  "name": "Weapon Axe LargeBranch",
+  "readable_id": "weapon_axe_largeBranch"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762707,
+  "kind": "Item",
+  "name": "Weapon Axe LightAxe",
+  "readable_id": "weapon_axe_lightAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762708,
+  "kind": "Item",
+  "name": "Weapon Axe OldAxe",
+  "readable_id": "weapon_axe_oldAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762709,
+  "kind": "Item",
+  "name": "Weapon Axe RustyAxe",
+  "readable_id": "weapon_axe_rustyAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762710,
+  "kind": "Item",
+  "name": "Weapon Axe Snaga",
+  "readable_id": "weapon_axe_snaga"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762711,
+  "kind": "Item",
+  "name": "Weapon Axe SplittingAxe",
+  "readable_id": "weapon_axe_splittingAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762713,
+  "kind": "Item",
+  "name": "Weapon Axe WarAxe",
+  "readable_id": "weapon_axe_warAxe"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762714,
+  "kind": "Item",
+  "name": "Weapon Axe WoodSplitter",
+  "readable_id": "weapon_axe_woodSplitter"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762729,
+  "kind": "Item",
+  "name": "Weapon Bow AtlanterBow",
+  "readable_id": "weapon_bow_atlanterBow"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762730,
+  "kind": "Item",
+  "name": "Weapon Bow BattleBow",
+  "readable_id": "weapon_bow_battleBow"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762731,
+  "kind": "Item",
+  "name": "Weapon Bow Draugr",
+  "readable_id": "weapon_bow_draugr"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762732,
+  "kind": "Item",
+  "name": "Weapon Bow HuntingBow",
+  "readable_id": "weapon_bow_huntingBow"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762733,
+  "kind": "Item",
+  "name": "Weapon Bow LongBow",
+  "readable_id": "weapon_bow_longBow"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762734,
+  "kind": "Item",
+  "name": "Weapon Bow ReinforcedBow",
+  "readable_id": "weapon_bow_reinforcedBow"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762735,
+  "kind": "Item",
+  "name": "Weapon Bow ShortBow",
+  "readable_id": "weapon_bow_shortBow"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762736,
+  "kind": "Item",
+  "name": "Weapon Bow SimpleBow",
+  "readable_id": "weapon_bow_simpleBow"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762737,
+  "kind": "Item",
+  "name": "Weapon Dagger",
+  "readable_id": "weapon_dagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762738,
+  "kind": "Item",
+  "name": "Weapon Dagger BlackKnife",
+  "readable_id": "weapon_dagger_blackKnife"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762739,
+  "kind": "Item",
+  "name": "Weapon Dagger BloodDagger",
+  "readable_id": "weapon_dagger_bloodDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762740,
+  "kind": "Item",
+  "name": "Weapon Dagger BoneKnife",
+  "readable_id": "weapon_dagger_boneKnife"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762741,
+  "kind": "Item",
+  "name": "Weapon Dagger BreadKnife",
+  "readable_id": "weapon_dagger_breadKnife"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762742,
+  "kind": "Item",
+  "name": "Weapon Dagger BronzeDagger",
+  "readable_id": "weapon_dagger_bronzeDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762743,
+  "kind": "Item",
+  "name": "Weapon Dagger CeremonialDagger",
+  "readable_id": "weapon_dagger_ceremonialDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762744,
+  "kind": "Item",
+  "name": "Weapon Dagger CoarseDagger",
+  "readable_id": "weapon_dagger_coarseDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762745,
+  "kind": "Item",
+  "name": "Weapon Dagger Draugr",
+  "readable_id": "weapon_dagger_draugr"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762746,
+  "kind": "Item",
+  "name": "Weapon Dagger Eviscerator",
+  "readable_id": "weapon_dagger_eviscerator"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762747,
+  "kind": "Item",
+  "name": "Weapon Dagger Fang",
+  "readable_id": "weapon_dagger_fang"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762748,
+  "kind": "Item",
+  "name": "Weapon Dagger HeartSeeker",
+  "readable_id": "weapon_dagger_heartSeeker"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762749,
+  "kind": "Item",
+  "name": "Weapon Dagger IronDagger",
+  "readable_id": "weapon_dagger_ironDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762750,
+  "kind": "Item",
+  "name": "Weapon Dagger IronSpike",
+  "readable_id": "weapon_dagger_ironSpike"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762751,
+  "kind": "Item",
+  "name": "Weapon Dagger MosquitoSting",
+  "readable_id": "weapon_dagger_mosquitoSting"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762752,
+  "kind": "Item",
+  "name": "Weapon Dagger PineDagger",
+  "readable_id": "weapon_dagger_pineDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762753,
+  "kind": "Item",
+  "name": "Weapon Dagger PointedDagger",
+  "readable_id": "weapon_dagger_pointedDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762754,
+  "kind": "Item",
+  "name": "Weapon Dagger SacrificialDagger",
+  "readable_id": "weapon_dagger_sacrificialDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762755,
+  "kind": "Item",
+  "name": "Weapon Dagger ShortBlade",
+  "readable_id": "weapon_dagger_shortBlade"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762756,
+  "kind": "Item",
+  "name": "Weapon Dagger Silence",
+  "readable_id": "weapon_dagger_silence"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762757,
+  "kind": "Item",
+  "name": "Weapon Dagger TheKingslayer",
+  "readable_id": "weapon_dagger_theKingslayer"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762758,
+  "kind": "Item",
+  "name": "Weapon Dagger Tombstick",
+  "readable_id": "weapon_dagger_tombstick"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762759,
+  "kind": "Item",
+  "name": "Weapon Dagger WornBronzeDagger",
+  "readable_id": "weapon_dagger_wornBronzeDagger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762795,
+  "kind": "Item",
+  "name": "Weapon Shield AdornedWoodenShield",
+  "readable_id": "weapon_shield_adornedWoodenShield"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762796,
+  "kind": "Item",
+  "name": "Weapon Shield AtlanterShield",
+  "readable_id": "weapon_shield_atlanterShield"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762797,
+  "kind": "Item",
+  "name": "Weapon Shield BronzeShield",
+  "readable_id": "weapon_shield_bronzeShield"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762798,
+  "kind": "Item",
+  "name": "Weapon Shield Draugr",
+  "readable_id": "weapon_shield_draugr"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762799,
+  "kind": "Item",
+  "name": "Weapon Shield Protection",
+  "readable_id": "weapon_shield_protection"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762800,
+  "kind": "Item",
+  "name": "Weapon Shield RoundShield",
+  "readable_id": "weapon_shield_roundShield"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762801,
+  "kind": "Item",
+  "name": "Weapon Shield SigilShield",
+  "readable_id": "weapon_shield_sigilShield"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762802,
+  "kind": "Item",
+  "name": "Weapon Shield SmallBronzeShield",
+  "readable_id": "weapon_shield_smallBronzeShield"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762803,
+  "kind": "Item",
+  "name": "Weapon Shield SmallRoundShield",
+  "readable_id": "weapon_shield_smallRoundShield"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762804,
+  "kind": "Item",
+  "name": "Weapon Shield SmallWoodenShield",
+  "readable_id": "weapon_shield_smallWoodenShield"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762805,
+  "kind": "Item",
+  "name": "Weapon Shield TheWall",
+  "readable_id": "weapon_shield_theWall"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762806,
+  "kind": "Item",
+  "name": "Weapon Shield WoodenBoard",
+  "readable_id": "weapon_shield_woodenBoard"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762807,
+  "kind": "Item",
+  "name": "Weapon Sling BattleSlingshot",
+  "readable_id": "weapon_sling_battleSlingshot"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762808,
+  "kind": "Item",
+  "name": "Weapon Sling CoarseSling",
+  "readable_id": "weapon_sling_coarseSling"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762809,
+  "kind": "Item",
+  "name": "Weapon Sling HeadSlingshot",
+  "readable_id": "weapon_sling_headSlingshot"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762810,
+  "kind": "Item",
+  "name": "Weapon Sling HeavySlingshot",
+  "readable_id": "weapon_sling_heavySlingshot"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762811,
+  "kind": "Item",
+  "name": "Weapon Sling LegendarySlingshot",
+  "readable_id": "weapon_sling_legendarySlingshot"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762812,
+  "kind": "Item",
+  "name": "Weapon Sling SimpleSlingshot",
+  "readable_id": "weapon_sling_simpleSlingshot"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762818,
+  "kind": "Item",
+  "name": "Weapon Spear Ango",
+  "readable_id": "weapon_spear_ango"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762819,
+  "kind": "Item",
+  "name": "Weapon Spear BloodBlade",
+  "readable_id": "weapon_spear_bloodBlade"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762820,
+  "kind": "Item",
+  "name": "Weapon Spear BronzeSpear",
+  "readable_id": "weapon_spear_bronzeSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762822,
+  "kind": "Item",
+  "name": "Weapon Spear DeathRitualSpear",
+  "readable_id": "weapon_spear_deathRitualSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762823,
+  "kind": "Item",
+  "name": "Weapon Spear Draugr",
+  "readable_id": "weapon_spear_draugr"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762824,
+  "kind": "Item",
+  "name": "Weapon Spear FishSpear",
+  "readable_id": "weapon_spear_fishSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762825,
+  "kind": "Item",
+  "name": "Weapon Spear Framea",
+  "readable_id": "weapon_spear_framea"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762826,
+  "kind": "Item",
+  "name": "Weapon Spear Georg",
+  "readable_id": "weapon_spear_georg"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762827,
+  "kind": "Item",
+  "name": "Weapon Spear Ger",
+  "readable_id": "weapon_spear_ger"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762828,
+  "kind": "Item",
+  "name": "Weapon Spear HuntingSpear",
+  "readable_id": "weapon_spear_huntingSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762829,
+  "kind": "Item",
+  "name": "Weapon Spear MessengerOfTheDivine",
+  "readable_id": "weapon_spear_messengerOfTheDivine"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762830,
+  "kind": "Item",
+  "name": "Weapon Spear Partisan",
+  "readable_id": "weapon_spear_partisan"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762831,
+  "kind": "Item",
+  "name": "Weapon Spear Pilum",
+  "readable_id": "weapon_spear_pilum"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762832,
+  "kind": "Item",
+  "name": "Weapon Spear Pitchfork",
+  "readable_id": "weapon_spear_pitchfork"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762833,
+  "kind": "Item",
+  "name": "Weapon Spear ShortSpear",
+  "readable_id": "weapon_spear_shortSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762834,
+  "kind": "Item",
+  "name": "Weapon Spear SilverSpear",
+  "readable_id": "weapon_spear_silverSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762835,
+  "kind": "Item",
+  "name": "Weapon Spear SimpleBronzeSpear",
+  "readable_id": "weapon_spear_simpleBronzeSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762836,
+  "kind": "Item",
+  "name": "Weapon Spear Spear",
+  "readable_id": "weapon_spear_spear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762837,
+  "kind": "Item",
+  "name": "Weapon Spear StoneSpear",
+  "readable_id": "weapon_spear_stoneSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762838,
+  "kind": "Item",
+  "name": "Weapon Spear TipOfDeath",
+  "readable_id": "weapon_spear_tipOfDeath"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762839,
+  "kind": "Item",
+  "name": "Weapon Spear WingSpear",
+  "readable_id": "weapon_spear_wingSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762840,
+  "kind": "Item",
+  "name": "Weapon Spear WolfToothSpear",
+  "readable_id": "weapon_spear_wolfToothSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762841,
+  "kind": "Item",
+  "name": "Weapon Spear WoodenSpear",
+  "readable_id": "weapon_spear_woodenSpear"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762859,
+  "kind": "Item",
+  "name": "Weapon Sword AncientRitualSword",
+  "readable_id": "weapon_sword_ancientRitualSword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762860,
+  "kind": "Item",
+  "name": "Weapon Sword AncientSword",
+  "readable_id": "weapon_sword_ancientSword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762861,
+  "kind": "Item",
+  "name": "Weapon Sword Baton",
+  "readable_id": "weapon_sword_baton"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762862,
+  "kind": "Item",
+  "name": "Weapon Sword BattleBlade",
+  "readable_id": "weapon_sword_battleBlade"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762863,
+  "kind": "Item",
+  "name": "Weapon Sword BerserkBlade",
+  "readable_id": "weapon_sword_berserkBlade"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762864,
+  "kind": "Item",
+  "name": "Weapon Sword Branch",
+  "readable_id": "weapon_sword_branch"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762865,
+  "kind": "Item",
+  "name": "Weapon Sword Broadsword",
+  "readable_id": "weapon_sword_broadsword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762866,
+  "kind": "Item",
+  "name": "Weapon Sword BronzeShortSword",
+  "readable_id": "weapon_sword_bronzeShortSword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762867,
+  "kind": "Item",
+  "name": "Weapon Sword BronzeShortSword Intro",
+  "readable_id": "weapon_sword_bronzeShortSword_intro"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762868,
+  "kind": "Item",
+  "name": "Weapon Sword Carimasoldsword",
+  "readable_id": "weapon_sword_carimasoldsword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762869,
+  "kind": "Item",
+  "name": "Weapon Sword CoarseBroadsword",
+  "readable_id": "weapon_sword_coarseBroadsword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762870,
+  "kind": "Item",
+  "name": "Weapon Sword CrudeIronBlade",
+  "readable_id": "weapon_sword_crudeIronBlade"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762871,
+  "kind": "Item",
+  "name": "Weapon Sword DraugrIronBlade",
+  "readable_id": "weapon_sword_draugrIronBlade"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762872,
+  "kind": "Item",
+  "name": "Weapon Sword GildedSickle",
+  "readable_id": "weapon_sword_gildedSickle"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762873,
+  "kind": "Item",
+  "name": "Weapon Sword Gladius",
+  "readable_id": "weapon_sword_gladius"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762874,
+  "kind": "Item",
+  "name": "Weapon Sword Hawk'SClaw",
+  "readable_id": "weapon_sword_hawk'SClaw"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762875,
+  "kind": "Item",
+  "name": "Weapon Sword HeavyNailClub",
+  "readable_id": "weapon_sword_heavyNailClub"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762876,
+  "kind": "Item",
+  "name": "Weapon Sword Jendra",
+  "readable_id": "weapon_sword_jendra"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762877,
+  "kind": "Item",
+  "name": "Weapon Sword Karottegladius",
+  "readable_id": "weapon_sword_karottegladius"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762878,
+  "kind": "Item",
+  "name": "Weapon Sword Longsword",
+  "readable_id": "weapon_sword_longsword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762879,
+  "kind": "Item",
+  "name": "Weapon Sword MoonSword",
+  "readable_id": "weapon_sword_moonSword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762880,
+  "kind": "Item",
+  "name": "Weapon Sword NailClub",
+  "readable_id": "weapon_sword_nailClub"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762881,
+  "kind": "Item",
+  "name": "Weapon Sword OldBronzeGladius",
+  "readable_id": "weapon_sword_oldBronzeGladius"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762882,
+  "kind": "Item",
+  "name": "Weapon Sword RoughSword",
+  "readable_id": "weapon_sword_roughSword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762883,
+  "kind": "Item",
+  "name": "Weapon Sword RuneSword",
+  "readable_id": "weapon_sword_runeSword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762884,
+  "kind": "Item",
+  "name": "Weapon Sword ScavengingScimitar",
+  "readable_id": "weapon_sword_scavengingScimitar"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762885,
+  "kind": "Item",
+  "name": "Weapon Sword ShortSword",
+  "readable_id": "weapon_sword_shortSword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762886,
+  "kind": "Item",
+  "name": "Weapon Sword Sword",
+  "readable_id": "weapon_sword_sword"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762887,
+  "kind": "Item",
+  "name": "Weapon Sword SwordOfNemeton",
+  "readable_id": "weapon_sword_swordOfNemeton"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762888,
+  "kind": "Item",
+  "name": "Weapon Sword SwordOfTheFaithful",
+  "readable_id": "weapon_sword_swordOfTheFaithful"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762889,
+  "kind": "Item",
+  "name": "Weapon Sword WarClub",
+  "readable_id": "weapon_sword_warClub"
+ }
+]

@@ -1,0 +1,24 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+__pycache__/
+build/
+release/
+
+# Personal test seeds / server saves
+seed/
+*.apsave
+
+# Regenerable extraction cache (~75s to rebuild; see tools/extract_locations)
+*.pkl
+
+# Built apworld artifact - rebuild from apworld/drova/ before cutting a release (see README)
+drova.apworld
+
+# Development research / QA working notes - kept locally, not part of the repo. The outputs that
+# matter are committed elsewhere (rules in apworld/drova/rules.py, data in tools/extracted/*.json).
+tools/door_logic/
+tools/investigations/
+tools/release_playtest.md

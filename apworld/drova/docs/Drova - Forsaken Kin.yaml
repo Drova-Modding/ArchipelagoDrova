@@ -1,0 +1,24 @@
+# Sample player config for Drova - Forsaken Kin.
+# Copy this into your Archipelago Players/ folder and edit. Rename `name` per player.
+name: Player1
+game: Drova - Forsaken Kin
+Drova - Forsaken Kin:
+  # Story
+  faction: nemeton            # nemeton | ruinenlager (alias: remnants)
+
+  # Location pool (which things become checks)
+  randomize_chests: true      # 201 lockable chests
+  randomize_containers: true  # 196 barrels, crates, sacks
+  randomize_quests: true      # 60 quest completions (minus the faction you didn't join)
+  randomize_critters: false   # 134 wildlife / carcasses
+  randomize_resources: false  # 361 ore veins, herbs
+  randomize_caches: false     # 978 hidden caches
+  randomize_pickups: false    # 3125 loose world items (very long seed)
+  randomize_traders: false    # ~890 merchant slots (faction-split)
+  enemy_kill_checks: 0        # 0-50 kill milestones (0 = off)
+  enemy_kill_interval: 10     # kills between each milestone
+
+  # Gameplay
+  suppress_vanilla_loot: true # true = only the AP item; false = AP item + vanilla loot (easier)
+
+  death_link: false

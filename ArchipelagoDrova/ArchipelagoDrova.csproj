@@ -1,0 +1,576 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- Nullable MUST stay disabled: under IL2CPP, System.Runtime.CompilerServices.NullableAttribute
+		     resolves into Il2Cppmscorlib and breaks the build/runtime. -->
+		<Nullable>disable</Nullable>
+		<RootNamespace>ArchipelagoDrova</RootNamespace>
+		<IsPackable>false</IsPackable>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<AssemblyName>ArchipelagoDrova</AssemblyName>
+		<LangVersion>latest</LangVersion>
+		<!-- Required for Archipelago.MultiClient.Net to appear in the output at all:
+		     it vendors its deps as lib assets rather than package dependencies. -->
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<!-- Silence MSB3270. The mod stays AnyCPU/MSIL on purpose: MelonLoader loads it into the
+		     already-x64 game process, so referencing the x64 MelonLoader/Il2Cpp DLLs is not a real
+		     architecture conflict. Do NOT "fix" this by forcing PlatformTarget=x64. -->
+		<ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Archipelago.MultiClient.Net" Version="6.7.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Drova_Modding_API">
+			<HintPath>$(GamePath)/Mods\Drova_Modding_API.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<!-- Bind to MelonLoader's Newtonsoft (13.0.4). It wins resolution over anything we could ship,
+		     and CoreCLR satisfies the AP client's v11 reference with it. Never ship our own copy. -->
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>$(GamePath)/MelonLoader\net6\Newtonsoft.Json.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp-firstpass">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Assembly-CSharp-firstpass.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2Cppandywiecko.BurstTriangulator">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2Cppandywiecko.BurstTriangulator.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppAstarPathfindingProject">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppAstarPathfindingProject.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppAutoValidation">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppAutoValidation.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppBaseSDK_NET">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppBaseSDK_NET.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppClipper2Lib">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppClipper2Lib.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2Cppcom.rlabrecque.steamworks.net">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2Cppcom.rlabrecque.steamworks.net.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppCrann">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppCrann.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppCritterSystem">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppCritterSystem.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppDrawing">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppDrawing.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppDrova">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppDrova.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppDrova.Workspace">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppDrova.Workspace.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppFileHandling">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppFileHandling.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppGalaxyCSharp">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppGalaxyCSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppGameSupportSDK_NET">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppGameSupportSDK_NET.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppGilzoide.UpdateManager">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppGilzoide.UpdateManager.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2Cppinc8877.OdinLZ4Extension">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2Cppinc8877.OdinLZ4Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppJust2D">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppJust2D.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppJust2D.Localization">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppJust2D.Localization.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppK4os.Compression.LZ4.Unity">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppK4os.Compression.LZ4.Unity.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppMemoryPack.Core">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppMemoryPack.Core.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppMimeMapping">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppMimeMapping.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppMono.Security">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppMono.Security.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2Cppmscorlib">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppNewtonsoft.Json">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppNewtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppNintendoSDK">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppNintendoSDK.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppOpenWorld.Runtime">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppOpenWorld.Runtime.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppOwnershipSDK_NET">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppOwnershipSDK_NET.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppPackageTools">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppPackageTools.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppParadoxAutoValidFoo">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppParadoxAutoValidFoo.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppParadoxNotion">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppParadoxNotion.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppPathfinding.Ionic.Zip.Reduced">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppPathfinding.Ionic.Zip.Reduced.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppRewired_Core">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppRewired_Core.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppRewired_Windows">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppRewired_Windows.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppRewired_Windows_Functions">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppRewired_Windows_Functions.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSirenix.OdinInspector.Attributes">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSirenix.OdinInspector.Attributes.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSirenix.OdinInspector.Modules.Unity.Addressables">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSirenix.OdinInspector.Modules.Unity.Addressables.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSirenix.Serialization.Config">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSirenix.Serialization.Config.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSirenix.Serialization">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSirenix.Serialization.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSirenix.Utilities">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSirenix.Utilities.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Collections.Immutable">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Collections.Immutable.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Configuration">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Configuration.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Core">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Data">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Data.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Drawing">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Drawing.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.IO.Compression">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.IO.Compression.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Net.Http">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Net.Http.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Numerics">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Numerics.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Runtime.CompilerServices.Unsafe">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Runtime.CompilerServices.Unsafe.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Runtime.Serialization">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Runtime.Serialization.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Xml">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Xml.Linq">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.Linq.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppUniTask.Addressables">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppUniTask.Addressables.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppUniTask">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2CppUniTask.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2Cpp__Generated">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Il2Cpp__Generated.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.2D.Tilemap.Extras">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Addressables">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.Addressables.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Burst">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.Burst.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Burst.Unsafe">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.Burst.Unsafe.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Collections">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.Collections.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Collections.LowLevel.ILSupport">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.InputSystem">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.InputSystem.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.InputSystem.ForUI">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Mathematics">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.Mathematics.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.Profiling.Core">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.Profiling.Core.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.RenderPipelines.Core.Runtime">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.RenderPipelines.Universal.Runtime">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.ResourceManager">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.ResourceManager.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.TextMeshPro">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AccessibilityModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.AccessibilityModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AIModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.AIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AndroidJNIModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.AndroidJNIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AnimationModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ARModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.ARModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AssetBundleModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AudioModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClothModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.ClothModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ContentLoadModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.ContentLoadModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CrashReportingModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.CrashReportingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.DirectorModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.DirectorModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.DSPGraphModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.DSPGraphModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GameCenterModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.GameCenterModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GIModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.GIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GridModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.GridModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.HotReloadModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.HotReloadModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ImageConversionModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.ImageConversionModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.IMGUIModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputLegacyModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.InputModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.JSONSerializeModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.JSONSerializeModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.LocalizationModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.LocalizationModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ParticleSystemModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.ParticleSystemModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PerformanceReportingModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.PerformanceReportingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Physics2DModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.Physics2DModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PhysicsModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ProfilerModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.ProfilerModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PropertiesModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.PropertiesModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ScreenCaptureModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.ScreenCaptureModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SharedInternalsModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.SharedInternalsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpriteMaskModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.SpriteMaskModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpriteShapeModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.SpriteShapeModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.StreamingModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.StreamingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SubstanceModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.SubstanceModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SubsystemsModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.SubsystemsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TerrainModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.TerrainModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TerrainPhysicsModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextCoreFontEngineModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextCoreTextEngineModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextRenderingModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.TextRenderingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TilemapModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.TilemapModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TLSModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.TLSModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UIElementsModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UIModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UmbraModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UmbraModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityAnalyticsModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityConnectModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityConnectModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityCurlModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityCurlModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityTestProtocolModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAudioModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestTextureModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestWWWModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VehiclesModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.VehiclesModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VFXModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.VFXModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VideoModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.VideoModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VRModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.VRModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.WindModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.WindModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.XRModule">
+			<HintPath>$(GamePath)/MelonLoader\Il2CppAssemblies\UnityEngine.XRModule.dll</HintPath>
+		</Reference>
+		<Reference Include="MelonLoader">
+			<HintPath>$(GamePath)/MelonLoader\net6\MelonLoader.dll</HintPath>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>$(GamePath)/MelonLoader\net6\0Harmony.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppInterop.Runtime">
+			<HintPath>$(GamePath)/MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppInterop.Common">
+			<HintPath>$(GamePath)/MelonLoader\net6\Il2CppInterop.Common.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+
+	<PropertyGroup>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="ApConfig.cs" />
+		<Compile Include="ApState.cs" />
+		<Compile Include="ApUi.cs" />
+		<Compile Include="ArchipelagoClient.cs" />
+		<Compile Include="ArchipelagoStore.cs" />
+		<Compile Include="ContainerTracker.cs" />
+		<Compile Include="Core.cs" />
+		<Compile Include="Data\ItemTable.cs" />
+		<Compile Include="Data\ItemTable.g.cs" />
+		<Compile Include="Data\LocationTable.cs" />
+		<Compile Include="Data\LocationTable.g.cs" />
+		<Compile Include="DeathTracker.cs" />
+		<Compile Include="GoalTracker.cs" />
+		<Compile Include="HookUtil.cs" />
+		<Compile Include="ItemGranter.cs" />
+		<Compile Include="KillTracker.cs" />
+		<Compile Include="LootSuppressor.cs" />
+		<Compile Include="QuestTracker.cs" />
+		<Compile Include="TraderTracker.cs" />
+		<Content Include="Directory.Build.props" />
+	</ItemGroup>
+	
+	<!-- Deploy: mod DLL -> Mods/, Archipelago client -> UserLibs/.
+	     UserLibs is MelonLoader's dependency folder: every managed DLL there is eagerly loaded,
+	     whereas a non-Melon DLL in Mods/ is skipped by the preprocessor.
+	     Newtonsoft.Json is deliberately NOT deployed - MelonLoader/net6 already supplies 13.0.4,
+	     which wins resolution by filename and satisfies the AP client's v11 reference. -->
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<MakeDir Directories="$(GamePath)/UserLibs" />
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GamePath)/Mods" />
+		<Copy SourceFiles="$(TargetDir)Archipelago.MultiClient.Net.dll" DestinationFolder="$(GamePath)/UserLibs" />
+	</Target>
+
+	<!-- ============================================================
+	     Release packaging. A Release build produces THREE assets in <repo>/release/, each bound for a
+	     different destination - the game and Archipelago are separate programs:
+
+	         ArchipelagoDrova-v<version>.zip   the GAME mod, unzips into the Drova root (Vortex-friendly):
+	             Mods/      ArchipelagoDrova.dll   (Drova Modding API is a separate install, not bundled)
+	             UserLibs/  Archipelago.MultiClient.Net.dll
+	             README.md
+	         drova.apworld                     standalone -> Archipelago custom_worlds/ (seed gen/host)
+	         Drova - Forsaken Kin.yaml         standalone -> Archipelago Players/ (sample config)
+
+	     The zip holds ONLY game files, so a mod manager (Vortex) deploys it straight into the game root
+	     with nothing misplaced. The apworld and yaml live in the Archipelago install, not the game, so
+	     they ship as standalone assets beside the zip rather than inside it.
+
+	     Off for Debug so the inner dev loop stays fast. Force it on any config with -p:BundleRelease=true,
+	     or off with -p:BundleRelease=false.
+
+	     The .apworld is NOT built here (that needs an Archipelago source checkout - see README "Building
+	     the apworld"); this copies the drova.apworld already at the repo root and errors if it is missing,
+	     so rebuild it before cutting a release.
+	     ============================================================ -->
+	<PropertyGroup>
+		<RepoRoot>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\..'))</RepoRoot>
+		<!-- Keep in sync with apworld/drova/archipelago.json "world_version". -->
+		<ReleaseVersion Condition="'$(ReleaseVersion)' == ''">0.1.0</ReleaseVersion>
+		<ApWorldFile>$(RepoRoot)\drova.apworld</ApWorldFile>
+		<ReleaseStageDir>$(MSBuildProjectDirectory)\obj\release-stage\</ReleaseStageDir>
+		<ReleaseOutDir>$(RepoRoot)\release\</ReleaseOutDir>
+		<ReleaseZip>$(ReleaseOutDir)ArchipelagoDrova-v$(ReleaseVersion).zip</ReleaseZip>
+		<!-- The Drova Modding API is a separate project with its own releases and versioning, so it is
+		     NOT bundled - users install it themselves (see the README). Set -p:BundleDrovaApi=true only
+		     if you deliberately want a self-contained zip. -->
+		<BundleDrovaApi Condition="'$(BundleDrovaApi)' == ''">false</BundleDrovaApi>
+	</PropertyGroup>
+
+	<!-- Gate on the target condition, not a defaulted property: an end-of-file PropertyGroup that
+	     reads $(Configuration) evaluates unreliably, but a target condition is evaluated at run time.
+	     NOTE: the flag is BundleRelease, NOT PackRelease - PackRelease is a reserved .NET SDK property
+	     that defaults to true, so reusing it would make this run on every config.
+	     Runs on Release (unless -p:BundleRelease=false), or on any config with -p:BundleRelease=true. -->
+	<Target Name="PackRelease" AfterTargets="Build"
+	        Condition="'$(BundleRelease)' == 'true' or ('$(Configuration)' == 'Release' and '$(BundleRelease)' != 'false')">
+		<Error Condition="!Exists('$(ApWorldFile)')"
+		       Text="drova.apworld not found at $(ApWorldFile). Build it first (README: 'Building the apworld'), then re-run the Release build." />
+
+		<RemoveDir Directories="$(ReleaseStageDir)" />
+		<MakeDir Directories="$(ReleaseStageDir)Mods;$(ReleaseStageDir)UserLibs;$(ReleaseOutDir)" />
+
+		<!-- Game files ONLY: this stage is what a mod manager unpacks into the Drova root. -->
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ReleaseStageDir)Mods" />
+		<Copy SourceFiles="$(GamePath)\Mods\Drova_Modding_API.dll" DestinationFolder="$(ReleaseStageDir)Mods"
+		      Condition="'$(BundleDrovaApi)' == 'true'" />
+		<Copy SourceFiles="$(TargetDir)Archipelago.MultiClient.Net.dll" DestinationFolder="$(ReleaseStageDir)UserLibs" />
+		<Copy SourceFiles="$(RepoRoot)\README.md" DestinationFolder="$(ReleaseStageDir)" />
+
+		<Delete Files="$(ReleaseZip)" Condition="Exists('$(ReleaseZip)')" />
+		<ZipDirectory SourceDirectory="$(ReleaseStageDir)" DestinationFile="$(ReleaseZip)" />
+
+		<!-- Archipelago-side files ship standalone beside the zip: they go in the Archipelago install,
+		     not the game, so they must NOT be inside the Vortex-deployed archive. -->
+		<Copy SourceFiles="$(ApWorldFile)" DestinationFolder="$(ReleaseOutDir)" />
+		<Copy SourceFiles="$(RepoRoot)\apworld\drova\docs\Drova - Forsaken Kin.yaml" DestinationFolder="$(ReleaseOutDir)" />
+
+		<Message Importance="high" Text="Release assets in $(ReleaseOutDir)" />
+		<Message Importance="high" Text="  game mod (Drova root / Vortex) -&gt; $(ReleaseZip)" />
+		<Message Importance="high" Text="  apworld  (Archipelago custom_worlds/) -&gt; $(ReleaseOutDir)drova.apworld" />
+		<Message Importance="high" Text="  yaml     (Archipelago Players/) -&gt; $(ReleaseOutDir)Drova - Forsaken Kin.yaml" />
+	</Target>
+</Project>
