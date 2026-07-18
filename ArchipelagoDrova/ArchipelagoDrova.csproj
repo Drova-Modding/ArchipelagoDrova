@@ -505,19 +505,22 @@
 	</Target>
 
 	<!-- ============================================================
-	     Release packaging. A Release build produces THREE assets in <repo>/release/, each bound for a
-	     different destination - the game and Archipelago are separate programs:
+	     Release packaging. A Release build produces these assets in <repo>/release/, split by
+	     destination - the game and Archipelago are separate programs:
 
-	         ArchipelagoDrova-v<version>.zip   the GAME mod, unzips into the Drova root (Vortex-friendly):
+	         ArchipelagoDrova-v<version>.zip              unzip into the Drova ROOT (Vortex-friendly):
 	             Mods/      ArchipelagoDrova.dll   (Drova Modding API is a separate install, not bundled)
 	             UserLibs/  Archipelago.MultiClient.Net.dll
 	             README.md
-	         drova.apworld                     standalone -> Archipelago custom_worlds/ (seed gen/host)
-	         Drova - Forsaken Kin.yaml         standalone -> Archipelago Players/ (sample config)
+	         ArchipelagoDrova-Archipelago-v<version>.zip  unzip into the ARCHIPELAGO ROOT:
+	             custom_worlds/  drova.apworld
+	             Players/        Drova - Forsaken Kin.yaml   (sample config)
+	         drova.apworld                                standalone, the conventional bare-apworld
+	                                                      drop-in for Archipelago custom_worlds/
 
-	     The zip holds ONLY game files, so a mod manager (Vortex) deploys it straight into the game root
-	     with nothing misplaced. The apworld and yaml live in the Archipelago install, not the game, so
-	     they ship as standalone assets beside the zip rather than inside it.
+	     Each zip mirrors where its files go, so extracting into the matching root places everything
+	     correctly (convenient for Vortex/NexusMods and manual installs alike). The apworld and yaml
+	     belong in the Archipelago install, not the game, so they are never inside the game zip.
 
 	     Off for Debug so the inner dev loop stays fast. Force it on any config with -p:BundleRelease=true,
 	     or off with -p:BundleRelease=false.
@@ -532,8 +535,10 @@
 		<ReleaseVersion Condition="'$(ReleaseVersion)' == ''">0.1.0</ReleaseVersion>
 		<ApWorldFile>$(RepoRoot)\drova.apworld</ApWorldFile>
 		<ReleaseStageDir>$(MSBuildProjectDirectory)\obj\release-stage\</ReleaseStageDir>
+		<ApStageDir>$(MSBuildProjectDirectory)\obj\release-stage-ap\</ApStageDir>
 		<ReleaseOutDir>$(RepoRoot)\release\</ReleaseOutDir>
 		<ReleaseZip>$(ReleaseOutDir)ArchipelagoDrova-v$(ReleaseVersion).zip</ReleaseZip>
+		<ReleaseApZip>$(ReleaseOutDir)ArchipelagoDrova-Archipelago-v$(ReleaseVersion).zip</ReleaseApZip>
 		<!-- The Drova Modding API is a separate project with its own releases and versioning, so it is
 		     NOT bundled - users install it themselves (see the README). Set -p:BundleDrovaApi=true only
 		     if you deliberately want a self-contained zip. -->
@@ -563,14 +568,23 @@
 		<Delete Files="$(ReleaseZip)" Condition="Exists('$(ReleaseZip)')" />
 		<ZipDirectory SourceDirectory="$(ReleaseStageDir)" DestinationFile="$(ReleaseZip)" />
 
-		<!-- Archipelago-side files ship standalone beside the zip: they go in the Archipelago install,
-		     not the game, so they must NOT be inside the Vortex-deployed archive. -->
+		<!-- Archipelago-side zip: mirrors the Archipelago folder tree, so extracting it into the
+		     Archipelago ROOT drops the apworld and yaml into their subfolders in one step (handy for a
+		     NexusMods/manual install). These belong in the Archipelago install, not the game, so they
+		     are never inside the game zip. -->
+		<RemoveDir Directories="$(ApStageDir)" />
+		<MakeDir Directories="$(ApStageDir)custom_worlds;$(ApStageDir)Players" />
+		<Copy SourceFiles="$(ApWorldFile)" DestinationFolder="$(ApStageDir)custom_worlds" />
+		<Copy SourceFiles="$(RepoRoot)\apworld\drova\docs\Drova - Forsaken Kin.yaml" DestinationFolder="$(ApStageDir)Players" />
+		<Delete Files="$(ReleaseApZip)" Condition="Exists('$(ReleaseApZip)')" />
+		<ZipDirectory SourceDirectory="$(ApStageDir)" DestinationFile="$(ReleaseApZip)" />
+
+		<!-- Also ship the bare apworld: the conventional drop-into-custom_worlds/ format AP users expect. -->
 		<Copy SourceFiles="$(ApWorldFile)" DestinationFolder="$(ReleaseOutDir)" />
-		<Copy SourceFiles="$(RepoRoot)\apworld\drova\docs\Drova - Forsaken Kin.yaml" DestinationFolder="$(ReleaseOutDir)" />
 
 		<Message Importance="high" Text="Release assets in $(ReleaseOutDir)" />
-		<Message Importance="high" Text="  game mod (Drova root / Vortex) -&gt; $(ReleaseZip)" />
-		<Message Importance="high" Text="  apworld  (Archipelago custom_worlds/) -&gt; $(ReleaseOutDir)drova.apworld" />
-		<Message Importance="high" Text="  yaml     (Archipelago Players/) -&gt; $(ReleaseOutDir)Drova - Forsaken Kin.yaml" />
+		<Message Importance="high" Text="  game mod    (unzip into Drova root)       -&gt; $(ReleaseZip)" />
+		<Message Importance="high" Text="  archipelago (unzip into Archipelago root) -&gt; $(ReleaseApZip)" />
+		<Message Importance="high" Text="  apworld     (standalone, custom_worlds/)  -&gt; $(ReleaseOutDir)drova.apworld" />
 	</Target>
 </Project>

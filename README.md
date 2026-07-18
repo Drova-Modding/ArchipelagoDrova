@@ -42,11 +42,17 @@ Launch once; MelonLoader shows a console confirming the mods loaded. Then [conne
 
 ### To generate a seed (one person per game)
 
-Also grab the standalone **`drova.apworld`** and **`Drova - Forsaken Kin.yaml`** from the same release and
-put them in your **Archipelago install** (not the game):
+The apworld and sample config go in your **Archipelago install** (a separate program from the game).
+Easiest: download **`ArchipelagoDrova-Archipelago-v*.zip`** and unzip it into your Archipelago **root** —
+it places both files for you:
 
-- `drova.apworld` → Archipelago `custom_worlds/`
-- `Drova - Forsaken Kin.yaml` → Archipelago `Players/` (edit it — see [Configure](#configure-your-seed-yaml))
+```
+custom_worlds/  drova.apworld
+Players/        Drova - Forsaken Kin.yaml
+```
+
+(Or grab the bare **`drova.apworld`** and drop it in `custom_worlds/` yourself.) Then edit the YAML —
+see [Configure](#configure-your-seed-yaml).
 
 Generate locally with Archipelago's `Generate.py`, then either host the result yourself or upload it to
 [archipelago.gg](https://archipelago.gg)'s **Host Game** page. archipelago.gg can *host* a Drova seed but
