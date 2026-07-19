@@ -1,0 +1,7501 @@
+{
+ "001e243e-0c04-4436-8b91-288dd6684fb0": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silberringmind_0"
+   }
+  ]
+ },
+ "02c1ba7e-947c-4d86-b14b-9aa429f2f067": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "03c394b4-c2ca-4ce7-9cfe-aec429ec7d5b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_egg"
+   }
+  ]
+ },
+ "03fc848b-d297-4543-b992-19be5d22bbc1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "0482af41-17f5-4830-8a7f-dfd63bb2af70": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "04e38d01-d4a4-49c4-95d5-86cf34caec0f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "051def0f-b747-4506-a091-0cede3b3a68e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "065f6f7f-6054-4c7b-80e3-e97d0f325735": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sling_battleSlingshot"
+   }
+  ]
+ },
+ "06f8383d-d5d8-447a-88bb-da18b00d52a8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 25,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 10,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_meat_raw"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_riddle_sundial"
+   }
+  ]
+ },
+ "07c0e661-91ff-43e7-a742-d5e62d2a4a8e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silberringskill_0"
+   }
+  ]
+ },
+ "0839566e-5efc-461f-893d-e423da927f2b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "089920c1-f35f-4fee-9323-0291738ec551": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_gladius"
+   }
+  ]
+ },
+ "08c705c1-b1a6-4366-a629-40ac07f552cd": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "09468086-f7f3-4a11-b439-a111b7efc7d7": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letter_fleshboss_pre0"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverArrow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   }
+  ]
+ },
+ "0a67a7c6-365d-469f-8811-43b79cf91628": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 31,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_1"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_earthroot"
+   }
+  ]
+ },
+ "0b0ff590-a916-4178-96d3-f77192ea2f1c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beartrap"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_blanktrap"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shiningfur"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "0c57694e-095f-4188-9dd4-7c348f967d2b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "0ccf2954-cbcd-412a-9bf0-402fc16c3269": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "0d3b63a8-52da-494f-81ac-594eb46ac83d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "0df8c761-ffd5-4d3e-b489-63548583891b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 73,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_1"
+   }
+  ]
+ },
+ "0e4b4acc-8846-4641-852f-3e7ac754f2ed": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "0e51390f-ef29-45f5-a384-b5ac0bce1d5a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "0ecf68ee-9fca-4f48-889e-2be8de515a0b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_poisonedThrowingKnife"
+   }
+  ]
+ },
+ "0f0b4d4c-ad68-455b-8206-19c54606c848": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "106e02a5-9b06-46bd-beb1-370324e05fd7": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_beartrap"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_splittertrap"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironArrow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "11ba1b7f-0a30-4b0e-bd39-7faf50aca46c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterMehlunaToBady"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honeyMead"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bomb"
+   }
+  ]
+ },
+ "11ce1000-9502-4bb3-bb03-67fe71e04abc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   }
+  ]
+ },
+ "124353c5-568a-4267-86f3-70aea7a247a6": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honey"
+   }
+  ]
+ },
+ "1248632e-4f8f-4bec-85ac-34d3c612449e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_blink"
+   },
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterAtlanter_Excalibur"
+   }
+  ]
+ },
+ "128f359f-60d0-440b-99aa-0f8e4082b4db": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_hunterquiver"
+   }
+  ]
+ },
+ "12d4b029-6503-486f-9fea-2107e209a30a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "12f5b986-bf70-46fc-a642-9a3c733b3f8e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_shield_smallBronzeShield"
+   }
+  ]
+ },
+ "13ce3f51-b71b-404f-bc6b-f1fa3826128a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "141d7a75-e1e2-4bf2-abe1-4fd6528cb942": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rustymosspipe"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_riverbedmoss"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_windwalker"
+   }
+  ]
+ },
+ "1437237c-bbc3-4278-8d60-3caf0c6358bb": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_redHerb"
+   },
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "14d5f861-f91d-4573-bde5-ece96bd9e24b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   }
+  ]
+ },
+ "15372e56-c758-4f55-a20b-30af125b74d5": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "15b9fe04-d989-458a-99fd-b922dad56468": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_spear_ango"
+   }
+  ]
+ },
+ "16cf79fd-bbbf-4bb5-9c5f-e1cb63b6572f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_redHerb"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_povage"
+   }
+  ]
+ },
+ "1711f32c-bf16-47b9-8225-c565bdad7388": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 120,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_auwaldDungeon"
+   },
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverArrow"
+   }
+  ]
+ },
+ "1776a900-8759-4f77-b3a6-97e46801fcd2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_1"
+   },
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   }
+  ]
+ },
+ "19cd4deb-c352-4232-8b5d-63f6adc39364": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "19d713a5-12dc-491d-92a7-98b12ca802fd": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironore"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bomb"
+   }
+  ]
+ },
+ "19efe1a3-8a78-4932-8bd5-f341f0e15d15": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "helmet_hood_bandit_name"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "1a4bd783-b92d-4231-9f87-440acf1df5ed": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shaftofpurefury"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_riddle_sundial"
+   }
+  ]
+ },
+ "1ae760b5-ca07-43ba-a82f-de2d576e994f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "1c6ffc46-0b40-42fd-b108-0055925f7b28": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_farmersFood"
+   },
+   {
+    "amount": 29,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_wine"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "1c7d3ef3-b377-4efd-b449-5b75b90a25b1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bloodquitostinger"
+   },
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_brokenwings"
+   }
+  ]
+ },
+ "1cab1d2d-5186-41f8-9da4-c687566cc099": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 35,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_armorring_0"
+   }
+  ]
+ },
+ "1d6f1b5c-9acd-4f89-a5c0-fa575497e8cf": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverlump"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rubin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   }
+  ]
+ },
+ "1df87cbe-d0c0-4115-8649-3b6eb17f1679": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "1ea67fd9-662e-49fc-b8e7-62b471130751": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "note_naughty_male"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_knife"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_apple"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_egg"
+   }
+  ]
+ },
+ "219cd437-62db-47cd-bf8c-f94c080cdf2b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 43,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "21fa094d-a177-40f5-91e0-8b4f862919fb": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_apple"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bogwheat"
+   },
+   {
+    "amount": 24,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_redmushroomtincture"
+   }
+  ]
+ },
+ "221b6498-6c0e-427f-9cda-48d0524316a5": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conjure_rats"
+   },
+   {
+    "amount": 13,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "22ac0faa-991a-4fcc-8e70-aac32c9fde6b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "2361890e-9310-4cda-82c7-061e48dcd2d2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_wine"
+   },
+   {
+    "amount": 19,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "24093989-eca2-4c34-b620-c94e0be41a3c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "24583a4d-7c15-425f-b2fd-75adbacb039a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "flow_natureTouch"
+   }
+  ]
+ },
+ "2481f682-fdc7-4ac8-b3b1-ddf6f6f706ad": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sling_simpleSlingshot"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   }
+  ]
+ },
+ "24d1f649-a6d2-4f81-8129-0265b0483024": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 38,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conjure_rats"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_windwalker"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_whirlingEnergy"
+   }
+  ]
+ },
+ "24d741df-8faf-4e63-8be1-bf44c9c44942": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "2637f599-c600-4361-84ec-24b351bc4cde": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "26b0f740-cd46-4328-81f6-4263a1203f7e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "26e22776-7923-4d1b-9aed-8b6f27f59f46": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "27558192-c3d9-416e-a389-a7b1f123bd53": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "27cfbcf7-6c46-41f4-87d5-fb922115065f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "28cf0601-a988-4eeb-87ff-69014f33437a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "2ac5ca9b-be61-4268-b2c4-23b47a1c41ca": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "2b99005e-105a-4b0e-affe-a882623ec146": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "2ba32124-27b3-4ba4-a3ad-9f02a8191e00": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_shortBlade"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rubin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_diamond"
+   }
+  ]
+ },
+ "2bd1dd01-2c2c-4aa8-a2be-54f3bc4727b8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "2c5dd922-2686-4aae-a59e-ba8135bf7318": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_meat_stringy"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honey"
+   }
+  ]
+ },
+ "2cec7836-5392-4c5b-8186-65d6cf0c6d3f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "2d1bbb6f-d21f-4029-94a9-633d09f10160": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_fogstew"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_heart"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_glauglocke"
+   }
+  ]
+ },
+ "2d74fbe4-e98d-4bd7-8087-ca03b1dd17bc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 10,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterboard_fragment"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_1"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_theKingslayer"
+   }
+  ]
+ },
+ "2edfb3ea-5602-4610-9d88-a0ebf611bd26": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "2f230435-6ea1-4fbd-8a9b-b744fe450e8b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_riptoothchain"
+   }
+  ]
+ },
+ "2f5492e6-2e02-4f83-b4a1-59c047d64059": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_diamond"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_fireCry"
+   }
+  ]
+ },
+ "2f8eef0a-a02b-4206-a8e9-e5731d09b593": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironlump"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "2fba9b1d-f546-4e46-8bc1-0d7addd7a8fd": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silberringmind_1"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shiningfur"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_essence_stone"
+   },
+   {
+    "amount": 28,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "30545a25-23ac-4ea9-b96c-2ea21e753d89": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "3195b644-6f6c-4f61-b4b7-8b24fb4cb09b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_lifering"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_bronzeTusk"
+   },
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "3195ff6f-115c-4e29-b84c-c861e000d3bf": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "31e108c8-9d12-48c6-938f-9e761e2a7ebd": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_resin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_gnarlyroot"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   }
+  ]
+ },
+ "32035069-4d40-4261-a53b-2d9ecd39981f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "armor_chest_nemeton_social_name"
+   }
+  ]
+ },
+ "32b030ac-bc87-47fa-8132-0ede79d1a24d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   }
+  ]
+ },
+ "32bf151e-b94c-409f-8156-9462ecedafa2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_splittertrap"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_jaggedthrowingknife"
+   },
+   {
+    "amount": 11,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "32c27fdc-cb9f-4d60-a8ff-3c39434be95d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rubin"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_glauglocke"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_boartusk"
+   }
+  ]
+ },
+ "3418da6b-9e9f-4520-b51f-c82c37f5168e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_thunderstorm"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "helmet_earprotection_name"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_flowPlant_1"
+   }
+  ]
+ },
+ "344da45c-9249-48fa-85be-2cab29abfd2f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "348642db-9447-4b4d-b0e3-8d1d9a936f62": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterAtlanter_DrivaniusAttitude"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_riddle_sundial"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "35019b00-be01-4fd4-a59f-52bfd33495aa": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 73,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ripperfur"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_jaggedthrowingknife"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_coarseDoubleAxe"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "35cb1ffb-9153-4aaa-84b5-d529c87ba6e3": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterAtlanter_Extractor2"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_engraving_stones"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_wine"
+   }
+  ]
+ },
+ "36547c3e-c3f3-47a4-af48-cf805a6a9ba4": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bearfur"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_meat_raw"
+   }
+  ]
+ },
+ "36f6bcd8-92d5-4ed8-a04d-35b3772126ae": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conflagration"
+   },
+   {
+    "amount": 11,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bloodthirstamulet"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_fireCry"
+   }
+  ]
+ },
+ "373de97b-c481-4777-9a14-fc131b0a64c2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "37d763f3-8e1b-4eb5-8684-8f9de9e88c52": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_sword"
+   }
+  ]
+ },
+ "382bddc2-b621-493a-8efd-f9954c7bba99": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "flow_graspingRoots"
+   }
+  ]
+ },
+ "38a546a8-2e8e-4aa3-bac0-59f851abc7cc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 49,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_meat_raw"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   }
+  ]
+ },
+ "38f13293-f42c-4ca0-a0f9-f74489f28e19": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "39a7aa21-2c96-4b46-9680-5e4f3b8d10af": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_armorring_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_blanktrap"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "3a942cf9-bc8a-4964-b586-d11485e797ee": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rustymosspipe"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "3ab0b6e0-65e9-44ef-bb09-8a214d92d6a4": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conjure_pack"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beartrap"
+   },
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "3bec14c4-ef7f-406b-bac0-23a957e5b2a8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "flow_blast"
+   }
+  ]
+ },
+ "3d07f473-ae5e-4a6c-adef-e289cf5fa9f0": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "3d3956a7-6633-4e54-bf1c-0db49f8b0b67": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "3d573903-6b27-430a-98c4-c99c805bc310": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 49,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_sealstone_past"
+   }
+  ]
+ },
+ "3d8311f8-6bed-4232-abb8-9c11df2f17ed": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   }
+  ]
+ },
+ "3db90aca-f620-4b66-972b-10dc63fecb56": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silberringmind_0"
+   },
+   {
+    "amount": 13,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverlump"
+   }
+  ]
+ },
+ "3df47387-d9f4-4455-87d7-b038f50c987f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "3e2e9e52-8528-4604-8335-3ac5cd35d538": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_1"
+   }
+  ]
+ },
+ "3faf4aec-ddcb-49c3-a5cf-3953818a6dbc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_eviscerator"
+   },
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   }
+  ]
+ },
+ "4056267f-8bf5-4b54-850b-cac173752588": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_leather"
+   }
+  ]
+ },
+ "4075316f-38d3-4340-aa01-337de2ae30d9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   }
+  ]
+ },
+ "40f05974-096a-4971-80af-7f692400b841": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "41db5911-1e98-4d62-b5d4-9d8fbad194b9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_0"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_windwalker"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "437e7ac2-625f-4043-8a0d-00e7adecf3d3": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanterAcademyText"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_wine"
+   }
+  ]
+ },
+ "43c8b5c5-ad0b-4184-ac59-6bfd7c89c320": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beartrap"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   }
+  ]
+ },
+ "44845fa3-9d00-4366-89e6-7e6b64bf05d3": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_whirlingEnergy"
+   },
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_povage"
+   },
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_wornBronzeDagger"
+   }
+  ]
+ },
+ "45e8ba41-f6bc-4475-a162-8ea95972a759": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_brokenwings"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_1"
+   }
+  ]
+ },
+ "45f1ecc3-603f-4680-9bcd-923bf25648f8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "471ffc13-f44b-4081-9db4-285e369d37bc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "armor_chest_leather_name"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 13,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "47c441dc-047c-4541-855e-090727c8013b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_0"
+   },
+   {
+    "amount": 37,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterAtlanter_ToTheRuinRaiders"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   }
+  ]
+ },
+ "47cdb9d4-4414-41a5-abb4-57bbc065e2c1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_apple"
+   }
+  ]
+ },
+ "47dbe955-c2e1-4139-8777-da1e4e811754": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_leather"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironStone"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ripperfur"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beartrap"
+   }
+  ]
+ },
+ "4807dfd2-2d7c-44a4-bf48-925ae400af24": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironore"
+   }
+  ]
+ },
+ "485b9bb4-dd41-4909-bc70-5864f9c40478": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "496e3d5c-cccc-4d24-9687-f170fe811c72": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 27,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "497bfb24-067e-4cfe-8039-bbada7f635c5": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "armor_chest_bandit_T4"
+   }
+  ]
+ },
+ "4a0fe1d5-e441-45e2-a1a4-7e5b426e27cb": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "4b8529df-9172-4b9d-8316-442467d6cc65": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "4c6a3a69-9b8f-4859-b08c-a844901802ca": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "4ff053a6-9d85-4c03-9e6c-2bab57e5ec35": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "50b5d717-3a15-4f96-891f-7ab0f9f63d8a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "flow_spiritShot"
+   }
+  ]
+ },
+ "5190183f-9ea5-46c9-9683-abfaf87bfdfa": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_roughSword"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_broadsword"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_warClub"
+   }
+  ]
+ },
+ "528ae32c-0bbc-4714-b499-f4fe21a20b9c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_ironSpike"
+   },
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shadowmushroom"
+   }
+  ]
+ },
+ "539e8fa7-8049-4258-bafa-ec7e59203fd6": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_engraving_stones"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "53ad8ed6-9e7b-4d5f-be4f-80409ab13b04": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "5439bea0-dbdf-46cd-98e6-1fa738d840fc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "54728fb4-a851-4859-ad64-54a1d91aad87": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "5622897a-0b86-4924-89ea-dc7e30850b02": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_vipertooth"
+   },
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_poisonedThrowingKnife"
+   },
+   {
+    "amount": 15,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "56ad4c09-9125-4e44-ab51-3e03f4d0a1c4": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_spear_simpleBronzeSpear"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "56d5bcee-be24-4901-b459-283a04d49963": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_leather"
+   },
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   },
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_claw"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_ancientSword"
+   }
+  ]
+ },
+ "5716c09c-4ea0-475c-959f-6260da3b006d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "571c7440-a7b5-4136-a1ea-caf9b6957e5b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "5738ac72-2fc8-46c3-941e-4fcaaf0bfd4a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "579d151e-e76c-4c1e-9b8d-1bda4e250922": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 27,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency_big"
+   },
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rustymosspipe"
+   }
+  ]
+ },
+ "5a7740a5-f8bd-42e5-9636-6b934b3857a1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stolenPackage"
+   }
+  ]
+ },
+ "5ad62f56-93a7-4a8b-855c-6b471ed8ebbf": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 200,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "5cdad66d-5004-43c4-9f14-c9d172de3c10": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_energyProjectile"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_mushroom"
+   }
+  ]
+ },
+ "5d85daf5-ea45-4749-ac1a-740aaa530327": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "5dc68bac-5cc4-4ed4-8b25-6092980e9049": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "5dd3dbb0-3e0a-4c53-a0b8-49fcbb6493d5": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rubin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_diamond"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conjure_rats"
+   }
+  ]
+ },
+ "5e6fbe66-3ab9-4ce5-b958-6e5cceae9009": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 9,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ripperfur"
+   }
+  ]
+ },
+ "5fbfc61e-1cce-46d5-9c96-3603db894beb": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "helmet_crown_name"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_riddle_sundial"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   }
+  ]
+ },
+ "60476aad-8aa1-4da0-b973-0748ef4bc5ae": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_fishpan"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_needlelichen"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rustymosspipe"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_Map_Treasure_Forest"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "60ab9bec-5a10-41cc-ab64-0984d52244fc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   }
+  ]
+ },
+ "60e9f6c3-0342-4ed8-a69f-02768dec2e67": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   }
+  ]
+ },
+ "613819e3-824b-41e6-9a3b-d4dca8bcecff": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   }
+  ]
+ },
+ "64088c4b-d1d1-4c70-868f-3dd1b7418bde": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_thrownet"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironArrow"
+   },
+   {
+    "amount": 15,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironStone"
+   },
+   {
+    "amount": 21,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "64ed7b12-775e-439c-a2bf-6c64e1c3c180": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 27,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shadowmushroom"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_cavemushroom"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "651836a5-af76-483f-aa71-604c144babc3": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "658a0d85-a79d-470c-b157-3647e5b6722b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "65c96df8-b736-458c-8150-db71cf0eb992": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "armor_chest_tunic_name"
+   },
+   {
+    "amount": 20,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honey"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_nailClub"
+   }
+  ]
+ },
+ "66c7c027-6570-45b3-88ca-907efb459f74": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "677c7372-5d06-41fd-9f3d-e3a3dc2de2d2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "6783f3fb-7858-44cc-b34f-582f998e1b28": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterAtlanter_WhereIsDrivanius"
+   }
+  ]
+ },
+ "6826552c-e85d-4d65-b7e4-ae78a39d0596": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bomb"
+   },
+   {
+    "amount": 29,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "69ff72f1-2e98-4d24-83ac-065a7cb3e7ab": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_needlelichen"
+   },
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "6a8c1d7c-734f-4d98-8841-c17546810ec2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_bronzeShortSword"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   }
+  ]
+ },
+ "6b05b376-a093-4669-aa0b-d93fa2e9273b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 40,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_spear_woodenSpear"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_venomCry"
+   }
+  ]
+ },
+ "6c61a680-c5da-4932-a39b-fc7b413835d6": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "6d162cbd-4f89-4c76-a6bd-a7147e2a1199": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_egg"
+   }
+  ]
+ },
+ "6d79f28d-da48-445c-9d91-67e2ad42c4d1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "helmet_atlanter_champion"
+   },
+   {
+    "amount": 100,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_1"
+   },
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   }
+  ]
+ },
+ "6d83ba30-41d9-4aa4-94ac-d06b6a2698da": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   }
+  ]
+ },
+ "6e290c2c-4a4b-4bf0-91b2-0db047fe3668": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_throwingknife"
+   }
+  ]
+ },
+ "6eb9855a-04be-4278-8122-64b809ee6d25": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "6ed4ebc8-4683-4bce-ad91-fae04dd9e242": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bearfur"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beartrap"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_ensnare"
+   },
+   {
+    "amount": 37,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidbomb"
+   }
+  ]
+ },
+ "6f4e73ab-438a-4382-ae96-17968d9c625e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_callashroom"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "6fcdc980-155b-43a2-9fab-e4878cd2fc16": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "6ffb8968-1275-40d6-b932-414d7e92b75f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_root_cone"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_resin"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_gnarlyroot"
+   }
+  ]
+ },
+ "70177f12-ce6f-415f-9b55-22814f6ca571": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   }
+  ]
+ },
+ "7189a92e-c4e5-4f31-b122-29e9d831aeee": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_thornfetish"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   }
+  ]
+ },
+ "7237ef17-d130-41c6-af12-bbaf8bbec987": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_gnarlyroot"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_resin"
+   }
+  ]
+ },
+ "723fe516-8d60-4def-94d7-0d76c71f5560": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_tarnishedSilverCup"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   }
+  ]
+ },
+ "73382405-d4af-406e-9c51-17081c897a24": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   }
+  ]
+ },
+ "75b63b5d-1a0e-45e3-8bed-4b1103cff4f8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "75ef9db8-3fbe-4388-b1be-ccd6a1ee0755": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "76424b63-902e-44af-be02-7d691d2626fe": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_wornBronzeDagger"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_callashroom"
+   },
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "771a757b-0818-4368-828a-182e3567bd71": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "77c62446-4594-4b84-9280-2fd4c6ebcd23": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_1"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rustymosspipe"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_elixier_strength"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_essence_stone"
+   }
+  ]
+ },
+ "787ffcf8-8f22-4c3d-b953-3b83a06ac367": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sling_headSlingshot"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterAtlanter_Revolt2"
+   }
+  ]
+ },
+ "7a448c15-5817-4d72-8a56-c80280454cc9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_splittingAxe"
+   }
+  ]
+ },
+ "7a6563c7-0201-4297-8883-3d110bb2c441": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "7acfa977-9362-490f-a265-7762f1955250": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "7b29a7f7-b107-42a2-8f4e-cf25d5eddf9c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "7b5ab01d-3762-444c-9744-407be0087ce6": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "7b95aa5f-4bd6-498e-9135-083f61cabce5": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "7c6da9de-b282-4494-b050-684f757bc502": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverringstrength_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "note_naughty_female"
+   }
+  ]
+ },
+ "7c8402b5-96c3-4342-8861-d2803ce1279f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_bronzeTusk"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conjure_pack"
+   }
+  ]
+ },
+ "7cb58c42-51a5-46e6-aaaa-ea36faa61a6d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_brokenwings"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bloodquitostinger"
+   }
+  ]
+ },
+ "7ce91e21-ff18-4827-9b87-fe85e9fff56b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "7d4de5ef-72da-429f-823d-40ecc063430f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "7e272a38-d1f9-4737-9a52-01ac00f77d68": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "7e4f42cc-bf65-4ab2-8b9b-f542995ae75d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_tarnishedSilverCup"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_whirlingEnergy"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_thunderstorm"
+   }
+  ]
+ },
+ "7fd52325-3bdc-47bf-9d8e-5b93a5e364f3": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "8146fbb2-a9e1-434f-9faa-ea8ee9f9fef8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 37,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letterAuwaldDungeon_5"
+   }
+  ]
+ },
+ "82c33fb9-1d72-489b-8afd-8836d96d042d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   }
+  ]
+ },
+ "8327934f-96e9-4fd0-b4b1-d05f961c2902": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "83417297-f942-471a-8355-f496c3b29451": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honeyMead"
+   },
+   {
+    "amount": 23,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_roastedMeat"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   }
+  ]
+ },
+ "83538df8-8516-4117-aa84-4a46872c2965": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "840579ab-5d2e-4fb7-be16-138d9e69bbf6": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "846e8b74-9194-46e6-bc14-0ec7d7634c78": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shadowmushroom"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_whirlingEnergy"
+   }
+  ]
+ },
+ "854b3780-66b0-4989-adf2-facce5d955db": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   }
+  ]
+ },
+ "859a6fe8-575c-4542-ac3a-ea30c4de6901": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "85ddd062-c9c0-4818-b231-41fd1f7ecc56": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   }
+  ]
+ },
+ "860c9911-0401-43d3-84a0-cb2006d49a5f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   }
+  ]
+ },
+ "866271b3-35e1-4b5c-8aa1-9da1d93e820d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "86960472-d0c1-466c-994e-4335a8169e1d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honey"
+   },
+   {
+    "amount": 15,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "88823faa-6581-4778-bfec-3021da053ce9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_spear_bronzeSpear"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sling_battleSlingshot"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironStone"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   }
+  ]
+ },
+ "88ad5412-0df1-40fb-a242-2f3d416dbd2e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_lifering"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_resin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_thornyRanke"
+   }
+  ]
+ },
+ "895af681-551f-4ed6-8ae1-6a569d3d7d3b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "helmet_nemeton_guard1_name"
+   },
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_poisonedThrowingKnife"
+   },
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "897f4b45-4f4d-4774-a5da-ff6e6f6a163c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_roastedMeat"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "8a535d94-06ab-4943-8352-9962e17f7e19": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "8af2bf1b-0ce0-4620-9e71-5f0721d4151c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "8ba66110-392a-4ed6-9fa9-8bab2cb0c37b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "8bb849cd-5acc-48d3-a2b4-00d56c68479b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "key_harvey"
+   }
+  ]
+ },
+ "8ccae760-9885-4b14-b30b-837eb000181f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "8d040272-d5d4-4a3d-834d-3a8f357d18c5": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "8e3c2ad9-83aa-4bc8-8e5c-66dcde27c51c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "8e41c892-7882-4cfa-8403-6b236d671243": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "8e8c2585-1bac-4943-bb77-7e4af25b04e3": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_windwalker"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_harpyiefeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "8febb1c9-af7a-4689-a4c3-fc8d10bb6ea6": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "90247a28-817c-4977-b8b7-8777b3bc79f1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_wine"
+   },
+   {
+    "amount": 36,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "90829b06-8b7d-4f8b-be24-b76a2acc93ec": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "91bfcef2-9221-45b5-bf73-439fffaded4f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conjure_pack"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conjure_insects"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_energyProjectile"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_harpybrew"
+   }
+  ]
+ },
+ "91d43d37-990d-48b7-b782-c8e7fdef0f20": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_diamond"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   }
+  ]
+ },
+ "92cd70c7-29af-4440-86c3-4e702f8a5271": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_bow_simpleBow"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 23,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   }
+  ]
+ },
+ "93021938-1265-4ed7-bedd-9c9f044b56fe": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "930d08cf-af3c-40f1-a1f1-87427be727a4": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_fireCry"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "9363346e-b942-4057-9e3c-3e26bc568df2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_fish_trout"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shadowmushroom"
+   },
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_berry"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_earthroot"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_egg"
+   },
+   {
+    "amount": 25,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "957c0fd3-585d-4676-9d80-aa0a9c74f37e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "963c0725-9f3d-4958-a8ea-66b9adec1e76": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "96e9e093-b3d7-4ce3-be07-7025cc880d1e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "9718ee5b-a7e0-4702-ab5b-d127ed92a0e1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "973b59ee-a364-431c-90b7-1f36d2c07770": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "976d003a-f735-4e6b-a4dd-275b4225e391": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_shockingBlow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_spear_ger"
+   },
+   {
+    "amount": 35,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_knife"
+   }
+  ]
+ },
+ "97d7682f-89f0-4158-8ccc-33518bf3a0b7": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironArrow"
+   },
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_boartusk"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "993a526b-b8b6-4eae-94f6-bf0f64026795": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 27,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   }
+  ]
+ },
+ "99fcc173-9d99-4d85-93a9-0a2af0fcbc1c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_bronzeTusk"
+   },
+   {
+    "amount": 11,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "9aacc44b-34c1-4f86-8050-609b66f8812f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_shield_smallBronzeShield"
+   },
+   {
+    "amount": 10,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_yellowGlyphStone"
+   }
+  ]
+ },
+ "9c866fd5-eed0-4a7c-b2aa-9309f6e477ae": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   }
+  ]
+ },
+ "9cc28321-0270-44a2-b4e3-50ce1e6610f5": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "9ccb89aa-14a6-4fd4-8122-9873c20598dc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "9d43e732-12b1-4ac4-82fb-5819d6eeb3a1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverlump"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   },
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   }
+  ]
+ },
+ "9dff716c-b890-4c81-a9fe-9ea5ed6fd053": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_splittertrap"
+   }
+  ]
+ },
+ "9e332560-01b4-49f7-922c-76d3f206ab06": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honey"
+   }
+  ]
+ },
+ "9e8bb8e9-0de2-46f1-be93-73f0d11a3344": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "9e978830-1b83-425c-a2e6-53a8f8639031": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   }
+  ]
+ },
+ "9eaf689e-4dd6-48fc-9325-8c3a67296e49": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conflagration"
+   }
+  ]
+ },
+ "9ef36818-d9a4-4d48-8968-4cf20e7665f0": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_bullRush"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_mudmash"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_povage"
+   }
+  ]
+ },
+ "9f286196-2868-4bc4-b670-8b7236f0b94a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "9f7b1d33-b797-48f2-bf5f-b3eacf9f372a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_KendrickHideout"
+   }
+  ]
+ },
+ "a01b477a-9e28-4f89-8120-0933760446f7": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_meat_raw"
+   },
+   {
+    "amount": 20,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_egg"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honey"
+   },
+   {
+    "amount": 30,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_callashroom"
+   },
+   {
+    "amount": 40,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bogwheat"
+   }
+  ]
+ },
+ "a0d602d4-9b7d-4436-8b94-318e6070506d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "a0eb7216-2648-4453-b97f-b98abb101e08": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "a0fbd2dc-48af-4acf-9030-53bcc07df2db": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   }
+  ]
+ },
+ "a0ffaae8-0c4a-4d7c-90a1-e0b6bb273d1a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_energyProjectile"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_meat_stringy"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   }
+  ]
+ },
+ "a13617ad-3ef2-4a2e-9dd8-63a3c3401e89": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_windwalker"
+   }
+  ]
+ },
+ "a15ceb1a-4b0b-4c94-a4ab-4a5c85973b11": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   }
+  ]
+ },
+ "a1716910-09c7-4fb6-8b9d-365af2e58f20": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "a1a18a53-59a5-4f37-b90d-19386dd45701": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "a27fa607-4c74-4794-816a-ce905a45a775": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "a2907094-eb1b-4b76-b625-a63b490c1773": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_battleCry"
+   }
+  ]
+ },
+ "a2a2c96e-8750-44ca-953d-b8060fa2b8ab": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_conflagration"
+   }
+  ]
+ },
+ "a2ab77eb-61e9-4533-bbd5-648f60d5e5df": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "a377fde2-44e5-44ce-a1dc-2113bb527915": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "a5424538-fdf1-47a1-9c67-0c1e61ea588f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_egg"
+   }
+  ]
+ },
+ "a56693f3-0e2d-4fb5-8c6c-9c2505f41985": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "a5e8d65c-dc55-462a-af6e-00cad51c3f4e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "a76a8844-5391-4dfd-9c3d-7550c784ebc4": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_ceremonialDagger"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silberringskill_1"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 27,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "a7b564a4-b775-4abc-a3a5-77f9b6c32433": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_pineDagger"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_knife"
+   }
+  ]
+ },
+ "a80eeb96-c055-42d6-972b-65b0362dd079": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "a843de56-c325-40a7-bbd8-8b575d22fa5b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironore"
+   }
+  ]
+ },
+ "a8d4717e-9c53-4d9d-a289-d4be375e1670": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironore"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   }
+  ]
+ },
+ "a9d38ca4-3efb-4550-9fa7-86ee3f2d095c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "a9d4c289-d47c-4ddf-9f09-e33161ba8f3c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironStone"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_boartusk"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bear_claw"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sling_battleSlingshot"
+   }
+  ]
+ },
+ "a9db3b9f-08cd-48b1-8ed4-28844a4cec04": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_oldAxe"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "abe5884a-f36c-4f7c-9b66-13916e2ffd24": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_ferventCry"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   }
+  ]
+ },
+ "acd0a64b-9c71-4b21-9fb2-35ea335a38bb": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_trinket_boxer"
+   }
+  ]
+ },
+ "adc56983-d80b-427b-9b22-c79f83e2837a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "b15c55fe-800f-491b-a841-94b6fab487f8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "armor_chest_tunic_ragged_2"
+   },
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_engraving_stones"
+   }
+  ]
+ },
+ "b3d9edbf-4f01-4717-86d5-ae3c90e6a276": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "b3e89c41-5c3c-4fa5-b8ce-aa54331db750": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "b4c6bc17-70d9-4abd-9be7-7d8cbb28f8de": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "b4c87789-a107-40c0-a03a-08968a0d0e38": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letter_fleshboss_pre1"
+   },
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   }
+  ]
+ },
+ "b5028d86-5ecc-4d83-b08d-bf6a7833c513": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 17,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_riverbedmoss"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   }
+  ]
+ },
+ "b6b0b0c6-4c28-4719-a719-9be7edbef4ef": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_bow_huntingBow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "b6ce0805-eed5-4067-a50c-bc4fd8486f80": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "b91d3885-3745-4944-b139-b21f3e5469bc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "b9510822-5799-4413-b4cf-01fa481cc8af": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_redHerb"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_callashroom"
+   }
+  ]
+ },
+ "b953a055-52f0-42f4-9308-ef0e4ee2de08": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "b973c722-a4a3-434d-b919-d2cac33527c0": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   }
+  ]
+ },
+ "b99b8618-f89f-4cdd-b355-6ff45b1c15f2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_lifering"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_resin"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_thornyRanke"
+   }
+  ]
+ },
+ "ba35e904-c65d-42e9-bc35-182d37acee7f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "ba55175c-4f93-45c8-8fb5-3d7874cf5ff9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "ba960668-7efb-475e-a4ed-80cc6cc33d85": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sling_coarseSling"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_slingermunition"
+   }
+  ]
+ },
+ "bc274ae8-4bd3-4aa3-99ed-8576be6e6c05": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conflagration"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_magicresring_0"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_0"
+   }
+  ]
+ },
+ "bcd57cb5-ef2f-4eb0-be89-a026ee5e577c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_shockingBlow"
+   }
+  ]
+ },
+ "bcfac599-2619-4832-bc3e-c0d211b0268a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "helmet_onion_name"
+   }
+  ]
+ },
+ "be404984-1ad6-4e73-a161-e31024543ccd": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_ferventCry"
+   }
+  ]
+ },
+ "bf8dc045-178e-4e32-92c5-ab69e4da9c40": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "bfcdacd8-c84a-4493-b308-4a8ff2d51854": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   }
+  ]
+ },
+ "c03eb3b6-dd24-4bdb-b92e-c6ab25f6abef": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   }
+  ]
+ },
+ "c0d58a5b-c720-412a-862e-ce4bc90d42ad": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironArrow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shadowfur"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "c1dc6a5d-a500-4a99-a4d1-3358f5c99b61": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_tarnishedSilverCup"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_energyProjectile"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   }
+  ]
+ },
+ "c2950dc0-f65c-4d65-9a99-3dac3763df99": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "c3165b81-60cc-455a-9eff-9df96bcf0ea0": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "c3281290-a710-4401-9c05-8f02739d4955": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_fish_bass"
+   }
+  ]
+ },
+ "c3f1029c-5ec3-40c9-869c-a3da171d936f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_salve_healing"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   }
+  ]
+ },
+ "c4352a57-8d91-41ac-827b-34c91f645d4d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "c45223b1-9870-49a8-9f9e-002e30899414": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_egg"
+   }
+  ]
+ },
+ "c658a89a-c09a-43e9-a291-ec780cc15f71": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "c677ea37-a037-4c23-a113-fe02b207cc79": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 9,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_redHerb"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bogwheat"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_mediumquiver"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_fogForm"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "c7a7befe-9339-4b41-95da-b3e361826a7c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "c930b3b7-35fe-4bb7-a060-ea2f3e9bcd3c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "ca84509a-10ae-4b75-81c4-7ed62faf8d29": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_redHerb"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_mudLotus"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_callashroom"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_sacrificialDagger"
+   }
+  ]
+ },
+ "cb113a14-20ea-4406-9c6e-8e19464ff96c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "cb5107ed-9242-4e6e-a6ee-d88f23de9fea": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "cc015ebc-4304-48d5-930e-b9bb7ccd1f9b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 23,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_povage"
+   }
+  ]
+ },
+ "cc748d62-1932-409c-9dab-2537714ee10d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   }
+  ]
+ },
+ "cc7a689e-95c5-4197-8d63-3660f2da4eef": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "cd96c517-82a3-44e2-82ff-99a4f4c542ea": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "ce76b496-dd61-4e85-8207-9908ea6cbe7b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_bullRush"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_letter_sick_siser"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   }
+  ]
+ },
+ "cfb58fa8-27d0-4962-8b6b-db8b901914c6": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 6,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironore"
+   },
+   {
+    "amount": 43,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_bullRush"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_lightAxe"
+   }
+  ]
+ },
+ "d0019ee5-be13-4790-8ad3-53c0ce5e2e0d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "d0b325f2-b611-4dfc-b7cc-f5488a881c7c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_sword_shortSword"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "d136ea62-b57f-4dc2-94d9-54b612d07d4b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 10,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bogwheat"
+   },
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_apple"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_callashroom"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_povage"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_fish_bass"
+   },
+   {
+    "amount": 29,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "d1d4e4cf-8107-4d9c-b132-3929ebc7ee64": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honey"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_knife"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_Map_Treasure_Rotmoor"
+   }
+  ]
+ },
+ "d2199e8a-a22d-4a48-a69f-9cb688ebc269": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_woodArrow"
+   },
+   {
+    "amount": 18,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_splittertrap"
+   }
+  ]
+ },
+ "d230f6d1-c1cf-43db-83cf-67281a49fe3b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_venomCry"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_energyProjectile"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_riddle_sundial"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "d332ef95-eaa9-42ab-9d2d-f613e43905dc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverStone"
+   }
+  ]
+ },
+ "d4e0ceff-3c06-41e2-acab-8c7f59d52275": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "d62d4fe2-6ed2-47e0-97aa-41acc555a533": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_bronzeTusk"
+   }
+  ]
+ },
+ "d649584f-92da-48ee-b310-2df3047d6e1d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "d64cb068-fcee-4700-a2b1-a61caf290e0b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_map_ruincamp"
+   }
+  ]
+ },
+ "d664a98b-9b67-4a4e-94f4-73c258399ee0": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 57,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_permapotion_skill"
+   }
+  ]
+ },
+ "d82ac8c6-515b-45af-b6fc-d070f8409476": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_wine"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   }
+  ]
+ },
+ "d86f9dc8-8740-4f03-8f50-d9fbadbf5cc8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_honey"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_apple"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_fish_bass"
+   },
+   {
+    "amount": 38,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "d8782a82-fd22-47a7-b478-3cc1b68f854e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_heavyBlow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_1"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": true,
+    "readable_id": "item_lyra"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "d8bd4144-8d43-4c08-8a0c-19caee4c5499": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "d8fb6851-1aa9-4d93-b016-cffaee63ee6e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_magicVision"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_coin"
+   }
+  ]
+ },
+ "d91a539b-b276-4174-9180-121bad3e8447": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   }
+  ]
+ },
+ "da1a80ab-c331-413d-8e4d-121d24839acc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 13,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_thornyRanke"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_resin"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_gnarlyroot"
+   }
+  ]
+ },
+ "da9a8fc0-31fc-4630-a8a6-0910ac91a788": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_ensnare"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   }
+  ]
+ },
+ "dab67dc0-0c32-4f99-948d-94a0f4c7f0b9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "dc5564dc-d286-4f32-9897-45e191d75751": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "de47d050-0316-48fe-afb9-328164186ebb": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_flowcatchertalisman"
+   },
+   {
+    "amount": 22,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_knife"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": true,
+    "readable_id": "misc_riddle_horn"
+   }
+  ]
+ },
+ "de52078e-b363-4ccb-9ccf-85cfb1b912fb": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "df294d0f-3d88-46fb-897c-b52f0902732a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_riverbedmoss"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "df3b70e9-0e7f-4632-a191-e58e8d96cecc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_dagger_tombstick"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_furtuft"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "dfac934d-1694-4885-91c5-12bed76f4ee2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "e13cddbf-a38a-4ee0-bde5-3d86e6de5e56": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_map_nemeton"
+   }
+  ]
+ },
+ "e1d8ea68-e322-4a3a-9fa9-06998ebb126a": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "e226e1c2-083e-4fa8-b91b-b57a350323b8": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "e3bd3c39-8e37-43c2-ae0e-f8e201c76fc1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "e42adcfc-8490-464f-be11-c9802e6be8ef": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "e45c7b2b-9aa5-4224-b96c-ec26f5efee4f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_shadowmushroom"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_healingsalve_3"
+   },
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_cavemushroom"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_glauglocke"
+   }
+  ]
+ },
+ "e4bfc621-fa95-45f2-9f9c-12e8de1cc946": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "e508a3ef-e24a-4089-8a15-ed3791b5a57f": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_trinket_pureDmg"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_leather"
+   },
+   {
+    "amount": 5,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_teeth"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bomb"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "e5121d5a-a741-4708-a3ca-ed4e9c61bc39": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   }
+  ]
+ },
+ "e5ebcfec-f5df-413e-b1a1-62cd9f053d8c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "e6dd19af-5edc-4f5b-b6ee-93e87ef8d9d7": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_gnarlyroot"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_rootTrap"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_thornyRanke"
+   }
+  ]
+ },
+ "e744a40a-aa14-4174-896f-e4b354a97238": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "helmet_ruinenlager_guard2_name"
+   }
+  ]
+ },
+ "e8356bf1-79bc-4f03-9ca6-f21be109f778": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "e8643562-13c5-4456-a6f5-56135cf6c3fc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "e8cd5cec-7b78-4ef3-b9a0-3bdd1062e3e7": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverringstrength_1"
+   }
+  ]
+ },
+ "e935a5f8-1e6e-41b3-b9c2-a326734cfece": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "e93a19e6-f0ee-424a-9fa4-8809c51a540c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalkerfeather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_stalker_egg"
+   }
+  ]
+ },
+ "e9dcfcb9-50d9-48ca-a184-dfde1273de44": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_conjure_insects"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_essence_stone"
+   }
+  ]
+ },
+ "ec717b52-5f9d-4052-9d52-d9afee057d3d": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "eee4cc7d-cd2b-46bc-9aad-cd2e7f5153b0": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_spider_thread"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_essence_atlanter"
+   }
+  ]
+ },
+ "ef30a9b7-ca7f-4d85-b8c4-e39cd1b6bb9b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "f0022ea9-b3cf-49f7-96a6-8a8dee134b10": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "f23349d3-4089-4fef-b5da-2c54fa04d3d3": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_sprigganheart"
+   }
+  ]
+ },
+ "f23c4a6a-fa43-483c-a515-060e62f5f565": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 20,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "f27fb088-233a-4dc6-8509-33b769d38ed9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 7,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_bogwheat"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_Map_Treasure_GeorgsFarm"
+   }
+  ]
+ },
+ "f3305316-8bc5-422c-b373-65958218f18b": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 8,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silberringskill_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_MeriksBusiness"
+   }
+  ]
+ },
+ "f3380510-f5b8-4ffe-97bb-24bfdb9d3ab3": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_diamond"
+   }
+  ]
+ },
+ "f3809d1c-8d30-41ee-8290-a12a6012cfcc": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "consumable_potion_darkbrew_healing"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_1"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "f4197fd2-2f04-4a4a-bb9c-00e90f3dc368": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_energyProjectile"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_flowForm"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "cons_flow_fireCry"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_flow_0"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_herb_past"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_atlanter_wine"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": true,
+    "readable_id": "item_lyra"
+   }
+  ]
+ },
+ "f46542dc-3b12-4595-9d16-9a6d83189199": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_mikeschLetter"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_fish_bass"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   }
+  ]
+ },
+ "f5ed5244-d7ca-474f-9554-108a5f7ec38c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_harpybrew"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_1"
+   }
+  ]
+ },
+ "f69d835a-6a99-43ba-88d8-492f55e17f1e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidtrap"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_jaggedthrowingknife"
+   },
+   {
+    "amount": 18,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ },
+ "f717fcb9-cbd4-4d10-8828-ce2ad7f29668": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_ironArrow"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_leather"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_ensnare"
+   }
+  ]
+ },
+ "f80372a9-fab1-4f55-9571-4ea4936aa520": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "f87fb973-90f8-49cf-aed3-d27c8e0aabd2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 12,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_silverore"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "weapon_axe_bronzeTusk"
+   },
+   {
+    "amount": 4,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_cavemushroom"
+   }
+  ]
+ },
+ "f9564e27-cb58-450b-83b0-239ff6d233b2": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "f9ae62f6-21c1-43da-95f7-5286b92ebb8c": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "helmet_mask_death_name"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_skulldew"
+   }
+  ]
+ },
+ "fa3724d0-3489-4352-8118-b18bfa25076e": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_acidsecretion"
+   }
+  ]
+ },
+ "fb5a0689-d9c3-4d30-ac1f-c27f549a59d6": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "fc8a9274-0ed8-436f-85f1-70c5d2b4f1de": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_bagOfCurrency"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_thornyRanke"
+   }
+  ]
+ },
+ "fcd0f27e-7f1c-4e9b-8477-bf631a3ba276": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_windwalker"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_potion_health_0"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_0"
+   }
+  ]
+ },
+ "fd5ef1cf-c858-42be-9e90-ad94932968f9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_feather"
+   }
+  ]
+ },
+ "fd766972-3956-42f1-95d1-baa805d216cf": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "recipe_flow_aggressiveCry"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_lockpick_simple"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_jaggedthrowingknife"
+   },
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "throwing_knife"
+   }
+  ]
+ },
+ "fdf60d58-c7ae-4826-b106-5a863105ecb1": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_logwood"
+   }
+  ]
+ },
+ "fe59e651-ee72-41be-9c5f-a3f1a715de01": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_healthPlant_2"
+   }
+  ]
+ },
+ "ffe64021-cd5b-4bb4-8d8e-bb2259e479b9": {
+  "object": "Saving",
+  "slots": [
+   {
+    "amount": 3,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_beer"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "tool_torch"
+   },
+   {
+    "amount": 2,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "item_wine"
+   },
+   {
+    "amount": 1,
+    "garbage": 0,
+    "quest": false,
+    "readable_id": "misc_currency"
+   }
+  ]
+ }
+}

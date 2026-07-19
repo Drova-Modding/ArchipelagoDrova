@@ -56,6 +56,12 @@ QUESTS_SRC = os.path.join(REPO, "tools", "extracted", "ap_quests.json")
 # record carries a unique trader_label, the item's readable id, an area, and a proven faction.
 TRADERS_SRC = os.path.join(REPO, "tools", "extracted", "traders.json")
 
+# Per-container authored contents (tools/extract_locations/extract_chest_slots.py): guid ->
+# {object, slots:[{readable_id, amount, garbage, quest}]}. A container whose fixed loot holds K
+# eligible items gets K locations instead of 1 (the base location stays untouched as slot 1;
+# slots 2..K are appended), so a chest with three items sends three checks when opened.
+CHEST_SLOTS_SRC = os.path.join(REPO, "tools", "extracted", "chest_slots.json")
+
 # Objects that report loot but carry no inventory component, so there is nothing to open and the
 # check could never be sent. Verified in game: Corpse_Stalker is not interactable, while
 # Critter_Crow (which does have Saveable_Inventory) loots fine. An unreachable location is worse
@@ -274,6 +280,30 @@ def build_items(readable_ids):
     return items
 
 
+def slot_is_protected(readable_id, quest):
+    """Mirror of the client's LootSuppressor.IsProtected: these items are never suppressed, so
+    a slot holding one keeps its vanilla item in the chest and must not become a location."""
+    if quest:
+        return True
+    rid = (readable_id or "").lower()
+    if not rid:
+        return True
+    if rid.startswith("key_") or rid == "misc_key_locked_door":
+        return True
+    if rid.startswith("item_energycrystal_"):
+        return True
+    return False
+
+
+def eligible_slot_count(chest_slots, guid):
+    """How many AP checks this container is worth (minimum 1: the base location)."""
+    rec = chest_slots.get(guid.lower())
+    if not rec:
+        return 1
+    eligible = [s for s in rec["slots"] if not slot_is_protected(s["readable_id"], s["quest"])]
+    return max(1, len(eligible))
+
+
 def build_locations():
     """Container locations from the static bundle extraction, plus quest locations."""
     locations = []
@@ -288,10 +318,18 @@ def build_locations():
         with open(CRITTERS_SRC, encoding="utf-8") as fh:
             critters = json.load(fh)
 
+    chest_slots = {}
+    if os.path.exists(CHEST_SLOTS_SRC):
+        with open(CHEST_SLOTS_SRC, encoding="utf-8") as fh:
+            chest_slots = json.load(fh)
+    else:
+        print("WARNING: %s missing - every container stays a single location" % CHEST_SLOTS_SRC)
+
     if os.path.exists(LOCATIONS_SRC):
         with open(LOCATIONS_SRC, encoding="utf-8") as fh:
             raw = json.load(fh)
         skipped = 0
+        extra_slots = 0
         for name, rec in raw.items():
             guid = rec["guid"].lower()
             if guid in unreachable:
@@ -307,8 +345,25 @@ def build_locations():
                 "area": rec.get("area", ""),
                 "classification": "default",
             })
+            # One extra location per additional eligible authored item. The base location above is
+            # slot 1 and keeps its name and frozen id, so existing seeds stay valid; extra slots
+            # get their own frozen keys ("<guid>#slot<i>"), which only ever appends ids. The kind
+            # is ContainerSlot so the C# emitter can route them into the slot table instead of the
+            # guid->name table (their keys are not bare guids and must never be looked up as such).
+            for i in range(2, eligible_slot_count(chest_slots, guid) + 1):
+                extra_slots += 1
+                locations.append({
+                    "name": "%s - Item %d" % (name, i),
+                    "key": "%s#slot%d" % (rec["guid"], i),
+                    "kind": "ContainerSlot",
+                    "category": category,
+                    "area": rec.get("area", ""),
+                    "classification": "default",
+                })
         if skipped:
             print("skipped %d unreachable container(s): nothing to loot on them" % skipped)
+        if extra_slots:
+            print("added %d extra slot location(s) from authored multi-item containers" % extra_slots)
     else:
         print("WARNING: %s missing - no container locations generated" % LOCATIONS_SRC)
 
@@ -430,6 +485,23 @@ def write_cs_locations(locations):
     for loc in locations:
         if loc["kind"] == "Container":
             lines.append('            { "%s", "%s" },' % (cs_escape(loc["key"]), cs_escape(loc["name"])))
+    lines += [
+        "        };",
+        "",
+        "        /// <summary>GuidComponent guid -> extra per-item AP location names (slots 2..K).</summary>",
+        "        public static readonly Dictionary<string, string[]> ContainerGuidToSlotNames = new Dictionary<string, string[]>",
+        "        {",
+    ]
+    slot_names = {}
+    for loc in locations:
+        if loc["kind"] == "ContainerSlot":
+            guid = loc["key"].split("#", 1)[0]
+            slot_names.setdefault(guid, []).append(loc["name"])
+    for guid in sorted(slot_names):
+        # Numeric slot order ("Item 2" before "Item 10"), purely for readable diffs.
+        ordered = sorted(slot_names[guid], key=lambda n: int(n.rsplit(" ", 1)[1]))
+        joined = ", ".join('"%s"' % cs_escape(n) for n in ordered)
+        lines.append('            { "%s", new[] { %s } },' % (cs_escape(guid), joined))
     lines += [
         "        };",
         "",

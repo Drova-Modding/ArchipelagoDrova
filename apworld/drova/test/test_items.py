@@ -61,7 +61,9 @@ class TestItemTable(DrovaTestBase):
 
 
 class TestSmallPoolFill(DrovaTestBase):
-    # 201 chests: enough for all 62 progression items, then a subset of the useful items.
+    # Chests only: the smallest container pool. Counts are generated data (and grew when multi-item
+    # chests gained per-slot locations), so the expectations are derived from the pool size rather
+    # than pinned: progression first, then useful, then a subset of distinct filler.
     options = {
         "randomize_chests": True,
         "randomize_containers": False,
@@ -74,15 +76,22 @@ class TestSmallPoolFill(DrovaTestBase):
     def test_pool_fills_exactly(self) -> None:
         self.assertEqual(len(self.multiworld.itempool), len(self.multiworld.get_unfilled_locations(self.player)))
 
-    def test_no_filler_needed_yet(self) -> None:
-        # 62 progression + 139 useful == 201, so the useful items alone finish the pool.
+    def test_fill_order_progression_then_useful_then_filler(self) -> None:
         counts = collections.Counter(item.name for item in self.multiworld.itempool)
-        self.assertEqual(sum(counts.values()), 201)
-        self.assertEqual(len([name for name in counts if name in USEFUL_ITEM_NAMES]), 201 - 62)
-        self.assertEqual(counts[FILLER_ITEM_NAME], 0)
+        pool_size = sum(counts.values())
+        expected_useful = min(len(USEFUL_ITEM_NAMES), pool_size - len(PROGRESSION_ITEM_NAMES))
+        self.assertEqual(
+            len([name for name in counts if name in PROGRESSION_ITEM_NAMES]), len(PROGRESSION_ITEM_NAMES)
+        )
+        self.assertEqual(len([name for name in counts if name in USEFUL_ITEM_NAMES]), expected_useful)
+        # Filler only appears once useful is exhausted, and then only to top the pool up.
+        expected_filler = max(0, pool_size - len(PROGRESSION_ITEM_NAMES) - len(USEFUL_ITEM_NAMES))
+        self.assertEqual(len([name for name in counts if name in FILLER_ITEM_NAMES]), expected_filler)
 
     def test_no_unintended_duplicates(self) -> None:
-        # Nothing repeats while there are still distinct items left to place.
+        # Nothing repeats while there are still distinct items left to place. This holds as long as
+        # the chest-only pool stays smaller than the full item table.
+        self.assertLess(len(self.multiworld.itempool), len(ITEM_DATA))
         counts = collections.Counter(item.name for item in self.multiworld.itempool)
         self.assertEqual(max(counts.values()), 1)
 

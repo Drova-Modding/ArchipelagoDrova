@@ -409,6 +409,21 @@ namespace ArchipelagoDrova
                 return;
             }
 
+            // A multi-item container is worth one check per authored item: the base location plus
+            // its extra slot locations (generated from the same guid). All of them fire on the same
+            // physical act of opening, so they go through identical gating and dedup per name.
+            Send(apName, raw, source);
+            if (LocationTable.TryGetContainerSlots(raw, out string[] slotNames))
+            {
+                for (int i = 0; i < slotNames.Length; i++)
+                {
+                    Send(slotNames[i], raw, source);
+                }
+            }
+        }
+
+        private static void Send(string apName, string raw, string source)
+        {
             // Connected, we know the seed's real location set: drop anything not in it without a
             // misleading "-> sent" line or burning the dedup slot. Offline we cannot tell, so fall
             // through and let CheckLocationByName queue it by name (dropped at flush if inactive).

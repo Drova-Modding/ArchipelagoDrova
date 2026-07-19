@@ -25,7 +25,7 @@ LOCATION_DATA: list[dict[str, Any]] = json.loads(
 # datapackage. Which ones a given seed actually creates is decided in create_all_locations.
 LOCATION_NAME_TO_ID: dict[str, int] = {location["name"]: location["id"] for location in LOCATION_DATA}
 
-# 5055 locations is far too many for one seed, so each category is a separate toggle.
+# ~6400 locations is far too many for one seed, so each category is a separate toggle.
 CATEGORY_TO_OPTION = {
     "Chest": "randomize_chests",
     "Container": "randomize_containers",

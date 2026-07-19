@@ -86,7 +86,7 @@ def create_all_items(world: DrovaWorld) -> None:
         remaining -= len(chosen)
 
     # Large pools run out of distinct items well before they run out of locations (805 items, up to
-    # 5055 locations), so the rest is repeatable filler.
+    # ~6400 locations), so the rest is repeatable filler.
     itempool += [world.create_filler() for _ in range(remaining)]
 
     world.multiworld.itempool += itempool

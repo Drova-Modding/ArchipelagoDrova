@@ -7,8 +7,8 @@ Drova - Forsaken Kin:
   faction: nemeton            # nemeton | ruinenlager (alias: remnants)
 
   # Location pool (which things become checks)
-  randomize_chests: true      # 201 lockable chests
-  randomize_containers: true  # 196 barrels, crates, sacks
+  randomize_chests: true      # 521 checks over 201 lockable chests (one per vanilla item)
+  randomize_containers: true  # 373 checks over 196 barrels, crates, sacks (one per vanilla item)
   randomize_quests: true      # 60 quest completions (minus the faction you didn't join)
   randomize_critters: false   # 134 wildlife / carcasses
   randomize_resources: false  # 361 ore veins, herbs

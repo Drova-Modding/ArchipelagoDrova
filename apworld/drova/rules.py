@@ -81,13 +81,20 @@ def set_all_location_rules(world: DrovaWorld) -> None:
     """
     # The rule tables span categories (a gated area holds chests, containers, pickups, resources), so
     # which of their locations exist depends on the enabled options; a rule is only set on locations
-    # this seed actually created.
+    # this seed actually created. A multi-item container also has per-item slot locations named
+    # "<base> - Item <i>"; they sit behind the same lock as their base, so the rule covers them too.
     enabled_names = {location["name"] for location in locations.enabled_location_data(world.options)}
 
     for rule_table in (VERIFIED_CHEST_KEY_RULES, DOOR_KEY_RULES):
         for location_name, key_item_name in rule_table.items():
-            if location_name in enabled_names:
-                world.set_rule(world.get_location(location_name), Has(key_item_name))
+            for name in (location_name, *_slot_siblings(location_name, enabled_names)):
+                if name in enabled_names:
+                    world.set_rule(world.get_location(name), Has(key_item_name))
+
+
+def _slot_siblings(location_name: str, enabled_names: set[str]) -> list[str]:
+    prefix = location_name + " - Item "
+    return [name for name in enabled_names if name.startswith(prefix)]
 
 
 def set_completion_condition(world: DrovaWorld) -> None:

@@ -5,10 +5,10 @@ using Il2CppDrova;
 using Il2CppDrova.Saveables;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(ArchipelagoDrova.Core), "ArchipelagoDrova", "1.0.0", "TrustNoOneElse", null)]
+[assembly: MelonInfo(typeof(ArchipelagoDrova.Core), "ArchipelagoDrova", "0.2.0", "TrustNoOneElse", null)]
 [assembly: MelonGame("Just2D", "Drova")]
 // The MelonInfo name of the Drova Modding API. Makes MelonLoader initialise us after it.
-[assembly: MelonAdditionalDependencies("Drova Modding API")]
+[assembly: MelonAdditionalDependencies("Drova_Modding_API")]
 
 namespace ArchipelagoDrova
 {

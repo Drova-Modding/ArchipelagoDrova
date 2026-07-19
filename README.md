@@ -12,10 +12,10 @@ An [Archipelago](https://archipelago.gg) multiworld randomizer for **Drova - For
 
 ## Install
 
-The [Releases page](https://github.com/Drova-Modding/ArchipelagoDrova/releases) has three downloads for
+The [Releases page](https://github.com/Drova-Modding/ArchipelagoDrova/releases) has two downloads for
 two audiences. **Everyone who plays** needs only the mod zip. **Whoever generates the seed** (one person
-per game) also needs the apworld and a YAML — those go in the *Archipelago* app, which is separate from
-the game.
+per game) also needs the Archipelago zip — its contents go in the *Archipelago* app, which is separate
+from the game.
 
 ### To play (join a room)
 
@@ -51,8 +51,7 @@ custom_worlds/  drova.apworld
 Players/        Drova - Forsaken Kin.yaml
 ```
 
-(Or grab the bare **`drova.apworld`** and drop it in `custom_worlds/` yourself.) Then edit the YAML —
-see [Configure](#configure-your-seed-yaml).
+Then edit the YAML — see [Configure](#configure-your-seed-yaml).
 
 Generate locally with Archipelago's `Generate.py`, then either host the result yourself or upload it to
 [archipelago.gg](https://archipelago.gg)'s **Host Game** page. archipelago.gg can *host* a Drova seed but
@@ -81,8 +80,8 @@ Drova - Forsaken Kin:
   faction: nemeton            # nemeton | ruinenlager (alias: remnants)
 
   # Location pool (which things become checks)
-  randomize_chests: true      # 201 lockable chests
-  randomize_containers: true  # 196 barrels, crates, sacks
+  randomize_chests: true      # 521 checks over 201 lockable chests (one per vanilla item)
+  randomize_containers: true  # 373 checks over 196 barrels, crates, sacks (one per vanilla item)
   randomize_quests: true      # 60 quest completions (minus the faction you didn't join)
   randomize_critters: false   # 134 wildlife / carcasses
   randomize_resources: false  # 361 ore veins, herbs
@@ -102,12 +101,12 @@ Two presets are also available: `minimal` (chests only) and `completionist` (eve
 
 ## What gets randomized
 
-**Locations** — 5055 total; how many are in *your* seed depends on the toggles above.
+**Locations** — 6442 total; how many are in *your* seed depends on the toggles above.
 
 | Category | Count | Default | What it is |
 |---|---:|---|---|
-| Chest | 201 | on | chests |
-| Container | 196 | on | crates, barrels, lootable props |
+| Chest | 521 | on | 201 chests, one check per authored vanilla item |
+| Container | 373 | on | 196 crates, barrels, lootable props, one check per authored vanilla item |
 | Quest | 60 | on | a quest reaching `IsCompleted` |
 | Critter | 134 | off | ambient wildlife and carcasses (crows, birds, dead boars) |
 | Resource | 361 | off | ore veins, fishing spots |
@@ -115,7 +114,13 @@ Two presets are also available: `minimal` (chests only) and `completionist` (eve
 | Pickup | 3125 | off | loose world items: herbs, berries, ore |
 | Trader | 890 | off | buying an item from a merchant (faction-split) |
 
-Defaults give **453** locations. Enabling every toggle gives roughly 5600 for one faction (both
+A container whose authored loot holds K eligible items is worth K checks, all sent when it is opened:
+the base location (`Cave - Chest 1`) plus per-item slots (`Cave - Chest 1 - Item 2`, ...). Contents come
+from the static `_fixLoot` extraction (`tools/extract_locations/extract_chest_slots.py`); randomly
+rolled flavour loot is not deterministic and never becomes a location, and slots holding protected
+items (quest items, keys, energy crystals — the ones the loot suppressor leaves in place) are skipped.
+
+Defaults give **950** locations. Enabling every toggle gives roughly 6100 for one faction (both
 factions' quests and traders never coexist in a seed), which is a *lot* of hunting: Pickup alone is
 3125, and Critter can put a dozen checks in one bush.
 
@@ -226,7 +231,10 @@ are committed on purpose. Do not edit them by hand.
 
 `tools/extract_locations/` re-extracts the container table from the shipped asset bundles (requires
 `pip install UnityPy`, takes ~4 minutes). Drova's bundles retain typetrees, so field names are read
-directly with no Il2CppDumper step.
+directly with no Il2CppDumper step. `extract_chest_slots.py` (in the same folder, ~2 minutes) additionally
+reads each container's authored `_fixLoot` into `tools/extracted/chest_slots.json`, which is what gives
+multi-item containers their per-item slot locations — re-run it alongside the container extraction
+whenever the game updates.
 
 ## Trader extraction
 
@@ -246,16 +254,18 @@ dialogue-added items are not covered.
 
 ## Logic and locks: mostly no logic
 
-101 locations carry playtest-confirmed key rules (see `rules.py`): `Wilds 18_29 - Chest 1` requires
-`Key Chest BanditCamp`, and the 100 Riverbed locations require `Key Harald` (its door is the sole
-entrance; the vanilla key is handed out by an NPC just outside, so the gate is always beatable).
+121 locations carry playtest-confirmed key rules (see `rules.py`): `Wilds 18_29 - Chest 1` requires
+`Key Chest BanditCamp`, and the 120 Riverbed locations (100 containers and pickups plus their 20
+per-item slots) require `Key Harald` (its door is the sole entrance; the vanilla key is handed out by
+an NPC just outside, so the gate is always beatable). Per-item slot locations automatically inherit
+their base container's rule.
 Everything else is reachable from the start, so the remaining progression items are currently just
 items.
 
 This is not an oversight, and broader per-chest key logic is a dead end. `Interact_Condition_Locked` was
 extracted from every bundle (267 locks; `tools/extracted/locks.json`) and the signal does not support gating:
 
-- The 201 locks map exactly onto the 201 `Chest` locations, one to one.
+- The 201 locks map exactly onto the 201 chests (the `Chest` category's base locations), one to one.
 - **165 of 201 have no key at all**, and **200 of 201 have `_canLockpick = true`**, so the key is optional.
 - **34 of the 36 keyed chests want `misc_key_locked_door`**, a generic key used by 69 locks game-wide and
   consumed on use (`_removeKey`). One copy in the pool cannot open 34 chests. Gating on it is unsound.
@@ -276,7 +286,7 @@ attributed to the area it gates, against the same area polygons the quests use.
 
 The extraction proposed several door candidates from static adjacency; each was walked in-game before
 any rule shipped. Only one survived: **`Key Harald` gates the
-100 Riverbed locations** — its door is the only way in, confirmed in game — so that rule ships
+120 Riverbed locations** — its door is the only way in, confirmed in game — so that rule ships
 (`rules.py:DOOR_KEY_RULES`). Every other candidate was **rejected** for a reason static door-to-boundary
 adjacency could not see: Dark Quarter (`key_ruinenexplorer`) and Tavern (`key_tavernKey`) have other
 entrances; Rat Cellar (`key_ratcellar`) has a hidden opening and is quest-gated; Mine Bandit

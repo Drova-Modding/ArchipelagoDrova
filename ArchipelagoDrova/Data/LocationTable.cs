@@ -11,6 +11,7 @@ namespace ArchipelagoDrova.Data
     public static partial class LocationTable
     {
         private static Dictionary<string, string> _containerIndex;
+        private static Dictionary<string, string[]> _containerSlotIndex;
         private static Dictionary<string, string> _traderIndex;
 
         public static int ContainerCount
@@ -94,6 +95,23 @@ namespace ArchipelagoDrova.Data
             return Containers.TryGetValue(key, out apLocationName);
         }
 
+        /// <summary>
+        /// Extra per-item location names for a multi-item container (slots 2..K). The base location
+        /// from <see cref="TryGetContainer"/> is slot 1 and is NOT repeated here, so a caller sends
+        /// the base name plus every name in this array. Returns false when the container has no
+        /// extra slots, which is the overwhelmingly common case.
+        /// </summary>
+        public static bool TryGetContainerSlots(string rawGuid, out string[] apLocationNames)
+        {
+            apLocationNames = null;
+            string key = NormalizeGuid(rawGuid);
+            if (key == null)
+            {
+                return false;
+            }
+            return ContainerSlots.TryGetValue(key, out apLocationNames);
+        }
+
         public static bool TryGetQuest(string gvarListName, out string apLocationName)
         {
             apLocationName = null;
@@ -140,6 +158,25 @@ namespace ArchipelagoDrova.Data
                     _containerIndex = built;
                 }
                 return _containerIndex;
+            }
+        }
+
+        /// <summary>Same re-normalization as <see cref="Containers"/> for the extra-slot table.</summary>
+        private static Dictionary<string, string[]> ContainerSlots
+        {
+            get
+            {
+                if (_containerSlotIndex == null)
+                {
+                    Dictionary<string, string[]> built = new Dictionary<string, string[]>(ContainerGuidToSlotNames.Count, StringComparer.Ordinal);
+                    foreach (KeyValuePair<string, string[]> pair in ContainerGuidToSlotNames)
+                    {
+                        string key = NormalizeGuid(pair.Key) ?? pair.Key;
+                        built[key] = pair.Value;
+                    }
+                    _containerSlotIndex = built;
+                }
+                return _containerSlotIndex;
             }
         }
 

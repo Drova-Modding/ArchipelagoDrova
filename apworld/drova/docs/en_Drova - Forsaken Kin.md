@@ -19,8 +19,9 @@ them too early.
 The contents of the world's containers are replaced with Archipelago items. Which kinds of containers are included is
 up to you, since the game has just over 5000 of them and that is far too many for one seed:
 
-- **Chests** (201) and **Containers** (196) are on by default. Together with quests, this makes for a roughly
-  450 location seed.
+- **Chests** (521) and **Containers** (373) are on by default. Together with quests, this makes for a roughly
+  950 location seed. A container whose vanilla loot holds several items is worth one check per item, all sent
+  when it is opened, which is where most of these counts come from (201 chests, 196 containers in the world).
 - **Quests** (60) are on by default. Completing a quest sends its check.
 - **Resources** (361), **Caches** (978) and **Pickups** (3125) are off by default. Turn these on for a much
   longer game.
