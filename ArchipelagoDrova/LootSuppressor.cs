@@ -24,7 +24,7 @@ namespace ArchipelagoDrova
     {
         private static bool _enabled;
 
-        /// <summary>Set from slot data on connect. Off unless the seed asks for it.</summary>
+        /// <summary>Set from slot data on the connection. Off unless the seed asks for it.</summary>
         public static bool Enabled
         {
             get { return _enabled; }
@@ -51,12 +51,21 @@ namespace ArchipelagoDrova
             // prefix: after LootAll runs the items are already in the player's bag.
             HookUtil.TryPrefix(harmony, typeof(Interact_Bhvr_LootAll), nameof(Interact_Bhvr_LootAll.LootAll),
                 typeof(LootSuppressor), nameof(LootAllPrefix));
+
+            // Resource spots (ore veins, fishing spots) put their yield straight into the worker's
+            // inventory inside GetItems(Inventory, ITalentModule, float), so the only clean cut is to
+            // skip the method. Harmony still runs ContainerTracker's check-sending postfix when a
+            // prefix skips the original, so the location fires without the vanilla ore/fish.
+            HookUtil.TryPrefix(harmony, typeof(Interact_Bhvr_ResourceSpot),
+                nameof(Interact_Bhvr_ResourceSpot.GetItems),
+                typeof(LootSuppressor), nameof(ResourceGetItemsPrefix));
         }
 
         /// <summary>
         /// Items the player must keep for progression to remain physically possible without logic.
+        /// Internal: the trader tracker applies the same rule to purchased stock.
         /// </summary>
-        private static bool IsProtected(Item item)
+        internal static bool IsProtected(Item item)
         {
             if (item == null)
             {
@@ -93,7 +102,9 @@ namespace ArchipelagoDrova
             return false;
         }
 
-        private static void Strip(Inventory inventory, string apName, string source)
+        // IInventoryContainer, not Inventory: knocked-out NPCs route their inventory through
+        // Init() into _runtimeContainer, and OwnerInventory is the interface-typed union of both.
+        private static void Strip(IInventoryContainer inventory, string apName, string source)
         {
             if (inventory == null || inventory.IsEmpty)
             {
@@ -101,15 +112,15 @@ namespace ArchipelagoDrova
             }
 
             // Snapshot first: RemoveItem mutates the list we would otherwise be iterating.
-            List<ItemStack> snapshot = new List<ItemStack>();
-            foreach (ItemStack stack in inventory.InventoryItems)
+            var snapshot = new List<ItemStack>();
+            foreach (var stack in inventory.InventoryItems)
             {
                 snapshot.Add(stack);
             }
 
             int removed = 0;
             int kept = 0;
-            foreach (ItemStack stack in snapshot)
+            foreach (var stack in snapshot)
             {
                 if (stack == null || stack.Item == null)
                 {
@@ -135,9 +146,9 @@ namespace ArchipelagoDrova
 
         /// <summary>
         /// Runs just before the loot window is built (chests, containers and, via the LootKnockout
-        /// override, corpses), so emptying the container here yields a clean empty window instead of
-        /// desyncing an already-rendered slot view. _ownerInventory is populated by this point: the
-        /// window is about to read it.
+        /// override, corpses and mugged NPCs), so emptying the container here yields a clean empty
+        /// window instead of desyncing an already-rendered slot view. OwnerInventory is populated by
+        /// this point: BeginInteraction builds the window view from it right after this call.
         /// </summary>
         private static void CreateLootInventoryPrefix(Interact_Bhvr_LootInventory __instance)
         {
@@ -161,11 +172,47 @@ namespace ArchipelagoDrova
                     return;
                 }
 
-                Strip(__instance._ownerInventory, apName, "opened");
+                // OwnerInventory, not _ownerInventory: for knocked-out NPCs the real inventory
+                // lives in the runtime container that Init() installed, and _ownerInventory is null.
+                Strip(__instance.OwnerInventory, apName, "opened");
             }
             catch (Exception e)
             {
                 MelonLogger.Error("[AP loot] suppressing before the loot window failed: " + e);
+            }
+        }
+
+        /// <summary>
+        /// Bool prefix: returning false skips the vanilla yield entirely. Yields are plain materials
+        /// (ore, fish, plants) created inside GetItems, so there is no protected-item concern and
+        /// nothing to strip afterward - the items must simply never be created.
+        /// </summary>
+        private static bool ResourceGetItemsPrefix(Interact_Bhvr_ResourceSpot __instance)
+        {
+            try
+            {
+                if (!_enabled || __instance == null)
+                {
+                    return true;
+                }
+
+                if (!ContainerTracker.TryResolveApLocation(__instance, null, out string apName))
+                {
+                    return true;
+                }
+
+                if (!ContainerTracker.IsLocationActiveInSeed(apName))
+                {
+                    return true;
+                }
+
+                MelonLogger.Msg("[AP loot] resource '" + apName + "': suppressed the vanilla yield.");
+                return false;
+            }
+            catch (Exception e)
+            {
+                MelonLogger.Error("[AP loot] suppressing a resource yield failed: " + e);
+                return true;
             }
         }
 
@@ -189,7 +236,10 @@ namespace ArchipelagoDrova
                     return;
                 }
 
-                Strip(__instance.LootInventory, apName, "loot all");
+                // Interop interfaces have no implicit class->interface conversion; Cast goes
+                // through the il2cpp type system, where Inventory does implement the interface.
+                var lootInventory = __instance.LootInventory;
+                Strip(lootInventory == null ? null : lootInventory.Cast<IInventoryContainer>(), apName, "loot all");
             }
             catch (Exception e)
             {

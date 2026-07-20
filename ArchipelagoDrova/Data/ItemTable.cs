@@ -7,13 +7,16 @@ namespace ArchipelagoDrova.Data
         Item,
         Talent,
         Xp,
-        LearningPoint
+        LearningPoint,
+        Attribute,
+        MaxHealth
     }
 
     /// <summary>
     /// How one Archipelago item name is applied to the game.
     /// <see cref="Key"/> is a Drova item readable id for <see cref="GrantKind.Item"/>,
-    /// a talent container guid for <see cref="GrantKind.Talent"/>, and unused otherwise.
+    /// a talent container guid for <see cref="GrantKind.Talent"/>, the attribute name
+    /// ("strength" / "dexterity" / "mind") for <see cref="GrantKind.Attribute"/>, and unused otherwise.
     /// </summary>
     public readonly struct ItemGrant
     {

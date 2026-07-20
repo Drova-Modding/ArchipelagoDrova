@@ -1,4 +1,4 @@
-from ..items import FILLER_ITEM_NAME, PROGRESSION_ITEM_NAMES
+from ..items import BONUS_ITEM_NAMES, PROGRESSION_ITEM_NAMES
 from ..locations import CATEGORY_TO_OPTION, GOAL_LOCATION_NAME, LOCATION_DATA, VICTORY_ITEM_NAME
 from .bases import DrovaTestBase
 
@@ -49,10 +49,10 @@ class TestDefaultOptions(DrovaTestBase):
                 self.assertIn(name, pool_names)
 
     def test_filler_item_name_is_repeatable(self) -> None:
-        # get_filler_item_name must be able to be called any number of times, so it may not return a
-        # unique item. Experience Boost is granted as raw xp, so any amount of it is valid.
-        self.assertEqual(self.world.get_filler_item_name(), FILLER_ITEM_NAME)
-        self.assertEqual(self.world.get_filler_item_name(), FILLER_ITEM_NAME)
+        # get_filler_item_name must be able to be called any number of times, so every name it can
+        # return is repeatable: XP/LP are granted as raw stats, the rest are stackable items.
+        for _ in range(50):
+            self.assertIn(self.world.get_filler_item_name(), BONUS_ITEM_NAMES)
 
 
 class TestSlotData(DrovaTestBase):

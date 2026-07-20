@@ -339,7 +339,7 @@ def sweep():
                         if ref is None:
                             continue               # null / empty slot
                         item_need.add(ref)
-                        items.append((ref, it.get("_chapter") or 0))
+                        items.append((ref, it.get("_chapter") or 0, it.get("_amount") or 1))
                     trading_by_guid[guid] = {
                         "name": gon_name(rgo, by_go, sf),
                         "items": items,
@@ -504,7 +504,7 @@ def main():
     n_money = n_dup = n_unresolved = 0
     for tguid, rec, area_disp, faction in trader_placements:
         label = labels[tguid]
-        for ref, chapter in rec["items"]:
+        for ref, chapter, amount in rec["items"]:
             info = resolved.get(ref)
             if not info or not info.get("guid"):
                 n_unresolved += 1
@@ -517,6 +517,9 @@ def main():
             key = "%s:%s" % (tguid, iguid)
             if key in out:
                 n_dup += 1
+                # A chapter duplicate is the restock of the same slot: the amounts add up to the
+                # total the player can ever buy, which is what per-unit locations count against.
+                out[key]["amount"] += amount
                 if chapter < lowest_chapter.get(key, 1 << 30):
                     lowest_chapter[key] = chapter   # keep lowest chapter (record only)
                 continue
@@ -528,6 +531,7 @@ def main():
                 "item_readable_id": readable,
                 "area": area_disp,
                 "faction": faction,
+                "amount": amount,
             }
 
     out = {k: out[k] for k in sorted(out)}

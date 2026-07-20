@@ -1,0 +1,296 @@
+[
+ {
+  "key": "Mine",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 38717.32,
+  "y": 59549.23
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 64376.73,
+  "y": 50963.21
+ },
+ {
+  "key": "Ruincamp",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 0.0,
+  "y": 0.0
+ },
+ {
+  "key": "RedTower",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 31216.0,
+  "y": 30928.0
+ },
+ {
+  "key": "Woodcamp",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 4391.32,
+  "y": -229.55
+ },
+ {
+  "key": "RottenMoor",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 8216.58,
+  "y": -8573.08
+ },
+ {
+  "key": "Library",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 9155.0,
+  "y": 36291.0
+ },
+ {
+  "key": "Schlund",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 4391.32,
+  "y": -229.55
+ },
+ {
+  "key": "Heide",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -747.2,
+  "y": -5358.04
+ },
+ {
+  "key": "RuinSchmuggler",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 50146.36,
+  "y": 48278.42
+ },
+ {
+  "key": "Nemeton",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 5126.78,
+  "y": -4927.91
+ },
+ {
+  "key": "NemetonHain",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 4771.36,
+  "y": -4637.79
+ },
+ {
+  "key": "RuinExplorer",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 51238.31,
+  "y": 48654.41
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 24640.0,
+  "y": 60997.0
+ },
+ {
+  "key": "RedTower",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 31203.0,
+  "y": 24664.0
+ },
+ {
+  "key": "Magiecamp",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -5538.8,
+  "y": -2983.64
+ },
+ {
+  "key": "RuinUnder",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 51237.03,
+  "y": 49364.63
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -40123.0,
+  "y": 55697.0
+ },
+ {
+  "key": "Library",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 3472.0,
+  "y": 36291.0
+ },
+ {
+  "key": "Tavern",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 18142.79,
+  "y": 1111.0
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 63911.0,
+  "y": 57345.0
+ },
+ {
+  "key": "Nemeton",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 20610.22,
+  "y": -2666.83
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 68700.0,
+  "y": 54109.0
+ },
+ {
+  "key": "RedTower",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 31223.0,
+  "y": 27727.0
+ },
+ {
+  "key": "RedTower",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 31251.0,
+  "y": 34191.0
+ },
+ {
+  "key": "Auwald",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 4391.32,
+  "y": -229.55
+ },
+ {
+  "key": "SpiderDungeon",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 1038.19,
+  "y": 59578.86
+ },
+ {
+  "key": "CityDungeon",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -3335.89,
+  "y": -301.78
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 51712.03,
+  "y": 49110.9
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 63832.0,
+  "y": 54136.0
+ },
+ {
+  "key": "Mine",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 2027.0,
+  "y": 6257.0
+ },
+ {
+  "key": "RedTower",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 31195.0,
+  "y": 18109.0
+ },
+ {
+  "key": "River",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 4391.32,
+  "y": -229.55
+ },
+ {
+  "key": "Mutter",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -7298.63,
+  "y": -1385.53
+ },
+ {
+  "key": "Leuchtwald",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -3816.03,
+  "y": -3210.3
+ },
+ {
+  "key": "FriendlyMoor",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -1479.98,
+  "y": -6885.83
+ },
+ {
+  "key": "EntryNemeton",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 3764.39,
+  "y": -5717.65
+ },
+ {
+  "key": "Library",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -2331.0,
+  "y": 36291.0
+ },
+ {
+  "key": "Forest",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 0.0,
+  "y": 0.0
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 70305.0,
+  "y": 50927.0
+ },
+ {
+  "key": "Cave",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 67188.0,
+  "y": 52238.0
+ },
+ {
+  "key": "Intro_Fog",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 11571.0,
+  "y": 24012.0
+ },
+ {
+  "key": "Academy",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 0.0,
+  "y": 0.0
+ },
+ {
+  "key": "DeathMoor",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 6765.22,
+  "y": -7463.35
+ },
+ {
+  "key": "Tavern",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": -1676.86,
+  "y": -4482.89
+ },
+ {
+  "key": "CityDungeon",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 312.7,
+  "y": 47555.84
+ },
+ {
+  "key": "Ruins",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 0.0,
+  "y": 0.0
+ },
+ {
+  "key": "RedTower",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 31170.0,
+  "y": 21403.0
+ },
+ {
+  "key": "Intro_Real",
+  "scene": "Assets/Scenes/Logic/Scene_Teleporters.unity",
+  "x": 11571.0,
+  "y": 24012.0
+ }
+]

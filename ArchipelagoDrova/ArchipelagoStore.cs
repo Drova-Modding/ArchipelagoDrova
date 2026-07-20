@@ -18,7 +18,7 @@ namespace ArchipelagoDrova
             get { return StoreKey; }
         }
 
-        public ApState State { get; private set; } = new ApState();
+        public ApState State { get; private set; } = new();
 
         /// <summary>
         /// True when the loaded save was stamped with a different seed/slot than the live session.
@@ -81,13 +81,13 @@ namespace ArchipelagoDrova
         {
             try
             {
-                Savegame current = Savegame.Current;
+                var current = Savegame.Current;
                 if (current == null)
                 {
                     return;
                 }
 
-                SavegameData data = current.Data;
+                var data = current.Data;
                 if (data == null)
                 {
                     return;
@@ -110,7 +110,7 @@ namespace ArchipelagoDrova
             // The API fires AfterSaveGameLoaded before stores are populated, so all post-load work lives here.
             try
             {
-                ApState loaded = JsonConvert.DeserializeObject<ApState>(result);
+                var loaded = JsonConvert.DeserializeObject<ApState>(result);
                 State = loaded ?? new ApState();
                 if (State.CheckedLocations == null)
                 {

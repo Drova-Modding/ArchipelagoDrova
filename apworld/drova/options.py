@@ -111,6 +111,18 @@ class RandomizeTraders(Toggle):
     display_name = "Randomize Traders"
 
 
+class RandomizeMuggings(Toggle):
+    """
+    Turn mugging an NPC (knocking them out in a brawl and opening their pockets) into a location
+    check, once per NPC. Around 250 locations.
+
+    NPCs of the faction you did not join stay in the pool but are excluded from progression and
+    useful items: their camp may be partly or fully unreachable, so only filler can land on them.
+    """
+
+    display_name = "Randomize Muggings"
+
+
 class EnemyKillChecks(Range):
     """
     Turn milestones of enemy kills into location checks. 0 disables them.
@@ -141,6 +153,51 @@ class EnemyKillInterval(Range):
     default = 10
 
 
+class AttributeLearnChecks(Range):
+    """
+    Turn milestones of attribute points bought at teachers into location checks. 0 disables them.
+
+    With this set to N, milestone k is sent when your teacher-learned points reach k times
+    Attribute Learn Interval. Only teacher learning counts: attribute points received as
+    Archipelago items, perma-potions and level-ups do not advance the counter. The game teaches
+    roughly 80 points in a full playthrough, so keep N times the interval at or below 80.
+    """
+
+    display_name = "Attribute Learn Checks"
+
+    range_start = 0
+    range_end = 80
+    default = 0
+
+
+class AttributeLearnInterval(Range):
+    """
+    Teacher-learned attribute points between milestones. Milestone k fires at k times this many
+    points. Ignored when Attribute Learn Checks is 0.
+    """
+
+    display_name = "Attribute Learn Interval"
+
+    range_start = 1
+    range_end = 20
+    default = 5
+
+
+class TalentLearnChecks(Range):
+    """
+    Turn talents learned from teachers into location checks. 0 disables them.
+
+    With this set to N, every talent learned (teacher menu or taught in dialogue) sends the next of
+    N checks. Talents received as Archipelago items do not advance the counter.
+    """
+
+    display_name = "Talent Learn Checks"
+
+    range_start = 0
+    range_end = 10
+    default = 0
+
+
 @dataclass
 class DrovaOptions(PerGameCommonOptions):
     faction: Faction
@@ -152,8 +209,12 @@ class DrovaOptions(PerGameCommonOptions):
     randomize_caches: RandomizeCaches
     randomize_pickups: RandomizePickups
     randomize_traders: RandomizeTraders
+    randomize_muggings: RandomizeMuggings
     enemy_kill_checks: EnemyKillChecks
     enemy_kill_interval: EnemyKillInterval
+    attribute_learn_checks: AttributeLearnChecks
+    attribute_learn_interval: AttributeLearnInterval
+    talent_learn_checks: TalentLearnChecks
     suppress_vanilla_loot: SuppressVanillaLoot
     death_link: DeathLink
 
@@ -178,8 +239,12 @@ option_groups = [
             RandomizeCaches,
             RandomizePickups,
             RandomizeTraders,
+            RandomizeMuggings,
             EnemyKillChecks,
             EnemyKillInterval,
+            AttributeLearnChecks,
+            AttributeLearnInterval,
+            TalentLearnChecks,
         ],
     ),
 ]

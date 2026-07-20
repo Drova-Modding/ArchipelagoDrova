@@ -33,13 +33,13 @@ namespace ArchipelagoDrova
                 Directory.CreateDirectory(DataDirectory);
                 if (!File.Exists(FilePath))
                 {
-                    ApConfig created = new ApConfig();
+                    var created = new ApConfig();
                     created.Save();
                     return created;
                 }
 
                 string json = File.ReadAllText(FilePath);
-                ApConfig loaded = JsonConvert.DeserializeObject<ApConfig>(json);
+                var loaded = JsonConvert.DeserializeObject<ApConfig>(json);
                 if (loaded == null)
                 {
                     MelonLogger.Warning("config.json was empty or invalid; using defaults.");

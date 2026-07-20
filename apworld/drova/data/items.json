@@ -2,6 +2,54 @@
  {
   "amount": 1,
   "classification": "useful",
+  "id": 4762935,
+  "kind": "Attribute",
+  "name": "1 Dexterity",
+  "readable_id": "dexterity"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762936,
+  "kind": "Attribute",
+  "name": "1 Mind",
+  "readable_id": "mind"
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762937,
+  "kind": "Attribute",
+  "name": "1 Strength",
+  "readable_id": "strength"
+ },
+ {
+  "amount": 2,
+  "classification": "useful",
+  "id": 4762927,
+  "kind": "LearningPoint",
+  "name": "2 Learning Points",
+  "readable_id": ""
+ },
+ {
+  "amount": 5,
+  "classification": "useful",
+  "id": 4762928,
+  "kind": "LearningPoint",
+  "name": "5 Learning Points",
+  "readable_id": ""
+ },
+ {
+  "amount": 5,
+  "classification": "useful",
+  "id": 4762934,
+  "kind": "MaxHealth",
+  "name": "5 Max Health",
+  "readable_id": ""
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
   "id": 4762002,
   "kind": "Item",
   "name": "Armor Chest Bandit T1",
@@ -1400,7 +1448,7 @@
   "readable_id": "helmet_straw_name"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762201,
   "kind": "Item",
@@ -1416,7 +1464,7 @@
   "readable_id": "item_acidsecretion"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762203,
   "kind": "Item",
@@ -1560,7 +1608,7 @@
   "readable_id": "item_bearfur"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762219,
   "kind": "Item",
@@ -1632,7 +1680,7 @@
   "readable_id": "item_blackboard_woodcamp"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762228,
   "kind": "Item",
@@ -1696,7 +1744,7 @@
   "readable_id": "item_bogwheat"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762236,
   "kind": "Item",
@@ -1784,7 +1832,7 @@
   "readable_id": "item_cleavageskull"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762247,
   "kind": "Item",
@@ -2184,7 +2232,7 @@
   "readable_id": "item_ironArrow"
  },
  {
-  "amount": 1,
+  "amount": 5,
   "classification": "filler",
   "id": 4762296,
   "kind": "Item",
@@ -3600,8 +3648,8 @@
   "readable_id": "item_potion_health_1"
  },
  {
-  "amount": 5,
-  "classification": "filler",
+  "amount": 1,
+  "classification": "useful",
   "id": 4762463,
   "kind": "Item",
   "name": "Item Potion Respec",
@@ -3752,7 +3800,7 @@
   "readable_id": "item_roastofthepast"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762482,
   "kind": "Item",
@@ -4008,7 +4056,7 @@
   "readable_id": "item_silverArrow"
  },
  {
-  "amount": 1,
+  "amount": 5,
   "classification": "filler",
   "id": 4762514,
   "kind": "Item",
@@ -4208,7 +4256,7 @@
   "readable_id": "item_thornyRanke"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762541,
   "kind": "Item",
@@ -4248,7 +4296,7 @@
   "readable_id": "item_trinket_pureDmg"
  },
  {
-  "amount": 1,
+  "amount": 3,
   "classification": "filler",
   "id": 4762546,
   "kind": "Item",
@@ -4448,11 +4496,35 @@
   "readable_id": "key_tristanBillKey"
  },
  {
+  "amount": 100,
+  "classification": "filler",
+  "id": 4762929,
+  "kind": "Xp",
+  "name": "Large Experience Boost",
+  "readable_id": ""
+ },
+ {
   "amount": 1,
   "classification": "useful",
   "id": 4762001,
   "kind": "LearningPoint",
   "name": "Learning Point",
+  "readable_id": ""
+ },
+ {
+  "amount": 1000,
+  "classification": "filler",
+  "id": 4762930,
+  "kind": "Xp",
+  "name": "Massive Experience Boost",
+  "readable_id": ""
+ },
+ {
+  "amount": 50,
+  "classification": "filler",
+  "id": 4762931,
+  "kind": "Xp",
+  "name": "Medium Experience Boost",
   "readable_id": ""
  },
  {
@@ -5366,6 +5438,22 @@
   "kind": "Item",
   "name": "Recipe Yggdrasil",
   "readable_id": "recipe_yggdrasil"
+ },
+ {
+  "amount": 10,
+  "classification": "filler",
+  "id": 4762932,
+  "kind": "Xp",
+  "name": "Small Experience Boost",
+  "readable_id": ""
+ },
+ {
+  "amount": 5,
+  "classification": "filler",
+  "id": 4762933,
+  "kind": "Xp",
+  "name": "Tiny Experience Boost",
+  "readable_id": ""
  },
  {
   "amount": 1,

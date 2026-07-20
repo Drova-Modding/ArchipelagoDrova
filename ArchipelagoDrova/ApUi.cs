@@ -26,9 +26,11 @@ namespace ArchipelagoDrova
 
         private readonly ArchipelagoClient _client;
         private readonly ApConfig _config;
-        private readonly List<Toast> _toasts = new List<Toast>();
+        private readonly List<Toast> _toasts = new();
+        private readonly ApProgressPanel _progress;
 
         private bool _visible;
+        private bool _progressVisible;
         private bool _cheatRegistered;
         private bool _cheatWarned;
         private string _hostField;
@@ -40,6 +42,7 @@ namespace ArchipelagoDrova
         {
             _client = client;
             _config = config;
+            _progress = new ApProgressPanel(client);
             _hostField = config.Host;
             _portField = config.Port.ToString();
             _slotField = config.SlotName;
@@ -53,7 +56,7 @@ namespace ArchipelagoDrova
                 return;
             }
 
-            Toast toast = new Toast();
+            var toast = new Toast();
             toast.Text = text;
             toast.ExpiresAt = Time.realtimeSinceStartup + ToastLifetime;
             _toasts.Add(toast);
@@ -91,6 +94,10 @@ namespace ArchipelagoDrova
             {
                 DrawPanel();
             }
+            if (_progressVisible)
+            {
+                _progress.Draw();
+            }
         }
 
         private void DrawToasts()
@@ -112,7 +119,7 @@ namespace ArchipelagoDrova
 
         private void DrawPanel()
         {
-            Rect panel = new Rect(20f, 20f, 420f, 224f);
+            var panel = new Rect(20f, 20f, 420f, 252f);
             GUI.Box(panel, "Archipelago (F7)");
 
             float x = panel.x + 10f;
@@ -138,27 +145,31 @@ namespace ArchipelagoDrova
             _passwordField = GUI.PasswordField(new Rect(fieldX, y, fieldWidth, 20f), _passwordField ?? "", '*');
             y += 28f;
 
-            if (GUI.Button(new Rect(x, y, 110f, 24f), _client.Connected ? "Disconnect" : "Connect"))
+            if (GUI.Button(new Rect(x, y, 92f, 24f), "Connect"))
             {
-                if (_client.Connected)
-                {
-                    _client.Disconnect();
-                }
-                else
-                {
-                    ApplyFields();
-                    _client.Connect(_config.Host, _config.Port, _config.SlotName, _config.Password);
-                }
+                ApplyFields();
+                _client.Connect(_config.Host, _config.Port, _config.SlotName, _config.Password);
             }
 
-            if (GUI.Button(new Rect(x + 118f, y, 110f, 24f), "Save _config"))
+            if (GUI.Button(new Rect(x + 100f, y, 92f, 24f), "Disconnect"))
+            {
+                _client.Disconnect();
+            }
+
+            if (GUI.Button(new Rect(x + 200f, y, 92f, 24f), "Save config"))
             {
                 ApplyFields();
                 _config.Save();
             }
 
-            _config.AutoConnect = GUI.Toggle(new Rect(x + 240f, y + 3f, 120f, 20f), _config.AutoConnect, "Auto connect");
+            _config.AutoConnect = GUI.Toggle(new Rect(x + 300f, y + 3f, 100f, 20f), _config.AutoConnect, "Auto connect");
             y += 30f;
+
+            if (GUI.Button(new Rect(x, y, 130f, 22f), _progressVisible ? "Hide progress" : "Show progress"))
+            {
+                _progressVisible = !_progressVisible;
+            }
+            y += 26f;
 
             GUI.Label(new Rect(x, y, width, 20f), _client.Status);
             y += 20f;
@@ -171,7 +182,7 @@ namespace ArchipelagoDrova
 
             if (Core.Store != null && Core.Store.Mismatched)
             {
-                Color previous = GUI.color;
+                var previous = GUI.color;
                 GUI.color = Color.red;
                 GUI.Label(new Rect(x, y, width, 20f), "SAVE/SEED MISMATCH - items and checks disabled");
                 GUI.color = previous;
@@ -183,8 +194,7 @@ namespace ArchipelagoDrova
             _config.Host = NormalizeHost(_hostField);
             _hostField = _config.Host;
 
-            int parsedPort;
-            if (int.TryParse((_portField ?? "").Trim(), out parsedPort) && parsedPort > 0 && parsedPort <= 65535)
+            if (int.TryParse((_portField ?? "").Trim(), out int parsedPort) && parsedPort > 0 && parsedPort <= 65535)
             {
                 _config.Port = parsedPort;
             }
@@ -224,7 +234,7 @@ namespace ArchipelagoDrova
                 // still success from our side.
                 CheatMenuAccess.RegisterCheat(
                     "ap_connect",
-                    new Action<Il2CppReferenceArray<CommandArg>>(OnConnectCommand),
+                    OnConnectCommand,
                     3,
                     4,
                     "ap_connect <host> <port> <slot> [password]",
@@ -233,7 +243,7 @@ namespace ArchipelagoDrova
                 // whitespace, so a multi-word message arrives as one arg per word.
                 CheatMenuAccess.RegisterCheat(
                     "ap_say",
-                    new Action<Il2CppReferenceArray<CommandArg>>(OnSayCommand),
+                    OnSayCommand,
                     1,
                     -1,
                     "ap_say <message...>",

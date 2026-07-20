@@ -2,7 +2,7 @@ import collections
 
 from Options import OptionError
 
-from ..locations import CATEGORY_TO_OPTION, KILL_MILESTONE_CATEGORY, LOCATION_DATA
+from ..locations import CATEGORY_TO_OPTION, COUNT_GATED_CATEGORIES, LOCATION_DATA, MUGGING_CATEGORY
 from .bases import DrovaTestBase
 
 # Derived from the generated table, not pinned. The counts legitimately move whenever the extraction
@@ -12,17 +12,21 @@ from .bases import DrovaTestBase
 # matches the location count.
 CATEGORY_COUNTS = collections.Counter(location["category"] for location in LOCATION_DATA)
 
-# Kill milestones are the one category NOT driven by a randomize_ toggle: they are count-gated by the
-# enemy_kill_checks Range and default to zero created, so the toggle-based tests below exclude them.
+# Milestone categories (kills, attributes learned, talents learned) are NOT driven by a randomize_
+# toggle: they are count-gated by Range options and default to zero created, so the toggle-based
+# tests below exclude them.
 TOGGLE_CATEGORY_COUNTS = {
-    category: count for category, count in CATEGORY_COUNTS.items() if category != KILL_MILESTONE_CATEGORY
+    category: count for category, count in CATEGORY_COUNTS.items() if category not in COUNT_GATED_CATEGORIES
 }
 
 # Locations of the faction not chosen are never created, so those counts are faction-dependent. Both
 # quests and traders carry a faction, so the subtraction is per category, not just quests.
+# Muggings are the exception: opposite-faction NPCs stay in the pool (marked EXCLUDED instead of
+# dropped), so they never subtract.
 NON_NEMETON_BY_CATEGORY = collections.Counter(
     location["category"] for location in LOCATION_DATA
     if location.get("faction") not in (None, "neutral", "nemeton")
+    and location["category"] != MUGGING_CATEGORY
 )
 NON_NEMETON_TOTAL = sum(NON_NEMETON_BY_CATEGORY.values())
 
@@ -43,7 +47,8 @@ class TestLocationTable(DrovaTestBase):
         # would both silently produce an unplayable seed. Kill milestones are optioned too, just via
         # the enemy_kill_checks Range rather than a toggle, so they are checked separately.
         self.assertEqual(set(TOGGLE_CATEGORY_COUNTS), set(CATEGORY_TO_OPTION))
-        self.assertGreater(CATEGORY_COUNTS[KILL_MILESTONE_CATEGORY], 0)
+        for category in COUNT_GATED_CATEGORIES:
+            self.assertGreater(CATEGORY_COUNTS[category], 0, category)
 
 
 class TestOnlyChests(DrovaTestBase):
@@ -92,6 +97,33 @@ class TestEachToggleAddsItsCategory(DrovaTestBase):
                 # The default Nemeton faction locks out the other faction's quests and traders.
                 expected = CATEGORY_COUNTS[category] - NON_NEMETON_BY_CATEGORY[category]
                 self.assertEqual(added, expected)
+
+
+class TestMuggingFactionExclusion(DrovaTestBase):
+    options = {**ALL_OFF, "randomize_chests": True, "randomize_muggings": True, "faction": "nemeton"}
+
+    def test_opposite_faction_muggings_are_excluded(self) -> None:
+        # Opposite-faction NPCs may be partly or fully unreachable, so their muggings stay in the
+        # pool but must never hold progression or useful items; own-faction and neutral muggings
+        # are ordinary locations.
+        from BaseClasses import LocationProgressType
+
+        mugging_faction = {
+            location["name"]: location.get("faction", "neutral")
+            for location in LOCATION_DATA
+            if location["category"] == MUGGING_CATEGORY
+        }
+        seen_excluded = 0
+        for location in self.multiworld.get_unfilled_locations(self.player):
+            faction = mugging_faction.get(location.name)
+            if faction is None:
+                continue
+            should_exclude = faction not in ("neutral", "nemeton")
+            self.assertEqual(
+                location.progress_type == LocationProgressType.EXCLUDED, should_exclude, location.name
+            )
+            seen_excluded += 1 if should_exclude else 0
+        self.assertGreater(seen_excluded, 0)
 
 
 class TestNoCategories(DrovaTestBase):

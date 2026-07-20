@@ -1,11 +1,15 @@
 import collections
 
 from ..items import (
-    FILLER_ITEM_NAME,
+    BONUS_ITEM_NAMES,
+    BONUS_ONLY_NAMES,
+    CAPPED_BONUS_ITEMS,
+    CONSUMABLE_CHUNK_NAMES,
     FILLER_ITEM_NAMES,
     ITEM_DATA,
     ITEM_NAME_GROUPS,
     ITEM_NAME_TO_ID,
+    JUNK_ITEM_NAMES,
     PROGRESSION_ITEM_NAMES,
     USEFUL_ITEM_NAMES,
 )
@@ -28,8 +32,10 @@ class TestItemTable(DrovaTestBase):
             self.assertTrue(PROGRESSION_ITEM_NAMES)
             self.assertTrue(USEFUL_ITEM_NAMES)
             self.assertTrue(FILLER_ITEM_NAMES)
+            self.assertTrue(BONUS_ONLY_NAMES)
             self.assertEqual(
-                len(PROGRESSION_ITEM_NAMES) + len(USEFUL_ITEM_NAMES) + len(FILLER_ITEM_NAMES),
+                len(PROGRESSION_ITEM_NAMES) + len(USEFUL_ITEM_NAMES) + len(FILLER_ITEM_NAMES)
+                + len(BONUS_ONLY_NAMES),
                 len(ITEM_DATA),
             )
 
@@ -37,14 +43,20 @@ class TestItemTable(DrovaTestBase):
             self.assertFalse(set(PROGRESSION_ITEM_NAMES) & set(USEFUL_ITEM_NAMES))
             self.assertFalse(set(PROGRESSION_ITEM_NAMES) & set(FILLER_ITEM_NAMES))
             self.assertFalse(set(USEFUL_ITEM_NAMES) & set(FILLER_ITEM_NAMES))
+            self.assertFalse(BONUS_ONLY_NAMES & set(PROGRESSION_ITEM_NAMES))
+            self.assertFalse(BONUS_ONLY_NAMES & set(USEFUL_ITEM_NAMES))
+            self.assertFalse(BONUS_ONLY_NAMES & set(FILLER_ITEM_NAMES))
 
         with self.subTest("The pool can fill a default seed"):
             # Progression must fit, and useful + filler must be able to top the pool up to any
             # reachable location count.
             self.assertGreater(len(USEFUL_ITEM_NAMES) + len(FILLER_ITEM_NAMES), len(PROGRESSION_ITEM_NAMES))
 
-        with self.subTest("The filler item is filler and exists"):
-            self.assertIn(FILLER_ITEM_NAME, FILLER_ITEM_NAMES)
+        with self.subTest("Every bonus name is a real item"):
+            self.assertTrue(CONSUMABLE_CHUNK_NAMES)
+            self.assertTrue(JUNK_ITEM_NAMES)
+            for name in BONUS_ITEM_NAMES:
+                self.assertIn(name, ITEM_NAME_TO_ID)
 
     def test_item_name_groups(self) -> None:
         for group in ("Keys", "Flow Abilities", "Energy Crystals", "Weapons", "Armor"):
@@ -110,13 +122,26 @@ class TestLargePoolFill(DrovaTestBase):
     def test_pool_fills_exactly(self) -> None:
         self.assertEqual(len(self.multiworld.itempool), len(self.multiworld.get_unfilled_locations(self.player)))
 
-    def test_repeatable_filler_covers_the_overflow(self) -> None:
-        # There are far more locations than distinct items, so the rest must be repeatable filler.
+    def test_repeatable_bonus_covers_the_overflow(self) -> None:
+        # There are far more locations than distinct items, so the rest must be repeatable bonus
+        # rewards: capped XP/LP tiers plus weighted small XP, consumable chunks and junk.
         location_count = len(self.multiworld.get_unfilled_locations(self.player))
         counts = collections.Counter(item.name for item in self.multiworld.itempool)
 
-        with self.subTest("Every distinct item was used"):
-            self.assertEqual(len([name for name in counts if counts[name] >= 1]), len(ITEM_DATA))
+        with self.subTest("Every distinct classified item was used"):
+            for name in (*PROGRESSION_ITEM_NAMES, *USEFUL_ITEM_NAMES, *FILLER_ITEM_NAMES):
+                self.assertGreaterEqual(counts[name], 1, name)
 
-        with self.subTest("The overflow is all Experience Boost"):
-            self.assertEqual(counts[FILLER_ITEM_NAME], location_count - len(ITEM_DATA) + 1)
+        with self.subTest("Only bonus rewards repeat"):
+            repeated = {name for name, count in counts.items() if count > 1}
+            self.assertLessEqual(repeated, BONUS_ITEM_NAMES)
+
+        with self.subTest("The big XP/LP tiers stay capped"):
+            for name, cap in CAPPED_BONUS_ITEMS:
+                # Learning Point also appears once as an ordinary useful item.
+                base = 1 if name in USEFUL_ITEM_NAMES else 0
+                self.assertGreaterEqual(counts[name], 1, name)
+                self.assertLessEqual(counts[name], cap + base, name)
+
+        with self.subTest("The pool still fills exactly"):
+            self.assertEqual(sum(counts.values()), location_count)

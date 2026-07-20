@@ -27,7 +27,25 @@ namespace ArchipelagoDrova
 
     public class ItemGranter : IItemGranter
     {
-        private readonly HashSet<string> _warnedNames = new HashSet<string>(StringComparer.Ordinal);
+        private readonly HashSet<string> _warnedNames = new(StringComparer.Ordinal);
+
+        // Consumable chunks vary per grant so 20 arrows is a nominal size, not a metronome.
+        private readonly Random _amountRoll = new();
+
+        /// <summary>
+        /// Stackable grants (amount > 1) vary uniformly between 50% and 150% of the table amount,
+        /// minimum 1. Single-unit grants (gear, recipes, quest items) always stay exactly 1.
+        /// </summary>
+        private int RollAmount(int tableAmount)
+        {
+            if (tableAmount <= 1)
+            {
+                return tableAmount;
+            }
+            int low = Math.Max(1, (tableAmount + 1) / 2);
+            int high = tableAmount + tableAmount / 2;
+            return _amountRoll.Next(low, high + 1);
+        }
 
         /// <summary>
         /// Use the player the API handed us through PlayerAccess.OnPlayerFound rather than polling
@@ -80,6 +98,10 @@ namespace ArchipelagoDrova
                     return GrantXp(grant, name);
                 case GrantKind.LearningPoint:
                     return GrantLearningPoint(grant, name);
+                case GrantKind.Attribute:
+                    return GrantAttribute(grant, name);
+                case GrantKind.MaxHealth:
+                    return GrantMaxHealth(player, grant, name);
                 default:
                     MelonLogger.Error("Unhandled grant kind " + grant.Kind + " for AP item '" + name + "'.");
                     return true;
@@ -97,7 +119,7 @@ namespace ArchipelagoDrova
                 // ProviderAccess.ItemDatabase is GetGameDatabase()._itemDatabase, so it throws rather
                 // than returning null when the game database is not up yet.
                 step = "ProviderAccess.ItemDatabase";
-                SubDatabase_Item database = ProviderAccess.ItemDatabase;
+                var database = ProviderAccess.ItemDatabase;
                 // SubDatabase_Item derives from Il2CppSystem.Object, not UnityEngine.Object,
                 // so there is no implicit bool here.
                 if (database == null)
@@ -106,7 +128,7 @@ namespace ArchipelagoDrova
                 }
 
                 step = "GetItemByReadableId('" + grant.Key + "')";
-                Item item = database.GetItemByReadableId(grant.Key);
+                var item = database.GetItemByReadableId(grant.Key);
                 if (!item)
                 {
                     MelonLogger.Error("AP item '" + apName + "' maps to unknown readable id '" + grant.Key + "'.");
@@ -120,13 +142,15 @@ namespace ArchipelagoDrova
                     return false;
                 }
 
+                int amount = RollAmount(grant.Amount);
+
                 step = "new ItemStack";
-                var stack = new ItemStack(item, grant.Amount);
+                var stack = new ItemStack(item, amount);
 
                 step = "inventory.AddItem";
                 inventory.AddItem(stack, true);
 
-                MelonLogger.Msg("Granted " + grant.Amount + "x " + grant.Key + " (AP item '" + apName + "').");
+                MelonLogger.Msg("Granted " + amount + "x " + grant.Key + " (AP item '" + apName + "').");
                 return true;
             }
             catch (Exception e)
@@ -142,7 +166,7 @@ namespace ArchipelagoDrova
 
         private bool GrantTalent(Actor player, ItemGrant grant, string apName)
         {
-            ITalentModule talents = player.TalentActorModule;
+            var talents = player.TalentActorModule;
             if (talents == null)
             {
                 return false;
@@ -170,8 +194,7 @@ namespace ArchipelagoDrova
 
         private bool GrantXp(ItemGrant grant, string apName)
         {
-            PlayerAttributeStats stats;
-            if (!TryGetStats(out stats))
+            if (!TryGetStats(out var stats))
             {
                 return false;
             }
@@ -190,6 +213,70 @@ namespace ArchipelagoDrova
 
             stats.GiveLearningPoint(grant.Amount);
             MelonLogger.Msg("Granted " + grant.Amount + " learning point(s) (AP item '" + apName + "').");
+            return true;
+        }
+
+        /// <summary>
+        /// Permanent attribute raise through the same path the game's perma-potions and trainers
+        /// use (ImproveAttribute), so the perma-stat thresholds fire exactly like vanilla.
+        /// </summary>
+        private bool GrantAttribute(ItemGrant grant, string apName)
+        {
+            if (!TryGetStats(out var stats))
+            {
+                return false;
+            }
+
+            GenericStatDesc desc;
+            try
+            {
+                var container = GlobalStatsSettings.GetStatContainer();
+                if (container == null)
+                {
+                    return false;
+                }
+                switch (grant.Key)
+                {
+                    case "strength":
+                        desc = container.StrengthStat;
+                        break;
+                    case "dexterity":
+                        desc = container.DexStat;
+                        break;
+                    case "mind":
+                        desc = container.MindStat;
+                        break;
+                    default:
+                        MelonLogger.Error("Unknown attribute '" + grant.Key + "' for AP item '" + apName + "'.");
+                        return true;
+                }
+            }
+            catch
+            {
+                // The stats container is not up yet; retry on the next pump.
+                return false;
+            }
+
+            if (desc == null)
+            {
+                return false;
+            }
+
+            stats.ImproveAttribute(desc, grant.Amount);
+            MelonLogger.Msg("Granted +" + grant.Amount + " " + grant.Key + " (AP item '" + apName + "').");
+            return true;
+        }
+
+        private bool GrantMaxHealth(Actor player, ItemGrant grant, string apName)
+        {
+            var health = player.GetHealth();
+            if (health == null)
+            {
+                return false;
+            }
+
+            health.ChangeMaxHealth(grant.Amount, true);
+            MelonLogger.Msg("Granted +" + grant.Amount + " max health (AP item '" + apName + "').");
             return true;
         }
     }

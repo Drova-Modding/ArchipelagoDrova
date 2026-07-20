@@ -29,13 +29,83 @@ CLASSIFICATIONS = {
     "filler": ItemClassification.filler,
 }
 
-# Experience Boost is granted through PlayerAttributeStats.AddExperiencePoints, so it is infinitely
-# repeatable and never dead: any amount of it is always a valid item.
-FILLER_ITEM_NAME = "Experience Boost"
+# --- Bonus pool ----------------------------------------------------------------------------------
+# Large seeds have far more locations than distinct items, so the overflow is padded with repeatable
+# "bonus" rewards. XP and LP are granted through PlayerAttributeStats (AddExperiencePoints /
+# GiveLearningPoint), so any number of them is always valid; the item-based bonus names below are
+# stackable consumables and animal trophies, where duplicates are equally harmless.
+#
+# The big tiers are capped per seed (a wall of +250 XP boosts trivialized leveling); the bulk of the
+# overflow is small XP, consumable chunks and junk, drawn with BONUS_CATEGORY_WEIGHTS.
+
+# (name, cap) - each tier appears randint(ceil(cap/2), cap) times per seed, biggest rewards first.
+# The permanent stat raises (+1 Str/Dex/Mind, +5 max health) are capped at 10 each: at most +10 to
+# every attribute and +50 max health per seed on top of vanilla progression.
+CAPPED_BONUS_ITEMS: tuple[tuple[str, int], ...] = (
+    ("Massive Experience Boost", 2),   # 1000 XP
+    ("5 Learning Points", 2),
+    ("1 Strength", 10),
+    ("1 Dexterity", 10),
+    ("1 Mind", 10),
+    ("5 Max Health", 10),
+    ("Experience Boost", 4),           # 250 XP
+    ("2 Learning Points", 4),
+    ("Large Experience Boost", 6),     # 100 XP
+    ("Medium Experience Boost", 8),    # 50 XP
+    ("Learning Point", 10),
+)
+
+SMALL_XP_NAMES = ("Tiny Experience Boost", "Small Experience Boost")  # 5 / 10 XP
+
+# Animal trophies, coins and other sellable junk: filler item_ entries matched on these tokens.
+_JUNK_TOKENS = ("claw", "fur", "tooth", "teeth", "feather", "stinger", "trophy", "coin")
+# Substring false positives: "fur" catches the quest weapon part item_shaftofpurefury.
+_JUNK_EXCLUDE = {"item_shaftofpurefury"}
+
+# The XP/LP tiers exist only as capped/bulk bonus rewards; keep them out of the once-each top-ups
+# so a small pool cannot hand out "Massive Experience Boost" as ordinary filler. "Learning Point"
+# is not bonus-only: it stays a classified useful item as well. The LP bundles are classified
+# useful (excluded locations must never hold them), the XP tiers filler.
+BONUS_ONLY_NAMES = {name for name, _ in CAPPED_BONUS_ITEMS if name != "Learning Point"} | set(SMALL_XP_NAMES)
 
 PROGRESSION_ITEM_NAMES = [item["name"] for item in ITEM_DATA if item["classification"] == "progression"]
-USEFUL_ITEM_NAMES = [item["name"] for item in ITEM_DATA if item["classification"] == "useful"]
-FILLER_ITEM_NAMES = [item["name"] for item in ITEM_DATA if item["classification"] == "filler"]
+USEFUL_ITEM_NAMES = [
+    item["name"] for item in ITEM_DATA
+    if item["classification"] == "useful" and item["name"] not in BONUS_ONLY_NAMES
+]
+
+# Consumable chunks: everything the generator gave a stack size (arrows, potions, food, throwables).
+CONSUMABLE_CHUNK_NAMES = [
+    item["name"] for item in ITEM_DATA
+    if item["classification"] == "filler" and item["kind"] == "Item" and item["amount"] > 1
+]
+JUNK_ITEM_NAMES = [
+    item["name"] for item in ITEM_DATA
+    if item["classification"] == "filler" and item["kind"] == "Item" and item["amount"] == 1
+    and item["readable_id"].startswith("item_")  # not recipes: recipe_hunterstrophy matches "trophy"
+    and item["readable_id"] not in _JUNK_EXCLUDE
+    and any(token in item["readable_id"].lower() for token in _JUNK_TOKENS)
+]
+
+# (weight, names) - the bulk overflow draw. Consumables lead so long runs keep finding supplies.
+BONUS_CATEGORY_WEIGHTS: tuple[tuple[int, list[str]], ...] = (
+    (45, CONSUMABLE_CHUNK_NAMES),
+    (30, list(SMALL_XP_NAMES)),
+    (25, JUNK_ITEM_NAMES),
+)
+
+# Every name the bonus pool can produce; the overflow tests assert against this set.
+BONUS_ITEM_NAMES = (
+    {name for name, _ in CAPPED_BONUS_ITEMS}
+    | set(SMALL_XP_NAMES)
+    | set(CONSUMABLE_CHUNK_NAMES)
+    | set(JUNK_ITEM_NAMES)
+)
+
+FILLER_ITEM_NAMES = [
+    item["name"] for item in ITEM_DATA
+    if item["classification"] == "filler" and item["name"] not in BONUS_ONLY_NAMES
+]
 
 
 def _names_with_prefix(*prefixes: str) -> set[str]:
@@ -85,8 +155,30 @@ def create_all_items(world: DrovaWorld) -> None:
         itempool += [world.create_item(name) for name in chosen]
         remaining -= len(chosen)
 
-    # Large pools run out of distinct items well before they run out of locations (805 items, up to
-    # ~6400 locations), so the rest is repeatable filler.
-    itempool += [world.create_filler() for _ in range(remaining)]
+    # Large pools run out of distinct items well before they run out of locations (~800 items, up
+    # to ~6400 locations), so the rest is repeatable bonus rewards: a capped handful of big XP/LP
+    # tiers, then weighted small XP, consumable chunks and junk.
+    if remaining > 0:
+        itempool += create_bonus_items(world, remaining)
 
     world.multiworld.itempool += itempool
+
+
+def create_bonus_items(world: DrovaWorld, count: int) -> list[Item]:
+    names: list[str] = []
+    for name, cap in CAPPED_BONUS_ITEMS:
+        if len(names) >= count:
+            break
+        tier_count = world.random.randint((cap + 1) // 2, cap)
+        names += [name] * min(tier_count, count - len(names))
+    while len(names) < count:
+        names.append(random_bonus_item_name(world))
+    return [world.create_item(name) for name in names]
+
+
+def random_bonus_item_name(world: DrovaWorld) -> str:
+    """A repeatable reward drawn by category weight. Also serves as get_filler_item_name, which AP
+    core may call any number of times, so every candidate must stay valid in any quantity."""
+    weights = [weight for weight, _ in BONUS_CATEGORY_WEIGHTS]
+    _, names = world.random.choices(BONUS_CATEGORY_WEIGHTS, weights=weights)[0]
+    return world.random.choice(names)

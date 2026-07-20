@@ -75,7 +75,7 @@ namespace ArchipelagoDrova
         {
             try
             {
-                Actor player = Core.Player;
+                var player = Core.Player;
                 if (!player || __instance == null || changeArgs == null)
                 {
                     return;
@@ -87,7 +87,7 @@ namespace ArchipelagoDrova
                     return;
                 }
 
-                Health victimHealth = changeArgs.TargetHealth;
+                var victimHealth = changeArgs.TargetHealth;
                 if (!victimHealth)
                 {
                     return;

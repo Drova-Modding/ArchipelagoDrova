@@ -13,6 +13,7 @@ namespace ArchipelagoDrova.Data
         private static Dictionary<string, string> _containerIndex;
         private static Dictionary<string, string[]> _containerSlotIndex;
         private static Dictionary<string, string> _traderIndex;
+        private static Dictionary<string, string[]> _traderUnitIndex;
 
         public static int ContainerCount
         {
@@ -41,7 +42,7 @@ namespace ArchipelagoDrova.Data
                 return null;
             }
 
-            StringBuilder hex = new StringBuilder(32);
+            var hex = new StringBuilder(32);
             for (int i = 0; i < raw.Length; i++)
             {
                 char c = raw[i];
@@ -129,14 +130,36 @@ namespace ArchipelagoDrova.Data
         /// </summary>
         public static bool TryGetTraderSlot(string rawTraderGuid, string rawItemGuid, out string apLocationName)
         {
+            return TryGetTraderSlot(rawTraderGuid, rawItemGuid, out apLocationName, out _);
+        }
+
+        /// <summary>
+        /// Overload that also hands back the normalized "traderGuid:itemGuid" slot key, which is the
+        /// cursor key for the per-unit purchase counter and for <see cref="GetTraderUnitNames"/>.
+        /// </summary>
+        public static bool TryGetTraderSlot(string rawTraderGuid, string rawItemGuid,
+            out string apLocationName, out string slotKey)
+        {
             apLocationName = null;
+            slotKey = null;
             string traderKey = NormalizeGuid(rawTraderGuid);
             string itemKey = NormalizeGuid(rawItemGuid);
             if (traderKey == null || itemKey == null)
             {
                 return false;
             }
-            return TraderSlots.TryGetValue(traderKey + ":" + itemKey, out apLocationName);
+            slotKey = traderKey + ":" + itemKey;
+            return TraderSlots.TryGetValue(slotKey, out apLocationName);
+        }
+
+        /// <summary>
+        /// Extra per-unit location names (units 2..K) for a slot key from
+        /// <see cref="TryGetTraderSlot(string, string, out string, out string)"/>. The base location
+        /// is unit 1 and not repeated here. Null for the common single-unit slot.
+        /// </summary>
+        public static string[] GetTraderUnitNames(string slotKey)
+        {
+            return slotKey != null && TraderUnits.TryGetValue(slotKey, out var names) ? names : null;
         }
 
         /// <summary>
@@ -149,8 +172,8 @@ namespace ArchipelagoDrova.Data
             {
                 if (_containerIndex == null)
                 {
-                    Dictionary<string, string> built = new Dictionary<string, string>(ContainerGuidToName.Count, StringComparer.Ordinal);
-                    foreach (KeyValuePair<string, string> pair in ContainerGuidToName)
+                    var built = new Dictionary<string, string>(ContainerGuidToName.Count, StringComparer.Ordinal);
+                    foreach (var pair in ContainerGuidToName)
                     {
                         string key = NormalizeGuid(pair.Key) ?? pair.Key;
                         built[key] = pair.Value;
@@ -168,8 +191,8 @@ namespace ArchipelagoDrova.Data
             {
                 if (_containerSlotIndex == null)
                 {
-                    Dictionary<string, string[]> built = new Dictionary<string, string[]>(ContainerGuidToSlotNames.Count, StringComparer.Ordinal);
-                    foreach (KeyValuePair<string, string[]> pair in ContainerGuidToSlotNames)
+                    var built = new Dictionary<string, string[]>(ContainerGuidToSlotNames.Count, StringComparer.Ordinal);
+                    foreach (var pair in ContainerGuidToSlotNames)
                     {
                         string key = NormalizeGuid(pair.Key) ?? pair.Key;
                         built[key] = pair.Value;
@@ -184,14 +207,43 @@ namespace ArchipelagoDrova.Data
         /// The generated trader keys re-normalized half by half ("traderGuid:itemGuid"), so a stray
         /// guid format in the generator cannot desync the two sides of the lookup.
         /// </summary>
+        /// <summary>Same half-by-half re-normalization as <see cref="TraderSlots"/> for the unit table.</summary>
+        private static Dictionary<string, string[]> TraderUnits
+        {
+            get
+            {
+                if (_traderUnitIndex == null)
+                {
+                    var built = new Dictionary<string, string[]>(TraderSlotToUnitNames.Count, StringComparer.Ordinal);
+                    foreach (var pair in TraderSlotToUnitNames)
+                    {
+                        int split = pair.Key.IndexOf(':');
+                        if (split <= 0)
+                        {
+                            continue;
+                        }
+                        string traderKey = NormalizeGuid(pair.Key.Substring(0, split));
+                        string itemKey = NormalizeGuid(pair.Key.Substring(split + 1));
+                        if (traderKey == null || itemKey == null)
+                        {
+                            continue;
+                        }
+                        built[traderKey + ":" + itemKey] = pair.Value;
+                    }
+                    _traderUnitIndex = built;
+                }
+                return _traderUnitIndex;
+            }
+        }
+
         private static Dictionary<string, string> TraderSlots
         {
             get
             {
                 if (_traderIndex == null)
                 {
-                    Dictionary<string, string> built = new Dictionary<string, string>(TraderSlotToName.Count, StringComparer.Ordinal);
-                    foreach (KeyValuePair<string, string> pair in TraderSlotToName)
+                    var built = new Dictionary<string, string>(TraderSlotToName.Count, StringComparer.Ordinal);
+                    foreach (var pair in TraderSlotToName)
                     {
                         int split = pair.Key.IndexOf(':');
                         if (split <= 0)

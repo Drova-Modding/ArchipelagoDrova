@@ -85,7 +85,7 @@ class DrovaWorld(World):
         return items.create_item_by_name(self, name)
 
     def get_filler_item_name(self) -> str:
-        return items.FILLER_ITEM_NAME
+        return items.random_bonus_item_name(self)
 
     def interpret_slot_data(self, slot_data: Mapping[str, Any]) -> Mapping[str, Any]:
         # Universal Tracker protocol: returning a non-None value makes UT regenerate this world with
@@ -109,9 +109,15 @@ class DrovaWorld(World):
                 "caches": bool(self.options.randomize_caches),
                 "pickups": bool(self.options.randomize_pickups),
                 "traders": bool(self.options.randomize_traders),
+                "muggings": bool(self.options.randomize_muggings),
             },
             # The client sends milestone k once the kill count reaches k * interval, for k in
             # 1..enemy_kill_checks. Location names are "Enemy Kills - {k}".
             "enemy_kill_checks": int(self.options.enemy_kill_checks.value),
             "enemy_kill_interval": int(self.options.enemy_kill_interval.value),
+            # The client counts teacher-learned attribute points / talents and sends
+            # "Attributes Learned - {k}" / "Talents Learned - {k}" up to these.
+            "attribute_learn_checks": int(self.options.attribute_learn_checks.value),
+            "attribute_learn_interval": int(self.options.attribute_learn_interval.value),
+            "talent_learn_checks": int(self.options.talent_learn_checks.value),
         }

@@ -472,6 +472,7 @@
 
 	<ItemGroup>
 		<Compile Include="ApConfig.cs" />
+		<Compile Include="ApProgressPanel.cs" />
 		<Compile Include="ApState.cs" />
 		<Compile Include="ApUi.cs" />
 		<Compile Include="ArchipelagoClient.cs" />
@@ -487,6 +488,7 @@
 		<Compile Include="HookUtil.cs" />
 		<Compile Include="ItemGranter.cs" />
 		<Compile Include="KillTracker.cs" />
+		<Compile Include="LearnTracker.cs" />
 		<Compile Include="LootSuppressor.cs" />
 		<Compile Include="QuestTracker.cs" />
 		<Compile Include="TraderTracker.cs" />

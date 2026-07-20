@@ -15,7 +15,7 @@ namespace ArchipelagoDrova
     {
         public static bool TryPostfix(HarmonyLib.Harmony harmony, Type targetType, string targetMethod, Type patchType, string patchMethod)
         {
-            MethodInfo target = FindTarget(targetType, targetMethod);
+            var target = FindTarget(targetType, targetMethod);
             if (target == null)
             {
                 return false;
@@ -25,7 +25,7 @@ namespace ArchipelagoDrova
 
         public static bool TryPrefix(HarmonyLib.Harmony harmony, Type targetType, string targetMethod, Type patchType, string patchMethod)
         {
-            MethodInfo target = FindTarget(targetType, targetMethod);
+            var target = FindTarget(targetType, targetMethod);
             if (target == null)
             {
                 return false;
@@ -48,7 +48,7 @@ namespace ArchipelagoDrova
         {
             try
             {
-                MethodInfo target = AccessTools.Method(targetType, targetMethod);
+                var target = AccessTools.Method(targetType, targetMethod);
                 if (target == null)
                 {
                     MelonLogger.Error("[AP hook] target method not found: " + Label(targetType, targetMethod) + "; hook disabled.");
@@ -66,14 +66,14 @@ namespace ArchipelagoDrova
         {
             try
             {
-                MethodInfo patch = AccessTools.Method(patchType, patchMethod);
+                var patch = AccessTools.Method(patchType, patchMethod);
                 if (patch == null)
                 {
                     MelonLogger.Error("[AP hook] patch method " + patchType.Name + "." + patchMethod + " not found; " + label + " disabled.");
                     return false;
                 }
 
-                HarmonyMethod wrapped = new HarmonyMethod(patch);
+                var wrapped = new HarmonyMethod(patch);
                 if (asPrefix)
                 {
                     harmony.Patch(target, prefix: wrapped);

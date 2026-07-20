@@ -44,7 +44,9 @@ Anything Drova has that can be handed to you:
 - **Flow abilities**, the game's combat and utility skills
 - **Weapons, armor, helmets and maps**
 - **Consumables, recipes and quest items**
-- **Experience Boosts** and **Learning Points**
+- **Experience Boosts** (tiered from +5 to +1000 XP) and **Learning Points** (+1/+2/+5)
+- **Permanent stat raises**: +1 Strength / Dexterity / Mind and +5 max health, capped at ten each per seed
+- **Bonus rewards** padding large pools: consumable chunks, animal trophies, coins and junk
 
 ## What does another world's item look like in Drova?
 

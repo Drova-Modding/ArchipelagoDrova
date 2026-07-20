@@ -21,20 +21,33 @@ namespace ArchipelagoDrova
         /// <summary>Count of AP items already granted. Never decreases.</summary>
         public int ApItemsApplied { get; set; } = 0;
 
-        public List<long> CheckedLocations { get; set; } = new List<long>();
+        public List<long> CheckedLocations { get; set; } = new();
 
         /// <summary>
         /// Location names checked while no session was available. Names, not ids: resolving a name to
         /// its id needs the server's datapackage, which only a live session can provide. Flushed and
         /// emptied on the next successful connection.
         /// </summary>
-        public List<string> PendingLocationNames { get; set; } = new List<string>();
+        public List<string> PendingLocationNames { get; set; } = new();
 
         /// <summary>
         /// Total enemies defeated on this save. Monotonic; the enemy-kill milestone locations
         /// ("Enemy Kills - k") are sent when it reaches k * interval (interval comes from slot data).
         /// </summary>
         public int EnemyKills { get; set; } = 0;
+
+        /// <summary>Attribute points bought at teachers. Monotonic; drives "Attributes Learned - k".</summary>
+        public int AttributesLearned { get; set; } = 0;
+
+        /// <summary>Talents learned from teachers/dialogue. Monotonic; drives "Talents Learned - k".</summary>
+        public int TalentsLearned { get; set; } = 0;
+
+        /// <summary>
+        /// Cumulative units bought per trader slot ("traderGuid:itemGuid" -> count). Trader slots
+        /// with a stock stack are several locations (base + "- Unit 2..K"); this cursor decides
+        /// which unit the next purchase checks. Monotonic, survives restocks and reconnects.
+        /// </summary>
+        public Dictionary<string, int> TraderUnitsBought { get; set; } = new();
 
         /// <summary>True, once the outro was reached. Set even when the send fails, so it can be retried.</summary>
         public bool GoalReached { get; set; } = false;

@@ -64,6 +64,15 @@ namespace ArchipelagoDrova
         /// <summary>Kills between milestones. Milestone k fires at k * this many kills.</summary>
         public int EnemyKillInterval { get; private set; } = 1;
 
+        /// <summary>Number of attributes-learned milestone checks this seed offers (0 = off).</summary>
+        public int AttributeLearnChecks { get; private set; } = 0;
+
+        /// <summary>Teacher-learned points between milestones. Milestone k fires at k * this.</summary>
+        public int AttributeLearnInterval { get; private set; } = 1;
+
+        /// <summary>Number of talents-learned milestone checks this seed offers (0 = off).</summary>
+        public int TalentLearnChecks { get; private set; } = 0;
+
         public int ItemsApplied { get { return _store.State.ApItemsApplied; } }
         public int ItemsReceived { get; private set; } = 0;
         public int LocationsChecked { get; private set; } = 0;
@@ -75,7 +84,7 @@ namespace ArchipelagoDrova
         /// disabled still resolves to a real id; suppressing loot or sending a check for one destroys the
         /// vanilla item and sends a check the server drops. Everything acting on a location gates on this.
         /// </summary>
-        private readonly HashSet<long> _activeLocationIds = new HashSet<long>();
+        private readonly HashSet<long> _activeLocationIds = new();
 
         /// <summary>
         /// Set when persisted state changed (item granted, check recorded, kill counted) and must be
@@ -145,7 +154,7 @@ namespace ArchipelagoDrova
                 {
                     // Scheme-less _host: the library probes wss:// first and falls back to ws://.
                     created = ArchipelagoSessionFactory.CreateSession(h, p);
-                    LoginResult result = created.TryConnectAndLogin(
+                    var result = created.TryConnectAndLogin(
                         GameName,
                         s,
                         ItemsHandlingFlags.AllItems,
@@ -155,7 +164,7 @@ namespace ArchipelagoDrova
                         string.IsNullOrEmpty(pw) ? null : pw,
                         true);
 
-                    ArchipelagoSession sessionForCallback = created;
+                    var sessionForCallback = created;
                     MainThreadDispatcher.Enqueue(() => HandleLoginResult(sessionForCallback, result));
                 }
                 catch (Exception e)
@@ -172,11 +181,9 @@ namespace ArchipelagoDrova
             {
                 _connecting = false;
 
-                LoginSuccessful success = result as LoginSuccessful;
-                if (success == null)
+                if (result is not LoginSuccessful success)
                 {
-                    LoginFailure failure = result as LoginFailure;
-                    string message = failure != null && failure.Errors != null
+                    string message = result is LoginFailure failure && failure.Errors != null
                         ? string.Join("; ", failure.Errors)
                         : "unknown login error";
                     CloseSocket(newSession);
@@ -251,8 +258,7 @@ namespace ArchipelagoDrova
 
         private string ReadSeedName()
         {
-            object value;
-            if (SlotData != null && SlotData.TryGetValue("seed_name", out value) && value != null)
+            if (SlotData != null && SlotData.TryGetValue("seed_name", out object value) && value != null)
             {
                 return value.ToString();
             }
@@ -265,7 +271,7 @@ namespace ArchipelagoDrova
             _reconnectAt = -1f;
             _reconnectAttempt = 0;
 
-            ArchipelagoSession closing = _session;
+            var closing = _session;
             _session = null;
             _deathLink = null;
             Connected = false;
@@ -298,7 +304,7 @@ namespace ArchipelagoDrova
 
             try
             {
-                Task closing = target.Socket.DisconnectAsync();
+                var closing = target.Socket.DisconnectAsync();
                 closing.ContinueWith(
                     t => MelonLogger.Msg("Socket disconnect failed (harmless): " + t.Exception?.GetBaseException().Message),
                     TaskContinuationOptions.OnlyOnFaulted);
@@ -517,11 +523,11 @@ namespace ArchipelagoDrova
             }
 
             ItemsReceived = all.Count;
-            ApState state = _store.State;
+            var state = _store.State;
 
             for (int i = state.ApItemsApplied; i < all.Count; i++)
             {
-                ItemInfo info = all[i];
+                var info = all[i];
                 bool granted;
                 try
                 {
@@ -702,7 +708,7 @@ namespace ArchipelagoDrova
 
         private void QueuePendingLocation(string apLocationName)
         {
-            List<string> pending = _store.State.PendingLocationNames;
+            var pending = _store.State.PendingLocationNames;
             if (!pending.Contains(apLocationName))
             {
                 pending.Add(apLocationName);
@@ -721,7 +727,7 @@ namespace ArchipelagoDrova
                 return;
             }
 
-            List<string> pending = _store.State.PendingLocationNames;
+            var pending = _store.State.PendingLocationNames;
             if (pending == null || pending.Count == 0)
             {
                 return;
@@ -746,7 +752,7 @@ namespace ArchipelagoDrova
                 return;
             }
 
-            List<long> checkedLocations = _store.State.CheckedLocations;
+            var checkedLocations = _store.State.CheckedLocations;
             if (checkedLocations == null || checkedLocations.Count == 0)
             {
                 return;
@@ -757,7 +763,7 @@ namespace ArchipelagoDrova
 
         private void SendChecks(long[] ids)
         {
-            ArchipelagoSession target = _session;
+            var target = _session;
             if (target == null)
             {
                 return;
@@ -765,7 +771,7 @@ namespace ArchipelagoDrova
 
             try
             {
-                Task sending = target.Locations.CompleteLocationChecksAsync(ids);
+                var sending = target.Locations.CompleteLocationChecksAsync(ids);
                 sending.ContinueWith(
                     t => MelonLogger.Error("CompleteLocationChecksAsync failed: " + t.Exception),
                     TaskContinuationOptions.OnlyOnFaulted);
@@ -803,6 +809,41 @@ namespace ArchipelagoDrova
             {
                 MelonLogger.Error("Building the active-location set failed: " + e);
             }
+        }
+
+        /// <summary>
+        /// Name and checked-state of every location the generator placed in this seed, for the progress
+        /// panel. Server truth: AllLocationsChecked includes checks sent by other sessions and collects.
+        /// Empty when not connected. Names resolve through the room's own datapackage, so they exist
+        /// even for locations a newer local table no longer knows.
+        /// </summary>
+        public List<KeyValuePair<string, bool>> GetSeedLocationStates()
+        {
+            var states = new List<KeyValuePair<string, bool>>();
+            var session = _session;
+            if (!Connected || session == null)
+            {
+                return states;
+            }
+
+            try
+            {
+                var checkedIds = new HashSet<long>(session.Locations.AllLocationsChecked);
+                foreach (long id in session.Locations.AllLocations)
+                {
+                    string name = session.Locations.GetLocationNameFromId(id);
+                    if (string.IsNullOrEmpty(name))
+                    {
+                        continue;
+                    }
+                    states.Add(new KeyValuePair<string, bool>(name, checkedIds.Contains(id)));
+                }
+            }
+            catch (Exception e)
+            {
+                MelonLogger.Error("Snapshotting location states for the progress panel failed: " + e);
+            }
+            return states;
         }
 
         /// <summary>
@@ -851,7 +892,7 @@ namespace ArchipelagoDrova
 
         public void SendGoal()
         {
-            ApState state = _store.State;
+            var state = _store.State;
             if (state.GoalSent)
             {
                 return;
@@ -885,7 +926,7 @@ namespace ArchipelagoDrova
             }
 
             _goalSendState = state;
-            ArchipelagoSession target = _session;
+            var target = _session;
             Task.Run(() =>
             {
                 try
@@ -959,8 +1000,7 @@ namespace ArchipelagoDrova
         private void SetupLootSuppression()
         {
             bool suppress = false;
-            object value;
-            if (SlotData != null && SlotData.TryGetValue("suppress_vanilla_loot", out value) && value != null)
+            if (SlotData != null && SlotData.TryGetValue("suppress_vanilla_loot", out object value) && value != null)
             {
                 suppress = ToBool(value, false);
             }
@@ -980,6 +1020,9 @@ namespace ArchipelagoDrova
         {
             EnemyKillChecks = ReadIntSlotData("enemy_kill_checks", 0);
             EnemyKillInterval = Math.Max(1, ReadIntSlotData("enemy_kill_interval", 1));
+            AttributeLearnChecks = ReadIntSlotData("attribute_learn_checks", 0);
+            AttributeLearnInterval = Math.Max(1, ReadIntSlotData("attribute_learn_interval", 1));
+            TalentLearnChecks = ReadIntSlotData("talent_learn_checks", 0);
 
             if (EnemyKillChecks > 0)
             {
@@ -990,8 +1033,7 @@ namespace ArchipelagoDrova
 
         private int ReadIntSlotData(string key, int fallback)
         {
-            object value;
-            if (SlotData == null || !SlotData.TryGetValue(key, out value) || value == null)
+            if (SlotData == null || !SlotData.TryGetValue(key, out object value) || value == null)
             {
                 return fallback;
             }
@@ -1008,8 +1050,7 @@ namespace ArchipelagoDrova
         private void SetupDeathLink()
         {
             bool enabled = _config.DeathLink;
-            object value;
-            if (SlotData != null && SlotData.TryGetValue("death_link", out value) && value != null)
+            if (SlotData != null && SlotData.TryGetValue("death_link", out object value) && value != null)
             {
                 enabled = ToBool(value, enabled);
             }

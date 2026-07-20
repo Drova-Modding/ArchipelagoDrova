@@ -67,6 +67,11 @@ ap_connect <host> <port> <slot> [password]
 
 Settings persist to `<game>/UserData/ArchipelagoDrova/config.json`, so you only enter them once.
 
+The panel's **Show progress** button opens an in-game progress table: checked/total per
+area (Floodplain Forest, Nemeton, The Wilds, ...) broken down by check type (chests, pickups,
+quests, traders, ...). Counts are server truth, so checks collected remotely are included; rows
+turn green when an area's column is complete.
+
 ## Configure your seed (YAML)
 
 Options are set in your player YAML. The release includes a ready-to-edit
@@ -106,13 +111,14 @@ Two presets are also available: `minimal` (chests only) and `completionist` (eve
 | Category | Count | Default | What it is |
 |---|---:|---|---|
 | Chest | 521 | on | 201 chests, one check per authored vanilla item |
-| Container | 373 | on | 196 crates, barrels, lootable props, one check per authored vanilla item |
+| Container | 372 | on | 196 crates, barrels, lootable props, one check per authored vanilla item |
 | Quest | 60 | on | a quest reaching `IsCompleted` |
 | Critter | 134 | off | ambient wildlife and carcasses (crows, birds, dead boars) |
 | Resource | 361 | off | ore veins, fishing spots |
 | Cache | 978 | off | breakable loot-table caches |
-| Pickup | 3125 | off | loose world items: herbs, berries, ore |
-| Trader | 890 | off | buying an item from a merchant (faction-split) |
+| Pickup | 3112 | off | loose world items: herbs, berries, ore |
+| Trader | 2324 | off | buying from a merchant (faction-split); a stocked stack sells up to 5 checks, one per unit bought |
+| Mugging | 250 | off | knocking out an NPC in a brawl and opening their pockets, once per NPC |
 
 A container whose authored loot holds K eligible items is worth K checks, all sent when it is opened:
 the base location (`Cave - Chest 1`) plus per-item slots (`Cave - Chest 1 - Item 2`, ...). Contents come
@@ -120,9 +126,15 @@ from the static `_fixLoot` extraction (`tools/extract_locations/extract_chest_sl
 rolled flavour loot is not deterministic and never becomes a location, and slots holding protected
 items (quest items, keys, energy crystals — the ones the loot suppressor leaves in place) are skipped.
 
-Defaults give **950** locations. Enabling every toggle gives roughly 6100 for one faction (both
+Fourteen objects are deliberately **not** locations (`STORY_CRITICAL_GUIDS` in `tools/gen_data.py`):
+thirteen pickups around the bandit mine (the ordinary mushrooms, the weapon pack, the relic and the
+bandit's note), because the neutral "Missing" quest needs their vanilla contents and suppressing
+them could soft-lock it — and the Lothar-capture container that holds the player's own confiscated
+gear, which suppression would simply delete.
+
+Defaults give **949** locations. Enabling every toggle gives roughly 7400 for one faction (both
 factions' quests and traders never coexist in a seed), which is a *lot* of hunting: Pickup alone is
-3125, and Critter can put a dozen checks in one bush.
+3112, and Critter can put a dozen checks in one bush.
 
 **Enemy kills** are a separate, count-based category (`enemy_kill_checks`, default 0, up to 50). With
 N enabled, `Enemy Kills - k` is sent when your total kills reach `k * enemy_kill_interval`. These are
@@ -130,9 +142,22 @@ reached just by playing, so they never gate anything. A kill only counts when th
 final blow — critters, NPC-vs-NPC and environmental deaths don't count, and kills from summons or
 damage-over-time are undercounted (never double-counted).
 
-**Items** (805): 62 progression (15 keys, 3 charged energy crystals, 43 player flow abilities),
+**Teacher learning** works the same way: `attribute_learn_checks` (default 0, up to 80) sends
+`Attributes Learned - k` when your teacher-bought points reach `k * attribute_learn_interval`
+(default 5), and `talent_learn_checks` (default 0, up to 10) sends `Talents Learned - k` for every
+talent learned from a teacher or taught in dialogue. Only genuine teaching counts — attribute
+points and flow abilities received as Archipelago items, perma-potions and level-ups never advance
+the counters.
+
+**Items** (816): 62 progression (15 keys, 3 charged energy crystals, 43 player flow abilities),
 221 useful (weapons, armor, helmets, maps), 522 filler (consumables, recipes, quest items), plus
-experience and learning point grants.
+tiered experience, learning point and permanent stat grants. Once every distinct item is placed,
+the remaining locations hold repeatable bonus rewards: a capped handful of big tiers (one or two
++1000 XP / +5 LP per seed, up to ten each of +1 Strength / +1 Dexterity / +1 Mind / +5 max health,
+a few +250/+100/+50 XP and +1/+2 LP), and the bulk drawn weighted from
+consumable chunks (45%: arrows, potions, food, throwables, bombs, traps, iron/silver ore) and
++5/+10 XP (30%) and animal trophies / coins / junk (25%) — so long runs keep finding supplies
+instead of drowning in +250 XP.
 
 **Goal**: reach the outro. Dying does not route through the outro, so it cannot trigger a false goal.
 
@@ -148,6 +173,11 @@ By default (`suppress_vanilla_loot: true`) a randomized container hands you **on
 item, the way most randomizers behave. Set it to `false` and a container gives you **both** its vanilla
 contents and the Archipelago item — the pool is duplicated rather than relocated, making the seed easier
 and more forgiving.
+
+Suppression covers every location type: containers and pickups are emptied before looting, a
+randomized resource spot works its minigame but yields the check instead of the ore/fish, and a
+randomized trader slot sells you its **check** — the money is spent, the vanilla item is removed on
+the first (check-sending) purchase. Rebuying restocked goods afterwards works normally.
 
 Either way, **keys, quest items and energy crystals are always kept.** This world has almost no logic
 (see below): the generator is told nearly every location is reachable from the start, which is only true

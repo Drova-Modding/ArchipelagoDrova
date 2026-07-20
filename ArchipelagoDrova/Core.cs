@@ -77,15 +77,18 @@ namespace ArchipelagoDrova
             GoalTracker.Initialize(Client, HarmonyInstance);
             DeathTracker.Initialize(Client, HarmonyInstance);
             KillTracker.Initialize(Client, Store, HarmonyInstance);
+            LearnTracker.Initialize(Client, Store, HarmonyInstance);
             LootSuppressor.Initialize(HarmonyInstance);
 
             // Registered after Client.OnSaveGameStateLoaded so the save stamp is validated first.
             Store.OnStateLoaded += QuestTracker.RequestSweep;
             Store.OnStateLoaded += ContainerTracker.OnSaveGameStateLoaded;
             Store.OnStateLoaded += TraderTracker.OnSaveGameStateLoaded;
-            // Catch up kill milestones both when a save loads and when a connection completes.
+            // Catch up milestone counters both when a save loads and when a connection completes.
             Store.OnStateLoaded += KillTracker.SyncMilestones;
             Client.OnConnected += KillTracker.SyncMilestones;
+            Store.OnStateLoaded += LearnTracker.SyncMilestones;
+            Client.OnConnected += LearnTracker.SyncMilestones;
 
             LoggerInstance.Msg("Initialized. Press F7 for the Archipelago panel.");
         }
@@ -166,6 +169,7 @@ namespace ArchipelagoDrova
                 Client.Pump();
                 QuestTracker.Update();
                 DeathTracker.Update();
+                TraderTracker.Pump();
                 Ui.Update();
             }
             catch (Exception e)

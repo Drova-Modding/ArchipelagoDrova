@@ -2,6 +2,7 @@ using ArchipelagoDrova.Data;
 using Drova_Modding_API.Access;
 using HarmonyLib;
 using Il2CppDrova;
+using Il2CppDrova.Brawl;
 using Il2CppDrova.Crafting;
 using Il2CppDrova.InteractionSystem;
 using Il2CppDrova.InventorySystem;
@@ -36,8 +37,8 @@ namespace ArchipelagoDrova
 
         private static ArchipelagoClient _client;
 
-        private static readonly HashSet<string> _sentThisSession = new HashSet<string>(StringComparer.Ordinal);
-        private static readonly HashSet<string> _loggedGuids = new HashSet<string>(StringComparer.Ordinal);
+        private static readonly HashSet<string> _sentThisSession = new(StringComparer.Ordinal);
+        private static readonly HashSet<string> _loggedGuids = new(StringComparer.Ordinal);
         private static int _unmatchedLogged;
 
         public static void Initialize(ArchipelagoClient archipelagoClient, HarmonyLib.Harmony harmony)
@@ -277,7 +278,7 @@ namespace ArchipelagoDrova
                 return false;
             }
 
-            EntityGameHandler handler = ProviderAccess.GetEntityGameHandler();
+            var handler = ProviderAccess.GetEntityGameHandler();
             if (handler == null)
             {
                 return false;
@@ -303,7 +304,7 @@ namespace ArchipelagoDrova
         public static bool TryResolveApLocation(Component behaviour, string fallbackGuid, out string apName)
         {
             apName = null;
-            List<string> chain = GuidChain(behaviour);
+            var chain = GuidChain(KnockoutOwnerOrSelf(behaviour));
             if (!string.IsNullOrEmpty(fallbackGuid))
             {
                 chain.Add(fallbackGuid);
@@ -320,6 +321,40 @@ namespace ArchipelagoDrova
         }
 
         /// <summary>
+        /// The knockout loot trigger is Instantiate()d at scene root (BrawlActor.SpawnLootTrigger),
+        /// so the mugged NPC's guid is never in the trigger's own transform chain. Resolution is
+        /// redirected to the knocked-out actor, whose GuidComponent carries the LazyActor spawner's
+        /// stable scene guid (LazyActor stamps it onto the actor at spawn).
+        /// </summary>
+        private static Component KnockoutOwnerOrSelf(Component behaviour)
+        {
+            try
+            {
+                if (behaviour == null)
+                {
+                    return behaviour;
+                }
+                var knockout = behaviour.TryCast<Interact_Bhvr_LootKnockout>();
+                if (knockout == null)
+                {
+                    return behaviour;
+                }
+                var brawl = knockout._actor;
+                if (brawl == null)
+                {
+                    return behaviour;
+                }
+                var owner = brawl.Entity == null ? null : brawl.Entity.TryCast<Actor>();
+                return owner != null ? (Component)owner : behaviour;
+            }
+            catch (Exception e)
+            {
+                MelonLogger.Warning("[AP loot] resolving a knockout's owner failed: " + e.Message);
+                return behaviour;
+            }
+        }
+
+        /// <summary>
         /// Every GuidComponent from the behaviour up to the scene root, nearest first.
         /// GetComponentInParent only returns the nearest, which is wrong wherever GuidComponents nest:
         /// a runtime-spawned child carries its own freshly created guid, while the scene-baked guid
@@ -328,7 +363,7 @@ namespace ArchipelagoDrova
         /// </summary>
         public static List<string> GuidChain(Component behaviour)
         {
-            List<string> chain = new List<string>();
+            var chain = new List<string>();
             try
             {
                 if (behaviour == null)
@@ -336,10 +371,10 @@ namespace ArchipelagoDrova
                     return chain;
                 }
 
-                Transform node = behaviour.transform;
+                var node = behaviour.transform;
                 while (node)
                 {
-                    GuidComponent owner = node.GetComponent<GuidComponent>();
+                    var owner = node.GetComponent<GuidComponent>();
                     if (owner)
                     {
                         string guid = owner._guidString;
@@ -360,7 +395,7 @@ namespace ArchipelagoDrova
 
         private static void Report(Component behaviour, string fallbackGuid, string source)
         {
-            List<string> chain = GuidChain(behaviour);
+            var chain = GuidChain(KnockoutOwnerOrSelf(behaviour));
             if (!string.IsNullOrEmpty(fallbackGuid))
             {
                 chain.Add(fallbackGuid);
@@ -373,8 +408,7 @@ namespace ArchipelagoDrova
             bool known = false;
             for (int i = 0; i < chain.Count; i++)
             {
-                string candidate;
-                if (LocationTable.TryGetContainer(chain[i], out candidate))
+                if (LocationTable.TryGetContainer(chain[i], out string candidate))
                 {
                     raw = chain[i];
                     apName = candidate;

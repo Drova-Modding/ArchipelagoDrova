@@ -35,13 +35,13 @@ namespace ArchipelagoDrova
 
             try
             {
-                Il2CppSystem.Object boxed = gvar.GetGenericValue();
+                var boxed = gvar.GetGenericValue();
                 if (boxed == null)
                 {
                     return false;
                 }
 
-                IntPtr data = IL2CPP.il2cpp_object_unbox(boxed.Pointer);
+                var data = IL2CPP.il2cpp_object_unbox(boxed.Pointer);
                 if (data == IntPtr.Zero)
                 {
                     return false;
@@ -75,7 +75,7 @@ namespace ArchipelagoDrova
                     return false;
                 }
 
-                FieldInfo field = Il2CppInteropUtils.GetIl2CppMethodInfoPointerFieldForGeneratedMethod(proxyMethod);
+                var field = Il2CppInteropUtils.GetIl2CppMethodInfoPointerFieldForGeneratedMethod(proxyMethod);
                 if (field == null)
                 {
                     detail = "no NativeMethodInfoPtr_ field";
@@ -83,15 +83,15 @@ namespace ArchipelagoDrova
                 }
 
                 // Reading the field runs the closed generic's cctor, which is itself a thing that can throw.
-                IntPtr methodInfo = (IntPtr)field.GetValue(null);
+                var methodInfo = (IntPtr)field.GetValue(null);
                 if (methodInfo == IntPtr.Zero)
                 {
                     detail = "MethodInfo* == 0";
                     return false;
                 }
 
-                INativeMethodInfoStruct wrapped = UnityVersionHandler.Wrap((Il2CppMethodInfo*)methodInfo);
-                IntPtr body = wrapped.MethodPointer;
+                var wrapped = UnityVersionHandler.Wrap((Il2CppMethodInfo*)methodInfo);
+                var body = wrapped.MethodPointer;
                 detail = "MethodInfo*=0x" + methodInfo.ToInt64().ToString("X") + " body=0x" + body.ToInt64().ToString("X");
                 return body != IntPtr.Zero;
             }
@@ -127,9 +127,9 @@ namespace ArchipelagoDrova
         private static bool _sweepPending;
         private static float _nextScan;
 
-        private static readonly Dictionary<string, QuestState> _lastState = new Dictionary<string, QuestState>(StringComparer.Ordinal);
-        private static readonly HashSet<string> _sentThisSession = new HashSet<string>(StringComparer.Ordinal);
-        private static readonly HashSet<string> _unmappedLists = new HashSet<string>(StringComparer.Ordinal);
+        private static readonly Dictionary<string, QuestState> _lastState = new(StringComparer.Ordinal);
+        private static readonly HashSet<string> _sentThisSession = new(StringComparer.Ordinal);
+        private static readonly HashSet<string> _unmappedLists = new(StringComparer.Ordinal);
 
         public static void Initialize(ArchipelagoClient archipelagoClient, HarmonyLib.Harmony harmony)
         {
@@ -231,19 +231,19 @@ namespace ArchipelagoDrova
         /// </summary>
         private static void Scan(bool catchUp)
         {
-            GameDatabase database = ProviderAccess.GetGameDatabase();
+            var database = ProviderAccess.GetGameDatabase();
             if (!database)
             {
                 return;
             }
 
-            SubDatabase_GVars gvars = database._gvarDatabase;
+            var gvars = database._gvarDatabase;
             if (gvars == null)
             {
                 return;
             }
 
-            Il2CppSystem.Collections.Generic.List<GVarList> lists = gvars.AllGVars;
+            var lists = gvars.AllGVars;
             if (lists == null)
             {
                 return;
@@ -255,7 +255,7 @@ namespace ArchipelagoDrova
 
             for (int i = 0; i < lists.Count; i++)
             {
-                GVarList list = lists[i];
+                var list = lists[i];
                 if (!list || !list.IsQuestVarList)
                 {
                     continue;
@@ -352,7 +352,7 @@ namespace ArchipelagoDrova
 
         private static void OnCompleted(AGVarBase gvar, string source)
         {
-            GVarList parent = gvar.GetParent();
+            var parent = gvar.GetParent();
             if (!parent)
             {
                 return;
@@ -393,7 +393,7 @@ namespace ArchipelagoDrova
         {
             try
             {
-                UnityEngine.Object unityObject = obj.TryCast<UnityEngine.Object>();
+                var unityObject = obj.TryCast<UnityEngine.Object>();
                 return unityObject ? unityObject.name : null;
             }
             catch

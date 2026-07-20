@@ -27,15 +27,30 @@ import sys
 ITEM_BASE_ID = 4762000
 LOCATION_BASE_ID = 4800000
 
+# A trader slot with a stock stack of N sells min(N, this) checks; the rest is vanilla shopping.
+# The distribution is heavy-tailed (median stack 1, max 160 povage), so uncapped would balloon the
+# trader category from ~900 to ~6100 pure money-pump locations.
+TRADER_UNIT_CAP = 5
+
 # Enemy-kill milestone locations are synthetic: they have no world object and are not extracted.
 # The client sends them from a persistent kill count. Every milestone that could exist under any
 # option must be in the datapackage, so a fixed maximum is baked in and the apworld creates only
 # the first enemy_kill_checks of them per seed. Raising this later only appends new frozen ids.
 MAX_KILL_MILESTONES = 50
 
+# Teacher-learning milestones, same synthetic model: the client counts attribute points bought at
+# teachers (LearnService.ApplyData) and talents learned (TalentActorModule.LearnTalent - the AP
+# item grants go through ForceLearnTalent and never count). Maxima match what the game can teach:
+# ~80 attribute points and a handful of talents.
+MAX_ATTRIBUTE_MILESTONES = 80
+MAX_TALENT_MILESTONES = 10
+
 # Standard Steam location; override with the DROVA_PATH env var if your install is elsewhere.
 GAME_DIR = os.environ.get("DROVA_PATH", r"C:\Program Files (x86)\Steam\steamapps\common\Drova - Forsaken Kin")
 READABLE_IDS = os.path.join(GAME_DIR, "Mods", "readable_ids.txt")
+# Area loca key -> English display name. Location areas use the display names; the client uses this
+# map to translate the save's PlayerAreaLocaKey into the display name for the progress highlight.
+AREAS_LOC = os.path.join(GAME_DIR, "Drova_Data", "StreamingAssets", "Localization", "en", "AreaNames_en.loc")
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_JSON_DIR = os.path.join(REPO, "apworld", "drova", "data")
@@ -68,11 +83,51 @@ CHEST_SLOTS_SRC = os.path.join(REPO, "tools", "extracted", "chest_slots.json")
 # than a missing one: it can never be completed.
 UNREACHABLE_SRC = os.path.join(REPO, "tools", "extracted", "unreachable.json")
 
+# Story-critical objects that must never become locations, so their vanilla contents survive
+# suppression. Keyed by GuidComponent guid (lowercase), value is the human reason. Removing a
+# location never renumbers ids (they stay in the frozen file, unused).
+#
+# "Missing" (BanditMine/BanditMineBrutus, neutral -> in every seed) needs ordinary mushrooms
+# collected around the mine plus the mine's weapon pack / relic / note to resolve. Ordinary
+# mushrooms carry no IsQuestItem flag, so the client would suppress them and the quest could
+# soft-lock with pickups enabled.
+#
+# MetaObjects_SavePlayerInventory_Lothar_Mining is not a world chest at all: the Lothar capture
+# sequence stows the player's entire inventory in it. As a randomized location the suppressor
+# would delete everything in it except keys/quest items/crystals - the player's whole kit.
+STORY_CRITICAL_GUIDS = {
+    "1f3320bf-b5bc-472c-af8a-06f331b9ccb0": "Lothar capture: holds the player's own confiscated gear",
+    # PickUp_Cons_Mushroom around the bandit mine (scenes 13/14_36) - the quest's mushroom supply.
+    "8223fb75-92fc-4a7b-b123-0d5e3a71a50d": "Missing: ordinary mushroom near mine",
+    "b12b6731-fa78-4826-a72a-9a199feaf26a": "Missing: ordinary mushroom near mine",
+    "b9e4fdd0-5cc6-464d-bf04-a278fbcc1536": "Missing: ordinary mushroom near mine",
+    "d698f61b-d18b-4b24-bfde-f916f7cff8d7": "Missing: ordinary mushroom near mine",
+    "292ca21b-720b-40f2-b806-ec0905def241": "Missing: ordinary mushroom near mine",
+    "021a2d2a-c834-428b-abe1-4d148e166fec": "Missing: ordinary mushroom near mine",
+    "95b18157-8530-41c3-9983-0544f0612b03": "Missing: ordinary mushroom near mine",
+    "ab52d4ae-3b31-4a90-888b-7c2b0f1f32c4": "Missing: ordinary mushroom near mine",
+    "fcd2b846-82c1-475d-9ca3-324e470b146f": "Missing: ordinary mushroom near mine",
+    "12aa2cf5-d8a4-4220-a329-86108715215b": "Missing: ordinary mushroom near mine",
+    # PickUp_Mine_Weapons / PickUp_MineRelic / PickUp_MineBanditNote - quest stages may require
+    # physically holding these; the relic and note are probably IsQuestItem (client keeps them
+    # anyway), but keeping them out of the pool is the safe direction for all three.
+    "fbe0eb55-a690-445d-8f4a-3c93cb665327": "Missing: mine weapon pack",
+    "c231ff79-ddcc-4559-8c5a-7b9559f2a01a": "Missing: mine relic",
+    "2efe8200-5100-4ba2-b473-7958f557e949": "Missing: mine bandit note",
+}
+
 # Animal-derived loot: killable ambient critters (crows, small birds) and lootable carcasses. They
 # carry Saveable_LootInventory, which chests and crates never do. Hunting birds is a different
 # activity from opening a chest, and one bush can hold a flock of twelve, so they get their own
 # opt-in category instead of padding the default seed.
 CRITTERS_SRC = os.path.join(REPO, "tools", "extracted", "critters.json")
+
+# Muggable NPCs (tools/extract_locations/extract_npcs.py): LazyActor spawner guid ->
+# {label, area, faction}. The spawner's scene-baked guid is stamped onto the spawned actor
+# (LazyActor.SetNewGuid), so it is the same key the save uses for the NPC. Knocking the NPC out and
+# opening the mug window sends the check. Opposite-faction NPCs stay in the pool (some are still
+# reachable) but the apworld marks them EXCLUDED, so nothing valuable can land on them.
+NPCS_SRC = os.path.join(REPO, "tools", "extracted", "npcs.json")
 
 # Location categories and their default enabled state. 5005 containers is far too many for one
 # seed, so the apworld gates them by category; these defaults keep a fresh seed sane.
@@ -85,6 +140,9 @@ CATEGORY_DEFAULTS = {
     "Pickup": False,
     "Trader": False,
     "KillMilestone": False,
+    "Mugging": False,
+    "AttributeMilestone": False,
+    "TalentMilestone": False,
 }
 
 # Flow abilities that belong to NPCs/bosses, not the player.
@@ -107,10 +165,28 @@ JUNK_TOKENS = {"npc", "mock", "dummy", "debug", "placeholder", "test", "combotes
 
 # Non-items that we grant through other verified game calls.
 # PlayerAttributeStats.AddExperiencePoints / GiveLearningPoint.
+# The XP/LP tiers exist so the pool overflow is not a wall of identical +250 XP: the apworld hands
+# out the big tiers a capped handful of times per seed and pads the rest with the small ones
+# (see apworld/drova/items.py). Names are frozen id keys - never rename, only append.
 SYNTHETIC = [
     # (ap_name, kind, key, amount, classification)
     ("Experience Boost", "Xp", "", 250, "filler"),
     ("Learning Point", "LearningPoint", "", 1, "useful"),
+    ("Tiny Experience Boost", "Xp", "", 5, "filler"),
+    ("Small Experience Boost", "Xp", "", 10, "filler"),
+    ("Medium Experience Boost", "Xp", "", 50, "filler"),
+    ("Large Experience Boost", "Xp", "", 100, "filler"),
+    ("Massive Experience Boost", "Xp", "", 1000, "filler"),
+    # LP is permanent character power: useful, so it can never land on an excluded location.
+    ("2 Learning Points", "LearningPoint", "", 2, "useful"),
+    ("5 Learning Points", "LearningPoint", "", 5, "useful"),
+    # Permanent attribute raises through PlayerAttributeStats.ImproveAttribute (the perma-potion
+    # path, thresholds included) and Health.ChangeMaxHealth. Useful classification: real character
+    # power must never land on an excluded location. The apworld caps each at ~10 per seed.
+    ("1 Strength", "Attribute", "strength", 1, "useful"),
+    ("1 Dexterity", "Attribute", "dexterity", 1, "useful"),
+    ("1 Mind", "Attribute", "mind", 1, "useful"),
+    ("5 Max Health", "MaxHealth", "", 5, "useful"),
 ]
 
 
@@ -133,6 +209,8 @@ def classify(rid):
     """
     if is_junk(rid):
         return None, False
+    if rid in RARE_USEFUL_IDS:
+        return "useful", True
     if rid.startswith("key_") or rid == "misc_key_locked_door":
         return "progression", True
     if rid.startswith("item_energycrystal_"):
@@ -171,12 +249,21 @@ def classify(rid):
 # gate also stops "arrow" catching the flow_poisonArrow ability.
 # NO_STACK wins first, for the one collision left inside item_: perma* items are permanent one-time
 # upgrades (permapotion/permaherb) that must stay at 1 even though they contain "potion"/"herb".
-NO_STACK_TOKENS = ("perma",)
+NO_STACK_TOKENS = ("perma", "respec")
+
+# Vanilla-rare consumables that must not be ordinary spammable filler: they get useful
+# classification (one guaranteed pool copy, never on excluded locations) and, via NO_STACK above,
+# grant a single unit. The respec potion ("potion of forget") is a rare, build-defining item.
+RARE_USEFUL_IDS = {"item_potion_respec"}
 STACK_RULES = (
     # (amount, tokens) - first matching rule wins. Tokens are substrings of the lowercased id.
     (20, ("arrow", "bolt")),
     (10, ("throwingknife", "throwingaxe", "splittertrap")),
     (5, ("potion", "salve")),
+    # Crafting ore and utility explosives, so the bonus pool can hand them out in useful chunks.
+    # "bomb" also catches item_troutskewersbombus (a food); 3 skewers is fine.
+    (5, ("ironstone", "silverstone")),
+    (3, ("bomb", "trap")),
     (5, ("meat", "fish_", "food", "mushroom", "callashroom", "healthplant", "flowplant",
          "berry", "bread", "cheese", "herb", "plant")),
 )
@@ -330,10 +417,14 @@ def build_locations():
             raw = json.load(fh)
         skipped = 0
         extra_slots = 0
+        quest_critical = 0
         for name, rec in raw.items():
             guid = rec["guid"].lower()
             if guid in unreachable:
                 skipped += 1
+                continue
+            if guid in STORY_CRITICAL_GUIDS:
+                quest_critical += 1
                 continue
             # The extractor calls anything with an inventory a Container. Reclassify animals.
             category = "Critter" if guid in critters else rec["category"]
@@ -362,6 +453,8 @@ def build_locations():
                 })
         if skipped:
             print("skipped %d unreachable container(s): nothing to loot on them" % skipped)
+        if quest_critical:
+            print("kept %d story-critical object(s) vanilla (Missing questline, Lothar gear chest)" % quest_critical)
         if extra_slots:
             print("added %d extra slot location(s) from authored multi-item containers" % extra_slots)
     else:
@@ -401,15 +494,48 @@ def build_locations():
     if os.path.exists(TRADERS_SRC):
         with open(TRADERS_SRC, encoding="utf-8") as fh:
             traders = json.load(fh)
+        trader_units = 0
         for key, rec in sorted(traders.items()):
             # trader_label is unique per trader guid and item ids are unique within a trader, so the
             # name never collides. Faction is proven at extraction; unprovable traders are excluded
             # there, exactly like faction quests.
+            name = "Trader - %s - %s" % (rec["trader_label"], pretty(rec["item_readable_id"]))
             locations.append({
-                "name": "Trader - %s - %s" % (rec["trader_label"], pretty(rec["item_readable_id"])),
+                "name": name,
                 "key": key,
                 "kind": "Trader",
                 "category": "Trader",
+                "area": rec.get("area", ""),
+                "faction": rec.get("faction", "neutral"),
+                "classification": "default",
+            })
+            # A slot with an authored stock stack sells several checks: the base location is unit 1
+            # (name and frozen id unchanged, so existing seeds stay valid) and units 2..K append,
+            # capped so bulk-material stacks (160x povage) cannot flood the pool. Past the cap the
+            # purchase is ordinary vanilla shopping.
+            for unit in range(2, min(rec.get("amount", 1), TRADER_UNIT_CAP) + 1):
+                trader_units += 1
+                locations.append({
+                    "name": "%s - Unit %d" % (name, unit),
+                    "key": "%s#unit%d" % (key, unit),
+                    "kind": "TraderUnit",
+                    "category": "Trader",
+                    "area": rec.get("area", ""),
+                    "faction": rec.get("faction", "neutral"),
+                    "classification": "default",
+                })
+        if trader_units:
+            print("added %d extra trader unit location(s) from stocked stacks (cap %d)" % (trader_units, TRADER_UNIT_CAP))
+
+    if os.path.exists(NPCS_SRC):
+        with open(NPCS_SRC, encoding="utf-8") as fh:
+            npcs = json.load(fh)
+        for guid, rec in sorted(npcs.items()):
+            locations.append({
+                "name": "Mugging - %s" % pretty(rec["label"]),
+                "key": guid,
+                "kind": "Mugging",
+                "category": "Mugging",
                 "area": rec.get("area", ""),
                 "faction": rec.get("faction", "neutral"),
                 "classification": "default",
@@ -424,6 +550,26 @@ def build_locations():
             "key": "killmilestone_%d" % k,
             "kind": "KillMilestone",
             "category": "KillMilestone",
+            "area": "",
+            "milestone": k,
+            "classification": "default",
+        })
+    for k in range(1, MAX_ATTRIBUTE_MILESTONES + 1):
+        locations.append({
+            "name": "Attributes Learned - %d" % k,
+            "key": "attributemilestone_%d" % k,
+            "kind": "AttributeMilestone",
+            "category": "AttributeMilestone",
+            "area": "",
+            "milestone": k,
+            "classification": "default",
+        })
+    for k in range(1, MAX_TALENT_MILESTONES + 1):
+        locations.append({
+            "name": "Talents Learned - %d" % k,
+            "key": "talentmilestone_%d" % k,
+            "kind": "TalentMilestone",
+            "category": "TalentMilestone",
             "area": "",
             "milestone": k,
             "classification": "default",
@@ -483,7 +629,9 @@ def write_cs_locations(locations):
         "        {",
     ]
     for loc in locations:
-        if loc["kind"] == "Container":
+        # Muggings resolve through the same guid map: the client walks the knocked-out NPC's
+        # GuidComponent chain, and the NPC carries the LazyActor spawner's scene guid.
+        if loc["kind"] in ("Container", "Mugging"):
             lines.append('            { "%s", "%s" },' % (cs_escape(loc["key"]), cs_escape(loc["name"])))
     lines += [
         "        };",
@@ -527,6 +675,31 @@ def write_cs_locations(locations):
             lines.append('            { "%s", "%s" },' % (cs_escape(loc["key"]), cs_escape(loc["name"])))
     lines += [
         "        };",
+        "",
+        '        /// <summary>"traderGuid:itemGuid" -> extra per-unit AP location names (units 2..K).</summary>',
+        "        public static readonly Dictionary<string, string[]> TraderSlotToUnitNames = new Dictionary<string, string[]>",
+        "        {",
+    ]
+    unit_names = {}
+    for loc in locations:
+        if loc["kind"] == "TraderUnit":
+            slot_key = loc["key"].split("#", 1)[0]
+            unit_names.setdefault(slot_key, []).append(loc["name"])
+    for slot_key in sorted(unit_names):
+        ordered = sorted(unit_names[slot_key], key=lambda n: int(n.rsplit(" ", 1)[1]))
+        joined = ", ".join('"%s"' % cs_escape(n) for n in ordered)
+        lines.append('            { "%s", new[] { %s } },' % (cs_escape(slot_key), joined))
+    lines += [
+        "        };",
+        "",
+        "        /// <summary>Area loca key (SavegameData.PlayerAreaLocaKey) -> English area display name.</summary>",
+        "        public static readonly Dictionary<string, string> AreaKeyToName = new Dictionary<string, string>",
+        "        {",
+    ]
+    for key, name in sorted(load_area_names().items()):
+        lines.append('            { "%s", "%s" },' % (cs_escape(key), cs_escape(name)))
+    lines += [
+        "        };",
         "    }",
         "}",
         "",
@@ -538,6 +711,16 @@ def write_cs_locations(locations):
 
 def cs_escape(value):
     return value.replace("\\", "\\\\").replace('"', '\\"')
+
+
+def load_area_names():
+    """AreaNames_en.loc: `<key> { <display name> }` per line, same parse gen_locations.py uses."""
+    if not os.path.exists(AREAS_LOC):
+        print("WARNING: %s missing - area highlight map will be empty" % AREAS_LOC)
+        return {}
+    import re
+    text = open(AREAS_LOC, encoding="utf-8", errors="replace").read()
+    return {m.group(1): m.group(2) for m in re.finditer(r"^(\S+)\s*\{\s*(.*?)\s*\}", text, re.M)}
 
 
 def write_cs(items):

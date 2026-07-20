@@ -1,0 +1,1954 @@
+{
+ "PickUp_FireflyNPC": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Hajo": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Frog_Friendly_Player": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Piglet_ExpeditionML_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "FakeActor_WithDialogue": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Junali": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Cuna": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Lore": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Harald": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Asmus": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Farona": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "StoneFist_DeepMine": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "CutsceneGhost": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_TrainingDummy_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "FakeActor": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Alraune": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Bertine": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Diemo_04": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Diemo_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Cay": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Diemo": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Birka": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Diemo_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Diemo_LaterToPlayer": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Roarke": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Diemo_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Firefly_Taron": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Player_Main": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "PickUp_FireflyPlayer": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "RedFox": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "RedFox_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Muc": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "LightBear": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Mombert": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Stalker_Green": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Bloodquito_Kamikaze": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BabyRedFox_Outside": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Olga": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ruslan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Mali": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Piglet_Enemy": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "ShadowRipper_ExpeditionRunLeader": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Jesko": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Expedition_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Leshen": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Splitter_SpiderBossForest_Actual": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Aidan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Ripper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Spitter": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Bady": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Babsi": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Gawan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Kara": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Snaga_axe": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Snapper_Weak": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Human_Bandit_Ruins_04": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Rura": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "HungryRipper_InstantAggro": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Dylan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Lindon": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Boris": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Menshee": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Der Ripper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Spear_RedTower_Stage_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Merlind": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "HungryRipper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Almar": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Femke": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_Piglet_Cay": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_BabyRedFox_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_BlackGrouse_Male": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Karotte_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Molvina_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Darwin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_BabyRedFox": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Sprigga_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Eugen_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Mombert01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_EliteRipper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Ripper_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Piglet_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_Mikesch": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BruutsEnd_RedFox": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Jero1": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Eugen": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_Leshen": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Worm": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Harpy": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Piglet_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_Draugr_Spear": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "GreatTusk_Outro": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Lindon1": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_Piglet_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Eugen_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_Golem": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Sheep_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_Draugr_Mage": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Sheep_Liesl": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_ChaosSpirit": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Ripper_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Brutus": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Gradan1": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_StoneFist": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Sprigga_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Molvina_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_Harpy_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Dog": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Sprigga": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Draugr_Sword_Shield": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Ripper_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Farlan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BrutusEnd_BlackGrouse_Female": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_Piglet_04": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "GreatTusk": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Colin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "EnemyFlesh_Baneling": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "MortarShroom": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Template_Human": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Cat_Lovely_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Gerion": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Axe_Legendary": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Chunnaic": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Lanzo": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_MinerBandit_Guard": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Diemo": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Bear": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Fulk": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Katsa": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Kellan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Mareno": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Farina": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Sorcha": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_FawiniBodyguard": {
+  "disable_brawl_loot": true,
+  "is_npc_stats": true
+ },
+ "NPC_Cord": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Dunja": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_DieDunkle": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Golem_ChallengeCave": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Melf": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_BorisBandit_Laurin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_TrainingDummy": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Fawini": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Kilian": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Sprigga_Yellow": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Miraculix": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Boar": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Liandra": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Larea": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Bloodquito_Rotmoor": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Zoltan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Andrick": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Gra": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Andarta": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Adela": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Sheep_04": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_NPC_GuardRedTower": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Finlay": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Test_Routine_A2": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Sword_Shield_BrutusCave_StartAlive": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Stalker_Blue": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BrutusEnd_BigSpider": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Sword_Shield_DraugrDungeonIntro": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Juri": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Karmi": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Locke": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Lio": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Willi": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Piglet_GreatTuskMinion": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Hadewin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Laudine": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Caspara": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "EnemyFlesh_Melee": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_NPC_GuardRedTower2": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_RuinenlagerHauer01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ebru": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Spear_RedTower_Letter": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Tuz": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Interact_FakeActor_WithDialogue": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Pwyll": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Player_Schlund_Cutscene": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Inja": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Harvey": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Laric": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Dog_Type3_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Cat_Aggressive_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Sheep_Generic_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Wind": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Niala": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Foglet_Minion": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "SpiritBoar_Conjure": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_DieDunkle_Doppelg\u00e4nger": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "SpiritShadowRipper_Conjure": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Ada_Doppelganger_Fake": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Boar_Luminous_DiemoMinion": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Leshen_Spawn_Sprigga": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Ada_Doppelganger": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_MadWoman": {
+  "disable_brawl_loot": true,
+  "is_npc_stats": true
+ },
+ "NPC_Luten": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Fygen": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Meluna": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Boar_Luminous_ExpeditionRL": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Evi": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Sine": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Florin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Mirron": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Piglet_Chris": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_BlackGrouse_Female": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Bertine": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_BanditBridge1": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Rat": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Sword_Shield_BrutusCave": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_RuinenlagerGuard": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Piglet_ExpeditionML_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Amella": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Kerr": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BigSpider_Leuchtwald_Spot_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Axe": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "BabySnapper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Hauer_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Template_Human_Enemy": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Oskar": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "WaterAmbusher": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Blanda": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Helma": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_NemetonGuard01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Mine_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Boar_Intro": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Dog_Type2_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Human_Bandit_Expedition_04": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Henik": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Worm": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Dark": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Levin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Sprigga_Young_Hidden": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_FleshBoss_Eye_Phase_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "FleshBoss_OnlyForAI": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_FleshBoss_Eye_Phase_01_05": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_FleshBoss_Eye_Phase_01_5": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "FleshBoss": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Albrecht": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Flunka": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BigSpider": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "FakeActor_FleshMoor": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Marten": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Lobo": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Mottek": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ismar": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Dog_Type1_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Blaan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ruinenlager_Guard_T2_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Sword_Shield_RedTower_Stage_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Georg": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Spear_BrutusCave_StartAlive": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Geli": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_BlackGrouse_Male": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Esdert": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_PigletRoot": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Fester": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "WaterRat_Young": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Ripper_InstantAggro": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Human_Bandit_Expedition_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Margitte": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Eoin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ede": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Bruna": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Snapper_ExtraWeak": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Foglet_WithoutFog": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Olaf": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Boar_Luminous_GreatTuskMinion_EndPhase": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Senga": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Drax": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Mine_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Spear": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Sagar": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Dog_Type1_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Banshee": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Bonny": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Cat_RunAway_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Jalina": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Agnessa": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Emre": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Jean": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Golem_Library": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Birka": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Snake_Adder": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Boar_Luminous": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Friedel": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Hailey": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Jendra": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "LightBear_GreatTuskMinion": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Ella": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Reija": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Snapper_SpiderBossForest_Actual": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "StoneFist_BigGroupAggro": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Mumme": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Sword_Library_Letter": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Cat_Aggressive_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Mikesch": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Sheep_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Miranda": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Dalin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Kendrick": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Gerdwin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Irmina": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Sheep_NonDialog": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "EliteRipper_HuntTheRipper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Myrte": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Sprigga_Young_Yellow_Hidden": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "EliteRipper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_RuinenlagerHauer02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Bloodquito_RotmoorEnemiesWithFrogs": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Dog_Type3_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Stalker_Red": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Piglet_ExpeditionRL_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BabyRedFox": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Manes": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Gera": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "ShadowRipper_Ambush_LittleAggroRange": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Hauer_04": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_BorisBandit_Jimmy": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Delani": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Augis": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Harpy": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "EnemyFlesh_Plant": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Bombus": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Lothar": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Tadhg": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Brutus": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "LightBear_ExpeditionML": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Doro": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Gradan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Piglet_Kai": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Emko": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ratford": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Elgar": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Kati": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Leru": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Kora": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Foglet": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Adwin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Jola": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Hauer_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Mage_RedTower_Stage_03_Letter": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Morvin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Boar_Luminous_GreatTuskMinion": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_BorisBandit_Gesina": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Kessia": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ivera": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Piglet_ExpeditionRL_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Teigen": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ruinenlager_Guard_T2_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Boar_Luminous_ExpeditionML": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Gero": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Sword_Shield": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Roisin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Spear_BrutusCave": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Boar_Luminous_GreatTuskMinion_Intimidate": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Hauer_07": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "EnemyFlesh_Tank": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Monko": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Joris": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Karotte": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Raya": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_RuinKasern_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Grit": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Gilwar": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Ruins_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Roarke": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Minira": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Daggers_AtlanterBuff": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Mage_AtlanterBuff": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Sword_Shield_AtlanterBuff": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Spear_AtlanterBuff_Legendary": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Sword_Shield_AtlanterBuff_Legendary": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Spear_AtlanterBuff": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Daggers_AtlanterBuff_Legendary": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Axe_AtlanterBuff": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Axe_AtlanterBuff_Legendary": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Cengiz": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Jendrik": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Owain": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Agilo": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Slawa": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Erwin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Etzel": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Frog_Melee": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Foglet_Weak": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Bloodquito_Auwald": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Sean": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Dylara": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_NemetonGuard02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Aiko": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Berni": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Faol": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "WaterDevil": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "WaterDevil_Red": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_BanditBridge2": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Baltus": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Tiaa": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Expedition_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Cat_RunAway_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Ruhan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Enya": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "WaterRat": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Piglet_Han": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Spitter_Weak": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Golem": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Adalgis": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_RuinKasern_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Humbert": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_MiningChef": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BigSpider_Leuchtwald_Spot_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Bardok": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Jennifer": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Hasso": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Molvina": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "DiggerPig": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Frog_Ranged": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Jerzy": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Cat_Lovely_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Jurek": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Ruins_05": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Sheep_Liesl": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ruinenlager_Guard_T2_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Carima": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Elnea": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Frog_Friendly_Hansi": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Dog_Type2_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Human_Bandit_RuinKasern_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Human_Bandit_Ruins_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Conor": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Afrin": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Snapper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Oksana": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Piglet_Cay": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Angus": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "StoneFist": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Sprigga_Young_Normal": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Jero": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Hauer_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "ShadowRipper_GreatTuskMinion": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Tristan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Josi": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Draugr_Mage": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "WaterRat_Bone": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Piglet_Julian": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ida": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Swenn": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "PickUp_Firefly_PaperChase": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_Sheep_03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Ruins_01": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Henrike": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Fia": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "ShadowRipper_ExpeditionRunFollower_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Critter_NurturingSprite": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Draugr_Daggers": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "ShadowRipper": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Bernold": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Human_Bandit_Snaga": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Baldo": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Sprigga_Young_Yellow_Normal": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "ShadowRipper_Ambush_LittleAggroRange_NoReactionGrp": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Idefix": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Leyna": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Aleka": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ester": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Spitter_ExtraWeak": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Human_Bandit_Mine_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Lukan": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Mursel": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "BigSpider_AuwaldDungeon": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_NemetonGuard03": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Ada": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "ShadowRipper_Ambush": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Kolina": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Shona": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "ChaosSpirit": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Aldrik": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Template_Human_NPC": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Frithjof": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Critter_Sheep_02": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Mog": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Palina": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "EnemyFlesh_Ranged": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "Test_Routine_A1": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Jarmon": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "Sprigga": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": false
+ },
+ "NPC_Merik": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ },
+ "NPC_Taron": {
+  "disable_brawl_loot": false,
+  "is_npc_stats": true
+ }
+}

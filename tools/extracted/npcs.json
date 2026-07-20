@@ -1,0 +1,2002 @@
+{
+ "00891d65-1e04-4eeb-b058-03b806c2347f": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Melf",
+  "prefab": "NPC_Melf",
+  "x": -1612.2,
+  "y": -4596.0
+ },
+ "00b22872-ea7e-4bf5-ad32-266d9bf62000": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ivera",
+  "prefab": "NPC_Ivera",
+  "x": -494.6,
+  "y": 113.9
+ },
+ "011fca48-e61c-4dac-a77a-46e726a8ef2a": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Hajo",
+  "prefab": "NPC_Hajo",
+  "x": -1527.0,
+  "y": 2875.0
+ },
+ "02463a12-ab5a-4b25-8ed7-6ae0a5706b8e": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Larea",
+  "prefab": "NPC_Larea",
+  "x": 5196.8,
+  "y": 1554.1
+ },
+ "0330b8de-7dc3-4b71-9396-aee7275d00df": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Berni",
+  "prefab": "NPC_Berni",
+  "x": -324.0,
+  "y": 2697.6
+ },
+ "0375b13c-50a9-45b3-b4fe-db6e50f25f49": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Oksana",
+  "prefab": "NPC_Oksana",
+  "x": -3067.62,
+  "y": -6149.27
+ },
+ "04187240-9afa-4ae6-9bee-39106b11df3c": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Bardok",
+  "prefab": "NPC_Bardok",
+  "x": 245.7,
+  "y": 505.5
+ },
+ "05ed5f26-b2b3-4959-9a5a-d2d965ef3ae9": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Kendrick",
+  "prefab": "NPC_Kendrick",
+  "x": 3496.0,
+  "y": -5142.0
+ },
+ "05f44cbe-4135-44b3-8bea-111ae5fe82e3": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Niala",
+  "prefab": "NPC_Niala",
+  "x": 5093.8,
+  "y": -5635.9
+ },
+ "06e26e17-fd5e-41ca-b1d7-427ed98888e5": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Hauer 1",
+  "prefab": "NPC_Hauer_07",
+  "x": 38431.7,
+  "y": 60832.7
+ },
+ "06edb128-54e0-41e6-9a66-4aed7f669f64": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Baldo",
+  "prefab": "NPC_Baldo",
+  "x": -1421.9,
+  "y": 84.5
+ },
+ "07475147-0463-4115-bb1b-9ad7c3d880eb": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Hasso",
+  "prefab": "NPC_Hasso",
+  "x": 22724.7,
+  "y": 60122.8
+ },
+ "089bcdda-3b75-400b-aac0-750d9f45e1ce": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Baltus",
+  "prefab": "NPC_Baltus",
+  "x": 22726.8,
+  "y": 59961.4
+ },
+ "08d769fb-2cdf-47a1-a0e8-a1c5aa97adb3": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Esdert",
+  "prefab": "NPC_Esdert",
+  "x": 2994.0,
+  "y": 6236.0
+ },
+ "0a0160b3-607f-425e-ac54-e55e07a61f35": {
+  "area": "Heath",
+  "faction": "neutral",
+  "label": "Elgar",
+  "prefab": "NPC_Elgar",
+  "x": -2096.1,
+  "y": -6905.8
+ },
+ "0b49e712-3ebd-4e26-bc0e-461eb0866c87": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Kilian",
+  "prefab": "NPC_Kilian",
+  "x": -406.6,
+  "y": 572.1
+ },
+ "0c8c8e70-7ee4-480c-96a0-6d1d903e47d6": {
+  "area": "Entrance to Nemeton",
+  "faction": "nemeton",
+  "label": "Caspara",
+  "prefab": "NPC_Caspara",
+  "x": 2363.6,
+  "y": -5421.8
+ },
+ "0cd46107-c554-4414-ac79-a453d5c18a26": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Cay",
+  "prefab": "NPC_Piglet_Cay",
+  "x": -5146.4,
+  "y": -1675.0
+ },
+ "0ce35071-50ff-45fd-b8fe-ebfaa10f21e3": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ruinenlager_Guard_T2 1",
+  "prefab": "NPC_Ruinenlager_Guard_T2_01",
+  "x": -8.0,
+  "y": 2510.0
+ },
+ "0ecca324-b96a-43f4-af20-efd7aede64a6": {
+  "area": "Red Moor",
+  "faction": "neutral",
+  "label": "Jurek",
+  "prefab": "NPC_Jurek",
+  "x": 6191.1,
+  "y": -1526.5
+ },
+ "10fb5ce8-0049-493c-b7c5-ccf5e3526bd8": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Enya",
+  "prefab": "NPC_Enya",
+  "x": 3186.2,
+  "y": -4256.8
+ },
+ "114be885-7feb-420d-ab93-77d0657e7cc4": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "NemetonGuard02",
+  "prefab": "NPC_NemetonGuard02",
+  "x": 4537.0,
+  "y": -5820.52
+ },
+ "121b1f04-61de-4d5b-ba72-6573a0e2b613": {
+  "area": "",
+  "faction": "neutral",
+  "label": "Piglet_Enemy 1",
+  "prefab": "NPC_Piglet_Enemy",
+  "x": 23137.0,
+  "y": 47144.2
+ },
+ "1568812b-031d-4b88-9e82-976f9148e948": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Florin",
+  "prefab": "NPC_Florin",
+  "x": -557.97,
+  "y": -567.87
+ },
+ "16271ff9-b490-4fb6-b959-28ffeaf70ab5": {
+  "area": "The Old World",
+  "faction": "neutral",
+  "label": "Miraculix",
+  "prefab": "NPC_Miraculix",
+  "x": 12779.0,
+  "y": 22408.0
+ },
+ "179c0d6c-3b2c-4676-93bd-25d63aabc98d": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Grit",
+  "prefab": "NPC_Grit",
+  "x": 131.2,
+  "y": -286.9
+ },
+ "19d2fee9-aaca-453a-a56d-f8f841b0f719": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Molvina",
+  "prefab": "NPC_Molvina",
+  "x": 4461.5,
+  "y": -4421.0
+ },
+ "1af50bff-51a2-4342-a12c-b7c2155ffa91": {
+  "area": "Entrance to Nemeton",
+  "faction": "nemeton",
+  "label": "Henrike",
+  "prefab": "NPC_Henrike",
+  "x": 2898.9,
+  "y": -5160.4
+ },
+ "1b000bc1-ed7c-40cc-b378-0a4006f51b05": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Meluna",
+  "prefab": "NPC_Meluna",
+  "x": 52007.6,
+  "y": 49516.8
+ },
+ "1c4e1424-542e-4aac-8c9a-3435ffa94ba5": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Colin",
+  "prefab": "NPC_Colin",
+  "x": 4758.0,
+  "y": -5819.0
+ },
+ "1d68e5c7-bf2a-4ca5-9366-ca3b27404f08": {
+  "area": "Red Moor",
+  "faction": "neutral",
+  "label": "Henik",
+  "prefab": "NPC_Henik",
+  "x": 3409.2,
+  "y": -6982.8
+ },
+ "1d7989b7-9611-4dfd-9793-849d91b9e784": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Enemy 2",
+  "prefab": "NPC_Piglet_Enemy",
+  "x": -3175.2,
+  "y": -3825.9
+ },
+ "1e7062f9-a5ca-4f3a-8d2d-5e5c94bba8b0": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Owain",
+  "prefab": "NPC_Owain",
+  "x": 67943.4,
+  "y": 52075.6
+ },
+ "209be46f-b981-4943-87a2-7dc11eee1728": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "BanditBridge1",
+  "prefab": "NPC_BanditBridge1",
+  "x": 5707.75,
+  "y": -304.05
+ },
+ "20e1596e-3f08-4184-908a-f156ae4ce484": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Bruna",
+  "prefab": "NPC_Bruna",
+  "x": 23041.0,
+  "y": 59787.0
+ },
+ "210d9b40-55bf-4534-97d1-bfe74be8f944": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Bonny",
+  "prefab": "NPC_Bonny",
+  "x": 5147.6,
+  "y": -5633.7
+ },
+ "22e4dc9e-8fd2-4b10-ab26-2d781d605643": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Slawa",
+  "prefab": "NPC_Slawa",
+  "x": -3102.71,
+  "y": -6147.6
+ },
+ "233132ec-0404-4aff-80b3-546b8910fdfc": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Adalgis",
+  "prefab": "NPC_Adalgis",
+  "x": 3695.5,
+  "y": 4591.2
+ },
+ "2639d8ed-8635-4836-9cb4-17a53f67c3d9": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Jalina",
+  "prefab": "NPC_Jalina",
+  "x": 4186.7,
+  "y": -229.0
+ },
+ "26b6d8ba-cf0e-4dfb-950f-dc0d7ed370a8": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Ede",
+  "prefab": "NPC_Ede",
+  "x": 50084.0,
+  "y": 46782.0
+ },
+ "292c6d2f-fc2c-4b9c-9b52-de9faa3b0566": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Kara",
+  "prefab": "NPC_Kara",
+  "x": 38462.1,
+  "y": 59796.0
+ },
+ "29b51cfa-3afb-4150-9a13-b143b7237ce0": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Dylan",
+  "prefab": "NPC_Dylan",
+  "x": -1779.3,
+  "y": -1582.1
+ },
+ "2a21bdef-5ade-4ef6-8a58-a45adb6a7464": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Cengiz",
+  "prefab": "NPC_Cengiz",
+  "x": 4508.7,
+  "y": -43.0
+ },
+ "2b8e1e51-5ba1-42fb-a8df-2463c8f3f1c5": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Fester",
+  "prefab": "NPC_Fester",
+  "x": 3900.1,
+  "y": -5931.6
+ },
+ "2cf898c0-ac0f-4266-9f26-38face1eab34": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Enemy 3",
+  "prefab": "NPC_Piglet_Enemy",
+  "x": -4827.1,
+  "y": -653.0
+ },
+ "2fb45f31-52a8-477e-a30b-7d215d6e0ffb": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Gerion",
+  "prefab": "NPC_Gerion",
+  "x": 3030.7,
+  "y": -4079.3
+ },
+ "3011d851-e889-4fb7-983a-94358e746ebc": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "MiningChef",
+  "prefab": "NPC_MiningChef",
+  "x": 23362.0,
+  "y": 59850.0
+ },
+ "30b47dc8-170a-4cf4-b72e-866bf2ecf401": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Mursel",
+  "prefab": "NPC_Mursel",
+  "x": 38652.4,
+  "y": 61103.8
+ },
+ "313aba06-8541-4ffb-9a7a-8caa9a2ae24c": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "BorisBandit_Jimmy",
+  "prefab": "NPC_BorisBandit_Jimmy",
+  "x": 49801.0,
+  "y": 48441.0
+ },
+ "3287c6be-e36e-4237-9c0b-09ff58d6f727": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Karmi",
+  "prefab": "NPC_Karmi",
+  "x": 63797.0,
+  "y": 50596.0
+ },
+ "343df73b-20c3-440f-a4ab-8cd1867b03f6": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Gera",
+  "prefab": "NPC_Gera",
+  "x": -118.9,
+  "y": -1003.8
+ },
+ "346db34d-9724-401e-a545-db809d3a42db": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Amella",
+  "prefab": "NPC_Amella",
+  "x": 49792.7,
+  "y": 46641.9
+ },
+ "35506736-197f-43e5-9953-d5d97cf48be2": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Roarke",
+  "prefab": "NPC_Roarke",
+  "x": -6207.7,
+  "y": -2479.1
+ },
+ "359e89e8-7b3d-4f1f-bead-9497dd796b91": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Julian",
+  "prefab": "NPC_Piglet_Julian",
+  "x": -6035.1,
+  "y": -2776.0
+ },
+ "36a9de58-26ee-4cdf-a36f-55853f33ab9d": {
+  "area": "Heath",
+  "faction": "neutral",
+  "label": "Sheep_Liesl",
+  "prefab": "NPC_Sheep_Liesl",
+  "x": -2809.0,
+  "y": -7101.0
+ },
+ "392ba598-da62-408d-b9ae-385bfc06c3ec": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Dunja",
+  "prefab": "NPC_Dunja",
+  "x": 5157.5,
+  "y": -5559.5
+ },
+ "3944ae2e-cfbe-4ad2-832a-c5db83d69643": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Conor",
+  "prefab": "NPC_Conor",
+  "x": 52032.9,
+  "y": 49065.1
+ },
+ "3d31e55a-8cbb-4d07-a841-ba0224be765f": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Chunnaic",
+  "prefab": "NPC_Chunnaic",
+  "x": 5048.4,
+  "y": -6189.9
+ },
+ "3d39ed2a-ece9-412f-b473-f2f3be26e507": {
+  "area": "Entrance to Nemeton",
+  "faction": "nemeton",
+  "label": "Palina",
+  "prefab": "NPC_Palina",
+  "x": 2932.0,
+  "y": -4976.9
+ },
+ "3d8aade9-f3f7-4316-a744-4d70129ec591": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Willi",
+  "prefab": "NPC_Willi",
+  "x": 3586.0,
+  "y": -4475.0
+ },
+ "3ea0bd5b-87db-4314-9d0d-adf7825e7612": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Birka",
+  "prefab": "NPC_Birka",
+  "x": -6085.4,
+  "y": -1709.7
+ },
+ "3ed77c51-768c-48b5-9fc2-26dc5e3b2798": {
+  "area": "Entrance to Nemeton",
+  "faction": "nemeton",
+  "label": "Muc",
+  "prefab": "NPC_Muc",
+  "x": 2799.2,
+  "y": -5018.4
+ },
+ "42375848-849f-47e1-82bc-1f7081acadc2": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Luten",
+  "prefab": "NPC_Luten",
+  "x": 5623.8,
+  "y": -5414.8
+ },
+ "42e73c56-bf23-4630-a231-2532e5684eb0": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Andrick",
+  "prefab": "NPC_Andrick",
+  "x": 38436.0,
+  "y": 61130.0
+ },
+ "42eb746a-a906-4fbe-98d5-3932d50a462d": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Enemy 4",
+  "prefab": "NPC_Piglet_Enemy",
+  "x": -5078.7,
+  "y": -697.2
+ },
+ "44ce352c-308d-402a-8843-9fe425518f08": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Laric",
+  "prefab": "NPC_Laric",
+  "x": 38554.4,
+  "y": 60027.5
+ },
+ "44f4e5cb-bcf0-4d61-af7e-f4b5f3428489": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Sagar",
+  "prefab": "NPC_Sagar",
+  "x": 51460.2,
+  "y": 49525.6
+ },
+ "457a3ce5-e629-4508-9aef-b9b104cb6128": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Blanda",
+  "prefab": "NPC_Blanda",
+  "x": 51769.7,
+  "y": 48991.18
+ },
+ "46e81418-52f3-4c06-b446-2bdc4225d7b6": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Farlan",
+  "prefab": "NPC_Farlan",
+  "x": -166.5,
+  "y": 852.4
+ },
+ "48f8d5c5-deb2-42fb-ac5e-2f2e2edff978": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Emko",
+  "prefab": "NPC_Emko",
+  "x": 38730.0,
+  "y": 60713.0
+ },
+ "4b7d57d6-9e8a-4459-99b3-7d0647c2a7fd": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Olga",
+  "prefab": "NPC_Olga",
+  "x": 5533.1,
+  "y": -5410.8
+ },
+ "4be6bace-efaf-494f-8376-f4244380f3ca": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Kolina",
+  "prefab": "NPC_Kolina",
+  "x": 22724.0,
+  "y": 59488.0
+ },
+ "4d89768d-f524-4342-aae4-ca794d8ea087": {
+  "area": "Entrance to Nemeton",
+  "faction": "nemeton",
+  "label": "Zoltan",
+  "prefab": "NPC_Zoltan",
+  "x": 3063.3,
+  "y": -5013.8
+ },
+ "4e459245-450d-4d44-817d-4707161f9b66": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Mottek",
+  "prefab": "NPC_Mottek",
+  "x": -1543.0,
+  "y": 558.0
+ },
+ "4f2fbd63-27cd-4ecf-9b2b-681a9b4097f3": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Tadhg",
+  "prefab": "NPC_Tadhg",
+  "x": -736.8,
+  "y": -18.0
+ },
+ "50f3887f-8396-4b0e-8d06-c1c5d6fdb3dd": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Babsi",
+  "prefab": "NPC_Babsi",
+  "x": -245.0,
+  "y": -2151.0
+ },
+ "51980ac2-41db-4af5-9585-6e8c761b73a9": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Frithjof",
+  "prefab": "NPC_Frithjof",
+  "x": 50355.1,
+  "y": 48407.7
+ },
+ "52b3d368-a4c0-4a62-9542-1f597c3e669b": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Olaf",
+  "prefab": "NPC_Olaf",
+  "x": -1541.6,
+  "y": -4536.8
+ },
+ "53f6f5d8-d08e-46d0-b750-d624ead30595": {
+  "area": "",
+  "faction": "neutral",
+  "label": "Dylara",
+  "prefab": "NPC_Dylara",
+  "x": 5345.0,
+  "y": -1033.0
+ },
+ "543ed0f7-f631-4dff-aa8f-1604e7f0284d": {
+  "area": "Tavern",
+  "faction": "neutral",
+  "label": "Tristan",
+  "prefab": "NPC_Tristan",
+  "x": 18552.9,
+  "y": 912.4
+ },
+ "54527994-acd2-4392-b490-90f3ed5b93d8": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Cuna",
+  "prefab": "NPC_Cuna",
+  "x": -1472.12,
+  "y": 2875.02
+ },
+ "55173448-8d03-472f-86ae-5baddc0c6670": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Aldrik",
+  "prefab": "NPC_Aldrik",
+  "x": 22574.0,
+  "y": 61510.0
+ },
+ "574515ac-6cd1-40e2-9028-b5bdcc8d0a04": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ratford",
+  "prefab": "NPC_Ratford",
+  "x": -2714.61,
+  "y": 1633.99
+ },
+ "5883e036-d667-400d-b4ed-451670f0fe96": {
+  "area": "Red Moor",
+  "faction": "neutral",
+  "label": "Jerzy",
+  "prefab": "NPC_Jerzy",
+  "x": 6234.6,
+  "y": -1521.6
+ },
+ "591dae50-aedb-45c0-bed5-6096470d4204": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Ella",
+  "prefab": "NPC_Ella",
+  "x": 38451.5,
+  "y": 60036.7
+ },
+ "5934e726-492d-4d64-8dcf-f57e49fb855a": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Hauer_Ruinenlager 1",
+  "prefab": "NPC_Hauer_Ruinenlager_02",
+  "x": -141.0,
+  "y": -308.0
+ },
+ "5946de6d-e292-4d3d-bf5f-aa8591303806": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Locke",
+  "prefab": "NPC_Locke",
+  "x": 6504.2,
+  "y": -5038.7
+ },
+ "5b24f8c0-612b-44c0-a8a5-c777b9465589": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ester",
+  "prefab": "NPC_Ester",
+  "x": -1568.0,
+  "y": 493.0
+ },
+ "5b7d1640-817f-451a-adf9-d074e46a6a1d": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Morvin",
+  "prefab": "NPC_Morvin",
+  "x": -1287.0,
+  "y": 360.0
+ },
+ "5d947fa3-9768-4e7b-95a2-6cc8934216f5": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Katsa",
+  "prefab": "NPC_Katsa",
+  "x": 38177.2,
+  "y": 62133.5
+ },
+ "5d9c1c0f-ee5b-464b-bb26-c1b0fee50a12": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Farina",
+  "prefab": "NPC_Farina",
+  "x": -1286.9,
+  "y": 2309.2
+ },
+ "5e4246dd-6cb9-42e2-86aa-3b9fea18bc54": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Leru",
+  "prefab": "NPC_Leru",
+  "x": 2395.0,
+  "y": 23.0
+ },
+ "60fec231-7137-4520-9780-49f975205e3e": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "MinerBandit_Guard",
+  "prefab": "NPC_MinerBandit_Guard",
+  "x": 23137.7,
+  "y": 59633.9
+ },
+ "62ccf66a-4218-4b75-9053-3c6dcd12cc45": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Fawini",
+  "prefab": "NPC_Fawini",
+  "x": -1579.0,
+  "y": -4759.0
+ },
+ "6436f287-873b-4c80-83f4-6d49279e3295": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Hailey",
+  "prefab": "NPC_Hailey",
+  "x": 5813.9,
+  "y": -5756.6
+ },
+ "650cbc12-f250-4782-b76f-bf9c7a9059b7": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Fulk",
+  "prefab": "NPC_Fulk",
+  "x": -1386.0,
+  "y": -95.0
+ },
+ "65484674-b450-47d3-b975-7ac798147729": {
+  "area": "Red Moor",
+  "faction": "neutral",
+  "label": "Raya",
+  "prefab": "NPC_Raya",
+  "x": 6815.4,
+  "y": -1867.4
+ },
+ "657ab29f-de99-4fe4-ac66-d3797956eb8a": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Margitte",
+  "prefab": "NPC_Margitte",
+  "x": -1657.1,
+  "y": -4674.4
+ },
+ "672b5179-2eaa-4f78-9f2e-15b37d672188": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Lindon",
+  "prefab": "NPC_Lindon",
+  "x": -241.0,
+  "y": 651.0
+ },
+ "6a69c11b-2d8d-410e-9f61-f14f00bf3d7d": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Jean",
+  "prefab": "NPC_Jean",
+  "x": 6553.4,
+  "y": -5042.8
+ },
+ "6a7bddc9-264d-4730-9822-f5688dee79ad": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Levin",
+  "prefab": "NPC_Levin",
+  "x": 2869.5,
+  "y": 7137.7
+ },
+ "6c56a8a7-88cb-4093-ac6c-e8519b535b26": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Lobo",
+  "prefab": "NPC_Lobo",
+  "x": 6303.0,
+  "y": -3617.0
+ },
+ "6c5b73ff-9cc7-43ee-99d7-f69ea4208785": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Eugen",
+  "prefab": "NPC_Eugen",
+  "x": -1026.4,
+  "y": 439.9
+ },
+ "6d747442-dafd-4a11-aaa6-d4e75fb5a441": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Pwyll",
+  "prefab": "NPC_Pwyll",
+  "x": -1717.7,
+  "y": -1501.5
+ },
+ "6e2743f2-bccb-4b44-8967-9979583a5682": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Enemy 5",
+  "prefab": "NPC_Piglet_Enemy",
+  "x": -5511.3,
+  "y": -1353.0
+ },
+ "6e5024b5-efac-445b-ac21-ae8d61424c2e": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Sine",
+  "prefab": "NPC_Sine",
+  "x": -1370.8,
+  "y": -4581.5
+ },
+ "6e66326a-805c-413d-9987-980cda6edb02": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_ExpeditionRL 1",
+  "prefab": "NPC_Piglet_ExpeditionRL_02",
+  "x": -6203.4,
+  "y": -548.9
+ },
+ "6ed17c1d-6601-478e-a512-fcd47f7bd890": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Bady",
+  "prefab": "NPC_Bady",
+  "x": -2049.0,
+  "y": 624.1
+ },
+ "6ed57842-e4e1-41d2-847b-851e698b57cc": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Jendra",
+  "prefab": "NPC_Jendra",
+  "x": 38672.5,
+  "y": 59954.2
+ },
+ "6f00c7df-8a31-4189-a55a-b2a92ba3f292": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Lothar",
+  "prefab": "NPC_Lothar",
+  "x": 2014.8,
+  "y": 6300.6
+ },
+ "6f98d257-40a0-4142-8ba1-1244d4f05ee8": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Eoin",
+  "prefab": "NPC_Eoin",
+  "x": -1807.8,
+  "y": -4631.9
+ },
+ "6f995a7d-c08e-4bf5-bdac-a37ff5d0da26": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Laudine",
+  "prefab": "NPC_Laudine",
+  "x": 4701.0,
+  "y": -4515.0
+ },
+ "703893bb-32ce-47bc-8931-6ca8f6c2a12e": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Hauer 2",
+  "prefab": "NPC_Hauer_02",
+  "x": 1739.7,
+  "y": 6538.2
+ },
+ "703e9770-b450-44c6-9bb2-3bed77f8c6a1": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Liandra",
+  "prefab": "NPC_Liandra",
+  "x": -1935.6,
+  "y": 947.4
+ },
+ "709b9053-f276-45f6-886d-c2830e91aeae": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Jendrik",
+  "prefab": "NPC_Jendrik",
+  "x": 4371.2,
+  "y": 1448.9
+ },
+ "71e9c38f-585b-420c-9e73-3640b3e87b29": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "BorisBandit_Laurin",
+  "prefab": "NPC_BorisBandit_Laurin",
+  "x": 50056.0,
+  "y": 48409.0
+ },
+ "7263afb1-9f9e-4897-81be-44a5af75525c": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_ExpeditionML 1",
+  "prefab": "NPC_Piglet_ExpeditionML_01",
+  "x": -5728.1,
+  "y": -5263.6
+ },
+ "72cbfb73-2b29-4e20-81f9-d508d92e7b4b": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ismar",
+  "prefab": "NPC_Ismar",
+  "x": -144.0,
+  "y": 2509.0
+ },
+ "73bf3721-4af7-44c0-a7e7-6a9ba861ed34": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "NPC_GuardRedTower",
+  "prefab": "NPC_NPC_GuardRedTower",
+  "x": -552.4,
+  "y": 3165.6
+ },
+ "76fc01f4-f15d-44e5-bde5-b361c84a1d3d": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Enemy 6",
+  "prefab": "NPC_Piglet_Enemy",
+  "x": -4852.4,
+  "y": -660.7
+ },
+ "7a0ebbe0-0518-41f9-a376-70c80343066b": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Fygen",
+  "prefab": "NPC_Fygen",
+  "x": -1907.2,
+  "y": 618.2
+ },
+ "7a17e53c-79b3-4f6f-a26b-eb8c2cda75e3": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Der Ripper",
+  "prefab": "NPC_Der Ripper",
+  "x": 5718.9,
+  "y": -260.23
+ },
+ "7bb37629-cb19-4cfb-b334-740b98a8eb8b": {
+  "area": "",
+  "faction": "neutral",
+  "label": "Jarmon",
+  "prefab": "NPC_Jarmon",
+  "x": 63144.91,
+  "y": 51847.35
+ },
+ "7bcc1373-13c3-470e-97f3-2ad9210f257d": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Elnea",
+  "prefab": "NPC_Elnea",
+  "x": -1249.0,
+  "y": 2862.0
+ },
+ "7e634a68-d4b8-4fa2-81a8-69cc0a9b56d4": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Lukan",
+  "prefab": "NPC_Lukan",
+  "x": 3863.4,
+  "y": -4832.0
+ },
+ "7e7d4d38-34b1-4c13-bf82-b1d62b7e2743": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Adela",
+  "prefab": "NPC_Adela",
+  "x": 5751.0,
+  "y": -4775.0
+ },
+ "7f759d3d-c6f7-423c-ba22-cc6f50fb699c": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Humbert",
+  "prefab": "NPC_Humbert",
+  "x": 5897.0,
+  "y": -5745.0
+ },
+ "8095d918-09e2-45da-825a-322029bf3e70": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Aleka",
+  "prefab": "NPC_Aleka",
+  "x": 3679.8,
+  "y": 4666.4
+ },
+ "828db104-e140-421f-a98e-92b7867e697f": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "NemetonGuard03",
+  "prefab": "NPC_NemetonGuard03",
+  "x": 4597.0,
+  "y": -5820.52
+ },
+ "84347cfd-be2a-4685-afba-af4c393da83d": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Fia",
+  "prefab": "NPC_Fia",
+  "x": 3291.3,
+  "y": -4191.5
+ },
+ "8479ce3b-8f53-470e-a2ff-e477425efdae": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Dark",
+  "prefab": "NPC_Dark",
+  "x": -994.2,
+  "y": 857.0
+ },
+ "859d1526-5d0e-49ca-b6fa-cc189a0e7b14": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Irmina",
+  "prefab": "NPC_Irmina",
+  "x": 2363.3,
+  "y": 7063.7
+ },
+ "85ab368a-7770-4696-97d6-291c735b93bc": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Roisin",
+  "prefab": "NPC_Roisin",
+  "x": 38169.0,
+  "y": 59793.0
+ },
+ "8678e993-82fb-4d0e-8e49-dc8d56d7c9ca": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Asmus",
+  "prefab": "NPC_Asmus",
+  "x": 6176.4,
+  "y": 1301.5
+ },
+ "86be1c6a-121a-4d49-80cc-4ede5e636bc7": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Drax",
+  "prefab": "NPC_Drax",
+  "x": -2622.45,
+  "y": 1636.33
+ },
+ "8822dcb7-8df7-4cc7-91b4-430e18bb5e4c": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Junali",
+  "prefab": "NPC_Junali",
+  "x": 5613.0,
+  "y": -5007.0
+ },
+ "88b38eaf-20d0-4bd6-8669-e0d28a6fd45f": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Finlay",
+  "prefab": "NPC_Finlay",
+  "x": 39752.0,
+  "y": 61836.0
+ },
+ "89e0bc53-a78d-42f3-95dd-f009a20e4ba8": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Gilwar",
+  "prefab": "NPC_Gilwar",
+  "x": 2994.5,
+  "y": -4319.0
+ },
+ "8a1d9852-3872-4088-9c32-ded3e7e90f11": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Kati",
+  "prefab": "NPC_Kati",
+  "x": 3793.2,
+  "y": -5907.4
+ },
+ "8a67083a-5f2b-4747-9e3a-c78472a9321f": {
+  "area": "The Old World",
+  "faction": "neutral",
+  "label": "Idefix",
+  "prefab": "NPC_Idefix",
+  "x": 12829.0,
+  "y": 22472.0
+ },
+ "8b002d33-45d6-4c53-829c-b73b24984410": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Kerr",
+  "prefab": "NPC_Kerr",
+  "x": 4072.0,
+  "y": -3625.0
+ },
+ "8b51bb93-8d5d-431b-a9a1-21e85465acd7": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Inja",
+  "prefab": "NPC_Inja",
+  "x": 2995.1,
+  "y": 7055.4
+ },
+ "8be0abd0-5fb5-4de1-af99-eec07680b6d9": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Wind",
+  "prefab": "NPC_Wind",
+  "x": 22756.2,
+  "y": 60161.3
+ },
+ "8c4d0909-4d80-4212-95ef-5d78a21a1f6a": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Doro",
+  "prefab": "NPC_Doro",
+  "x": 51741.0,
+  "y": 49497.0
+ },
+ "8fe6b401-4600-4662-9702-b3cc379f269b": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Mombert",
+  "prefab": "NPC_Mombert",
+  "x": 3914.7,
+  "y": -4834.5
+ },
+ "90499df6-8bf4-4069-a837-ac93fc47abce": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Bertine",
+  "prefab": "NPC_Bertine",
+  "x": -5536.6,
+  "y": -2375.6
+ },
+ "90cbe8ea-5d46-44f3-a176-130a28075c15": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Gerdwin",
+  "prefab": "NPC_Gerdwin",
+  "x": 4556.8,
+  "y": -6029.6
+ },
+ "91d2c271-8530-4c28-8d89-b3f0eb13a088": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Friedel",
+  "prefab": "NPC_Friedel",
+  "x": 415.9,
+  "y": 679.6
+ },
+ "92d1bcdf-ffd0-4b22-935b-58449c545365": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Manes",
+  "prefab": "NPC_Manes",
+  "x": -624.6,
+  "y": 3156.2
+ },
+ "940dc600-28ea-4d85-8ddf-98f52056b3f9": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Andarta",
+  "prefab": "NPC_Andarta",
+  "x": -1763.0,
+  "y": -4579.8
+ },
+ "9520ae6e-bef6-452c-9ed2-0069547192fd": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Ruslan",
+  "prefab": "NPC_Ruslan",
+  "x": 38523.0,
+  "y": 60246.0
+ },
+ "9559ac5b-233b-43f2-9363-f3552ea4f86c": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Joris",
+  "prefab": "NPC_Joris",
+  "x": 38246.6,
+  "y": 62109.0
+ },
+ "98c77ee0-057c-4c03-b7f3-a95cf60140ac": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Myrte",
+  "prefab": "NPC_Myrte",
+  "x": 4984.0,
+  "y": -6650.0
+ },
+ "99d17839-93df-4119-a844-06b5c092d190": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Lore",
+  "prefab": "NPC_Lore",
+  "x": -716.0,
+  "y": 525.0
+ },
+ "9a571d7a-688c-49b4-9e87-127cfe3d65ce": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Merik",
+  "prefab": "NPC_Merik",
+  "x": 2907.9,
+  "y": 7066.9
+ },
+ "9ae1cc47-6644-4484-9bb1-b5628287ff75": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Adwin",
+  "prefab": "NPC_Adwin",
+  "x": 5744.0,
+  "y": -6670.0
+ },
+ "9c49a157-1035-4938-8432-9354738b1f8c": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Leyna",
+  "prefab": "NPC_Leyna",
+  "x": 50170.2,
+  "y": 48513.4
+ },
+ "9d0cc17f-4c4f-4357-b1ad-1349bc300b2a": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Cord",
+  "prefab": "NPC_Cord",
+  "x": -401.4,
+  "y": -178.1
+ },
+ "9da353e5-b6d5-4f7c-9b7d-d5487b9e0eee": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Blaan",
+  "prefab": "NPC_Blaan",
+  "x": 4273.3,
+  "y": -539.9
+ },
+ "9e35a8de-ca66-48d2-b09f-69ff6f5677e9": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Teigen",
+  "prefab": "NPC_Teigen",
+  "x": 3501.0,
+  "y": -3898.0
+ },
+ "9ea5f0e6-74b9-47da-a9a3-de274ac48ac1": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "NPC_GuardRedTower2",
+  "prefab": "NPC_NPC_GuardRedTower2",
+  "x": -433.9,
+  "y": 3165.3
+ },
+ "9f2c15d3-72f4-4871-b2a6-3fefa296be16": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Gawan",
+  "prefab": "NPC_Gawan",
+  "x": -1494.0,
+  "y": -4647.0
+ },
+ "9fc0a804-97b6-4b73-b06e-169aa194eefe": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Kellan",
+  "prefab": "NPC_Kellan",
+  "x": 5970.0,
+  "y": -4851.0
+ },
+ "a4e6928c-85b9-415e-be22-ea4c5309e651": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Etzel",
+  "prefab": "NPC_Etzel",
+  "x": 4157.0,
+  "y": -4776.0
+ },
+ "a4f07559-3f0f-4cda-8f7d-6ed08448a6f7": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Emre",
+  "prefab": "NPC_Emre",
+  "x": 295.7,
+  "y": 672.6
+ },
+ "a5ed2c3c-7227-463a-9f97-0678d7ffbd18": {
+  "area": "Heath",
+  "faction": "neutral",
+  "label": "Evi",
+  "prefab": "NPC_Evi",
+  "x": -2266.6,
+  "y": -5640.9
+ },
+ "a6e759f3-8bbe-470b-bf11-0cb3e9de6933": {
+  "area": "",
+  "faction": "neutral",
+  "label": "Minira",
+  "prefab": "NPC_Minira",
+  "x": 3270.42,
+  "y": -5165.14
+ },
+ "a7e68e36-a57b-4c1a-a71a-86a74892848e": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Kai",
+  "prefab": "NPC_Piglet_Kai",
+  "x": -5879.0,
+  "y": -3350.0
+ },
+ "a8acf990-4227-4fa5-8adc-b3687ac1a591": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Miranda",
+  "prefab": "NPC_Miranda",
+  "x": -1635.1,
+  "y": -31.6
+ },
+ "a93bd352-e6c8-44f3-981d-de905b10b692": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Agilo",
+  "prefab": "NPC_Agilo",
+  "x": 4649.8,
+  "y": -326.9
+ },
+ "a96970a5-6ef4-447e-b78a-dc2f39465d16": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Darwin",
+  "prefab": "NPC_Darwin",
+  "x": 250.2,
+  "y": 852.4
+ },
+ "aa8e7ef6-2a46-4ddb-b504-fc74dcae2c67": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Flunka",
+  "prefab": "NPC_Flunka",
+  "x": -1551.4,
+  "y": -298.2
+ },
+ "aba8ca6e-1f50-4d8d-afb5-083d9c8025d5": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Gradan",
+  "prefab": "NPC_Gradan",
+  "x": 5202.3,
+  "y": -6335.2
+ },
+ "abdc8c0c-7a89-4ab0-b744-ba33ad5fe2af": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Han",
+  "prefab": "NPC_Piglet_Han",
+  "x": -5150.0,
+  "y": -2842.0
+ },
+ "abec744e-e9c8-4a7d-90d7-7958b4c82277": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Ruhan",
+  "prefab": "NPC_Ruhan",
+  "x": -1814.3,
+  "y": -4562.8
+ },
+ "ac4d72e2-6b2d-4943-be35-a8b178ebc317": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Afrin",
+  "prefab": "NPC_Afrin",
+  "x": 6237.1,
+  "y": -5238.1
+ },
+ "ac54cfd8-af2e-4ffd-b90e-6d93f2d878bc": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "BanditBridge2",
+  "prefab": "NPC_BanditBridge2",
+  "x": 5745.19,
+  "y": -291.3
+ },
+ "acdf0a37-f1a3-472a-881b-268b427145f5": {
+  "area": "Red Moor",
+  "faction": "neutral",
+  "label": "Ida",
+  "prefab": "NPC_Ida",
+  "x": 2391.89,
+  "y": -6554.49
+ },
+ "b076c087-e25d-4687-9d3c-463ea0302a2c": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_ExpeditionRL 2",
+  "prefab": "NPC_Piglet_ExpeditionRL_01",
+  "x": -6173.6,
+  "y": -516.2
+ },
+ "b152491d-a5af-4c0a-a17a-721d6c5233b6": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Harvey",
+  "prefab": "NPC_Harvey",
+  "x": 19504.0,
+  "y": -3318.0
+ },
+ "b275519f-3555-4104-890a-c6b1c3726e1a": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Karotte",
+  "prefab": "NPC_Karotte",
+  "x": 4830.0,
+  "y": -6395.0
+ },
+ "b4cfd399-558b-48ec-9c1d-d80e9c906e8e": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Hauer 3",
+  "prefab": "NPC_Hauer_03",
+  "x": 2416.0,
+  "y": 6852.0
+ },
+ "b5dac642-aa31-4d9f-9a30-8c948b111527": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Bernold",
+  "prefab": "NPC_Bernold",
+  "x": -1083.3,
+  "y": 118.2
+ },
+ "b70fdd6c-f3cc-43f4-830f-7f67a25a9a2d": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Mumme",
+  "prefab": "NPC_Mumme",
+  "x": 6343.0,
+  "y": -4790.0
+ },
+ "b7cbfd4c-48c7-4f40-90df-9c86f9a4d2e5": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Marten",
+  "prefab": "NPC_Marten",
+  "x": -1696.7,
+  "y": -4534.3
+ },
+ "b8b25a9f-4921-4334-8412-789a9b6c5b3c": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Boris",
+  "prefab": "NPC_Boris",
+  "x": -1061.1,
+  "y": -447.5
+ },
+ "b9b91a6e-c4e3-41e9-82f0-296649f484a6": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Aiko",
+  "prefab": "NPC_Aiko",
+  "x": 5499.0,
+  "y": -4840.0
+ },
+ "bc2377c8-2ed1-4e42-a1ca-cf469093c8af": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Bombus",
+  "prefab": "NPC_Bombus",
+  "x": 4117.7,
+  "y": -144.3
+ },
+ "bdc56357-b266-4833-a810-4c63977034c2": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Geli",
+  "prefab": "NPC_Geli",
+  "x": 3703.8,
+  "y": 3886.5
+ },
+ "bfa71e56-e232-4bb1-b4e9-9db16b52f073": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Sorcha",
+  "prefab": "NPC_Sorcha",
+  "x": -1125.2,
+  "y": 16.5
+ },
+ "c0636c4c-a580-4014-bbb9-38d91424e8b4": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Erwin",
+  "prefab": "NPC_Erwin",
+  "x": 3110.3,
+  "y": -3934.9
+ },
+ "c0e61b03-a744-47c5-90db-daa7dec7cdd5": {
+  "area": "",
+  "faction": "neutral",
+  "label": "Mirron",
+  "prefab": "NPC_Mirron",
+  "x": 5323.4,
+  "y": -1200.1
+ },
+ "c0f378bc-87fe-4b00-8969-c7ff5550a7ec": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Jero",
+  "prefab": "NPC_Jero",
+  "x": 48.0,
+  "y": 2883.0
+ },
+ "c14fec40-e1ca-4879-9288-753e46b6fdb5": {
+  "area": "Knoll in the Floodplain Forest",
+  "faction": "neutral",
+  "label": "Reija",
+  "prefab": "NPC_Reija",
+  "x": -1098.93,
+  "y": 59557.98
+ },
+ "c2814bf6-b539-44f8-827d-b66a77bf0afd": {
+  "area": "Red Moor",
+  "faction": "neutral",
+  "label": "Delani",
+  "prefab": "NPC_Delani",
+  "x": 6646.0,
+  "y": -1450.0
+ },
+ "c28bdf87-9150-473a-bd9f-860ea627bdf2": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Helma",
+  "prefab": "NPC_Helma",
+  "x": 5565.7,
+  "y": -5336.5
+ },
+ "c2f90340-37e0-4668-a629-1b561cde9ba7": {
+  "area": "Red Moor",
+  "faction": "neutral",
+  "label": "Georg",
+  "prefab": "NPC_Georg",
+  "x": 6531.8,
+  "y": -1680.3
+ },
+ "c5fc6199-350e-4036-87f0-58cbdb4ad376": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Senga",
+  "prefab": "NPC_Senga",
+  "x": -1501.0,
+  "y": -166.1
+ },
+ "c677e901-f138-43f5-9e29-65a15e7ac943": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Mali",
+  "prefab": "NPC_Mali",
+  "x": 22599.0,
+  "y": 59549.0
+ },
+ "c7419000-64e9-4b41-879f-2348a0dc793f": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Lio",
+  "prefab": "NPC_Lio",
+  "x": 21571.0,
+  "y": -2586.0
+ },
+ "c8c305a5-f83b-4717-911c-f10eb94d08dc": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "BorisBandit_Gesina",
+  "prefab": "NPC_BorisBandit_Gesina",
+  "x": 49879.0,
+  "y": 48341.0
+ },
+ "c8e6b9f0-c3cf-4f9d-88e8-cf659a5208c2": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Gra",
+  "prefab": "NPC_Gra",
+  "x": -1920.2,
+  "y": 552.4
+ },
+ "ccb748ad-201b-4793-9bd8-ce6f9f0a8d90": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Dalin",
+  "prefab": "NPC_Dalin",
+  "x": 22648.2,
+  "y": 59961.8
+ },
+ "cdfb6929-7aeb-4caa-b1e1-f25cc0aff74b": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Sean",
+  "prefab": "NPC_Sean",
+  "x": -939.0,
+  "y": 977.0
+ },
+ "ce68de97-c31a-49ae-9019-93b908e4edb6": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Carima",
+  "prefab": "NPC_Carima",
+  "x": 4308.2,
+  "y": -545.5
+ },
+ "ce8214af-56ff-4995-ae22-81738de41917": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Hauer_Ruinenlager 2",
+  "prefab": "NPC_Hauer_Ruinenlager_01",
+  "x": -249.7,
+  "y": 19.8
+ },
+ "cfb63f21-588d-42e6-a6d3-e8a9f1be9322": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Kessia",
+  "prefab": "NPC_Kessia",
+  "x": 38877.0,
+  "y": 61116.0
+ },
+ "cfed339f-94b6-4fce-829a-83b3bc5e4ff2": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "RuinenlagerGuard",
+  "prefab": "NPC_RuinenlagerGuard",
+  "x": 172.5,
+  "y": 735.6
+ },
+ "d0f8d7a1-aa3e-4178-8ab8-54526c631d77": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ebru",
+  "prefab": "NPC_Ebru",
+  "x": -1646.5,
+  "y": 1124.1
+ },
+ "d1c6ca67-8e24-4d36-bbcc-833ce0cf4ea5": {
+  "area": "Knoll in the Floodplain Forest",
+  "faction": "neutral",
+  "label": "Monko",
+  "prefab": "NPC_Monko",
+  "x": 1011.52,
+  "y": 61119.07
+ },
+ "d1e91fbd-96b9-4552-9ed1-82510f3e7a9e": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Merlind",
+  "prefab": "NPC_Merlind",
+  "x": 4975.8,
+  "y": -1080.0
+ },
+ "d1fb693e-1ece-4a08-9025-3f2827f736bb": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Augis",
+  "prefab": "NPC_Augis",
+  "x": -812.0,
+  "y": 2572.0
+ },
+ "d51a0676-36d7-4076-8629-5940620060b5": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Shona",
+  "prefab": "NPC_Shona",
+  "x": 38397.1,
+  "y": 60882.9
+ },
+ "d602688b-bca8-4c32-9ac8-416e6403826e": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Juri",
+  "prefab": "NPC_Juri",
+  "x": -1334.2,
+  "y": 513.2
+ },
+ "d70191a1-1521-4e05-989a-fd4a6f0cd176": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Diemo",
+  "prefab": "NPC_Diemo",
+  "x": -6171.3,
+  "y": -2505.1
+ },
+ "d8a970b5-86ee-4a4c-a5fe-b3b532ae8e3b": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ruinenlager_Guard_T2 2",
+  "prefab": "NPC_Ruinenlager_Guard_T2_03",
+  "x": -612.0,
+  "y": 1683.0
+ },
+ "d9f7fd8c-8be3-4486-8a51-300a7aaa5793": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "NemetonGuard01",
+  "prefab": "NPC_NemetonGuard01",
+  "x": 4664.23,
+  "y": -5820.52
+ },
+ "da827225-e59b-4472-85f7-1beea74d19ce": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Farona",
+  "prefab": "NPC_Farona",
+  "x": 2760.2,
+  "y": -4281.1
+ },
+ "dad988e9-6188-4089-bc6a-9ce95ba1f249": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Swenn",
+  "prefab": "NPC_Swenn",
+  "x": 4543.5,
+  "y": -6095.7
+ },
+ "db12a01e-d8c9-46c2-be7c-2cde726cc9d6": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Jennifer",
+  "prefab": "NPC_Jennifer",
+  "x": 4593.0,
+  "y": -6094.0
+ },
+ "db2ea7ac-032b-40d3-a30d-5ee5e1d8f6c4": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_Chris",
+  "prefab": "NPC_Piglet_Chris",
+  "x": -5224.0,
+  "y": -3079.0
+ },
+ "dbaedd97-9daa-4d6d-bcff-c360b07a91d9": {
+  "area": "Heath",
+  "faction": "neutral",
+  "label": "Tuz",
+  "prefab": "NPC_Tuz",
+  "x": -1558.0,
+  "y": -5681.0
+ },
+ "dc2177bf-6836-4b41-926c-1e04485224da": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Jola",
+  "prefab": "NPC_Jola",
+  "x": -436.4,
+  "y": -567.5
+ },
+ "dd221eb9-f70a-4522-b7a5-58ce334cc6c6": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Tiaa",
+  "prefab": "NPC_Tiaa",
+  "x": -894.6,
+  "y": 352.2
+ },
+ "dd9a634b-dfbc-49d4-a308-3be54462a6b6": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Josi",
+  "prefab": "NPC_Josi",
+  "x": -1784.9,
+  "y": -4652.9
+ },
+ "e080a2d0-ab0a-4408-8894-bf62bfe41a39": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Albrecht",
+  "prefab": "NPC_Albrecht",
+  "x": 63496.0,
+  "y": 50336.0
+ },
+ "e15b7b44-2b26-40d5-975d-8c1ace16b82d": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Kora",
+  "prefab": "NPC_Kora",
+  "x": -892.2,
+  "y": 86.2
+ },
+ "e247bf4f-ddf2-46db-9675-1dc2bb064fda": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Mareno",
+  "prefab": "NPC_Mareno",
+  "x": -1368.5,
+  "y": -285.6
+ },
+ "e5299f5d-6641-4995-9b48-07d0b8a1c7db": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Banner",
+  "prefab": "NPC_Banner",
+  "x": -2000.0,
+  "y": 949.0
+ },
+ "eba27771-9683-4e60-bf31-a14645dcedeb": {
+  "area": "Entrance to Nemeton",
+  "faction": "nemeton",
+  "label": "Jesko",
+  "prefab": "NPC_Jesko",
+  "x": 2527.1,
+  "y": -5396.1
+ },
+ "eccbcdc3-97eb-4508-87db-a6fdb55e56a2": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Almar",
+  "prefab": "NPC_Almar",
+  "x": 38555.3,
+  "y": 60909.1
+ },
+ "ed4f976a-7538-4792-a34f-0d0b76004358": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Oskar",
+  "prefab": "NPC_Oskar",
+  "x": 6797.6,
+  "y": -5624.9
+ },
+ "ee26e44e-e616-48dd-b1bc-b0fd1d37ec08": {
+  "area": "Coniferous Forest",
+  "faction": "neutral",
+  "label": "Faol",
+  "prefab": "NPC_Faol",
+  "x": -1527.0,
+  "y": -2599.0
+ },
+ "ee2c12d4-df5f-4105-bbee-7fc70c32cfa9": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Rura",
+  "prefab": "NPC_Rura",
+  "x": 5507.4,
+  "y": -6243.1
+ },
+ "eec6315b-b29d-4f65-a59b-75c8a3194e91": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Taron",
+  "prefab": "NPC_Taron",
+  "x": -5761.0,
+  "y": -2738.3
+ },
+ "f08679fd-8fa9-4146-bf43-e7666a9c7569": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Mog",
+  "prefab": "NPC_Mog",
+  "x": 51748.3,
+  "y": 49247.8
+ },
+ "f236b98d-58fe-4f03-95b5-a1b88577f9db": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ruinenlager_Guard_T2 3",
+  "prefab": "NPC_Ruinenlager_Guard_T2_02",
+  "x": -367.0,
+  "y": 1691.0
+ },
+ "f24dc805-17ae-4ea7-96b3-8a0f45d4667f": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Hadewin",
+  "prefab": "NPC_Hadewin",
+  "x": -1292.0,
+  "y": 39.0
+ },
+ "f39cd608-88cf-472f-9e2e-15297b80cb9e": {
+  "area": "The Pit",
+  "faction": "neutral",
+  "label": "Agnessa",
+  "prefab": "NPC_Agnessa",
+  "x": 38327.2,
+  "y": 60946.1
+ },
+ "f4696483-7ee3-41d7-9ba5-f339ace7f4cb": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Femke",
+  "prefab": "NPC_Femke",
+  "x": 2830.6,
+  "y": -4104.4
+ },
+ "f57138f6-e1c9-4855-87db-55ca47a1f8eb": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Aidan",
+  "prefab": "NPC_Aidan",
+  "x": 195.68,
+  "y": -34.98
+ },
+ "f5bd98d7-03ef-4ebb-b723-0f032e150651": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Hauer 4",
+  "prefab": "NPC_Hauer_04",
+  "x": 2081.3,
+  "y": 6627.8
+ },
+ "f8101787-6999-462a-9d6c-bf727ac8fd2b": {
+  "area": "Riverbed",
+  "faction": "neutral",
+  "label": "Harald",
+  "prefab": "NPC_Harald",
+  "x": 1849.26,
+  "y": -2950.86
+ },
+ "fa59867b-ae70-4454-83aa-3c9556466cf8": {
+  "area": "Nemeton",
+  "faction": "nemeton",
+  "label": "Angus",
+  "prefab": "NPC_Angus",
+  "x": 3463.4,
+  "y": -5143.9
+ },
+ "faebe7e4-4858-48ce-b836-6f9a36e7dea0": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "PigletRoot",
+  "prefab": "NPC_PigletRoot",
+  "x": -3617.1,
+  "y": -5423.6
+ },
+ "fb23dbe4-becf-4ff7-946d-32f2db935787": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Gero",
+  "prefab": "NPC_Gero",
+  "x": 2872.3,
+  "y": 7076.6
+ },
+ "fb298417-915d-4246-913c-3576a99ac5ce": {
+  "area": "Floodplain Forest",
+  "faction": "neutral",
+  "label": "Hauer 5",
+  "prefab": "NPC_Hauer_01",
+  "x": 1814.5,
+  "y": 6576.4
+ },
+ "fbddeebd-5a35-4282-ae3c-f54e17371aaa": {
+  "area": "Ruins",
+  "faction": "ruinenlager",
+  "label": "Ada",
+  "prefab": "NPC_Ada",
+  "x": -1823.2,
+  "y": 1009.6
+ },
+ "fe9db7df-86e5-4c35-a1ec-c3c720706b06": {
+  "area": "Cave",
+  "faction": "neutral",
+  "label": "Lanzo",
+  "prefab": "NPC_Lanzo",
+  "x": 22929.0,
+  "y": 59608.0
+ },
+ "ff3473b0-0a45-4b22-a626-f53d6030f9ab": {
+  "area": "Forest Primeval",
+  "faction": "neutral",
+  "label": "Piglet_ExpeditionML 2",
+  "prefab": "NPC_Piglet_ExpeditionML_02",
+  "x": -5740.8,
+  "y": -5300.6
+ }
+}

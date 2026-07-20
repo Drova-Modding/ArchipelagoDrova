@@ -4,7 +4,7 @@ import json
 import pkgutil
 from typing import TYPE_CHECKING, Any
 
-from BaseClasses import Location
+from BaseClasses import Location, LocationProgressType
 
 from . import items, regions
 
@@ -35,19 +35,30 @@ CATEGORY_TO_OPTION = {
     "Cache": "randomize_caches",
     "Pickup": "randomize_pickups",
     "Trader": "randomize_traders",
+    "Mugging": "randomize_muggings",
 }
 
 GOAL_LOCATION_NAME = "Escape Drova"
 VICTORY_ITEM_NAME = "Victory"
 
-# Synthetic enemy-kill milestones. Not in CATEGORY_TO_OPTION: they are count-gated by the
-# enemy_kill_checks Range, not by a toggle, and they have no world object (the client sends them
-# from a persistent kill count).
+# Synthetic milestone locations. Not in CATEGORY_TO_OPTION: they are count-gated by a Range
+# option, not by a toggle, and they have no world object (the client sends them from persisted
+# counters: kills, attribute points bought at teachers, talents learned).
 KILL_MILESTONE_CATEGORY = "KillMilestone"
 KILL_MILESTONE_GROUP = "Enemy Kills"
 
+# category -> (option attribute, group name)
+COUNT_GATED_CATEGORIES = {
+    KILL_MILESTONE_CATEGORY: ("enemy_kill_checks", KILL_MILESTONE_GROUP),
+    "AttributeMilestone": ("attribute_learn_checks", "Attributes Learned"),
+    "TalentMilestone": ("talent_learn_checks", "Talents Learned"),
+}
+
 TRADER_CATEGORY = "Trader"
 TRADER_GROUP = "Traders"
+
+MUGGING_CATEGORY = "Mugging"
+MUGGING_GROUP = "Muggings"
 
 # The named areas containers were resolved to. Everything else falls back to regions.WILDS_REGION.
 AREA_REGIONS = sorted(
@@ -68,10 +79,12 @@ def _location_name_groups() -> dict[str, set[str]]:
     for location in LOCATION_DATA:
         if location["kind"] == "Quest":
             group = "Quests"
-        elif location["category"] == KILL_MILESTONE_CATEGORY:
-            group = KILL_MILESTONE_GROUP
+        elif location["category"] in COUNT_GATED_CATEGORIES:
+            group = COUNT_GATED_CATEGORIES[location["category"]][1]
         elif location["category"] == TRADER_CATEGORY:
             group = TRADER_GROUP
+        elif location["category"] == MUGGING_CATEGORY:
+            group = MUGGING_GROUP
         else:
             group = regions.region_for_area(location["area"])
         groups.setdefault(group, set()).add(location["name"])
@@ -88,19 +101,25 @@ def enabled_location_data(options: DrovaOptions) -> list[dict[str, Any]]:
     guards can report a bad combination before generation gets further.
     """
     faction = options.faction.current_key
-    kill_checks = options.enemy_kill_checks.value
     enabled: list[dict[str, Any]] = []
     for location in LOCATION_DATA:
-        # Kill milestones are count-gated, not toggle-gated: only the first enemy_kill_checks exist.
-        if location["category"] == KILL_MILESTONE_CATEGORY:
-            if location["milestone"] <= kill_checks:
+        # Milestone categories are count-gated, not toggle-gated: only the first N exist per seed.
+        if location["category"] in COUNT_GATED_CATEGORIES:
+            option_name = COUNT_GATED_CATEGORIES[location["category"]][0]
+            if location["milestone"] <= getattr(options, option_name).value:
                 enabled.append(location)
             continue
         if not getattr(options, CATEGORY_TO_OPTION[location["category"]]):
             continue
         # Joining a faction locks the other's questline and its merchants, so those locations can
         # never be reached. Quests and traders carry a faction; everything else is neutral.
-        if location.get("faction", "neutral") not in ("neutral", faction):
+        # Muggings are the exception: an opposite-faction NPC may still be reachable (their camp is
+        # only partly locked), so they stay in the pool and are EXCLUDED instead (see
+        # create_regular_locations) - nothing valuable can land on them.
+        if (
+            location.get("faction", "neutral") not in ("neutral", faction)
+            and location["category"] != MUGGING_CATEGORY
+        ):
             continue
         enabled.append(location)
     return enabled
@@ -112,18 +131,30 @@ def create_all_locations(world: DrovaWorld) -> None:
 
 
 def create_regular_locations(world: DrovaWorld) -> None:
+    faction = world.options.faction.current_key
     by_region: dict[str, dict[str, int | None]] = {}
+    excluded_names: list[str] = []
     for location in enabled_location_data(world.options):
-        # Quests happen all over the map, and kill milestones are not spatial at all, so both live
-        # in the hub.
-        if location["kind"] in ("Quest", KILL_MILESTONE_CATEGORY):
+        # Quests happen all over the map, and milestone counters are not spatial at all, so both
+        # live in the hub.
+        if location["kind"] == "Quest" or location["category"] in COUNT_GATED_CATEGORIES:
             region_name = regions.HUB_REGION
         else:
             region_name = regions.region_for_area(location["area"])
         by_region.setdefault(region_name, {})[location["name"]] = location["id"]
+        # Opposite-faction NPCs may be partly or fully unreachable, so their muggings must never
+        # hold progression or useful items.
+        if (
+            location["category"] == MUGGING_CATEGORY
+            and location.get("faction", "neutral") not in ("neutral", faction)
+        ):
+            excluded_names.append(location["name"])
 
     for region_name, region_locations in by_region.items():
         world.get_region(region_name).add_locations(region_locations, DrovaLocation)
+
+    for name in excluded_names:
+        world.get_location(name).progress_type = LocationProgressType.EXCLUDED
 
 
 def create_events(world: DrovaWorld) -> None:

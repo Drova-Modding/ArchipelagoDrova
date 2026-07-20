@@ -125,13 +125,13 @@ namespace ArchipelagoDrova
 
             // Core.Player comes from PlayerAccess.OnPlayerFound, so it is only set once the actor is
             // initialized. Polling PlayerAccess.GetPlayer() here would throw during bootstrap.
-            Actor player = Core.Player;
+            var player = Core.Player;
             if (!player)
             {
                 return;
             }
 
-            Health health = player.GetHealth();
+            var health = player.GetHealth();
             if (!health)
             {
                 return;
