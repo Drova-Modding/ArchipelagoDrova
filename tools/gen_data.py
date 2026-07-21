@@ -237,6 +237,18 @@ def is_quest_valued(rid):
     return rec is not None and rec["buy"] == 0 and rec["sell"] == 0
 
 
+# Drova.Items.ItemSubCategory values (see extract_item_values.py). The authored taxonomy is the
+# ground truth for what an item IS: the "trophies" that sounded like sale junk (Boar Skull, Tooth
+# of the Viper) are Armor_Trinket - equippable accessories with passive effects.
+SUB_ARMOR_EQUIP = {12, 13, 14, 15}   # Armor_Helmet / Armor_Trinket / Armor_Quiver / Armor_Bag
+SUB_MISC_KEY = 24                    # Misc_Key: glyph stones, seal stones, quest-gate props
+
+
+def item_subcategory(rid):
+    rec = ITEM_VALUES.get(rid)
+    return rec.get("sub", 0) if rec else 0
+
+
 def classify(rid):
     """Return (classification, include) for a readable id.
 
@@ -263,12 +275,24 @@ def classify(rid):
         return (None, False) if rid in FLOW_EXCLUDE else ("progression", True)
     if rid.startswith("misc_worldmap") or rid.startswith("misc_map_"):
         return "useful", True
+    if rid == "weapon_axe_improvisedpickaxe":
+        # Internal intro prop: it has no localization at all (renders as "Id: weapon_axe_..."),
+        # the real player pickaxe is tool_pickaxe_silberhauer below.
+        return None, False
+    if rid.startswith("tool_"):
+        # Minigame tools. Only the Silver Smasher (the sturdy pickaxe Merik sells) is worth
+        # granting; the broken variant is a quest prop and the torch is ambient equipment.
+        return ("useful", True) if rid == "tool_pickaxe_silberhauer" else (None, False)
     if rid.startswith("weapon_"):
         if is_quest_valued(rid):
             return None, False
         parts = rid.split("_")
         return ("useful", True) if len(parts) > 1 and parts[1] in PLAYER_WEAPON_TYPES else (None, False)
     if rid.startswith("armor_") or rid.startswith("helmet_"):
+        return (None, False) if is_quest_valued(rid) else ("useful", True)
+    if rid.startswith("recipe_flow_"):
+        # Ability/spell scrolls: the game's primary way to LEARN flow abilities, not crafting
+        # recipes (authored Consumable_Custom, not Consumable_Recipe). Real character power.
         return (None, False) if is_quest_valued(rid) else ("useful", True)
     if rid.startswith("cons_") or rid.startswith("recipe_"):
         return (None, False) if is_quest_valued(rid) else ("filler", True)
@@ -278,7 +302,19 @@ def classify(rid):
     # item_* is a catch-all: notes, treasure maps, food. Keep them as filler so the pool can fill
     # the location count, but never let logic depend on them.
     if rid.startswith("item_"):
-        return (None, False) if is_quest_valued(rid) else ("filler", True)
+        if is_quest_valued(rid):
+            return None, False
+        # Equippable accessories (trinkets, quivers, bags, the one item_ helmet) and permanent
+        # stat items are character power, not filler: useful keeps them off excluded locations.
+        if item_subcategory(rid) in SUB_ARMOR_EQUIP:
+            return "useful", True
+        if rid.startswith(("item_permapotion_", "item_permaherb_")):
+            return "useful", True
+        # Authored keys (glyph/seal stones, quest-gate props). Their pool copies are redundant
+        # with the vanilla ones, which slot_is_protected/LootSuppressor now keep obtainable.
+        if item_subcategory(rid) == SUB_MISC_KEY:
+            return "useful", True
+        return "filler", True
     return None, False
 
 
@@ -389,6 +425,9 @@ def build_items(readable_ids):
             "kind": "Item",
             "amount": stack_amount(rid),
             "classification": classification,
+            # The game's own sell price, so the apworld can tell actual junk from rare valuables
+            # (a Tooth of the Viper sells for 100, a plain Feather for 1) without re-deriving it.
+            "sell": (ITEM_VALUES.get(rid) or {}).get("sell", 0),
         })
     for name, kind, key, amount, classification in SYNTHETIC:
         items.append({
@@ -397,6 +436,7 @@ def build_items(readable_ids):
             "kind": kind,
             "amount": amount,
             "classification": classification,
+            "sell": 0,
         })
 
     names = [i["name"] for i in items]
@@ -435,6 +475,11 @@ def slot_is_protected(readable_id, quest):
     # Riddle offerings gate doors/statues that can hide randomized locations; the client keeps
     # them (see LootSuppressor.IsProtected), so their slots must not become checks.
     if rid.startswith("misc_riddle_"):
+        return True
+    # Items the game itself authors as keys (ItemSubCategory.Misc_Key: glyph stones, the Bygones
+    # seal stone, quest-gate props like Karotte's weapon). Keys in all but prefix - suppressing
+    # one could lock whatever it opens, so the client keeps them and their slots are no checks.
+    if item_subcategory(rid) == SUB_MISC_KEY:
         return True
     return False
 

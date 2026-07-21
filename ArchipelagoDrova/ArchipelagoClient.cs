@@ -208,6 +208,7 @@ namespace ArchipelagoDrova
                 SetupLootSuppression();
                 SetupConsumableStackSize();
                 SetupKillMilestones();
+                SetupTeleporterShuffle();
 
                 _store.StampOrValidate(ReadSeedName(), Seed, _slotName, Slot);
 
@@ -1038,6 +1039,26 @@ namespace ArchipelagoDrova
             {
                 MelonLogger.Msg("Consumable stack size: " + size.ToString().ToLowerInvariant() + ".");
             }
+        }
+
+        /// <summary>
+        /// Hands the seed's entrance shuffle to the teleporter rewiring. Absent or empty (older
+        /// seeds, option off) configures vanilla wiring, which also undoes a previous room's
+        /// shuffle when one session hops between rooms.
+        /// </summary>
+        private void SetupTeleporterShuffle()
+        {
+            var map = new Dictionary<string, string>();
+            if (SlotData != null && SlotData.TryGetValue("teleporters", out object value)
+                && value is Newtonsoft.Json.Linq.JObject jsonMap)
+            {
+                foreach (var property in jsonMap.Properties())
+                {
+                    map[property.Name] = property.Value?.ToString() ?? "";
+                }
+            }
+
+            TeleporterShuffler.Configure(map);
         }
 
         /// <summary>

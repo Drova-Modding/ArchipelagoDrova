@@ -4,7 +4,7 @@ from typing import Any
 from Options import OptionError
 from worlds.AutoWorld import World
 
-from . import items, locations, regions, rules, web_world
+from . import items, locations, regions, rules, teleporters, web_world
 from . import options as drova_options
 
 
@@ -30,6 +30,11 @@ class DrovaWorld(World):
     origin_region_name = "Menu"
 
     topology_present = True
+
+    # Mouth gate -> interior gate for this seed when teleporters are shuffled, else empty. Pure
+    # client data: the pool is built so any permutation keeps everything reachable (see
+    # teleporters.py), so this never touches regions or rules and UT does not need to mirror it.
+    teleporter_map: dict[str, str] = {}
 
     def generate_early(self) -> None:
         # Universal Tracker regenerates this world locally to learn which locations the room has.
@@ -70,6 +75,9 @@ class DrovaWorld(World):
                 f"{len(enabled_locations)} locations, but {progression_count} progression items must be placed. "
                 f"Enable more location categories."
             )
+
+        if self.options.randomize_teleporters:
+            self.teleporter_map = teleporters.shuffled_teleporter_map(self)
 
     def create_regions(self) -> None:
         regions.create_and_connect_regions(self)
@@ -122,4 +130,14 @@ class DrovaWorld(World):
             "attribute_learn_checks": int(self.options.attribute_learn_checks.value),
             "attribute_learn_interval": int(self.options.attribute_learn_interval.value),
             "talent_learn_checks": int(self.options.talent_learn_checks.value),
+            # Mouth gate -> interior gate. Empty when teleporters are not shuffled; the client
+            # treats an absent/empty map as vanilla links.
+            "teleporters": dict(self.teleporter_map),
         }
+
+    def write_spoiler(self, spoiler_handle) -> None:
+        if not self.teleporter_map:
+            return
+        spoiler_handle.write(f"\nTeleporter shuffle ({self.player_name}):\n")
+        for mouth, interior in sorted(self.teleporter_map.items()):
+            spoiler_handle.write(f"    {mouth} <-> {interior}\n")

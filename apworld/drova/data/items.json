@@ -5,7 +5,8 @@
   "id": 4762935,
   "kind": "Attribute",
   "name": "1 Dexterity",
-  "readable_id": "dexterity"
+  "readable_id": "dexterity",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -13,7 +14,8 @@
   "id": 4762936,
   "kind": "Attribute",
   "name": "1 Mind",
-  "readable_id": "mind"
+  "readable_id": "mind",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -21,7 +23,8 @@
   "id": 4762937,
   "kind": "Attribute",
   "name": "1 Strength",
-  "readable_id": "strength"
+  "readable_id": "strength",
+  "sell": 0
  },
  {
   "amount": 2,
@@ -29,7 +32,8 @@
   "id": 4762927,
   "kind": "LearningPoint",
   "name": "2 Learning Points",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 5,
@@ -37,7 +41,8 @@
   "id": 4762928,
   "kind": "LearningPoint",
   "name": "5 Learning Points",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 5,
@@ -45,7 +50,8 @@
   "id": 4762934,
   "kind": "MaxHealth",
   "name": "5 Max Health",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -53,7 +59,8 @@
   "id": 4762002,
   "kind": "Item",
   "name": "Armor Chest Bandit T1",
-  "readable_id": "armor_chest_bandit_T1"
+  "readable_id": "armor_chest_bandit_T1",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -61,7 +68,8 @@
   "id": 4762004,
   "kind": "Item",
   "name": "Armor Chest Bandit T4",
-  "readable_id": "armor_chest_bandit_T4"
+  "readable_id": "armor_chest_bandit_T4",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -69,7 +77,8 @@
   "id": 4762011,
   "kind": "Item",
   "name": "Armor Chest Druid Atlanter",
-  "readable_id": "armor_chest_druid_atlanter"
+  "readable_id": "armor_chest_druid_atlanter",
+  "sell": 200
  },
  {
   "amount": 1,
@@ -77,7 +86,8 @@
   "id": 4762012,
   "kind": "Item",
   "name": "Armor Chest Heavy Atlanter",
-  "readable_id": "armor_chest_heavy_atlanter"
+  "readable_id": "armor_chest_heavy_atlanter",
+  "sell": 200
  },
  {
   "amount": 1,
@@ -85,7 +95,8 @@
   "id": 4762013,
   "kind": "Item",
   "name": "Armor Chest Leather Magielager Name",
-  "readable_id": "armor_chest_leather_magielager_name"
+  "readable_id": "armor_chest_leather_magielager_name",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -93,7 +104,8 @@
   "id": 4762014,
   "kind": "Item",
   "name": "Armor Chest Leather Name",
-  "readable_id": "armor_chest_leather_name"
+  "readable_id": "armor_chest_leather_name",
+  "sell": 150
  },
  {
   "amount": 1,
@@ -101,7 +113,8 @@
   "id": 4762015,
   "kind": "Item",
   "name": "Armor Chest Leather Strong Name",
-  "readable_id": "armor_chest_leather_strong_name"
+  "readable_id": "armor_chest_leather_strong_name",
+  "sell": 200
  },
  {
   "amount": 1,
@@ -109,7 +122,8 @@
   "id": 4762016,
   "kind": "Item",
   "name": "Armor Chest Leather Strong Name Player",
-  "readable_id": "armor_chest_leather_strong_name_player"
+  "readable_id": "armor_chest_leather_strong_name_player",
+  "sell": 300
  },
  {
   "amount": 1,
@@ -117,7 +131,8 @@
   "id": 4762017,
   "kind": "Item",
   "name": "Armor Chest Lendha Dylara",
-  "readable_id": "armor_chest_lendha_dylara"
+  "readable_id": "armor_chest_lendha_dylara",
+  "sell": 125
  },
  {
   "amount": 1,
@@ -125,7 +140,8 @@
   "id": 4762018,
   "kind": "Item",
   "name": "Armor Chest Lendha Heavy Name",
-  "readable_id": "armor_chest_lendha_heavy_name"
+  "readable_id": "armor_chest_lendha_heavy_name",
+  "sell": 240
  },
  {
   "amount": 1,
@@ -133,7 +149,8 @@
   "id": 4762019,
   "kind": "Item",
   "name": "Armor Chest Lendha Name",
-  "readable_id": "armor_chest_lendha_name"
+  "readable_id": "armor_chest_lendha_name",
+  "sell": 240
  },
  {
   "amount": 1,
@@ -141,7 +158,8 @@
   "id": 4762020,
   "kind": "Item",
   "name": "Armor Chest Light Atlanter",
-  "readable_id": "armor_chest_light_atlanter"
+  "readable_id": "armor_chest_light_atlanter",
+  "sell": 200
  },
  {
   "amount": 1,
@@ -149,7 +167,8 @@
   "id": 4762022,
   "kind": "Item",
   "name": "Armor Chest Miner Name",
-  "readable_id": "armor_chest_miner_name"
+  "readable_id": "armor_chest_miner_name",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -157,7 +176,8 @@
   "id": 4762025,
   "kind": "Item",
   "name": "Armor Chest Nemeton Guardian Druid Name",
-  "readable_id": "armor_chest_nemeton_guardian_druid_name"
+  "readable_id": "armor_chest_nemeton_guardian_druid_name",
+  "sell": 350
  },
  {
   "amount": 1,
@@ -165,7 +185,8 @@
   "id": 4762026,
   "kind": "Item",
   "name": "Armor Chest Nemeton Guardian Heavy Name",
-  "readable_id": "armor_chest_nemeton_guardian_heavy_name"
+  "readable_id": "armor_chest_nemeton_guardian_heavy_name",
+  "sell": 350
  },
  {
   "amount": 1,
@@ -173,7 +194,8 @@
   "id": 4762027,
   "kind": "Item",
   "name": "Armor Chest Nemeton Guardian Light Name",
-  "readable_id": "armor_chest_nemeton_guardian_light_name"
+  "readable_id": "armor_chest_nemeton_guardian_light_name",
+  "sell": 350
  },
  {
   "amount": 1,
@@ -181,7 +203,8 @@
   "id": 4762029,
   "kind": "Item",
   "name": "Armor Chest Nemeton Social Name",
-  "readable_id": "armor_chest_nemeton_social_name"
+  "readable_id": "armor_chest_nemeton_social_name",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -189,7 +212,8 @@
   "id": 4762031,
   "kind": "Item",
   "name": "Armor Chest Ruinenlager Fighter Druid Name",
-  "readable_id": "armor_chest_ruinenlager_fighter_druid_name"
+  "readable_id": "armor_chest_ruinenlager_fighter_druid_name",
+  "sell": 350
  },
  {
   "amount": 1,
@@ -197,7 +221,8 @@
   "id": 4762032,
   "kind": "Item",
   "name": "Armor Chest Ruinenlager Fighter Fight Name",
-  "readable_id": "armor_chest_ruinenlager_fighter_fight_name"
+  "readable_id": "armor_chest_ruinenlager_fighter_fight_name",
+  "sell": 350
  },
  {
   "amount": 1,
@@ -205,7 +230,8 @@
   "id": 4762033,
   "kind": "Item",
   "name": "Armor Chest Ruinenlager Fighter Heavy Name",
-  "readable_id": "armor_chest_ruinenlager_fighter_heavy_name"
+  "readable_id": "armor_chest_ruinenlager_fighter_heavy_name",
+  "sell": 350
  },
  {
   "amount": 1,
@@ -213,7 +239,8 @@
   "id": 4762034,
   "kind": "Item",
   "name": "Armor Chest Ruinenlager Gladiator",
-  "readable_id": "armor_chest_ruinenlager_gladiator"
+  "readable_id": "armor_chest_ruinenlager_gladiator",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -221,7 +248,8 @@
   "id": 4762035,
   "kind": "Item",
   "name": "Armor Chest Ruinenlager Gladiator Noeffect",
-  "readable_id": "armor_chest_ruinenlager_gladiator_noeffect"
+  "readable_id": "armor_chest_ruinenlager_gladiator_noeffect",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -229,7 +257,8 @@
   "id": 4762036,
   "kind": "Item",
   "name": "Armor Chest Ruinenlager Heavy Name",
-  "readable_id": "armor_chest_ruinenlager_heavy_name"
+  "readable_id": "armor_chest_ruinenlager_heavy_name",
+  "sell": 240
  },
  {
   "amount": 1,
@@ -237,7 +266,8 @@
   "id": 4762037,
   "kind": "Item",
   "name": "Armor Chest Ruinenlager Name",
-  "readable_id": "armor_chest_ruinenlager_name"
+  "readable_id": "armor_chest_ruinenlager_name",
+  "sell": 240
  },
  {
   "amount": 1,
@@ -245,7 +275,8 @@
   "id": 4762038,
   "kind": "Item",
   "name": "Armor Chest Shirt Ragged Name",
-  "readable_id": "armor_chest_shirt_ragged_name"
+  "readable_id": "armor_chest_shirt_ragged_name",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -253,7 +284,8 @@
   "id": 4762039,
   "kind": "Item",
   "name": "Armor Chest Tunic Name",
-  "readable_id": "armor_chest_tunic_name"
+  "readable_id": "armor_chest_tunic_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -261,7 +293,8 @@
   "id": 4762040,
   "kind": "Item",
   "name": "Armor Chest Tunic Noble Name",
-  "readable_id": "armor_chest_tunic_noble_name"
+  "readable_id": "armor_chest_tunic_noble_name",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -269,7 +302,8 @@
   "id": 4762041,
   "kind": "Item",
   "name": "Armor Chest Tunic Ragged 2",
-  "readable_id": "armor_chest_tunic_ragged_2"
+  "readable_id": "armor_chest_tunic_ragged_2",
+  "sell": 70
  },
  {
   "amount": 1,
@@ -277,7 +311,8 @@
   "id": 4762046,
   "kind": "Item",
   "name": "Cons Flow AggressiveCry",
-  "readable_id": "cons_flow_aggressiveCry"
+  "readable_id": "cons_flow_aggressiveCry",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -285,7 +320,8 @@
   "id": 4762049,
   "kind": "Item",
   "name": "Cons Flow BattleCry",
-  "readable_id": "cons_flow_battleCry"
+  "readable_id": "cons_flow_battleCry",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -293,7 +329,8 @@
   "id": 4762050,
   "kind": "Item",
   "name": "Cons Flow Blink",
-  "readable_id": "cons_flow_blink"
+  "readable_id": "cons_flow_blink",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -301,7 +338,8 @@
   "id": 4762051,
   "kind": "Item",
   "name": "Cons Flow BloodRage",
-  "readable_id": "cons_flow_bloodRage"
+  "readable_id": "cons_flow_bloodRage",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -309,7 +347,8 @@
   "id": 4762052,
   "kind": "Item",
   "name": "Cons Flow BullRush",
-  "readable_id": "cons_flow_bullRush"
+  "readable_id": "cons_flow_bullRush",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -317,7 +356,8 @@
   "id": 4762054,
   "kind": "Item",
   "name": "Cons Flow Conflagration",
-  "readable_id": "cons_flow_conflagration"
+  "readable_id": "cons_flow_conflagration",
+  "sell": 70
  },
  {
   "amount": 1,
@@ -325,7 +365,8 @@
   "id": 4762060,
   "kind": "Item",
   "name": "Cons Flow Conjure Insects",
-  "readable_id": "cons_flow_conjure_insects"
+  "readable_id": "cons_flow_conjure_insects",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -333,7 +374,8 @@
   "id": 4762062,
   "kind": "Item",
   "name": "Cons Flow Conjure Pack",
-  "readable_id": "cons_flow_conjure_pack"
+  "readable_id": "cons_flow_conjure_pack",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -341,7 +383,8 @@
   "id": 4762063,
   "kind": "Item",
   "name": "Cons Flow Conjure Rats",
-  "readable_id": "cons_flow_conjure_rats"
+  "readable_id": "cons_flow_conjure_rats",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -349,7 +392,8 @@
   "id": 4762066,
   "kind": "Item",
   "name": "Cons Flow Dash",
-  "readable_id": "cons_flow_dash"
+  "readable_id": "cons_flow_dash",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -357,7 +401,8 @@
   "id": 4762071,
   "kind": "Item",
   "name": "Cons Flow EnergyProjectile",
-  "readable_id": "cons_flow_energyProjectile"
+  "readable_id": "cons_flow_energyProjectile",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -365,7 +410,8 @@
   "id": 4762072,
   "kind": "Item",
   "name": "Cons Flow Execute",
-  "readable_id": "cons_flow_execute"
+  "readable_id": "cons_flow_execute",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -373,7 +419,8 @@
   "id": 4762073,
   "kind": "Item",
   "name": "Cons Flow FerventCry",
-  "readable_id": "cons_flow_ferventCry"
+  "readable_id": "cons_flow_ferventCry",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -381,7 +428,8 @@
   "id": 4762074,
   "kind": "Item",
   "name": "Cons Flow FireCry",
-  "readable_id": "cons_flow_fireCry"
+  "readable_id": "cons_flow_fireCry",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -389,7 +437,8 @@
   "id": 4762075,
   "kind": "Item",
   "name": "Cons Flow FlowForm",
-  "readable_id": "cons_flow_flowForm"
+  "readable_id": "cons_flow_flowForm",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -397,7 +446,8 @@
   "id": 4762076,
   "kind": "Item",
   "name": "Cons Flow FogForm",
-  "readable_id": "cons_flow_fogForm"
+  "readable_id": "cons_flow_fogForm",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -405,7 +455,8 @@
   "id": 4762077,
   "kind": "Item",
   "name": "Cons Flow HeavyBlow",
-  "readable_id": "cons_flow_heavyBlow"
+  "readable_id": "cons_flow_heavyBlow",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -413,7 +464,8 @@
   "id": 4762079,
   "kind": "Item",
   "name": "Cons Flow Infection",
-  "readable_id": "cons_flow_infection"
+  "readable_id": "cons_flow_infection",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -421,7 +473,8 @@
   "id": 4762085,
   "kind": "Item",
   "name": "Cons Flow MagicNuke",
-  "readable_id": "cons_flow_magicNuke"
+  "readable_id": "cons_flow_magicNuke",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -429,7 +482,8 @@
   "id": 4762086,
   "kind": "Item",
   "name": "Cons Flow MagicVision",
-  "readable_id": "cons_flow_magicVision"
+  "readable_id": "cons_flow_magicVision",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -437,7 +491,8 @@
   "id": 4762093,
   "kind": "Item",
   "name": "Cons Flow ObsidianSpear",
-  "readable_id": "cons_flow_obsidianSpear"
+  "readable_id": "cons_flow_obsidianSpear",
+  "sell": 70
  },
  {
   "amount": 1,
@@ -445,7 +500,8 @@
   "id": 4762094,
   "kind": "Item",
   "name": "Cons Flow Pierce",
-  "readable_id": "cons_flow_pierce"
+  "readable_id": "cons_flow_pierce",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -453,7 +509,8 @@
   "id": 4762095,
   "kind": "Item",
   "name": "Cons Flow Root Aoe",
-  "readable_id": "cons_flow_root_aoe"
+  "readable_id": "cons_flow_root_aoe",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -461,7 +518,8 @@
   "id": 4762096,
   "kind": "Item",
   "name": "Cons Flow Root Cone",
-  "readable_id": "cons_flow_root_cone"
+  "readable_id": "cons_flow_root_cone",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -469,7 +527,8 @@
   "id": 4762097,
   "kind": "Item",
   "name": "Cons Flow ShockingBlow",
-  "readable_id": "cons_flow_shockingBlow"
+  "readable_id": "cons_flow_shockingBlow",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -477,7 +536,8 @@
   "id": 4762099,
   "kind": "Item",
   "name": "Cons Flow SpartanKick",
-  "readable_id": "cons_flow_spartanKick"
+  "readable_id": "cons_flow_spartanKick",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -485,7 +545,8 @@
   "id": 4762100,
   "kind": "Item",
   "name": "Cons Flow Thunderstorm",
-  "readable_id": "cons_flow_thunderstorm"
+  "readable_id": "cons_flow_thunderstorm",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -493,7 +554,8 @@
   "id": 4762101,
   "kind": "Item",
   "name": "Cons Flow VenomCry",
-  "readable_id": "cons_flow_venomCry"
+  "readable_id": "cons_flow_venomCry",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -501,7 +563,8 @@
   "id": 4762102,
   "kind": "Item",
   "name": "Cons Flow WhirlingEnergy",
-  "readable_id": "cons_flow_whirlingEnergy"
+  "readable_id": "cons_flow_whirlingEnergy",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -509,7 +572,8 @@
   "id": 4762103,
   "kind": "Item",
   "name": "Cons Flow Wound",
-  "readable_id": "cons_flow_wound"
+  "readable_id": "cons_flow_wound",
+  "sell": 10
  },
  {
   "amount": 250,
@@ -517,7 +581,8 @@
   "id": 4762000,
   "kind": "Xp",
   "name": "Experience Boost",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -525,7 +590,8 @@
   "id": 4762104,
   "kind": "Item",
   "name": "Flow AggressiveCry",
-  "readable_id": "flow_aggressiveCry"
+  "readable_id": "flow_aggressiveCry",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -533,7 +599,8 @@
   "id": 4762105,
   "kind": "Item",
   "name": "Flow Ballista",
-  "readable_id": "flow_ballista"
+  "readable_id": "flow_ballista",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -541,7 +608,8 @@
   "id": 4762106,
   "kind": "Item",
   "name": "Flow BattleCry",
-  "readable_id": "flow_battleCry"
+  "readable_id": "flow_battleCry",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -549,7 +617,8 @@
   "id": 4762107,
   "kind": "Item",
   "name": "Flow Blast",
-  "readable_id": "flow_blast"
+  "readable_id": "flow_blast",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -557,7 +626,8 @@
   "id": 4762108,
   "kind": "Item",
   "name": "Flow Blink",
-  "readable_id": "flow_blink"
+  "readable_id": "flow_blink",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -565,7 +635,8 @@
   "id": 4762109,
   "kind": "Item",
   "name": "Flow BloodRage",
-  "readable_id": "flow_bloodRage"
+  "readable_id": "flow_bloodRage",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -573,7 +644,8 @@
   "id": 4762110,
   "kind": "Item",
   "name": "Flow BruntShot",
-  "readable_id": "flow_bruntShot"
+  "readable_id": "flow_bruntShot",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -581,7 +653,8 @@
   "id": 4762111,
   "kind": "Item",
   "name": "Flow BullRush",
-  "readable_id": "flow_bullRush"
+  "readable_id": "flow_bullRush",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -589,7 +662,8 @@
   "id": 4762112,
   "kind": "Item",
   "name": "Flow Conflagration",
-  "readable_id": "flow_conflagration"
+  "readable_id": "flow_conflagration",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -597,7 +671,8 @@
   "id": 4762113,
   "kind": "Item",
   "name": "Flow Conjure Insects",
-  "readable_id": "flow_conjure_insects"
+  "readable_id": "flow_conjure_insects",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -605,7 +680,8 @@
   "id": 4762114,
   "kind": "Item",
   "name": "Flow Conjure Pack",
-  "readable_id": "flow_conjure_pack"
+  "readable_id": "flow_conjure_pack",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -613,7 +689,8 @@
   "id": 4762115,
   "kind": "Item",
   "name": "Flow Conjure Rats",
-  "readable_id": "flow_conjure_rats"
+  "readable_id": "flow_conjure_rats",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -621,7 +698,8 @@
   "id": 4762116,
   "kind": "Item",
   "name": "Flow Conjure SpiritCall",
-  "readable_id": "flow_conjure_spiritCall"
+  "readable_id": "flow_conjure_spiritCall",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -629,7 +707,8 @@
   "id": 4762117,
   "kind": "Item",
   "name": "Flow Cyclone",
-  "readable_id": "flow_cyclone"
+  "readable_id": "flow_cyclone",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -637,7 +716,8 @@
   "id": 4762118,
   "kind": "Item",
   "name": "Flow Dash",
-  "readable_id": "flow_dash"
+  "readable_id": "flow_dash",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -645,7 +725,8 @@
   "id": 4762119,
   "kind": "Item",
   "name": "Flow DashStab",
-  "readable_id": "flow_dashStab"
+  "readable_id": "flow_dashStab",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -653,7 +734,8 @@
   "id": 4762120,
   "kind": "Item",
   "name": "Flow EnergyProjectile",
-  "readable_id": "flow_energyProjectile"
+  "readable_id": "flow_energyProjectile",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -661,7 +743,8 @@
   "id": 4762121,
   "kind": "Item",
   "name": "Flow Execute",
-  "readable_id": "flow_execute"
+  "readable_id": "flow_execute",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -669,7 +752,8 @@
   "id": 4762122,
   "kind": "Item",
   "name": "Flow FerventCry",
-  "readable_id": "flow_ferventCry"
+  "readable_id": "flow_ferventCry",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -677,7 +761,8 @@
   "id": 4762123,
   "kind": "Item",
   "name": "Flow FireCry",
-  "readable_id": "flow_fireCry"
+  "readable_id": "flow_fireCry",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -685,7 +770,8 @@
   "id": 4762124,
   "kind": "Item",
   "name": "Flow FlowForm",
-  "readable_id": "flow_flowForm"
+  "readable_id": "flow_flowForm",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -693,7 +779,8 @@
   "id": 4762125,
   "kind": "Item",
   "name": "Flow FogForm",
-  "readable_id": "flow_fogForm"
+  "readable_id": "flow_fogForm",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -701,7 +788,8 @@
   "id": 4762126,
   "kind": "Item",
   "name": "Flow GraspingRoots",
-  "readable_id": "flow_graspingRoots"
+  "readable_id": "flow_graspingRoots",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -709,7 +797,8 @@
   "id": 4762127,
   "kind": "Item",
   "name": "Flow HeavyBlow",
-  "readable_id": "flow_heavyBlow"
+  "readable_id": "flow_heavyBlow",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -717,7 +806,8 @@
   "id": 4762128,
   "kind": "Item",
   "name": "Flow Infection",
-  "readable_id": "flow_infection"
+  "readable_id": "flow_infection",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -725,7 +815,8 @@
   "id": 4762129,
   "kind": "Item",
   "name": "Flow MagicNuke",
-  "readable_id": "flow_magicNuke"
+  "readable_id": "flow_magicNuke",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -733,7 +824,8 @@
   "id": 4762130,
   "kind": "Item",
   "name": "Flow MagicVision",
-  "readable_id": "flow_magicVision"
+  "readable_id": "flow_magicVision",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -741,7 +833,8 @@
   "id": 4762131,
   "kind": "Item",
   "name": "Flow NatureTouch",
-  "readable_id": "flow_natureTouch"
+  "readable_id": "flow_natureTouch",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -749,7 +842,8 @@
   "id": 4762132,
   "kind": "Item",
   "name": "Flow ObsidianSpear",
-  "readable_id": "flow_obsidianSpear"
+  "readable_id": "flow_obsidianSpear",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -757,7 +851,8 @@
   "id": 4762133,
   "kind": "Item",
   "name": "Flow Pierce",
-  "readable_id": "flow_pierce"
+  "readable_id": "flow_pierce",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -765,7 +860,8 @@
   "id": 4762134,
   "kind": "Item",
   "name": "Flow PoisonArrow",
-  "readable_id": "flow_poisonArrow"
+  "readable_id": "flow_poisonArrow",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -773,7 +869,8 @@
   "id": 4762135,
   "kind": "Item",
   "name": "Flow Ricochet",
-  "readable_id": "flow_ricochet"
+  "readable_id": "flow_ricochet",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -781,7 +878,8 @@
   "id": 4762136,
   "kind": "Item",
   "name": "Flow Root Aoe",
-  "readable_id": "flow_root_aoe"
+  "readable_id": "flow_root_aoe",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -789,7 +887,8 @@
   "id": 4762137,
   "kind": "Item",
   "name": "Flow Root Cone",
-  "readable_id": "flow_root_cone"
+  "readable_id": "flow_root_cone",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -797,7 +896,8 @@
   "id": 4762138,
   "kind": "Item",
   "name": "Flow ShockingBlow",
-  "readable_id": "flow_shockingBlow"
+  "readable_id": "flow_shockingBlow",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -805,7 +905,8 @@
   "id": 4762139,
   "kind": "Item",
   "name": "Flow SpartanKick",
-  "readable_id": "flow_spartanKick"
+  "readable_id": "flow_spartanKick",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -813,7 +914,8 @@
   "id": 4762140,
   "kind": "Item",
   "name": "Flow SpiritShot",
-  "readable_id": "flow_spiritShot"
+  "readable_id": "flow_spiritShot",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -821,7 +923,8 @@
   "id": 4762141,
   "kind": "Item",
   "name": "Flow Sunder",
-  "readable_id": "flow_sunder"
+  "readable_id": "flow_sunder",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -829,7 +932,8 @@
   "id": 4762142,
   "kind": "Item",
   "name": "Flow Thunderstorm",
-  "readable_id": "flow_thunderstorm"
+  "readable_id": "flow_thunderstorm",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -837,7 +941,8 @@
   "id": 4762143,
   "kind": "Item",
   "name": "Flow TravelForm",
-  "readable_id": "flow_travelForm"
+  "readable_id": "flow_travelForm",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -845,7 +950,8 @@
   "id": 4762144,
   "kind": "Item",
   "name": "Flow VenomCry",
-  "readable_id": "flow_venomCry"
+  "readable_id": "flow_venomCry",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -853,7 +959,8 @@
   "id": 4762145,
   "kind": "Item",
   "name": "Flow WhirlingEnergy",
-  "readable_id": "flow_whirlingEnergy"
+  "readable_id": "flow_whirlingEnergy",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -861,7 +968,8 @@
   "id": 4762146,
   "kind": "Item",
   "name": "Flow Wound",
-  "readable_id": "flow_wound"
+  "readable_id": "flow_wound",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -869,7 +977,8 @@
   "id": 4762147,
   "kind": "Item",
   "name": "Helmet Antlers Name",
-  "readable_id": "helmet_antlers_name"
+  "readable_id": "helmet_antlers_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -877,7 +986,8 @@
   "id": 4762148,
   "kind": "Item",
   "name": "Helmet Atlanter Champion",
-  "readable_id": "helmet_atlanter_champion"
+  "readable_id": "helmet_atlanter_champion",
+  "sell": 200
  },
  {
   "amount": 1,
@@ -885,7 +995,8 @@
   "id": 4762149,
   "kind": "Item",
   "name": "Helmet Atlanter Name",
-  "readable_id": "helmet_atlanter_name"
+  "readable_id": "helmet_atlanter_name",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -893,7 +1004,8 @@
   "id": 4762150,
   "kind": "Item",
   "name": "Helmet Barbarian Name",
-  "readable_id": "helmet_barbarian_name"
+  "readable_id": "helmet_barbarian_name",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -901,7 +1013,8 @@
   "id": 4762151,
   "kind": "Item",
   "name": "Helmet Blindfold Dark Name",
-  "readable_id": "helmet_blindfold_dark_name"
+  "readable_id": "helmet_blindfold_dark_name",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -909,7 +1022,8 @@
   "id": 4762152,
   "kind": "Item",
   "name": "Helmet Blindfold Light Name",
-  "readable_id": "helmet_blindfold_light_name"
+  "readable_id": "helmet_blindfold_light_name",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -917,7 +1031,8 @@
   "id": 4762153,
   "kind": "Item",
   "name": "Helmet Brutus Name",
-  "readable_id": "helmet_brutus_name"
+  "readable_id": "helmet_brutus_name",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -925,7 +1040,8 @@
   "id": 4762154,
   "kind": "Item",
   "name": "Helmet Cauldron Name",
-  "readable_id": "helmet_cauldron_name"
+  "readable_id": "helmet_cauldron_name",
+  "sell": 8
  },
  {
   "amount": 1,
@@ -933,7 +1049,8 @@
   "id": 4762155,
   "kind": "Item",
   "name": "Helmet Crown Name",
-  "readable_id": "helmet_crown_name"
+  "readable_id": "helmet_crown_name",
+  "sell": 70
  },
  {
   "amount": 1,
@@ -941,7 +1058,8 @@
   "id": 4762156,
   "kind": "Item",
   "name": "Helmet Draugr Dark Name",
-  "readable_id": "helmet_draugr_dark_name"
+  "readable_id": "helmet_draugr_dark_name",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -949,7 +1067,8 @@
   "id": 4762157,
   "kind": "Item",
   "name": "Helmet Draugr Mage Name",
-  "readable_id": "helmet_draugr_mage_name"
+  "readable_id": "helmet_draugr_mage_name",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -957,7 +1076,8 @@
   "id": 4762159,
   "kind": "Item",
   "name": "Helmet Earprotection Name",
-  "readable_id": "helmet_earprotection_name"
+  "readable_id": "helmet_earprotection_name",
+  "sell": 5
  },
  {
   "amount": 1,
@@ -965,7 +1085,8 @@
   "id": 4762160,
   "kind": "Item",
   "name": "Helmet Ede Bandage",
-  "readable_id": "helmet_ede_bandage"
+  "readable_id": "helmet_ede_bandage",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -973,7 +1094,8 @@
   "id": 4762161,
   "kind": "Item",
   "name": "Helmet Gladiator Name",
-  "readable_id": "helmet_gladiator_name"
+  "readable_id": "helmet_gladiator_name",
+  "sell": 60
  },
  {
   "amount": 1,
@@ -981,7 +1103,8 @@
   "id": 4762162,
   "kind": "Item",
   "name": "Helmet Hood Bandit Name",
-  "readable_id": "helmet_hood_bandit_name"
+  "readable_id": "helmet_hood_bandit_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -989,7 +1112,8 @@
   "id": 4762163,
   "kind": "Item",
   "name": "Helmet Hood Bandit T4 Name",
-  "readable_id": "helmet_hood_bandit_t4_name"
+  "readable_id": "helmet_hood_bandit_t4_name",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -997,7 +1121,8 @@
   "id": 4762164,
   "kind": "Item",
   "name": "Helmet Ironwings Name",
-  "readable_id": "helmet_ironwings_name"
+  "readable_id": "helmet_ironwings_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1005,7 +1130,8 @@
   "id": 4762165,
   "kind": "Item",
   "name": "Helmet Leathercap Name",
-  "readable_id": "helmet_leathercap_name"
+  "readable_id": "helmet_leathercap_name",
+  "sell": 12
  },
  {
   "amount": 1,
@@ -1013,7 +1139,8 @@
   "id": 4762166,
   "kind": "Item",
   "name": "Helmet Legionare Name",
-  "readable_id": "helmet_legionare_name"
+  "readable_id": "helmet_legionare_name",
+  "sell": 200
  },
  {
   "amount": 1,
@@ -1021,7 +1148,8 @@
   "id": 4762167,
   "kind": "Item",
   "name": "Helmet Mask Arrogant Name",
-  "readable_id": "helmet_mask_arrogant_name"
+  "readable_id": "helmet_mask_arrogant_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1029,7 +1157,8 @@
   "id": 4762168,
   "kind": "Item",
   "name": "Helmet Mask Death Name",
-  "readable_id": "helmet_mask_death_name"
+  "readable_id": "helmet_mask_death_name",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -1037,7 +1166,8 @@
   "id": 4762169,
   "kind": "Item",
   "name": "Helmet Mask Empathetic Name",
-  "readable_id": "helmet_mask_empathetic_name"
+  "readable_id": "helmet_mask_empathetic_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1045,7 +1175,8 @@
   "id": 4762170,
   "kind": "Item",
   "name": "Helmet Mask Frog Name",
-  "readable_id": "helmet_mask_frog_name"
+  "readable_id": "helmet_mask_frog_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1053,7 +1184,8 @@
   "id": 4762171,
   "kind": "Item",
   "name": "Helmet Mask Obito Name",
-  "readable_id": "helmet_mask_obito_name"
+  "readable_id": "helmet_mask_obito_name",
+  "sell": 60
  },
  {
   "amount": 1,
@@ -1061,7 +1193,8 @@
   "id": 4762172,
   "kind": "Item",
   "name": "Helmet Mask Rational Name",
-  "readable_id": "helmet_mask_rational_name"
+  "readable_id": "helmet_mask_rational_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1069,7 +1202,8 @@
   "id": 4762173,
   "kind": "Item",
   "name": "Helmet Mask Sheep Name",
-  "readable_id": "helmet_mask_sheep_name"
+  "readable_id": "helmet_mask_sheep_name",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -1077,7 +1211,8 @@
   "id": 4762174,
   "kind": "Item",
   "name": "Helmet Mask Vodoo Name",
-  "readable_id": "helmet_mask_vodoo_name"
+  "readable_id": "helmet_mask_vodoo_name",
+  "sell": 160
  },
  {
   "amount": 1,
@@ -1085,7 +1220,8 @@
   "id": 4762175,
   "kind": "Item",
   "name": "Helmet Mushroom Name",
-  "readable_id": "helmet_mushroom_name"
+  "readable_id": "helmet_mushroom_name",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -1093,7 +1229,8 @@
   "id": 4762176,
   "kind": "Item",
   "name": "Helmet Nemeton Guard1 Name",
-  "readable_id": "helmet_nemeton_guard1_name"
+  "readable_id": "helmet_nemeton_guard1_name",
+  "sell": 70
  },
  {
   "amount": 1,
@@ -1101,7 +1238,8 @@
   "id": 4762177,
   "kind": "Item",
   "name": "Helmet Nemeton Guard2 Name",
-  "readable_id": "helmet_nemeton_guard2_name"
+  "readable_id": "helmet_nemeton_guard2_name",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -1109,7 +1247,8 @@
   "id": 4762179,
   "kind": "Item",
   "name": "Helmet Onion Name",
-  "readable_id": "helmet_onion_name"
+  "readable_id": "helmet_onion_name",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1117,7 +1256,8 @@
   "id": 4762180,
   "kind": "Item",
   "name": "Helmet Ruinenlager Guard1 Name",
-  "readable_id": "helmet_ruinenlager_guard1_name"
+  "readable_id": "helmet_ruinenlager_guard1_name",
+  "sell": 70
  },
  {
   "amount": 1,
@@ -1125,7 +1265,8 @@
   "id": 4762181,
   "kind": "Item",
   "name": "Helmet Ruinenlager Guard2 Name",
-  "readable_id": "helmet_ruinenlager_guard2_name"
+  "readable_id": "helmet_ruinenlager_guard2_name",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -1133,7 +1274,8 @@
   "id": 4762182,
   "kind": "Item",
   "name": "Helmet Straw Name",
-  "readable_id": "helmet_straw_name"
+  "readable_id": "helmet_straw_name",
+  "sell": 10
  },
  {
   "amount": 3,
@@ -1141,7 +1283,8 @@
   "id": 4762201,
   "kind": "Item",
   "name": "Item Acidbomb",
-  "readable_id": "item_acidbomb"
+  "readable_id": "item_acidbomb",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -1149,7 +1292,8 @@
   "id": 4762202,
   "kind": "Item",
   "name": "Item Acidsecretion",
-  "readable_id": "item_acidsecretion"
+  "readable_id": "item_acidsecretion",
+  "sell": 5
  },
  {
   "amount": 3,
@@ -1157,7 +1301,8 @@
   "id": 4762203,
   "kind": "Item",
   "name": "Item Acidtrap",
-  "readable_id": "item_acidtrap"
+  "readable_id": "item_acidtrap",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -1165,7 +1310,8 @@
   "id": 4762204,
   "kind": "Item",
   "name": "Item Aditroast",
-  "readable_id": "item_aditroast"
+  "readable_id": "item_aditroast",
+  "sell": 16
  },
  {
   "amount": 1,
@@ -1173,7 +1319,8 @@
   "id": 4762205,
   "kind": "Item",
   "name": "Item Agilostew",
-  "readable_id": "item_agilostew"
+  "readable_id": "item_agilostew",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1181,7 +1328,8 @@
   "id": 4762206,
   "kind": "Item",
   "name": "Item Alraune",
-  "readable_id": "item_alraune"
+  "readable_id": "item_alraune",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -1189,31 +1337,35 @@
   "id": 4762207,
   "kind": "Item",
   "name": "Item Apple",
-  "readable_id": "item_apple"
+  "readable_id": "item_apple",
+  "sell": 1
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762208,
   "kind": "Item",
   "name": "Item Armorring 0",
-  "readable_id": "item_armorring_0"
+  "readable_id": "item_armorring_0",
+  "sell": 50
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762209,
   "kind": "Item",
   "name": "Item Armorring 1",
-  "readable_id": "item_armorring_1"
+  "readable_id": "item_armorring_1",
+  "sell": 75
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762210,
   "kind": "Item",
   "name": "Item Atlanteanarmorparts",
-  "readable_id": "item_atlanteanarmorparts"
+  "readable_id": "item_atlanteanarmorparts",
+  "sell": 250
  },
  {
   "amount": 1,
@@ -1221,7 +1373,8 @@
   "id": 4762213,
   "kind": "Item",
   "name": "Item Atlanter Coin",
-  "readable_id": "item_atlanter_coin"
+  "readable_id": "item_atlanter_coin",
+  "sell": 3
  },
  {
   "amount": 1,
@@ -1229,7 +1382,8 @@
   "id": 4762214,
   "kind": "Item",
   "name": "Item Atlanter Wine",
-  "readable_id": "item_atlanter_wine"
+  "readable_id": "item_atlanter_wine",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1237,7 +1391,8 @@
   "id": 4762212,
   "kind": "Item",
   "name": "Item AtlanterRune",
-  "readable_id": "item_atlanterRune"
+  "readable_id": "item_atlanterRune",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -1245,7 +1400,8 @@
   "id": 4762216,
   "kind": "Item",
   "name": "Item Beak",
-  "readable_id": "item_beak"
+  "readable_id": "item_beak",
+  "sell": 4
  },
  {
   "amount": 1,
@@ -1253,7 +1409,8 @@
   "id": 4762217,
   "kind": "Item",
   "name": "Item Bear Claw",
-  "readable_id": "item_bear_claw"
+  "readable_id": "item_bear_claw",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1261,7 +1418,8 @@
   "id": 4762218,
   "kind": "Item",
   "name": "Item Bearfur",
-  "readable_id": "item_bearfur"
+  "readable_id": "item_bearfur",
+  "sell": 50
  },
  {
   "amount": 3,
@@ -1269,7 +1427,8 @@
   "id": 4762219,
   "kind": "Item",
   "name": "Item Beartrap",
-  "readable_id": "item_beartrap"
+  "readable_id": "item_beartrap",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -1277,7 +1436,8 @@
   "id": 4762220,
   "kind": "Item",
   "name": "Item Beer",
-  "readable_id": "item_beer"
+  "readable_id": "item_beer",
+  "sell": 4
  },
  {
   "amount": 5,
@@ -1285,39 +1445,44 @@
   "id": 4762221,
   "kind": "Item",
   "name": "Item Berry",
-  "readable_id": "item_berry"
+  "readable_id": "item_berry",
+  "sell": 2
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762222,
   "kind": "Item",
   "name": "Item Berserkerring",
-  "readable_id": "item_berserkerring"
+  "readable_id": "item_berserkerring",
+  "sell": 75
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762223,
   "kind": "Item",
   "name": "Item Berserkerring 2",
-  "readable_id": "item_berserkerring_2"
+  "readable_id": "item_berserkerring_2",
+  "sell": 100
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762224,
   "kind": "Item",
   "name": "Item Bigligering",
-  "readable_id": "item_bigligering"
+  "readable_id": "item_bigligering",
+  "sell": 60
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762225,
   "kind": "Item",
   "name": "Item Bigquiver",
-  "readable_id": "item_bigquiver"
+  "readable_id": "item_bigquiver",
+  "sell": 160
  },
  {
   "amount": 3,
@@ -1325,15 +1490,17 @@
   "id": 4762228,
   "kind": "Item",
   "name": "Item Blanktrap",
-  "readable_id": "item_blanktrap"
+  "readable_id": "item_blanktrap",
+  "sell": 17
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762229,
   "kind": "Item",
   "name": "Item Bloodbornering",
-  "readable_id": "item_bloodbornering"
+  "readable_id": "item_bloodbornering",
+  "sell": 125
  },
  {
   "amount": 1,
@@ -1341,23 +1508,26 @@
   "id": 4762230,
   "kind": "Item",
   "name": "Item Bloodquitostinger",
-  "readable_id": "item_bloodquitostinger"
+  "readable_id": "item_bloodquitostinger",
+  "sell": 3
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762231,
   "kind": "Item",
   "name": "Item Bloodthirstamulet",
-  "readable_id": "item_bloodthirstamulet"
+  "readable_id": "item_bloodthirstamulet",
+  "sell": 75
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762232,
   "kind": "Item",
   "name": "Item Boartooth",
-  "readable_id": "item_boartooth"
+  "readable_id": "item_boartooth",
+  "sell": 75
  },
  {
   "amount": 1,
@@ -1365,15 +1535,17 @@
   "id": 4762233,
   "kind": "Item",
   "name": "Item Boartusk",
-  "readable_id": "item_boartusk"
+  "readable_id": "item_boartusk",
+  "sell": 10
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762234,
   "kind": "Item",
   "name": "Item BogIron",
-  "readable_id": "item_bogIron"
+  "readable_id": "item_bogIron",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -1381,7 +1553,8 @@
   "id": 4762235,
   "kind": "Item",
   "name": "Item Bogwheat",
-  "readable_id": "item_bogwheat"
+  "readable_id": "item_bogwheat",
+  "sell": 2
  },
  {
   "amount": 3,
@@ -1389,7 +1562,8 @@
   "id": 4762236,
   "kind": "Item",
   "name": "Item Bomb",
-  "readable_id": "item_bomb"
+  "readable_id": "item_bomb",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -1397,7 +1571,8 @@
   "id": 4762238,
   "kind": "Item",
   "name": "Item Brokenwings",
-  "readable_id": "item_brokenwings"
+  "readable_id": "item_brokenwings",
+  "sell": 2
  },
  {
   "amount": 5,
@@ -1405,7 +1580,8 @@
   "id": 4762241,
   "kind": "Item",
   "name": "Item Callashroom",
-  "readable_id": "item_callashroom"
+  "readable_id": "item_callashroom",
+  "sell": 2
  },
  {
   "amount": 5,
@@ -1413,7 +1589,8 @@
   "id": 4762243,
   "kind": "Item",
   "name": "Item Cavemushroom",
-  "readable_id": "item_cavemushroom"
+  "readable_id": "item_cavemushroom",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -1421,7 +1598,8 @@
   "id": 4762244,
   "kind": "Item",
   "name": "Item Chunnaic Diamond",
-  "readable_id": "item_chunnaic_diamond"
+  "readable_id": "item_chunnaic_diamond",
+  "sell": 60
  },
  {
   "amount": 1,
@@ -1429,15 +1607,17 @@
   "id": 4762245,
   "kind": "Item",
   "name": "Item Claw",
-  "readable_id": "item_claw"
+  "readable_id": "item_claw",
+  "sell": 2
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762246,
   "kind": "Item",
   "name": "Item Cleavageskull",
-  "readable_id": "item_cleavageskull"
+  "readable_id": "item_cleavageskull",
+  "sell": 75
  },
  {
   "amount": 3,
@@ -1445,7 +1625,8 @@
   "id": 4762247,
   "kind": "Item",
   "name": "Item Crowtrap",
-  "readable_id": "item_crowtrap"
+  "readable_id": "item_crowtrap",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -1453,7 +1634,8 @@
   "id": 4762248,
   "kind": "Item",
   "name": "Item Diamond",
-  "readable_id": "item_diamond"
+  "readable_id": "item_diamond",
+  "sell": 60
  },
  {
   "amount": 1,
@@ -1461,7 +1643,8 @@
   "id": 4762250,
   "kind": "Item",
   "name": "Item Earthroot",
-  "readable_id": "item_earthroot"
+  "readable_id": "item_earthroot",
+  "sell": 3
  },
  {
   "amount": 1,
@@ -1469,7 +1652,8 @@
   "id": 4762251,
   "kind": "Item",
   "name": "Item Egg",
-  "readable_id": "item_egg"
+  "readable_id": "item_egg",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -1477,7 +1661,8 @@
   "id": 4762252,
   "kind": "Item",
   "name": "Item Energycrystal Aufwald Charged",
-  "readable_id": "item_energycrystal_aufwald_charged"
+  "readable_id": "item_energycrystal_aufwald_charged",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1485,7 +1670,8 @@
   "id": 4762253,
   "kind": "Item",
   "name": "Item Energycrystal Brutus Charged",
-  "readable_id": "item_energycrystal_brutus_charged"
+  "readable_id": "item_energycrystal_brutus_charged",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1493,7 +1679,8 @@
   "id": 4762254,
   "kind": "Item",
   "name": "Item Energycrystal CityDungeon Charged",
-  "readable_id": "item_energycrystal_cityDungeon_charged"
+  "readable_id": "item_energycrystal_cityDungeon_charged",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1501,7 +1688,8 @@
   "id": 4762255,
   "kind": "Item",
   "name": "Item Engraving Stones",
-  "readable_id": "item_engraving_stones"
+  "readable_id": "item_engraving_stones",
+  "sell": 6
  },
  {
   "amount": 1,
@@ -1509,7 +1697,8 @@
   "id": 4762258,
   "kind": "Item",
   "name": "Item Essence Atlanter",
-  "readable_id": "item_essence_atlanter"
+  "readable_id": "item_essence_atlanter",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -1517,7 +1706,8 @@
   "id": 4762259,
   "kind": "Item",
   "name": "Item Essence Stone",
-  "readable_id": "item_essence_stone"
+  "readable_id": "item_essence_stone",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -1525,7 +1715,8 @@
   "id": 4762260,
   "kind": "Item",
   "name": "Item Essence Void",
-  "readable_id": "item_essence_void"
+  "readable_id": "item_essence_void",
+  "sell": 60
  },
  {
   "amount": 5,
@@ -1533,7 +1724,8 @@
   "id": 4762261,
   "kind": "Item",
   "name": "Item FarmersFood",
-  "readable_id": "item_farmersFood"
+  "readable_id": "item_farmersFood",
+  "sell": 22
  },
  {
   "amount": 1,
@@ -1541,7 +1733,8 @@
   "id": 4762262,
   "kind": "Item",
   "name": "Item Feather",
-  "readable_id": "item_feather"
+  "readable_id": "item_feather",
+  "sell": 1
  },
  {
   "amount": 5,
@@ -1549,7 +1742,8 @@
   "id": 4762263,
   "kind": "Item",
   "name": "Item Fish Bass",
-  "readable_id": "item_fish_bass"
+  "readable_id": "item_fish_bass",
+  "sell": 4
  },
  {
   "amount": 5,
@@ -1557,7 +1751,8 @@
   "id": 4762264,
   "kind": "Item",
   "name": "Item Fish Dead",
-  "readable_id": "item_fish_dead"
+  "readable_id": "item_fish_dead",
+  "sell": 6
  },
  {
   "amount": 5,
@@ -1565,7 +1760,8 @@
   "id": 4762265,
   "kind": "Item",
   "name": "Item Fish Trout",
-  "readable_id": "item_fish_trout"
+  "readable_id": "item_fish_trout",
+  "sell": 4
  },
  {
   "amount": 1,
@@ -1573,7 +1769,8 @@
   "id": 4762267,
   "kind": "Item",
   "name": "Item Fishpan",
-  "readable_id": "item_fishpan"
+  "readable_id": "item_fishpan",
+  "sell": 28
  },
  {
   "amount": 5,
@@ -1581,7 +1778,8 @@
   "id": 4762268,
   "kind": "Item",
   "name": "Item FlowPlant 0",
-  "readable_id": "item_flowPlant_0"
+  "readable_id": "item_flowPlant_0",
+  "sell": 4
  },
  {
   "amount": 5,
@@ -1589,15 +1787,17 @@
   "id": 4762269,
   "kind": "Item",
   "name": "Item FlowPlant 1",
-  "readable_id": "item_flowPlant_1"
+  "readable_id": "item_flowPlant_1",
+  "sell": 6
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762270,
   "kind": "Item",
   "name": "Item Flowcatchertalisman",
-  "readable_id": "item_flowcatchertalisman"
+  "readable_id": "item_flowcatchertalisman",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -1605,7 +1805,8 @@
   "id": 4762271,
   "kind": "Item",
   "name": "Item Fogears",
-  "readable_id": "item_fogears"
+  "readable_id": "item_fogears",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -1613,7 +1814,8 @@
   "id": 4762272,
   "kind": "Item",
   "name": "Item Fogstew",
-  "readable_id": "item_fogstew"
+  "readable_id": "item_fogstew",
+  "sell": 28
  },
  {
   "amount": 5,
@@ -1621,7 +1823,8 @@
   "id": 4762273,
   "kind": "Item",
   "name": "Item Foodpile",
-  "readable_id": "item_foodpile"
+  "readable_id": "item_foodpile",
+  "sell": 20
  },
  {
   "amount": 5,
@@ -1629,7 +1832,8 @@
   "id": 4762274,
   "kind": "Item",
   "name": "Item Foodpile Strong",
-  "readable_id": "item_foodpile_strong"
+  "readable_id": "item_foodpile_strong",
+  "sell": 28
  },
  {
   "amount": 1,
@@ -1637,7 +1841,8 @@
   "id": 4762275,
   "kind": "Item",
   "name": "Item Forestessence",
-  "readable_id": "item_forestessence"
+  "readable_id": "item_forestessence",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -1645,7 +1850,8 @@
   "id": 4762276,
   "kind": "Item",
   "name": "Item Foxpaw",
-  "readable_id": "item_foxpaw"
+  "readable_id": "item_foxpaw",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -1653,7 +1859,8 @@
   "id": 4762277,
   "kind": "Item",
   "name": "Item Frogleg",
-  "readable_id": "item_frogleg"
+  "readable_id": "item_frogleg",
+  "sell": 5
  },
  {
   "amount": 1,
@@ -1661,7 +1868,8 @@
   "id": 4762278,
   "kind": "Item",
   "name": "Item Furtuft",
-  "readable_id": "item_furtuft"
+  "readable_id": "item_furtuft",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -1669,7 +1877,8 @@
   "id": 4762279,
   "kind": "Item",
   "name": "Item Glauglocke",
-  "readable_id": "item_glauglocke"
+  "readable_id": "item_glauglocke",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -1677,7 +1886,8 @@
   "id": 4762280,
   "kind": "Item",
   "name": "Item Gnarlyroot",
-  "readable_id": "item_gnarlyroot"
+  "readable_id": "item_gnarlyroot",
+  "sell": 3
  },
  {
   "amount": 5,
@@ -1685,7 +1895,8 @@
   "id": 4762281,
   "kind": "Item",
   "name": "Item Golemsalve",
-  "readable_id": "item_golemsalve"
+  "readable_id": "item_golemsalve",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -1693,7 +1904,8 @@
   "id": 4762282,
   "kind": "Item",
   "name": "Item Harpybrew",
-  "readable_id": "item_harpybrew"
+  "readable_id": "item_harpybrew",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -1701,15 +1913,17 @@
   "id": 4762283,
   "kind": "Item",
   "name": "Item Harpyiefeather",
-  "readable_id": "item_harpyiefeather"
+  "readable_id": "item_harpyiefeather",
+  "sell": 5
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762284,
   "kind": "Item",
   "name": "Item Headdress Magicamp",
-  "readable_id": "item_headdress_magicamp"
+  "readable_id": "item_headdress_magicamp",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -1717,7 +1931,8 @@
   "id": 4762285,
   "kind": "Item",
   "name": "Item Headleshen",
-  "readable_id": "item_headleshen"
+  "readable_id": "item_headleshen",
+  "sell": 200
  },
  {
   "amount": 5,
@@ -1725,7 +1940,8 @@
   "id": 4762286,
   "kind": "Item",
   "name": "Item HealthPlant 0",
-  "readable_id": "item_healthPlant_0"
+  "readable_id": "item_healthPlant_0",
+  "sell": 2
  },
  {
   "amount": 5,
@@ -1733,7 +1949,8 @@
   "id": 4762287,
   "kind": "Item",
   "name": "Item HealthPlant 1",
-  "readable_id": "item_healthPlant_1"
+  "readable_id": "item_healthPlant_1",
+  "sell": 6
  },
  {
   "amount": 5,
@@ -1741,7 +1958,8 @@
   "id": 4762288,
   "kind": "Item",
   "name": "Item HealthPlant 2",
-  "readable_id": "item_healthPlant_2"
+  "readable_id": "item_healthPlant_2",
+  "sell": 7
  },
  {
   "amount": 1,
@@ -1749,7 +1967,8 @@
   "id": 4762289,
   "kind": "Item",
   "name": "Item Heart",
-  "readable_id": "item_heart"
+  "readable_id": "item_heart",
+  "sell": 20
  },
  {
   "amount": 5,
@@ -1757,7 +1976,8 @@
   "id": 4762290,
   "kind": "Item",
   "name": "Item Herb Past",
-  "readable_id": "item_herb_past"
+  "readable_id": "item_herb_past",
+  "sell": 18
  },
  {
   "amount": 1,
@@ -1765,7 +1985,8 @@
   "id": 4762291,
   "kind": "Item",
   "name": "Item Honey",
-  "readable_id": "item_honey"
+  "readable_id": "item_honey",
+  "sell": 8
  },
  {
   "amount": 1,
@@ -1773,23 +1994,26 @@
   "id": 4762292,
   "kind": "Item",
   "name": "Item HoneyMead",
-  "readable_id": "item_honeyMead"
+  "readable_id": "item_honeyMead",
+  "sell": 24
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762293,
   "kind": "Item",
   "name": "Item Hunterquiver",
-  "readable_id": "item_hunterquiver"
+  "readable_id": "item_hunterquiver",
+  "sell": 75
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762294,
   "kind": "Item",
   "name": "Item Hunterstrophy",
-  "readable_id": "item_hunterstrophy"
+  "readable_id": "item_hunterstrophy",
+  "sell": 100
  },
  {
   "amount": 20,
@@ -1797,7 +2021,8 @@
   "id": 4762295,
   "kind": "Item",
   "name": "Item IronArrow",
-  "readable_id": "item_ironArrow"
+  "readable_id": "item_ironArrow",
+  "sell": 3
  },
  {
   "amount": 5,
@@ -1805,7 +2030,8 @@
   "id": 4762296,
   "kind": "Item",
   "name": "Item IronStone",
-  "readable_id": "item_ironStone"
+  "readable_id": "item_ironStone",
+  "sell": 3
  },
  {
   "amount": 1,
@@ -1813,7 +2039,8 @@
   "id": 4762297,
   "kind": "Item",
   "name": "Item Ironbar",
-  "readable_id": "item_ironbar"
+  "readable_id": "item_ironbar",
+  "sell": 12
  },
  {
   "amount": 1,
@@ -1821,7 +2048,8 @@
   "id": 4762298,
   "kind": "Item",
   "name": "Item Ironlump",
-  "readable_id": "item_ironlump"
+  "readable_id": "item_ironlump",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -1829,7 +2057,8 @@
   "id": 4762299,
   "kind": "Item",
   "name": "Item Ironore",
-  "readable_id": "item_ironore"
+  "readable_id": "item_ironore",
+  "sell": 1
  },
  {
   "amount": 10,
@@ -1837,31 +2066,35 @@
   "id": 4762300,
   "kind": "Item",
   "name": "Item Jaggedthrowingknife",
-  "readable_id": "item_jaggedthrowingknife"
+  "readable_id": "item_jaggedthrowingknife",
+  "sell": 9
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762301,
   "kind": "Item",
   "name": "Item Karottegladius Broken",
-  "readable_id": "item_karottegladius_broken"
+  "readable_id": "item_karottegladius_broken",
+  "sell": 50
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762302,
   "kind": "Item",
   "name": "Item Kiepe",
-  "readable_id": "item_kiepe"
+  "readable_id": "item_kiepe",
+  "sell": 2
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762303,
   "kind": "Item",
   "name": "Item Kiepe Rubble",
-  "readable_id": "item_kiepe_rubble"
+  "readable_id": "item_kiepe_rubble",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -1869,7 +2102,8 @@
   "id": 4762304,
   "kind": "Item",
   "name": "Item LanternFruit",
-  "readable_id": "item_lanternFruit"
+  "readable_id": "item_lanternFruit",
+  "sell": 6
  },
  {
   "amount": 1,
@@ -1877,7 +2111,8 @@
   "id": 4762305,
   "kind": "Item",
   "name": "Item Leather",
-  "readable_id": "item_leather"
+  "readable_id": "item_leather",
+  "sell": 5
  },
  {
   "amount": 1,
@@ -1885,15 +2120,17 @@
   "id": 4762417,
   "kind": "Item",
   "name": "Item Letterboard Fragment",
-  "readable_id": "item_letterboard_fragment"
+  "readable_id": "item_letterboard_fragment",
+  "sell": 15
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762419,
   "kind": "Item",
   "name": "Item Lifering",
-  "readable_id": "item_lifering"
+  "readable_id": "item_lifering",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -1901,7 +2138,8 @@
   "id": 4762420,
   "kind": "Item",
   "name": "Item Logwood",
-  "readable_id": "item_logwood"
+  "readable_id": "item_logwood",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -1909,23 +2147,26 @@
   "id": 4762422,
   "kind": "Item",
   "name": "Item Lyra",
-  "readable_id": "item_lyra"
+  "readable_id": "item_lyra",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762423,
   "kind": "Item",
   "name": "Item Magicresring 0",
-  "readable_id": "item_magicresring_0"
+  "readable_id": "item_magicresring_0",
+  "sell": 50
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762424,
   "kind": "Item",
   "name": "Item Magicresring 1",
-  "readable_id": "item_magicresring_1"
+  "readable_id": "item_magicresring_1",
+  "sell": 75
  },
  {
   "amount": 1,
@@ -1933,7 +2174,8 @@
   "id": 4762190,
   "kind": "Item",
   "name": "Item Map Treasure Forest",
-  "readable_id": "item_Map_Treasure_Forest"
+  "readable_id": "item_Map_Treasure_Forest",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1941,7 +2183,8 @@
   "id": 4762191,
   "kind": "Item",
   "name": "Item Map Treasure Garden",
-  "readable_id": "item_Map_Treasure_Garden"
+  "readable_id": "item_Map_Treasure_Garden",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1949,7 +2192,8 @@
   "id": 4762192,
   "kind": "Item",
   "name": "Item Map Treasure GeorgsFarm",
-  "readable_id": "item_Map_Treasure_GeorgsFarm"
+  "readable_id": "item_Map_Treasure_GeorgsFarm",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1957,7 +2201,8 @@
   "id": 4762193,
   "kind": "Item",
   "name": "Item Map Treasure Heath",
-  "readable_id": "item_Map_Treasure_Heath"
+  "readable_id": "item_Map_Treasure_Heath",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1965,7 +2210,8 @@
   "id": 4762194,
   "kind": "Item",
   "name": "Item Map Treasure PrimevalForest",
-  "readable_id": "item_Map_Treasure_PrimevalForest"
+  "readable_id": "item_Map_Treasure_PrimevalForest",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1973,7 +2219,8 @@
   "id": 4762195,
   "kind": "Item",
   "name": "Item Map Treasure Rotmoor",
-  "readable_id": "item_Map_Treasure_Rotmoor"
+  "readable_id": "item_Map_Treasure_Rotmoor",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -1981,7 +2228,8 @@
   "id": 4762196,
   "kind": "Item",
   "name": "Item Map Treasure WayToMine",
-  "readable_id": "item_Map_Treasure_WayToMine"
+  "readable_id": "item_Map_Treasure_WayToMine",
+  "sell": 0
  },
  {
   "amount": 5,
@@ -1989,15 +2237,17 @@
   "id": 4762425,
   "kind": "Item",
   "name": "Item Marinatedmeatleg",
-  "readable_id": "item_marinatedmeatleg"
+  "readable_id": "item_marinatedmeatleg",
+  "sell": 28
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762426,
   "kind": "Item",
   "name": "Item Mastersmemory",
-  "readable_id": "item_mastersmemory"
+  "readable_id": "item_mastersmemory",
+  "sell": 125
  },
  {
   "amount": 5,
@@ -2005,7 +2255,8 @@
   "id": 4762427,
   "kind": "Item",
   "name": "Item Meat Raw",
-  "readable_id": "item_meat_raw"
+  "readable_id": "item_meat_raw",
+  "sell": 2
  },
  {
   "amount": 5,
@@ -2013,15 +2264,17 @@
   "id": 4762428,
   "kind": "Item",
   "name": "Item Meat Stringy",
-  "readable_id": "item_meat_stringy"
+  "readable_id": "item_meat_stringy",
+  "sell": 1
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762429,
   "kind": "Item",
   "name": "Item Mediumquiver",
-  "readable_id": "item_mediumquiver"
+  "readable_id": "item_mediumquiver",
+  "sell": 70
  },
  {
   "amount": 1,
@@ -2029,7 +2282,8 @@
   "id": 4762432,
   "kind": "Item",
   "name": "Item MudLotus",
-  "readable_id": "item_mudLotus"
+  "readable_id": "item_mudLotus",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -2037,7 +2291,8 @@
   "id": 4762433,
   "kind": "Item",
   "name": "Item Mudmash",
-  "readable_id": "item_mudmash"
+  "readable_id": "item_mudmash",
+  "sell": 24
  },
  {
   "amount": 5,
@@ -2045,7 +2300,8 @@
   "id": 4762435,
   "kind": "Item",
   "name": "Item Mushroom",
-  "readable_id": "item_mushroom"
+  "readable_id": "item_mushroom",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -2053,87 +2309,98 @@
   "id": 4762436,
   "kind": "Item",
   "name": "Item Needlelichen",
-  "readable_id": "item_needlelichen"
+  "readable_id": "item_needlelichen",
+  "sell": 4
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762443,
   "kind": "Item",
   "name": "Item Permaherb Flow",
-  "readable_id": "item_permaherb_flow"
+  "readable_id": "item_permaherb_flow",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762444,
   "kind": "Item",
   "name": "Item Permaherb Life",
-  "readable_id": "item_permaherb_life"
+  "readable_id": "item_permaherb_life",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762445,
   "kind": "Item",
   "name": "Item Permaherb Mind",
-  "readable_id": "item_permaherb_mind"
+  "readable_id": "item_permaherb_mind",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762446,
   "kind": "Item",
   "name": "Item Permaherb Skill",
-  "readable_id": "item_permaherb_skill"
+  "readable_id": "item_permaherb_skill",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762447,
   "kind": "Item",
   "name": "Item Permaherb Strength",
-  "readable_id": "item_permaherb_strength"
+  "readable_id": "item_permaherb_strength",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762448,
   "kind": "Item",
   "name": "Item Permapotion Flow",
-  "readable_id": "item_permapotion_flow"
+  "readable_id": "item_permapotion_flow",
+  "sell": 160
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762449,
   "kind": "Item",
   "name": "Item Permapotion Life",
-  "readable_id": "item_permapotion_life"
+  "readable_id": "item_permapotion_life",
+  "sell": 160
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762450,
   "kind": "Item",
   "name": "Item Permapotion Mind",
-  "readable_id": "item_permapotion_mind"
+  "readable_id": "item_permapotion_mind",
+  "sell": 160
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762451,
   "kind": "Item",
   "name": "Item Permapotion Skill",
-  "readable_id": "item_permapotion_skill"
+  "readable_id": "item_permapotion_skill",
+  "sell": 160
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762452,
   "kind": "Item",
   "name": "Item Permapotion Strength",
-  "readable_id": "item_permapotion_strength"
+  "readable_id": "item_permapotion_strength",
+  "sell": 160
  },
  {
   "amount": 1,
@@ -2141,7 +2408,8 @@
   "id": 4762453,
   "kind": "Item",
   "name": "Item Pigfur",
-  "readable_id": "item_pigfur"
+  "readable_id": "item_pigfur",
+  "sell": 15
  },
  {
   "amount": 10,
@@ -2149,7 +2417,8 @@
   "id": 4762456,
   "kind": "Item",
   "name": "Item PoisonedThrowingKnife",
-  "readable_id": "item_poisonedThrowingKnife"
+  "readable_id": "item_poisonedThrowingKnife",
+  "sell": 8
  },
  {
   "amount": 5,
@@ -2157,7 +2426,8 @@
   "id": 4762459,
   "kind": "Item",
   "name": "Item Potion Flow 0",
-  "readable_id": "item_potion_flow_0"
+  "readable_id": "item_potion_flow_0",
+  "sell": 20
  },
  {
   "amount": 5,
@@ -2165,7 +2435,8 @@
   "id": 4762460,
   "kind": "Item",
   "name": "Item Potion Flow 1",
-  "readable_id": "item_potion_flow_1"
+  "readable_id": "item_potion_flow_1",
+  "sell": 40
  },
  {
   "amount": 5,
@@ -2173,7 +2444,8 @@
   "id": 4762461,
   "kind": "Item",
   "name": "Item Potion Health 0",
-  "readable_id": "item_potion_health_0"
+  "readable_id": "item_potion_health_0",
+  "sell": 20
  },
  {
   "amount": 5,
@@ -2181,7 +2453,8 @@
   "id": 4762462,
   "kind": "Item",
   "name": "Item Potion Health 1",
-  "readable_id": "item_potion_health_1"
+  "readable_id": "item_potion_health_1",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -2189,7 +2462,8 @@
   "id": 4762463,
   "kind": "Item",
   "name": "Item Potion Respec",
-  "readable_id": "item_potion_respec"
+  "readable_id": "item_potion_respec",
+  "sell": 50
  },
  {
   "amount": 5,
@@ -2197,7 +2471,8 @@
   "id": 4762464,
   "kind": "Item",
   "name": "Item Potion Windwalker",
-  "readable_id": "item_potion_windwalker"
+  "readable_id": "item_potion_windwalker",
+  "sell": 12
  },
  {
   "amount": 1,
@@ -2205,15 +2480,17 @@
   "id": 4762465,
   "kind": "Item",
   "name": "Item Povage",
-  "readable_id": "item_povage"
+  "readable_id": "item_povage",
+  "sell": 2
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762466,
   "kind": "Item",
   "name": "Item RedGlyphStone",
-  "readable_id": "item_redGlyphStone"
+  "readable_id": "item_redGlyphStone",
+  "sell": 150
  },
  {
   "amount": 5,
@@ -2221,7 +2498,8 @@
   "id": 4762467,
   "kind": "Item",
   "name": "Item RedHerb",
-  "readable_id": "item_redHerb"
+  "readable_id": "item_redHerb",
+  "sell": 2
  },
  {
   "amount": 5,
@@ -2229,7 +2507,8 @@
   "id": 4762468,
   "kind": "Item",
   "name": "Item Redmushroomtincture",
-  "readable_id": "item_redmushroomtincture"
+  "readable_id": "item_redmushroomtincture",
+  "sell": 12
  },
  {
   "amount": 1,
@@ -2237,15 +2516,17 @@
   "id": 4762469,
   "kind": "Item",
   "name": "Item Resin",
-  "readable_id": "item_resin"
+  "readable_id": "item_resin",
+  "sell": 1
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762470,
   "kind": "Item",
   "name": "Item Ring God",
-  "readable_id": "item_ring_god"
+  "readable_id": "item_ring_god",
+  "sell": 125
  },
  {
   "amount": 1,
@@ -2253,7 +2534,8 @@
   "id": 4762471,
   "kind": "Item",
   "name": "Item Ripper Head",
-  "readable_id": "item_ripper_head"
+  "readable_id": "item_ripper_head",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -2261,15 +2543,17 @@
   "id": 4762473,
   "kind": "Item",
   "name": "Item Ripperfur",
-  "readable_id": "item_ripperfur"
+  "readable_id": "item_ripperfur",
+  "sell": 10
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762474,
   "kind": "Item",
   "name": "Item Riptoothchain",
-  "readable_id": "item_riptoothchain"
+  "readable_id": "item_riptoothchain",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -2277,15 +2561,17 @@
   "id": 4762475,
   "kind": "Item",
   "name": "Item Riverbedmoss",
-  "readable_id": "item_riverbedmoss"
+  "readable_id": "item_riverbedmoss",
+  "sell": 5
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762476,
   "kind": "Item",
   "name": "Item Rivercharm",
-  "readable_id": "item_rivercharm"
+  "readable_id": "item_rivercharm",
+  "sell": 200
  },
  {
   "amount": 5,
@@ -2293,7 +2579,8 @@
   "id": 4762477,
   "kind": "Item",
   "name": "Item RoastedMeat",
-  "readable_id": "item_roastedMeat"
+  "readable_id": "item_roastedMeat",
+  "sell": 6
  },
  {
   "amount": 5,
@@ -2301,7 +2588,8 @@
   "id": 4762478,
   "kind": "Item",
   "name": "Item RoastedMeat T2",
-  "readable_id": "item_roastedMeat_t2"
+  "readable_id": "item_roastedMeat_t2",
+  "sell": 9
  },
  {
   "amount": 1,
@@ -2309,7 +2597,8 @@
   "id": 4762479,
   "kind": "Item",
   "name": "Item RoastedTrout",
-  "readable_id": "item_roastedTrout"
+  "readable_id": "item_roastedTrout",
+  "sell": 8
  },
  {
   "amount": 5,
@@ -2317,7 +2606,8 @@
   "id": 4762480,
   "kind": "Item",
   "name": "Item Roastedcallamushroom",
-  "readable_id": "item_roastedcallamushroom"
+  "readable_id": "item_roastedcallamushroom",
+  "sell": 28
  },
  {
   "amount": 1,
@@ -2325,7 +2615,8 @@
   "id": 4762481,
   "kind": "Item",
   "name": "Item Roastofthepast",
-  "readable_id": "item_roastofthepast"
+  "readable_id": "item_roastofthepast",
+  "sell": 36
  },
  {
   "amount": 3,
@@ -2333,7 +2624,8 @@
   "id": 4762482,
   "kind": "Item",
   "name": "Item RootTrap",
-  "readable_id": "item_rootTrap"
+  "readable_id": "item_rootTrap",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -2341,7 +2633,8 @@
   "id": 4762483,
   "kind": "Item",
   "name": "Item Rootstew",
-  "readable_id": "item_rootstew"
+  "readable_id": "item_rootstew",
+  "sell": 28
  },
  {
   "amount": 1,
@@ -2349,15 +2642,17 @@
   "id": 4762485,
   "kind": "Item",
   "name": "Item Rubin",
-  "readable_id": "item_rubin"
+  "readable_id": "item_rubin",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762486,
   "kind": "Item",
   "name": "Item Rubintalisman",
-  "readable_id": "item_rubintalisman"
+  "readable_id": "item_rubintalisman",
+  "sell": 75
  },
  {
   "amount": 5,
@@ -2365,7 +2660,8 @@
   "id": 4762488,
   "kind": "Item",
   "name": "Item Ruinherb",
-  "readable_id": "item_ruinherb"
+  "readable_id": "item_ruinherb",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -2373,7 +2669,8 @@
   "id": 4762492,
   "kind": "Item",
   "name": "Item Rustymosspipe",
-  "readable_id": "item_rustymosspipe"
+  "readable_id": "item_rustymosspipe",
+  "sell": 7
  },
  {
   "amount": 5,
@@ -2381,15 +2678,17 @@
   "id": 4762493,
   "kind": "Item",
   "name": "Item Salve Healing",
-  "readable_id": "item_salve_healing"
+  "readable_id": "item_salve_healing",
+  "sell": 6
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762494,
   "kind": "Item",
   "name": "Item Sealstone Past",
-  "readable_id": "item_sealstone_past"
+  "readable_id": "item_sealstone_past",
+  "sell": 150
  },
  {
   "amount": 1,
@@ -2397,7 +2696,8 @@
   "id": 4762497,
   "kind": "Item",
   "name": "Item Secret Foglets",
-  "readable_id": "item_secret_foglets"
+  "readable_id": "item_secret_foglets",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -2405,7 +2705,8 @@
   "id": 4762498,
   "kind": "Item",
   "name": "Item Shadowfur",
-  "readable_id": "item_shadowfur"
+  "readable_id": "item_shadowfur",
+  "sell": 15
  },
  {
   "amount": 5,
@@ -2413,15 +2714,17 @@
   "id": 4762499,
   "kind": "Item",
   "name": "Item Shadowmushroom",
-  "readable_id": "item_shadowmushroom"
+  "readable_id": "item_shadowmushroom",
+  "sell": 5
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762500,
   "kind": "Item",
   "name": "Item Shaftofpurefury",
-  "readable_id": "item_shaftofpurefury"
+  "readable_id": "item_shaftofpurefury",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -2429,7 +2732,8 @@
   "id": 4762501,
   "kind": "Item",
   "name": "Item Sheepfur",
-  "readable_id": "item_sheepfur"
+  "readable_id": "item_sheepfur",
+  "sell": 4
  },
  {
   "amount": 1,
@@ -2437,7 +2741,8 @@
   "id": 4762502,
   "kind": "Item",
   "name": "Item Shell 01",
-  "readable_id": "item_shell_01"
+  "readable_id": "item_shell_01",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -2445,7 +2750,8 @@
   "id": 4762503,
   "kind": "Item",
   "name": "Item Shell 02",
-  "readable_id": "item_shell_02"
+  "readable_id": "item_shell_02",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -2453,63 +2759,71 @@
   "id": 4762504,
   "kind": "Item",
   "name": "Item Shiningfur",
-  "readable_id": "item_shiningfur"
+  "readable_id": "item_shiningfur",
+  "sell": 20
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762506,
   "kind": "Item",
   "name": "Item SignOfAtonement",
-  "readable_id": "item_signOfAtonement"
+  "readable_id": "item_signOfAtonement",
+  "sell": 20
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762507,
   "kind": "Item",
   "name": "Item Silberringmind 0",
-  "readable_id": "item_silberringmind_0"
+  "readable_id": "item_silberringmind_0",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762508,
   "kind": "Item",
   "name": "Item Silberringmind 1",
-  "readable_id": "item_silberringmind_1"
+  "readable_id": "item_silberringmind_1",
+  "sell": 80
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762509,
   "kind": "Item",
   "name": "Item Silberringmind 2",
-  "readable_id": "item_silberringmind_2"
+  "readable_id": "item_silberringmind_2",
+  "sell": 160
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762510,
   "kind": "Item",
   "name": "Item Silberringskill 0",
-  "readable_id": "item_silberringskill_0"
+  "readable_id": "item_silberringskill_0",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762511,
   "kind": "Item",
   "name": "Item Silberringskill 1",
-  "readable_id": "item_silberringskill_1"
+  "readable_id": "item_silberringskill_1",
+  "sell": 80
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762512,
   "kind": "Item",
   "name": "Item Silberringskill 2",
-  "readable_id": "item_silberringskill_2"
+  "readable_id": "item_silberringskill_2",
+  "sell": 160
  },
  {
   "amount": 20,
@@ -2517,7 +2831,8 @@
   "id": 4762513,
   "kind": "Item",
   "name": "Item SilverArrow",
-  "readable_id": "item_silverArrow"
+  "readable_id": "item_silverArrow",
+  "sell": 6
  },
  {
   "amount": 5,
@@ -2525,7 +2840,8 @@
   "id": 4762514,
   "kind": "Item",
   "name": "Item SilverStone",
-  "readable_id": "item_silverStone"
+  "readable_id": "item_silverStone",
+  "sell": 6
  },
  {
   "amount": 1,
@@ -2533,7 +2849,8 @@
   "id": 4762515,
   "kind": "Item",
   "name": "Item Silverlump",
-  "readable_id": "item_silverlump"
+  "readable_id": "item_silverlump",
+  "sell": 4
  },
  {
   "amount": 1,
@@ -2541,31 +2858,35 @@
   "id": 4762516,
   "kind": "Item",
   "name": "Item Silverore",
-  "readable_id": "item_silverore"
+  "readable_id": "item_silverore",
+  "sell": 2
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762517,
   "kind": "Item",
   "name": "Item Silverringstrength 0",
-  "readable_id": "item_silverringstrength_0"
+  "readable_id": "item_silverringstrength_0",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762518,
   "kind": "Item",
   "name": "Item Silverringstrength 1",
-  "readable_id": "item_silverringstrength_1"
+  "readable_id": "item_silverringstrength_1",
+  "sell": 80
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762519,
   "kind": "Item",
   "name": "Item Silverringstrength 2",
-  "readable_id": "item_silverringstrength_2"
+  "readable_id": "item_silverringstrength_2",
+  "sell": 160
  },
  {
   "amount": 1,
@@ -2573,7 +2894,8 @@
   "id": 4762520,
   "kind": "Item",
   "name": "Item Skulldew",
-  "readable_id": "item_skulldew"
+  "readable_id": "item_skulldew",
+  "sell": 4
  },
  {
   "amount": 1,
@@ -2581,7 +2903,8 @@
   "id": 4762521,
   "kind": "Item",
   "name": "Item Slingermunition",
-  "readable_id": "item_slingermunition"
+  "readable_id": "item_slingermunition",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -2589,23 +2912,26 @@
   "id": 4762522,
   "kind": "Item",
   "name": "Item Spider Thread",
-  "readable_id": "item_spider_thread"
+  "readable_id": "item_spider_thread",
+  "sell": 5
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762524,
   "kind": "Item",
   "name": "Item Spiritamulet 0",
-  "readable_id": "item_spiritamulet_0"
+  "readable_id": "item_spiritamulet_0",
+  "sell": 60
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762525,
   "kind": "Item",
   "name": "Item Spiritamulet 1",
-  "readable_id": "item_spiritamulet_1"
+  "readable_id": "item_spiritamulet_1",
+  "sell": 80
  },
  {
   "amount": 10,
@@ -2613,15 +2939,17 @@
   "id": 4762526,
   "kind": "Item",
   "name": "Item Splittertrap",
-  "readable_id": "item_splittertrap"
+  "readable_id": "item_splittertrap",
+  "sell": 30
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762529,
   "kind": "Item",
   "name": "Item Sprigganheart",
-  "readable_id": "item_sprigganheart"
+  "readable_id": "item_sprigganheart",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -2629,7 +2957,8 @@
   "id": 4762530,
   "kind": "Item",
   "name": "Item Stalker Egg",
-  "readable_id": "item_stalker_egg"
+  "readable_id": "item_stalker_egg",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -2637,7 +2966,8 @@
   "id": 4762531,
   "kind": "Item",
   "name": "Item Stalkerfeather",
-  "readable_id": "item_stalkerfeather"
+  "readable_id": "item_stalkerfeather",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -2645,7 +2975,8 @@
   "id": 4762536,
   "kind": "Item",
   "name": "Item TarnishedSilverCup",
-  "readable_id": "item_tarnishedSilverCup"
+  "readable_id": "item_tarnishedSilverCup",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -2653,23 +2984,26 @@
   "id": 4762537,
   "kind": "Item",
   "name": "Item Teeth",
-  "readable_id": "item_teeth"
+  "readable_id": "item_teeth",
+  "sell": 2
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762538,
   "kind": "Item",
   "name": "Item Tendonofglory",
-  "readable_id": "item_tendonofglory"
+  "readable_id": "item_tendonofglory",
+  "sell": 125
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762539,
   "kind": "Item",
   "name": "Item Thornfetish",
-  "readable_id": "item_thornfetish"
+  "readable_id": "item_thornfetish",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -2677,7 +3011,8 @@
   "id": 4762540,
   "kind": "Item",
   "name": "Item ThornyRanke",
-  "readable_id": "item_thornyRanke"
+  "readable_id": "item_thornyRanke",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -2685,31 +3020,35 @@
   "id": 4762542,
   "kind": "Item",
   "name": "Item TreasureMap Auwald",
-  "readable_id": "item_treasureMap_auwald"
+  "readable_id": "item_treasureMap_auwald",
+  "sell": 0
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762543,
   "kind": "Item",
   "name": "Item Trinket Boxer",
-  "readable_id": "item_trinket_boxer"
+  "readable_id": "item_trinket_boxer",
+  "sell": 100
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762544,
   "kind": "Item",
   "name": "Item Trinket DoriansHeirloom",
-  "readable_id": "item_trinket_doriansHeirloom"
+  "readable_id": "item_trinket_doriansHeirloom",
+  "sell": 100
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762545,
   "kind": "Item",
   "name": "Item Trinket PureDmg",
-  "readable_id": "item_trinket_pureDmg"
+  "readable_id": "item_trinket_pureDmg",
+  "sell": 50
  },
  {
   "amount": 3,
@@ -2717,15 +3056,17 @@
   "id": 4762546,
   "kind": "Item",
   "name": "Item Troutskewersbombus",
-  "readable_id": "item_troutskewersbombus"
+  "readable_id": "item_troutskewersbombus",
+  "sell": 24
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762547,
   "kind": "Item",
   "name": "Item Vipertooth",
-  "readable_id": "item_vipertooth"
+  "readable_id": "item_vipertooth",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -2733,23 +3074,26 @@
   "id": 4762200,
   "kind": "Item",
   "name": "Item Whiskey StoneWall",
-  "readable_id": "item_Whiskey_StoneWall"
+  "readable_id": "item_Whiskey_StoneWall",
+  "sell": 25
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762548,
   "kind": "Item",
   "name": "Item Whispersilkbag",
-  "readable_id": "item_whispersilkbag"
+  "readable_id": "item_whispersilkbag",
+  "sell": 130
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762549,
   "kind": "Item",
   "name": "Item Windtalisman",
-  "readable_id": "item_windtalisman"
+  "readable_id": "item_windtalisman",
+  "sell": 125
  },
  {
   "amount": 1,
@@ -2757,7 +3101,8 @@
   "id": 4762550,
   "kind": "Item",
   "name": "Item Wine",
-  "readable_id": "item_wine"
+  "readable_id": "item_wine",
+  "sell": 4
  },
  {
   "amount": 20,
@@ -2765,15 +3110,17 @@
   "id": 4762551,
   "kind": "Item",
   "name": "Item WoodArrow",
-  "readable_id": "item_woodArrow"
+  "readable_id": "item_woodArrow",
+  "sell": 1
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762552,
   "kind": "Item",
   "name": "Item YellowGlyphStone",
-  "readable_id": "item_yellowGlyphStone"
+  "readable_id": "item_yellowGlyphStone",
+  "sell": 150
  },
  {
   "amount": 1,
@@ -2781,7 +3128,8 @@
   "id": 4762554,
   "kind": "Item",
   "name": "Key Chest BanditCamp",
-  "readable_id": "key_chest_BanditCamp"
+  "readable_id": "key_chest_BanditCamp",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2789,7 +3137,8 @@
   "id": 4762555,
   "kind": "Item",
   "name": "Key Chest Delani",
-  "readable_id": "key_chest_delani"
+  "readable_id": "key_chest_delani",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2797,7 +3146,8 @@
   "id": 4762556,
   "kind": "Item",
   "name": "Key Chest MineBanditEntry",
-  "readable_id": "key_chest_mineBanditEntry"
+  "readable_id": "key_chest_mineBanditEntry",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2805,7 +3155,8 @@
   "id": 4762557,
   "kind": "Item",
   "name": "Key Chest MineBanditMainKey",
-  "readable_id": "key_chest_mineBanditMainKey"
+  "readable_id": "key_chest_mineBanditMainKey",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2813,7 +3164,8 @@
   "id": 4762558,
   "kind": "Item",
   "name": "Key Extractor",
-  "readable_id": "key_extractor"
+  "readable_id": "key_extractor",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2821,7 +3173,8 @@
   "id": 4762559,
   "kind": "Item",
   "name": "Key Harald",
-  "readable_id": "key_harald"
+  "readable_id": "key_harald",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2829,7 +3182,8 @@
   "id": 4762560,
   "kind": "Item",
   "name": "Key Harvey",
-  "readable_id": "key_harvey"
+  "readable_id": "key_harvey",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2837,7 +3191,8 @@
   "id": 4762561,
   "kind": "Item",
   "name": "Key Mursel Mine",
-  "readable_id": "key_mursel_mine"
+  "readable_id": "key_mursel_mine",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2845,7 +3200,8 @@
   "id": 4762562,
   "kind": "Item",
   "name": "Key Ratcellar",
-  "readable_id": "key_ratcellar"
+  "readable_id": "key_ratcellar",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2853,7 +3209,8 @@
   "id": 4762563,
   "kind": "Item",
   "name": "Key Ruinenexplorer",
-  "readable_id": "key_ruinenexplorer"
+  "readable_id": "key_ruinenexplorer",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2861,7 +3218,8 @@
   "id": 4762553,
   "kind": "Item",
   "name": "Key ShadyDistrict",
-  "readable_id": "key_ShadyDistrict"
+  "readable_id": "key_ShadyDistrict",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2869,7 +3227,8 @@
   "id": 4762564,
   "kind": "Item",
   "name": "Key SleepingTavernKey",
-  "readable_id": "key_sleepingTavernKey"
+  "readable_id": "key_sleepingTavernKey",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2877,7 +3236,8 @@
   "id": 4762565,
   "kind": "Item",
   "name": "Key TavernKey",
-  "readable_id": "key_tavernKey"
+  "readable_id": "key_tavernKey",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2885,7 +3245,8 @@
   "id": 4762566,
   "kind": "Item",
   "name": "Key TavernKey Cellar",
-  "readable_id": "key_tavernKey_Cellar"
+  "readable_id": "key_tavernKey_Cellar",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2893,7 +3254,8 @@
   "id": 4762567,
   "kind": "Item",
   "name": "Key TristanBillKey",
-  "readable_id": "key_tristanBillKey"
+  "readable_id": "key_tristanBillKey",
+  "sell": 0
  },
  {
   "amount": 100,
@@ -2901,7 +3263,8 @@
   "id": 4762929,
   "kind": "Xp",
   "name": "Large Experience Boost",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2909,7 +3272,8 @@
   "id": 4762001,
   "kind": "LearningPoint",
   "name": "Learning Point",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 1000,
@@ -2917,7 +3281,8 @@
   "id": 4762930,
   "kind": "Xp",
   "name": "Massive Experience Boost",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 50,
@@ -2925,7 +3290,8 @@
   "id": 4762931,
   "kind": "Xp",
   "name": "Medium Experience Boost",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 1,
@@ -2933,7 +3299,8 @@
   "id": 4762568,
   "kind": "Item",
   "name": "Misc Key Locked Door",
-  "readable_id": "misc_key_locked_door"
+  "readable_id": "misc_key_locked_door",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -2941,7 +3308,8 @@
   "id": 4762569,
   "kind": "Item",
   "name": "Misc Map Leuchtwald",
-  "readable_id": "misc_map_leuchtwald"
+  "readable_id": "misc_map_leuchtwald",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -2949,7 +3317,8 @@
   "id": 4762570,
   "kind": "Item",
   "name": "Misc Map Nemeton",
-  "readable_id": "misc_map_nemeton"
+  "readable_id": "misc_map_nemeton",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -2957,7 +3326,8 @@
   "id": 4762571,
   "kind": "Item",
   "name": "Misc Map Ruincamp",
-  "readable_id": "misc_map_ruincamp"
+  "readable_id": "misc_map_ruincamp",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -2965,7 +3335,8 @@
   "id": 4762572,
   "kind": "Item",
   "name": "Misc Map Tristan",
-  "readable_id": "misc_map_tristan"
+  "readable_id": "misc_map_tristan",
+  "sell": 5
  },
  {
   "amount": 1,
@@ -2973,7 +3344,8 @@
   "id": 4762573,
   "kind": "Item",
   "name": "Misc Worldmap",
-  "readable_id": "misc_worldmap"
+  "readable_id": "misc_worldmap",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -2981,7 +3353,8 @@
   "id": 4762574,
   "kind": "Item",
   "name": "Misc Worldmap Detailed",
-  "readable_id": "misc_worldmap_detailed"
+  "readable_id": "misc_worldmap_detailed",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -2989,7 +3362,8 @@
   "id": 4762575,
   "kind": "Item",
   "name": "Misc Worldmap Shrines",
-  "readable_id": "misc_worldmap_shrines"
+  "readable_id": "misc_worldmap_shrines",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -2997,7 +3371,8 @@
   "id": 4762576,
   "kind": "Item",
   "name": "Recipe Acidbomb",
-  "readable_id": "recipe_acidbomb"
+  "readable_id": "recipe_acidbomb",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3005,7 +3380,8 @@
   "id": 4762577,
   "kind": "Item",
   "name": "Recipe Acidtrap",
-  "readable_id": "recipe_acidtrap"
+  "readable_id": "recipe_acidtrap",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3013,7 +3389,8 @@
   "id": 4762578,
   "kind": "Item",
   "name": "Recipe Aditroast",
-  "readable_id": "recipe_aditroast"
+  "readable_id": "recipe_aditroast",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3021,7 +3398,8 @@
   "id": 4762579,
   "kind": "Item",
   "name": "Recipe Agilostew",
-  "readable_id": "recipe_agilostew"
+  "readable_id": "recipe_agilostew",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3029,7 +3407,8 @@
   "id": 4762580,
   "kind": "Item",
   "name": "Recipe Beartrap",
-  "readable_id": "recipe_beartrap"
+  "readable_id": "recipe_beartrap",
+  "sell": 12
  },
  {
   "amount": 1,
@@ -3037,7 +3416,8 @@
   "id": 4762581,
   "kind": "Item",
   "name": "Recipe Bigquiver",
-  "readable_id": "recipe_bigquiver"
+  "readable_id": "recipe_bigquiver",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -3045,7 +3425,8 @@
   "id": 4762582,
   "kind": "Item",
   "name": "Recipe Blanktrap",
-  "readable_id": "recipe_blanktrap"
+  "readable_id": "recipe_blanktrap",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3053,7 +3434,8 @@
   "id": 4762583,
   "kind": "Item",
   "name": "Recipe Bomb",
-  "readable_id": "recipe_bomb"
+  "readable_id": "recipe_bomb",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3061,7 +3443,8 @@
   "id": 4762584,
   "kind": "Item",
   "name": "Recipe Crowfeettrap",
-  "readable_id": "recipe_crowfeettrap"
+  "readable_id": "recipe_crowfeettrap",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3069,7 +3452,8 @@
   "id": 4762585,
   "kind": "Item",
   "name": "Recipe Elixier Concentration",
-  "readable_id": "recipe_elixier_concentration"
+  "readable_id": "recipe_elixier_concentration",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -3077,7 +3461,8 @@
   "id": 4762586,
   "kind": "Item",
   "name": "Recipe Elixier Life",
-  "readable_id": "recipe_elixier_life"
+  "readable_id": "recipe_elixier_life",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -3085,7 +3470,8 @@
   "id": 4762587,
   "kind": "Item",
   "name": "Recipe Elixier Skill",
-  "readable_id": "recipe_elixier_skill"
+  "readable_id": "recipe_elixier_skill",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -3093,7 +3479,8 @@
   "id": 4762588,
   "kind": "Item",
   "name": "Recipe Elixier Spirit",
-  "readable_id": "recipe_elixier_spirit"
+  "readable_id": "recipe_elixier_spirit",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -3101,7 +3488,8 @@
   "id": 4762589,
   "kind": "Item",
   "name": "Recipe Elixier Strength",
-  "readable_id": "recipe_elixier_strength"
+  "readable_id": "recipe_elixier_strength",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -3109,7 +3497,8 @@
   "id": 4762590,
   "kind": "Item",
   "name": "Recipe Farmersmeal",
-  "readable_id": "recipe_farmersmeal"
+  "readable_id": "recipe_farmersmeal",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3117,271 +3506,305 @@
   "id": 4762591,
   "kind": "Item",
   "name": "Recipe Fishpan",
-  "readable_id": "recipe_fishpan"
+  "readable_id": "recipe_fishpan",
+  "sell": 10
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762592,
   "kind": "Item",
   "name": "Recipe Flow AggressiveCry",
-  "readable_id": "recipe_flow_aggressiveCry"
+  "readable_id": "recipe_flow_aggressiveCry",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762593,
   "kind": "Item",
   "name": "Recipe Flow Ballista",
-  "readable_id": "recipe_flow_ballista"
+  "readable_id": "recipe_flow_ballista",
+  "sell": 250
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762594,
   "kind": "Item",
   "name": "Recipe Flow BattleCry",
-  "readable_id": "recipe_flow_battleCry"
+  "readable_id": "recipe_flow_battleCry",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762595,
   "kind": "Item",
   "name": "Recipe Flow Blink",
-  "readable_id": "recipe_flow_blink"
+  "readable_id": "recipe_flow_blink",
+  "sell": 100
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762596,
   "kind": "Item",
   "name": "Recipe Flow BloodRage",
-  "readable_id": "recipe_flow_bloodRage"
+  "readable_id": "recipe_flow_bloodRage",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762597,
   "kind": "Item",
   "name": "Recipe Flow BruntShot",
-  "readable_id": "recipe_flow_bruntShot"
+  "readable_id": "recipe_flow_bruntShot",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762598,
   "kind": "Item",
   "name": "Recipe Flow BullRush",
-  "readable_id": "recipe_flow_bullRush"
+  "readable_id": "recipe_flow_bullRush",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762599,
   "kind": "Item",
   "name": "Recipe Flow Conflagration",
-  "readable_id": "recipe_flow_conflagration"
+  "readable_id": "recipe_flow_conflagration",
+  "sell": 200
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762600,
   "kind": "Item",
   "name": "Recipe Flow Cyclone",
-  "readable_id": "recipe_flow_cyclone"
+  "readable_id": "recipe_flow_cyclone",
+  "sell": 250
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762601,
   "kind": "Item",
   "name": "Recipe Flow Dash",
-  "readable_id": "recipe_flow_dash"
+  "readable_id": "recipe_flow_dash",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762602,
   "kind": "Item",
   "name": "Recipe Flow Dashstab",
-  "readable_id": "recipe_flow_dashstab"
+  "readable_id": "recipe_flow_dashstab",
+  "sell": 250
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762604,
   "kind": "Item",
   "name": "Recipe Flow Execute",
-  "readable_id": "recipe_flow_execute"
+  "readable_id": "recipe_flow_execute",
+  "sell": 36
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762605,
   "kind": "Item",
   "name": "Recipe Flow FerventCry",
-  "readable_id": "recipe_flow_ferventCry"
+  "readable_id": "recipe_flow_ferventCry",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762606,
   "kind": "Item",
   "name": "Recipe Flow FireCry",
-  "readable_id": "recipe_flow_fireCry"
+  "readable_id": "recipe_flow_fireCry",
+  "sell": 150
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762607,
   "kind": "Item",
   "name": "Recipe Flow FlowForm",
-  "readable_id": "recipe_flow_flowForm"
+  "readable_id": "recipe_flow_flowForm",
+  "sell": 100
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762608,
   "kind": "Item",
   "name": "Recipe Flow FogForm",
-  "readable_id": "recipe_flow_fogForm"
+  "readable_id": "recipe_flow_fogForm",
+  "sell": 60
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762609,
   "kind": "Item",
   "name": "Recipe Flow HeavyBlow",
-  "readable_id": "recipe_flow_heavyBlow"
+  "readable_id": "recipe_flow_heavyBlow",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762610,
   "kind": "Item",
   "name": "Recipe Flow Infection",
-  "readable_id": "recipe_flow_infection"
+  "readable_id": "recipe_flow_infection",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762611,
   "kind": "Item",
   "name": "Recipe Flow MagicVision",
-  "readable_id": "recipe_flow_magicVision"
+  "readable_id": "recipe_flow_magicVision",
+  "sell": 50
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762612,
   "kind": "Item",
   "name": "Recipe Flow Magicnuke",
-  "readable_id": "recipe_flow_magicnuke"
+  "readable_id": "recipe_flow_magicnuke",
+  "sell": 250
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762613,
   "kind": "Item",
   "name": "Recipe Flow ObsidianSpear",
-  "readable_id": "recipe_flow_obsidianSpear"
+  "readable_id": "recipe_flow_obsidianSpear",
+  "sell": 100
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762614,
   "kind": "Item",
   "name": "Recipe Flow Pierce",
-  "readable_id": "recipe_flow_pierce"
+  "readable_id": "recipe_flow_pierce",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762615,
   "kind": "Item",
   "name": "Recipe Flow PoisonArrow",
-  "readable_id": "recipe_flow_poisonArrow"
+  "readable_id": "recipe_flow_poisonArrow",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762616,
   "kind": "Item",
   "name": "Recipe Flow Ricochet",
-  "readable_id": "recipe_flow_ricochet"
+  "readable_id": "recipe_flow_ricochet",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762617,
   "kind": "Item",
   "name": "Recipe Flow Root Aoe",
-  "readable_id": "recipe_flow_root_aoe"
+  "readable_id": "recipe_flow_root_aoe",
+  "sell": 150
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762618,
   "kind": "Item",
   "name": "Recipe Flow Root Cone",
-  "readable_id": "recipe_flow_root_cone"
+  "readable_id": "recipe_flow_root_cone",
+  "sell": 100
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762619,
   "kind": "Item",
   "name": "Recipe Flow ShockingBlow",
-  "readable_id": "recipe_flow_shockingBlow"
+  "readable_id": "recipe_flow_shockingBlow",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762620,
   "kind": "Item",
   "name": "Recipe Flow SpartanKick",
-  "readable_id": "recipe_flow_spartanKick"
+  "readable_id": "recipe_flow_spartanKick",
+  "sell": 40
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762621,
   "kind": "Item",
   "name": "Recipe Flow Sunder",
-  "readable_id": "recipe_flow_sunder"
+  "readable_id": "recipe_flow_sunder",
+  "sell": 250
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762622,
   "kind": "Item",
   "name": "Recipe Flow Thunderstorm",
-  "readable_id": "recipe_flow_thunderstorm"
+  "readable_id": "recipe_flow_thunderstorm",
+  "sell": 250
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762623,
   "kind": "Item",
   "name": "Recipe Flow VenomCry",
-  "readable_id": "recipe_flow_venomCry"
+  "readable_id": "recipe_flow_venomCry",
+  "sell": 100
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762624,
   "kind": "Item",
   "name": "Recipe Flow WhirlingEnergy",
-  "readable_id": "recipe_flow_whirlingEnergy"
+  "readable_id": "recipe_flow_whirlingEnergy",
+  "sell": 150
  },
  {
   "amount": 1,
-  "classification": "filler",
+  "classification": "useful",
   "id": 4762625,
   "kind": "Item",
   "name": "Recipe Flow Wound",
-  "readable_id": "recipe_flow_wound"
+  "readable_id": "recipe_flow_wound",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -3389,7 +3812,8 @@
   "id": 4762626,
   "kind": "Item",
   "name": "Recipe Flowpotion 0",
-  "readable_id": "recipe_flowpotion_0"
+  "readable_id": "recipe_flowpotion_0",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3397,7 +3821,8 @@
   "id": 4762627,
   "kind": "Item",
   "name": "Recipe Flowpotion 1",
-  "readable_id": "recipe_flowpotion_1"
+  "readable_id": "recipe_flowpotion_1",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3405,7 +3830,8 @@
   "id": 4762628,
   "kind": "Item",
   "name": "Recipe Fogstew",
-  "readable_id": "recipe_fogstew"
+  "readable_id": "recipe_fogstew",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3413,7 +3839,8 @@
   "id": 4762629,
   "kind": "Item",
   "name": "Recipe Foodpile",
-  "readable_id": "recipe_foodpile"
+  "readable_id": "recipe_foodpile",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3421,7 +3848,8 @@
   "id": 4762630,
   "kind": "Item",
   "name": "Recipe Foodpile Strong",
-  "readable_id": "recipe_foodpile_strong"
+  "readable_id": "recipe_foodpile_strong",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3429,7 +3857,8 @@
   "id": 4762631,
   "kind": "Item",
   "name": "Recipe Golemsalve",
-  "readable_id": "recipe_golemsalve"
+  "readable_id": "recipe_golemsalve",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -3437,7 +3866,8 @@
   "id": 4762632,
   "kind": "Item",
   "name": "Recipe Harpybrew",
-  "readable_id": "recipe_harpybrew"
+  "readable_id": "recipe_harpybrew",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -3445,7 +3875,8 @@
   "id": 4762633,
   "kind": "Item",
   "name": "Recipe Healingsalve",
-  "readable_id": "recipe_healingsalve"
+  "readable_id": "recipe_healingsalve",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3453,7 +3884,8 @@
   "id": 4762634,
   "kind": "Item",
   "name": "Recipe Healingsalve 2",
-  "readable_id": "recipe_healingsalve_2"
+  "readable_id": "recipe_healingsalve_2",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3461,7 +3893,8 @@
   "id": 4762635,
   "kind": "Item",
   "name": "Recipe Healingsalve 3",
-  "readable_id": "recipe_healingsalve_3"
+  "readable_id": "recipe_healingsalve_3",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -3469,7 +3902,8 @@
   "id": 4762636,
   "kind": "Item",
   "name": "Recipe Honeybeer",
-  "readable_id": "recipe_honeybeer"
+  "readable_id": "recipe_honeybeer",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3477,7 +3911,8 @@
   "id": 4762637,
   "kind": "Item",
   "name": "Recipe Hunterstrophy",
-  "readable_id": "recipe_hunterstrophy"
+  "readable_id": "recipe_hunterstrophy",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3485,7 +3920,8 @@
   "id": 4762638,
   "kind": "Item",
   "name": "Recipe Ironarrow",
-  "readable_id": "recipe_ironarrow"
+  "readable_id": "recipe_ironarrow",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3493,7 +3929,8 @@
   "id": 4762639,
   "kind": "Item",
   "name": "Recipe Ironbar",
-  "readable_id": "recipe_ironbar"
+  "readable_id": "recipe_ironbar",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3501,7 +3938,8 @@
   "id": 4762640,
   "kind": "Item",
   "name": "Recipe Ironlump",
-  "readable_id": "recipe_ironlump"
+  "readable_id": "recipe_ironlump",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3509,7 +3947,8 @@
   "id": 4762641,
   "kind": "Item",
   "name": "Recipe Ironstone",
-  "readable_id": "recipe_ironstone"
+  "readable_id": "recipe_ironstone",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3517,7 +3956,8 @@
   "id": 4762642,
   "kind": "Item",
   "name": "Recipe Jaggedthrowingknife",
-  "readable_id": "recipe_jaggedthrowingknife"
+  "readable_id": "recipe_jaggedthrowingknife",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3525,7 +3965,8 @@
   "id": 4762643,
   "kind": "Item",
   "name": "Recipe Leather",
-  "readable_id": "recipe_leather"
+  "readable_id": "recipe_leather",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3533,7 +3974,8 @@
   "id": 4762644,
   "kind": "Item",
   "name": "Recipe Lockpick",
-  "readable_id": "recipe_lockpick"
+  "readable_id": "recipe_lockpick",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3541,7 +3983,8 @@
   "id": 4762645,
   "kind": "Item",
   "name": "Recipe Marinatedmeatleg",
-  "readable_id": "recipe_marinatedmeatleg"
+  "readable_id": "recipe_marinatedmeatleg",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3549,7 +3992,8 @@
   "id": 4762646,
   "kind": "Item",
   "name": "Recipe Meat 2",
-  "readable_id": "recipe_meat_2"
+  "readable_id": "recipe_meat_2",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3557,7 +4001,8 @@
   "id": 4762647,
   "kind": "Item",
   "name": "Recipe Meat Cooked",
-  "readable_id": "recipe_meat_cooked"
+  "readable_id": "recipe_meat_cooked",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3565,7 +4010,8 @@
   "id": 4762648,
   "kind": "Item",
   "name": "Recipe Mediumquiver",
-  "readable_id": "recipe_mediumquiver"
+  "readable_id": "recipe_mediumquiver",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -3573,7 +4019,8 @@
   "id": 4762649,
   "kind": "Item",
   "name": "Recipe Mudmash",
-  "readable_id": "recipe_mudmash"
+  "readable_id": "recipe_mudmash",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3581,7 +4028,8 @@
   "id": 4762650,
   "kind": "Item",
   "name": "Recipe Poisonedthrowingknife",
-  "readable_id": "recipe_poisonedthrowingknife"
+  "readable_id": "recipe_poisonedthrowingknife",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3589,7 +4037,8 @@
   "id": 4762651,
   "kind": "Item",
   "name": "Recipe Potion Health 0",
-  "readable_id": "recipe_potion_health_0"
+  "readable_id": "recipe_potion_health_0",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -3597,7 +4046,8 @@
   "id": 4762652,
   "kind": "Item",
   "name": "Recipe Potion Health 1",
-  "readable_id": "recipe_potion_health_1"
+  "readable_id": "recipe_potion_health_1",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -3605,7 +4055,8 @@
   "id": 4762653,
   "kind": "Item",
   "name": "Recipe Potion Windwalker",
-  "readable_id": "recipe_potion_windwalker"
+  "readable_id": "recipe_potion_windwalker",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -3613,7 +4064,8 @@
   "id": 4762654,
   "kind": "Item",
   "name": "Recipe Rivercharm",
-  "readable_id": "recipe_rivercharm"
+  "readable_id": "recipe_rivercharm",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3621,7 +4073,8 @@
   "id": 4762655,
   "kind": "Item",
   "name": "Recipe Roastedcallamushroom",
-  "readable_id": "recipe_roastedcallamushroom"
+  "readable_id": "recipe_roastedcallamushroom",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3629,7 +4082,8 @@
   "id": 4762656,
   "kind": "Item",
   "name": "Recipe Roastofthepast",
-  "readable_id": "recipe_roastofthepast"
+  "readable_id": "recipe_roastofthepast",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -3637,7 +4091,8 @@
   "id": 4762657,
   "kind": "Item",
   "name": "Recipe Rootstew",
-  "readable_id": "recipe_rootstew"
+  "readable_id": "recipe_rootstew",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3645,7 +4100,8 @@
   "id": 4762658,
   "kind": "Item",
   "name": "Recipe Rustymosspipe",
-  "readable_id": "recipe_rustymosspipe"
+  "readable_id": "recipe_rustymosspipe",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3653,7 +4109,8 @@
   "id": 4762659,
   "kind": "Item",
   "name": "Recipe Silberringmind 0",
-  "readable_id": "recipe_silberringmind_0"
+  "readable_id": "recipe_silberringmind_0",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3661,7 +4118,8 @@
   "id": 4762660,
   "kind": "Item",
   "name": "Recipe Silberringmind 1",
-  "readable_id": "recipe_silberringmind_1"
+  "readable_id": "recipe_silberringmind_1",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -3669,7 +4127,8 @@
   "id": 4762661,
   "kind": "Item",
   "name": "Recipe Silberringmind 2",
-  "readable_id": "recipe_silberringmind_2"
+  "readable_id": "recipe_silberringmind_2",
+  "sell": 35
  },
  {
   "amount": 1,
@@ -3677,7 +4136,8 @@
   "id": 4762662,
   "kind": "Item",
   "name": "Recipe Silberringskill 0",
-  "readable_id": "recipe_silberringskill_0"
+  "readable_id": "recipe_silberringskill_0",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3685,7 +4145,8 @@
   "id": 4762663,
   "kind": "Item",
   "name": "Recipe Silberringskill 1",
-  "readable_id": "recipe_silberringskill_1"
+  "readable_id": "recipe_silberringskill_1",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -3693,7 +4154,8 @@
   "id": 4762664,
   "kind": "Item",
   "name": "Recipe Silberringskill 2",
-  "readable_id": "recipe_silberringskill_2"
+  "readable_id": "recipe_silberringskill_2",
+  "sell": 35
  },
  {
   "amount": 1,
@@ -3701,7 +4163,8 @@
   "id": 4762665,
   "kind": "Item",
   "name": "Recipe Silverarrow",
-  "readable_id": "recipe_silverarrow"
+  "readable_id": "recipe_silverarrow",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -3709,7 +4172,8 @@
   "id": 4762666,
   "kind": "Item",
   "name": "Recipe Silverlump",
-  "readable_id": "recipe_silverlump"
+  "readable_id": "recipe_silverlump",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3717,7 +4181,8 @@
   "id": 4762667,
   "kind": "Item",
   "name": "Recipe Silverringstrength 0",
-  "readable_id": "recipe_silverringstrength_0"
+  "readable_id": "recipe_silverringstrength_0",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3725,7 +4190,8 @@
   "id": 4762668,
   "kind": "Item",
   "name": "Recipe Silverringstrength 1",
-  "readable_id": "recipe_silverringstrength_1"
+  "readable_id": "recipe_silverringstrength_1",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -3733,7 +4199,8 @@
   "id": 4762669,
   "kind": "Item",
   "name": "Recipe Silverringstrength 2",
-  "readable_id": "recipe_silverringstrength_2"
+  "readable_id": "recipe_silverringstrength_2",
+  "sell": 35
  },
  {
   "amount": 1,
@@ -3741,7 +4208,8 @@
   "id": 4762670,
   "kind": "Item",
   "name": "Recipe Silverstone",
-  "readable_id": "recipe_silverstone"
+  "readable_id": "recipe_silverstone",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -3749,7 +4217,8 @@
   "id": 4762671,
   "kind": "Item",
   "name": "Recipe Smashironbar",
-  "readable_id": "recipe_smashironbar"
+  "readable_id": "recipe_smashironbar",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3757,7 +4226,8 @@
   "id": 4762672,
   "kind": "Item",
   "name": "Recipe Spiritamulet 0",
-  "readable_id": "recipe_spiritamulet_0"
+  "readable_id": "recipe_spiritamulet_0",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3765,7 +4235,8 @@
   "id": 4762673,
   "kind": "Item",
   "name": "Recipe Spiritamulet 1",
-  "readable_id": "recipe_spiritamulet_1"
+  "readable_id": "recipe_spiritamulet_1",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -3773,7 +4244,8 @@
   "id": 4762674,
   "kind": "Item",
   "name": "Recipe Splittertrap",
-  "readable_id": "recipe_splittertrap"
+  "readable_id": "recipe_splittertrap",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3781,7 +4253,8 @@
   "id": 4762676,
   "kind": "Item",
   "name": "Recipe Thronyvine",
-  "readable_id": "recipe_thronyvine"
+  "readable_id": "recipe_thronyvine",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3789,7 +4262,8 @@
   "id": 4762677,
   "kind": "Item",
   "name": "Recipe Throwingknife",
-  "readable_id": "recipe_throwingknife"
+  "readable_id": "recipe_throwingknife",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3797,7 +4271,8 @@
   "id": 4762678,
   "kind": "Item",
   "name": "Recipe Thrownet",
-  "readable_id": "recipe_thrownet"
+  "readable_id": "recipe_thrownet",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -3805,7 +4280,8 @@
   "id": 4762679,
   "kind": "Item",
   "name": "Recipe Troutskewersbombus",
-  "readable_id": "recipe_troutskewersbombus"
+  "readable_id": "recipe_troutskewersbombus",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3813,7 +4289,8 @@
   "id": 4762680,
   "kind": "Item",
   "name": "Recipe Whispersilkbag",
-  "readable_id": "recipe_whispersilkbag"
+  "readable_id": "recipe_whispersilkbag",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -3821,7 +4298,8 @@
   "id": 4762681,
   "kind": "Item",
   "name": "Recipe Woodenarrow",
-  "readable_id": "recipe_woodenarrow"
+  "readable_id": "recipe_woodenarrow",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -3829,7 +4307,8 @@
   "id": 4762682,
   "kind": "Item",
   "name": "Recipe Yggdrasil",
-  "readable_id": "recipe_yggdrasil"
+  "readable_id": "recipe_yggdrasil",
+  "sell": 100
  },
  {
   "amount": 10,
@@ -3837,7 +4316,8 @@
   "id": 4762932,
   "kind": "Xp",
   "name": "Small Experience Boost",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
  },
  {
   "amount": 5,
@@ -3845,7 +4325,17 @@
   "id": 4762933,
   "kind": "Xp",
   "name": "Tiny Experience Boost",
-  "readable_id": ""
+  "readable_id": "",
+  "sell": 0
+ },
+ {
+  "amount": 1,
+  "classification": "useful",
+  "id": 4762938,
+  "kind": "Item",
+  "name": "Tool Pickaxe Silberhauer",
+  "readable_id": "tool_pickaxe_silberhauer",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -3853,7 +4343,8 @@
   "id": 4762683,
   "kind": "Item",
   "name": "Weapon Axe AncientAxe",
-  "readable_id": "weapon_axe_ancientAxe"
+  "readable_id": "weapon_axe_ancientAxe",
+  "sell": 24
  },
  {
   "amount": 1,
@@ -3861,7 +4352,8 @@
   "id": 4762686,
   "kind": "Item",
   "name": "Weapon Axe BarbarianBattleAxe",
-  "readable_id": "weapon_axe_barbarianBattleAxe"
+  "readable_id": "weapon_axe_barbarianBattleAxe",
+  "sell": 400
  },
  {
   "amount": 1,
@@ -3869,7 +4361,8 @@
   "id": 4762687,
   "kind": "Item",
   "name": "Weapon Axe BearSlaughtererAxe",
-  "readable_id": "weapon_axe_bearSlaughtererAxe"
+  "readable_id": "weapon_axe_bearSlaughtererAxe",
+  "sell": 275
  },
  {
   "amount": 1,
@@ -3877,7 +4370,8 @@
   "id": 4762688,
   "kind": "Item",
   "name": "Weapon Axe BeardedAxe",
-  "readable_id": "weapon_axe_beardedAxe"
+  "readable_id": "weapon_axe_beardedAxe",
+  "sell": 16
  },
  {
   "amount": 1,
@@ -3885,7 +4379,8 @@
   "id": 4762689,
   "kind": "Item",
   "name": "Weapon Axe BerserkAxe",
-  "readable_id": "weapon_axe_berserkAxe"
+  "readable_id": "weapon_axe_berserkAxe",
+  "sell": 750
  },
  {
   "amount": 1,
@@ -3893,7 +4388,8 @@
   "id": 4762690,
   "kind": "Item",
   "name": "Weapon Axe Blaansoldsword",
-  "readable_id": "weapon_axe_blaansoldsword"
+  "readable_id": "weapon_axe_blaansoldsword",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -3901,7 +4397,8 @@
   "id": 4762691,
   "kind": "Item",
   "name": "Weapon Axe BloodReaper",
-  "readable_id": "weapon_axe_bloodReaper"
+  "readable_id": "weapon_axe_bloodReaper",
+  "sell": 350
  },
  {
   "amount": 1,
@@ -3909,7 +4406,8 @@
   "id": 4762692,
   "kind": "Item",
   "name": "Weapon Axe BroadAxe",
-  "readable_id": "weapon_axe_broadAxe"
+  "readable_id": "weapon_axe_broadAxe",
+  "sell": 65
  },
  {
   "amount": 1,
@@ -3917,7 +4415,8 @@
   "id": 4762693,
   "kind": "Item",
   "name": "Weapon Axe BronzeTusk",
-  "readable_id": "weapon_axe_bronzeTusk"
+  "readable_id": "weapon_axe_bronzeTusk",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -3925,7 +4424,8 @@
   "id": 4762694,
   "kind": "Item",
   "name": "Weapon Axe CoarseBronzeAxe",
-  "readable_id": "weapon_axe_coarseBronzeAxe"
+  "readable_id": "weapon_axe_coarseBronzeAxe",
+  "sell": 27
  },
  {
   "amount": 1,
@@ -3933,7 +4433,8 @@
   "id": 4762695,
   "kind": "Item",
   "name": "Weapon Axe CoarseDoubleAxe",
-  "readable_id": "weapon_axe_coarseDoubleAxe"
+  "readable_id": "weapon_axe_coarseDoubleAxe",
+  "sell": 75
  },
  {
   "amount": 1,
@@ -3941,7 +4442,8 @@
   "id": 4762696,
   "kind": "Item",
   "name": "Weapon Axe CoarseWarAxe",
-  "readable_id": "weapon_axe_coarseWarAxe"
+  "readable_id": "weapon_axe_coarseWarAxe",
+  "sell": 150
  },
  {
   "amount": 1,
@@ -3949,7 +4451,8 @@
   "id": 4762697,
   "kind": "Item",
   "name": "Weapon Axe DeformedAxe",
-  "readable_id": "weapon_axe_deformedAxe"
+  "readable_id": "weapon_axe_deformedAxe",
+  "sell": 7
  },
  {
   "amount": 1,
@@ -3957,7 +4460,8 @@
   "id": 4762698,
   "kind": "Item",
   "name": "Weapon Axe DoubleAxe",
-  "readable_id": "weapon_axe_doubleAxe"
+  "readable_id": "weapon_axe_doubleAxe",
+  "sell": 87
  },
  {
   "amount": 1,
@@ -3965,7 +4469,8 @@
   "id": 4762699,
   "kind": "Item",
   "name": "Weapon Axe Draugr",
-  "readable_id": "weapon_axe_draugr"
+  "readable_id": "weapon_axe_draugr",
+  "sell": 48
  },
  {
   "amount": 1,
@@ -3973,7 +4478,8 @@
   "id": 4762700,
   "kind": "Item",
   "name": "Weapon Axe GreatAxe",
-  "readable_id": "weapon_axe_greatAxe"
+  "readable_id": "weapon_axe_greatAxe",
+  "sell": 206
  },
  {
   "amount": 1,
@@ -3981,7 +4487,8 @@
   "id": 4762701,
   "kind": "Item",
   "name": "Weapon Axe HeavyNailClub",
-  "readable_id": "weapon_axe_heavyNailClub"
+  "readable_id": "weapon_axe_heavyNailClub",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -3989,15 +4496,8 @@
   "id": 4762702,
   "kind": "Item",
   "name": "Weapon Axe HighlandAxe",
-  "readable_id": "weapon_axe_highlandAxe"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762703,
-  "kind": "Item",
-  "name": "Weapon Axe Improvisedpickaxe",
-  "readable_id": "weapon_axe_improvisedpickaxe"
+  "readable_id": "weapon_axe_highlandAxe",
+  "sell": 63
  },
  {
   "amount": 1,
@@ -4005,7 +4505,8 @@
   "id": 4762704,
   "kind": "Item",
   "name": "Weapon Axe Iron-BoundGreatAxe",
-  "readable_id": "weapon_axe_iron-BoundGreatAxe"
+  "readable_id": "weapon_axe_iron-BoundGreatAxe",
+  "sell": 56
  },
  {
   "amount": 1,
@@ -4013,7 +4514,8 @@
   "id": 4762705,
   "kind": "Item",
   "name": "Weapon Axe JawboneAxe",
-  "readable_id": "weapon_axe_jawboneAxe"
+  "readable_id": "weapon_axe_jawboneAxe",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -4021,7 +4523,8 @@
   "id": 4762706,
   "kind": "Item",
   "name": "Weapon Axe LargeBranch",
-  "readable_id": "weapon_axe_largeBranch"
+  "readable_id": "weapon_axe_largeBranch",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -4029,7 +4532,8 @@
   "id": 4762707,
   "kind": "Item",
   "name": "Weapon Axe LightAxe",
-  "readable_id": "weapon_axe_lightAxe"
+  "readable_id": "weapon_axe_lightAxe",
+  "sell": 22
  },
  {
   "amount": 1,
@@ -4037,7 +4541,8 @@
   "id": 4762708,
   "kind": "Item",
   "name": "Weapon Axe OldAxe",
-  "readable_id": "weapon_axe_oldAxe"
+  "readable_id": "weapon_axe_oldAxe",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -4045,7 +4550,8 @@
   "id": 4762709,
   "kind": "Item",
   "name": "Weapon Axe RustyAxe",
-  "readable_id": "weapon_axe_rustyAxe"
+  "readable_id": "weapon_axe_rustyAxe",
+  "sell": 107
  },
  {
   "amount": 1,
@@ -4053,7 +4559,8 @@
   "id": 4762710,
   "kind": "Item",
   "name": "Weapon Axe Snaga",
-  "readable_id": "weapon_axe_snaga"
+  "readable_id": "weapon_axe_snaga",
+  "sell": 60
  },
  {
   "amount": 1,
@@ -4061,7 +4568,8 @@
   "id": 4762711,
   "kind": "Item",
   "name": "Weapon Axe SplittingAxe",
-  "readable_id": "weapon_axe_splittingAxe"
+  "readable_id": "weapon_axe_splittingAxe",
+  "sell": 57
  },
  {
   "amount": 1,
@@ -4069,7 +4577,8 @@
   "id": 4762713,
   "kind": "Item",
   "name": "Weapon Axe WarAxe",
-  "readable_id": "weapon_axe_warAxe"
+  "readable_id": "weapon_axe_warAxe",
+  "sell": 45
  },
  {
   "amount": 1,
@@ -4077,7 +4586,8 @@
   "id": 4762714,
   "kind": "Item",
   "name": "Weapon Axe WoodSplitter",
-  "readable_id": "weapon_axe_woodSplitter"
+  "readable_id": "weapon_axe_woodSplitter",
+  "sell": 2
  },
  {
   "amount": 1,
@@ -4085,7 +4595,8 @@
   "id": 4762729,
   "kind": "Item",
   "name": "Weapon Bow AtlanterBow",
-  "readable_id": "weapon_bow_atlanterBow"
+  "readable_id": "weapon_bow_atlanterBow",
+  "sell": 500
  },
  {
   "amount": 1,
@@ -4093,7 +4604,8 @@
   "id": 4762730,
   "kind": "Item",
   "name": "Weapon Bow BattleBow",
-  "readable_id": "weapon_bow_battleBow"
+  "readable_id": "weapon_bow_battleBow",
+  "sell": 180
  },
  {
   "amount": 1,
@@ -4101,7 +4613,8 @@
   "id": 4762731,
   "kind": "Item",
   "name": "Weapon Bow Draugr",
-  "readable_id": "weapon_bow_draugr"
+  "readable_id": "weapon_bow_draugr",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -4109,7 +4622,8 @@
   "id": 4762732,
   "kind": "Item",
   "name": "Weapon Bow HuntingBow",
-  "readable_id": "weapon_bow_huntingBow"
+  "readable_id": "weapon_bow_huntingBow",
+  "sell": 60
  },
  {
   "amount": 1,
@@ -4117,7 +4631,8 @@
   "id": 4762733,
   "kind": "Item",
   "name": "Weapon Bow LongBow",
-  "readable_id": "weapon_bow_longBow"
+  "readable_id": "weapon_bow_longBow",
+  "sell": 150
  },
  {
   "amount": 1,
@@ -4125,7 +4640,8 @@
   "id": 4762734,
   "kind": "Item",
   "name": "Weapon Bow ReinforcedBow",
-  "readable_id": "weapon_bow_reinforcedBow"
+  "readable_id": "weapon_bow_reinforcedBow",
+  "sell": 30
  },
  {
   "amount": 1,
@@ -4133,7 +4649,8 @@
   "id": 4762735,
   "kind": "Item",
   "name": "Weapon Bow ShortBow",
-  "readable_id": "weapon_bow_shortBow"
+  "readable_id": "weapon_bow_shortBow",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -4141,7 +4658,8 @@
   "id": 4762736,
   "kind": "Item",
   "name": "Weapon Bow SimpleBow",
-  "readable_id": "weapon_bow_simpleBow"
+  "readable_id": "weapon_bow_simpleBow",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -4149,7 +4667,8 @@
   "id": 4762737,
   "kind": "Item",
   "name": "Weapon Dagger",
-  "readable_id": "weapon_dagger"
+  "readable_id": "weapon_dagger",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -4157,7 +4676,8 @@
   "id": 4762738,
   "kind": "Item",
   "name": "Weapon Dagger BlackKnife",
-  "readable_id": "weapon_dagger_blackKnife"
+  "readable_id": "weapon_dagger_blackKnife",
+  "sell": 275
  },
  {
   "amount": 1,
@@ -4165,7 +4685,8 @@
   "id": 4762739,
   "kind": "Item",
   "name": "Weapon Dagger BloodDagger",
-  "readable_id": "weapon_dagger_bloodDagger"
+  "readable_id": "weapon_dagger_bloodDagger",
+  "sell": 750
  },
  {
   "amount": 1,
@@ -4173,7 +4694,8 @@
   "id": 4762740,
   "kind": "Item",
   "name": "Weapon Dagger BoneKnife",
-  "readable_id": "weapon_dagger_boneKnife"
+  "readable_id": "weapon_dagger_boneKnife",
+  "sell": 28
  },
  {
   "amount": 1,
@@ -4181,7 +4703,8 @@
   "id": 4762741,
   "kind": "Item",
   "name": "Weapon Dagger BreadKnife",
-  "readable_id": "weapon_dagger_breadKnife"
+  "readable_id": "weapon_dagger_breadKnife",
+  "sell": 8
  },
  {
   "amount": 1,
@@ -4189,7 +4712,8 @@
   "id": 4762742,
   "kind": "Item",
   "name": "Weapon Dagger BronzeDagger",
-  "readable_id": "weapon_dagger_bronzeDagger"
+  "readable_id": "weapon_dagger_bronzeDagger",
+  "sell": 58
  },
  {
   "amount": 1,
@@ -4197,7 +4721,8 @@
   "id": 4762743,
   "kind": "Item",
   "name": "Weapon Dagger CeremonialDagger",
-  "readable_id": "weapon_dagger_ceremonialDagger"
+  "readable_id": "weapon_dagger_ceremonialDagger",
+  "sell": 65
  },
  {
   "amount": 1,
@@ -4205,7 +4730,8 @@
   "id": 4762744,
   "kind": "Item",
   "name": "Weapon Dagger CoarseDagger",
-  "readable_id": "weapon_dagger_coarseDagger"
+  "readable_id": "weapon_dagger_coarseDagger",
+  "sell": 88
  },
  {
   "amount": 1,
@@ -4213,7 +4739,8 @@
   "id": 4762745,
   "kind": "Item",
   "name": "Weapon Dagger Draugr",
-  "readable_id": "weapon_dagger_draugr"
+  "readable_id": "weapon_dagger_draugr",
+  "sell": 29
  },
  {
   "amount": 1,
@@ -4221,7 +4748,8 @@
   "id": 4762746,
   "kind": "Item",
   "name": "Weapon Dagger Eviscerator",
-  "readable_id": "weapon_dagger_eviscerator"
+  "readable_id": "weapon_dagger_eviscerator",
+  "sell": 206
  },
  {
   "amount": 1,
@@ -4229,7 +4757,8 @@
   "id": 4762747,
   "kind": "Item",
   "name": "Weapon Dagger Fang",
-  "readable_id": "weapon_dagger_fang"
+  "readable_id": "weapon_dagger_fang",
+  "sell": 23
  },
  {
   "amount": 1,
@@ -4237,7 +4766,8 @@
   "id": 4762748,
   "kind": "Item",
   "name": "Weapon Dagger HeartSeeker",
-  "readable_id": "weapon_dagger_heartSeeker"
+  "readable_id": "weapon_dagger_heartSeeker",
+  "sell": 400
  },
  {
   "amount": 1,
@@ -4245,7 +4775,8 @@
   "id": 4762749,
   "kind": "Item",
   "name": "Weapon Dagger IronDagger",
-  "readable_id": "weapon_dagger_ironDagger"
+  "readable_id": "weapon_dagger_ironDagger",
+  "sell": 150
  },
  {
   "amount": 1,
@@ -4253,7 +4784,8 @@
   "id": 4762750,
   "kind": "Item",
   "name": "Weapon Dagger IronSpike",
-  "readable_id": "weapon_dagger_ironSpike"
+  "readable_id": "weapon_dagger_ironSpike",
+  "sell": 108
  },
  {
   "amount": 1,
@@ -4261,7 +4793,8 @@
   "id": 4762751,
   "kind": "Item",
   "name": "Weapon Dagger MosquitoSting",
-  "readable_id": "weapon_dagger_mosquitoSting"
+  "readable_id": "weapon_dagger_mosquitoSting",
+  "sell": 45
  },
  {
   "amount": 1,
@@ -4269,7 +4802,8 @@
   "id": 4762752,
   "kind": "Item",
   "name": "Weapon Dagger PineDagger",
-  "readable_id": "weapon_dagger_pineDagger"
+  "readable_id": "weapon_dagger_pineDagger",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -4277,7 +4811,8 @@
   "id": 4762753,
   "kind": "Item",
   "name": "Weapon Dagger PointedDagger",
-  "readable_id": "weapon_dagger_pointedDagger"
+  "readable_id": "weapon_dagger_pointedDagger",
+  "sell": 23
  },
  {
   "amount": 1,
@@ -4285,7 +4820,8 @@
   "id": 4762754,
   "kind": "Item",
   "name": "Weapon Dagger SacrificialDagger",
-  "readable_id": "weapon_dagger_sacrificialDagger"
+  "readable_id": "weapon_dagger_sacrificialDagger",
+  "sell": 64
  },
  {
   "amount": 1,
@@ -4293,7 +4829,8 @@
   "id": 4762755,
   "kind": "Item",
   "name": "Weapon Dagger ShortBlade",
-  "readable_id": "weapon_dagger_shortBlade"
+  "readable_id": "weapon_dagger_shortBlade",
+  "sell": 75
  },
  {
   "amount": 1,
@@ -4301,7 +4838,8 @@
   "id": 4762756,
   "kind": "Item",
   "name": "Weapon Dagger Silence",
-  "readable_id": "weapon_dagger_silence"
+  "readable_id": "weapon_dagger_silence",
+  "sell": 56
  },
  {
   "amount": 1,
@@ -4309,7 +4847,8 @@
   "id": 4762757,
   "kind": "Item",
   "name": "Weapon Dagger TheKingslayer",
-  "readable_id": "weapon_dagger_theKingslayer"
+  "readable_id": "weapon_dagger_theKingslayer",
+  "sell": 350
  },
  {
   "amount": 1,
@@ -4317,7 +4856,8 @@
   "id": 4762758,
   "kind": "Item",
   "name": "Weapon Dagger Tombstick",
-  "readable_id": "weapon_dagger_tombstick"
+  "readable_id": "weapon_dagger_tombstick",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -4325,7 +4865,8 @@
   "id": 4762759,
   "kind": "Item",
   "name": "Weapon Dagger WornBronzeDagger",
-  "readable_id": "weapon_dagger_wornBronzeDagger"
+  "readable_id": "weapon_dagger_wornBronzeDagger",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -4333,7 +4874,8 @@
   "id": 4762795,
   "kind": "Item",
   "name": "Weapon Shield AdornedWoodenShield",
-  "readable_id": "weapon_shield_adornedWoodenShield"
+  "readable_id": "weapon_shield_adornedWoodenShield",
+  "sell": 10
  },
  {
   "amount": 1,
@@ -4341,7 +4883,8 @@
   "id": 4762796,
   "kind": "Item",
   "name": "Weapon Shield AtlanterShield",
-  "readable_id": "weapon_shield_atlanterShield"
+  "readable_id": "weapon_shield_atlanterShield",
+  "sell": 325
  },
  {
   "amount": 1,
@@ -4349,7 +4892,8 @@
   "id": 4762797,
   "kind": "Item",
   "name": "Weapon Shield BronzeShield",
-  "readable_id": "weapon_shield_bronzeShield"
+  "readable_id": "weapon_shield_bronzeShield",
+  "sell": 31
  },
  {
   "amount": 1,
@@ -4357,7 +4901,8 @@
   "id": 4762798,
   "kind": "Item",
   "name": "Weapon Shield Draugr",
-  "readable_id": "weapon_shield_draugr"
+  "readable_id": "weapon_shield_draugr",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -4365,7 +4910,8 @@
   "id": 4762799,
   "kind": "Item",
   "name": "Weapon Shield Protection",
-  "readable_id": "weapon_shield_protection"
+  "readable_id": "weapon_shield_protection",
+  "sell": 163
  },
  {
   "amount": 1,
@@ -4373,7 +4919,8 @@
   "id": 4762800,
   "kind": "Item",
   "name": "Weapon Shield RoundShield",
-  "readable_id": "weapon_shield_roundShield"
+  "readable_id": "weapon_shield_roundShield",
+  "sell": 56
  },
  {
   "amount": 1,
@@ -4381,7 +4928,8 @@
   "id": 4762801,
   "kind": "Item",
   "name": "Weapon Shield SigilShield",
-  "readable_id": "weapon_shield_sigilShield"
+  "readable_id": "weapon_shield_sigilShield",
+  "sell": 100
  },
  {
   "amount": 1,
@@ -4389,7 +4937,8 @@
   "id": 4762802,
   "kind": "Item",
   "name": "Weapon Shield SmallBronzeShield",
-  "readable_id": "weapon_shield_smallBronzeShield"
+  "readable_id": "weapon_shield_smallBronzeShield",
+  "sell": 38
  },
  {
   "amount": 1,
@@ -4397,7 +4946,8 @@
   "id": 4762803,
   "kind": "Item",
   "name": "Weapon Shield SmallRoundShield",
-  "readable_id": "weapon_shield_smallRoundShield"
+  "readable_id": "weapon_shield_smallRoundShield",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -4405,7 +4955,8 @@
   "id": 4762804,
   "kind": "Item",
   "name": "Weapon Shield SmallWoodenShield",
-  "readable_id": "weapon_shield_smallWoodenShield"
+  "readable_id": "weapon_shield_smallWoodenShield",
+  "sell": 3
  },
  {
   "amount": 1,
@@ -4413,7 +4964,8 @@
   "id": 4762805,
   "kind": "Item",
   "name": "Weapon Shield TheWall",
-  "readable_id": "weapon_shield_theWall"
+  "readable_id": "weapon_shield_theWall",
+  "sell": 231
  },
  {
   "amount": 1,
@@ -4421,7 +4973,8 @@
   "id": 4762806,
   "kind": "Item",
   "name": "Weapon Shield WoodenBoard",
-  "readable_id": "weapon_shield_woodenBoard"
+  "readable_id": "weapon_shield_woodenBoard",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -4429,7 +4982,8 @@
   "id": 4762807,
   "kind": "Item",
   "name": "Weapon Sling BattleSlingshot",
-  "readable_id": "weapon_sling_battleSlingshot"
+  "readable_id": "weapon_sling_battleSlingshot",
+  "sell": 78
  },
  {
   "amount": 1,
@@ -4437,7 +4991,8 @@
   "id": 4762808,
   "kind": "Item",
   "name": "Weapon Sling CoarseSling",
-  "readable_id": "weapon_sling_coarseSling"
+  "readable_id": "weapon_sling_coarseSling",
+  "sell": 4
  },
  {
   "amount": 1,
@@ -4445,7 +5000,8 @@
   "id": 4762809,
   "kind": "Item",
   "name": "Weapon Sling HeadSlingshot",
-  "readable_id": "weapon_sling_headSlingshot"
+  "readable_id": "weapon_sling_headSlingshot",
+  "sell": 44
  },
  {
   "amount": 1,
@@ -4453,7 +5009,8 @@
   "id": 4762810,
   "kind": "Item",
   "name": "Weapon Sling HeavySlingshot",
-  "readable_id": "weapon_sling_heavySlingshot"
+  "readable_id": "weapon_sling_heavySlingshot",
+  "sell": 28
  },
  {
   "amount": 1,
@@ -4461,7 +5018,8 @@
   "id": 4762811,
   "kind": "Item",
   "name": "Weapon Sling LegendarySlingshot",
-  "readable_id": "weapon_sling_legendarySlingshot"
+  "readable_id": "weapon_sling_legendarySlingshot",
+  "sell": 200
  },
  {
   "amount": 1,
@@ -4469,7 +5027,8 @@
   "id": 4762812,
   "kind": "Item",
   "name": "Weapon Sling SimpleSlingshot",
-  "readable_id": "weapon_sling_simpleSlingshot"
+  "readable_id": "weapon_sling_simpleSlingshot",
+  "sell": 13
  },
  {
   "amount": 1,
@@ -4477,7 +5036,8 @@
   "id": 4762818,
   "kind": "Item",
   "name": "Weapon Spear Ango",
-  "readable_id": "weapon_spear_ango"
+  "readable_id": "weapon_spear_ango",
+  "sell": 60
  },
  {
   "amount": 1,
@@ -4485,7 +5045,8 @@
   "id": 4762819,
   "kind": "Item",
   "name": "Weapon Spear BloodBlade",
-  "readable_id": "weapon_spear_bloodBlade"
+  "readable_id": "weapon_spear_bloodBlade",
+  "sell": 363
  },
  {
   "amount": 1,
@@ -4493,7 +5054,8 @@
   "id": 4762820,
   "kind": "Item",
   "name": "Weapon Spear BronzeSpear",
-  "readable_id": "weapon_spear_bronzeSpear"
+  "readable_id": "weapon_spear_bronzeSpear",
+  "sell": 75
  },
  {
   "amount": 1,
@@ -4501,7 +5063,8 @@
   "id": 4762822,
   "kind": "Item",
   "name": "Weapon Spear DeathRitualSpear",
-  "readable_id": "weapon_spear_deathRitualSpear"
+  "readable_id": "weapon_spear_deathRitualSpear",
+  "sell": 28
  },
  {
   "amount": 1,
@@ -4509,7 +5072,8 @@
   "id": 4762823,
   "kind": "Item",
   "name": "Weapon Spear Draugr",
-  "readable_id": "weapon_spear_draugr"
+  "readable_id": "weapon_spear_draugr",
+  "sell": 5
  },
  {
   "amount": 1,
@@ -4517,7 +5081,8 @@
   "id": 4762824,
   "kind": "Item",
   "name": "Weapon Spear FishSpear",
-  "readable_id": "weapon_spear_fishSpear"
+  "readable_id": "weapon_spear_fishSpear",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -4525,7 +5090,8 @@
   "id": 4762825,
   "kind": "Item",
   "name": "Weapon Spear Framea",
-  "readable_id": "weapon_spear_framea"
+  "readable_id": "weapon_spear_framea",
+  "sell": 56
  },
  {
   "amount": 1,
@@ -4533,7 +5099,8 @@
   "id": 4762826,
   "kind": "Item",
   "name": "Weapon Spear Georg",
-  "readable_id": "weapon_spear_georg"
+  "readable_id": "weapon_spear_georg",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -4541,7 +5108,8 @@
   "id": 4762827,
   "kind": "Item",
   "name": "Weapon Spear Ger",
-  "readable_id": "weapon_spear_ger"
+  "readable_id": "weapon_spear_ger",
+  "sell": 69
  },
  {
   "amount": 1,
@@ -4549,7 +5117,8 @@
   "id": 4762828,
   "kind": "Item",
   "name": "Weapon Spear HuntingSpear",
-  "readable_id": "weapon_spear_huntingSpear"
+  "readable_id": "weapon_spear_huntingSpear",
+  "sell": 18
  },
  {
   "amount": 1,
@@ -4557,7 +5126,8 @@
   "id": 4762829,
   "kind": "Item",
   "name": "Weapon Spear MessengerOfTheDivine",
-  "readable_id": "weapon_spear_messengerOfTheDivine"
+  "readable_id": "weapon_spear_messengerOfTheDivine",
+  "sell": 675
  },
  {
   "amount": 1,
@@ -4565,7 +5135,8 @@
   "id": 4762830,
   "kind": "Item",
   "name": "Weapon Spear Partisan",
-  "readable_id": "weapon_spear_partisan"
+  "readable_id": "weapon_spear_partisan",
+  "sell": 138
  },
  {
   "amount": 1,
@@ -4573,7 +5144,8 @@
   "id": 4762831,
   "kind": "Item",
   "name": "Weapon Spear Pilum",
-  "readable_id": "weapon_spear_pilum"
+  "readable_id": "weapon_spear_pilum",
+  "sell": 238
  },
  {
   "amount": 1,
@@ -4581,7 +5153,8 @@
   "id": 4762832,
   "kind": "Item",
   "name": "Weapon Spear Pitchfork",
-  "readable_id": "weapon_spear_pitchfork"
+  "readable_id": "weapon_spear_pitchfork",
+  "sell": 5
  },
  {
   "amount": 1,
@@ -4589,7 +5162,8 @@
   "id": 4762833,
   "kind": "Item",
   "name": "Weapon Spear ShortSpear",
-  "readable_id": "weapon_spear_shortSpear"
+  "readable_id": "weapon_spear_shortSpear",
+  "sell": 44
  },
  {
   "amount": 1,
@@ -4597,7 +5171,8 @@
   "id": 4762834,
   "kind": "Item",
   "name": "Weapon Spear SilverSpear",
-  "readable_id": "weapon_spear_silverSpear"
+  "readable_id": "weapon_spear_silverSpear",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -4605,7 +5180,8 @@
   "id": 4762835,
   "kind": "Item",
   "name": "Weapon Spear SimpleBronzeSpear",
-  "readable_id": "weapon_spear_simpleBronzeSpear"
+  "readable_id": "weapon_spear_simpleBronzeSpear",
+  "sell": 53
  },
  {
   "amount": 1,
@@ -4613,7 +5189,8 @@
   "id": 4762836,
   "kind": "Item",
   "name": "Weapon Spear Spear",
-  "readable_id": "weapon_spear_spear"
+  "readable_id": "weapon_spear_spear",
+  "sell": 88
  },
  {
   "amount": 1,
@@ -4621,7 +5198,8 @@
   "id": 4762837,
   "kind": "Item",
   "name": "Weapon Spear StoneSpear",
-  "readable_id": "weapon_spear_stoneSpear"
+  "readable_id": "weapon_spear_stoneSpear",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -4629,7 +5207,8 @@
   "id": 4762838,
   "kind": "Item",
   "name": "Weapon Spear TipOfDeath",
-  "readable_id": "weapon_spear_tipOfDeath"
+  "readable_id": "weapon_spear_tipOfDeath",
+  "sell": 263
  },
  {
   "amount": 1,
@@ -4637,7 +5216,8 @@
   "id": 4762839,
   "kind": "Item",
   "name": "Weapon Spear WingSpear",
-  "readable_id": "weapon_spear_wingSpear"
+  "readable_id": "weapon_spear_wingSpear",
+  "sell": 175
  },
  {
   "amount": 1,
@@ -4645,7 +5225,8 @@
   "id": 4762840,
   "kind": "Item",
   "name": "Weapon Spear WolfToothSpear",
-  "readable_id": "weapon_spear_wolfToothSpear"
+  "readable_id": "weapon_spear_wolfToothSpear",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -4653,7 +5234,8 @@
   "id": 4762841,
   "kind": "Item",
   "name": "Weapon Spear WoodenSpear",
-  "readable_id": "weapon_spear_woodenSpear"
+  "readable_id": "weapon_spear_woodenSpear",
+  "sell": 13
  },
  {
   "amount": 1,
@@ -4661,7 +5243,8 @@
   "id": 4762859,
   "kind": "Item",
   "name": "Weapon Sword AncientRitualSword",
-  "readable_id": "weapon_sword_ancientRitualSword"
+  "readable_id": "weapon_sword_ancientRitualSword",
+  "sell": 28
  },
  {
   "amount": 1,
@@ -4669,7 +5252,8 @@
   "id": 4762860,
   "kind": "Item",
   "name": "Weapon Sword AncientSword",
-  "readable_id": "weapon_sword_ancientSword"
+  "readable_id": "weapon_sword_ancientSword",
+  "sell": 6
  },
  {
   "amount": 1,
@@ -4677,7 +5261,8 @@
   "id": 4762861,
   "kind": "Item",
   "name": "Weapon Sword Baton",
-  "readable_id": "weapon_sword_baton"
+  "readable_id": "weapon_sword_baton",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -4685,7 +5270,8 @@
   "id": 4762862,
   "kind": "Item",
   "name": "Weapon Sword BattleBlade",
-  "readable_id": "weapon_sword_battleBlade"
+  "readable_id": "weapon_sword_battleBlade",
+  "sell": 238
  },
  {
   "amount": 1,
@@ -4693,7 +5279,8 @@
   "id": 4762863,
   "kind": "Item",
   "name": "Weapon Sword BerserkBlade",
-  "readable_id": "weapon_sword_berserkBlade"
+  "readable_id": "weapon_sword_berserkBlade",
+  "sell": 175
  },
  {
   "amount": 1,
@@ -4701,7 +5288,8 @@
   "id": 4762864,
   "kind": "Item",
   "name": "Weapon Sword Branch",
-  "readable_id": "weapon_sword_branch"
+  "readable_id": "weapon_sword_branch",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -4709,7 +5297,8 @@
   "id": 4762865,
   "kind": "Item",
   "name": "Weapon Sword Broadsword",
-  "readable_id": "weapon_sword_broadsword"
+  "readable_id": "weapon_sword_broadsword",
+  "sell": 28
  },
  {
   "amount": 1,
@@ -4717,7 +5306,8 @@
   "id": 4762866,
   "kind": "Item",
   "name": "Weapon Sword BronzeShortSword",
-  "readable_id": "weapon_sword_bronzeShortSword"
+  "readable_id": "weapon_sword_bronzeShortSword",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -4725,7 +5315,8 @@
   "id": 4762867,
   "kind": "Item",
   "name": "Weapon Sword BronzeShortSword Intro",
-  "readable_id": "weapon_sword_bronzeShortSword_intro"
+  "readable_id": "weapon_sword_bronzeShortSword_intro",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -4733,7 +5324,8 @@
   "id": 4762868,
   "kind": "Item",
   "name": "Weapon Sword Carimasoldsword",
-  "readable_id": "weapon_sword_carimasoldsword"
+  "readable_id": "weapon_sword_carimasoldsword",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -4741,7 +5333,8 @@
   "id": 4762869,
   "kind": "Item",
   "name": "Weapon Sword CoarseBroadsword",
-  "readable_id": "weapon_sword_coarseBroadsword"
+  "readable_id": "weapon_sword_coarseBroadsword",
+  "sell": 88
  },
  {
   "amount": 1,
@@ -4749,7 +5342,8 @@
   "id": 4762870,
   "kind": "Item",
   "name": "Weapon Sword CrudeIronBlade",
-  "readable_id": "weapon_sword_crudeIronBlade"
+  "readable_id": "weapon_sword_crudeIronBlade",
+  "sell": 75
  },
  {
   "amount": 1,
@@ -4757,7 +5351,8 @@
   "id": 4762871,
   "kind": "Item",
   "name": "Weapon Sword DraugrIronBlade",
-  "readable_id": "weapon_sword_draugrIronBlade"
+  "readable_id": "weapon_sword_draugrIronBlade",
+  "sell": 20
  },
  {
   "amount": 1,
@@ -4765,7 +5360,8 @@
   "id": 4762872,
   "kind": "Item",
   "name": "Weapon Sword GildedSickle",
-  "readable_id": "weapon_sword_gildedSickle"
+  "readable_id": "weapon_sword_gildedSickle",
+  "sell": 1
  },
  {
   "amount": 1,
@@ -4773,7 +5369,8 @@
   "id": 4762873,
   "kind": "Item",
   "name": "Weapon Sword Gladius",
-  "readable_id": "weapon_sword_gladius"
+  "readable_id": "weapon_sword_gladius",
+  "sell": 53
  },
  {
   "amount": 1,
@@ -4781,7 +5378,8 @@
   "id": 4762874,
   "kind": "Item",
   "name": "Weapon Sword Hawk'SClaw",
-  "readable_id": "weapon_sword_hawk'SClaw"
+  "readable_id": "weapon_sword_hawk'SClaw",
+  "sell": 69
  },
  {
   "amount": 1,
@@ -4789,7 +5387,8 @@
   "id": 4762875,
   "kind": "Item",
   "name": "Weapon Sword HeavyNailClub",
-  "readable_id": "weapon_sword_heavyNailClub"
+  "readable_id": "weapon_sword_heavyNailClub",
+  "sell": 15
  },
  {
   "amount": 1,
@@ -4797,7 +5396,8 @@
   "id": 4762876,
   "kind": "Item",
   "name": "Weapon Sword Jendra",
-  "readable_id": "weapon_sword_jendra"
+  "readable_id": "weapon_sword_jendra",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -4805,7 +5405,8 @@
   "id": 4762877,
   "kind": "Item",
   "name": "Weapon Sword Karottegladius",
-  "readable_id": "weapon_sword_karottegladius"
+  "readable_id": "weapon_sword_karottegladius",
+  "sell": 40
  },
  {
   "amount": 1,
@@ -4813,7 +5414,8 @@
   "id": 4762878,
   "kind": "Item",
   "name": "Weapon Sword Longsword",
-  "readable_id": "weapon_sword_longsword"
+  "readable_id": "weapon_sword_longsword",
+  "sell": 138
  },
  {
   "amount": 1,
@@ -4821,7 +5423,8 @@
   "id": 4762879,
   "kind": "Item",
   "name": "Weapon Sword MoonSword",
-  "readable_id": "weapon_sword_moonSword"
+  "readable_id": "weapon_sword_moonSword",
+  "sell": 675
  },
  {
   "amount": 1,
@@ -4829,7 +5432,8 @@
   "id": 4762880,
   "kind": "Item",
   "name": "Weapon Sword NailClub",
-  "readable_id": "weapon_sword_nailClub"
+  "readable_id": "weapon_sword_nailClub",
+  "sell": 13
  },
  {
   "amount": 1,
@@ -4837,7 +5441,8 @@
   "id": 4762881,
   "kind": "Item",
   "name": "Weapon Sword OldBronzeGladius",
-  "readable_id": "weapon_sword_oldBronzeGladius"
+  "readable_id": "weapon_sword_oldBronzeGladius",
+  "sell": 25
  },
  {
   "amount": 1,
@@ -4845,7 +5450,8 @@
   "id": 4762882,
   "kind": "Item",
   "name": "Weapon Sword RoughSword",
-  "readable_id": "weapon_sword_roughSword"
+  "readable_id": "weapon_sword_roughSword",
+  "sell": 18
  },
  {
   "amount": 1,
@@ -4853,7 +5459,8 @@
   "id": 4762883,
   "kind": "Item",
   "name": "Weapon Sword RuneSword",
-  "readable_id": "weapon_sword_runeSword"
+  "readable_id": "weapon_sword_runeSword",
+  "sell": 263
  },
  {
   "amount": 1,
@@ -4861,7 +5468,8 @@
   "id": 4762884,
   "kind": "Item",
   "name": "Weapon Sword ScavengingScimitar",
-  "readable_id": "weapon_sword_scavengingScimitar"
+  "readable_id": "weapon_sword_scavengingScimitar",
+  "sell": 56
  },
  {
   "amount": 1,
@@ -4869,7 +5477,8 @@
   "id": 4762885,
   "kind": "Item",
   "name": "Weapon Sword ShortSword",
-  "readable_id": "weapon_sword_shortSword"
+  "readable_id": "weapon_sword_shortSword",
+  "sell": 44
  },
  {
   "amount": 1,
@@ -4877,7 +5486,8 @@
   "id": 4762886,
   "kind": "Item",
   "name": "Weapon Sword Sword",
-  "readable_id": "weapon_sword_sword"
+  "readable_id": "weapon_sword_sword",
+  "sell": 60
  },
  {
   "amount": 1,
@@ -4885,7 +5495,8 @@
   "id": 4762887,
   "kind": "Item",
   "name": "Weapon Sword SwordOfNemeton",
-  "readable_id": "weapon_sword_swordOfNemeton"
+  "readable_id": "weapon_sword_swordOfNemeton",
+  "sell": 50
  },
  {
   "amount": 1,
@@ -4893,7 +5504,8 @@
   "id": 4762888,
   "kind": "Item",
   "name": "Weapon Sword SwordOfTheFaithful",
-  "readable_id": "weapon_sword_swordOfTheFaithful"
+  "readable_id": "weapon_sword_swordOfTheFaithful",
+  "sell": 363
  },
  {
   "amount": 1,
@@ -4901,6 +5513,7 @@
   "id": 4762889,
   "kind": "Item",
   "name": "Weapon Sword WarClub",
-  "readable_id": "weapon_sword_warClub"
+  "readable_id": "weapon_sword_warClub",
+  "sell": 5
  }
 ]

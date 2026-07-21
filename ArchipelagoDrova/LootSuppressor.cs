@@ -84,6 +84,15 @@ namespace ArchipelagoDrova
                 return true;
             }
 
+            // Items the game authors as keys without the key_ prefix (glyph stones, the Bygones seal
+            // stone, quest-gate props). Keys in all but name: suppressing one could lock whatever it
+            // opens. Mirrored by slot_is_protected in tools/gen_data.py.
+            var category = item.Category;
+            if (category != null && category.SubCategory == Il2CppDrova.Items.ItemSubCategory.Misc_Key)
+            {
+                return true;
+            }
+
             string readableId = item.ReadableId;
             if (string.IsNullOrEmpty(readableId))
             {

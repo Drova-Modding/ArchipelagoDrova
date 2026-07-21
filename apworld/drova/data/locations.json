@@ -2603,15 +2603,6 @@
   "area": "Cave",
   "category": "Chest",
   "classification": "default",
-  "id": 4806128,
-  "key": "3a942cf9-bc8a-4964-b586-d11485e797ee#slot3",
-  "kind": "ContainerSlot",
-  "name": "Cave - Chest 7 - Item 3"
- },
- {
-  "area": "Cave",
-  "category": "Chest",
-  "classification": "default",
   "id": 4800127,
   "key": "06f8383d-d5d8-447a-88bb-da18b00d52a8",
   "kind": "Container",
@@ -2715,15 +2706,6 @@
   "key": "d82ac8c6-515b-45af-b6fc-d070f8409476#slot2",
   "kind": "ContainerSlot",
   "name": "Cave - Container 13 - Item 2"
- },
- {
-  "area": "Cave",
-  "category": "Container",
-  "classification": "default",
-  "id": 4806432,
-  "key": "d82ac8c6-515b-45af-b6fc-d070f8409476#slot3",
-  "kind": "ContainerSlot",
-  "name": "Cave - Container 13 - Item 3"
  },
  {
   "area": "Cave",
@@ -5748,15 +5730,6 @@
   "key": "19efe1a3-8a78-4932-8bd5-f341f0e15d15#slot2",
   "kind": "ContainerSlot",
   "name": "Coniferous Forest - Container 45 - Item 2"
- },
- {
-  "area": "Coniferous Forest",
-  "category": "Container",
-  "classification": "default",
-  "id": 4806047,
-  "key": "19efe1a3-8a78-4932-8bd5-f341f0e15d15#slot3",
-  "kind": "ContainerSlot",
-  "name": "Coniferous Forest - Container 45 - Item 3"
  },
  {
   "area": "Coniferous Forest",
@@ -9349,15 +9322,6 @@
   "area": "Floodplain Forest",
   "category": "Chest",
   "classification": "default",
-  "id": 4806422,
-  "key": "d2199e8a-a22d-4a48-a69f-9cb688ebc269#slot4",
-  "kind": "ContainerSlot",
-  "name": "Floodplain Forest - Chest 2 - Item 4"
- },
- {
-  "area": "Floodplain Forest",
-  "category": "Chest",
-  "classification": "default",
   "id": 4801256,
   "key": "4056267f-8bf5-4b54-850b-cac173752588",
   "kind": "Container",
@@ -9398,15 +9362,6 @@
   "key": "fd766972-3956-42f1-95d1-baa805d216cf#slot3",
   "kind": "ContainerSlot",
   "name": "Floodplain Forest - Chest 21 - Item 3"
- },
- {
-  "area": "Floodplain Forest",
-  "category": "Chest",
-  "classification": "default",
-  "id": 4806497,
-  "key": "fd766972-3956-42f1-95d1-baa805d216cf#slot4",
-  "kind": "ContainerSlot",
-  "name": "Floodplain Forest - Chest 21 - Item 4"
  },
  {
   "area": "Floodplain Forest",
@@ -9896,15 +9851,6 @@
  },
  {
   "area": "Floodplain Forest",
-  "category": "Chest",
-  "classification": "default",
-  "id": 4806097,
-  "key": "31e108c8-9d12-48c6-938f-9e761e2a7ebd#slot4",
-  "kind": "ContainerSlot",
-  "name": "Floodplain Forest - Chest 9 - Item 4"
- },
- {
-  "area": "Floodplain Forest",
   "category": "Critter",
   "classification": "default",
   "id": 4802616,
@@ -9992,15 +9938,6 @@
   "key": "92cd70c7-29af-4440-86c3-4e702f8a5271#slot3",
   "kind": "ContainerSlot",
   "name": "Floodplain Forest - Container 14 - Item 3"
- },
- {
-  "area": "Floodplain Forest",
-  "category": "Container",
-  "classification": "default",
-  "id": 4806296,
-  "key": "92cd70c7-29af-4440-86c3-4e702f8a5271#slot4",
-  "kind": "ContainerSlot",
-  "name": "Floodplain Forest - Container 14 - Item 4"
  },
  {
   "area": "Floodplain Forest",
@@ -33560,15 +33497,6 @@
   "area": "Red Moor",
   "category": "Container",
   "classification": "default",
-  "id": 4806346,
-  "key": "a76a8844-5391-4dfd-9c3d-7550c784ebc4#slot5",
-  "kind": "ContainerSlot",
-  "name": "Red Moor - Container 16 - Item 5"
- },
- {
-  "area": "Red Moor",
-  "category": "Container",
-  "classification": "default",
   "id": 4801238,
   "key": "3f156475-2279-4335-8d45-29b4c8d86828",
   "kind": "Container",
@@ -38726,15 +38654,6 @@
   "area": "Riverbed",
   "category": "Chest",
   "classification": "default",
-  "id": 4806450,
-  "key": "df294d0f-3d88-46fb-897c-b52f0902732a#slot3",
-  "kind": "ContainerSlot",
-  "name": "Riverbed - Chest 1 - Item 3"
- },
- {
-  "area": "Riverbed",
-  "category": "Chest",
-  "classification": "default",
   "id": 4803171,
   "key": "a13617ad-3ef2-4a2e-9dd8-63a3c3401e89",
   "kind": "Container",
@@ -40562,15 +40481,6 @@
   "area": "Ruins",
   "category": "Chest",
   "classification": "default",
-  "id": 4806122,
-  "key": "38a546a8-2e8e-4aa3-bac0-59f851abc7cc#slot4",
-  "kind": "ContainerSlot",
-  "name": "Ruins - Chest 18 - Item 4"
- },
- {
-  "area": "Ruins",
-  "category": "Chest",
-  "classification": "default",
   "id": 4801240,
   "key": "3f52de3e-546e-4cad-8d5a-ed0022a48c78",
   "kind": "Container",
@@ -40584,15 +40494,6 @@
   "key": "3d573903-6b27-430a-98c4-c99c805bc310",
   "kind": "Container",
   "name": "Ruins - Chest 2"
- },
- {
-  "area": "Ruins",
-  "category": "Chest",
-  "classification": "default",
-  "id": 4806133,
-  "key": "3d573903-6b27-430a-98c4-c99c805bc310#slot2",
-  "kind": "ContainerSlot",
-  "name": "Ruins - Chest 2 - Item 2"
  },
  {
   "area": "Ruins",
@@ -41282,15 +41183,6 @@
   "area": "Ruins",
   "category": "Container",
   "classification": "default",
-  "id": 4806100,
-  "key": "32bf151e-b94c-409f-8156-9462ecedafa2#slot4",
-  "kind": "ContainerSlot",
-  "name": "Ruins - Container 13 - Item 4"
- },
- {
-  "area": "Ruins",
-  "category": "Container",
-  "classification": "default",
   "id": 4801689,
   "key": "579d151e-e76c-4c1e-9b8d-1bda4e250922",
   "kind": "Container",
@@ -41430,15 +41322,6 @@
   "key": "a7b564a4-b775-4abc-a3a5-77f9b6c32433#slot2",
   "kind": "ContainerSlot",
   "name": "Ruins - Container 4 - Item 2"
- },
- {
-  "area": "Ruins",
-  "category": "Container",
-  "classification": "default",
-  "id": 4806348,
-  "key": "a7b564a4-b775-4abc-a3a5-77f9b6c32433#slot3",
-  "kind": "ContainerSlot",
-  "name": "Ruins - Container 4 - Item 3"
  },
  {
   "area": "Ruins",
@@ -43546,15 +43429,6 @@
   "key": "f3305316-8bc5-422c-b373-65958218f18b#slot3",
   "kind": "ContainerSlot",
   "name": "The Pit - Chest 2 - Item 3"
- },
- {
-  "area": "The Pit",
-  "category": "Chest",
-  "classification": "default",
-  "id": 4806472,
-  "key": "f3305316-8bc5-422c-b373-65958218f18b#slot4",
-  "kind": "ContainerSlot",
-  "name": "The Pit - Chest 2 - Item 4"
  },
  {
   "area": "The Pit",

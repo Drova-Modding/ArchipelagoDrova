@@ -1,0 +1,10672 @@
+[
+ {
+  "name": "Teleporter_RedTower_Entrance_FourthFloor",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Entrance_FourthFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   30957.8,
+   28064.6
+  ],
+  "targetPos": {
+   "x": 31504.201171875,
+   "y": 31235.533203125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Entrance_FifthFloor",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Entrance_FifthFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   30894.8,
+   31269.4
+  ],
+  "targetPos": {
+   "x": 31168.615234375,
+   "y": 34375.01171875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": -1.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Mine_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Mine_Back"
+  ],
+  "pos": [
+   37942.0,
+   61977.0
+  ],
+  "targetPos": {
+   "x": 1853.267822265625,
+   "y": 6663.14501953125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_SmugglersCave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_SmugglersCave_Exit"
+  ],
+  "pos": [
+   15179.8,
+   50016.9
+  ],
+  "targetPos": {
+   "x": 1825.4959716796875,
+   "y": -7444.4755859375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_OwainCave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_OwainCave_Exit",
+   "Woodcamp"
+  ],
+  "pos": [
+   67920.0,
+   51639.0
+  ],
+  "targetPos": {
+   "x": 4569.8994140625,
+   "y": -1558.3529052734375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Tavern_ToUpstairs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Tavern_ToUpstairs"
+  ],
+  "pos": [
+   -1335.1,
+   -4641.5
+  ],
+  "targetPos": {
+   "x": 18662.630859375,
+   "y": 863.211669921875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_OwainCave_Entrance",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_OwainCave_Entrance",
+   "Woodcamp"
+  ],
+  "pos": [
+   4568.1,
+   -1574.0
+  ],
+  "targetPos": {
+   "x": 67920.546875,
+   "y": 51639.37890625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Entrance_FirstFloor",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Entrance_FirstFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   30837.8,
+   18644.1
+  ],
+  "targetPos": {
+   "x": 31472.09375,
+   "y": 24774.150390625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Entrance_ThirdFloor",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Entrance_ThirdFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   30851.2,
+   24817.3
+  ],
+  "targetPos": {
+   "x": 31535.06640625,
+   "y": 28036.751953125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Hallway_Low_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Hallway_Low_Back"
+  ],
+  "pos": [
+   51714.4,
+   48878.0
+  ],
+  "targetPos": {
+   "x": -41.9798583984375,
+   "y": 101.87680053710938
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Ruinenlager_Hallway_Low",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Ruinenlager_Hallway_Low"
+  ],
+  "pos": [
+   -39.9,
+   111.3
+  ],
+  "targetPos": {
+   "x": 51712.140625,
+   "y": 48875.00390625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Mine_Back_01",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Mine_Back_01"
+  ],
+  "pos": [
+   1825.0,
+   6658.0
+  ],
+  "targetPos": {
+   "x": 37935.91015625,
+   "y": 61974.8125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Druid_Cave_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Druid_Cave_Enter"
+  ],
+  "pos": [
+   5079.0,
+   -4539.0
+  ],
+  "targetPos": {
+   "x": 21520.65625,
+   "y": -2985.1328125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_UnderTheAcademy_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_UnderTheAcademy_Enter"
+  ],
+  "pos": [
+   -1001.8,
+   2904.3
+  ],
+  "targetPos": {
+   "x": 50953.984375,
+   "y": 51941.859375
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": -0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Bib_Etage0",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Bib_Etage0",
+   "Dungeons"
+  ],
+  "pos": [
+   2464.8,
+   -2129.2
+  ],
+  "targetPos": {
+   "x": -1920.4444580078125,
+   "y": 37272.7421875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Nemeton_Storeroom_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Nemeton_Storeroom_Enter"
+  ],
+  "pos": [
+   3836.6,
+   -5605.3
+  ],
+  "targetPos": {
+   "x": 18416.529296875,
+   "y": -2696.55810546875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Entrance",
+  "active": false,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Entrance",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   -505.5,
+   3424.0
+  ],
+  "targetPos": {
+   "x": 31135.453125,
+   "y": 17936.9140625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Tavern_ToDownStairs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "Teleporter_Tavern_ToDownStairs"
+  ],
+  "pos": [
+   18659.9,
+   852.9
+  ],
+  "targetPos": {
+   "x": -1331.3704833984375,
+   "y": -4654.51806640625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_Archive_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_Archive_Exit"
+  ],
+  "pos": [
+   19859.8,
+   50532.9
+  ],
+  "targetPos": {
+   "x": 105.04955291748047,
+   "y": -439.8862609863281
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins"
+  ],
+  "pos": [
+   -559.0,
+   48551.0
+  ],
+  "targetPos": {
+   "x": -4184.74755859375,
+   "y": 1016.71728515625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_Vorago",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_Vorago"
+  ],
+  "pos": [
+   36056.0,
+   8110.0
+  ],
+  "targetPos": {
+   "x": 3058.127197265625,
+   "y": -1426.3450927734375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins"
+  ],
+  "pos": [
+   19667.0,
+   47240.0
+  ],
+  "targetPos": {
+   "x": -3658.447998046875,
+   "y": -3210.88330078125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_ShadyDistrict",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_ShadyDistrict"
+  ],
+  "pos": [
+   50492.5,
+   48307.3
+  ],
+  "targetPos": {
+   "x": 47399.65625,
+   "y": 48967.12890625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_AuwaldCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_AuwaldCellar"
+  ],
+  "pos": [
+   23123.4,
+   50788.4
+  ],
+  "targetPos": {
+   "x": 4878.92919921875,
+   "y": 6194.3876953125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_AuwaldHill_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_AuwaldHill_Exit"
+  ],
+  "pos": [
+   21996.0,
+   50503.0
+  ],
+  "targetPos": {
+   "x": 2665.146728515625,
+   "y": 524.603759765625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_MineCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_MineCellar"
+  ],
+  "pos": [
+   26418.4,
+   50564.7
+  ],
+  "targetPos": {
+   "x": 3047.796630859375,
+   "y": 7127.62255859375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_SchlundCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_SchlundCellar",
+   "BloodBornCaves"
+  ],
+  "pos": [
+   13773.4,
+   14898.4
+  ],
+  "targetPos": {
+   "x": 7899.2119140625,
+   "y": 1301.156982421875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Ladder_RatCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Ladder_RatCellar"
+  ],
+  "pos": [
+   50928.15,
+   48089.2
+  ],
+  "targetPos": {
+   "x": -1104.8521728515625,
+   "y": 129.35804748535156
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_RotmoorCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_RotmoorCellar"
+  ],
+  "pos": [
+   29650.5,
+   50533.2
+  ],
+  "targetPos": {
+   "x": 1014.4296264648438,
+   "y": -4097.55810546875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_LunaTempleCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_LunaTempleCellar"
+  ],
+  "pos": [
+   32656.0,
+   50277.0
+  ],
+  "targetPos": {
+   "x": -2095.108642578125,
+   "y": -77.28521728515625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_LeuchtwaldCellarRight",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_LeuchtwaldCellarRight"
+  ],
+  "pos": [
+   14041.5,
+   47269.5
+  ],
+  "targetPos": {
+   "x": -2840.382568359375,
+   "y": 814.4364013671875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_HeideCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_HeideCellar"
+  ],
+  "pos": [
+   15443.1,
+   44420.5
+  ],
+  "targetPos": {
+   "x": -2391.154296875,
+   "y": -6728.21533203125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins_LeuchtwaldCellarLeft",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins_LeuchtwaldCellarLeft"
+  ],
+  "pos": [
+   13521.2,
+   47269.5
+  ],
+  "targetPos": {
+   "x": -3178.04736328125,
+   "y": 787.007568359375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_Ruins",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_Ruins"
+  ],
+  "pos": [
+   -816.0,
+   48552.0
+  ],
+  "targetPos": {
+   "x": -4476.17626953125,
+   "y": 1008.397705078125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Trapdoor_Ruins_LeuchtwaldCellarLeft",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Trapdoor_Ruins_LeuchtwaldCellarLeft"
+  ],
+  "pos": [
+   -3180.0,
+   827.0
+  ],
+  "targetPos": {
+   "x": 13524.138671875,
+   "y": 47234.2109375
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Trapdoor_MineCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Trapdoor_MineCellar"
+  ],
+  "pos": [
+   3050.0,
+   7146.0
+  ],
+  "targetPos": {
+   "x": 26418.40234375,
+   "y": 50524.5859375
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Trapdoor_Ruins",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Trapdoor_Ruins"
+  ],
+  "pos": [
+   -4208.0,
+   1041.0
+  ],
+  "targetPos": {
+   "x": -561.1070556640625,
+   "y": 48526.19921875
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Trapdoor_Ruins_LeuchtwaldCellarRight",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Trapdoor_Ruins_LeuchtwaldCellarRight"
+  ],
+  "pos": [
+   -2876.0,
+   793.0
+  ],
+  "targetPos": {
+   "x": 14034.736328125,
+   "y": 47241.89453125
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_MushroomCave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_MushroomCave_Exit"
+  ],
+  "pos": [
+   49007.9,
+   48750.8
+  ],
+  "targetPos": {
+   "x": 49019.64453125,
+   "y": 48550.86328125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_SpiderCave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_SpiderCave_Exit"
+  ],
+  "pos": [
+   26832.0,
+   42639.0
+  ],
+  "targetPos": {
+   "x": 26993.927734375,
+   "y": 42480.32421875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_RatCellar_Entrance",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_RatCellar_Entrance"
+  ],
+  "pos": [
+   51375.3,
+   48526.9
+  ],
+  "targetPos": {
+   "x": 51239.83203125,
+   "y": 48635.04296875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_SpiderCave_Entrance",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_SpiderCave_Entrance"
+  ],
+  "pos": [
+   26992.0,
+   42511.0
+  ],
+  "targetPos": {
+   "x": 26830.5546875,
+   "y": 42671.12109375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_MushroomCave_Entrance",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_MushroomCave_Entrance"
+  ],
+  "pos": [
+   49007.5,
+   48591.3
+  ],
+  "targetPos": {
+   "x": 49006.2421875,
+   "y": 48792.10546875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Perception_Trapdoor_RotmoorCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Perception_Trapdoor_RotmoorCellar"
+  ],
+  "pos": [
+   1010.0,
+   -4080.0
+  ],
+  "targetPos": {
+   "x": 29655.548828125,
+   "y": 50498.1953125
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Perception_Trapdoor_Ruins",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Perception_Trapdoor_Ruins"
+  ],
+  "pos": [
+   -4462.0,
+   1041.0
+  ],
+  "targetPos": {
+   "x": -815.0722045898438,
+   "y": 48527.66796875
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Perception_Trapdoor_Ruins_Archive_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Perception_Trapdoor_Ruins_Archive_Enter"
+  ],
+  "pos": [
+   105.0,
+   -410.0
+  ],
+  "targetPos": {
+   "x": 19860.625,
+   "y": 50504.00390625
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Perception_Trapdoor_HeideCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Perception_Trapdoor_HeideCellar"
+  ],
+  "pos": [
+   -2395.0,
+   -6693.0
+  ],
+  "targetPos": {
+   "x": 15441.306640625,
+   "y": 44385.78515625
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Perception_Trapdoor_AuwaldCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Perception_Trapdoor_AuwaldCellar"
+  ],
+  "pos": [
+   4862.0,
+   6204.0
+  ],
+  "targetPos": {
+   "x": 23122.919921875,
+   "y": 50747.9375
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Perception_Trapdoor_VoragoCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Perception_Trapdoor_VoragoCave"
+  ],
+  "pos": [
+   3057.0,
+   -1391.0
+  ],
+  "targetPos": {
+   "x": 36055.0859375,
+   "y": 8087.85546875
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Perception_Trapdoor_LunaTempleCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Perception_Trapdoor_LunaTempleCellar"
+  ],
+  "pos": [
+   -2096.0,
+   -48.0
+  ],
+  "targetPos": {
+   "x": 32657.1328125,
+   "y": 50257.83984375
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Perception_Trapdoor_Ruins_AuwaldHill_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Perception_Trapdoor_Ruins_AuwaldHill_Enter"
+  ],
+  "pos": [
+   2663.0,
+   556.0
+  ],
+  "targetPos": {
+   "x": 21996.64453125,
+   "y": 50476.80859375
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Trapdoor_RatCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Trapdoor_RatCellar"
+  ],
+  "pos": [
+   -1105.0,
+   146.0
+  ],
+  "targetPos": {
+   "x": 50929.546875,
+   "y": 48076.0546875
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Trapdoor_Harvey",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Trapdoor_Harvey"
+  ],
+  "pos": [
+   6448.0,
+   -4816.0
+  ],
+  "targetPos": {
+   "x": 19356.99609375,
+   "y": -3287.56201171875
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Trapdoor_ShadyDistrictWayIn",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Trapdoor_ShadyDistrictWayIn"
+  ],
+  "pos": [
+   47431.0,
+   48969.0
+  ],
+  "targetPos": {
+   "x": 50492.55859375,
+   "y": 48294.75390625
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Trapdoor_SchlundCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Trapdoor_SchlundCellar",
+   "BloodBornCaves"
+  ],
+  "pos": [
+   7926.0,
+   1303.0
+  ],
+  "targetPos": {
+   "x": 13767.7939453125,
+   "y": 14883.1875
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction_Ladder_NemetonWeaponCellar",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Interaction_Ladder_NemetonWeaponCellar"
+  ],
+  "pos": [
+   19356.0,
+   -3267.95
+  ],
+  "targetPos": {
+   "x": 6478.5859375,
+   "y": -4848.89990234375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_Cellar_Heide_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_Cellar_Heide_Enter"
+  ],
+  "pos": [
+   15696.0,
+   43661.0
+  ],
+  "targetPos": {
+   "x": 15730.6474609375,
+   "y": 43822.5546875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_CelticCave_Schlund_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_CelticCave_Schlund_Exit"
+  ],
+  "pos": [
+   32656.0,
+   47375.0
+  ],
+  "targetPos": {
+   "x": 33008.9140625,
+   "y": 47225.3125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_Finlay_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "HiddenPassage_Finlay_Exit"
+  ],
+  "pos": [
+   39727.0,
+   61743.0
+  ],
+  "targetPos": {
+   "x": 39791.578125,
+   "y": 61454.21484375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_UndergroundSea_Right_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_UndergroundSea_Right_Exit"
+  ],
+  "pos": [
+   30992.0,
+   43535.0
+  ],
+  "targetPos": {
+   "x": 30993.041015625,
+   "y": 43281.3125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_CelticCave_Schlund_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_CelticCave_Schlund_Enter"
+  ],
+  "pos": [
+   33008.0,
+   47247.0
+  ],
+  "targetPos": {
+   "x": 32655.013671875,
+   "y": 47412.55078125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_Finlay_Entrance",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ],
+  "chain": [
+   "HiddenPassage_Finlay_Entrance"
+  ],
+  "pos": [
+   39728.0,
+   61487.0
+  ],
+  "targetPos": {
+   "x": 39736.17578125,
+   "y": 61775.58984375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_Cellar_Heide_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_Cellar_Heide_Exit"
+  ],
+  "pos": [
+   15728.0,
+   43793.0
+  ],
+  "targetPos": {
+   "x": 15694.8017578125,
+   "y": 43632.1015625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_UndergroundSea_Right_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_UndergroundSea_Right_Enter"
+  ],
+  "pos": [
+   30992.0,
+   43311.0
+  ],
+  "targetPos": {
+   "x": 30991.6875,
+   "y": 43568.58984375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_RiverSecret_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_RiverSecret_Exit"
+  ],
+  "pos": [
+   63216.0,
+   51184.0
+  ],
+  "targetPos": {
+   "x": 63209.84375,
+   "y": 50956.6640625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_RiverSecret_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_RiverSecret_Enter"
+  ],
+  "pos": [
+   63249.0,
+   50991.0
+  ],
+  "targetPos": {
+   "x": 63216.65234375,
+   "y": 51227.59765625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_UndergroundSea_Left_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_UndergroundSea_Left_Exit"
+  ],
+  "pos": [
+   29936.0,
+   43343.0
+  ],
+  "targetPos": {
+   "x": 29970.771484375,
+   "y": 42998.08203125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_UndergroundSea_Left_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_UndergroundSea_Left_Enter"
+  ],
+  "pos": [
+   29968.0,
+   43023.0
+  ],
+  "targetPos": {
+   "x": 29936.03515625,
+   "y": 43375.9453125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "HiddenPassage_RatCellar_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "GuidComponent",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "HiddenPassage_RatCellar_Exit"
+  ],
+  "pos": [
+   51246.0,
+   48591.8
+  ],
+  "targetPos": {
+   "x": 51403.375,
+   "y": 48504.5859375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins"
+  ],
+  "pos": [
+   19667.0,
+   47245.75
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3998,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_RatCellar_Exit"
+  ],
+  "pos": [
+   51246.0,
+   48602.9
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3455,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_LeuchtwaldCellarLeft"
+  ],
+  "pos": [
+   13521.2,
+   47275.25
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3994,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_MushroomCave_Entrance"
+  ],
+  "pos": [
+   49007.5,
+   48581.3
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2512,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_PreCondition_QuestState",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Trapdoor_SchlundCellar",
+   "BloodBornCaves"
+  ],
+  "pos": [
+   7926.0,
+   1303.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2491,
+  "chain_classes": [
+   "DepotWrapperGuidComponent",
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Trapdoor_Harvey"
+  ],
+  "pos": [
+   6448.0,
+   -4816.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2548,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Ladder_RatCellar"
+  ],
+  "pos": [
+   50928.15,
+   48089.2
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2559,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_Crime",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Interaction_Trapdoor_MineCellar"
+  ],
+  "pos": [
+   3050.0,
+   7146.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3056,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_HeideCellar"
+  ],
+  "pos": [
+   15443.1,
+   44426.25
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3992,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_MushroomCave_Exit"
+  ],
+  "pos": [
+   49007.9,
+   48761.9
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2541,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_ShadyDistrict"
+  ],
+  "pos": [
+   50492.5,
+   48307.3
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2545,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_Vorago"
+  ],
+  "pos": [
+   36056.0,
+   8115.75
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 4000,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Trapdoor_ShadyDistrictWayIn"
+  ],
+  "pos": [
+   47431.0,
+   48969.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2486,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetDepotState",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Perception_Trapdoor_Ruins"
+  ],
+  "pos": [
+   -4462.0,
+   1041.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3977,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_SetGVar",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_RatCellar_Entrance"
+  ],
+  "pos": [
+   51375.3,
+   48516.9
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3089,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_Cellar_Heide_Exit"
+  ],
+  "pos": [
+   15728.0,
+   43804.1
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2481,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_UndergroundSea_Right_Enter"
+  ],
+  "pos": [
+   30992.0,
+   43301.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2498,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_RiverSecret_Exit"
+  ],
+  "pos": [
+   63216.0,
+   51195.1
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2465,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_UndergroundSea_Left_Enter"
+  ],
+  "pos": [
+   29968.0,
+   43013.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2478,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_RiverSecret_Enter"
+  ],
+  "pos": [
+   63249.0,
+   50981.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2474,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_UndergroundSea_Left_Exit"
+  ],
+  "pos": [
+   29936.0,
+   43354.1
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2472,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_Cellar_Heide_Enter"
+  ],
+  "pos": [
+   15696.0,
+   43651.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2550,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_CelticCave_Schlund_Exit"
+  ],
+  "pos": [
+   32656.0,
+   47386.1
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2556,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_Finlay_Exit"
+  ],
+  "pos": [
+   39727.0,
+   61754.1
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2508,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_Finlay_Entrance"
+  ],
+  "pos": [
+   39728.0,
+   61477.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2530,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_CelticCave_Schlund_Enter"
+  ],
+  "pos": [
+   33008.0,
+   47237.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2534,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_UndergroundSea_Right_Exit"
+  ],
+  "pos": [
+   30992.0,
+   43546.1
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2525,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_AuwaldHill_Exit"
+  ],
+  "pos": [
+   21996.0,
+   50508.75
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 4002,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_MineCellar"
+  ],
+  "pos": [
+   26418.4,
+   50570.45
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 4001,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_AuwaldCellar"
+  ],
+  "pos": [
+   23123.4,
+   50794.15
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3999,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_Archive_Exit"
+  ],
+  "pos": [
+   19859.8,
+   50538.65
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 4003,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins"
+  ],
+  "pos": [
+   -559.0,
+   48556.75
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 4004,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins"
+  ],
+  "pos": [
+   -816.0,
+   48557.75
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3995,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_LeuchtwaldCellarRight"
+  ],
+  "pos": [
+   14041.5,
+   47275.25
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3993,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_Ruins_RotmoorCellar"
+  ],
+  "pos": [
+   29650.5,
+   50538.95
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3996,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_LunaTempleCellar"
+  ],
+  "pos": [
+   32656.0,
+   50282.75
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3997,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_SchlundCellar",
+   "BloodBornCaves"
+  ],
+  "pos": [
+   13773.4,
+   14898.4
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2564,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_SpiderCave_Exit"
+  ],
+  "pos": [
+   26832.0,
+   42650.1
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2501,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "HiddenPassage_SpiderCave_Entrance"
+  ],
+  "pos": [
+   26992.0,
+   42501.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2516,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Perception_Trapdoor_VoragoCave"
+  ],
+  "pos": [
+   3057.0,
+   -1391.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3980,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Perception_Trapdoor_Ruins_AuwaldHill_Enter"
+  ],
+  "pos": [
+   2663.0,
+   556.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3981,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Perception_Trapdoor_LunaTempleCellar"
+  ],
+  "pos": [
+   -2096.0,
+   -48.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3982,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Perception_Trapdoor_AuwaldCellar"
+  ],
+  "pos": [
+   4862.0,
+   6204.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3979,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Perception_Trapdoor_HeideCellar"
+  ],
+  "pos": [
+   -2395.0,
+   -6693.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3983,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Perception_Trapdoor_RotmoorCellar"
+  ],
+  "pos": [
+   1010.0,
+   -4080.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3976,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Perception_Trapdoor_Ruins_Archive_Enter"
+  ],
+  "pos": [
+   105.0,
+   -410.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3978,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Interaction_Trapdoor_Ruins_LeuchtwaldCellarRight"
+  ],
+  "pos": [
+   -2876.0,
+   793.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3059,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Interaction_Trapdoor_Ruins"
+  ],
+  "pos": [
+   -4208.0,
+   1041.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3057,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction",
+   "Interaction_Trapdoor_Ruins_LeuchtwaldCellarLeft"
+  ],
+  "pos": [
+   -3180.0,
+   827.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 3058,
+  "chain_classes": [
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interact_Condition_Locked",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Trapdoor_RatCellar"
+  ],
+  "pos": [
+   -1105.0,
+   146.0
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2522,
+  "chain_classes": [
+   "DepotWrapperGuidComponent",
+   "Depot_Obs_ChangeSprite",
+   "Depot_Wrapper",
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Teleporter_Auwald_Kaserne_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Auwald_Kaserne_Exit"
+  ],
+  "pos": [
+   52069.4,
+   16980.8
+  ],
+  "targetPos": {
+   "x": 2745.607421875,
+   "y": 2294.902587890625
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_MushroomCave_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_MushroomCave_Back"
+  ],
+  "pos": [
+   48205.6,
+   48917.5
+  ],
+  "targetPos": {
+   "x": -2405.218017578125,
+   "y": 649.3352661132812
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RuinenexplorerSouthWest_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_RuinenexplorerSouthWest_Exit"
+  ],
+  "pos": [
+   47401.3,
+   46826.4
+  ],
+  "targetPos": {
+   "x": -2917.6474609375,
+   "y": -3574.310302734375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Market_Storage_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Market_Storage_Enter"
+  ],
+  "pos": [
+   3441.9,
+   -4266.0
+  ],
+  "targetPos": {
+   "x": 26366.666015625,
+   "y": 7036.7275390625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Moorlagerhof_Ruin_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Moorlagerhof_Ruin_Enter"
+  ],
+  "pos": [
+   9208.3,
+   -1641.6
+  ],
+  "targetPos": {
+   "x": 55088.30859375,
+   "y": 13047.822265625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Bib_Etage0_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Bib_Etage0_Back",
+   "Dungeons"
+  ],
+  "pos": [
+   -1923.0,
+   37300.0
+  ],
+  "targetPos": {
+   "x": 2464.692138671875,
+   "y": -2138.646728515625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Hippies_Shrinecave_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Hippies_Shrinecave_Enter"
+  ],
+  "pos": [
+   -2181.0,
+   -1393.5
+  ],
+  "targetPos": {
+   "x": -6222.86328125,
+   "y": -26633.173828125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BeautifulCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BeautifulCave"
+  ],
+  "pos": [
+   1335.9,
+   3883.4
+  ],
+  "targetPos": {
+   "x": 23472.423828125,
+   "y": 42198.90234375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Druid_Cave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Druid_Cave_Exit"
+  ],
+  "pos": [
+   21522.0,
+   -2997.0
+  ],
+  "targetPos": {
+   "x": 5078.19970703125,
+   "y": -4556.51904296875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BanditCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BanditCave"
+  ],
+  "pos": [
+   -2537.0,
+   1898.0
+  ],
+  "targetPos": {
+   "x": 29552.537109375,
+   "y": 46969.14453125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Market_Storage_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Market_Storage_Exit"
+  ],
+  "pos": [
+   26368.4,
+   7027.1
+  ],
+  "targetPos": {
+   "x": 3437.864990234375,
+   "y": -4318.88671875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BanditCave_back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BanditCave_back"
+  ],
+  "pos": [
+   29549.0,
+   46966.0
+  ],
+  "targetPos": {
+   "x": -2533.6025390625,
+   "y": 1886.3609619140625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BanditMine_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BanditMine_Enter"
+  ],
+  "pos": [
+   -1222.2,
+   -7535.6
+  ],
+  "targetPos": {
+   "x": 21624.919921875,
+   "y": 60615.7578125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_01_Enter_01",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_01_Enter_01"
+  ],
+  "pos": [
+   6906.0,
+   5256.0
+  ],
+  "targetPos": {
+   "x": 1680.5797119140625,
+   "y": 60951.14453125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Atlanterdungeon_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Atlanterdungeon_Exit"
+  ],
+  "pos": [
+   17874.0,
+   29916.0
+  ],
+  "targetPos": {
+   "x": -3430.48974609375,
+   "y": -2485.201171875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_TavernCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_TavernCave"
+  ],
+  "pos": [
+   -1545.1,
+   -4340.7
+  ],
+  "targetPos": {
+   "x": 50256.015625,
+   "y": 45558.8515625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_MineShaft_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_MineShaft_Back"
+  ],
+  "pos": [
+   69680.12,
+   50047.11
+  ],
+  "targetPos": {
+   "x": 6938.19091796875,
+   "y": 1385.649169921875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Moorlagerhof_Ruin_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Moorlagerhof_Ruin_Exit"
+  ],
+  "pos": [
+   55073.0,
+   13104.0
+  ],
+  "targetPos": {
+   "x": 9215.4873046875,
+   "y": -1600.2135009765625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_UndergroundSea_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_UndergroundSea_Back"
+  ],
+  "pos": [
+   30381.3,
+   42711.6
+  ],
+  "targetPos": {
+   "x": 9018.6171875,
+   "y": 297.3056335449219
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Ripper",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Ripper"
+  ],
+  "pos": [
+   5082.75,
+   2452.19
+  ],
+  "targetPos": {
+   "x": 68080.796875,
+   "y": 53175.140625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Exit_ThirdFloor",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Exit_ThirdFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31553.7,
+   28101.3
+  ],
+  "targetPos": {
+   "x": 30863.677734375,
+   "y": 24792.005859375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_SmugglersCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_SmugglersCave"
+  ],
+  "pos": [
+   1823.1,
+   -7440.2
+  ],
+  "targetPos": {
+   "x": 15183.9462890625,
+   "y": 50038.8671875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Bib_Etage2",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Bib_Etage2",
+   "Dungeons"
+  ],
+  "pos": [
+   4294.0,
+   36713.0
+  ],
+  "targetPos": {
+   "x": 9553.0,
+   "y": 37415.11328125
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": -0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_Entry__Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_Entry__Enter"
+  ],
+  "pos": [
+   6106.0,
+   3881.0
+  ],
+  "targetPos": {
+   "x": 368.8465576171875,
+   "y": 59510.93359375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_FrogCave_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_FrogCave_Back"
+  ],
+  "pos": [
+   18377.6,
+   43923.8
+  ],
+  "targetPos": {
+   "x": 1.0917516946792603,
+   "y": -5812.02197265625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_CelticCave_Schlund_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_CelticCave_Schlund_Exit"
+  ],
+  "pos": [
+   32338.0,
+   46716.0
+  ],
+  "targetPos": {
+   "x": 5850.9326171875,
+   "y": 2889.802978515625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BanditMine_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BanditMine_Exit"
+  ],
+  "pos": [
+   21616.7,
+   60571.6
+  ],
+  "targetPos": {
+   "x": -1213.05224609375,
+   "y": -7585.869140625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_TavernCave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_TavernCave_Exit"
+  ],
+  "pos": [
+   50253.0,
+   45551.0
+  ],
+  "targetPos": {
+   "x": -1541.4688720703125,
+   "y": -4341.70751953125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_FrogCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_FrogCave"
+  ],
+  "pos": [
+   -1.0,
+   -5811.5
+  ],
+  "targetPos": {
+   "x": 18384.92578125,
+   "y": 43926.75390625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_HeideCave_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_HeideCave_Back"
+  ],
+  "pos": [
+   14859.3,
+   43571.1
+  ],
+  "targetPos": {
+   "x": -2847.115478515625,
+   "y": -7668.26904296875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_UnderTheAcademy_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_UnderTheAcademy_Exit"
+  ],
+  "pos": [
+   50987.4,
+   51938.5
+  ],
+  "targetPos": {
+   "x": -971.7579956054688,
+   "y": 2908.87744140625
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Exit_FourthFloor",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Exit_FourthFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31499.2,
+   31285.8
+  ],
+  "targetPos": {
+   "x": 30929.736328125,
+   "y": 28067.521484375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_Exit_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_Exit_Back"
+  ],
+  "pos": [
+   -1330.5,
+   59292.2
+  ],
+  "targetPos": {
+   "x": 4826.02099609375,
+   "y": 4298.017578125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_River_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_River_Enter"
+  ],
+  "pos": [
+   1920.4,
+   -2900.0
+  ],
+  "targetPos": {
+   "x": 63281.05859375,
+   "y": 49943.10546875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_LostCave_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_LostCave_Back"
+  ],
+  "pos": [
+   63487.4,
+   57050.3
+  ],
+  "targetPos": {
+   "x": 4218.2861328125,
+   "y": 5641.92333984375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BearCave_Left_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BearCave_Left_Exit"
+  ],
+  "pos": [
+   -12060.7,
+   -26834.8
+  ],
+  "targetPos": {
+   "x": -2597.340576171875,
+   "y": -2998.302490234375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Leuchtwald_CityCave_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Leuchtwald_CityCave_Back"
+  ],
+  "pos": [
+   10351.0,
+   48436.0
+  ],
+  "targetPos": {
+   "x": -4325.3525390625,
+   "y": -470.40655517578125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_Exit"
+  ],
+  "pos": [
+   4826.8,
+   4313.03
+  ],
+  "targetPos": {
+   "x": -1327.7196044921875,
+   "y": 59286.71875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Leuchtwald_Ebercave_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Leuchtwald_Ebercave_Enter"
+  ],
+  "pos": [
+   -3972.7,
+   -4465.8
+  ],
+  "targetPos": {
+   "x": 23154.55078125,
+   "y": 46966.5234375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Atlanterdungeon_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Atlanterdungeon_Enter"
+  ],
+  "pos": [
+   -3428.0,
+   -2481.0
+  ],
+  "targetPos": {
+   "x": 17872.322265625,
+   "y": 29912.884765625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Auwald_Kaserne_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Auwald_Kaserne_Enter"
+  ],
+  "pos": [
+   2707.8,
+   2295.3
+  ],
+  "targetPos": {
+   "x": 52047.28515625,
+   "y": 16973.310546875
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": -0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_River_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_River_Exit"
+  ],
+  "pos": [
+   63273.0,
+   49942.0
+  ],
+  "targetPos": {
+   "x": 1921.7685546875,
+   "y": -2898.62353515625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_ShadyDistrict_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_ShadyDistrict_Enter"
+  ],
+  "pos": [
+   -2082.45,
+   295.0
+  ],
+  "targetPos": {
+   "x": 47184.4765625,
+   "y": 48599.0703125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_WayToPlateau",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_WayToPlateau"
+  ],
+  "pos": [
+   -2063.0,
+   61208.0
+  ],
+  "targetPos": {
+   "x": 5273.458984375,
+   "y": 6057.58154296875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_HeideCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_HeideCave"
+  ],
+  "pos": [
+   -2852.1,
+   -7669.3
+  ],
+  "targetPos": {
+   "x": 14864.5595703125,
+   "y": 43575.0625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_02_Enter_02",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_02_Enter_02"
+  ],
+  "pos": [
+   6297.0,
+   4746.0
+  ],
+  "targetPos": {
+   "x": 1008.8665771484375,
+   "y": 60918.8125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Cave_Name",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Cave_Name"
+  ],
+  "pos": [
+   2202.9,
+   5011.1
+  ],
+  "targetPos": {
+   "x": 63073.38671875,
+   "y": 57077.15234375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Ripper_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Ripper_Back"
+  ],
+  "pos": [
+   68080.7,
+   53175.3
+  ],
+  "targetPos": {
+   "x": 5082.33056640625,
+   "y": 2442.494873046875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Deathswamp_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Deathswamp_Enter",
+   "BloodBornCaves"
+  ],
+  "pos": [
+   9737.33,
+   -6134.74
+  ],
+  "targetPos": {
+   "x": 15120.4921875,
+   "y": 14903.4150390625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Brutus_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Brutus_Exit"
+  ],
+  "pos": [
+   45372.0,
+   16110.0
+  ],
+  "targetPos": {
+   "x": 618.5567626953125,
+   "y": 3773.885986328125
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": 0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BearCave_Right",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BearCave_Right"
+  ],
+  "pos": [
+   87.6,
+   -2612.3
+  ],
+  "targetPos": {
+   "x": -1007.0386352539062,
+   "y": -26793.060546875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BrutusEnter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BrutusEnter"
+  ],
+  "pos": [
+   654.8,
+   3767.6
+  ],
+  "targetPos": {
+   "x": 45462.6484375,
+   "y": 16068.947265625
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": -0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_SpiderCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_SpiderCave"
+  ],
+  "pos": [
+   4086.8,
+   6888.7
+  ],
+  "targetPos": {
+   "x": 26320.41015625,
+   "y": 42295.12109375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_SpiderCave_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_SpiderCave_Back"
+  ],
+  "pos": [
+   26317.7,
+   42294.0
+  ],
+  "targetPos": {
+   "x": 4090.72265625,
+   "y": 6890.4501953125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_EliteRipper",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_EliteRipper"
+  ],
+  "pos": [
+   3738.31,
+   -1834.15
+  ],
+  "targetPos": {
+   "x": 66480.515625,
+   "y": 51223.02734375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_CelticCave_Schlund_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_CelticCave_Schlund_Enter"
+  ],
+  "pos": [
+   5850.0,
+   2897.0
+  ],
+  "targetPos": {
+   "x": 32338.90625,
+   "y": 46718.921875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Hippies_Shrinecave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Hippies_Shrinecave_Exit"
+  ],
+  "pos": [
+   -6222.0,
+   -26633.8
+  ],
+  "targetPos": {
+   "x": -2181.55419921875,
+   "y": -1398.658203125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Exit_FirstFloor",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Exit_FirstFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31489.8,
+   24872.5
+  ],
+  "targetPos": {
+   "x": 30831.33984375,
+   "y": 18627.228515625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Bib_Etage2_FromKaserne_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Bib_Etage2_FromKaserne_Back",
+   "Dungeons"
+  ],
+  "pos": [
+   9670.0,
+   40131.0
+  ],
+  "targetPos": {
+   "x": 2335.65869140625,
+   "y": -2204.909423828125
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Boarcave_Forest",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Boarcave_Forest"
+  ],
+  "pos": [
+   -358.1,
+   -3442.2
+  ],
+  "targetPos": {
+   "x": 21712.294921875,
+   "y": 46998.87109375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Bib_Etage2_FromKaserne",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Bib_Etage2_FromKaserne",
+   "Dungeons"
+  ],
+  "pos": [
+   2263.4,
+   -2214.2
+  ],
+  "targetPos": {
+   "x": 9720.5419921875,
+   "y": 40136.36328125
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": -0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_ShadyDistrict_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_ShadyDistrict_Exit"
+  ],
+  "pos": [
+   47176.0,
+   48579.0
+  ],
+  "targetPos": {
+   "x": -2086.231201171875,
+   "y": 298.6820068359375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Exit_FifthFloor_02",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Exit_FifthFloor_02",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31068.1,
+   34503.8
+  ],
+  "targetPos": {
+   "x": 30895.650390625,
+   "y": 31262.65234375
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BearCave_Left",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BearCave_Left"
+  ],
+  "pos": [
+   -2600.3,
+   -2996.8
+  ],
+  "targetPos": {
+   "x": -12047.5361328125,
+   "y": -26825.1328125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RuinenexplorerSouthWest_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_RuinenexplorerSouthWest_Enter"
+  ],
+  "pos": [
+   -2918.8,
+   -3569.3
+  ],
+  "targetPos": {
+   "x": 47407.8828125,
+   "y": 46838.93359375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_MenhirCave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_MenhirCave_Exit"
+  ],
+  "pos": [
+   -2449.0,
+   61750.0
+  ],
+  "targetPos": {
+   "x": 5338.21630859375,
+   "y": 5256.76318359375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_02_Exit_02",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_02_Exit_02"
+  ],
+  "pos": [
+   1020.0,
+   60888.0
+  ],
+  "targetPos": {
+   "x": 6296.7939453125,
+   "y": 4734.712890625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Nemeton_Storeroom_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Nemeton_Storeroom_Exit"
+  ],
+  "pos": [
+   18415.3,
+   -2708.8
+  ],
+  "targetPos": {
+   "x": 3833.726806640625,
+   "y": -5588.08642578125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Leuchtwald_Ruincave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Leuchtwald_Ruincave_Exit"
+  ],
+  "pos": [
+   19922.0,
+   46844.0
+  ],
+  "targetPos": {
+   "x": -3205.4736328125,
+   "y": -3573.974365234375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Leuchtwald_Ebercave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Leuchtwald_Ebercave_Exit"
+  ],
+  "pos": [
+   23154.5,
+   46970.3
+  ],
+  "targetPos": {
+   "x": -3974.50830078125,
+   "y": -4469.49755859375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_LostCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_LostCave"
+  ],
+  "pos": [
+   4218.3,
+   5646.6
+  ],
+  "targetPos": {
+   "x": 63489.6796875,
+   "y": 57045.08203125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Deathswamp_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Deathswamp_Exit",
+   "BloodBornCaves"
+  ],
+  "pos": [
+   15143.14,
+   14958.95
+  ],
+  "targetPos": {
+   "x": 9728.287109375,
+   "y": -6165.5615234375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Druid_Leader_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Druid_Leader_Exit"
+  ],
+  "pos": [
+   23055.0,
+   7255.6
+  ],
+  "targetPos": {
+   "x": 4274.7548828125,
+   "y": -4365.33447265625
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_EliteRipper_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_EliteRipper_Back"
+  ],
+  "pos": [
+   66482.0,
+   51220.0
+  ],
+  "targetPos": {
+   "x": 3738.239013671875,
+   "y": -1845.6500244140625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Bib_Etage2_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Bib_Etage2_Back",
+   "Dungeons"
+  ],
+  "pos": [
+   9526.0,
+   37411.0
+  ],
+  "targetPos": {
+   "x": 4256.38330078125,
+   "y": 36733.05859375
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": 0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_HiddenCave01_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_HiddenCave01_Back"
+  ],
+  "pos": [
+   63090.0,
+   53333.0
+  ],
+  "targetPos": {
+   "x": 1401.912109375,
+   "y": -437.13336181640625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Shrine_Shrinecave_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Shrine_Shrinecave_Enter"
+  ],
+  "pos": [
+   -2596.9,
+   -1138.4
+  ],
+  "targetPos": {
+   "x": -6670.96435546875,
+   "y": -26345.08984375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Cave_FoxExit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Cave_FoxExit"
+  ],
+  "pos": [
+   -40867.84,
+   55085.05
+  ],
+  "targetPos": {
+   "x": 6618.4560546875,
+   "y": 554.9556884765625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon Right Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon Right Exit"
+  ],
+  "pos": [
+   26387.0,
+   46937.0
+  ],
+  "targetPos": {
+   "x": 7738.7265625,
+   "y": 5864.998046875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_Entry_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_Entry_Exit"
+  ],
+  "pos": [
+   367.0,
+   59511.0
+  ],
+  "targetPos": {
+   "x": 6105.52880859375,
+   "y": 3881.285400390625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Herbalist_Cave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Herbalist_Cave_Exit"
+  ],
+  "pos": [
+   11980.0,
+   50091.3
+  ],
+  "targetPos": {
+   "x": 6464.65771484375,
+   "y": -2291.87451171875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Leuchtwald_Shrinecave_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Leuchtwald_Shrinecave_Enter"
+  ],
+  "pos": [
+   -3172.9,
+   -1108.2
+  ],
+  "targetPos": {
+   "x": -7278.349609375,
+   "y": -26344.8828125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_UndergroundSea",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_UndergroundSea"
+  ],
+  "pos": [
+   9015.8,
+   300.2
+  ],
+  "targetPos": {
+   "x": 30384.63671875,
+   "y": 42710.9765625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_RedTower_Exit_FifthFloor_01",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_RedTower_Exit_FifthFloor_01",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31356.8,
+   34500.5
+  ],
+  "targetPos": {
+   "x": 30895.431640625,
+   "y": 31262.87109375
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_MineShaft",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_MineShaft"
+  ],
+  "pos": [
+   6936.55,
+   1384.48
+  ],
+  "targetPos": {
+   "x": 69680.2421875,
+   "y": 50039.07421875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Leuchtwald_Shrinecave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Leuchtwald_Shrinecave_Exit"
+  ],
+  "pos": [
+   -7277.5,
+   -26348.9
+  ],
+  "targetPos": {
+   "x": -3174.211181640625,
+   "y": -1109.8778076171875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_VoragoCave_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_VoragoCave_Back"
+  ],
+  "pos": [
+   36078.0,
+   7159.0
+  ],
+  "targetPos": {
+   "x": 3100.896484375,
+   "y": -1813.9677734375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_HiddenCave01",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_HiddenCave01"
+  ],
+  "pos": [
+   1401.6,
+   -437.3
+  ],
+  "targetPos": {
+   "x": 63088.33203125,
+   "y": 53334.88671875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Druid_Leader_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Druid_Leader_Enter"
+  ],
+  "pos": [
+   4216.9,
+   -4339.7
+  ],
+  "targetPos": {
+   "x": 23051.57421875,
+   "y": 7253.62255859375
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Cave_NAME_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Cave_NAME_Back"
+  ],
+  "pos": [
+   63071.3,
+   57084.2
+  ],
+  "targetPos": {
+   "x": 2202.099853515625,
+   "y": 5002.06103515625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Bib_Etage1_Back",
+  "active": false,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Bib_Etage1_Back",
+   "Dungeons"
+  ],
+  "pos": [
+   4193.1,
+   38187.0
+  ],
+  "targetPos": {
+   "x": -2515.0380859375,
+   "y": 37642.12109375
+  },
+  "moveDir": {
+   "x": 1.0,
+   "y": 0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_01_Exit_01",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_01_Exit_01"
+  ],
+  "pos": [
+   1675.0,
+   60937.0
+  ],
+  "targetPos": {
+   "x": 6905.4326171875,
+   "y": 5257.87255859375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Shrine_Shrinecave_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Shrine_Shrinecave_Exit"
+  ],
+  "pos": [
+   -6670.5,
+   -26348.8
+  ],
+  "targetPos": {
+   "x": -2597.714599609375,
+   "y": -1142.113037109375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon Right Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon Right Enter"
+  ],
+  "pos": [
+   7741.0,
+   5856.6
+  ],
+  "targetPos": {
+   "x": 26385.712890625,
+   "y": 46935.08984375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BeautifulCave_Back",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BeautifulCave_Back"
+  ],
+  "pos": [
+   23468.2,
+   42197.8
+  ],
+  "targetPos": {
+   "x": 1338.6953125,
+   "y": 3882.094970703125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Leuchtwald_CityCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Leuchtwald_CityCave"
+  ],
+  "pos": [
+   -4329.6,
+   -470.8
+  ],
+  "targetPos": {
+   "x": 10352.490234375,
+   "y": 48439.00390625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_MushroomCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_MushroomCave"
+  ],
+  "pos": [
+   -2408.3,
+   652.6
+  ],
+  "targetPos": {
+   "x": 48208.734375,
+   "y": 48918.8203125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BearCave_Right_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BearCave_Right_Exit"
+  ],
+  "pos": [
+   -1011.5,
+   -26800.4
+  ],
+  "targetPos": {
+   "x": 90.21578979492188,
+   "y": -2614.69384765625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_HerbalistCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_HerbalistCave"
+  ],
+  "pos": [
+   6460.8,
+   -2292.4
+  ],
+  "targetPos": {
+   "x": 11984.8837890625,
+   "y": 50102.80078125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_WayToPlateau_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_WayToPlateau_Exit"
+  ],
+  "pos": [
+   5274.0,
+   6056.0
+  ],
+  "targetPos": {
+   "x": -2063.163818359375,
+   "y": 61207.1015625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_AuwaldDungeon_MenhirCave_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_AuwaldDungeon_MenhirCave_Enter"
+  ],
+  "pos": [
+   5338.0,
+   5254.0
+  ],
+  "targetPos": {
+   "x": -2447.280517578125,
+   "y": 61750.97265625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_BoarCave_Forest_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_BoarCave_Forest_Exit"
+  ],
+  "pos": [
+   21707.1,
+   46988.4
+  ],
+  "targetPos": {
+   "x": -358.0734558105469,
+   "y": -3445.583740234375
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_FoxCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_FoxCave"
+  ],
+  "pos": [
+   6616.11,
+   556.05
+  ],
+  "targetPos": {
+   "x": -40869.0,
+   "y": 55124.5
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Leuchtwald_RuinCave_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Leuchtwald_RuinCave_Enter"
+  ],
+  "pos": [
+   -3204.8,
+   -3567.0
+  ],
+  "targetPos": {
+   "x": 19920.25,
+   "y": 46838.9296875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_CityDungeon_Exit",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_CityDungeon_Exit"
+  ],
+  "pos": [
+   654.7,
+   46697.4
+  ],
+  "targetPos": {
+   "x": -3654.824951171875,
+   "y": 1311.899658203125
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_CityDungeon_Enter",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_CityDungeon_Enter"
+  ],
+  "pos": [
+   -3655.0,
+   1329.0
+  ],
+  "targetPos": {
+   "x": 671.6146850585938,
+   "y": 46715.40625
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": -1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_Bib_Etage1",
+  "active": false,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_Bib_Etage1",
+   "Dungeons"
+  ],
+  "pos": [
+   -2537.5,
+   37642.6
+  ],
+  "targetPos": {
+   "x": 4124.10986328125,
+   "y": 38142.3203125
+  },
+  "moveDir": {
+   "x": -1.0,
+   "y": -0.5
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Teleporter_VoragoCave",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ],
+  "chain": [
+   "Teleporter_VoragoCave"
+  ],
+  "pos": [
+   3098.0,
+   -1811.0
+  ],
+  "targetPos": {
+   "x": 36081.859375,
+   "y": 7166.36669921875
+  },
+  "moveDir": {
+   "x": 0.0,
+   "y": 1.0
+  },
+  "targetMoveDir": {
+   "x": 0.0,
+   "y": 0.0
+  },
+  "chain_classes": []
+ },
+ {
+  "name": "Interaction",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "Interact_Bhvr_AbortOnDamage",
+   "Interact_Bhvr_CrimeOnBlockingInteraction",
+   "Interact_Bhvr_FeedbackOutline",
+   "Interact_Bhvr_Teleport",
+   "Interact_Condition_IsInRoom",
+   "Interaction"
+  ],
+  "chain": [
+   "Interaction",
+   "Interact_Port",
+   "Interaction_Ladder_NemetonWeaponCellar"
+  ],
+  "pos": [
+   19356.0,
+   -3267.95
+  ],
+  "interact_mode": 1,
+  "interact_tp_ref": 2561,
+  "chain_classes": [
+   "GuidComponent",
+   "InteractableTrigger",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BanditCave_back"
+  ],
+  "pos": [
+   29549.0,
+   46966.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2941,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Market_Storage_Exit"
+  ],
+  "pos": [
+   26368.4,
+   7027.1
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2940,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BanditCave"
+  ],
+  "pos": [
+   -2537.0,
+   1898.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2939,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Druid_Cave_Exit"
+  ],
+  "pos": [
+   21522.0,
+   -2997.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2938,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BeautifulCave"
+  ],
+  "pos": [
+   1335.9,
+   3883.4
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2937,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Hippies_Shrinecave_Enter"
+  ],
+  "pos": [
+   -2181.0,
+   -1393.5
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2936,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Bib_Etage0_Back",
+   "Dungeons"
+  ],
+  "pos": [
+   -1923.0,
+   37300.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2935,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Moorlagerhof_Ruin_Enter"
+  ],
+  "pos": [
+   9208.3,
+   -1641.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2934,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Market_Storage_Enter"
+  ],
+  "pos": [
+   3441.9,
+   -4266.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2933,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RuinenexplorerSouthWest_Exit"
+  ],
+  "pos": [
+   47401.3,
+   46826.4
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2932,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_MushroomCave_Back"
+  ],
+  "pos": [
+   48205.6,
+   48917.5
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2931,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Auwald_Kaserne_Exit"
+  ],
+  "pos": [
+   52069.4,
+   16980.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2930,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Ruinenlager_Hallway_Low"
+  ],
+  "pos": [
+   -39.9,
+   111.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2949,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Moorlagerhof_Ruin_Exit"
+  ],
+  "pos": [
+   55073.0,
+   13104.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2948,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_MineShaft_Back"
+  ],
+  "pos": [
+   69680.12,
+   50047.11
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2947,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_TavernCave"
+  ],
+  "pos": [
+   -1545.1,
+   -4340.7
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2946,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Atlanterdungeon_Exit"
+  ],
+  "pos": [
+   17874.0,
+   29916.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2945,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_01_Enter_01"
+  ],
+  "pos": [
+   6906.0,
+   5256.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2944,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Mine_Back_01"
+  ],
+  "pos": [
+   1825.0,
+   6658.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2943,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BanditMine_Enter"
+  ],
+  "pos": [
+   -1222.2,
+   -7535.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2942,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_UnderTheAcademy_Exit"
+  ],
+  "pos": [
+   50987.4,
+   51938.5
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2963,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_HeideCave_Back"
+  ],
+  "pos": [
+   14859.3,
+   43571.1
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2962,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_FrogCave"
+  ],
+  "pos": [
+   -1.0,
+   -5811.5
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2961,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_TavernCave_Exit"
+  ],
+  "pos": [
+   50253.0,
+   45551.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2960,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BanditMine_Exit"
+  ],
+  "pos": [
+   21616.7,
+   60571.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2959,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_CelticCave_Schlund_Exit"
+  ],
+  "pos": [
+   32338.0,
+   46716.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2958,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_FrogCave_Back"
+  ],
+  "pos": [
+   18377.6,
+   43923.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2957,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_Entry__Enter"
+  ],
+  "pos": [
+   6106.0,
+   3881.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2956,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Tavern_ToDownStairs"
+  ],
+  "pos": [
+   18659.9,
+   852.9
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2955,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Bib_Etage2",
+   "Dungeons"
+  ],
+  "pos": [
+   4294.0,
+   36713.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2954,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_SmugglersCave"
+  ],
+  "pos": [
+   1823.1,
+   -7440.2
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2953,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Exit_ThirdFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31553.7,
+   28101.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2952,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Ripper"
+  ],
+  "pos": [
+   5082.75,
+   2452.19
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2951,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_UndergroundSea_Back"
+  ],
+  "pos": [
+   30381.3,
+   42711.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2950,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Leuchtwald_Ebercave_Enter"
+  ],
+  "pos": [
+   -3972.7,
+   -4465.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2973,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_UnderTheAcademy_Enter"
+  ],
+  "pos": [
+   -1001.8,
+   2904.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2972,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_Exit"
+  ],
+  "pos": [
+   4826.8,
+   4313.03
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2971,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Leuchtwald_CityCave_Back"
+  ],
+  "pos": [
+   10351.0,
+   48436.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2970,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BearCave_Left_Exit"
+  ],
+  "pos": [
+   -12060.7,
+   -26834.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2969,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_LostCave_Back"
+  ],
+  "pos": [
+   63487.4,
+   57050.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2968,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_River_Enter"
+  ],
+  "pos": [
+   1920.4,
+   -2900.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2967,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_Exit_Back"
+  ],
+  "pos": [
+   -1330.5,
+   59292.2
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2966,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Exit_FourthFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31499.2,
+   31285.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2965,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Nemeton_Storeroom_Enter"
+  ],
+  "pos": [
+   3836.6,
+   -5605.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2964,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_SpiderCave_Back"
+  ],
+  "pos": [
+   26317.7,
+   42294.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2990,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_SpiderCave"
+  ],
+  "pos": [
+   4086.8,
+   6888.7
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2989,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BrutusEnter"
+  ],
+  "pos": [
+   654.8,
+   3767.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2988,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BearCave_Right"
+  ],
+  "pos": [
+   87.6,
+   -2612.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2987,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Brutus_Exit"
+  ],
+  "pos": [
+   45372.0,
+   16110.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2986,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Deathswamp_Enter",
+   "BloodBornCaves"
+  ],
+  "pos": [
+   9737.33,
+   -6134.74
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2985,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Ripper_Back"
+  ],
+  "pos": [
+   68080.7,
+   53175.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2984,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Cave_Name"
+  ],
+  "pos": [
+   2202.9,
+   5011.1
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2983,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Bib_Etage0",
+   "Dungeons"
+  ],
+  "pos": [
+   2464.8,
+   -2129.2
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2982,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_02_Enter_02"
+  ],
+  "pos": [
+   6297.0,
+   4746.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2981,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Entrance_FifthFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   30894.8,
+   31269.4
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2980,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_HeideCave"
+  ],
+  "pos": [
+   -2852.1,
+   -7669.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2979,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_WayToPlateau"
+  ],
+  "pos": [
+   -2063.0,
+   61208.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2978,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_ShadyDistrict_Enter"
+  ],
+  "pos": [
+   -2082.45,
+   295.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2977,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_River_Exit"
+  ],
+  "pos": [
+   63273.0,
+   49942.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2976,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Auwald_Kaserne_Enter"
+  ],
+  "pos": [
+   2707.8,
+   2295.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2975,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Atlanterdungeon_Enter"
+  ],
+  "pos": [
+   -3428.0,
+   -2481.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2974,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Mine_Back"
+  ],
+  "pos": [
+   37942.0,
+   61977.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3006,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Nemeton_Storeroom_Exit"
+  ],
+  "pos": [
+   18415.3,
+   -2708.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3005,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_02_Exit_02"
+  ],
+  "pos": [
+   1020.0,
+   60888.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3004,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_MenhirCave_Exit"
+  ],
+  "pos": [
+   -2449.0,
+   61750.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3003,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RuinenexplorerSouthWest_Enter"
+  ],
+  "pos": [
+   -2918.8,
+   -3569.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3002,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BearCave_Left"
+  ],
+  "pos": [
+   -2600.3,
+   -2996.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3001,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Entrance_FourthFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   30957.8,
+   28064.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3000,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Exit_FifthFloor_02",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31068.1,
+   34503.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2999,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_ShadyDistrict_Exit"
+  ],
+  "pos": [
+   47176.0,
+   48579.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2998,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Bib_Etage2_FromKaserne",
+   "Dungeons"
+  ],
+  "pos": [
+   2263.4,
+   -2214.2
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2997,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Boarcave_Forest"
+  ],
+  "pos": [
+   -358.1,
+   -3442.2
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2996,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Bib_Etage2_FromKaserne_Back",
+   "Dungeons"
+  ],
+  "pos": [
+   9670.0,
+   40131.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2995,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Exit_FirstFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31489.8,
+   24872.5
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2994,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Hippies_Shrinecave_Exit"
+  ],
+  "pos": [
+   -6222.0,
+   -26633.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2993,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_CelticCave_Schlund_Enter"
+  ],
+  "pos": [
+   5850.0,
+   2897.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2992,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_EliteRipper"
+  ],
+  "pos": [
+   3738.31,
+   -1834.15
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 2991,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Druid_Leader_Enter"
+  ],
+  "pos": [
+   4216.9,
+   -4339.7
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3032,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Entrance_FirstFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   30837.8,
+   18644.1
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3031,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_HiddenCave01"
+  ],
+  "pos": [
+   1401.6,
+   -437.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3030,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_VoragoCave_Back"
+  ],
+  "pos": [
+   36078.0,
+   7159.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3029,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Leuchtwald_Shrinecave_Exit"
+  ],
+  "pos": [
+   -7277.5,
+   -26348.9
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3028,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_MineShaft"
+  ],
+  "pos": [
+   6936.55,
+   1384.48
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3027,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Exit_FifthFloor_01",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   31356.8,
+   34500.5
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3026,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_UndergroundSea"
+  ],
+  "pos": [
+   9015.8,
+   300.2
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3025,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Leuchtwald_Shrinecave_Enter"
+  ],
+  "pos": [
+   -3172.9,
+   -1108.2
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3024,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Herbalist_Cave_Exit"
+  ],
+  "pos": [
+   11980.0,
+   50091.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3023,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_Entry_Exit"
+  ],
+  "pos": [
+   367.0,
+   59511.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3022,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon Right Exit"
+  ],
+  "pos": [
+   26387.0,
+   46937.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3021,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Entrance_ThirdFloor",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   30851.2,
+   24817.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3020,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_RedTower_Entrance",
+   "RedTowerTeleporters"
+  ],
+  "pos": [
+   -505.5,
+   3424.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3019,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Cave_FoxExit"
+  ],
+  "pos": [
+   -40867.84,
+   55085.05
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3018,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Druid_Cave_Enter"
+  ],
+  "pos": [
+   5079.0,
+   -4539.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3017,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Shrine_Shrinecave_Enter"
+  ],
+  "pos": [
+   -2596.9,
+   -1138.4
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3016,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Hallway_Low_Back"
+  ],
+  "pos": [
+   51714.4,
+   48878.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3015,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_HiddenCave01_Back"
+  ],
+  "pos": [
+   63090.0,
+   53333.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3014,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Bib_Etage2_Back",
+   "Dungeons"
+  ],
+  "pos": [
+   9526.0,
+   37411.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3013,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_EliteRipper_Back"
+  ],
+  "pos": [
+   66482.0,
+   51220.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3012,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Druid_Leader_Exit"
+  ],
+  "pos": [
+   23055.0,
+   7255.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3011,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Deathswamp_Exit",
+   "BloodBornCaves"
+  ],
+  "pos": [
+   15143.14,
+   14958.95
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3010,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_LostCave"
+  ],
+  "pos": [
+   4218.3,
+   5646.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3009,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Leuchtwald_Ebercave_Exit"
+  ],
+  "pos": [
+   23154.5,
+   46970.3
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3008,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Leuchtwald_Ruincave_Exit"
+  ],
+  "pos": [
+   19922.0,
+   46844.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3007,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_VoragoCave"
+  ],
+  "pos": [
+   3098.0,
+   -1811.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3055,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_SmugglersCave_Exit"
+  ],
+  "pos": [
+   15179.8,
+   50016.9
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3054,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Bib_Etage1",
+   "Dungeons"
+  ],
+  "pos": [
+   -2537.5,
+   37642.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3053,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_CityDungeon_Enter"
+  ],
+  "pos": [
+   -3655.0,
+   1329.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3052,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_CityDungeon_Exit"
+  ],
+  "pos": [
+   654.7,
+   46697.4
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3051,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Leuchtwald_RuinCave_Enter"
+  ],
+  "pos": [
+   -3204.8,
+   -3567.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3050,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_FoxCave"
+  ],
+  "pos": [
+   6616.11,
+   556.05
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3049,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BoarCave_Forest_Exit"
+  ],
+  "pos": [
+   21707.1,
+   46988.4
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3048,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_MenhirCave_Enter"
+  ],
+  "pos": [
+   5338.0,
+   5254.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3047,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_WayToPlateau_Exit"
+  ],
+  "pos": [
+   5274.0,
+   6056.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3046,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_OwainCave_Entrance",
+   "Woodcamp"
+  ],
+  "pos": [
+   4568.1,
+   -1574.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3045,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_HerbalistCave"
+  ],
+  "pos": [
+   6460.8,
+   -2292.4
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3044,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_OwainCave_Exit",
+   "Woodcamp"
+  ],
+  "pos": [
+   67920.0,
+   51639.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3043,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Tavern_ToUpstairs"
+  ],
+  "pos": [
+   -1335.1,
+   -4641.5
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3042,
+  "chain_classes": [
+   "GuidComponent",
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter",
+   "TeleporterGuidComponent"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BearCave_Right_Exit"
+  ],
+  "pos": [
+   -1011.5,
+   -26800.4
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3041,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_MushroomCave"
+  ],
+  "pos": [
+   -2408.3,
+   652.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3040,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Leuchtwald_CityCave"
+  ],
+  "pos": [
+   -4329.6,
+   -470.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3039,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_BeautifulCave_Back"
+  ],
+  "pos": [
+   23468.2,
+   42197.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3038,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon Right Enter"
+  ],
+  "pos": [
+   7741.0,
+   5856.6
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3037,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Shrine_Shrinecave_Exit"
+  ],
+  "pos": [
+   -6670.5,
+   -26348.8
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3036,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_AuwaldDungeon_01_Exit_01"
+  ],
+  "pos": [
+   1675.0,
+   60937.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3035,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Bib_Etage1_Back",
+   "Dungeons"
+  ],
+  "pos": [
+   4193.1,
+   38187.0
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3034,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ },
+ {
+  "name": "Bhvrs",
+  "active": true,
+  "scene": "",
+  "bundle": "05d29acaae3edd5d8debb0cdfaab3c0e.bundle",
+  "classes": [
+   "HitReceiveBhvr_OW_Teleporter"
+  ],
+  "chain": [
+   "Bhvrs",
+   "Teleporter_Cave_NAME_Back"
+  ],
+  "pos": [
+   63071.3,
+   57084.2
+  ],
+  "cooldown": -1.0,
+  "trigger": {
+   "_operations": []
+  },
+  "hit_tp_ref": 3033,
+  "chain_classes": [
+   "HitReceiveHandler",
+   "OW_ChunkedObject_Virtual",
+   "OW_Teleporter"
+  ]
+ }
+]

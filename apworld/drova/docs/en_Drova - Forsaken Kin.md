@@ -36,6 +36,11 @@ shopping sends checks. Traders are faction-split like quests, so only your facti
 And you can turn milestones of enemy kills into checks (Enemy Kill Checks). Defeated enemies do not drop Archipelago
 items directly, but every so many kills sends a check, so combat itself becomes a source of checks.
 
+Finally, Randomize Teleporters is an entrance shuffle: 36 of the game's two-way cave links are shuffled among each
+other, so a cave mouth may lead into a different cave than in vanilla. Links stay two-way - you can always walk back
+out the way you came in, so no placement can strand you. Story-critical transitions (the Red Tower, the Library, both
+factions' home interiors and quest dungeons) always keep their vanilla connections.
+
 ## What items can appear in other players' worlds?
 
 Anything Drova has that can be handed to you:

@@ -2,5636 +2,10144 @@
  "Note_BanditMine": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "Raven Mask": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 12
  },
  "Test_Armor_Foot": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "Test_Armor_Full": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "Test_Armor_Head": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "Test_Armor_Leg": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "Test_Armor_LowHead": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "Test_Armor_WithoutBhvr": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "Test_Armor_WithoutStats": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "armor_chest_bandit_T1": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 50,
+  "sub": 11
  },
  "armor_chest_bandit_T2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 11
  },
  "armor_chest_bandit_T4": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 11
  },
  "armor_chest_banshee": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 28
  },
  "armor_chest_draugr": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 28
  },
  "armor_chest_draugr_brutus": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 28
  },
  "armor_chest_draugr_dagger": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 28
  },
  "armor_chest_draugr_mage": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 28
  },
  "armor_chest_draugr_spear": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 28
  },
  "armor_chest_druid_atlanter": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 200,
+  "sub": 11
  },
  "armor_chest_heavy_atlanter": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 200,
+  "sub": 11
  },
  "armor_chest_leather_magielager_name": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 11
  },
  "armor_chest_leather_name": {
   "buy": 750,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 150,
+  "sub": 11
  },
  "armor_chest_leather_strong_name": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 200,
+  "sub": 11
  },
  "armor_chest_leather_strong_name_player": {
   "buy": 1500,
   "cat": 0,
-  "sell": 300
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 300,
+  "sub": 11
  },
  "armor_chest_lendha_dylara": {
   "buy": 1000,
   "cat": 0,
-  "sell": 125
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 125,
+  "sub": 11
  },
  "armor_chest_lendha_heavy_name": {
   "buy": 1200,
   "cat": 0,
-  "sell": 240
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 240,
+  "sub": 11
  },
  "armor_chest_lendha_name": {
   "buy": 1200,
   "cat": 0,
-  "sell": 240
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 240,
+  "sub": 11
  },
  "armor_chest_light_atlanter": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 200,
+  "sub": 11
  },
  "armor_chest_manshee": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 28
  },
  "armor_chest_miner_name": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 1,
+  "rarity": 0,
+  "sell": 40,
+  "sub": 11
  },
  "armor_chest_nemeton_chief_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 11
  },
  "armor_chest_nemeton_craftsman_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 11
  },
  "armor_chest_nemeton_guardian_druid_name": {
   "buy": 1800,
   "cat": 0,
-  "sell": 350
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 350,
+  "sub": 11
  },
  "armor_chest_nemeton_guardian_heavy_name": {
   "buy": 1800,
   "cat": 0,
-  "sell": 350
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 350,
+  "sub": 11
  },
  "armor_chest_nemeton_guardian_light_name": {
   "buy": 1800,
   "cat": 0,
-  "sell": 350
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 350,
+  "sub": 11
  },
  "armor_chest_nemeton_merchant_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 11
  },
  "armor_chest_nemeton_social_name": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 1,
+  "rarity": 0,
+  "sell": 50,
+  "sub": 11
  },
  "armor_chest_ruinenlager_chief_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 11
  },
  "armor_chest_ruinenlager_fighter_druid_name": {
   "buy": 1800,
   "cat": 0,
-  "sell": 350
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 350,
+  "sub": 11
  },
  "armor_chest_ruinenlager_fighter_fight_name": {
   "buy": 1800,
   "cat": 0,
-  "sell": 350
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 350,
+  "sub": 11
  },
  "armor_chest_ruinenlager_fighter_heavy_name": {
   "buy": 1800,
   "cat": 0,
-  "sell": 350
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 350,
+  "sub": 11
  },
  "armor_chest_ruinenlager_gladiator": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 11
  },
  "armor_chest_ruinenlager_gladiator_noeffect": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 11
  },
  "armor_chest_ruinenlager_heavy_name": {
   "buy": 1200,
   "cat": 0,
-  "sell": 240
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 240,
+  "sub": 11
  },
  "armor_chest_ruinenlager_name": {
   "buy": 1200,
   "cat": 0,
-  "sell": 240
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 240,
+  "sub": 11
  },
  "armor_chest_shirt_ragged_name": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 1,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 11
  },
  "armor_chest_tunic_name": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 11
  },
  "armor_chest_tunic_noble_name": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 100,
+  "sub": 11
  },
  "armor_chest_tunic_ragged_2": {
   "buy": 350,
   "cat": 0,
-  "sell": 70
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 70,
+  "sub": 11
  },
  "armor_druid_intro": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 28
  },
  "armor_feet_shoe_lost": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "armor_underwear_chest": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 30
  },
  "beard_big_chin": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_chin_mustache": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_draugr": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_empty": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_forked": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_full_braided_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_full_braided_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_full_short": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_full_short_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_full_voluminous_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_full_voluminous_long": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_long_mustache_chin_long": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_long_split": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_mustache_big": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_mustache_small": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_partial_big": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_partial_forked": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_partial_neck": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_partial_short_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_partial_short_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_partial_spiky": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_spikey": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_three_accessoires": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_two_small_braid": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_twobraided_chin": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "beard_whiskers": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "cons_Familiar_Firefly": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 34
  },
  "cons_flow_aggressiveCry": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 27
  },
  "cons_flow_aggressiveCry_npc": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_bady_scream_shockwave": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 10,
+  "sub": 27
  },
  "cons_flow_battleCry": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 27
  },
  "cons_flow_blink": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 27
  },
  "cons_flow_bloodRage": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_bullRush": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_bullRush_bady": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_conflagration": {
   "buy": 350,
   "cat": 0,
-  "sell": 70
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 70,
+  "sub": 27
  },
  "cons_flow_conflagration_npc_totarget": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 40,
+  "sub": 26
  },
  "cons_flow_conjure_ada_npc": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_conjure_ada_npc_fake": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_conjure_ada_npc_instant": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_conjure_dunkle_npc": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_conjure_insects": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_conjure_insects_ebru": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_conjure_pack": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_conjure_rats": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_conjure_ripper": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_conjure_ripper_ebru": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_dash": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 27
  },
  "cons_flow_diemo_bramble": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_diemo_conjureboars": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_diemo_explodingshrooms": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_diemo_throwflux": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_energyProjectile": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_execute": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 10,
+  "sub": 27
  },
  "cons_flow_ferventCry": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 10,
+  "sub": 27
  },
  "cons_flow_fireCry": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_flowForm": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 20,
+  "sub": 27
  },
  "cons_flow_fogForm": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 20,
+  "sub": 27
  },
  "cons_flow_heavyBlow": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 10,
+  "sub": 27
  },
  "cons_flow_heavyBlow_bady": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_infection": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 10,
+  "sub": 27
  },
  "cons_flow_infection_bady": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_jero_Blink": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_jero_FireZones": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_jero_finisher": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_jero_lightning": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_magicNuke": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_magicVision": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 15,
+  "sub": 27
  },
  "cons_flow_molvina_crowAttack": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_molvina_finisher": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_molvina_root_aoe": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 40,
+  "sub": 27
  },
  "cons_flow_molvina_thunder": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_molvina_thunder_onplayer": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_natureSpirit_npc": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_obsidianSpear": {
   "buy": 350,
   "cat": 0,
-  "sell": 70
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 70,
+  "sub": 27
  },
  "cons_flow_pierce": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 10,
+  "sub": 27
  },
  "cons_flow_root_aoe": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 40,
+  "sub": 27
  },
  "cons_flow_root_cone": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 30,
+  "sub": 27
  },
  "cons_flow_shockingBlow": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 10,
+  "sub": 27
  },
  "cons_flow_shockingBlow_bady": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 27
  },
  "cons_flow_spartanKick": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 10,
+  "sub": 27
  },
  "cons_flow_thunderstorm": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 27
  },
  "cons_flow_venomCry": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 20,
+  "sub": 27
  },
  "cons_flow_whirlingEnergy": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 40,
+  "sub": 27
  },
  "cons_flow_wound": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 27
  },
  "consumable_potion_aiheal": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 16
  },
  "consumable_potion_darkbrew_healing": {
   "buy": 80,
   "cat": 0,
-  "sell": 16
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 16,
+  "sub": 16
  },
  "deco1_dirt_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_dirt_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_dirt_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_druid_eyes": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_earring_big": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_earring_big_glass": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_earring_small": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_earring_small_glass": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_eyepatch": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_feathers_red": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_none": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_piercing_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_piercing_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_scar_cheek_left": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_scar_cheek_right": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_scar_eye_left": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_scar_eye_right": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_scar_forehead_big": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_scar_forehead_small": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_tattoo_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_tattoo_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco1_tattoo_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_dirt_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_dirt_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_dirt_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_druid_eyes": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_earring_big": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_earring_big_glass": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_earring_small": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_earring_small_glass": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_eyepatch": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_feathers_red": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_none": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_piercing_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_piercing_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_scar_cheek_left": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_scar_cheek_right": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_scar_eye_left": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_scar_eye_right": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_scar_forehead_big": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_scar_forehead_small": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_tattoo_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_tattoo_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco2_tattoo_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_dirt_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_dirt_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_dirt_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_druid_eyes": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_earring_big": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_earring_big_glass": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_earring_small": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_earring_small_glass": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_eyepatch": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_feathers_red": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_none": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_piercing_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_piercing_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_scar_cheek_left": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_scar_cheek_right": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_scar_eye_left": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_scar_eye_right": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_scar_forehead_big": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_scar_forehead_small": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_tattoo_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_tattoo_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "deco_tattoo_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "flow_aggressiveCry": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_ballista": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_battleCry": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_battleCry_npc": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 25
  },
  "flow_blast": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 5,
+  "sell": 25,
+  "sub": 26
  },
  "flow_blink": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_blink_brutus": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 29
  },
  "flow_blink_brutus_ada": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 29
  },
  "flow_blink_draugr": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 29
  },
  "flow_bloodRage": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_bruntShot": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_bullRush": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_conflagration": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_conjure_insects": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 1,
+  "sub": 26
  },
  "flow_conjure_pack": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 1,
+  "sub": 26
  },
  "flow_conjure_rats": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 1,
+  "sub": 26
  },
  "flow_conjure_spiritCall": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 5,
+  "sell": 1,
+  "sub": 26
  },
  "flow_cyclone": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_dash": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_dashStab": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_energyProjectile": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_execute": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_ferventCry": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_fireCry": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_flowForm": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_fogForm": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_graspingRoots": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 5,
+  "sell": 1,
+  "sub": 26
  },
  "flow_heavyBlow": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_infection": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_magicNuke": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_magicVision": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_natureTouch": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 5,
+  "sell": 1,
+  "sub": 26
  },
  "flow_obsidianSpear": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_pierce": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_poisonArrow": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_revive_brutus": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 29
  },
  "flow_ricochet": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_root_aoe": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_root_cone": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_shockingBlow": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_spartanKick": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "flow_spiritShot": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 5,
+  "sell": 25,
+  "sub": 26
  },
  "flow_sunder": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_thunderstorm": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_travelForm": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 5,
+  "sell": 1,
+  "sub": 26
  },
  "flow_venomCry": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_whirlingEnergy": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 26
  },
  "flow_wound": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 4,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 25
  },
  "hair_bald": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_balding_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_balding_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_balding_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_balding_4": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_braided_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_braided_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_combed_back": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_curvy": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_lowbun": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_openandbun": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_parted_with_bun": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_ponytail": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_sidebraids": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_sidecut_braided": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_smooth": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_smooth_ponytail": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_updo": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_voluminous": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_voluminous_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_voluminous_ponytail_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_long_voluminous_ponytail_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_mask_backdrop": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_shaggy": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_short_curvy_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_short_curvy_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_short_sidecut": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_short_spiky": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_short_spiky_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_short_voluminous": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_short_voluminous_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "hair_sidecut_ponytail": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 31
  },
  "helmet_antlers_name": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 12
  },
  "helmet_atlanter_champion": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 200,
+  "sub": 12
  },
  "helmet_atlanter_name": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 12
  },
  "helmet_barbarian_name": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 12
  },
  "helmet_blindfold_dark_name": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 12
  },
  "helmet_blindfold_light_name": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 12
  },
  "helmet_brutus_name": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 30,
+  "sub": 12
  },
  "helmet_cauldron_name": {
   "buy": 40,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 8,
+  "sub": 12
  },
  "helmet_crown_name": {
   "buy": 350,
   "cat": 0,
-  "sell": 70
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 70,
+  "sub": 12
  },
  "helmet_draugr_dark_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 12
  },
  "helmet_draugr_mage_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 12
  },
  "helmet_draugr_silver_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 12
  },
  "helmet_earprotection_name": {
   "buy": 40,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 12
  },
  "helmet_ede_bandage": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 12
  },
  "helmet_gladiator_name": {
   "buy": 300,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 60,
+  "sub": 12
  },
  "helmet_hood_bandit_name": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 12
  },
  "helmet_hood_bandit_t4_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 12
  },
  "helmet_ironwings_name": {
   "buy": 200,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 12
  },
  "helmet_leathercap_name": {
   "buy": 60,
   "cat": 0,
-  "sell": 12
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 12,
+  "sub": 12
  },
  "helmet_legionare_name": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 200,
+  "sub": 12
  },
  "helmet_mask_arrogant_name": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 20,
+  "sub": 12
  },
  "helmet_mask_death_name": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 12
  },
  "helmet_mask_empathetic_name": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 20,
+  "sub": 12
  },
  "helmet_mask_frog_name": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 12
  },
  "helmet_mask_obito_name": {
   "buy": 300,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 60,
+  "sub": 12
  },
  "helmet_mask_rational_name": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 20,
+  "sub": 12
  },
  "helmet_mask_sheep_name": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 12
  },
  "helmet_mask_vodoo_name": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 160,
+  "sub": 12
  },
  "helmet_mushroom_name": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 12
  },
  "helmet_nemeton_guard1_name": {
   "buy": 350,
   "cat": 0,
-  "sell": 70
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 70,
+  "sub": 12
  },
  "helmet_nemeton_guard2_name": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 100,
+  "sub": 12
  },
  "helmet_none": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 12
  },
  "helmet_onion_name": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 12
  },
  "helmet_ruinenlager_guard1_name": {
   "buy": 350,
   "cat": 0,
-  "sell": 70
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 70,
+  "sub": 12
  },
  "helmet_ruinenlager_guard2_name": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 100,
+  "sub": 12
  },
  "helmet_straw_name": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 12
  },
  "item_AldriksNote": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_BanditsOnTheBridge": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_HiddenTreasure": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 23
  },
  "item_KendrickGoodsBook": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_KendrickHideout": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_KendrickSagar": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_KendrickThreat": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_Map_Treasure_Forest": {
   "buy": 150,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 23
  },
  "item_Map_Treasure_Garden": {
   "buy": 150,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 23
  },
  "item_Map_Treasure_GeorgsFarm": {
   "buy": 150,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 23
  },
  "item_Map_Treasure_Heath": {
   "buy": 150,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 23
  },
  "item_Map_Treasure_PrimevalForest": {
   "buy": 150,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 23
  },
  "item_Map_Treasure_Rotmoor": {
   "buy": 150,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 23
  },
  "item_Map_Treasure_WayToMine": {
   "buy": 150,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 23
  },
  "item_MeriksBusiness": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_VoragoFragment_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 24
  },
  "item_VoragoFragment_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 24
  },
  "item_Whiskey_StoneWall": {
   "buy": 120,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 25,
+  "sub": 17
  },
  "item_acidbomb": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 34
  },
  "item_acidsecretion": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 5,
+  "sub": 22
  },
  "item_acidtrap": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 34
  },
  "item_aditroast": {
   "buy": 80,
   "cat": 0,
-  "sell": 16
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 16,
+  "sub": 17
  },
  "item_agilostew": {
   "buy": 90,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 17
  },
  "item_alraune": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 18
  },
  "item_apple": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 22
  },
  "item_armorring_0": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 50,
+  "sub": 13
  },
  "item_armorring_1": {
   "buy": 400,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 13
  },
  "item_atlanteanarmorparts": {
   "buy": 1000,
   "cat": 0,
-  "sell": 250
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 250,
+  "sub": 24
  },
  "item_atlanterAcademyText": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 23
  },
  "item_atlanterRune": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 10,
+  "sub": 21
  },
  "item_atlanter_coin": {
   "buy": 15,
   "cat": 0,
-  "sell": 3
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 3,
+  "sub": 21
  },
  "item_atlanter_wine": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 17
  },
  "item_auwaldDungeon": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_beak": {
   "buy": 20,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 21
  },
  "item_bear_claw": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 21
  },
  "item_bearfur": {
   "buy": 200,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 50,
+  "sub": 21
  },
  "item_beartrap": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 34
  },
  "item_beer": {
   "buy": 20,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 17
  },
  "item_berry": {
   "buy": 8,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_berserkerring": {
   "buy": 400,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 13
  },
  "item_berserkerring_2": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 13
  },
  "item_bigligering": {
   "buy": 300,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 60,
+  "sub": 13
  },
  "item_bigquiver": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 160,
+  "sub": 14
  },
  "item_blackboard_Butterflies": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_blackboard_woodcamp": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_blanktrap": {
   "buy": 85,
   "cat": 0,
-  "sell": 17
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 17,
+  "sub": 22
  },
  "item_bloodbornering": {
   "buy": 500,
   "cat": 0,
-  "sell": 125
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 125,
+  "sub": 13
  },
  "item_bloodquitostinger": {
   "buy": 15,
   "cat": 0,
-  "sell": 3
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 3,
+  "sub": 21
  },
  "item_bloodthirstamulet": {
   "buy": 400,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 75,
+  "sub": 13
  },
  "item_boartooth": {
   "buy": 400,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 13
  },
  "item_boartusk": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 22
  },
  "item_bogIron": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 24
  },
  "item_bogwheat": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_bomb": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 34
  },
  "item_bottlePost": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 34
  },
  "item_brokenwings": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 21
  },
  "item_brutus_seal_active": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_brutus_seal_inactive": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_callashroom": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_callashroom_extract": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": -1,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "item_cavemushroom": {
   "buy": 8,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 17
  },
  "item_chunnaic_diamond": {
   "buy": 300,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 3,
+  "rarity": 3,
+  "sell": 60,
+  "sub": 22
  },
  "item_claw": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 21
  },
  "item_cleavageskull": {
   "buy": 400,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 13
  },
  "item_crowtrap": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 34
  },
  "item_diamond": {
   "buy": 300,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 3,
+  "rarity": 3,
+  "sell": 60,
+  "sub": 22
  },
  "item_diaryKora": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_earthroot": {
   "buy": 12,
   "cat": 0,
-  "sell": 3
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 3,
+  "sub": 19
  },
  "item_egg": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 22
  },
  "item_energycrystal_aufwald_charged": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_energycrystal_aufwald_empty": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_energycrystal_brutus_charged": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_energycrystal_brutus_empty": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_energycrystal_cityDungeon_charged": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_energycrystal_cityDungeon_empty": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_engraving_stones": {
   "buy": 30,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 6,
+  "sub": 21
  },
  "item_entryMine": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 23
  },
  "item_escortLetter": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_essence_atlanter": {
   "buy": 125,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 22
  },
  "item_essence_stone": {
   "buy": 100,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 22
  },
  "item_essence_void": {
   "buy": 250,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 60,
+  "sub": 16
  },
  "item_farmersFood": {
   "buy": 110,
   "cat": 0,
-  "sell": 22
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 22,
+  "sub": 17
  },
  "item_feather": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 22
  },
  "item_fish_bass": {
   "buy": 18,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 19
  },
  "item_fish_dead": {
   "buy": 30,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 6,
+  "sub": 19
  },
  "item_fish_trout": {
   "buy": 18,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 19
  },
  "item_fishing": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_fishpan": {
   "buy": 140,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 28,
+  "sub": 17
  },
  "item_flowPlant_0": {
   "buy": 20,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 18
  },
  "item_flowPlant_1": {
   "buy": 30,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 6,
+  "sub": 18
  },
  "item_flowcatchertalisman": {
   "buy": 400,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 13
  },
  "item_fogears": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 21
  },
  "item_fogstew": {
   "buy": 140,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 28,
+  "sub": 17
  },
  "item_foodpile": {
   "buy": 90,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 17
  },
  "item_foodpile_strong": {
   "buy": 140,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 28,
+  "sub": 17
  },
  "item_forestessence": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 50,
+  "sub": 22
  },
  "item_foxpaw": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 21
  },
  "item_frogleg": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 5,
+  "sub": 22
  },
  "item_furtuft": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 22
  },
  "item_glauglocke": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_gnarlyroot": {
   "buy": 15,
   "cat": 0,
-  "sell": 3
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 3,
+  "sub": 22
  },
  "item_golemsalve": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 16
  },
  "item_harpybrew": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 30,
+  "sub": 16
  },
  "item_harpyiefeather": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 22
  },
  "item_headdress_magicamp": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 10,
+  "sub": 12
  },
  "item_headleshen": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 3,
+  "rarity": 3,
+  "sell": 200,
+  "sub": 21
  },
  "item_healthPlant_0": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 18
  },
  "item_healthPlant_1": {
   "buy": 30,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 6,
+  "sub": 18
  },
  "item_healthPlant_2": {
   "buy": 40,
   "cat": 0,
-  "sell": 7
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 7,
+  "sub": 18
  },
  "item_heart": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 21
  },
  "item_herb_past": {
   "buy": 85,
   "cat": 0,
-  "sell": 18
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 18,
+  "sub": 18
  },
  "item_honey": {
   "buy": 40,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 8,
+  "sub": 22
  },
  "item_honeyMead": {
   "buy": 120,
   "cat": 0,
-  "sell": 24
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 24,
+  "sub": 17
  },
  "item_hunterquiver": {
   "buy": 400,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 13
  },
  "item_hunterstrophy": {
   "buy": 450,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 100,
+  "sub": 13
  },
  "item_ironArrow": {
   "buy": 12,
   "cat": 0,
-  "sell": 3
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 3,
+  "sub": 8
  },
  "item_ironStone": {
   "buy": 17,
   "cat": 0,
-  "sell": 3
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 3,
+  "sub": 10
  },
  "item_ironbar": {
   "buy": 60,
   "cat": 0,
-  "sell": 12
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 12,
+  "sub": 22
  },
  "item_ironlump": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_ironore": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 22
  },
  "item_jaggedthrowingknife": {
   "buy": 45,
   "cat": 0,
-  "sell": 9
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 9,
+  "sub": 34
  },
  "item_karottegladius_broken": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 50,
+  "sub": 24
  },
  "item_kiepe": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 1,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 13
  },
  "item_kiepe_rubble": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 1,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 13
  },
  "item_lanternFruit": {
   "buy": 30,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 6,
+  "sub": 22
  },
  "item_leather": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 5,
+  "sub": 22
  },
  "item_letterAtlanter_Armor": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Arrival": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_AtlanterCreation": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_AtlanterProblems": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_AtlanterRevolt": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_CancelledResearch": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_DangerousRunes": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_DangerousTravels": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_DangerousTravels2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_DrivaniusAttitude": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_EmergingFog": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Excalibur": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Extractor2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Eye": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_FirstDownfall": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_ItsMoreDangerous": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_ItsMoreDangerous2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_LightAndDarkness": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_NewsRedTower": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_OlafDiary": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_ReijaAndMonko": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Revolt1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Revolt2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Revolt3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_RuneVessel_Nemeton": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_RuneVessel_Ruinenlager": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Senat": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_ShiftingPriorities": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Shrines": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_SpreadingDanger": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Stars": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_ThirdDownfall": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_ToTheRuinRaiders": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_WhereIsDrivanius": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_WhereIsDrivanius2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAtlanter_Workerletter": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAuwaldDungeon_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAuwaldDungeon_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAuwaldDungeon_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAuwaldDungeon_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAuwaldDungeon_4": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterAuwaldDungeon_5": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_Anatoli": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_BoundaryStone": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_Diemo": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_Jero": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_Nemeton": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_Roarke": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_SafeHaven": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_Spark": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCelts_Treason": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCityDungeon_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCityDungeon_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCityDungeon_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCityDungeon_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCityDungeon_GodPaintings": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCityDungeon_Underground_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCityDungeon_Underground_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterCityDungeon_Underground_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterFromEtzel": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterMehlunaToBady": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterRedTower_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterRedTower_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterRedTower_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterRedTower_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterRedTower_5": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterTableBrutus_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterTableBrutus_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterTableBrutus_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterTableBrutus_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterToAsmus_open": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 23
  },
  "item_letterToAsmus_sealed": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 23
  },
  "item_letter_Reija": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_atlanterDungeon_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_atlanterDungeon_colony": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_atlanterDungeon_drova": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_atlanterDungeon_fire": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_atlanterDungeon_intro": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_fleshboss_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_fleshboss_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_fleshboss_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_fleshboss_intro_fleshmoor": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_fleshboss_pre0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_fleshboss_pre1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_foresttavern_chapter1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_foresttavern_chapter3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_0": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_circleRoom_note1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_circleRoom_note2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_energyRoom_note": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_golemRoom_note1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_golemRoom_note2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_golemRoom_note3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_golemRoom_note4": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_natureRoom_note": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_soundRoom_note": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_soundRoom_note2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_spearRoom_note1": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_spearRoom_note2": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_library_spearRoom_note3": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_shrine_apus_circinus": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_shrine_bootes_auriga": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_shrine_cygnus": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_shrine_luna": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_shrine_sol": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_shrine_terra_borealis": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_shrine_vela": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letter_sick_siser": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_letterboard_fragment": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 15,
+  "sub": 21
  },
  "item_letterfromolafaboutBrutus": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_lifering": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 13
  },
  "item_logwood": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 22
  },
  "item_luminousTruffle": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 18
  },
  "item_lyra": {
   "buy": 200,
   "cat": 1,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 34
  },
  "item_magicresring_0": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 50,
+  "sub": 13
  },
  "item_magicresring_1": {
   "buy": 400,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 13
  },
  "item_marinatedmeatleg": {
   "buy": 140,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 28,
+  "sub": 17
  },
  "item_mastersmemory": {
   "buy": 600,
   "cat": 0,
-  "sell": 125
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 125,
+  "sub": 13
  },
  "item_meat_raw": {
   "buy": 8,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 19
  },
  "item_meat_stringy": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 19
  },
  "item_mediumquiver": {
   "buy": 350,
   "cat": 0,
-  "sell": 70
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 70,
+  "sub": 14
  },
  "item_mikeschLetter": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_mineRelic": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 24
  },
  "item_mudLotus": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 21
  },
  "item_mudmash": {
   "buy": 120,
   "cat": 0,
-  "sell": 24
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 24,
+  "sub": 17
  },
  "item_mumbertDiarrhoea": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "item_mushroom": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_needlelichen": {
   "buy": 20,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 4,
+  "sub": 22
  },
  "item_packageBrutusMineWeapons": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 22
  },
  "item_packageToMoorlager": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "item_paperchasestone_band": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "item_paperchasestone_cleansed": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "item_paperchasestone_raw": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "item_paperchasestone_rune": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 24
  },
  "item_permaherb_flow": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 19
  },
  "item_permaherb_life": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 18
  },
  "item_permaherb_mind": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 18
  },
  "item_permaherb_skill": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 18
  },
  "item_permaherb_strength": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 18
  },
  "item_permapotion_flow": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 160,
+  "sub": 16
  },
  "item_permapotion_life": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 160,
+  "sub": 16
  },
  "item_permapotion_mind": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 160,
+  "sub": 16
  },
  "item_permapotion_skill": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 160,
+  "sub": 16
  },
  "item_permapotion_strength": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 160,
+  "sub": 16
  },
  "item_pigfur": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 15,
+  "sub": 21
  },
  "item_pigglet_food": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 17
  },
  "item_playWithKids": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_poisonedThrowingKnife": {
   "buy": 40,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 8,
+  "sub": 34
  },
  "item_poisonedThrowingKnife_npc_fan": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 34
  },
  "item_poisonedThrowingKnife_npc_fast": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 34
  },
  "item_potion_flow_0": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 16
  },
  "item_potion_flow_1": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 16
  },
  "item_potion_health_0": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 16
  },
  "item_potion_health_1": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 50,
+  "sub": 16
  },
  "item_potion_respec": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 50,
+  "sub": 16
  },
  "item_potion_windwalker": {
   "buy": 60,
   "cat": 0,
-  "sell": 12
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 12,
+  "sub": 16
  },
  "item_povage": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_redGlyphStone": {
   "buy": 300,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 150,
+  "sub": 24
  },
  "item_redHerb": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_redmushroomtincture": {
   "buy": 60,
   "cat": 0,
-  "sell": 12
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 12,
+  "sub": 16
  },
  "item_resin": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 22
  },
  "item_ring_god": {
   "buy": 600,
   "cat": 0,
-  "sell": 125
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 125,
+  "sub": 13
  },
  "item_ripper_head": {
   "buy": 120,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 22
  },
  "item_ripper_head_huntTheRipper": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 24
  },
  "item_ripperfur": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 10,
+  "sub": 21
  },
  "item_riptoothchain": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 100,
+  "sub": 13
  },
  "item_riverbedmoss": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 18
  },
  "item_rivercharm": {
   "buy": 825,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 200,
+  "sub": 13
  },
  "item_roastedMeat": {
   "buy": 24,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 6,
+  "sub": 17
  },
  "item_roastedMeat_t2": {
   "buy": 36,
   "cat": 0,
-  "sell": 9
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 9,
+  "sub": 17
  },
  "item_roastedTrout": {
   "buy": 32,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 8,
+  "sub": 17
  },
  "item_roastedcallamushroom": {
   "buy": 140,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 28,
+  "sub": 17
  },
  "item_roastofthepast": {
   "buy": 180,
   "cat": 0,
-  "sell": 36
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 36,
+  "sub": 17
  },
  "item_rootTrap": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 34
  },
  "item_rootstew": {
   "buy": 140,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 28,
+  "sub": 17
  },
  "item_rubble": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "item_rubin": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 21
  },
  "item_rubintalisman": {
   "buy": 400,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 13
  },
  "item_ruinenlager_bandit": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_ruinherb": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_runestone": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_runestone_empty": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 24
  },
  "item_rustmoss_BadFromGera": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "item_rustymosspipe": {
   "buy": 35,
   "cat": 0,
-  "sell": 7
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 7,
+  "sub": 16
  },
  "item_salve_healing": {
   "buy": 30,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 6,
+  "sub": 16
  },
  "item_sealstone_past": {
   "buy": 1500,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 150,
+  "sub": 24
  },
  "item_searchingForArenaFighter": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_searchingGraffiti": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_secret_foglets": {
   "buy": 45,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 22
  },
  "item_shadowfur": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 15,
+  "sub": 21
  },
  "item_shadowmushroom": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 18
  },
  "item_shaftofpurefury": {
   "buy": 400,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 13
  },
  "item_sheepfur": {
   "buy": 16,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 21
  },
  "item_shell_01": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 21
  },
  "item_shell_02": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 21
  },
  "item_shiningfur": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 20,
+  "sub": 21
  },
  "item_shinyStone": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 24
  },
  "item_signOfAtonement": {
   "buy": 80,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 24
  },
  "item_silberringmind_0": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 13
  },
  "item_silberringmind_1": {
   "buy": 400,
   "cat": 0,
-  "sell": 80
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 80,
+  "sub": 13
  },
  "item_silberringmind_2": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 160,
+  "sub": 13
  },
  "item_silberringskill_0": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 13
  },
  "item_silberringskill_1": {
   "buy": 400,
   "cat": 0,
-  "sell": 80
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 80,
+  "sub": 13
  },
  "item_silberringskill_2": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 160,
+  "sub": 13
  },
  "item_silverArrow": {
   "buy": 25,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 6,
+  "sub": 8
  },
  "item_silverStone": {
   "buy": 30,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 6,
+  "sub": 10
  },
  "item_silverlump": {
   "buy": 20,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 4,
+  "sub": 22
  },
  "item_silverore": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 2,
+  "sub": 22
  },
  "item_silverringstrength_0": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 13
  },
  "item_silverringstrength_1": {
   "buy": 400,
   "cat": 0,
-  "sell": 80
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 80,
+  "sub": 13
  },
  "item_silverringstrength_2": {
   "buy": 800,
   "cat": 0,
-  "sell": 160
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 160,
+  "sub": 13
  },
  "item_skulldew": {
   "buy": 16,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 4,
+  "sub": 22
  },
  "item_slingermunition": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 10
  },
  "item_spider_thread": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 22
  },
  "item_spiritVessel_greatTusk": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 4,
+  "sell": 0,
+  "sub": 24
  },
  "item_spiritamulet_0": {
   "buy": 300,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 60,
+  "sub": 13
  },
  "item_spiritamulet_1": {
   "buy": 400,
   "cat": 0,
-  "sell": 80
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 80,
+  "sub": 13
  },
  "item_splittertrap": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 34
  },
  "item_splittertrap_npc_ebru_all_arena": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 34
  },
  "item_splittertrap_npc_ebru_single": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 34
  },
  "item_sprigganheart": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 13
  },
  "item_stalker_egg": {
   "buy": 125,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 25,
+  "sub": 21
  },
  "item_stalkerfeather": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_stew_tiaa_manipulated": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 17
  },
  "item_stolenPackage": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "item_strangeFossil": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 24
  },
  "item_talismanJourneyToTheRoots": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 24
  },
  "item_tarnishedSilverCup": {
   "buy": 125,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 21
  },
  "item_teeth": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 22
  },
  "item_tendonofglory": {
   "buy": 500,
   "cat": 0,
-  "sell": 125
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 125,
+  "sub": 13
  },
  "item_thornfetish": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 13
  },
  "item_thornyRanke": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 34
  },
  "item_traps": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "item_treasureMap_auwald": {
   "buy": 150,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 23
  },
  "item_trinket_boxer": {
   "buy": 450,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 13
  },
  "item_trinket_doriansHeirloom": {
   "buy": 450,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 4,
+  "sell": 100,
+  "sub": 13
  },
  "item_trinket_pureDmg": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 50,
+  "sub": 13
  },
  "item_troutskewersbombus": {
   "buy": 120,
   "cat": 0,
-  "sell": 24
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 24,
+  "sub": 17
  },
  "item_vipertooth": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 100,
+  "sub": 13
  },
  "item_whispersilkbag": {
   "buy": 640,
   "cat": 0,
-  "sell": 130
+  "cls": "Item",
+  "main": 1,
+  "rarity": 2,
+  "sell": 130,
+  "sub": 13
  },
  "item_windtalisman": {
   "buy": 500,
   "cat": 0,
-  "sell": 125
+  "cls": "Item",
+  "main": 1,
+  "rarity": 3,
+  "sell": 125,
+  "sub": 13
  },
  "item_wine": {
   "buy": 20,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 17
  },
  "item_woodArrow": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 8
  },
  "item_yellowGlyphStone": {
   "buy": 300,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 150,
+  "sub": 24
  },
  "kai_test": {
   "buy": 64,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 8,
+  "sub": 34
  },
  "kai_test_b": {
   "buy": 64,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 8,
+  "sub": 34
  },
  "kai_test_c": {
   "buy": 64,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 8,
+  "sub": 34
  },
  "key_ShadyDistrict": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_chest_BanditCamp": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_chest_delani": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_chest_mineBanditEntry": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_chest_mineBanditMainKey": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_extractor": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "key_harald": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_harvey": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_mursel_mine": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_ratcellar": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 24
  },
  "key_ruinenexplorer": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_sleepingTavernKey": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_tavernKey": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_tavernKey_Cellar": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "key_tristanBillKey": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "letter_leru_hint01": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 1,
+  "sub": 23
  },
  "letter_leru_hint02": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 1,
+  "sub": 23
  },
  "letter_leru_hint03": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 1,
+  "sub": 23
  },
  "maico_test": {
   "buy": 64,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 8,
+  "sub": 34
  },
  "misc_bagOfCurrency": {
   "buy": 15,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 5,
+  "sub": 21
  },
  "misc_bagOfCurrency_big": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 5,
+  "sub": 21
  },
  "misc_caveSystem": {
   "buy": 200,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 50,
+  "sub": 23
  },
  "misc_currency": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 30
  },
  "misc_emptyTraderBag": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "misc_key_locked_door": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 16
  },
  "misc_lockpick_simple": {
   "buy": 16,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 24
  },
  "misc_lootbag_red": {
   "buy": 15,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 21
  },
  "misc_map_leuchtwald": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 23
  },
  "misc_map_nemeton": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 23
  },
  "misc_map_ruincamp": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 23
  },
  "misc_map_tristan": {
   "buy": 20,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 23
  },
  "misc_mapink": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 24
  },
  "misc_riddle_butterfly": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 15,
+  "sub": 21
  },
  "misc_riddle_club": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 21
  },
  "misc_riddle_conch": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 21
  },
  "misc_riddle_deer": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 24
  },
  "misc_riddle_eagle": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 24
  },
  "misc_riddle_fox": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 24
  },
  "misc_riddle_horn": {
   "buy": 200,
   "cat": 1,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 34
  },
  "misc_riddle_incense": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 21
  },
  "misc_riddle_mirror": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 21
  },
  "misc_riddle_sundial": {
   "buy": 25,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 21
  },
  "misc_traderBag": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "misc_worldmap": {
   "buy": 200,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 50,
+  "sub": 23
  },
  "misc_worldmap_detailed": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 40,
+  "sub": 23
  },
  "misc_worldmap_shrines": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 40,
+  "sub": 23
  },
  "misc_writing_importantdocument": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 23
  },
  "note_debtorlist": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 23
  },
  "note_evidence_boris": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 23
  },
  "note_mineInformation": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "note_naughty_female": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "note_naughty_male": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 36
  },
  "quiver_simple_name": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 1,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 14
  },
  "recipe_acidbomb": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_acidtrap": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_aditroast": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_agilostew": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_beartrap": {
   "buy": 75,
   "cat": 0,
-  "sell": 12
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 12,
+  "sub": 35
  },
  "recipe_bigquiver": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 50,
+  "sub": 35
  },
  "recipe_blanktrap": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_bomb": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_crowfeettrap": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_elixier_concentration": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 35
  },
  "recipe_elixier_life": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 35
  },
  "recipe_elixier_skill": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 35
  },
  "recipe_elixier_spirit": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 35
  },
  "recipe_elixier_strength": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 35
  },
  "recipe_farmersmeal": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_fishpan": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_flow_aggressiveCry": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_ballista": {
   "buy": 1000,
   "cat": 0,
-  "sell": 250
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 250,
+  "sub": 20
  },
  "recipe_flow_battleCry": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_blink": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 20
  },
  "recipe_flow_bloodRage": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_bruntShot": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_bullRush": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_conflagration": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 200,
+  "sub": 20
  },
  "recipe_flow_cyclone": {
   "buy": 1000,
   "cat": 0,
-  "sell": 250
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 250,
+  "sub": 20
  },
  "recipe_flow_dash": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_dashstab": {
   "buy": 1000,
   "cat": 0,
-  "sell": 250
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 250,
+  "sub": 20
  },
  "recipe_flow_energyProjectile": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 0,
+  "sub": 20
  },
  "recipe_flow_execute": {
   "buy": 300,
   "cat": 0,
-  "sell": 36
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 36,
+  "sub": 20
  },
  "recipe_flow_ferventCry": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_fireCry": {
   "buy": 750,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 150,
+  "sub": 20
  },
  "recipe_flow_flowForm": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 20
  },
  "recipe_flow_fogForm": {
   "buy": 500,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 60,
+  "sub": 20
  },
  "recipe_flow_heavyBlow": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_infection": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_magicVision": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 50,
+  "sub": 20
  },
  "recipe_flow_magicnuke": {
   "buy": 1000,
   "cat": 0,
-  "sell": 250
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 250,
+  "sub": 20
  },
  "recipe_flow_obsidianSpear": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 20
  },
  "recipe_flow_pierce": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_poisonArrow": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_ricochet": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_root_aoe": {
   "buy": 750,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 150,
+  "sub": 20
  },
  "recipe_flow_root_cone": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 20
  },
  "recipe_flow_shockingBlow": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_spartanKick": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flow_sunder": {
   "buy": 1000,
   "cat": 0,
-  "sell": 250
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 250,
+  "sub": 20
  },
  "recipe_flow_thunderstorm": {
   "buy": 1000,
   "cat": 0,
-  "sell": 250
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 250,
+  "sub": 20
  },
  "recipe_flow_venomCry": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 100,
+  "sub": 20
  },
  "recipe_flow_whirlingEnergy": {
   "buy": 750,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 2,
+  "rarity": 3,
+  "sell": 150,
+  "sub": 20
  },
  "recipe_flow_wound": {
   "buy": 200,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 2,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 20
  },
  "recipe_flowpotion_0": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_flowpotion_1": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_fogstew": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_foodpile": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_foodpile_strong": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_golemsalve": {
   "buy": 150,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 35
  },
  "recipe_harpybrew": {
   "buy": 150,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 35
  },
  "recipe_healingsalve": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_healingsalve_2": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_healingsalve_3": {
   "buy": 150,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 35
  },
  "recipe_honeybeer": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_hunterstrophy": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_ironarrow": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_ironbar": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_ironlump": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_ironstone": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_jaggedthrowingknife": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_leather": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_lockpick": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_marinatedmeatleg": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_meat_2": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_meat_cooked": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_mediumquiver": {
   "buy": 150,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 35
  },
  "recipe_mudmash": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_poisonedthrowingknife": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_potion_health_0": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 35
  },
  "recipe_potion_health_1": {
   "buy": 250,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 50,
+  "sub": 35
  },
  "recipe_potion_windwalker": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 35
  },
  "recipe_rivercharm": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_roastedcallamushroom": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_roastofthepast": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 15,
+  "sub": 35
  },
  "recipe_rootstew": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_rustymosspipe": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_silberringmind_0": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_silberringmind_1": {
   "buy": 125,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 35
  },
  "recipe_silberringmind_2": {
   "buy": 175,
   "cat": 0,
-  "sell": 35
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 35,
+  "sub": 35
  },
  "recipe_silberringskill_0": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_silberringskill_1": {
   "buy": 125,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 35
  },
  "recipe_silberringskill_2": {
   "buy": 175,
   "cat": 0,
-  "sell": 35
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 35,
+  "sub": 35
  },
  "recipe_silverarrow": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 15,
+  "sub": 35
  },
  "recipe_silverlump": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_silverringstrength_0": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_silverringstrength_1": {
   "buy": 125,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 35
  },
  "recipe_silverringstrength_2": {
   "buy": 175,
   "cat": 0,
-  "sell": 35
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 35,
+  "sub": 35
  },
  "recipe_silverstone": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 15,
+  "sub": 35
  },
  "recipe_smashironbar": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_spiritamulet_0": {
   "buy": 100,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 20,
+  "sub": 35
  },
  "recipe_spiritamulet_1": {
   "buy": 125,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 35
  },
  "recipe_splittertrap": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_test_allrecipes": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 3,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 23
  },
  "recipe_thronyvine": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_throwingknife": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_thrownet": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 15,
+  "sub": 35
  },
  "recipe_troutskewersbombus": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_whispersilkbag": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 35
  },
  "recipe_woodenarrow": {
   "buy": 50,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 10,
+  "sub": 35
  },
  "recipe_yggdrasil": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 100,
+  "sub": 35
  },
  "ring_aldo_name": {
   "buy": 320,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 75,
+  "sub": 13
  },
  "ring_tuz_name": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 1,
+  "rarity": 1,
+  "sell": 0,
+  "sub": 13
  },
  "skinMuscularBrown": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 30
  },
  "skinMuscularBrownDark": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 30
  },
  "skinMuscularBrownLight": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 30
  },
  "skinMuscularWhite": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 30
  },
  "template_weapon_axe": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 3
  },
  "template_weapon_bow": {
   "buy": 13,
   "cat": 0,
-  "sell": 13
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 13,
+  "sub": 7
  },
  "template_weapon_shield": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 5
  },
  "template_weapon_sling": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 9
  },
  "template_weapon_spear": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 2
  },
  "template_weapon_sword": {
   "buy": 1,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 8,
+  "sub": 1
  },
  "test_item_aimedweapon": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "test_item_block": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "test_item_flowability": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 26
  },
  "test_item_flowabilitysecondstat": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 26
  },
  "test_item_flowabilitywithsub": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 26
  },
  "test_item_primseconattack": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "test_item_weaponthreecombo": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 0
  },
  "test_weapon_sword_branch": {
   "buy": 3,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 5,
+  "sub": 1
  },
  "throwing_ensnare": {
   "buy": 75,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 2,
+  "rarity": 1,
+  "sell": 15,
+  "sub": 34
  },
  "throwing_knife": {
   "buy": 15,
   "cat": 0,
-  "sell": 3
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 3,
+  "sub": 34
  },
  "tool_pickaxe_improvisedpickaxebroken": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 3,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 24
  },
  "tool_pickaxe_silberhauer": {
   "buy": 5,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 3
  },
  "tool_torch": {
   "buy": 10,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 2,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 34
  },
  "waterrat_young_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_axe_ancientAxe": {
   "buy": 190,
   "cat": 0,
-  "sell": 24
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 24,
+  "sub": 3
  },
  "weapon_axe_bady_dull": {
   "buy": 320,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 0,
+  "sub": 3
  },
  "weapon_axe_bady_sharp": {
   "buy": 320,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 40,
+  "sub": 3
  },
  "weapon_axe_barbarianBattleAxe": {
   "buy": 3200,
   "cat": 0,
-  "sell": 400
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 400,
+  "sub": 3
  },
  "weapon_axe_bearSlaughtererAxe": {
   "buy": 2200,
   "cat": 0,
-  "sell": 275
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 275,
+  "sub": 3
  },
  "weapon_axe_beardedAxe": {
   "buy": 180,
   "cat": 0,
-  "sell": 16
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 16,
+  "sub": 3
  },
  "weapon_axe_berserkAxe": {
   "buy": 6000,
   "cat": 0,
-  "sell": 750
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 750,
+  "sub": 3
  },
  "weapon_axe_blaansoldsword": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 3
  },
  "weapon_axe_bloodReaper": {
   "buy": 2800,
   "cat": 0,
-  "sell": 350
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 350,
+  "sub": 3
  },
  "weapon_axe_broadAxe": {
   "buy": 520,
   "cat": 0,
-  "sell": 65
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 65,
+  "sub": 3
  },
  "weapon_axe_bronzeTusk": {
   "buy": 16,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 3
  },
  "weapon_axe_coarseBronzeAxe": {
   "buy": 220,
   "cat": 0,
-  "sell": 27
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 27,
+  "sub": 3
  },
  "weapon_axe_coarseDoubleAxe": {
   "buy": 600,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 3
  },
  "weapon_axe_coarseWarAxe": {
   "buy": 1200,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 150,
+  "sub": 3
  },
  "weapon_axe_deformedAxe": {
   "buy": 60,
   "cat": 0,
-  "sell": 7
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 7,
+  "sub": 3
  },
  "weapon_axe_doubleAxe": {
   "buy": 700,
   "cat": 0,
-  "sell": 87
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 87,
+  "sub": 3
  },
  "weapon_axe_draugr": {
   "buy": 900,
   "cat": 0,
-  "sell": 48
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 48,
+  "sub": 3
  },
  "weapon_axe_greatAxe": {
   "buy": 1650,
   "cat": 0,
-  "sell": 206
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 206,
+  "sub": 3
  },
  "weapon_axe_heavyNailClub": {
   "buy": 160,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 3
  },
  "weapon_axe_highlandAxe": {
   "buy": 510,
   "cat": 0,
-  "sell": 63
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 63,
+  "sub": 3
  },
  "weapon_axe_improvisedpickaxe": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 1
  },
  "weapon_axe_iron-BoundGreatAxe": {
   "buy": 450,
   "cat": 0,
-  "sell": 56
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 56,
+  "sub": 3
  },
  "weapon_axe_jawboneAxe": {
   "buy": 120,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 15,
+  "sub": 3
  },
  "weapon_axe_largeBranch": {
   "buy": 8,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 3
  },
  "weapon_axe_lightAxe": {
   "buy": 180,
   "cat": 0,
-  "sell": 22
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 22,
+  "sub": 3
  },
  "weapon_axe_oldAxe": {
   "buy": 400,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 50,
+  "sub": 3
  },
  "weapon_axe_rustyAxe": {
   "buy": 860,
   "cat": 0,
-  "sell": 107
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 107,
+  "sub": 3
  },
  "weapon_axe_snaga": {
   "buy": 90,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 60,
+  "sub": 3
  },
  "weapon_axe_splittingAxe": {
   "buy": 460,
   "cat": 0,
-  "sell": 57
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 57,
+  "sub": 3
  },
  "weapon_axe_twohanded_mock": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 3
  },
  "weapon_axe_warAxe": {
   "buy": 360,
   "cat": 0,
-  "sell": 45
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 45,
+  "sub": 3
  },
  "weapon_axe_woodSplitter": {
   "buy": 16,
   "cat": 0,
-  "sell": 2
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 2,
+  "sub": 3
  },
  "weapon_babysnapper_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_barehands": {
   "buy": 0,
   "cat": 0,
-  "sell": 0
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 0,
+  "sub": 1
  },
  "weapon_bigSpider_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bigspider_jump_web": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bigspider_jump_web_auwald": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bigspider_venombite": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bigspider_venombite_auwald": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bloodquito_auwald": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bloodquito_auwald_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bloodquito_kamikaze": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bloodquito_rotmoor": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_boar_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_boar_luminous_primary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_boar_primary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_bow_atlanterBow": {
   "buy": 3200,
   "cat": 0,
-  "sell": 500
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 500,
+  "sub": 7
  },
  "weapon_bow_battleBow": {
   "buy": 1100,
   "cat": 0,
-  "sell": 180
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 180,
+  "sub": 7
  },
  "weapon_bow_draugr": {
   "buy": 600,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 30,
+  "sub": 7
  },
  "weapon_bow_huntingBow": {
   "buy": 360,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 60,
+  "sub": 7
  },
  "weapon_bow_longBow": {
   "buy": 800,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 150,
+  "sub": 7
  },
  "weapon_bow_reinforcedBow": {
   "buy": 150,
   "cat": 0,
-  "sell": 30
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 30,
+  "sub": 7
  },
  "weapon_bow_shortBow": {
   "buy": 310,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 50,
+  "sub": 7
  },
  "weapon_bow_simpleBow": {
   "buy": 200,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 7
  },
  "weapon_dagger": {
   "buy": 25,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 25,
+  "sub": 4
  },
  "weapon_dagger_blackKnife": {
   "buy": 2200,
   "cat": 0,
-  "sell": 275
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 275,
+  "sub": 4
  },
  "weapon_dagger_bloodDagger": {
   "buy": 6000,
   "cat": 0,
-  "sell": 750
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 750,
+  "sub": 4
  },
  "weapon_dagger_boneKnife": {
   "buy": 220,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 28,
+  "sub": 4
  },
  "weapon_dagger_breadKnife": {
   "buy": 60,
   "cat": 0,
-  "sell": 8
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 8,
+  "sub": 4
  },
  "weapon_dagger_bronzeDagger": {
   "buy": 460,
   "cat": 0,
-  "sell": 58
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 58,
+  "sub": 4
  },
  "weapon_dagger_ceremonialDagger": {
   "buy": 520,
   "cat": 0,
-  "sell": 65
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 65,
+  "sub": 4
  },
  "weapon_dagger_coarseDagger": {
   "buy": 700,
   "cat": 0,
-  "sell": 88
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 88,
+  "sub": 4
  },
  "weapon_dagger_draugr": {
   "buy": 500,
   "cat": 0,
-  "sell": 29
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 29,
+  "sub": 4
  },
  "weapon_dagger_eviscerator": {
   "buy": 1650,
   "cat": 0,
-  "sell": 206
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 206,
+  "sub": 4
  },
  "weapon_dagger_fang": {
   "buy": 180,
   "cat": 0,
-  "sell": 23
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 23,
+  "sub": 4
  },
  "weapon_dagger_heartSeeker": {
   "buy": 3200,
   "cat": 0,
-  "sell": 400
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 400,
+  "sub": 4
  },
  "weapon_dagger_ironDagger": {
   "buy": 1200,
   "cat": 0,
-  "sell": 150
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 150,
+  "sub": 4
  },
  "weapon_dagger_ironSpike": {
   "buy": 860,
   "cat": 0,
-  "sell": 108
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 108,
+  "sub": 4
  },
  "weapon_dagger_mosquitoSting": {
   "buy": 360,
   "cat": 0,
-  "sell": 45
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 45,
+  "sub": 4
  },
  "weapon_dagger_pineDagger": {
   "buy": 160,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 4
  },
  "weapon_dagger_pointedDagger": {
   "buy": 180,
   "cat": 0,
-  "sell": 23
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 23,
+  "sub": 4
  },
  "weapon_dagger_sacrificialDagger": {
   "buy": 510,
   "cat": 0,
-  "sell": 64
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 64,
+  "sub": 4
  },
  "weapon_dagger_shortBlade": {
   "buy": 600,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 4
  },
  "weapon_dagger_silence": {
   "buy": 450,
   "cat": 0,
-  "sell": 56
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 56,
+  "sub": 4
  },
  "weapon_dagger_theKingslayer": {
   "buy": 2800,
   "cat": 0,
-  "sell": 350
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 350,
+  "sub": 4
  },
  "weapon_dagger_tombstick": {
   "buy": 120,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 15,
+  "sub": 4
  },
  "weapon_dagger_wornBronzeDagger": {
   "buy": 400,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 50,
+  "sub": 4
  },
  "weapon_defaultcreature": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_diggerpig_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_diggerpig_range": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_eliteRipper": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_eliteRipper_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_fleshBoss_bites_0": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_fleshBoss_bites_1": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_fleshBoss_combos": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_fleshBoss_melee_0": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_fleshBoss_mixUp": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_fleshBoss_phase01_spells": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_fleshBoss_phase02_spells": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_fleshEye_spells": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_frog_melee_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_frog_melee_primary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_frog_melee_secondary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_frog_range_primary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_golem_melee_hammerDownSingle": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_golem_melee_slaps": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_golem_spells_firetrap": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_golem_spells_root_lighting": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_greattusk_meleesecondary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_greattusk_primary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_leshen_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_leshen_spells": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_leshen_summoning": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_lightboar_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_lightboar_secondary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_moorripper": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_mortarShroom_primary": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_redfox": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_ripper": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_shadowjumper": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_shadowripper": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_shadowripper_ambush": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_shield_adornedWoodenShield": {
   "buy": 80,
   "cat": 0,
-  "sell": 10
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 10,
+  "sub": 5
  },
  "weapon_shield_atlanterShield": {
   "buy": 2600,
   "cat": 0,
-  "sell": 325
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 325,
+  "sub": 5
  },
  "weapon_shield_bronzeShield": {
   "buy": 250,
   "cat": 0,
-  "sell": 31
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 31,
+  "sub": 5
  },
  "weapon_shield_draugr": {
   "buy": 1300,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 5
  },
  "weapon_shield_protection": {
   "buy": 1300,
   "cat": 0,
-  "sell": 163
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 163,
+  "sub": 5
  },
  "weapon_shield_roundShield": {
   "buy": 450,
   "cat": 0,
-  "sell": 56
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 56,
+  "sub": 5
  },
  "weapon_shield_sigilShield": {
   "buy": 500,
   "cat": 0,
-  "sell": 100
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 100,
+  "sub": 5
  },
  "weapon_shield_smallBronzeShield": {
   "buy": 300,
   "cat": 0,
-  "sell": 38
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 38,
+  "sub": 5
  },
  "weapon_shield_smallRoundShield": {
   "buy": 110,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 5
  },
  "weapon_shield_smallWoodenShield": {
   "buy": 20,
   "cat": 0,
-  "sell": 3
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 3,
+  "sub": 5
  },
  "weapon_shield_theWall": {
   "buy": 1850,
   "cat": 0,
-  "sell": 231
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 231,
+  "sub": 5
  },
  "weapon_shield_woodenBoard": {
   "buy": 7,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 5
  },
  "weapon_sling_battleSlingshot": {
   "buy": 620,
   "cat": 0,
-  "sell": 78
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 78,
+  "sub": 9
  },
  "weapon_sling_coarseSling": {
   "buy": 33,
   "cat": 0,
-  "sell": 4
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 4,
+  "sub": 9
  },
  "weapon_sling_headSlingshot": {
   "buy": 350,
   "cat": 0,
-  "sell": 44
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 44,
+  "sub": 9
  },
  "weapon_sling_heavySlingshot": {
   "buy": 220,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 28,
+  "sub": 9
  },
  "weapon_sling_legendarySlingshot": {
   "buy": 1000,
   "cat": 0,
-  "sell": 200
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 200,
+  "sub": 9
  },
  "weapon_sling_simpleSlingshot": {
   "buy": 100,
   "cat": 0,
-  "sell": 13
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 13,
+  "sub": 9
  },
  "weapon_snapper_charge": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_snapper_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_snapper_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_snapper_weak_charge": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_snapper_weak_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_spear_ango": {
   "buy": 480,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 60,
+  "sub": 2
  },
  "weapon_spear_bloodBlade": {
   "buy": 2900,
   "cat": 0,
-  "sell": 363
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 363,
+  "sub": 2
  },
  "weapon_spear_bronzeSpear": {
   "buy": 600,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 2
  },
  "weapon_spear_combotest": {
   "buy": 600,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 2
  },
  "weapon_spear_deathRitualSpear": {
   "buy": 220,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 28,
+  "sub": 2
  },
  "weapon_spear_draugr": {
   "buy": 600,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 5,
+  "sub": 2
  },
  "weapon_spear_fishSpear": {
   "buy": 160,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 2
  },
  "weapon_spear_framea": {
   "buy": 450,
   "cat": 0,
-  "sell": 56
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 56,
+  "sub": 2
  },
  "weapon_spear_georg": {
   "buy": 300,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 2
  },
  "weapon_spear_ger": {
   "buy": 550,
   "cat": 0,
-  "sell": 69
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 69,
+  "sub": 2
  },
  "weapon_spear_huntingSpear": {
   "buy": 140,
   "cat": 0,
-  "sell": 18
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 18,
+  "sub": 2
  },
  "weapon_spear_messengerOfTheDivine": {
   "buy": 5400,
   "cat": 0,
-  "sell": 675
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 675,
+  "sub": 2
  },
  "weapon_spear_partisan": {
   "buy": 1100,
   "cat": 0,
-  "sell": 138
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 138,
+  "sub": 2
  },
  "weapon_spear_pilum": {
   "buy": 1900,
   "cat": 0,
-  "sell": 238
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 238,
+  "sub": 2
  },
  "weapon_spear_pitchfork": {
   "buy": 40,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 5,
+  "sub": 2
  },
  "weapon_spear_shortSpear": {
   "buy": 350,
   "cat": 0,
-  "sell": 44
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 44,
+  "sub": 2
  },
  "weapon_spear_silverSpear": {
   "buy": 400,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 50,
+  "sub": 2
  },
  "weapon_spear_simpleBronzeSpear": {
   "buy": 420,
   "cat": 0,
-  "sell": 53
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 53,
+  "sub": 2
  },
  "weapon_spear_spear": {
   "buy": 700,
   "cat": 0,
-  "sell": 88
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 88,
+  "sub": 2
  },
  "weapon_spear_stoneSpear": {
   "buy": 120,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 15,
+  "sub": 2
  },
  "weapon_spear_tipOfDeath": {
   "buy": 2100,
   "cat": 0,
-  "sell": 263
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 263,
+  "sub": 2
  },
  "weapon_spear_wingSpear": {
   "buy": 1400,
   "cat": 0,
-  "sell": 175
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 175,
+  "sub": 2
  },
  "weapon_spear_wolfToothSpear": {
   "buy": 200,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 2
  },
  "weapon_spear_woodenSpear": {
   "buy": 100,
   "cat": 0,
-  "sell": 13
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 13,
+  "sub": 2
  },
  "weapon_spitter_charge": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_spitter_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_spitter_special": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_spitter_weak_charge": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_spitter_weak_special": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_sprigga_default": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_sprigga_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_sprigga_yellow_default": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_sprigga_young_yellow_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_stalker_blue_rampage": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_stalker_insane_green": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_stalker_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_stalker_melee_blue": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_stalker_melee_green": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_stonefist_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": -1,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_stonefist_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_stonefist_special": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": -1,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_sword_ancientRitualSword": {
   "buy": 250,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 28,
+  "sub": 1
  },
  "weapon_sword_ancientSword": {
   "buy": 45,
   "cat": 0,
-  "sell": 6
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 6,
+  "sub": 1
  },
  "weapon_sword_baton": {
   "buy": 8,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 1
  },
  "weapon_sword_battleBlade": {
   "buy": 1900,
   "cat": 0,
-  "sell": 238
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 238,
+  "sub": 1
  },
  "weapon_sword_berserkBlade": {
   "buy": 1400,
   "cat": 0,
-  "sell": 175
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 175,
+  "sub": 1
  },
  "weapon_sword_branch": {
   "buy": 8,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 1
  },
  "weapon_sword_broadsword": {
   "buy": 220,
   "cat": 0,
-  "sell": 28
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 28,
+  "sub": 1
  },
  "weapon_sword_bronzeShortSword": {
   "buy": 160,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 1
  },
  "weapon_sword_bronzeShortSword_intro": {
   "buy": 160,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 1
  },
  "weapon_sword_carimasoldsword": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 1
  },
  "weapon_sword_coarseBroadsword": {
   "buy": 700,
   "cat": 0,
-  "sell": 88
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 88,
+  "sub": 1
  },
  "weapon_sword_crudeIronBlade": {
   "buy": 600,
   "cat": 0,
-  "sell": 75
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 75,
+  "sub": 1
  },
  "weapon_sword_draugrIronBlade": {
   "buy": 600,
   "cat": 0,
-  "sell": 20
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 20,
+  "sub": 1
  },
  "weapon_sword_gildedSickle": {
   "buy": 8,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 1
  },
  "weapon_sword_gladius": {
   "buy": 420,
   "cat": 0,
-  "sell": 53
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 53,
+  "sub": 1
  },
  "weapon_sword_hawk'SClaw": {
   "buy": 550,
   "cat": 0,
-  "sell": 69
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 69,
+  "sub": 1
  },
  "weapon_sword_heavyNailClub": {
   "buy": 120,
   "cat": 0,
-  "sell": 15
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 15,
+  "sub": 1
  },
  "weapon_sword_jendra": {
   "buy": 300,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 1
  },
  "weapon_sword_karottegladius": {
   "buy": 300,
   "cat": 0,
-  "sell": 40
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 40,
+  "sub": 1
  },
  "weapon_sword_longsword": {
   "buy": 1100,
   "cat": 0,
-  "sell": 138
+  "cls": "Item",
+  "main": 0,
+  "rarity": 2,
+  "sell": 138,
+  "sub": 1
  },
  "weapon_sword_moonSword": {
   "buy": 5400,
   "cat": 0,
-  "sell": 675
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 675,
+  "sub": 1
  },
  "weapon_sword_nailClub": {
   "buy": 100,
   "cat": 0,
-  "sell": 13
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 13,
+  "sub": 1
  },
  "weapon_sword_oldBronzeGladius": {
   "buy": 200,
   "cat": 0,
-  "sell": 25
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 25,
+  "sub": 1
  },
  "weapon_sword_roughSword": {
   "buy": 140,
   "cat": 0,
-  "sell": 18
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 18,
+  "sub": 1
  },
  "weapon_sword_runeSword": {
   "buy": 2100,
   "cat": 0,
-  "sell": 263
+  "cls": "Item",
+  "main": 0,
+  "rarity": 4,
+  "sell": 263,
+  "sub": 1
  },
  "weapon_sword_scavengingScimitar": {
   "buy": 450,
   "cat": 0,
-  "sell": 56
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 56,
+  "sub": 1
  },
  "weapon_sword_shortSword": {
   "buy": 350,
   "cat": 0,
-  "sell": 44
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 44,
+  "sub": 1
  },
  "weapon_sword_sword": {
   "buy": 480,
   "cat": 0,
-  "sell": 60
+  "cls": "Item",
+  "main": 0,
+  "rarity": 1,
+  "sell": 60,
+  "sub": 1
  },
  "weapon_sword_swordOfNemeton": {
   "buy": 400,
   "cat": 0,
-  "sell": 50
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 50,
+  "sub": 1
  },
  "weapon_sword_swordOfTheFaithful": {
   "buy": 2900,
   "cat": 0,
-  "sell": 363
+  "cls": "Item",
+  "main": 0,
+  "rarity": 3,
+  "sell": 363,
+  "sub": 1
  },
  "weapon_sword_warClub": {
   "buy": 40,
   "cat": 0,
-  "sell": 5
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 5,
+  "sub": 1
  },
  "weapon_test_bleeding": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 0,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 1
  },
  "weapon_test_magictouch": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_test_poison": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_waterambusher_Ambush": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_waterambusher_Melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_waterambusher_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_waterrat_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 0,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_bear_greattusk_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_bear_greattusk_melee_body_claw": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_bear_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_bear_melee_body_claw": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_bear_melee_dash_slam": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_bear_special_rush": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_chaosspirit_fracture_pulse": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_chaosspirit_frenzy": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_foglet_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_foglet_special": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_greattusk_cutscenes": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_greattusk_special01": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_greattusk_special02": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_harpyie_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_harpyie_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_harpyie_range": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_harpyie_special": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_hungryripper_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_lightbear_insane": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_lightbear_melee_body_claw": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_lightbear_melee_dash_slam": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_lightbear_special_rush": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_moorenemy_baneling": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_moorenemy_plant": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_moorenemymelee_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_moorenemyranged_ranged": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_moorenemytank_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_waterdevil_melee": {
   "buy": 1,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_worm_melee": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  },
  "weapon_weapon_worm_range": {
   "buy": 0,
   "cat": 0,
-  "sell": 1
+  "cls": "Item",
+  "main": 4,
+  "rarity": 1,
+  "sell": 1,
+  "sub": 29
  }
 }

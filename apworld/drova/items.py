@@ -61,6 +61,12 @@ SMALL_XP_NAMES = ("Tiny Experience Boost", "Small Experience Boost")  # 5 / 10 X
 _JUNK_TOKENS = ("claw", "fur", "tooth", "teeth", "feather", "stinger", "trophy", "coin")
 # Substring false positives: "fur" catches the quest weapon part item_shaftofpurefury.
 _JUNK_EXCLUDE = {"item_shaftofpurefury"}
+# Token matching alone is not enough: the tokens also catch the RARE hunting trophies (Tooth of the
+# Viper and Fanged Necklace sell for 100, Boar Skull 75, Bearskin 50 - one-per-kill proofs from
+# dangerous animals), which must not be handed out repeatedly as bulk overflow. The game's own sell
+# price (carried into items.json by gen_data.py) is the authored rarity signal, so junk is capped at
+# common-drop prices: a Bear Claw (20) is the most valuable thing still allowed in.
+_JUNK_MAX_SELL = 20
 
 # The XP/LP tiers exist only as capped/bulk bonus rewards; keep them out of the once-each top-ups
 # so a small pool cannot hand out "Massive Experience Boost" as ordinary filler. "Learning Point"
@@ -85,6 +91,7 @@ JUNK_ITEM_NAMES = [
     and item["readable_id"].startswith("item_")  # not recipes: recipe_hunterstrophy matches "trophy"
     and item["readable_id"] not in _JUNK_EXCLUDE
     and any(token in item["readable_id"].lower() for token in _JUNK_TOKENS)
+    and item.get("sell", 0) <= _JUNK_MAX_SELL  # rare trophies stay once-each filler, never bulk
 ]
 
 # (weight, names) - the bulk overflow draw. Consumables lead so long runs keep finding supplies.
@@ -134,7 +141,16 @@ def create_item_by_name(world: DrovaWorld, name: str) -> DrovaItem:
     return DrovaItem(name, CLASSIFICATIONS[data["classification"]], data["id"], world.player)
 
 
+# The gathering-minigame tools handed out by the start_with_tools option: the sturdy pickaxe
+# Merik sells (mining) and a junk spear (spearfishing). Precollected, so they consume no locations.
+START_TOOL_NAMES = ("Tool Pickaxe Silberhauer", "Weapon Spear WoodenSpear")
+
+
 def create_all_items(world: DrovaWorld) -> None:
+    if world.options.start_with_tools:
+        for name in START_TOOL_NAMES:
+            world.multiworld.push_precollected(world.create_item(name))
+
     # Every progression item always goes into the pool. generate_early has already guaranteed that
     # there are at least as many locations as there are progression items.
     itempool: list[Item] = [world.create_item(name) for name in PROGRESSION_ITEM_NAMES]

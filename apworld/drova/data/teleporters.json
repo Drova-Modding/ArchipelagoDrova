@@ -1,0 +1,148 @@
+{
+ "pairs": [
+  {
+   "mouth": "Teleporter_AuwaldDungeon Right Enter",
+   "interior": "Teleporter_AuwaldDungeon Right Exit"
+  },
+  {
+   "mouth": "Teleporter_AuwaldDungeon_01_Enter_01",
+   "interior": "Teleporter_AuwaldDungeon_01_Exit_01"
+  },
+  {
+   "mouth": "Teleporter_AuwaldDungeon_02_Enter_02",
+   "interior": "Teleporter_AuwaldDungeon_02_Exit_02"
+  },
+  {
+   "mouth": "Teleporter_AuwaldDungeon_Entry__Enter",
+   "interior": "Teleporter_AuwaldDungeon_Entry_Exit"
+  },
+  {
+   "mouth": "Teleporter_AuwaldDungeon_Exit",
+   "interior": "Teleporter_AuwaldDungeon_Exit_Back"
+  },
+  {
+   "mouth": "Teleporter_AuwaldDungeon_MenhirCave_Enter",
+   "interior": "Teleporter_AuwaldDungeon_MenhirCave_Exit"
+  },
+  {
+   "mouth": "Teleporter_AuwaldDungeon_WayToPlateau_Exit",
+   "interior": "Teleporter_AuwaldDungeon_WayToPlateau"
+  },
+  {
+   "mouth": "Teleporter_BanditCave",
+   "interior": "Teleporter_BanditCave_back"
+  },
+  {
+   "mouth": "Teleporter_BearCave_Left",
+   "interior": "Teleporter_BearCave_Left_Exit"
+  },
+  {
+   "mouth": "Teleporter_BearCave_Right",
+   "interior": "Teleporter_BearCave_Right_Exit"
+  },
+  {
+   "mouth": "Teleporter_BeautifulCave",
+   "interior": "Teleporter_BeautifulCave_Back"
+  },
+  {
+   "mouth": "Teleporter_Boarcave_Forest",
+   "interior": "Teleporter_BoarCave_Forest_Exit"
+  },
+  {
+   "mouth": "Teleporter_Cave_Name",
+   "interior": "Teleporter_Cave_NAME_Back"
+  },
+  {
+   "mouth": "Teleporter_CelticCave_Schlund_Enter",
+   "interior": "Teleporter_CelticCave_Schlund_Exit"
+  },
+  {
+   "mouth": "Teleporter_CityDungeon_Enter",
+   "interior": "Teleporter_CityDungeon_Exit"
+  },
+  {
+   "mouth": "Teleporter_Deathswamp_Enter",
+   "interior": "Teleporter_Deathswamp_Exit"
+  },
+  {
+   "mouth": "Teleporter_EliteRipper",
+   "interior": "Teleporter_EliteRipper_Back"
+  },
+  {
+   "mouth": "Teleporter_FoxCave",
+   "interior": "Teleporter_Cave_FoxExit"
+  },
+  {
+   "mouth": "Teleporter_FrogCave",
+   "interior": "Teleporter_FrogCave_Back"
+  },
+  {
+   "mouth": "Teleporter_HeideCave",
+   "interior": "Teleporter_HeideCave_Back"
+  },
+  {
+   "mouth": "Teleporter_HerbalistCave",
+   "interior": "Teleporter_Herbalist_Cave_Exit"
+  },
+  {
+   "mouth": "Teleporter_Hippies_Shrinecave_Enter",
+   "interior": "Teleporter_Hippies_Shrinecave_Exit"
+  },
+  {
+   "mouth": "Teleporter_Leuchtwald_CityCave",
+   "interior": "Teleporter_Leuchtwald_CityCave_Back"
+  },
+  {
+   "mouth": "Teleporter_Leuchtwald_Ebercave_Enter",
+   "interior": "Teleporter_Leuchtwald_Ebercave_Exit"
+  },
+  {
+   "mouth": "Teleporter_Leuchtwald_RuinCave_Enter",
+   "interior": "Teleporter_Leuchtwald_Ruincave_Exit"
+  },
+  {
+   "mouth": "Teleporter_Leuchtwald_Shrinecave_Enter",
+   "interior": "Teleporter_Leuchtwald_Shrinecave_Exit"
+  },
+  {
+   "mouth": "Teleporter_LostCave",
+   "interior": "Teleporter_LostCave_Back"
+  },
+  {
+   "mouth": "Teleporter_MineShaft",
+   "interior": "Teleporter_MineShaft_Back"
+  },
+  {
+   "mouth": "Teleporter_Moorlagerhof_Ruin_Enter",
+   "interior": "Teleporter_Moorlagerhof_Ruin_Exit"
+  },
+  {
+   "mouth": "Teleporter_Ripper",
+   "interior": "Teleporter_Ripper_Back"
+  },
+  {
+   "mouth": "Teleporter_RuinenexplorerSouthWest_Enter",
+   "interior": "Teleporter_RuinenexplorerSouthWest_Exit"
+  },
+  {
+   "mouth": "Teleporter_Shrine_Shrinecave_Enter",
+   "interior": "Teleporter_Shrine_Shrinecave_Exit"
+  },
+  {
+   "mouth": "Teleporter_SpiderCave",
+   "interior": "Teleporter_SpiderCave_Back"
+  },
+  {
+   "mouth": "Teleporter_TavernCave",
+   "interior": "Teleporter_TavernCave_Exit"
+  },
+  {
+   "mouth": "Teleporter_UndergroundSea",
+   "interior": "Teleporter_UndergroundSea_Back"
+  },
+  {
+   "mouth": "Teleporter_VoragoCave",
+   "interior": "Teleporter_VoragoCave_Back"
+  }
+ ]
+}

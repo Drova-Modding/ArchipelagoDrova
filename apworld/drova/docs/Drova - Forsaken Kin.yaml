@@ -25,5 +25,7 @@ Drova - Forsaken Kin:
   # Gameplay
   suppress_vanilla_loot: true # true = only the AP item; false = AP item + vanilla loot (easier)
   consumable_stack_size: full # full | small | single - units per consumable grant (ammo never drops below 5)
+  randomize_teleporters: false # shuffle which cave each entrance leads into (36 two-way links, never strands you)
+  start_with_tools: true      # start with the Silver Smasher pickaxe + a junk spear for the mining/fishing minigames
 
   death_link: false

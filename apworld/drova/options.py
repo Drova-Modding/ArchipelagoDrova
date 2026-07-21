@@ -123,6 +123,31 @@ class RandomizeMuggings(Toggle):
     display_name = "Randomize Muggings"
 
 
+class StartWithTools(DefaultOnToggle):
+    """
+    Start with the tools for the two gathering minigames: the Silver Smasher pickaxe (mining) and
+    an Old Spear (spearfishing). They arrive as starting items the moment the client connects, so
+    ore veins and fishing spots - many of which are location checks - are workable from the start
+    without first finding or buying the tools.
+    """
+
+    display_name = "Start With Tools"
+
+
+class RandomizeTeleporters(Toggle):
+    """
+    Shuffle which cave each cave entrance leads into (an entrance randomizer).
+
+    36 two-way cave links are shuffled among each other. Links stay two-way, so you can always walk
+    back out the way you came in - no placement can strand you. Story-critical entrances are never
+    shuffled: the Red Tower, the Library, both factions' home interiors, and quest dungeons keep
+    their vanilla connections, and every shuffled entrance is reachable on foot, so this changes
+    exploration without adding any logic requirements.
+    """
+
+    display_name = "Randomize Teleporters"
+
+
 class EnemyKillChecks(Range):
     """
     Turn milestones of enemy kills into location checks. 0 disables them.
@@ -232,6 +257,8 @@ class DrovaOptions(PerGameCommonOptions):
     randomize_pickups: RandomizePickups
     randomize_traders: RandomizeTraders
     randomize_muggings: RandomizeMuggings
+    randomize_teleporters: RandomizeTeleporters
+    start_with_tools: StartWithTools
     enemy_kill_checks: EnemyKillChecks
     enemy_kill_interval: EnemyKillInterval
     attribute_learn_checks: AttributeLearnChecks
@@ -249,7 +276,7 @@ option_groups = [
     ),
     OptionGroup(
         "Gameplay",
-        [SuppressVanillaLoot, ConsumableStackSize],
+        [SuppressVanillaLoot, ConsumableStackSize, RandomizeTeleporters, StartWithTools],
     ),
     OptionGroup(
         "Location Pool",

@@ -75,6 +75,7 @@ namespace ArchipelagoDrova
             KillTracker.Initialize(Client, Store, HarmonyInstance);
             LearnTracker.Initialize(Client, Store, HarmonyInstance);
             LootSuppressor.Initialize(HarmonyInstance);
+            TeleporterShuffler.Initialize(HarmonyInstance);
 
             // Registered after Client.OnSaveGameStateLoaded so the save stamp is validated first.
             Store.OnStateLoaded += QuestTracker.RequestSweep;
