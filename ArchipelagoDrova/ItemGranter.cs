@@ -25,22 +25,44 @@ namespace ArchipelagoDrova
         bool TryGrant(ItemInfo item, string name);
     }
 
+    /// <summary>Mirror of the apworld's consumable_stack_size option keys.</summary>
+    public enum ConsumableStackSize
+    {
+        Full,
+        Small,
+        Single,
+    }
+
     public class ItemGranter : IItemGranter
     {
+        /// <summary>Set from slot data on connect. Full matches the generated table amounts.</summary>
+        public static ConsumableStackSize StackSize = ConsumableStackSize.Full;
+
         private readonly HashSet<string> _warnedNames = new(StringComparer.Ordinal);
 
         // Consumable chunks vary per grant so 20 arrows is a nominal size, not a metronome.
         private readonly Random _amountRoll = new();
 
         /// <summary>
-        /// Stackable grants (amount > 1) vary uniformly between 50% and 150% of the table amount,
-        /// minimum 1. Single-unit grants (gear, recipes, quest items) always stay exactly 1.
+        /// Stackable grants (amount > 1) vary uniformly between 50% and 150% of the (option-scaled)
+        /// table amount, minimum 1. Single-unit grants (gear, recipes, quest items) always stay
+        /// exactly 1. "single" skips the variance: it grants a flat 1, except ammo-sized stacks
+        /// (table amount >= 10: arrows, bolts, throwables) which grant a flat 5 - one arrow per
+        /// check is not a reward.
         /// </summary>
         private int RollAmount(int tableAmount)
         {
             if (tableAmount <= 1)
             {
                 return tableAmount;
+            }
+            switch (StackSize)
+            {
+                case ConsumableStackSize.Single:
+                    return tableAmount >= 10 ? 5 : 1;
+                case ConsumableStackSize.Small:
+                    tableAmount = Math.Max(2, (tableAmount + 1) / 2);
+                    break;
             }
             int low = Math.Max(1, (tableAmount + 1) / 2);
             int high = tableAmount + tableAmount / 2;

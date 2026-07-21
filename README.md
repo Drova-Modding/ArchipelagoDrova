@@ -85,19 +85,24 @@ Drova - Forsaken Kin:
   faction: nemeton            # nemeton | ruinenlager (alias: remnants)
 
   # Location pool (which things become checks)
-  randomize_chests: true      # 521 checks over 201 lockable chests (one per vanilla item)
-  randomize_containers: true  # 373 checks over 196 barrels, crates, sacks (one per vanilla item)
+  randomize_chests: true      # 520 checks over 200 lockable chests (one per vanilla item)
+  randomize_containers: true  # 372 checks over 196 barrels, crates, sacks (one per vanilla item)
   randomize_quests: true      # 60 quest completions (minus the faction you didn't join)
   randomize_critters: false   # 134 wildlife / carcasses
   randomize_resources: false  # 361 ore veins, herbs
   randomize_caches: false     # 978 hidden caches
-  randomize_pickups: false    # 3125 loose world items (very long seed)
-  randomize_traders: false    # ~890 merchant slots (faction-split)
+  randomize_pickups: false    # 3112 loose world items (very long seed)
+  randomize_traders: false    # ~2320 merchant checks (faction-split); stocked stacks sell up to 5, one per unit
+  randomize_muggings: false   # 250 NPC muggings (knock out + loot); opposite-faction NPCs only get filler
   enemy_kill_checks: 0        # 0-50 kill milestones (0 = off)
   enemy_kill_interval: 10     # kills between each milestone
+  attribute_learn_checks: 0   # 0-80 teacher-attribute milestones (0 = off)
+  attribute_learn_interval: 5 # teacher-learned points between milestones
+  talent_learn_checks: 0      # 0-10: each talent learned from a teacher/dialogue is a check (0 = off)
 
   # Gameplay
   suppress_vanilla_loot: true # true = only the AP item; false = AP item + vanilla loot (easier)
+  consumable_stack_size: full # full | small | single - units per consumable grant (ammo never drops below 5)
 
   death_link: false
 ```

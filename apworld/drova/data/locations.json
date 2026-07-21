@@ -2450,15 +2450,6 @@
   "area": "Cave",
   "category": "Chest",
   "classification": "default",
-  "id": 4801206,
-  "key": "3d8311f8-6bed-4232-abb8-9c11df2f17ed",
-  "kind": "Container",
-  "name": "Cave - Chest 21"
- },
- {
-  "area": "Cave",
-  "category": "Chest",
-  "classification": "default",
   "id": 4804714,
   "key": "f23c4a6a-fa43-483c-a515-060e62f5f565",
   "kind": "Container",
@@ -2634,15 +2625,6 @@
   "key": "06f8383d-d5d8-447a-88bb-da18b00d52a8#slot2",
   "kind": "ContainerSlot",
   "name": "Cave - Chest 8 - Item 2"
- },
- {
-  "area": "Cave",
-  "category": "Chest",
-  "classification": "default",
-  "id": 4806009,
-  "key": "06f8383d-d5d8-447a-88bb-da18b00d52a8#slot3",
-  "kind": "ContainerSlot",
-  "name": "Cave - Chest 8 - Item 3"
  },
  {
   "area": "Cave",
@@ -17969,15 +17951,6 @@
  },
  {
   "area": "Forest Primeval",
-  "category": "Container",
-  "classification": "default",
-  "id": 4806426,
-  "key": "d230f6d1-c1cf-43db-83cf-67281a49fe3b#slot5",
-  "kind": "ContainerSlot",
-  "name": "Forest Primeval - Container 1 - Item 5"
- },
- {
-  "area": "Forest Primeval",
   "category": "Critter",
   "classification": "default",
   "id": 4802535,
@@ -18227,15 +18200,6 @@
   "key": "348642db-9447-4b4d-b0e3-8d1d9a936f62#slot2",
   "kind": "ContainerSlot",
   "name": "Forest Primeval - Container 6 - Item 2"
- },
- {
-  "area": "Forest Primeval",
-  "category": "Container",
-  "classification": "default",
-  "id": 4806106,
-  "key": "348642db-9447-4b4d-b0e3-8d1d9a936f62#slot3",
-  "kind": "ContainerSlot",
-  "name": "Forest Primeval - Container 6 - Item 3"
  },
  {
   "area": "Forest Primeval",
@@ -33267,15 +33231,6 @@
   "key": "1a4bd783-b92d-4231-9f87-440acf1df5ed#slot2",
   "kind": "ContainerSlot",
   "name": "Red Moor - Chest 1 - Item 2"
- },
- {
-  "area": "Red Moor",
-  "category": "Chest",
-  "classification": "default",
-  "id": 4806049,
-  "key": "1a4bd783-b92d-4231-9f87-440acf1df5ed#slot3",
-  "kind": "ContainerSlot",
-  "name": "Red Moor - Chest 1 - Item 3"
  },
  {
   "area": "Red Moor",
@@ -74265,15 +74220,6 @@
   "key": "5fbfc61e-1cce-46d5-9c96-3603db894beb#slot3",
   "kind": "ContainerSlot",
   "name": "Wilds 28_10 - Chest 1 - Item 3"
- },
- {
-  "area": "Wilds 28_10",
-  "category": "Chest",
-  "classification": "default",
-  "id": 4806189,
-  "key": "5fbfc61e-1cce-46d5-9c96-3603db894beb#slot4",
-  "kind": "ContainerSlot",
-  "name": "Wilds 28_10 - Chest 1 - Item 4"
  },
  {
   "area": "Wilds 29_28",

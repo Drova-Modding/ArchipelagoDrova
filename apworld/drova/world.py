@@ -99,6 +99,8 @@ class DrovaWorld(World):
             "seed_name": self.multiworld.seed_name,
             "death_link": bool(self.options.death_link),
             "suppress_vanilla_loot": bool(self.options.suppress_vanilla_loot),
+            # Client-side grant sizing only; it never shapes generation, so UT does not re-apply it.
+            "consumable_stack_size": self.options.consumable_stack_size.current_key,
             "faction": self.options.faction.current_key,
             "categories": {
                 "chests": bool(self.options.randomize_chests),

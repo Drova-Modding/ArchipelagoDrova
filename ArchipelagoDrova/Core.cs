@@ -5,9 +5,8 @@ using Il2CppDrova;
 using Il2CppDrova.Saveables;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(ArchipelagoDrova.Core), "ArchipelagoDrova", "0.2.0", "TrustNoOneElse", null)]
+[assembly: MelonInfo(typeof(ArchipelagoDrova.Core), "ArchipelagoDrova", "0.3.0", "TrustNoOneElse")]
 [assembly: MelonGame("Just2D", "Drova")]
-// The MelonInfo name of the Drova Modding API. Makes MelonLoader initialise us after it.
 [assembly: MelonAdditionalDependencies("Drova_Modding_API")]
 
 namespace ArchipelagoDrova
@@ -27,16 +26,13 @@ namespace ArchipelagoDrova
         /// is the API's own readiness signal: it only fires once the world is ready, no loading screen
         /// is up, and the actor is _isInitialized. Polling PlayerAccess.GetPlayer() instead is wrong
         /// twice over: it throws while the game manager is still coming up, and it can hand back an
-        /// actor that is not initialised yet.
+        /// actor not initialized yet.
         /// </summary>
         public static Actor Player { get; private set; }
 
-        /// <summary>True once the player exists and is initialised. Use Unity's implicit bool so a
+        /// <summary>True, once the player exists and is initialized. Use Unity's implicit bool so a
         /// destroyed actor reads as absent.</summary>
-        public static bool PlayerReady
-        {
-            get { return Player; }
-        }
+        public static bool PlayerReady => Player;
 
         private int _guiFailStreak;
         private int _lastGuiFailFrame = -1;

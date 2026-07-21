@@ -7,7 +7,7 @@ Drova - Forsaken Kin:
   faction: nemeton            # nemeton | ruinenlager (alias: remnants)
 
   # Location pool (which things become checks)
-  randomize_chests: true      # 521 checks over 201 lockable chests (one per vanilla item)
+  randomize_chests: true      # 520 checks over 200 lockable chests (one per vanilla item)
   randomize_containers: true  # 372 checks over 196 barrels, crates, sacks (one per vanilla item)
   randomize_quests: true      # 60 quest completions (minus the faction you didn't join)
   randomize_critters: false   # 134 wildlife / carcasses
@@ -24,5 +24,6 @@ Drova - Forsaken Kin:
 
   # Gameplay
   suppress_vanilla_loot: true # true = only the AP item; false = AP item + vanilla loot (easier)
+  consumable_stack_size: full # full | small | single - units per consumable grant (ammo never drops below 5)
 
   death_link: false

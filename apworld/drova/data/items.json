@@ -58,66 +58,10 @@
  {
   "amount": 1,
   "classification": "useful",
-  "id": 4762003,
-  "kind": "Item",
-  "name": "Armor Chest Bandit T2",
-  "readable_id": "armor_chest_bandit_T2"
- },
- {
-  "amount": 1,
-  "classification": "useful",
   "id": 4762004,
   "kind": "Item",
   "name": "Armor Chest Bandit T4",
   "readable_id": "armor_chest_bandit_T4"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762005,
-  "kind": "Item",
-  "name": "Armor Chest Banshee",
-  "readable_id": "armor_chest_banshee"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762006,
-  "kind": "Item",
-  "name": "Armor Chest Draugr",
-  "readable_id": "armor_chest_draugr"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762007,
-  "kind": "Item",
-  "name": "Armor Chest Draugr Brutus",
-  "readable_id": "armor_chest_draugr_brutus"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762008,
-  "kind": "Item",
-  "name": "Armor Chest Draugr Dagger",
-  "readable_id": "armor_chest_draugr_dagger"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762009,
-  "kind": "Item",
-  "name": "Armor Chest Draugr Mage",
-  "readable_id": "armor_chest_draugr_mage"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762010,
-  "kind": "Item",
-  "name": "Armor Chest Draugr Spear",
-  "readable_id": "armor_chest_draugr_spear"
  },
  {
   "amount": 1,
@@ -202,34 +146,10 @@
  {
   "amount": 1,
   "classification": "useful",
-  "id": 4762021,
-  "kind": "Item",
-  "name": "Armor Chest Manshee",
-  "readable_id": "armor_chest_manshee"
- },
- {
-  "amount": 1,
-  "classification": "useful",
   "id": 4762022,
   "kind": "Item",
   "name": "Armor Chest Miner Name",
   "readable_id": "armor_chest_miner_name"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762023,
-  "kind": "Item",
-  "name": "Armor Chest Nemeton Chief Name",
-  "readable_id": "armor_chest_nemeton_chief_name"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762024,
-  "kind": "Item",
-  "name": "Armor Chest Nemeton Craftsman Name",
-  "readable_id": "armor_chest_nemeton_craftsman_name"
  },
  {
   "amount": 1,
@@ -258,26 +178,10 @@
  {
   "amount": 1,
   "classification": "useful",
-  "id": 4762028,
-  "kind": "Item",
-  "name": "Armor Chest Nemeton Merchant Name",
-  "readable_id": "armor_chest_nemeton_merchant_name"
- },
- {
-  "amount": 1,
-  "classification": "useful",
   "id": 4762029,
   "kind": "Item",
   "name": "Armor Chest Nemeton Social Name",
   "readable_id": "armor_chest_nemeton_social_name"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762030,
-  "kind": "Item",
-  "name": "Armor Chest Ruinenlager Chief Name",
-  "readable_id": "armor_chest_ruinenlager_chief_name"
  },
  {
   "amount": 1,
@@ -369,51 +273,11 @@
  },
  {
   "amount": 1,
-  "classification": "useful",
-  "id": 4762042,
-  "kind": "Item",
-  "name": "Armor Druid Intro",
-  "readable_id": "armor_druid_intro"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762043,
-  "kind": "Item",
-  "name": "Armor Feet Shoe Lost",
-  "readable_id": "armor_feet_shoe_lost"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762044,
-  "kind": "Item",
-  "name": "Armor Underwear Chest",
-  "readable_id": "armor_underwear_chest"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762045,
-  "kind": "Item",
-  "name": "Cons Familiar Firefly",
-  "readable_id": "cons_Familiar_Firefly"
- },
- {
-  "amount": 1,
   "classification": "filler",
   "id": 4762046,
   "kind": "Item",
   "name": "Cons Flow AggressiveCry",
   "readable_id": "cons_flow_aggressiveCry"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762048,
-  "kind": "Item",
-  "name": "Cons Flow Bady Scream Shockwave",
-  "readable_id": "cons_flow_bady_scream_shockwave"
  },
  {
   "amount": 1,
@@ -450,14 +314,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762053,
-  "kind": "Item",
-  "name": "Cons Flow BullRush Bady",
-  "readable_id": "cons_flow_bullRush_bady"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762054,
   "kind": "Item",
   "name": "Cons Flow Conflagration",
@@ -470,14 +326,6 @@
   "kind": "Item",
   "name": "Cons Flow Conjure Insects",
   "readable_id": "cons_flow_conjure_insects"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762061,
-  "kind": "Item",
-  "name": "Cons Flow Conjure Insects Ebru",
-  "readable_id": "cons_flow_conjure_insects_ebru"
  },
  {
   "amount": 1,
@@ -498,58 +346,10 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762064,
-  "kind": "Item",
-  "name": "Cons Flow Conjure Ripper",
-  "readable_id": "cons_flow_conjure_ripper"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762065,
-  "kind": "Item",
-  "name": "Cons Flow Conjure Ripper Ebru",
-  "readable_id": "cons_flow_conjure_ripper_ebru"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762066,
   "kind": "Item",
   "name": "Cons Flow Dash",
   "readable_id": "cons_flow_dash"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762067,
-  "kind": "Item",
-  "name": "Cons Flow Diemo Bramble",
-  "readable_id": "cons_flow_diemo_bramble"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762068,
-  "kind": "Item",
-  "name": "Cons Flow Diemo Conjureboars",
-  "readable_id": "cons_flow_diemo_conjureboars"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762069,
-  "kind": "Item",
-  "name": "Cons Flow Diemo Explodingshrooms",
-  "readable_id": "cons_flow_diemo_explodingshrooms"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762070,
-  "kind": "Item",
-  "name": "Cons Flow Diemo Throwflux",
-  "readable_id": "cons_flow_diemo_throwflux"
  },
  {
   "amount": 1,
@@ -610,58 +410,10 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762078,
-  "kind": "Item",
-  "name": "Cons Flow HeavyBlow Bady",
-  "readable_id": "cons_flow_heavyBlow_bady"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762079,
   "kind": "Item",
   "name": "Cons Flow Infection",
   "readable_id": "cons_flow_infection"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762080,
-  "kind": "Item",
-  "name": "Cons Flow Infection Bady",
-  "readable_id": "cons_flow_infection_bady"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762081,
-  "kind": "Item",
-  "name": "Cons Flow Jero Blink",
-  "readable_id": "cons_flow_jero_Blink"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762083,
-  "kind": "Item",
-  "name": "Cons Flow Jero Finisher",
-  "readable_id": "cons_flow_jero_finisher"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762082,
-  "kind": "Item",
-  "name": "Cons Flow Jero FireZones",
-  "readable_id": "cons_flow_jero_FireZones"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762084,
-  "kind": "Item",
-  "name": "Cons Flow Jero Lightning",
-  "readable_id": "cons_flow_jero_lightning"
  },
  {
   "amount": 1,
@@ -678,46 +430,6 @@
   "kind": "Item",
   "name": "Cons Flow MagicVision",
   "readable_id": "cons_flow_magicVision"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762087,
-  "kind": "Item",
-  "name": "Cons Flow Molvina CrowAttack",
-  "readable_id": "cons_flow_molvina_crowAttack"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762088,
-  "kind": "Item",
-  "name": "Cons Flow Molvina Finisher",
-  "readable_id": "cons_flow_molvina_finisher"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762089,
-  "kind": "Item",
-  "name": "Cons Flow Molvina Root Aoe",
-  "readable_id": "cons_flow_molvina_root_aoe"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762090,
-  "kind": "Item",
-  "name": "Cons Flow Molvina Thunder",
-  "readable_id": "cons_flow_molvina_thunder"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762091,
-  "kind": "Item",
-  "name": "Cons Flow Molvina Thunder Onplayer",
-  "readable_id": "cons_flow_molvina_thunder_onplayer"
  },
  {
   "amount": 1,
@@ -758,14 +470,6 @@
   "kind": "Item",
   "name": "Cons Flow ShockingBlow",
   "readable_id": "cons_flow_shockingBlow"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762098,
-  "kind": "Item",
-  "name": "Cons Flow ShockingBlow Bady",
-  "readable_id": "cons_flow_shockingBlow_bady"
  },
  {
   "amount": 1,
@@ -1250,14 +954,6 @@
  {
   "amount": 1,
   "classification": "useful",
-  "id": 4762158,
-  "kind": "Item",
-  "name": "Helmet Draugr Silver Name",
-  "readable_id": "helmet_draugr_silver_name"
- },
- {
-  "amount": 1,
-  "classification": "useful",
   "id": 4762159,
   "kind": "Item",
   "name": "Helmet Earprotection Name",
@@ -1410,14 +1106,6 @@
  {
   "amount": 1,
   "classification": "useful",
-  "id": 4762178,
-  "kind": "Item",
-  "name": "Helmet None",
-  "readable_id": "helmet_none"
- },
- {
-  "amount": 1,
-  "classification": "useful",
   "id": 4762179,
   "kind": "Item",
   "name": "Helmet Onion Name",
@@ -1490,14 +1178,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762183,
-  "kind": "Item",
-  "name": "Item AldriksNote",
-  "readable_id": "item_AldriksNote"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762206,
   "kind": "Item",
   "name": "Item Alraune",
@@ -1554,34 +1234,10 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762211,
-  "kind": "Item",
-  "name": "Item AtlanterAcademyText",
-  "readable_id": "item_atlanterAcademyText"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762212,
   "kind": "Item",
   "name": "Item AtlanterRune",
   "readable_id": "item_atlanterRune"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762215,
-  "kind": "Item",
-  "name": "Item AuwaldDungeon",
-  "readable_id": "item_auwaldDungeon"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762184,
-  "kind": "Item",
-  "name": "Item BanditsOnTheBridge",
-  "readable_id": "item_BanditsOnTheBridge"
  },
  {
   "amount": 1,
@@ -1664,22 +1320,6 @@
   "readable_id": "item_bigquiver"
  },
  {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762226,
-  "kind": "Item",
-  "name": "Item Blackboard Butterflies",
-  "readable_id": "item_blackboard_Butterflies"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762227,
-  "kind": "Item",
-  "name": "Item Blackboard Woodcamp",
-  "readable_id": "item_blackboard_woodcamp"
- },
- {
   "amount": 3,
   "classification": "filler",
   "id": 4762228,
@@ -1754,34 +1394,10 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762237,
-  "kind": "Item",
-  "name": "Item BottlePost",
-  "readable_id": "item_bottlePost"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762238,
   "kind": "Item",
   "name": "Item Brokenwings",
   "readable_id": "item_brokenwings"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762239,
-  "kind": "Item",
-  "name": "Item Brutus Seal Active",
-  "readable_id": "item_brutus_seal_active"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762240,
-  "kind": "Item",
-  "name": "Item Brutus Seal Inactive",
-  "readable_id": "item_brutus_seal_inactive"
  },
  {
   "amount": 5,
@@ -1790,14 +1406,6 @@
   "kind": "Item",
   "name": "Item Callashroom",
   "readable_id": "item_callashroom"
- },
- {
-  "amount": 5,
-  "classification": "filler",
-  "id": 4762242,
-  "kind": "Item",
-  "name": "Item Callashroom Extract",
-  "readable_id": "item_callashroom_extract"
  },
  {
   "amount": 5,
@@ -1850,14 +1458,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762249,
-  "kind": "Item",
-  "name": "Item DiaryKora",
-  "readable_id": "item_diaryKora"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762250,
   "kind": "Item",
   "name": "Item Earthroot",
@@ -1902,22 +1502,6 @@
   "kind": "Item",
   "name": "Item Engraving Stones",
   "readable_id": "item_engraving_stones"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762256,
-  "kind": "Item",
-  "name": "Item EntryMine",
-  "readable_id": "item_entryMine"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762257,
-  "kind": "Item",
-  "name": "Item EscortLetter",
-  "readable_id": "item_escortLetter"
  },
  {
   "amount": 1,
@@ -1982,14 +1566,6 @@
   "kind": "Item",
   "name": "Item Fish Trout",
   "readable_id": "item_fish_trout"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762266,
-  "kind": "Item",
-  "name": "Item Fishing",
-  "readable_id": "item_fishing"
  },
  {
   "amount": 1,
@@ -2186,14 +1762,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762185,
-  "kind": "Item",
-  "name": "Item HiddenTreasure",
-  "readable_id": "item_HiddenTreasure"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762291,
   "kind": "Item",
   "name": "Item Honey",
@@ -2282,38 +1850,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762186,
-  "kind": "Item",
-  "name": "Item KendrickGoodsBook",
-  "readable_id": "item_KendrickGoodsBook"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762187,
-  "kind": "Item",
-  "name": "Item KendrickHideout",
-  "readable_id": "item_KendrickHideout"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762188,
-  "kind": "Item",
-  "name": "Item KendrickSagar",
-  "readable_id": "item_KendrickSagar"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762189,
-  "kind": "Item",
-  "name": "Item KendrickThreat",
-  "readable_id": "item_KendrickThreat"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762302,
   "kind": "Item",
   "name": "Item Kiepe",
@@ -2346,906 +1882,10 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762379,
-  "kind": "Item",
-  "name": "Item Letter AtlanterDungeon 0",
-  "readable_id": "item_letter_atlanterDungeon_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762380,
-  "kind": "Item",
-  "name": "Item Letter AtlanterDungeon Colony",
-  "readable_id": "item_letter_atlanterDungeon_colony"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762381,
-  "kind": "Item",
-  "name": "Item Letter AtlanterDungeon Drova",
-  "readable_id": "item_letter_atlanterDungeon_drova"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762382,
-  "kind": "Item",
-  "name": "Item Letter AtlanterDungeon Fire",
-  "readable_id": "item_letter_atlanterDungeon_fire"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762383,
-  "kind": "Item",
-  "name": "Item Letter AtlanterDungeon Intro",
-  "readable_id": "item_letter_atlanterDungeon_intro"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762384,
-  "kind": "Item",
-  "name": "Item Letter Fleshboss 0",
-  "readable_id": "item_letter_fleshboss_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762385,
-  "kind": "Item",
-  "name": "Item Letter Fleshboss 1",
-  "readable_id": "item_letter_fleshboss_1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762386,
-  "kind": "Item",
-  "name": "Item Letter Fleshboss 2",
-  "readable_id": "item_letter_fleshboss_2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762387,
-  "kind": "Item",
-  "name": "Item Letter Fleshboss Intro Fleshmoor",
-  "readable_id": "item_letter_fleshboss_intro_fleshmoor"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762388,
-  "kind": "Item",
-  "name": "Item Letter Fleshboss Pre0",
-  "readable_id": "item_letter_fleshboss_pre0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762389,
-  "kind": "Item",
-  "name": "Item Letter Fleshboss Pre1",
-  "readable_id": "item_letter_fleshboss_pre1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762390,
-  "kind": "Item",
-  "name": "Item Letter Foresttavern Chapter1",
-  "readable_id": "item_letter_foresttavern_chapter1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762391,
-  "kind": "Item",
-  "name": "Item Letter Foresttavern Chapter3",
-  "readable_id": "item_letter_foresttavern_chapter3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762392,
-  "kind": "Item",
-  "name": "Item Letter Library 0",
-  "readable_id": "item_letter_library_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762393,
-  "kind": "Item",
-  "name": "Item Letter Library 1",
-  "readable_id": "item_letter_library_1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762394,
-  "kind": "Item",
-  "name": "Item Letter Library 2",
-  "readable_id": "item_letter_library_2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762395,
-  "kind": "Item",
-  "name": "Item Letter Library 3",
-  "readable_id": "item_letter_library_3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762396,
-  "kind": "Item",
-  "name": "Item Letter Library CircleRoom Note1",
-  "readable_id": "item_letter_library_circleRoom_note1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762397,
-  "kind": "Item",
-  "name": "Item Letter Library CircleRoom Note2",
-  "readable_id": "item_letter_library_circleRoom_note2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762398,
-  "kind": "Item",
-  "name": "Item Letter Library EnergyRoom Note",
-  "readable_id": "item_letter_library_energyRoom_note"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762399,
-  "kind": "Item",
-  "name": "Item Letter Library GolemRoom Note1",
-  "readable_id": "item_letter_library_golemRoom_note1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762400,
-  "kind": "Item",
-  "name": "Item Letter Library GolemRoom Note2",
-  "readable_id": "item_letter_library_golemRoom_note2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762401,
-  "kind": "Item",
-  "name": "Item Letter Library GolemRoom Note3",
-  "readable_id": "item_letter_library_golemRoom_note3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762402,
-  "kind": "Item",
-  "name": "Item Letter Library GolemRoom Note4",
-  "readable_id": "item_letter_library_golemRoom_note4"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762403,
-  "kind": "Item",
-  "name": "Item Letter Library NatureRoom Note",
-  "readable_id": "item_letter_library_natureRoom_note"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762404,
-  "kind": "Item",
-  "name": "Item Letter Library SoundRoom Note",
-  "readable_id": "item_letter_library_soundRoom_note"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762405,
-  "kind": "Item",
-  "name": "Item Letter Library SoundRoom Note2",
-  "readable_id": "item_letter_library_soundRoom_note2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762406,
-  "kind": "Item",
-  "name": "Item Letter Library SpearRoom Note1",
-  "readable_id": "item_letter_library_spearRoom_note1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762407,
-  "kind": "Item",
-  "name": "Item Letter Library SpearRoom Note2",
-  "readable_id": "item_letter_library_spearRoom_note2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762408,
-  "kind": "Item",
-  "name": "Item Letter Library SpearRoom Note3",
-  "readable_id": "item_letter_library_spearRoom_note3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762378,
-  "kind": "Item",
-  "name": "Item Letter Reija",
-  "readable_id": "item_letter_Reija"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762409,
-  "kind": "Item",
-  "name": "Item Letter Shrine Apus Circinus",
-  "readable_id": "item_letter_shrine_apus_circinus"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762410,
-  "kind": "Item",
-  "name": "Item Letter Shrine Bootes Auriga",
-  "readable_id": "item_letter_shrine_bootes_auriga"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762411,
-  "kind": "Item",
-  "name": "Item Letter Shrine Cygnus",
-  "readable_id": "item_letter_shrine_cygnus"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762412,
-  "kind": "Item",
-  "name": "Item Letter Shrine Luna",
-  "readable_id": "item_letter_shrine_luna"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762413,
-  "kind": "Item",
-  "name": "Item Letter Shrine Sol",
-  "readable_id": "item_letter_shrine_sol"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762414,
-  "kind": "Item",
-  "name": "Item Letter Shrine Terra Borealis",
-  "readable_id": "item_letter_shrine_terra_borealis"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762415,
-  "kind": "Item",
-  "name": "Item Letter Shrine Vela",
-  "readable_id": "item_letter_shrine_vela"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762416,
-  "kind": "Item",
-  "name": "Item Letter Sick Siser",
-  "readable_id": "item_letter_sick_siser"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762306,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Armor",
-  "readable_id": "item_letterAtlanter_Armor"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762307,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Arrival",
-  "readable_id": "item_letterAtlanter_Arrival"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762308,
-  "kind": "Item",
-  "name": "Item LetterAtlanter AtlanterCreation",
-  "readable_id": "item_letterAtlanter_AtlanterCreation"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762309,
-  "kind": "Item",
-  "name": "Item LetterAtlanter AtlanterProblems",
-  "readable_id": "item_letterAtlanter_AtlanterProblems"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762310,
-  "kind": "Item",
-  "name": "Item LetterAtlanter AtlanterRevolt",
-  "readable_id": "item_letterAtlanter_AtlanterRevolt"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762311,
-  "kind": "Item",
-  "name": "Item LetterAtlanter CancelledResearch",
-  "readable_id": "item_letterAtlanter_CancelledResearch"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762312,
-  "kind": "Item",
-  "name": "Item LetterAtlanter DangerousRunes",
-  "readable_id": "item_letterAtlanter_DangerousRunes"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762313,
-  "kind": "Item",
-  "name": "Item LetterAtlanter DangerousTravels",
-  "readable_id": "item_letterAtlanter_DangerousTravels"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762314,
-  "kind": "Item",
-  "name": "Item LetterAtlanter DangerousTravels2",
-  "readable_id": "item_letterAtlanter_DangerousTravels2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762315,
-  "kind": "Item",
-  "name": "Item LetterAtlanter DrivaniusAttitude",
-  "readable_id": "item_letterAtlanter_DrivaniusAttitude"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762316,
-  "kind": "Item",
-  "name": "Item LetterAtlanter EmergingFog",
-  "readable_id": "item_letterAtlanter_EmergingFog"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762317,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Excalibur",
-  "readable_id": "item_letterAtlanter_Excalibur"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762318,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Extractor2",
-  "readable_id": "item_letterAtlanter_Extractor2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762319,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Eye",
-  "readable_id": "item_letterAtlanter_Eye"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762320,
-  "kind": "Item",
-  "name": "Item LetterAtlanter FirstDownfall",
-  "readable_id": "item_letterAtlanter_FirstDownfall"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762321,
-  "kind": "Item",
-  "name": "Item LetterAtlanter ItsMoreDangerous",
-  "readable_id": "item_letterAtlanter_ItsMoreDangerous"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762322,
-  "kind": "Item",
-  "name": "Item LetterAtlanter ItsMoreDangerous2",
-  "readable_id": "item_letterAtlanter_ItsMoreDangerous2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762323,
-  "kind": "Item",
-  "name": "Item LetterAtlanter LightAndDarkness",
-  "readable_id": "item_letterAtlanter_LightAndDarkness"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762324,
-  "kind": "Item",
-  "name": "Item LetterAtlanter NewsRedTower",
-  "readable_id": "item_letterAtlanter_NewsRedTower"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762325,
-  "kind": "Item",
-  "name": "Item LetterAtlanter OlafDiary",
-  "readable_id": "item_letterAtlanter_OlafDiary"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762326,
-  "kind": "Item",
-  "name": "Item LetterAtlanter ReijaAndMonko",
-  "readable_id": "item_letterAtlanter_ReijaAndMonko"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762327,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Revolt1",
-  "readable_id": "item_letterAtlanter_Revolt1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762328,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Revolt2",
-  "readable_id": "item_letterAtlanter_Revolt2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762329,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Revolt3",
-  "readable_id": "item_letterAtlanter_Revolt3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762330,
-  "kind": "Item",
-  "name": "Item LetterAtlanter RuneVessel Nemeton",
-  "readable_id": "item_letterAtlanter_RuneVessel_Nemeton"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762331,
-  "kind": "Item",
-  "name": "Item LetterAtlanter RuneVessel Ruinenlager",
-  "readable_id": "item_letterAtlanter_RuneVessel_Ruinenlager"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762332,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Senat",
-  "readable_id": "item_letterAtlanter_Senat"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762333,
-  "kind": "Item",
-  "name": "Item LetterAtlanter ShiftingPriorities",
-  "readable_id": "item_letterAtlanter_ShiftingPriorities"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762334,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Shrines",
-  "readable_id": "item_letterAtlanter_Shrines"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762335,
-  "kind": "Item",
-  "name": "Item LetterAtlanter SpreadingDanger",
-  "readable_id": "item_letterAtlanter_SpreadingDanger"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762336,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Stars",
-  "readable_id": "item_letterAtlanter_Stars"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762337,
-  "kind": "Item",
-  "name": "Item LetterAtlanter ThirdDownfall",
-  "readable_id": "item_letterAtlanter_ThirdDownfall"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762338,
-  "kind": "Item",
-  "name": "Item LetterAtlanter ToTheRuinRaiders",
-  "readable_id": "item_letterAtlanter_ToTheRuinRaiders"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762339,
-  "kind": "Item",
-  "name": "Item LetterAtlanter WhereIsDrivanius",
-  "readable_id": "item_letterAtlanter_WhereIsDrivanius"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762340,
-  "kind": "Item",
-  "name": "Item LetterAtlanter WhereIsDrivanius2",
-  "readable_id": "item_letterAtlanter_WhereIsDrivanius2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762341,
-  "kind": "Item",
-  "name": "Item LetterAtlanter Workerletter",
-  "readable_id": "item_letterAtlanter_Workerletter"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762342,
-  "kind": "Item",
-  "name": "Item LetterAuwaldDungeon 0",
-  "readable_id": "item_letterAuwaldDungeon_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762343,
-  "kind": "Item",
-  "name": "Item LetterAuwaldDungeon 1",
-  "readable_id": "item_letterAuwaldDungeon_1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762344,
-  "kind": "Item",
-  "name": "Item LetterAuwaldDungeon 2",
-  "readable_id": "item_letterAuwaldDungeon_2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762345,
-  "kind": "Item",
-  "name": "Item LetterAuwaldDungeon 3",
-  "readable_id": "item_letterAuwaldDungeon_3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762346,
-  "kind": "Item",
-  "name": "Item LetterAuwaldDungeon 4",
-  "readable_id": "item_letterAuwaldDungeon_4"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762347,
-  "kind": "Item",
-  "name": "Item LetterAuwaldDungeon 5",
-  "readable_id": "item_letterAuwaldDungeon_5"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762348,
-  "kind": "Item",
-  "name": "Item LetterCelts Anatoli",
-  "readable_id": "item_letterCelts_Anatoli"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762349,
-  "kind": "Item",
-  "name": "Item LetterCelts BoundaryStone",
-  "readable_id": "item_letterCelts_BoundaryStone"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762350,
-  "kind": "Item",
-  "name": "Item LetterCelts Diemo",
-  "readable_id": "item_letterCelts_Diemo"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762351,
-  "kind": "Item",
-  "name": "Item LetterCelts Jero",
-  "readable_id": "item_letterCelts_Jero"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762352,
-  "kind": "Item",
-  "name": "Item LetterCelts Nemeton",
-  "readable_id": "item_letterCelts_Nemeton"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762353,
-  "kind": "Item",
-  "name": "Item LetterCelts Roarke",
-  "readable_id": "item_letterCelts_Roarke"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762354,
-  "kind": "Item",
-  "name": "Item LetterCelts SafeHaven",
-  "readable_id": "item_letterCelts_SafeHaven"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762355,
-  "kind": "Item",
-  "name": "Item LetterCelts Spark",
-  "readable_id": "item_letterCelts_Spark"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762356,
-  "kind": "Item",
-  "name": "Item LetterCelts Treason",
-  "readable_id": "item_letterCelts_Treason"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762357,
-  "kind": "Item",
-  "name": "Item LetterCityDungeon 0",
-  "readable_id": "item_letterCityDungeon_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762358,
-  "kind": "Item",
-  "name": "Item LetterCityDungeon 1",
-  "readable_id": "item_letterCityDungeon_1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762359,
-  "kind": "Item",
-  "name": "Item LetterCityDungeon 2",
-  "readable_id": "item_letterCityDungeon_2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762360,
-  "kind": "Item",
-  "name": "Item LetterCityDungeon 3",
-  "readable_id": "item_letterCityDungeon_3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762361,
-  "kind": "Item",
-  "name": "Item LetterCityDungeon GodPaintings",
-  "readable_id": "item_letterCityDungeon_GodPaintings"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762362,
-  "kind": "Item",
-  "name": "Item LetterCityDungeon Underground 0",
-  "readable_id": "item_letterCityDungeon_Underground_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762363,
-  "kind": "Item",
-  "name": "Item LetterCityDungeon Underground 1",
-  "readable_id": "item_letterCityDungeon_Underground_1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762364,
-  "kind": "Item",
-  "name": "Item LetterCityDungeon Underground 2",
-  "readable_id": "item_letterCityDungeon_Underground_2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762365,
-  "kind": "Item",
-  "name": "Item LetterFromEtzel",
-  "readable_id": "item_letterFromEtzel"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762366,
-  "kind": "Item",
-  "name": "Item LetterMehlunaToBady",
-  "readable_id": "item_letterMehlunaToBady"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762367,
-  "kind": "Item",
-  "name": "Item LetterRedTower 0",
-  "readable_id": "item_letterRedTower_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762368,
-  "kind": "Item",
-  "name": "Item LetterRedTower 1",
-  "readable_id": "item_letterRedTower_1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762369,
-  "kind": "Item",
-  "name": "Item LetterRedTower 2",
-  "readable_id": "item_letterRedTower_2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762370,
-  "kind": "Item",
-  "name": "Item LetterRedTower 3",
-  "readable_id": "item_letterRedTower_3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762371,
-  "kind": "Item",
-  "name": "Item LetterRedTower 5",
-  "readable_id": "item_letterRedTower_5"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762372,
-  "kind": "Item",
-  "name": "Item LetterTableBrutus 0",
-  "readable_id": "item_letterTableBrutus_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762373,
-  "kind": "Item",
-  "name": "Item LetterTableBrutus 1",
-  "readable_id": "item_letterTableBrutus_1"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762374,
-  "kind": "Item",
-  "name": "Item LetterTableBrutus 2",
-  "readable_id": "item_letterTableBrutus_2"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762375,
-  "kind": "Item",
-  "name": "Item LetterTableBrutus 3",
-  "readable_id": "item_letterTableBrutus_3"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762376,
-  "kind": "Item",
-  "name": "Item LetterToAsmus Open",
-  "readable_id": "item_letterToAsmus_open"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762377,
-  "kind": "Item",
-  "name": "Item LetterToAsmus Sealed",
-  "readable_id": "item_letterToAsmus_sealed"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762417,
   "kind": "Item",
   "name": "Item Letterboard Fragment",
   "readable_id": "item_letterboard_fragment"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762418,
-  "kind": "Item",
-  "name": "Item LetterfromolafaboutBrutus",
-  "readable_id": "item_letterfromolafaboutBrutus"
  },
  {
   "amount": 1,
@@ -3262,14 +1902,6 @@
   "kind": "Item",
   "name": "Item Logwood",
   "readable_id": "item_logwood"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762421,
-  "kind": "Item",
-  "name": "Item LuminousTruffle",
-  "readable_id": "item_luminousTruffle"
  },
  {
   "amount": 1,
@@ -3394,30 +2026,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762197,
-  "kind": "Item",
-  "name": "Item MeriksBusiness",
-  "readable_id": "item_MeriksBusiness"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762430,
-  "kind": "Item",
-  "name": "Item MikeschLetter",
-  "readable_id": "item_mikeschLetter"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762431,
-  "kind": "Item",
-  "name": "Item MineRelic",
-  "readable_id": "item_mineRelic"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762432,
   "kind": "Item",
   "name": "Item MudLotus",
@@ -3430,14 +2038,6 @@
   "kind": "Item",
   "name": "Item Mudmash",
   "readable_id": "item_mudmash"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762434,
-  "kind": "Item",
-  "name": "Item MumbertDiarrhoea",
-  "readable_id": "item_mumbertDiarrhoea"
  },
  {
   "amount": 5,
@@ -3454,54 +2054,6 @@
   "kind": "Item",
   "name": "Item Needlelichen",
   "readable_id": "item_needlelichen"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762437,
-  "kind": "Item",
-  "name": "Item PackageBrutusMineWeapons",
-  "readable_id": "item_packageBrutusMineWeapons"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762438,
-  "kind": "Item",
-  "name": "Item PackageToMoorlager",
-  "readable_id": "item_packageToMoorlager"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762439,
-  "kind": "Item",
-  "name": "Item Paperchasestone Band",
-  "readable_id": "item_paperchasestone_band"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762440,
-  "kind": "Item",
-  "name": "Item Paperchasestone Cleansed",
-  "readable_id": "item_paperchasestone_cleansed"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762441,
-  "kind": "Item",
-  "name": "Item Paperchasestone Raw",
-  "readable_id": "item_paperchasestone_raw"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762442,
-  "kind": "Item",
-  "name": "Item Paperchasestone Rune",
-  "readable_id": "item_paperchasestone_rune"
  },
  {
   "amount": 1,
@@ -3590,22 +2142,6 @@
   "kind": "Item",
   "name": "Item Pigfur",
   "readable_id": "item_pigfur"
- },
- {
-  "amount": 5,
-  "classification": "filler",
-  "id": 4762454,
-  "kind": "Item",
-  "name": "Item Pigglet Food",
-  "readable_id": "item_pigglet_food"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762455,
-  "kind": "Item",
-  "name": "Item PlayWithKids",
-  "readable_id": "item_playWithKids"
  },
  {
   "amount": 10,
@@ -3722,14 +2258,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762472,
-  "kind": "Item",
-  "name": "Item Ripper Head HuntTheRipper",
-  "readable_id": "item_ripper_head_huntTheRipper"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762473,
   "kind": "Item",
   "name": "Item Ripperfur",
@@ -3818,14 +2346,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762484,
-  "kind": "Item",
-  "name": "Item Rubble",
-  "readable_id": "item_rubble"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762485,
   "kind": "Item",
   "name": "Item Rubin",
@@ -3840,44 +2360,12 @@
   "readable_id": "item_rubintalisman"
  },
  {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762487,
-  "kind": "Item",
-  "name": "Item Ruinenlager Bandit",
-  "readable_id": "item_ruinenlager_bandit"
- },
- {
   "amount": 5,
   "classification": "filler",
   "id": 4762488,
   "kind": "Item",
   "name": "Item Ruinherb",
   "readable_id": "item_ruinherb"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762489,
-  "kind": "Item",
-  "name": "Item Runestone",
-  "readable_id": "item_runestone"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762490,
-  "kind": "Item",
-  "name": "Item Runestone Empty",
-  "readable_id": "item_runestone_empty"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762491,
-  "kind": "Item",
-  "name": "Item Rustmoss BadFromGera",
-  "readable_id": "item_rustmoss_BadFromGera"
  },
  {
   "amount": 1,
@@ -3902,22 +2390,6 @@
   "kind": "Item",
   "name": "Item Sealstone Past",
   "readable_id": "item_sealstone_past"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762495,
-  "kind": "Item",
-  "name": "Item SearchingForArenaFighter",
-  "readable_id": "item_searchingForArenaFighter"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762496,
-  "kind": "Item",
-  "name": "Item SearchingGraffiti",
-  "readable_id": "item_searchingGraffiti"
  },
  {
   "amount": 1,
@@ -3982,14 +2454,6 @@
   "kind": "Item",
   "name": "Item Shiningfur",
   "readable_id": "item_shiningfur"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762505,
-  "kind": "Item",
-  "name": "Item ShinyStone",
-  "readable_id": "item_shinyStone"
  },
  {
   "amount": 1,
@@ -4130,14 +2594,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762523,
-  "kind": "Item",
-  "name": "Item SpiritVessel GreatTusk",
-  "readable_id": "item_spiritVessel_greatTusk"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762524,
   "kind": "Item",
   "name": "Item Spiritamulet 0",
@@ -4186,38 +2642,6 @@
  {
   "amount": 1,
   "classification": "filler",
-  "id": 4762532,
-  "kind": "Item",
-  "name": "Item Stew Tiaa Manipulated",
-  "readable_id": "item_stew_tiaa_manipulated"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762533,
-  "kind": "Item",
-  "name": "Item StolenPackage",
-  "readable_id": "item_stolenPackage"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762534,
-  "kind": "Item",
-  "name": "Item StrangeFossil",
-  "readable_id": "item_strangeFossil"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762535,
-  "kind": "Item",
-  "name": "Item TalismanJourneyToTheRoots",
-  "readable_id": "item_talismanJourneyToTheRoots"
- },
- {
-  "amount": 1,
-  "classification": "filler",
   "id": 4762536,
   "kind": "Item",
   "name": "Item TarnishedSilverCup",
@@ -4254,14 +2678,6 @@
   "kind": "Item",
   "name": "Item ThornyRanke",
   "readable_id": "item_thornyRanke"
- },
- {
-  "amount": 3,
-  "classification": "filler",
-  "id": 4762541,
-  "kind": "Item",
-  "name": "Item Traps",
-  "readable_id": "item_traps"
  },
  {
   "amount": 1,
@@ -4310,22 +2726,6 @@
   "kind": "Item",
   "name": "Item Vipertooth",
   "readable_id": "item_vipertooth"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762198,
-  "kind": "Item",
-  "name": "Item VoragoFragment 0",
-  "readable_id": "item_VoragoFragment_0"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762199,
-  "kind": "Item",
-  "name": "Item VoragoFragment 1",
-  "readable_id": "item_VoragoFragment_1"
  },
  {
   "amount": 1,
@@ -4806,14 +3206,6 @@
   "kind": "Item",
   "name": "Recipe Flow Dashstab",
   "readable_id": "recipe_flow_dashstab"
- },
- {
-  "amount": 1,
-  "classification": "filler",
-  "id": 4762603,
-  "kind": "Item",
-  "name": "Recipe Flow EnergyProjectile",
-  "readable_id": "recipe_flow_energyProjectile"
  },
  {
   "amount": 1,
@@ -5462,22 +3854,6 @@
   "kind": "Item",
   "name": "Weapon Axe AncientAxe",
   "readable_id": "weapon_axe_ancientAxe"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762684,
-  "kind": "Item",
-  "name": "Weapon Axe Bady Dull",
-  "readable_id": "weapon_axe_bady_dull"
- },
- {
-  "amount": 1,
-  "classification": "useful",
-  "id": 4762685,
-  "kind": "Item",
-  "name": "Weapon Axe Bady Sharp",
-  "readable_id": "weapon_axe_bady_sharp"
  },
  {
   "amount": 1,

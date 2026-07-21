@@ -77,6 +77,13 @@ TRADERS_SRC = os.path.join(REPO, "tools", "extracted", "traders.json")
 # slots 2..K are appended), so a chest with three items sends three checks when opened.
 CHEST_SLOTS_SRC = os.path.join(REPO, "tools", "extracted", "chest_slots.json")
 
+# Per-item buy/sell values (tools/extract_locations/extract_item_values.py). The game defines
+# Item.IsQuestItem as buy == 0 && sell == 0; classify() uses this to keep quest property (talisman
+# stage stones, lore letters, story props, NPC outfits) out of the grantable pool. Keys, charged
+# crystals and flow abilities are classified before the value check and are unaffected: their pool
+# copies are intentionally redundant.
+ITEM_VALUES_SRC = os.path.join(REPO, "tools", "extracted", "item_values.json")
+
 # Objects that report loot but carry no inventory component, so there is nothing to open and the
 # check could never be sent. Verified in game: Corpse_Stalker is not interactable, while
 # Critter_Crow (which does have Saveable_Inventory) loots fine. An unreachable location is worse
@@ -97,6 +104,12 @@ UNREACHABLE_SRC = os.path.join(REPO, "tools", "extracted", "unreachable.json")
 # would delete everything in it except keys/quest items/crystals - the player's whole kit.
 STORY_CRITICAL_GUIDS = {
     "1f3320bf-b5bc-472c-af8a-06f331b9ccb0": "Lothar capture: holds the player's own confiscated gear",
+    # Container_Chest_Slated_Curly_Silver in the bandit mine ("Cave - Chest 21"). The bandit capture
+    # cutscene (DT_TeleportToBanditMine -> DS_TransferInventoryNode, target inventory-DB guid below)
+    # transfers the player's ENTIRE inventory into it, same mechanism as the Lothar chest. Confirmed
+    # in the field: a captured player opened it as a randomized location and the suppressor ate their
+    # transferred belongings.
+    "3d8311f8-6bed-4232-abb8-9c11df2f17ed": "Bandit-mine capture (Missing): holds the player's own confiscated gear",
     # PickUp_Cons_Mushroom around the bandit mine (scenes 13/14_36) - the quest's mushroom supply.
     "8223fb75-92fc-4a7b-b123-0d5e3a71a50d": "Missing: ordinary mushroom near mine",
     "b12b6731-fa78-4826-a72a-9a199feaf26a": "Missing: ordinary mushroom near mine",
@@ -161,7 +174,13 @@ PLAYER_WEAPON_TYPES = ("axe", "sword", "spear", "dagger", "shield", "bow", "slin
 
 # Authoring leftovers and NPC-only variants. Matched on whole underscore-separated tokens so that
 # genuine items are not caught (item_golemsalve and the golemRoom notes must survive a "golem" filter).
-JUNK_TOKENS = {"npc", "mock", "dummy", "debug", "placeholder", "test", "combotest", "defaultcreature"}
+#
+# The named-NPC tokens cover boss ability scrolls (cons_flow_bady_scream_shockwave and friends) and
+# story-stage weapon variants (weapon_axe_bady_dull/sharp). Field-verified: a granted Bady scroll
+# shows up as an unusable consumable in the player's inventory. The letters that merely mention an
+# NPC survive because their id is one fused token (item_letterMehlunaToBady).
+JUNK_TOKENS = {"npc", "mock", "dummy", "debug", "placeholder", "test", "combotest", "defaultcreature",
+               "bady", "ebru", "diemo", "jero", "molvina"}
 
 # Non-items that we grant through other verified game calls.
 # PlayerAttributeStats.AddExperiencePoints / GiveLearningPoint.
@@ -200,12 +219,36 @@ def is_junk(rid):
     return bool(JUNK_TOKENS.intersection(rid.lower().split("_")))
 
 
+def _load_item_values():
+    if not os.path.exists(ITEM_VALUES_SRC):
+        print("WARNING: %s missing - quest-valued items stay in the pool" % ITEM_VALUES_SRC)
+        return {}
+    with open(ITEM_VALUES_SRC, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+ITEM_VALUES = _load_item_values()
+
+
+def is_quest_valued(rid):
+    """The game's own Item.IsQuestItem: buy == 0 && sell == 0. Unknown ids count as sellable,
+    because excluding something we have no data for is the risky direction (pool-only loss)."""
+    rec = ITEM_VALUES.get(rid)
+    return rec is not None and rec["buy"] == 0 and rec["sell"] == 0
+
+
 def classify(rid):
     """Return (classification, include) for a readable id.
 
     progression: gates real content -> keys, charged crystals, player flow abilities
     useful:      weapons/armor/helmets
     filler:      consumables/recipes
+
+    Gear and filler prefixes additionally require the item to be sellable (is_quest_valued false):
+    a zero-value item is quest property by the game's own definition - talisman stage stones, lore
+    letters, story props, NPC outfit variants - and granting those from the pool is the
+    sequence-skip direction. Keys, crystals and flow abilities are exempt: their pool copies are
+    intentionally redundant with the never-suppressed vanilla ones.
     """
     if is_junk(rid):
         return None, False
@@ -221,19 +264,21 @@ def classify(rid):
     if rid.startswith("misc_worldmap") or rid.startswith("misc_map_"):
         return "useful", True
     if rid.startswith("weapon_"):
+        if is_quest_valued(rid):
+            return None, False
         parts = rid.split("_")
         return ("useful", True) if len(parts) > 1 and parts[1] in PLAYER_WEAPON_TYPES else (None, False)
     if rid.startswith("armor_") or rid.startswith("helmet_"):
-        return "useful", True
+        return (None, False) if is_quest_valued(rid) else ("useful", True)
     if rid.startswith("cons_") or rid.startswith("recipe_"):
-        return "filler", True
+        return (None, False) if is_quest_valued(rid) else ("filler", True)
     # Cosmetics and authoring leftovers are not worth randomizing.
     if rid.startswith(("hair_", "beard_", "deco", "template_", "test_", "mock_", "skin_")):
         return None, False
-    # item_* is a catch-all: quest items, notes, treasure maps, food. Keep them as filler so the
-    # pool can fill the location count, but never let logic depend on them.
+    # item_* is a catch-all: notes, treasure maps, food. Keep them as filler so the pool can fill
+    # the location count, but never let logic depend on them.
     if rid.startswith("item_"):
-        return "filler", True
+        return (None, False) if is_quest_valued(rid) else ("filler", True)
     return None, False
 
 
@@ -247,9 +292,12 @@ def classify(rid):
 # Only the item_ namespace holds stackable consumables; abilities (flow_/cons_flow_), gear (weapon_/
 # armor_/helmet_), keys, recipes and maps (misc_) are other prefixes and always grant one. This prefix
 # gate also stops "arrow" catching the flow_poisonArrow ability.
-# NO_STACK wins first, for the one collision left inside item_: perma* items are permanent one-time
+# NO_STACK wins first, for collisions left inside item_: perma* items are permanent one-time
 # upgrades (permapotion/permaherb) that must stay at 1 even though they contain "potion"/"herb".
-NO_STACK_TOKENS = ("perma", "respec")
+# "extract" keeps item_callashroom_extract (a My Very Own Talisman quest ingredient that
+# "callashroom" would stack to 5) a single-unit grant; at amount 1 it also drops out of the
+# repeatable consumable-chunk bonus pool, so a seed hands out at most one.
+NO_STACK_TOKENS = ("perma", "respec", "extract")
 
 # Vanilla-rare consumables that must not be ordinary spammable filler: they get useful
 # classification (one guaranteed pool copy, never on excluded locations) and, via NO_STACK above,
@@ -369,7 +417,12 @@ def build_items(readable_ids):
 
 def slot_is_protected(readable_id, quest):
     """Mirror of the client's LootSuppressor.IsProtected: these items are never suppressed, so
-    a slot holding one keeps its vanilla item in the chest and must not become a location."""
+    a slot holding one keeps its vanilla item in the chest and must not become a location.
+
+    The extractor's `quest` flag reads the Item asset's IsInQuestCategory; the client protects on
+    (IsQuestItem || IsInQuestCategory), so this side stays a subset only where the extraction has no
+    values to derive IsQuestItem from - which is fine: an extra check on a protected item is
+    additive, never a loss."""
     if quest:
         return True
     rid = (readable_id or "").lower()
@@ -378,6 +431,10 @@ def slot_is_protected(readable_id, quest):
     if rid.startswith("key_") or rid == "misc_key_locked_door":
         return True
     if rid.startswith("item_energycrystal_"):
+        return True
+    # Riddle offerings gate doors/statues that can hide randomized locations; the client keeps
+    # them (see LootSuppressor.IsProtected), so their slots must not become checks.
+    if rid.startswith("misc_riddle_"):
         return True
     return False
 
@@ -650,6 +707,34 @@ def write_cs_locations(locations):
         ordered = sorted(slot_names[guid], key=lambda n: int(n.rsplit(" ", 1)[1]))
         joined = ", ".join('"%s"' % cs_escape(n) for n in ordered)
         lines.append('            { "%s", new[] { %s } },' % (cs_escape(guid), joined))
+    lines += [
+        "        };",
+        "",
+        '        /// <summary>GuidComponent guid -> authored loot as "readable_id:amount" entries.',
+        "        /// The loot suppressor removes exactly these from a randomized container instead of",
+        "        /// wiping it, so items a player (or a cutscene) put there afterwards survive.</summary>",
+        "        public static readonly Dictionary<string, string[]> ContainerGuidToAuthoredLoot = new Dictionary<string, string[]>",
+        "        {",
+    ]
+    chest_slots = {}
+    if os.path.exists(CHEST_SLOTS_SRC):
+        with open(CHEST_SLOTS_SRC, encoding="utf-8") as fh:
+            chest_slots = json.load(fh)
+    location_guids = {loc["key"].lower() for loc in locations if loc["kind"] == "Container"}
+    for guid in sorted(chest_slots):
+        if guid.lower() not in location_guids:
+            continue
+        # Protected slots (quest items, keys, riddle offerings) never become checks and their items
+        # must survive in the container, so they are left out of the strip list entirely.
+        slots = [s for s in chest_slots[guid]["slots"]
+                 if not slot_is_protected(s["readable_id"], s["quest"])]
+        if not slots:
+            continue
+        entries = ", ".join(
+            '"%s:%d"' % (cs_escape(s["readable_id"]), s["amount"])
+            for s in slots
+        )
+        lines.append('            { "%s", new[] { %s } },' % (cs_escape(guid), entries))
     lines += [
         "        };",
         "",

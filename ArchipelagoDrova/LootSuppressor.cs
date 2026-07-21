@@ -1,3 +1,4 @@
+using ArchipelagoDrova.Data;
 using HarmonyLib;
 using Il2CppDrova.InteractionSystem;
 using Il2CppDrova.Items;
@@ -73,7 +74,12 @@ namespace ArchipelagoDrova
             }
 
             // The game's own flag. Cheaper and more reliable than guessing from the id.
-            if (item.IsQuestItem)
+            // IsQuestItem is value-derived (buy == 0 && sell == 0); IsInQuestCategory is the authored
+            // flag. They disagree on sellable quest gear - the Lyra (buy 200/sell 40, category set) is
+            // the instrument the talisman quest's engraving step physically requires - so either flag
+            // protects. The static extraction's slot "quest" flag reads IsInQuestCategory, keeping the
+            // two sides of the location table consistent.
+            if (item.IsQuestItem || item.IsInQuestCategory)
             {
                 return true;
             }
@@ -98,17 +104,50 @@ namespace ArchipelagoDrova
             {
                 return true;
             }
+            // Riddle offerings (horn, conch, mirror, incense, sundial, ceremonial sword, silver
+            // figurines) are keys in all but name: riddle doors and god statues consume them, and
+            // whatever they gate can hold randomized locations. Most are NOT quest-flagged (buy
+            // 25/sell 5), so without this they would be suppressed and, since they are not in the AP
+            // item pool, gone from the seed entirely.
+            if (readableId.StartsWith("misc_riddle_", StringComparison.OrdinalIgnoreCase))
+            {
+                return true;
+            }
 
             return false;
         }
 
         // IInventoryContainer, not Inventory: knocked-out NPCs route their inventory through
         // Init() into _runtimeContainer, and OwnerInventory is the interface-typed union of both.
-        private static void Strip(IInventoryContainer inventory, string apName, string source)
+        //
+        // Containers with extracted authored loot are stripped of EXACTLY that loot, nothing more.
+        // A container can legitimately hold items that are not vanilla loot: the player uses chests
+        // as storage, and both capture sequences (Lothar, bandit mine) stow the player's entire
+        // inventory in a chest through DS_TransferInventoryNode. Wiping everything non-protected
+        // deleted those. Containers without authored data (corpses, quickloot pickups,
+        // random-loot-only chests) keep the old full strip: nothing can be stashed in them between
+        // spawn and looting, so everything present is vanilla loot.
+        private static void Strip(IInventoryContainer inventory, string apName, string matchedGuid, string source)
         {
             if (inventory == null || inventory.IsEmpty)
             {
                 return;
+            }
+
+            Dictionary<string, int> authoredLeft = null;
+            if (LocationTable.TryGetAuthoredLoot(matchedGuid, out string[] authored))
+            {
+                authoredLeft = new Dictionary<string, int>(authored.Length, StringComparer.OrdinalIgnoreCase);
+                foreach (var entry in authored)
+                {
+                    int split = entry.LastIndexOf(':');
+                    if (split <= 0 || !int.TryParse(entry.Substring(split + 1), out int amount) || amount <= 0)
+                    {
+                        continue;
+                    }
+                    string readableId = entry.Substring(0, split);
+                    authoredLeft[readableId] = authoredLeft.TryGetValue(readableId, out int have) ? have + amount : amount;
+                }
             }
 
             // Snapshot first: RemoveItem mutates the list we would otherwise be iterating.
@@ -120,6 +159,7 @@ namespace ArchipelagoDrova
 
             int removed = 0;
             int kept = 0;
+            int foreign = 0;
             foreach (var stack in snapshot)
             {
                 if (stack == null || stack.Item == null)
@@ -133,14 +173,31 @@ namespace ArchipelagoDrova
                     continue;
                 }
 
+                if (authoredLeft != null)
+                {
+                    string readableId = stack.Item.ReadableId;
+                    if (string.IsNullOrEmpty(readableId) ||
+                        !authoredLeft.TryGetValue(readableId, out int left) || left <= 0)
+                    {
+                        foreign++;
+                        continue;
+                    }
+                    int take = Math.Min(left, stack.Amount);
+                    inventory.RemoveItem(stack.Item, take, false);
+                    authoredLeft[readableId] = left - take;
+                    removed++;
+                    continue;
+                }
+
                 inventory.RemoveItem(stack.Item, stack.Amount, false);
                 removed++;
             }
 
-            if (removed > 0 || kept > 0)
+            if (removed > 0 || kept > 0 || foreign > 0)
             {
                 MelonLogger.Msg("[AP loot] " + source + " '" + apName + "': suppressed " + removed +
-                    " vanilla item(s)" + (kept > 0 ? ", kept " + kept + " progression-critical" : "") + ".");
+                    " vanilla item(s)" + (kept > 0 ? ", kept " + kept + " progression-critical" : "") +
+                    (foreign > 0 ? ", left " + foreign + " non-authored item(s) untouched" : "") + ".");
             }
         }
 
@@ -159,7 +216,7 @@ namespace ArchipelagoDrova
                     return;
                 }
 
-                if (!ContainerTracker.TryResolveApLocation(__instance, null, out string apName))
+                if (!ContainerTracker.TryResolveApLocation(__instance, null, out string apName, out string guid))
                 {
                     // Not a randomized container. Its loot is not ours to take.
                     return;
@@ -174,7 +231,7 @@ namespace ArchipelagoDrova
 
                 // OwnerInventory, not _ownerInventory: for knocked-out NPCs the real inventory
                 // lives in the runtime container that Init() installed, and _ownerInventory is null.
-                Strip(__instance.OwnerInventory, apName, "opened");
+                Strip(__instance.OwnerInventory, apName, guid, "opened");
             }
             catch (Exception e)
             {
@@ -225,7 +282,7 @@ namespace ArchipelagoDrova
                     return;
                 }
 
-                if (!ContainerTracker.TryResolveApLocation(__instance, null, out string apName))
+                if (!ContainerTracker.TryResolveApLocation(__instance, null, out string apName, out string guid))
                 {
                     return;
                 }
@@ -239,7 +296,7 @@ namespace ArchipelagoDrova
                 // Interop interfaces have no implicit class->interface conversion; Cast goes
                 // through the il2cpp type system, where Inventory does implement the interface.
                 var lootInventory = __instance.LootInventory;
-                Strip(lootInventory == null ? null : lootInventory.Cast<IInventoryContainer>(), apName, "loot all");
+                Strip(lootInventory == null ? null : lootInventory.Cast<IInventoryContainer>(), apName, guid, "loot all");
             }
             catch (Exception e)
             {

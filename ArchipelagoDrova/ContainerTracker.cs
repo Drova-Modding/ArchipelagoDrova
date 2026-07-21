@@ -303,7 +303,18 @@ namespace ArchipelagoDrova
         /// </summary>
         public static bool TryResolveApLocation(Component behaviour, string fallbackGuid, out string apName)
         {
+            return TryResolveApLocation(behaviour, fallbackGuid, out apName, out _);
+        }
+
+        /// <summary>
+        /// Overload that also hands back the guid the table matched on, which keys the
+        /// authored-loot lookup the suppressor uses to strip only vanilla contents.
+        /// </summary>
+        public static bool TryResolveApLocation(Component behaviour, string fallbackGuid,
+            out string apName, out string matchedGuid)
+        {
             apName = null;
+            matchedGuid = null;
             var chain = GuidChain(KnockoutOwnerOrSelf(behaviour));
             if (!string.IsNullOrEmpty(fallbackGuid))
             {
@@ -314,6 +325,7 @@ namespace ArchipelagoDrova
             {
                 if (LocationTable.TryGetContainer(chain[i], out apName))
                 {
+                    matchedGuid = chain[i];
                     return true;
                 }
             }

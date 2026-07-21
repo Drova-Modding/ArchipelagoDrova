@@ -12,6 +12,7 @@ namespace ArchipelagoDrova.Data
     {
         private static Dictionary<string, string> _containerIndex;
         private static Dictionary<string, string[]> _containerSlotIndex;
+        private static Dictionary<string, string[]> _authoredLootIndex;
         private static Dictionary<string, string> _traderIndex;
         private static Dictionary<string, string[]> _traderUnitIndex;
 
@@ -113,6 +114,23 @@ namespace ArchipelagoDrova.Data
             return ContainerSlots.TryGetValue(key, out apLocationNames);
         }
 
+        /// <summary>
+        /// The authored ("_fixLoot") contents of a randomized container, as "readable_id:amount"
+        /// entries. False for containers whose authored contents were never extracted (corpses,
+        /// quickloot pickups, random-loot-only chests) - callers fall back to treating the whole
+        /// inventory as vanilla loot there.
+        /// </summary>
+        public static bool TryGetAuthoredLoot(string rawGuid, out string[] entries)
+        {
+            entries = null;
+            string key = NormalizeGuid(rawGuid);
+            if (key == null)
+            {
+                return false;
+            }
+            return AuthoredLoot.TryGetValue(key, out entries);
+        }
+
         public static bool TryGetQuest(string gvarListName, out string apLocationName)
         {
             apLocationName = null;
@@ -200,6 +218,25 @@ namespace ArchipelagoDrova.Data
                     _containerSlotIndex = built;
                 }
                 return _containerSlotIndex;
+            }
+        }
+
+        /// <summary>Same re-normalization as <see cref="Containers"/> for the authored-loot table.</summary>
+        private static Dictionary<string, string[]> AuthoredLoot
+        {
+            get
+            {
+                if (_authoredLootIndex == null)
+                {
+                    var built = new Dictionary<string, string[]>(ContainerGuidToAuthoredLoot.Count, StringComparer.Ordinal);
+                    foreach (var pair in ContainerGuidToAuthoredLoot)
+                    {
+                        string key = NormalizeGuid(pair.Key) ?? pair.Key;
+                        built[key] = pair.Value;
+                    }
+                    _authoredLootIndex = built;
+                }
+                return _authoredLootIndex;
             }
         }
 

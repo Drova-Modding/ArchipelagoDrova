@@ -206,6 +206,7 @@ namespace ArchipelagoDrova
                 _session.SetClientState(ArchipelagoClientState.ClientPlaying);
                 SetupDeathLink();
                 SetupLootSuppression();
+                SetupConsumableStackSize();
                 SetupKillMilestones();
 
                 _store.StampOrValidate(ReadSeedName(), Seed, _slotName, Slot);
@@ -1010,6 +1011,33 @@ namespace ArchipelagoDrova
                 ? "Vanilla loot suppression ON: randomized containers give only their Archipelago item, "
                     + "except keys and quest items."
                 : "Vanilla loot suppression off: containers give their normal contents as well.");
+        }
+
+        /// <summary>
+        /// Reads the consumable grant sizing from slot data. Absent (older seeds) or unknown keys
+        /// keep the full table amounts the seed was generated for.
+        /// </summary>
+        private void SetupConsumableStackSize()
+        {
+            var size = ConsumableStackSize.Full;
+            if (SlotData != null && SlotData.TryGetValue("consumable_stack_size", out object value) && value != null)
+            {
+                switch (value.ToString())
+                {
+                    case "small":
+                        size = ConsumableStackSize.Small;
+                        break;
+                    case "single":
+                        size = ConsumableStackSize.Single;
+                        break;
+                }
+            }
+
+            ItemGranter.StackSize = size;
+            if (size != ConsumableStackSize.Full)
+            {
+                MelonLogger.Msg("Consumable stack size: " + size.ToString().ToLowerInvariant() + ".");
+            }
         }
 
         /// <summary>

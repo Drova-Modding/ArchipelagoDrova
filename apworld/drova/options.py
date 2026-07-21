@@ -198,6 +198,28 @@ class TalentLearnChecks(Range):
     default = 0
 
 
+class ConsumableStackSize(Choice):
+    """
+    How many units one consumable Archipelago item grants in-game.
+
+    Applies to stackable consumables only (arrows, potions, food, throwables, traps, ore); gear,
+    keys, recipes and quest items always grant exactly one. Each grant still varies around the
+    chosen size so identical rewards do not feel like a metronome.
+
+    - full: vanilla-ish stacks (20 arrows, 5 potions, 3 traps).
+    - small: about half of full.
+    - single: 1 unit per grant; ammo still comes in 5s, because a single arrow is not a reward.
+    """
+
+    display_name = "Consumable Stack Size"
+
+    option_full = 0
+    option_small = 1
+    option_single = 2
+
+    default = option_full
+
+
 @dataclass
 class DrovaOptions(PerGameCommonOptions):
     faction: Faction
@@ -216,6 +238,7 @@ class DrovaOptions(PerGameCommonOptions):
     attribute_learn_interval: AttributeLearnInterval
     talent_learn_checks: TalentLearnChecks
     suppress_vanilla_loot: SuppressVanillaLoot
+    consumable_stack_size: ConsumableStackSize
     death_link: DeathLink
 
 
@@ -226,7 +249,7 @@ option_groups = [
     ),
     OptionGroup(
         "Gameplay",
-        [SuppressVanillaLoot],
+        [SuppressVanillaLoot, ConsumableStackSize],
     ),
     OptionGroup(
         "Location Pool",
