@@ -2,9 +2,7 @@ using Archipelago.MultiClient.Net.Models;
 using ArchipelagoDrova.Data;
 using Drova_Modding_API.Access;
 using Il2CppDrova;
-using Il2CppDrova.InventorySystem;
 using Il2CppDrova.Items;
-using Il2CppDrova.Talent;
 using MelonLoader;
 using System.Runtime.CompilerServices;
 
@@ -17,10 +15,10 @@ namespace ArchipelagoDrova
     {
         /// <summary>
         /// Apply one AP item. Main thread only.
-        /// The caller resolves the item name, because doing it from ItemInfo.ItemName throws while
+        /// The caller resolves the item name because doing it from ItemInfo.ItemName throws while
         /// the DataPackage is settling.
         /// Returns false when the game is not ready yet; the pump then leaves the cursor
-        /// un-advanced and retries next frame rather than losing the item.
+        /// unadvanced and retries the next frame rather than losing the item.
         /// </summary>
         bool TryGrant(ItemInfo item, string name);
     }
@@ -35,12 +33,12 @@ namespace ArchipelagoDrova
 
     public class ItemGranter : IItemGranter
     {
-        /// <summary>Set from slot data on connect. Full matches the generated table amounts.</summary>
+        /// <summary>Set from slot data on connection. Full matches the generated table amounts.</summary>
         public static ConsumableStackSize StackSize = ConsumableStackSize.Full;
 
         private readonly HashSet<string> _warnedNames = new(StringComparer.Ordinal);
 
-        // Consumable chunks vary per grant so 20 arrows is a nominal size, not a metronome.
+        // Consumable chunks vary per grant, so 20 arrows is a nominal size, not a metronome.
         private readonly Random _amountRoll = new();
 
         /// <summary>
@@ -138,12 +136,9 @@ namespace ArchipelagoDrova
             string step = "start";
             try
             {
-                // ProviderAccess.ItemDatabase is GetGameDatabase()._itemDatabase, so it throws rather
-                // than returning null when the game database is not up yet.
                 step = "ProviderAccess.ItemDatabase";
                 var database = ProviderAccess.ItemDatabase;
-                // SubDatabase_Item derives from Il2CppSystem.Object, not UnityEngine.Object,
-                // so there is no implicit bool here.
+
                 if (database == null)
                 {
                     return false;
@@ -275,7 +270,7 @@ namespace ArchipelagoDrova
             }
             catch
             {
-                // The stats container is not up yet; retry on the next pump.
+                // The stat container is not up yet; retry on the next pump.
                 return false;
             }
 

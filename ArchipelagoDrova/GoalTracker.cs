@@ -1,4 +1,3 @@
-using HarmonyLib;
 using Il2CppDrova;
 using MelonLoader;
 
@@ -22,7 +21,7 @@ namespace ArchipelagoDrova
 
             // Prefix rather than postfix: the goal should be recorded on intent, before the scene swap
             // tears anything down.
-            HookUtil.TryPrefix(harmony, typeof(SceneGameHandler), nameof(SceneGameHandler.ActuallyChangeScene),
+            Drova_Modding_API.Hooking.TryPrefix(harmony, typeof(SceneGameHandler), nameof(SceneGameHandler.ActuallyChangeScene),
                 typeof(GoalTracker), nameof(ActuallyChangeScenePrefix));
         }
 

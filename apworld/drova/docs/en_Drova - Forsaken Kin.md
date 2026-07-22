@@ -34,12 +34,19 @@ You can also turn buying from merchants into checks (Randomize Traders): each it
 shopping sends checks. Traders are faction-split like quests, so only your faction's and neutral merchants count.
 
 And you can turn milestones of enemy kills into checks (Enemy Kill Checks). Defeated enemies do not drop Archipelago
-items directly, but every so many kills sends a check, so combat itself becomes a source of checks.
+items directly, but every so many kills sends a check, so combat itself becomes a source of checks. Teacher learning
+works the same way: milestones of attribute points bought at teachers and talents learned can be checks too. By
+default you also start with a pickaxe and a simple spear, so the mining and fishing minigames are available from the
+beginning.
 
 Finally, Randomize Teleporters is an entrance shuffle: 36 of the game's two-way cave links are shuffled among each
 other, so a cave mouth may lead into a different cave than in vanilla. Links stay two-way - you can always walk back
 out the way you came in, so no placement can strand you. Story-critical transitions (the Red Tower, the Library, both
 factions' home interiors and quest dungeons) always keep their vanilla connections.
+
+Randomize Runes re-rolls the rune-drawing riddles: which of the nine drawn-rune patterns opens which rune door
+changes per seed, and the hint notes are updated to show the new pattern - so the riddles stay solvable the intended
+way, but you cannot draw the answers from memory of a previous playthrough.
 
 ## What items can appear in other players' worlds?
 

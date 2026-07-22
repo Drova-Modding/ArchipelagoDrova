@@ -1,9 +1,6 @@
 using ArchipelagoDrova.Data;
-using HarmonyLib;
-using Il2CppInterop.Runtime;
-using Il2CppOpenWorldSystem;
+using Drova_Modding_API.Access;
 using MelonLoader;
-using UnityEngine;
 
 namespace ArchipelagoDrova
 {
@@ -22,28 +19,12 @@ namespace ArchipelagoDrova
     ///
     /// Rewiring means assigning each shuffled gate the arrival anchor of the vanilla gate that
     /// pointed at its new destination - values are copied verbatim from the table, never derived.
-    /// Applied on connection to every existing OW_Teleporter (FindObjectsOfTypeAll reaches gates
-    /// whose streaming chunk is inactive) and re-applied via an OnEnable postfix, which also covers
-    /// gates the chunk streamer activates later. Both writes are idempotent absolute assignments,
-    /// so reconnecting to a different room simply overwrites the previous wiring.
+    /// Enforcement (existing gates, stream-in via OnEnable, world-ready re-apply) is the Modding
+    /// API's TeleporterAccess; every pool gate is registered on every connection - vanilla anchors
+    /// included - so reconnecting to an unshuffled room cleanly undoes a previous room's wiring.
     /// </summary>
     public static class TeleporterShuffler
     {
-        private sealed class Destination
-        {
-            public Vector2 TargetPos;
-            public Vector2 TargetMoveDir;
-        }
-
-        /// <summary>Gate name -> destination to enforce. Null until slot data configures it.</summary>
-        private static Dictionary<string, Destination> _destinations;
-
-        public static void Initialize(HarmonyLib.Harmony harmony)
-        {
-            HookUtil.TryPostfix(harmony, typeof(OW_Teleporter), "OnEnable",
-                typeof(TeleporterShuffler), nameof(OnEnablePostfix));
-        }
-
         /// <summary>
         /// Called on every connection with the seed's mouth->interior map (empty = vanilla wiring,
         /// which matters when one session hops from a shuffled room to an unshuffled one).
@@ -52,8 +33,8 @@ namespace ArchipelagoDrova
         {
             try
             {
-                _destinations = BuildDestinations(mouthToInterior ?? new Dictionary<string, string>());
-                ApplyToExistingGates();
+                var destinations = BuildDestinations(mouthToInterior ?? new Dictionary<string, string>());
+                TeleporterAccess.SetDestinationOverrides(destinations);
             }
             catch (Exception e)
             {
@@ -61,18 +42,15 @@ namespace ArchipelagoDrova
             }
         }
 
-        private static Dictionary<string, Destination> BuildDestinations(Dictionary<string, string> mouthToInterior)
+        private static Dictionary<string, TeleporterAccess.GateDestination> BuildDestinations(
+            Dictionary<string, string> mouthToInterior)
         {
             // Start from vanilla for every pool gate so unmapped gates (and a later empty map)
             // always resolve to their authored link.
-            var destinations = new Dictionary<string, Destination>();
+            var destinations = new Dictionary<string, TeleporterAccess.GateDestination>();
             foreach (var entry in TeleporterTable.Generated)
             {
-                destinations[entry.Key] = new Destination
-                {
-                    TargetPos = new Vector2(entry.Value.TargetX, entry.Value.TargetY),
-                    TargetMoveDir = new Vector2(entry.Value.TargetDirX, entry.Value.TargetDirY),
-                };
+                destinations[entry.Key] = VanillaDestination(entry.Key);
             }
 
             int rewired = 0;
@@ -106,52 +84,14 @@ namespace ArchipelagoDrova
             return destinations;
         }
 
-        private static Destination VanillaDestination(string gateName)
+        private static TeleporterAccess.GateDestination VanillaDestination(string gateName)
         {
             var gate = TeleporterTable.Generated[gateName];
-            return new Destination
+            return new TeleporterAccess.GateDestination
             {
-                TargetPos = new Vector2(gate.TargetX, gate.TargetY),
-                TargetMoveDir = new Vector2(gate.TargetDirX, gate.TargetDirY),
+                TargetPos = new UnityEngine.Vector2(gate.TargetX, gate.TargetY),
+                TargetMoveDir = new UnityEngine.Vector2(gate.TargetDirX, gate.TargetDirY),
             };
-        }
-
-        private static void ApplyToExistingGates()
-        {
-            int applied = 0;
-            var all = UnityEngine.Resources.FindObjectsOfTypeAll(Il2CppType.Of<OW_Teleporter>());
-            foreach (var obj in all)
-            {
-                var teleporter = obj == null ? null : obj.TryCast<OW_Teleporter>();
-                if (teleporter != null && Apply(teleporter))
-                {
-                    applied++;
-                }
-            }
-            MelonLogger.Msg("Teleporter shuffle applied to " + applied + " gates.");
-        }
-
-        private static bool Apply(OW_Teleporter teleporter)
-        {
-            if (_destinations == null || !_destinations.TryGetValue(teleporter.name, out var destination))
-            {
-                return false;
-            }
-            teleporter._targetPos = destination.TargetPos;
-            teleporter._targetMoveDir = destination.TargetMoveDir;
-            return true;
-        }
-
-        private static void OnEnablePostfix(OW_Teleporter __instance)
-        {
-            try
-            {
-                Apply(__instance);
-            }
-            catch (Exception e)
-            {
-                MelonLogger.Error("Teleporter OnEnable patch failed: " + e);
-            }
         }
     }
 }

@@ -1,6 +1,4 @@
 using Archipelago.MultiClient.Net.BounceFeatures.DeathLink;
-using Drova_Modding_API.Access;
-using HarmonyLib;
 using Il2CppDrova;
 using MelonLoader;
 using UnityEngine;
@@ -10,11 +8,8 @@ namespace ArchipelagoDrova
     /// <summary>
     /// DeathLink both ways.
     ///
-    /// SEND: a Harmony postfix on EntityGameHandler.PlayerActorDiedListener.
-    /// Subscribing to PlayerActorDiedEvent directly is NOT possible: its argument
-    /// EntityGameHandler.EventArgs&lt;Actor&gt; is a non-blittable struct, and Il2CppInterop's
-    /// DelegateSupport.ConvertDelegate rejects those outright. Verified at runtime, not guessed.
-    /// The postfix needs no delegate marshaling, so it works where the event cannot.
+    /// SEND: the Modding API's GameEvents.OnPlayerDied (its postfix exists because the game's
+    /// PlayerActorDiedEvent takes a non-blittable struct that delegate marshaling rejects).
     ///
     /// RECEIVE: kill through the player's Health. If the player is not loaded and alive, the kill is
     /// deferred rather than dropped.
@@ -41,13 +36,12 @@ namespace ArchipelagoDrova
         private static bool _deathPending;
         private static string _pendingCause;
 
-        public static void Initialize(ArchipelagoClient archipelagoClient, HarmonyLib.Harmony harmony)
+        public static void Initialize(ArchipelagoClient archipelagoClient)
         {
             _client = archipelagoClient;
             _client.OnRemoteDeath += OnRemoteDeath;
 
-            HookUtil.TryPostfix(harmony, typeof(EntityGameHandler), nameof(EntityGameHandler.PlayerActorDiedListener),
-                typeof(DeathTracker), nameof(PlayerActorDiedListenerPostfix));
+            Drova_Modding_API.Access.GameEvents.OnPlayerDied += OnPlayerDiedEvent;
         }
 
         public static void Update()
@@ -67,15 +61,15 @@ namespace ArchipelagoDrova
 
         // ---------------------------------------------------------------- send
 
-        private static void PlayerActorDiedListenerPostfix()
+        private static void OnPlayerDiedEvent()
         {
             try
             {
-                ReportOwnDeath("listener");
+                ReportOwnDeath("api event");
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP death] PlayerActorDiedListener postfix failed: " + e);
+                MelonLogger.Error("[AP death] OnPlayerDied handler failed: " + e);
             }
         }
 

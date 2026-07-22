@@ -1,4 +1,4 @@
-using HarmonyLib;
+using Drova_Modding_API.Access;
 using Il2CppDrova;
 using Il2CppDrova.GUI.LearnGUI;
 using Il2CppDrova.Talent;
@@ -11,41 +11,25 @@ namespace ArchipelagoDrova
     /// pre-allocates "Attributes Learned - k" / "Talents Learned - k" and this sends the k-th once
     /// the persisted counter reaches k.
     ///
-    /// Attribute points: postfix on LearnService.ApplyData, the teacher menu's single commit point.
-    /// Its _totalStatsChanged field is the net points bought in that session (undo clicks inside the
-    /// menu cancel out). The sleep-menu level-up allocation, perma-potions and the AP stat items all
-    /// go through other paths and never count.
-    ///
-    /// Talents: prefix/postfix pair on TalentActorModule.LearnTalent, whose only callers are the
-    /// teacher menu, dialogue-taught talents and LearnUtil - all genuine teaching. The AP item
-    /// grants use ForceLearnTalent and never count. The prefix snapshots CanLearnTalent because
-    /// LearnTalent silently no-ops on an already-known talent, and a no-op must not count.
+    /// Detection is the Modding API's GameEvents: OnAttributePointsLearned (LearnService.ApplyData,
+    /// the teacher menu's single commit point - net points per session, already deduped per menu
+    /// instance; the sleep-menu level-up allocation, perma-potions and the AP stat items go through
+    /// other paths and never fire) and OnTalentLearned (TalentActorModule.LearnTalent with the
+    /// no-op-on-known filter; the AP item grants use ForceLearnTalent and never fire). The talent
+    /// event reports any actor, so the player filter lives here.
     /// </summary>
     public static class LearnTracker
     {
         private static ArchipelagoClient _client;
         private static ArchipelagoStore _store;
 
-        // Set by the LearnTalent prefix when the call will actually learn something; consumed by
-        // the postfix. Main-thread only, no reentry: LearnTalent does not call itself.
-        private static bool _pendingTalentLearn;
-
-        // ApplyData is once-per-confirm on a per-menu service instance; remembering the last
-        // handled instance makes a double invocation harmless.
-        private static IntPtr _lastServiceHandled = IntPtr.Zero;
-
-        public static void Initialize(ArchipelagoClient archipelagoClient, ArchipelagoStore archipelagoStore,
-            HarmonyLib.Harmony harmony)
+        public static void Initialize(ArchipelagoClient archipelagoClient, ArchipelagoStore archipelagoStore)
         {
             _client = archipelagoClient;
             _store = archipelagoStore;
 
-            HookUtil.TryPostfix(harmony, typeof(LearnService), nameof(LearnService.ApplyData),
-                typeof(LearnTracker), nameof(ApplyDataPostfix));
-            HookUtil.TryPrefix(harmony, typeof(TalentActorModule), nameof(TalentActorModule.LearnTalent),
-                typeof(LearnTracker), nameof(LearnTalentPrefix));
-            HookUtil.TryPostfix(harmony, typeof(TalentActorModule), nameof(TalentActorModule.LearnTalent),
-                typeof(LearnTracker), nameof(LearnTalentPostfix));
+            GameEvents.OnAttributePointsLearned += OnAttributePointsLearned;
+            GameEvents.OnTalentLearned += OnTalentLearned;
         }
 
         /// <summary>
@@ -80,22 +64,11 @@ namespace ArchipelagoDrova
             }
         }
 
-        private static void ApplyDataPostfix(LearnService __instance)
+        private static void OnAttributePointsLearned(LearnService service, int learned)
         {
             try
             {
-                if (__instance == null || _store == null || _client == null)
-                {
-                    return;
-                }
-                if (__instance.Pointer == _lastServiceHandled)
-                {
-                    return;
-                }
-                _lastServiceHandled = __instance.Pointer;
-
-                int learned = __instance._totalStatsChanged;
-                if (learned <= 0)
+                if (_store == null || _client == null)
                 {
                     return;
                 }
@@ -118,43 +91,15 @@ namespace ArchipelagoDrova
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP learn] ApplyData postfix failed: " + e);
+                MelonLogger.Error("[AP learn] OnAttributePointsLearned failed: " + e);
             }
         }
 
-        private static void LearnTalentPrefix(TalentActorModule __instance, TalentContainer container)
-        {
-            _pendingTalentLearn = false;
-            try
-            {
-                if (__instance == null || container == null)
-                {
-                    return;
-                }
-                var actor = __instance.GetActor();
-                if (actor == null || !actor.IsPlayer)
-                {
-                    return;
-                }
-                _pendingTalentLearn = __instance.CanLearnTalent(container.GUID);
-            }
-            catch (Exception e)
-            {
-                MelonLogger.Error("[AP learn] LearnTalent prefix failed: " + e);
-            }
-        }
-
-        private static void LearnTalentPostfix()
+        private static void OnTalentLearned(Actor actor, TalentContainer container)
         {
             try
             {
-                if (!_pendingTalentLearn)
-                {
-                    return;
-                }
-                _pendingTalentLearn = false;
-
-                if (_store == null || _client == null)
+                if (_store == null || _client == null || actor == null || !actor.IsPlayer)
                 {
                     return;
                 }
@@ -171,7 +116,7 @@ namespace ArchipelagoDrova
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP learn] LearnTalent postfix failed: " + e);
+                MelonLogger.Error("[AP learn] OnTalentLearned failed: " + e);
             }
         }
     }

@@ -19,7 +19,7 @@ namespace ArchipelagoDrova
         public static ApUi Ui { get; private set; }
 
         /// <summary>True while Scene_Gameplay_Main is loaded. The item granter gates on this.</summary>
-        public static bool InGameplayScene { get; private set; } = false;
+        public static bool InGameplayScene { get; private set; }
 
         /// <summary>
         /// The player, or null until the API reports one. Set from PlayerAccess.OnPlayerFound, which
@@ -67,15 +67,18 @@ namespace ArchipelagoDrova
             // The cheat command cannot be registered here: Drova's game manager does not exist yet
             // during melon init, so CheatGameHandler.TryGet throws. Deferred to scene load.
 
-            QuestTracker.Initialize(Client, HarmonyInstance);
+            // Game-side detection largely rides the Modding API's GameEvents (subscribed inside
+            // each tracker); HarmonyInstance only goes where an AP-specific hook remains.
+            QuestTracker.Initialize(Client);
             ContainerTracker.Initialize(Client, HarmonyInstance);
-            TraderTracker.Initialize(Client, HarmonyInstance);
+            TraderTracker.Initialize(Client);
             GoalTracker.Initialize(Client, HarmonyInstance);
-            DeathTracker.Initialize(Client, HarmonyInstance);
-            KillTracker.Initialize(Client, Store, HarmonyInstance);
-            LearnTracker.Initialize(Client, Store, HarmonyInstance);
+            DeathTracker.Initialize(Client);
+            KillTracker.Initialize(Client, Store);
+            LearnTracker.Initialize(Client, Store);
             LootSuppressor.Initialize(HarmonyInstance);
-            TeleporterShuffler.Initialize(HarmonyInstance);
+            RuneShuffler.Initialize();
+            RuneHintOverlay.Initialize();
 
             // Registered after Client.OnSaveGameStateLoaded so the save stamp is validated first.
             Store.OnStateLoaded += QuestTracker.RequestSweep;
@@ -98,6 +101,8 @@ namespace ArchipelagoDrova
                 LoggerInstance.Msg("Player ready; Archipelago items can now be granted.");
                 // Anything the pump could not apply while the player was absent is now applicable.
                 Client.NudgeItems();
+                // Teleporter re-apply on world-ready and rune-hint scene sweeps are handled by
+                // the Modding API (TeleporterAccess / SceneStreamAccess listeners).
             }
             catch (Exception e)
             {
@@ -142,6 +147,7 @@ namespace ArchipelagoDrova
                     InGameplayScene = false;
                     Player = null;
                 }
+
             }
             catch (Exception e)
             {

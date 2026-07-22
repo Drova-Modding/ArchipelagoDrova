@@ -1,5 +1,3 @@
-using Drova_Modding_API.GlobalFields;
-
 namespace ArchipelagoDrova.Data
 {
     public enum GrantKind

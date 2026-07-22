@@ -32,9 +32,10 @@ Your **game folder** is where `Drova.exe` lives. On Steam: right-click **Drova -
 
 1. Install [MelonLoader](https://melonwiki.xyz) into the game folder (choose the **IL2CPP** path).
    Verified against 0.7.3. This creates the `Mods/` and `UserLibs/` folders.
-2. Install the [Drova Modding API](https://github.com/Drova-Modding/Drova-Modding-API/releases/latest):
-   download its `Drova_Modding_API.dll` and put it in `<game>/Mods/`. (It's a separate project, not
-   bundled here.)
+2. Install the [Drova Modding API](https://github.com/Drova-Modding/Drova-Modding-API/releases/latest)
+   **version 0.5.4 or newer** (this mod runs on its GameEvents/scene systems; older versions crash
+   with missing-method errors): download its `Drova_Modding_API.dll` and put it in `<game>/Mods/`.
+   (It's a separate project, not bundled here.)
 3. Unzip this mod and merge its `Mods/` and `UserLibs/` folders into the game folder. A mod manager like
    **Vortex** can install the zip for you — it deploys straight into the game root.
 
@@ -103,6 +104,9 @@ Drova - Forsaken Kin:
   # Gameplay
   suppress_vanilla_loot: true # true = only the AP item; false = AP item + vanilla loot (easier)
   consumable_stack_size: full # full | small | single - units per consumable grant (ammo never drops below 5)
+  randomize_teleporters: false # shuffle which cave each entrance leads into (36 two-way links, never strands you)
+  randomize_runes: false      # re-roll which drawn-rune pattern opens which rune door; all hints (notes + plates) stay truthful
+  start_with_tools: true      # start with the Silver Smasher pickaxe + a junk spear for the mining/fishing minigames
 
   death_link: false
 ```
@@ -153,6 +157,21 @@ damage-over-time are undercounted (never double-counted).
 talent learned from a teacher or taught in dialogue. Only genuine teaching counts — attribute
 points and flow abilities received as Archipelago items, perma-potions and level-ups never advance
 the counters.
+
+**Teleporter shuffle** (`randomize_teleporters`): an entrance randomizer over 36 of the game's
+two-way cave links. Links are shuffled as whole pairs, so whatever gate you enter, the gate you
+arrive at leads back — no placement can strand you, and the flat access logic stays valid. The
+Red Tower, the Library, both factions' home interiors and quest dungeons always keep their
+vanilla connections.
+
+**Rune shuffle** (`randomize_runes`): re-rolls which of the nine drawn-rune patterns opens which
+rune door. Every hint stays truthful — hint notes (including journal re-reads) and the carved
+riddle plates/clue stones in the world are redrawn to show the pattern the door now requires —
+so the riddles are solvable the intended way, just not from memory.
+
+**Start tools** (`start_with_tools`, on by default): begin with the Silver Smasher pickaxe and a
+junk spear so the mining and fishing minigames (and their checks under `randomize_resources`)
+are available from the start.
 
 **Items** (816): 62 progression (15 keys, 3 charged energy crystals, 43 player flow abilities),
 221 useful (weapons, armor, helmets, maps), 522 filler (consumables, recipes, quest items), plus
@@ -243,7 +262,9 @@ Knobs (all optional):
 
 - `-p:BundleRelease=true` — force the bundle on a Debug build (or `=false` to skip it on Release).
   (Named `BundleRelease`, not `PackRelease`: the latter is a reserved .NET SDK property.)
-- `-p:BundleDrovaApi=false` — ship without the third-party `Drova_Modding_API.dll` (on by default).
+- `-p:BundleDrovaApi=true` — bundle the third-party `Drova_Modding_API.dll` for a self-contained
+  zip (OFF by default: players install the Modding API separately, and release zips must not
+  ship someone else's mod).
 - `-p:ReleaseVersion=X.Y.Z` — override the version in the zip name.
 
 Debug builds skip packing and keep the fast deploy-to-game behavior (copies the DLLs straight into

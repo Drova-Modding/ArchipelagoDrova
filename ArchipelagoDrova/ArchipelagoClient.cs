@@ -13,18 +13,14 @@ namespace ArchipelagoDrova
 {
     /// <summary>
     /// Owns the Archipelago _session. Every library callback arrives on a ThreadPool thread and is
-    /// marshalled onto the Unity main thread through <see cref="MainThreadDispatcher"/>.
+    /// marshaled onto the Unity main thread through <see cref="MainThreadDispatcher"/>.
     /// </summary>
-    public class ArchipelagoClient
+    public class ArchipelagoClient(ApConfig config, ArchipelagoStore store, IItemGranter granter)
     {
         public const string GameName = "Drova - Forsaken Kin";
 
         private const float MaxReconnectDelay = 60f;
         private const float PendingFlushRetryInterval = 30f;
-
-        private readonly ApConfig _config;
-        private readonly ArchipelagoStore _store;
-        private readonly IItemGranter _granter;
 
         // Typed as the concrete _session: CreateDeathLinkService is an extension on ArchipelagoSession.
         private ArchipelagoSession _session;
@@ -36,9 +32,9 @@ namespace ArchipelagoDrova
         private bool _connecting;
         private bool _wantConnection;
         private bool _applyingRemoteDeath;
-        // The ApState whose goal send is in flight (null = none). A plain bool would be global
+        // The ApState whose goal sent is in flight (null = none). A plain bool would be global
         // while the goal flags are per-save: a different save loading mid-send would find the
-        // flag still set and have its own retry suppressed until the next connect.
+        // flag still set and have its own retry suppressed until the next connection.
         private ApState _goalSendState;
         private int _reconnectAttempt;
         private float _reconnectAt = -1f;
@@ -49,34 +45,34 @@ namespace ArchipelagoDrova
         private string _slotName = "";
         private string _password = "";
 
-        public bool Connected { get; private set; } = false;
+        public bool Connected { get; private set; }
         public string Status { get; private set; } = "Disconnected";
-        public string SlotName { get { return _slotName; } }
+        public string SlotName => _slotName;
         public string Seed { get; private set; } = "";
         public int Team { get; private set; } = -1;
         public int Slot { get; private set; } = -1;
         public Dictionary<string, object> SlotData { get; private set; }
-        public bool DeathLinkEnabled { get; private set; } = false;
+        public bool DeathLinkEnabled { get; private set; }
 
         /// <summary>Number of enemy-kill milestone checks this seed offers (0 = feature off).</summary>
-        public int EnemyKillChecks { get; private set; } = 0;
+        public int EnemyKillChecks { get; private set; }
 
         /// <summary>Kills between milestones. Milestone k fires at k * this many kills.</summary>
         public int EnemyKillInterval { get; private set; } = 1;
 
         /// <summary>Number of attributes-learned milestone checks this seed offers (0 = off).</summary>
-        public int AttributeLearnChecks { get; private set; } = 0;
+        public int AttributeLearnChecks { get; private set; }
 
         /// <summary>Teacher-learned points between milestones. Milestone k fires at k * this.</summary>
         public int AttributeLearnInterval { get; private set; } = 1;
 
         /// <summary>Number of talents-learned milestone checks this seed offers (0 = off).</summary>
-        public int TalentLearnChecks { get; private set; } = 0;
+        public int TalentLearnChecks { get; private set; }
 
-        public int ItemsApplied { get { return _store.State.ApItemsApplied; } }
-        public int ItemsReceived { get; private set; } = 0;
-        public int LocationsChecked { get; private set; } = 0;
-        public int LocationsTotal { get; private set; } = 0;
+        public int ItemsApplied => store.State.ApItemsApplied;
+        public int ItemsReceived { get; private set; }
+        public int LocationsChecked { get; private set; }
+        public int LocationsTotal { get; private set; }
 
         /// <summary>
         /// The location ids the generator actually placed in THIS seed (from AllLocations). The
@@ -88,7 +84,7 @@ namespace ArchipelagoDrova
 
         /// <summary>
         /// Set when persisted state changed (item granted, check recorded, kill counted) and must be
-        /// pushed into the live savegame so an autosave persists it. Written from any thread (AP
+        /// pushed into the live savegame, so an autosave persists it. Written from any thread (AP
         /// callbacks run on the ThreadPool), drained on the main thread in Pump.
         /// </summary>
         private volatile bool _statePersistDirty;
@@ -104,13 +100,6 @@ namespace ArchipelagoDrova
 
         /// <summary>Raised on the main thread once a login has succeeded and slot data is available.</summary>
         public event Action OnConnected;
-
-        public ArchipelagoClient(ApConfig config, ArchipelagoStore store, IItemGranter granter)
-        {
-            _config = config;
-            _store = store;
-            _granter = granter;
-        }
 
         // ---------------------------------------------------------------- connect
 
@@ -149,11 +138,10 @@ namespace ArchipelagoDrova
             // TryConnectAndLogin blocks for up to ~8s, so it must never touch the Unity main thread.
             Task.Run(() =>
             {
-                ArchipelagoSession created = null;
                 try
                 {
                     // Scheme-less _host: the library probes wss:// first and falls back to ws://.
-                    created = ArchipelagoSessionFactory.CreateSession(h, p);
+                    var created = ArchipelagoSessionFactory.CreateSession(h, p);
                     var result = created.TryConnectAndLogin(
                         GameName,
                         s,
@@ -209,8 +197,9 @@ namespace ArchipelagoDrova
                 SetupConsumableStackSize();
                 SetupKillMilestones();
                 SetupTeleporterShuffle();
+                SetupRuneShuffle();
 
-                _store.StampOrValidate(ReadSeedName(), Seed, _slotName, Slot);
+                store.StampOrValidate(ReadSeedName(), Seed, _slotName, Slot);
 
                 BuildActiveLocationSet();
                 RefreshLocationCounts();
@@ -471,7 +460,7 @@ namespace ArchipelagoDrova
             if (_statePersistDirty)
             {
                 _statePersistDirty = false;
-                _store.PushToLiveSavegame();
+                store.PushToLiveSavegame();
             }
 
             if (_reconnectAt > 0f && Time.realtimeSinceStartup >= _reconnectAt)
@@ -492,8 +481,8 @@ namespace ArchipelagoDrova
 
             // A queued name whose resolution threw at connect time (datapackage still in flight) would
             // otherwise wait for the next connect or save load. Retry occasionally while connected.
-            if (!_store.Mismatched
-                && _store.State.PendingLocationNames.Count > 0
+            if (!store.Mismatched
+                && store.State.PendingLocationNames.Count > 0
                 && Time.realtimeSinceStartup >= _nextPendingFlushAt)
             {
                 _nextPendingFlushAt = Time.realtimeSinceStartup + PendingFlushRetryInterval;
@@ -503,7 +492,7 @@ namespace ArchipelagoDrova
 
         private void PumpItems()
         {
-            if (_store.Mismatched)
+            if (store.Mismatched)
             {
                 return;
             }
@@ -525,7 +514,7 @@ namespace ArchipelagoDrova
             }
 
             ItemsReceived = all.Count;
-            var state = _store.State;
+            var state = store.State;
 
             for (int i = state.ApItemsApplied; i < all.Count; i++)
             {
@@ -533,7 +522,7 @@ namespace ArchipelagoDrova
                 bool granted;
                 try
                 {
-                    granted = _granter.TryGrant(info, ResolveItemName(info));
+                    granted = granter.TryGrant(info, ResolveItemName(info));
                 }
                 catch (Exception e)
                 {
@@ -609,7 +598,7 @@ namespace ArchipelagoDrova
                 return;
             }
 
-            _store.StampOrValidate(ReadSeedName(), Seed, _slotName, Slot);
+            store.StampOrValidate(ReadSeedName(), Seed, _slotName, Slot);
             RefreshLocationCounts();
             ResendCheckedLocations();
             FlushPendingLocationChecks();
@@ -619,7 +608,7 @@ namespace ArchipelagoDrova
 
         private void RetryGoalIfPending()
         {
-            if (_store.State.GoalReached && !_store.State.GoalSent)
+            if (store.State.GoalReached && !store.State.GoalSent)
             {
                 SendGoal();
             }
@@ -629,7 +618,7 @@ namespace ArchipelagoDrova
 
         public void CheckLocation(long id)
         {
-            if (_store.Mismatched)
+            if (store.Mismatched)
             {
                 MelonLogger.Warning("Save/seed mismatch; refusing to send location check " + id + ".");
                 return;
@@ -637,9 +626,9 @@ namespace ArchipelagoDrova
 
             // Record before sending: the send can fail, but a recorded check is re-sent by
             // ResendCheckedLocations on every connect and save load, so it can never be lost.
-            if (!_store.State.CheckedLocations.Contains(id))
+            if (!store.State.CheckedLocations.Contains(id))
             {
-                _store.State.CheckedLocations.Add(id);
+                store.State.CheckedLocations.Add(id);
                 _statePersistDirty = true;
             }
 
@@ -649,7 +638,7 @@ namespace ArchipelagoDrova
                 return;
             }
 
-            SendChecks(new long[] { id });
+            SendChecks([id]);
         }
 
         /// <summary>
@@ -668,7 +657,7 @@ namespace ArchipelagoDrova
             // Mismatched queues too: the live _session belongs to a different room, so resolving the
             // name against ITS datapackage would record a foreign id. The name is room-independent
             // and is flushed once this save is connected to the room it belongs to.
-            if (!Connected || _session == null || _store.Mismatched)
+            if (!Connected || _session == null || store.Mismatched)
             {
                 QueuePendingLocation(apLocationName);
                 return;
@@ -690,7 +679,7 @@ namespace ArchipelagoDrova
             if (id == -1)
             {
                 // Permanently unknown to this world; retrying cannot fix it, so drop it from the queue.
-                _store.State.PendingLocationNames.Remove(apLocationName);
+                store.State.PendingLocationNames.Remove(apLocationName);
                 MelonLogger.Warning("Unknown AP location name '" + apLocationName + "'; ignoring.");
                 return;
             }
@@ -700,17 +689,17 @@ namespace ArchipelagoDrova
                 // Known to the datapackage but not placed in this seed (its category is off). Sending it
                 // would do nothing, and the loot suppressor is gated the same way so the vanilla item was
                 // never taken. Drop it from the queue and stay silent.
-                _store.State.PendingLocationNames.Remove(apLocationName);
+                store.State.PendingLocationNames.Remove(apLocationName);
                 return;
             }
 
-            _store.State.PendingLocationNames.Remove(apLocationName);
+            store.State.PendingLocationNames.Remove(apLocationName);
             CheckLocation(id);
         }
 
         private void QueuePendingLocation(string apLocationName)
         {
-            var pending = _store.State.PendingLocationNames;
+            var pending = store.State.PendingLocationNames;
             if (!pending.Contains(apLocationName))
             {
                 pending.Add(apLocationName);
@@ -724,12 +713,12 @@ namespace ArchipelagoDrova
         /// </summary>
         private void FlushPendingLocationChecks()
         {
-            if (_store.Mismatched)
+            if (store.Mismatched)
             {
                 return;
             }
 
-            var pending = _store.State.PendingLocationNames;
+            var pending = store.State.PendingLocationNames;
             if (pending == null || pending.Count == 0)
             {
                 return;
@@ -749,12 +738,12 @@ namespace ArchipelagoDrova
         /// </summary>
         private void ResendCheckedLocations()
         {
-            if (_store.Mismatched)
+            if (store.Mismatched)
             {
                 return;
             }
 
-            var checkedLocations = _store.State.CheckedLocations;
+            var checkedLocations = store.State.CheckedLocations;
             if (checkedLocations == null || checkedLocations.Count == 0)
             {
                 return;
@@ -778,7 +767,7 @@ namespace ArchipelagoDrova
                     t => MelonLogger.Error("CompleteLocationChecksAsync failed: " + t.Exception),
                     TaskContinuationOptions.OnlyOnFaulted);
                 sending.ContinueWith(
-                    t => MainThreadDispatcher.Enqueue(RefreshLocationCounts),
+                    _ => MainThreadDispatcher.Enqueue(RefreshLocationCounts),
                     TaskContinuationOptions.OnlyOnRanToCompletion);
             }
             catch (Exception e)
@@ -789,7 +778,7 @@ namespace ArchipelagoDrova
 
         /// <summary>
         /// Snapshot the ids the generator placed in this seed. AllLocations is fixed for the life of a
-        /// room, so this is rebuilt once per connect (before the resend/flush that gate on it).
+        /// room, so this is rebuilt once per connection (before the resend/flush that gate on it).
         /// </summary>
         private void BuildActiveLocationSet()
         {
@@ -894,7 +883,7 @@ namespace ArchipelagoDrova
 
         public void SendGoal()
         {
-            var state = _store.State;
+            var state = store.State;
             if (state.GoalSent)
             {
                 return;
@@ -907,7 +896,7 @@ namespace ArchipelagoDrova
             state.GoalReached = true;
             _statePersistDirty = true;
 
-            if (_store.Mismatched)
+            if (store.Mismatched)
             {
                 MelonLogger.Warning("Save/seed mismatch; the goal is recorded and will be sent once "
                     + "this save is connected to its own room.");
@@ -1048,17 +1037,30 @@ namespace ArchipelagoDrova
         /// </summary>
         private void SetupTeleporterShuffle()
         {
+            TeleporterShuffler.Configure(ReadStringMapSlotData("teleporters"));
+        }
+
+        /// <summary>
+        /// Hands the seed's rune-riddle shuffle to the rune rewiring. Absent or empty (older
+        /// seeds, option off) means vanilla riddles.
+        /// </summary>
+        private void SetupRuneShuffle()
+        {
+            RuneShuffler.Configure(ReadStringMapSlotData("runes"));
+        }
+
+        private Dictionary<string, string> ReadStringMapSlotData(string key)
+        {
             var map = new Dictionary<string, string>();
-            if (SlotData != null && SlotData.TryGetValue("teleporters", out object value)
+            if (SlotData != null && SlotData.TryGetValue(key, out object value)
                 && value is Newtonsoft.Json.Linq.JObject jsonMap)
             {
                 foreach (var property in jsonMap.Properties())
                 {
-                    map[property.Name] = property.Value?.ToString() ?? "";
+                    map[property.Name] = property.Value.ToString();
                 }
             }
-
-            TeleporterShuffler.Configure(map);
+            return map;
         }
 
         /// <summary>
@@ -1098,7 +1100,7 @@ namespace ArchipelagoDrova
 
         private void SetupDeathLink()
         {
-            bool enabled = _config.DeathLink;
+            bool enabled = config.DeathLink;
             if (SlotData != null && SlotData.TryGetValue("death_link", out object value) && value != null)
             {
                 enabled = ToBool(value, enabled);

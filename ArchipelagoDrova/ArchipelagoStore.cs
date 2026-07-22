@@ -13,10 +13,7 @@ namespace ArchipelagoDrova
     {
         public const string StoreKey = "ArchipelagoDrova_State";
 
-        public string SaveGameKey
-        {
-            get { return StoreKey; }
-        }
+        public string SaveGameKey => StoreKey;
 
         public ApState State { get; private set; } = new();
 
@@ -24,7 +21,7 @@ namespace ArchipelagoDrova
         /// True when the loaded save was stamped with a different seed/slot than the live session.
         /// The client refuses to apply items or send checks while this is set.
         /// </summary>
-        public bool Mismatched { get; private set; } = false;
+        public bool Mismatched { get; private set; }
 
         /// <summary>Raised on the main thread once Load() populated the state.</summary>
         public event Action OnStateLoaded;
@@ -112,15 +109,9 @@ namespace ArchipelagoDrova
             {
                 var loaded = JsonConvert.DeserializeObject<ApState>(result);
                 State = loaded ?? new ApState();
-                if (State.CheckedLocations == null)
-                {
-                    State.CheckedLocations = new List<long>();
-                }
+                State.CheckedLocations ??= [];
                 // Saves written before these fields existed deserialize them as null.
-                if (State.PendingLocationNames == null)
-                {
-                    State.PendingLocationNames = new List<string>();
-                }
+                State.PendingLocationNames ??= [];
                 Mismatched = false;
                 MelonLogger.Msg("Loaded AP state: seed '" + State.RoomSeed + "' slot '" + State.SlotName +
                     "' items applied " + State.ApItemsApplied + ", checks " + State.CheckedLocations.Count + ".");

@@ -1,6 +1,4 @@
 using ArchipelagoDrova.Data;
-using HarmonyLib;
-using Il2CppDrova;
 using Il2CppDrova.Items;
 using Il2CppDrova.TradingSystem;
 using Il2CppTradingSystem.ItemContainers;
@@ -14,7 +12,8 @@ namespace ArchipelagoDrova
     /// stable identity: the trader's scene-baked guid plus the item's guid. The extractor freezes that
     /// pair; here the same pair is resolved at purchase time.
     ///
-    /// Hook: postfix on TraderActorAdapter.RemoveItemFromTrader, which fires exactly once per bought
+    /// Detection: the Modding API's GameEvents.OnTraderItemRemoved
+    /// (TraderActorAdapter.RemoveItemFromTrader), which fires exactly once per bought
     /// stack inside MarketPlace.CompleteTrading and never on hover/preview/drag. The same method also
     /// fires on the player-side adapter when the player SELLS, so a purchase is distinguished by the
     /// adapter's actor not being the player.
@@ -23,7 +22,7 @@ namespace ArchipelagoDrova
     {
         private static ArchipelagoClient _client;
 
-        private static readonly HashSet<string> _sentThisSession = new(StringComparer.Ordinal);
+        private static readonly HashSet<string> SentThisSession = new(StringComparer.Ordinal);
 
         private struct PendingRemoval
         {
@@ -37,20 +36,18 @@ namespace ArchipelagoDrova
         // so removing immediately could miss them.
         private static readonly List<PendingRemoval> _pendingRemovals = new();
 
-        public static void Initialize(ArchipelagoClient archipelagoClient, HarmonyLib.Harmony harmony)
+        public static void Initialize(ArchipelagoClient archipelagoClient)
         {
             _client = archipelagoClient;
 
-            HookUtil.TryPostfix(harmony, typeof(TraderActorAdapter),
-                nameof(TraderActorAdapter.RemoveItemFromTrader),
-                typeof(TraderTracker), nameof(RemoveItemFromTraderPostfix));
+            Drova_Modding_API.Access.GameEvents.OnTraderItemRemoved += RemoveItemFromTraderEvent;
 
             MelonLogger.Msg("[AP trader] " + LocationTable.TraderSlotCount + " trader slots mapped to AP locations.");
         }
 
         public static void OnSaveGameStateLoaded()
         {
-            _sentThisSession.Clear();
+            SentThisSession.Clear();
             _pendingRemovals.Clear();
         }
 
@@ -90,17 +87,17 @@ namespace ArchipelagoDrova
             _pendingRemovals.Clear();
         }
 
-        private static void RemoveItemFromTraderPostfix(TraderActorAdapter __instance, ItemTraderStack itemStack)
+        private static void RemoveItemFromTraderEvent(TraderActorAdapter adapter, ItemTraderStack itemStack)
         {
             try
             {
-                if (__instance == null || itemStack == null)
+                if (adapter == null || itemStack == null)
                 {
                     return;
                 }
 
                 // Only a non-player trader losing stock is a buy; the player-side adapter fires on sells.
-                var trader = __instance._actor;
+                var trader = adapter._actor;
                 if (!trader || ContainerTracker.IsPlayer(trader))
                 {
                     return;
@@ -148,8 +145,8 @@ namespace ArchipelagoDrova
                 int newChecks = 0;
                 for (int unit = already; unit < already + bought && unit < totalUnits; unit++)
                 {
-                    string unitName = unit == 0 ? apName : extraUnits[unit - 1];
-                    if (!_sentThisSession.Add(unitName))
+                    string unitName = unit == 0 ? apName : extraUnits?[unit - 1];
+                    if (!SentThisSession.Add(unitName))
                     {
                         continue;
                     }
@@ -183,7 +180,7 @@ namespace ArchipelagoDrova
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP trader] RemoveItemFromTrader postfix failed: " + e);
+                MelonLogger.Error("[AP trader] OnTraderItemRemoved handler failed: " + e);
             }
         }
     }

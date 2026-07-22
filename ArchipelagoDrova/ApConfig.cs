@@ -13,18 +13,12 @@ namespace ArchipelagoDrova
         public int Port { get; set; } = 38281;
         public string SlotName { get; set; } = "";
         public string Password { get; set; } = "";
-        public bool AutoConnect { get; set; } = false;
+        public bool AutoConnect { get; set; }
         public bool DeathLink { get; set; } = false;
 
-        public static string DataDirectory
-        {
-            get { return Path.Combine(MelonEnvironment.UserDataDirectory, "ArchipelagoDrova"); }
-        }
+        public static string DataDirectory => Path.Combine(MelonEnvironment.UserDataDirectory, "ArchipelagoDrova");
 
-        public static string FilePath
-        {
-            get { return Path.Combine(DataDirectory, "config.json"); }
-        }
+        public static string FilePath => Path.Combine(DataDirectory, "config.json");
 
         public static ApConfig Load()
         {

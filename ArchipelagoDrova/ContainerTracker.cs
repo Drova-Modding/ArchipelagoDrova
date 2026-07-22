@@ -1,8 +1,6 @@
 using ArchipelagoDrova.Data;
 using Drova_Modding_API.Access;
-using HarmonyLib;
 using Il2CppDrova;
-using Il2CppDrova.Brawl;
 using Il2CppDrova.Crafting;
 using Il2CppDrova.InteractionSystem;
 using Il2CppDrova.InventorySystem;
@@ -29,6 +27,8 @@ namespace ArchipelagoDrova
     ///
     /// Covers all five loot categories: Chest and Container (Interact_Bhvr_LootInventory), Pickup
     /// (PickupInteraction), Cache (SpawnFromLootTable), Resource (Interact_Bhvr_ResourceSpot).
+    /// Detection is the Modding API's GameEvents where available, plus three AP-specific backstop
+    /// hooks the API does not expose (inventory-changed, cache-broken, minigame-skip).
     /// </summary>
     public static class ContainerTracker
     {
@@ -37,53 +37,34 @@ namespace ArchipelagoDrova
 
         private static ArchipelagoClient _client;
 
-        private static readonly HashSet<string> _sentThisSession = new(StringComparer.Ordinal);
-        private static readonly HashSet<string> _loggedGuids = new(StringComparer.Ordinal);
+        private static readonly HashSet<string> SentThisSession = new(StringComparer.Ordinal);
+        private static readonly HashSet<string> LoggedGuids = new(StringComparer.Ordinal);
         private static int _unmatchedLogged;
 
         public static void Initialize(ArchipelagoClient archipelagoClient, HarmonyLib.Harmony harmony)
         {
             _client = archipelagoClient;
 
-            // Chests and lootable containers. Interact_Bhvr_LootKnockout inherits both of these and
-            // overrides neither, so corpse loot funnels through the same patches.
-            HookUtil.TryPostfix(harmony, typeof(Interact_Bhvr_LootInventory),
-                nameof(Interact_Bhvr_LootInventory.InventoryOpened),
-                typeof(ContainerTracker), nameof(InventoryOpenedPostfix));
-            HookUtil.TryPostfix(harmony, typeof(Interact_Bhvr_LootInventory),
+            // Detection comes from the Modding API's GameEvents wherever it has the chokepoint
+            // (chests/corpses, pickups, pick-once objects, loot-all, cache-looted, resource
+            // minigames). Three AP-specific backstops stay as own hooks below.
+            GameEvents.OnLootInventoryOpened += InventoryOpenedEvent;
+            GameEvents.OnPickupCollected += PickupUsedEvent;
+            GameEvents.OnPickUpOnceLooted += PickUpOnceLootedEvent;
+            GameEvents.OnLootedAll += LootAllEvent;
+            GameEvents.OnCacheLooted += CacheLootedEvent;
+            GameEvents.OnResourceMinigameFinished += ResourceMinigameFinishedEvent;
+
+            // "Looted" (item removed from an open container) - the API only reports the open.
+            Drova_Modding_API.Hooking.TryPostfix(harmony, typeof(Interact_Bhvr_LootInventory),
                 nameof(Interact_Bhvr_LootInventory.InventoryChangedEventListener),
                 typeof(ContainerTracker), nameof(InventoryChangedPostfix));
-
-            // Hand-placed ground pickups. InteractionEndedEventListener only fires for loot dropped at
-            // runtime (currency, ore); scene-placed pickups such as berries and mushrooms never reach
-            // it. Those go through Interact_Bhvr_LootAll instead, which is what Saveable_PickUp_Once
-            // (the "WasPicked" record) listens to. Verified in game: dropped loot logged here, plants
-            // logged nothing at all.
-            HookUtil.TryPostfix(harmony, typeof(PickupInteraction),
-                nameof(PickupInteraction.InteractionEndedEventListener),
-                typeof(ContainerTracker), nameof(PickupUsedPostfix));
-            HookUtil.TryPostfix(harmony, typeof(Saveable_PickUp_Once),
-                nameof(Saveable_PickUp_Once.LootAllListener),
-                typeof(ContainerTracker), nameof(PickUpOnceLootedPostfix));
-            HookUtil.TryPostfix(harmony, typeof(Interact_Bhvr_LootAll),
-                nameof(Interact_Bhvr_LootAll.LootAll),
-                typeof(ContainerTracker), nameof(LootAllPostfix));
-
-            // Loot-table caches (the ModuleCreator_Destroyable breakables). SpawnFromLootTable sits on
-            // the same GameObject as the cache's GuidComponent, so the guid resolves off the SPAWNER.
-            // The spawned pickups carry runtime SaveRoot_Dynamic ids and must never be the key.
-            HookUtil.TryPostfix(harmony, typeof(SpawnFromLootTable), nameof(SpawnFromLootTable.SpawnLoot),
+            // Cache BROKEN (before any pickup): keeps the location reachable when the loot roll
+            // produces nothing at all; the API's OnCacheLooted only backstops the pickup.
+            Drova_Modding_API.Hooking.TryPostfix(harmony, typeof(SpawnFromLootTable), nameof(SpawnFromLootTable.SpawnLoot),
                 typeof(ContainerTracker), nameof(CacheSpawnLootPostfix));
-            HookUtil.TryPostfix(harmony, typeof(SpawnFromLootTable),
-                nameof(SpawnFromLootTable.OnInteractionUsedEventListener),
-                typeof(ContainerTracker), nameof(CacheLootedPostfix));
-
-            // Resource spots (mining veins, fishing spots). Interact_Bhvr_ResourceSpot_AI is a separate
-            // class on a separate subtree, so neither of these can fire for NPC harvesting.
-            HookUtil.TryPostfix(harmony, typeof(Interact_Bhvr_ResourceSpot),
-                nameof(Interact_Bhvr_ResourceSpot.MinigameFinishedEventListener),
-                typeof(ContainerTracker), nameof(ResourceMinigameFinishedPostfix));
-            HookUtil.TryPostfix(harmony, typeof(Interact_Bhvr_ResourceSpot),
+            // Skipped minigames (MinigameModule.SetSkip) bypass the finish event entirely.
+            Drova_Modding_API.Hooking.TryPostfix(harmony, typeof(Interact_Bhvr_ResourceSpot),
                 nameof(Interact_Bhvr_ResourceSpot.GetItems),
                 typeof(ContainerTracker), nameof(ResourceGetItemsPostfix));
 
@@ -92,22 +73,22 @@ namespace ArchipelagoDrova
 
         public static void OnSaveGameStateLoaded()
         {
-            _sentThisSession.Clear();
+            SentThisSession.Clear();
         }
 
-        private static void InventoryOpenedPostfix(Interact_Bhvr_LootInventory __instance, bool openedbyNpc)
+        private static void InventoryOpenedEvent(Interact_Bhvr_LootInventory container, bool openedByNpc)
         {
             try
             {
-                if (openedbyNpc || __instance == null)
+                if (openedByNpc || container == null)
                 {
                     return;
                 }
-                Report(__instance, null, "opened");
+                Report(container, null, "opened");
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP loot] InventoryOpened postfix failed: " + e);
+                MelonLogger.Error("[AP loot] InventoryOpened handler failed: " + e);
             }
         }
 
@@ -139,52 +120,52 @@ namespace ArchipelagoDrova
         /// A scene-placed pickup was taken. Saveable_PickUp_Once is the game's own "WasPicked" record,
         /// so this is the authoritative signal for berries, mushrooms and the like.
         /// </summary>
-        private static void PickUpOnceLootedPostfix(Saveable_PickUp_Once __instance)
+        private static void PickUpOnceLootedEvent(Saveable_PickUp_Once pickup)
         {
             try
             {
-                if (__instance == null)
+                if (pickup == null)
                 {
                     return;
                 }
-                Report(__instance, null, "pickup once");
+                Report(pickup, null, "pickup once");
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP loot] Saveable_PickUp_Once postfix failed: " + e);
+                MelonLogger.Error("[AP loot] Saveable_PickUp_Once handler failed: " + e);
             }
         }
 
         /// <summary>Backstop for the same act, in case the saveable is absent on some pickups.</summary>
-        private static void LootAllPostfix(Interact_Bhvr_LootAll __instance)
+        private static void LootAllEvent(Interact_Bhvr_LootAll interaction)
         {
             try
             {
-                if (__instance == null)
+                if (interaction == null)
                 {
                     return;
                 }
-                Report(__instance, null, "loot all");
+                Report(interaction, null, "loot all");
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP loot] Interact_Bhvr_LootAll postfix failed: " + e);
+                MelonLogger.Error("[AP loot] Interact_Bhvr_LootAll handler failed: " + e);
             }
         }
 
-        private static void PickupUsedPostfix(PickupInteraction __instance)
+        private static void PickupUsedEvent(PickupInteraction pickup)
         {
             try
             {
-                if (__instance == null)
+                if (pickup == null)
                 {
                     return;
                 }
-                Report(__instance, __instance._guid, "pickup");
+                Report(pickup, pickup._guid, "pickup");
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP loot] PickupInteraction postfix failed: " + e);
+                MelonLogger.Error("[AP loot] PickupInteraction handler failed: " + e);
             }
         }
 
@@ -211,42 +192,42 @@ namespace ArchipelagoDrova
         }
 
         /// <summary>
-        /// A pickup this cache spawned was taken. Listener-shaped, so it cannot be inlined; backstops
-        /// SpawnLoot. Still keyed off the spawner's guid, not the spawned pickup's.
+        /// A pickup this cache spawned was taken; backstops SpawnLoot. Still keyed off the
+        /// spawner's guid, not the spawned pickup's.
         /// </summary>
-        private static void CacheLootedPostfix(SpawnFromLootTable __instance)
+        private static void CacheLootedEvent(SpawnFromLootTable cache)
         {
             try
             {
-                if (__instance == null)
+                if (cache == null)
                 {
                     return;
                 }
-                Report(__instance, null, "cache looted");
+                Report(cache, null, "cache looted");
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP loot] OnInteractionUsedEventListener postfix failed: " + e);
+                MelonLogger.Error("[AP loot] OnCacheLooted handler failed: " + e);
             }
         }
 
-        private static void ResourceMinigameFinishedPostfix(Interact_Bhvr_ResourceSpot __instance, MinigameFinishedArgs arg0)
+        private static void ResourceMinigameFinishedEvent(Interact_Bhvr_ResourceSpot spot, MinigameFinishedArgs args)
         {
             try
             {
                 // MinigameFinishedArgs derives from Il2CppSystem.Object, so there is no implicit bool.
-                if (__instance == null || arg0 == null || !IsPlayer(arg0.Actor))
+                if (spot == null || args == null || !IsPlayer(args.Actor))
                 {
                     return;
                 }
 
                 // Deliberately not gated on SuccessValue: a failed attempt can still consume a charge,
                 // and a spot whose last charge went on a failure would become unreachable.
-                Report(__instance, null, "resource worked");
+                Report(spot, null, "resource worked");
             }
             catch (Exception e)
             {
-                MelonLogger.Error("[AP loot] MinigameFinished postfix failed: " + e);
+                MelonLogger.Error("[AP loot] OnResourceMinigameFinished handler failed: " + e);
             }
         }
 
@@ -367,11 +348,11 @@ namespace ArchipelagoDrova
         }
 
         /// <summary>
-        /// Every GuidComponent from the behaviour up to the scene root, nearest first.
+        /// Every GuidComponent from the behavior up to the scene root, nearest first.
         /// GetComponentInParent only returns the nearest, which is wrong wherever GuidComponents nest:
         /// a runtime-spawned child carries its own freshly created guid, while the scene-baked guid
         /// that our table is keyed by lives further up. Verified in game: an ambient crow resolves as
-        /// chain=[child-runtime-guid <- crow-baked-guid], and only the second is a location.
+        /// chain=[child-runtime-guid - crow-baked-guid], and only the second is a location.
         /// </summary>
         public static List<string> GuidChain(Component behaviour)
         {
@@ -441,7 +422,7 @@ namespace ArchipelagoDrova
             // loot and then hid every later object type.
             string owner = behaviour != null && behaviour.gameObject != null ? behaviour.gameObject.name : "<none>";
             string key = source + ":" + owner;
-            if (_unmatchedLogged < GuidSampleLimit && _loggedGuids.Add(key))
+            if (_unmatchedLogged < GuidSampleLimit && LoggedGuids.Add(key))
             {
                 _unmatchedLogged++;
                 MelonLogger.Msg("[AP loot] guid sample " + _unmatchedLogged + "/" + GuidSampleLimit +
@@ -478,7 +459,7 @@ namespace ArchipelagoDrova
                 return;
             }
 
-            if (!_sentThisSession.Add(apName))
+            if (!SentThisSession.Add(apName))
             {
                 return;
             }

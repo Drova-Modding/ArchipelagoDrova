@@ -1,5 +1,4 @@
 using ArchipelagoDrova.Data;
-using HarmonyLib;
 using Il2CppDrova.InteractionSystem;
 using Il2CppDrova.Items;
 using Il2CppDrova.InventorySystem;
@@ -23,14 +22,9 @@ namespace ArchipelagoDrova
     /// </summary>
     public static class LootSuppressor
     {
-        private static bool _enabled;
 
         /// <summary>Set from slot data on the connection. Off unless the seed asks for it.</summary>
-        public static bool Enabled
-        {
-            get { return _enabled; }
-            set { _enabled = value; }
-        }
+        public static bool Enabled { get; set; }
 
         public static void Initialize(HarmonyLib.Harmony harmony)
         {
@@ -41,23 +35,23 @@ namespace ArchipelagoDrova
             // shut. A prefix here means the window is built already empty: no desync, clean close.
             // Interact_Bhvr_LootKnockout (corpses) OVERRIDES CreateLootInventory, so both the base and
             // the override must be patched or corpse loot would keep its vanilla contents.
-            HookUtil.TryPrefix(harmony, typeof(Interact_Bhvr_LootInventory),
+            Drova_Modding_API.Hooking.TryPrefix(harmony, typeof(Interact_Bhvr_LootInventory),
                 nameof(Interact_Bhvr_LootInventory.CreateLootInventory),
                 typeof(LootSuppressor), nameof(CreateLootInventoryPrefix));
-            HookUtil.TryPrefix(harmony, typeof(Interact_Bhvr_LootKnockout),
+            Drova_Modding_API.Hooking.TryPrefix(harmony, typeof(Interact_Bhvr_LootKnockout),
                 nameof(Interact_Bhvr_LootKnockout.CreateLootInventory),
                 typeof(LootSuppressor), nameof(CreateLootInventoryPrefix));
 
             // Quickloot and world pickups hand the contents straight over, so this one has to be a
             // prefix: after LootAll runs the items are already in the player's bag.
-            HookUtil.TryPrefix(harmony, typeof(Interact_Bhvr_LootAll), nameof(Interact_Bhvr_LootAll.LootAll),
+            Drova_Modding_API.Hooking.TryPrefix(harmony, typeof(Interact_Bhvr_LootAll), nameof(Interact_Bhvr_LootAll.LootAll),
                 typeof(LootSuppressor), nameof(LootAllPrefix));
 
             // Resource spots (ore veins, fishing spots) put their yield straight into the worker's
             // inventory inside GetItems(Inventory, ITalentModule, float), so the only clean cut is to
             // skip the method. Harmony still runs ContainerTracker's check-sending postfix when a
             // prefix skips the original, so the location fires without the vanilla ore/fish.
-            HookUtil.TryPrefix(harmony, typeof(Interact_Bhvr_ResourceSpot),
+            Drova_Modding_API.Hooking.TryPrefix(harmony, typeof(Interact_Bhvr_ResourceSpot),
                 nameof(Interact_Bhvr_ResourceSpot.GetItems),
                 typeof(LootSuppressor), nameof(ResourceGetItemsPrefix));
         }
@@ -88,7 +82,7 @@ namespace ArchipelagoDrova
             // stone, quest-gate props). Keys in all but name: suppressing one could lock whatever it
             // opens. Mirrored by slot_is_protected in tools/gen_data.py.
             var category = item.Category;
-            if (category != null && category.SubCategory == Il2CppDrova.Items.ItemSubCategory.Misc_Key)
+            if (category != null && category.SubCategory == ItemSubCategory.Misc_Key)
             {
                 return true;
             }
@@ -220,7 +214,7 @@ namespace ArchipelagoDrova
         {
             try
             {
-                if (!_enabled || __instance == null)
+                if (!Enabled || __instance == null)
                 {
                     return;
                 }
@@ -257,7 +251,7 @@ namespace ArchipelagoDrova
         {
             try
             {
-                if (!_enabled || __instance == null)
+                if (!Enabled || __instance == null)
                 {
                     return true;
                 }
@@ -286,7 +280,7 @@ namespace ArchipelagoDrova
         {
             try
             {
-                if (!_enabled || __instance == null)
+                if (!Enabled || __instance == null)
                 {
                     return;
                 }

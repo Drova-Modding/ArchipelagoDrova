@@ -123,6 +123,18 @@ class RandomizeMuggings(Toggle):
     display_name = "Randomize Muggings"
 
 
+class RandomizeRunes(Toggle):
+    """
+    Shuffle the rune-drawing riddles: which of the nine drawn-rune patterns opens which rune door
+    is re-rolled per seed, and every hint is updated to match - letter images are swapped, and the
+    world-art hints (riddle plates, clue stones, painted boards) get a redrawn plate face showing
+    the new pattern. Every riddle stays solvable the intended way; you just cannot draw the answer
+    from memory of a previous run.
+    """
+
+    display_name = "Randomize Runes"
+
+
 class StartWithTools(DefaultOnToggle):
     """
     Start with the tools for the two gathering minigames: the Silver Smasher pickaxe (mining) and
@@ -258,6 +270,7 @@ class DrovaOptions(PerGameCommonOptions):
     randomize_traders: RandomizeTraders
     randomize_muggings: RandomizeMuggings
     randomize_teleporters: RandomizeTeleporters
+    randomize_runes: RandomizeRunes
     start_with_tools: StartWithTools
     enemy_kill_checks: EnemyKillChecks
     enemy_kill_interval: EnemyKillInterval
@@ -276,7 +289,7 @@ option_groups = [
     ),
     OptionGroup(
         "Gameplay",
-        [SuppressVanillaLoot, ConsumableStackSize, RandomizeTeleporters, StartWithTools],
+        [SuppressVanillaLoot, ConsumableStackSize, RandomizeTeleporters, RandomizeRunes, StartWithTools],
     ),
     OptionGroup(
         "Location Pool",

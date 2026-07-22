@@ -65,8 +65,9 @@ _JUNK_EXCLUDE = {"item_shaftofpurefury"}
 # Viper and Fanged Necklace sell for 100, Boar Skull 75, Bearskin 50 - one-per-kill proofs from
 # dangerous animals), which must not be handed out repeatedly as bulk overflow. The game's own sell
 # price (carried into items.json by gen_data.py) is the authored rarity signal, so junk is capped at
-# common-drop prices: a Bear Claw (20) is the most valuable thing still allowed in.
-_JUNK_MAX_SELL = 20
+# common-drop prices. 15 keeps Bear Claw (20) and Luminous Skin (20) out - both are drops from
+# dangerous beasts, not pocket lint (playtest call: bear claws should stay rare).
+_JUNK_MAX_SELL = 15
 
 # The XP/LP tiers exist only as capped/bulk bonus rewards; keep them out of the once-each top-ups
 # so a small pool cannot hand out "Massive Experience Boost" as ordinary filler. "Learning Point"
