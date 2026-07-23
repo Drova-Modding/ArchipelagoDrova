@@ -1,0 +1,5076 @@
+{
+ "graphs": {
+  "DT_DialogueDummy_Kai_Gestures": {
+   "items": [
+    "item_armorring_0"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_DialogueDummy_Stephan1_TradingTest": {
+   "items": [
+    "armor_chest_leather_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Dialogue_PlayerHasCrime": {
+   "items": [
+    "item_silverore",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_EntityInfo_BeehiveBeehiveDialogueLeft": {
+   "items": [
+    "item_honey"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_EntityInfo_BeehiveBeehiveDialogueMiddle": {
+   "items": [
+    "item_honey"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_EntityInfo_BeehiveBeehiveDialogueRight": {
+   "items": [
+    "item_honey"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_EntityInfo_ManipulateLeynasBox": {
+   "items": [
+    "item_earthroot",
+    "item_rustmoss_BadFromGera",
+    "misc_lockpick_simple"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_EntityInfo_StealFromFriedelsTable": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency",
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_EntityInfo_Table_Brutus": {
+   "items": [
+    "helmet_brutus_name",
+    "item_letterTableBrutus_0",
+    "item_letterTableBrutus_1",
+    "item_letterTableBrutus_2",
+    "item_letterTableBrutus_3"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_EntityInfo_Well": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_FleshBoss_Cutscene_TeleportOut": {
+   "items": [
+    "flow_travelForm"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Gate_BrutusMine_Kolina": {
+   "items": [
+    "item_mushroom"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Alraune": {
+   "items": [
+    "item_alraune"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Alraune_Henik": {
+   "items": [
+    "item_alraune"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_BaitPoo_01": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_BaitPoo_02": {
+   "items": [
+    "item_redHerb"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_BaitPoo_03": {
+   "items": [
+    "item_ironStone"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Canary": {
+   "items": [
+    "cons_flow_conflagration",
+    "item_berry"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_CookingFire": {
+   "items": [
+    "item_meat_stringy",
+    "item_mushroom"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Corpse_CityDungeon_0": {
+   "items": [
+    "item_letterCityDungeon_0"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Corpse_CityDungeon_1": {
+   "items": [
+    "item_letterCityDungeon_1"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Corpse_CityDungeon_2": {
+   "items": [
+    "item_letterCityDungeon_2"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Corpse_CityDungeon_3": {
+   "items": [
+    "item_letterCityDungeon_3"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Corpse_Faol": {
+   "items": [
+    "weapon_bow_longBow"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Critter_Cat_Friendly_01": {
+   "items": [
+    "item_silberringskill_0"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Critter_Dog_Badass_02": {
+   "items": [
+    "item_meat_raw",
+    "item_meat_stringy"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Critter_Dog_Shy_01": {
+   "items": [
+    "item_meat_stringy"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_NPC_Judge_Template": {
+   "items": [
+    "item_signOfAtonement",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_NPC_RuinenlagerHauer01": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_NPC_RuinenlagerHauer02": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Obsidian_CentralStation": {
+   "items": [
+    "item_energycrystal_aufwald_empty",
+    "item_energycrystal_brutus_empty",
+    "item_energycrystal_cityDungeon_empty"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Obsidian_CentralStation_FleshDungeon": {
+   "items": [
+    "key_extractor"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Poo_Liesl": {
+   "items": [
+    "ring_tuz_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_RedTowerPedestral_0": {
+   "items": [
+    "misc_riddle_eagle"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_RedTowerPedestral_1": {
+   "items": [
+    "misc_riddle_fox"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_RedTowerPedestral_2": {
+   "items": [
+    "misc_riddle_deer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Main_Root_Magiecamp": {
+   "items": [
+    "item_talismanJourneyToTheRoots"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Perceptable_MysteriousLantern": {
+   "items": [
+    "item_bloodbornering",
+    "item_strangeFossil"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Perceptable_MyteriousPodest_Fossil": {
+   "items": [
+    "item_strangeFossil"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Perceptable_RavenVessel": {
+   "items": [
+    "item_bloodbornering",
+    "item_strangeFossil"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Perceptable_Schlund_Skeleton_Fossil": {
+   "items": [
+    "item_strangeFossil"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Perceptible_Vorago_Lightning": {
+   "items": [
+    "item_VoragoFragment_0",
+    "item_VoragoFragment_1"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Ada": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Adalgis": {
+   "items": [
+    "item_heart",
+    "item_mudLotus",
+    "item_windtalisman"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Adwin": {
+   "items": [
+    "item_logwood",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Aidan": {
+   "items": [
+    "item_permaherb_strength",
+    "item_permapotion_strength",
+    "item_potion_respec",
+    "item_ruinherb",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Almar": {
+   "items": [
+    "tool_pickaxe_silberhauer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Amella": {
+   "items": [
+    "misc_caveSystem",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Andarta": {
+   "items": [
+    "ring_tuz_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Andrick": {
+   "items": [
+    "helmet_earprotection_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Angus": {
+   "items": [
+    "misc_currency",
+    "tool_torch"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Bady": {
+   "items": [
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Banner": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Bardok": {
+   "items": [
+    "armor_chest_druid_atlanter",
+    "armor_chest_heavy_atlanter",
+    "armor_chest_light_atlanter",
+    "item_atlanteanarmorparts",
+    "misc_currency",
+    "weapon_axe_bady_dull"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Berni": {
+   "items": [
+    "item_atlanterAcademyText"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Bernold": {
+   "items": [
+    "item_beer",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Bonny": {
+   "items": [
+    "item_beer",
+    "item_farmersFood"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Boris": {
+   "items": [
+    "item_mikeschLetter",
+    "item_sealstone_past",
+    "item_stolenPackage",
+    "misc_currency",
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Caspara": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Chunnaic": {
+   "items": [
+    "item_beartrap",
+    "item_chunnaic_diamond",
+    "item_karottegladius_broken",
+    "misc_currency",
+    "weapon_sword_karottegladius"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Conor": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Cord": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Dunja": {
+   "items": [
+    "item_fish_bass",
+    "item_fish_trout"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Ede": {
+   "items": [
+    "item_mineRelic",
+    "item_sealstone_past",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Enya": {
+   "items": [
+    "item_tarnishedSilverCup",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Ester": {
+   "items": [
+    "item_marinatedmeatleg",
+    "item_stew_tiaa_manipulated",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Femke": {
+   "items": [
+    "armor_chest_leather_name",
+    "item_sheepfur",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Friedel": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Gerdwin": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Gero": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Gilwar": {
+   "items": [
+    "item_apple",
+    "item_bearfur",
+    "item_flowPlant_0",
+    "item_sheepfur",
+    "misc_currency",
+    "weapon_dagger_breadKnife"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Gra": {
+   "items": [
+    "weapon_axe_snaga"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Grit": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Helma": {
+   "items": [
+    "item_fogstew",
+    "item_silberringmind_1"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Henik": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Idefix": {
+   "items": [
+    "item_shinyStone",
+    "weapon_sword_bronzeShortSword_intro"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Jendra": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Jendrik": {
+   "items": [
+    "item_logwood"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Junali": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Karotte": {
+   "items": [
+    "weapon_sword_coarseBroadsword",
+    "weapon_sword_karottegladius"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Kerr": {
+   "items": [
+    "misc_currency",
+    "misc_riddle_butterfly"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Kilian": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Kora": {
+   "items": [
+    "item_rustymosspipe",
+    "item_salve_healing",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Leru": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Leyna": {
+   "items": [
+    "item_rustmoss_BadFromGera",
+    "misc_currency",
+    "tool_torch"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Liandra": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Lobo": {
+   "items": [
+    "item_redGlyphStone",
+    "misc_emptyTraderBag",
+    "misc_traderBag"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Locke": {
+   "items": [
+    "item_armorring_0",
+    "item_chunnaic_diamond",
+    "item_tarnishedSilverCup"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Lore": {
+   "items": [
+    "item_rustymosspipe",
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Margitte": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Marten": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Meluna": {
+   "items": [
+    "item_mastersmemory",
+    "item_rustymosspipe",
+    "misc_currency",
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Merik": {
+   "items": [
+    "tool_pickaxe_silberhauer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Mikesch": {
+   "items": [
+    "item_fish_bass"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Mog": {
+   "items": [
+    "item_rustymosspipe",
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Molvina": {
+   "items": [
+    "item_energycrystal_aufwald_empty",
+    "item_energycrystal_brutus_empty",
+    "item_trinket_doriansHeirloom"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Morvin": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Olaf": {
+   "items": [
+    "item_ripper_head_huntTheRipper",
+    "key_sleepingTavernKey",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Olga": {
+   "items": [
+    "item_paperchasestone_raw"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Palina": {
+   "items": [
+    "item_mikeschLetter"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Piglet_Cay": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Piglet_Chris": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Piglet_Han": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Piglet_Julian": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Piglet_Kai": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Roarke": {
+   "items": [
+    "item_signOfAtonement"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Rura": {
+   "items": [
+    "item_paperchasestone_band",
+    "item_paperchasestone_raw"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Sagar": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Senga": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Sheep_Liesl": {
+   "items": [
+    "item_apple"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Shona": {
+   "items": [
+    "item_berry",
+    "item_meat_stringy"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Sine": {
+   "items": [
+    "item_salve_healing"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Sorcha": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Swenn": {
+   "items": [
+    "item_logwood"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Tiaa": {
+   "items": [
+    "item_marinatedmeatleg",
+    "item_meat_raw"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Willi": {
+   "items": [
+    "item_kiepe_rubble",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_1_NPC_Wind": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_lockpick_simple"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Busy_1_NPC_Mottek": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Generic_1_NPC_Henik": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Generic_1_NPC_Mottek": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Andarta": {
+   "items": [
+    "ring_tuz_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Bady": {
+   "items": [
+    "item_mastersmemory"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Bardok": {
+   "items": [
+    "weapon_axe_bady_sharp"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Berni": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Blanda": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Bruna": {
+   "items": [
+    "item_roastedMeat",
+    "item_roastedcallamushroom"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Cengiz": {
+   "items": [
+    "armor_chest_tunic_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Dark": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Elgar": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Ella": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Evi": {
+   "items": [
+    "item_potion_health_0",
+    "item_salve_healing"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Gawan": {
+   "items": [
+    "armor_chest_leather_name",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Henik": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Jendra": {
+   "items": [
+    "item_potion_health_1"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Josi": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Marten": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Melf": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Merik": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Owain": {
+   "items": [
+    "item_silverringstrength_0",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Reija": {
+   "items": [
+    "item_letter_Reija"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Roisin": {
+   "items": [
+    "helmet_earprotection_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Sine": {
+   "items": [
+    "item_salve_healing"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Greet_1_NPC_Wind": {
+   "items": [
+    "item_mineRelic"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Adalgis": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Afrin": {
+   "items": [
+    "item_stolenPackage"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Asmus": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Babsi": {
+   "items": [
+    "item_stalker_egg"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Bardok": {
+   "items": [
+    "weapon_axe_doubleAxe",
+    "weapon_dagger_coarseDagger",
+    "weapon_spear_bronzeSpear",
+    "weapon_sword_crudeIronBlade"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Bertine": {
+   "items": [
+    "item_tendonofglory"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_BorisBandit_A": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Bruna": {
+   "items": [
+    "item_salve_healing"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Cengiz": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Chunnaic": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Cuna": {
+   "items": [
+    "item_runestone_empty"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Diemo": {
+   "items": [
+    "cons_Familiar_Firefly",
+    "item_talismanJourneyToTheRoots"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Emko": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Emre": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Enya": {
+   "items": [
+    "item_apple"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Gawan": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Gera": {
+   "items": [
+    "item_rustmoss_BadFromGera"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Hasso": {
+   "items": [
+    "item_roastedMeat"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Henik": {
+   "items": [
+    "helmet_earprotection_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Ida": {
+   "items": [
+    "item_redHerb"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Jero": {
+   "items": [
+    "item_energycrystal_aufwald_charged",
+    "item_energycrystal_brutus_charged",
+    "item_energycrystal_cityDungeon_charged"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Jero 1": {
+   "items": [
+    "item_energycrystal_aufwald_charged",
+    "item_energycrystal_brutus_charged",
+    "item_energycrystal_cityDungeon_charged"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Jola": {
+   "items": [
+    "item_honeyMead"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Laudine": {
+   "items": [
+    "Raven Mask"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Lukan": {
+   "items": [
+    "Raven Mask"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Mali": {
+   "items": [
+    "key_chest_mineBanditMainKey"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Manes": {
+   "items": [
+    "item_energycrystal_aufwald_empty",
+    "item_energycrystal_brutus_empty",
+    "item_energycrystal_cityDungeon_empty",
+    "item_trinket_doriansHeirloom"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_MiningChef": {
+   "items": [
+    "weapon_axe_bronzeTusk"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Mog": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Molvina": {
+   "items": [
+    "item_energycrystal_aufwald_charged",
+    "item_energycrystal_brutus_charged",
+    "item_energycrystal_cityDungeon_charged"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Morvin": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Mursel": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Myrte": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Olaf": {
+   "items": [
+    "armor_chest_leather_name",
+    "item_letterfromolafaboutBrutus",
+    "key_sleepingTavernKey"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Ruslan": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intent_1_NPC_Teigen": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Adela": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Asmus": {
+   "items": [
+    "misc_worldmap"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Elnea": {
+   "items": [
+    "item_runestone_empty"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Eugen": {
+   "items": [
+    "item_beer",
+    "item_honeyMead"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Evi": {
+   "items": [
+    "item_apple"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Femke": {
+   "items": [
+    "armor_chest_leather_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Finlay": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Frithjof": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Harald": {
+   "items": [
+    "armor_chest_leather_name",
+    "armor_chest_lendha_heavy_name",
+    "armor_chest_lendha_name",
+    "armor_chest_ruinenlager_heavy_name",
+    "armor_chest_ruinenlager_name",
+    "item_logwood",
+    "key_harald"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Henik": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Kolina": {
+   "items": [
+    "tool_torch"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Levin": {
+   "items": [
+    "item_entryMine"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Leyna": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Liandra": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Lothar": {
+   "items": [
+    "armor_chest_miner_name",
+    "item_entryMine",
+    "weapon_axe_bronzeTusk"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Marten": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Mikesch": {
+   "items": [
+    "item_fish_bass",
+    "item_fish_trout"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Molvina": {
+   "items": [
+    "item_shinyStone"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Palina": {
+   "items": [
+    "armor_chest_leather_name",
+    "armor_chest_miner_name",
+    "armor_chest_tunic_name",
+    "item_mikeschLetter"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Reija": {
+   "items": [
+    "misc_currency",
+    "tool_torch"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_PreApo_Intro_1_NPC_Tristan": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_AcceptDiamond_NPC_Locke": {
+   "items": [
+    "item_chunnaic_diamond",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_AcceptRelic_NPC_Locke": {
+   "items": [
+    "item_tarnishedSilverCup"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_AcceptTrinket_NPC_Locke": {
+   "items": [
+    "item_armorring_0",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_AlcoholForSecretReveal_NPC_Melf": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_AnOldRecipe_NPC_Piglet_Cay": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_AnOldRecipe_NPC_Roarke": {
+   "items": [
+    "item_fogstew",
+    "item_headdress_magicamp"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_AskHumbertForCallashroom_NPC_Humbert": {
+   "items": [
+    "item_callashroom_extract"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_AuwaldDungeonIntro_NPC_Kilian": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BadyReactsToFightOutcome_NPC_Bady": {
+   "items": [
+    "weapon_axe_oldAxe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BanditMine_EvictingAdalgis_NPC_Mottek": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BanditsOnTheBridge_NPC_Angus": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan": {
+   "items": [
+    "flow_wound",
+    "item_healthPlant_0",
+    "recipe_flow_wound",
+    "weapon_axe_blaansoldsword",
+    "weapon_axe_woodSplitter",
+    "weapon_shield_woodenBoard",
+    "weapon_sword_baton",
+    "weapon_sword_carimasoldsword"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BeautySleep_AndrickGivesReward_NPC_Andrick": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BeautySleep_GiveAndrickEarplugs_NPC_Andrick": {
+   "items": [
+    "helmet_earprotection_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BetThatInteractions_NPC_Bady": {
+   "items": [
+    "item_honeyMead",
+    "item_letterMehlunaToBady",
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BirkasNewLifeEnding_NPC_Birka": {
+   "items": [
+    "item_honeyMead",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BlandGoToBed_NPC_Blanda": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ButterfliesAllAround_NPC_Kerr": {
+   "items": [
+    "misc_riddle_butterfly"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_BuyArmor_NPC_Femke": {
+   "items": [
+    "armor_chest_leather_name",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_CaughtDivineBeast_NPC_Mombert": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ChooseResolutionBlackhead_NPC_Owain": {
+   "items": [
+    "misc_currency",
+    "weapon_axe_woodSplitter"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ChunnaicFavourCraftsmenSmith_NPC_Chunnaic": {
+   "items": [
+    "item_bear_claw"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_CleanseTalisman_NPC_Myrte": {
+   "items": [
+    "item_paperchasestone_band",
+    "item_paperchasestone_cleansed"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_CompletedQuestInIntro_NPC_Elgar": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ConfrontGeroAfterHeFled_NPC_Gero": {
+   "items": [
+    "helmet_earprotection_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ConfrontWithEarPlugs_NPC_Roisin": {
+   "items": [
+    "helmet_earprotection_name",
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ConfrontationAfterPickaxeBroke_NPC_Merik": {
+   "items": [
+    "item_silverore",
+    "tool_pickaxe_silberhauer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_CookingWithRoarke_NPC_Roarke": {
+   "items": [
+    "item_luminousTruffle",
+    "recipe_rootstew"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_CraftAtlanterGear_NPC_Chunnaic": {
+   "items": [
+    "armor_chest_druid_atlanter",
+    "armor_chest_heavy_atlanter",
+    "armor_chest_light_atlanter",
+    "item_atlanteanarmorparts"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Da hilft nur eines_NPC_Larea": {
+   "items": [
+    "item_earthroot",
+    "item_potion_health_0",
+    "item_salve_healing",
+    "misc_currency",
+    "weapon_sling_simpleSlingshot"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Day1_FirstTalkWithBoss_NPC_Hasso": {
+   "items": [
+    "weapon_axe_bronzeTusk"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_DebtQuest_NPC_Lindon": {
+   "items": [
+    "misc_currency",
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Debt_GetListFromBoris_NPC_Boris": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Debt_GetMoneyFromLore_NPC_Lore": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Debt_GetMoneyFromMeluna_NPC_Meluna": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Debt_GetMoneyFromMog_NPC_Mog": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_DeepInTheSwamp_NPC_Bonny_IntroQuest": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_DeepInTheSwamp_NPC_Henik": {
+   "items": [
+    "item_alraune",
+    "item_beer",
+    "misc_currency",
+    "weapon_axe_oldAxe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_DeepInTheSwamp_NPC_Henik_ExplainAlraune": {
+   "items": [
+    "item_alraune"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_DeepMine_AfterStoneFall_NPC_Jendra": {
+   "items": [
+    "cons_flow_energyProjectile",
+    "item_ironStone",
+    "item_salve_healing",
+    "tool_torch",
+    "weapon_sword_jendra"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Diemo_Funken_NPC_Diemo": {
+   "items": [
+    "cons_Familiar_Firefly"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Doppelganger_NPC_Fulk": {
+   "items": [
+    "misc_currency",
+    "ring_aldo_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Ede_Relict_NPC_Ede": {
+   "items": [
+    "item_brutus_seal_active",
+    "item_brutus_seal_inactive",
+    "item_sealstone_past",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_EndCutsceneArenamaster_NPC_Morvin": {
+   "items": [
+    "helmet_gladiator_name",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_EndingPart_1_NPC_Henik": {
+   "items": [
+    "Raven Mask"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_EscapeFromMine_NPC_Baltus": {
+   "items": [
+    "item_packageBrutusMineWeapons",
+    "weapon_axe_jawboneAxe",
+    "weapon_spear_woodenSpear",
+    "weapon_sword_nailClub"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_EscortMottekToMine_NPC_Mottek": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Eugen_Expedition_EnterLeuchtwald_NPC_Eugen": {
+   "items": [
+    "tool_torch"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Eugen_Expedition_ReachedAnkerpunkt_NPC_Eugen": {
+   "items": [
+    "item_potion_health_0"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_EveryBodyUnderstandsThat_NPC_Olga": {
+   "items": [
+    "item_callashroom_extract"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_EverybodyUnderstandsThat_NPC_Humbert": {
+   "items": [
+    "item_callashroom"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ExpeditionNemeton_EnterRuin_NPC_Mombert": {
+   "items": [
+    "cons_Familiar_Firefly",
+    "tool_torch"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ExpeditionNemeton_ReachedAnkerpunkt_NPC_Mombert": {
+   "items": [
+    "item_potion_health_0"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ExpeditionNemeton_ReachedSchleier_NPC_Mombert": {
+   "items": [
+    "cons_Familiar_Firefly"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ExpeditionRuinenlager_NPC_Eugen": {
+   "items": [
+    "item_spiritVessel_greatTusk"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ExpeditionStates_NPC_Eugen": {
+   "items": [
+    "cons_Familiar_Firefly"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FavourOfCraftsmenGardener_NPC_Gerion": {
+   "items": [
+    "misc_bagOfCurrency_big",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FavourOfCraftsmenGardener_NPC_Humbert": {
+   "items": [
+    "item_permaherb_life",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FeedSheep_NPC_Sheep": {
+   "items": [
+    "item_bogwheat"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FeedingTheSheep_NPC_Evi": {
+   "items": [
+    "item_apple"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FeedingTheSheep_NPC_Olaf": {
+   "items": [
+    "misc_currency",
+    "recipe_flow_spartanKick"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Field_NPC_Georg": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FightingAreaT2_NPC_Morvin": {
+   "items": [
+    "armor_chest_ruinenlager_gladiator",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FireFestival_NPC_Asmus": {
+   "items": [
+    "item_beer",
+    "item_mumbertDiarrhoea"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FireFestival_NPC_Humbert": {
+   "items": [
+    "item_mumbertDiarrhoea"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FireFestival_NPC_Karotte": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ForceMurselToLetAgnessaRest_NPC_Mursel": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FreedomForThePiglets_NPC_Piglet_Chris": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FreedomForThePiglets_NPC_Piglet_Han": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FreedomForThePiglets_NPC_Piglet_Julian": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FreedomForThePiglets_NPC_Piglet_Kai": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_FreedomForThePiglets_NPC_Roarke": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GaveArmor_NPC_Molvina": {
+   "items": [
+    "armor_chest_lendha_heavy_name",
+    "armor_chest_lendha_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GaveMoneyToWilli_NPC_Willi": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GavePlayerMask_NPC_Elgar": {
+   "items": [
+    "helmet_mask_frog_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GawanSheepHub_NPC_Gawan": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Gawan_Ripper_End_NPC_Gawan": {
+   "items": [
+    "item_yellowGlyphStone",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Georg_FoundHasso_NPC_Georg": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GerdwinTalkAboutZoltan_NPC_Gerdwin": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GetBetValue_NPC_Morvin": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GetInformationAboutEugen_NPC_Boris": {
+   "items": [
+    "item_beer",
+    "item_honeyMead",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GetWeaponFromChunnaic_NPC_Chunnaic": {
+   "items": [
+    "weapon_axe_doubleAxe",
+    "weapon_dagger_coarseDagger",
+    "weapon_spear_bronzeSpear",
+    "weapon_sword_crudeIronBlade"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GettingInvolved_ChoopWoodTogether_NPC_Jendrik": {
+   "items": [
+    "recipe_flow_dash",
+    "weapon_axe_woodSplitter"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GettingInvolved_NPC_Jendrik": {
+   "items": [
+    "item_logwood",
+    "weapon_axe_woodSplitter"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GiveAlrauneInstantly_NPC_Henik": {
+   "items": [
+    "item_alraune"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GiveBadyWeaponAndFood_NPC_Bady": {
+   "items": [
+    "item_marinatedmeatleg",
+    "item_stew_tiaa_manipulated",
+    "weapon_axe_bady_dull",
+    "weapon_axe_bady_sharp"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_GiveShonaMeat_NPC_Shona": {
+   "items": [
+    "item_meat_stringy"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Gra_GaveWeapon_NPC_Gra": {
+   "items": [
+    "misc_currency",
+    "weapon_axe_snaga"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_HauerDialogRostmoos_NPC_Grit": {
+   "items": [
+    "item_rustymosspipe"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_HumbertGivesPlayerExtract_NPC_Humbert": {
+   "items": [
+    "item_callashroom_extract"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_HuntTheRippers_NPC_Olaf": {
+   "items": [
+    "item_ripper_head_huntTheRipper",
+    "item_roastedMeat",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_IntroShadyDistrict_NPC_Boris": {
+   "items": [
+    "key_ShadyDistrict"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_IntroducePlayerToExpedition_NPC_Eugen": {
+   "items": [
+    "cons_Familiar_Firefly"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JobForBoris_NPC_Boris_FinishQuests": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JobForBoris_NPC_Cord_TalkingAboutLife": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JobForBoris_NPC_Grit": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JobForBoris_NPC_Kora_SellRostmoos": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JobForBoris_NPC_Liandra": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JobForBoris_NPC_Mog": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JobForBoris_NPC_Senga": {
+   "items": [
+    "item_rustymosspipe",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JoinGladiators_NPC_Morvin": {
+   "items": [
+    "item_honeyMead"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JoinRuinenlager_NPC_Kilian": {
+   "items": [
+    "armor_chest_ruinenlager_heavy_name",
+    "armor_chest_ruinenlager_name",
+    "item_shinyStone"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JourneyToTheRoots_NPC_Diemo": {
+   "items": [
+    "armor_chest_leather_magielager_name",
+    "item_talismanJourneyToTheRoots"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_JunaliQuestReaction_NPC_Karotte": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_KilianEndExpeditionTransitionToAcademy_NPC_Kilian": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LareaDeathScene_NPC_Larea": {
+   "items": [
+    "item_potion_health_0",
+    "item_salve_healing"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LastOfferGawanEnter_NPC_Gawan": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LendMoney_NPC_Friedel": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LeruAfterPlayerHasThreeFossils_NPC_Leru": {
+   "items": [
+    "letter_leru_hint03"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LeruSecondFossil_NPC_Leru": {
+   "items": [
+    "letter_leru_hint02"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LeruShowMeAfter_NPC_Leru": {
+   "items": [
+    "misc_worldmap_detailed"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Leru_TalkedAboutFirstFossil_NPC_Leru": {
+   "items": [
+    "letter_leru_hint01"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LetterToAsmus_NPC_Asmus": {
+   "items": [
+    "item_letterToAsmus_open",
+    "item_letterToAsmus_sealed",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LucrativeBusinessTransitionFromOutcast_NPC_Asmus": {
+   "items": [
+    "item_stolenPackage"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LucrativeBusiness_NPC_Boris_BorisEndDialog": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LucrativesBusiness_NPC_Asmus": {
+   "items": [
+    "misc_currency",
+    "note_evidence_boris"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LucrativesBusiness_NPC_Boris_Intro": {
+   "items": [
+    "item_rustymosspipe",
+    "item_stolenPackage"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_LucrativesBusiness_SellLetter_NPC_Boris": {
+   "items": [
+    "misc_currency",
+    "note_evidence_boris"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ManpowerForTheBridge_NPC_Cengiz": {
+   "items": [
+    "armor_chest_tunic_name",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Nemeton_EndSequence_NPC_Henik": {
+   "items": [
+    "helmet_brutus_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_OfferScamPickaxe_NPC_Merik": {
+   "items": [
+    "item_silverore",
+    "tool_pickaxe_silberhauer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_OnlyOneThingHelps_NPC_Bombus": {
+   "items": [
+    "item_earthroot",
+    "item_healthPlant_0",
+    "item_salve_healing"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_OnlyOneThingHelps_NPC_Cengiz": {
+   "items": [
+    "item_beer",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PayBet_NPC_Dark": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PayErdmiete_NPC_Agilo": {
+   "items": [
+    "item_agilostew",
+    "item_apple",
+    "item_berry",
+    "recipe_agilostew"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PayMoneFastTravel_NPC_Lobo": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PickUpBadysFood_NPC_Tiaa": {
+   "items": [
+    "item_earthroot",
+    "item_marinatedmeatleg",
+    "item_stew_tiaa_manipulated"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PickUpListFromBoris_NPC_Boris": {
+   "items": [
+    "misc_currency",
+    "note_debtorlist"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PlaceBetsForArenaFight_NPC_Morvin": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PlayerAcceptKarotteWeaponQuest_NPC_Karotte": {
+   "items": [
+    "item_karottegladius_broken",
+    "misc_currency",
+    "weapon_barehands"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PlayerDrink_NPC_Eugen": {
+   "items": [
+    "item_honeyMead"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_PostBrawlReactionWhenToldTruthToKessia_NPC_Finlay": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Quest_ShotsForRipperIntent_NPC_Eugen": {
+   "items": [
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_RatQuestIntroduction_NPC_Bernold": {
+   "items": [
+    "key_ratcellar",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ReachedMombertAfterAuwaldDungeon_NPC_Mombert": {
+   "items": [
+    "item_energycrystal_aufwald_empty"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ReactToRustmossTheft_NPC_Ida": {
+   "items": [
+    "item_redHerb"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ReactionAfterPlayerSleptInBettenhaus_NPC_Mursel": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ReactionToFood_NPC_Shona": {
+   "items": [
+    "item_aditroast",
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ResolutionShadyDistrictQuest_NPC_Boris": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ResolveINeedToWorkAgain_NPC_Agnessa": {
+   "items": [
+    "item_salve_healing",
+    "item_shadowmushroom",
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ReturnOrKeepTheRing_NPC_Andarta": {
+   "items": [
+    "ring_tuz_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ReturnOrKeepTheRing_NPC_Tuz": {
+   "items": [
+    "misc_currency",
+    "ring_tuz_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_RipperReward_NPC_Larea": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_SharpenBadysWeapon_NPC_Bardok": {
+   "items": [
+    "weapon_axe_bady_dull"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ShotsForRipperIntro_NPC_Eugen": {
+   "items": [
+    "item_honeyMead"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_StartExpedition_NPC_Molvina": {
+   "items": [
+    "cons_Familiar_Firefly"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_StartQuestAnOldRecipe_NPC_Roarke": {
+   "items": [
+    "item_pigglet_food"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_StartWorkerWorker_NPC_Jola": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_StoleRustmossDialogue_NPC_Elgar": {
+   "items": [
+    "item_redHerb"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_StolenWeapons_NPC_Angus_JudgeKendrick": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TakeSilverFromPlayer_NPC_Katsa": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TalkAboutAldrik_NPC_Olaf": {
+   "items": [
+    "item_mineRelic",
+    "key_tavernKey"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TalkAboutFaction_NPC_Pwyll": {
+   "items": [
+    "armor_chest_lendha_heavy_name",
+    "armor_chest_lendha_name",
+    "armor_chest_ruinenlager_heavy_name",
+    "armor_chest_ruinenlager_name",
+    "item_mikeschLetter"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TalkAboutOutcomeOfBetThatFight_NPC_Morvin": {
+   "items": [
+    "misc_currency",
+    "weapon_dagger_wornBronzeDagger"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TalkInChapter4_NPC_Pwyll": {
+   "items": [
+    "helmet_mask_arrogant_name",
+    "helmet_mask_empathetic_name",
+    "helmet_mask_rational_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TalkToKessiaAboutSecretPlace_NPC_Kessia": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TaronsLastPigletEnding_NPC_Taron": {
+   "items": [
+    "cons_Familiar_Firefly"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TellRuslanToLeaveAlmarAlone_NPC_Ruslan": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TheBlackheadResolution_NPC_Cengiz": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TheDoppelgangers_NPC_Baldo": {
+   "items": [
+    "misc_currency",
+    "ring_aldo_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TheDoppelgangers_NPC_Jola": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TheOutcastRework_NPC_Afrin": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TheOutcast_NPC_Asmus": {
+   "items": [
+    "item_stolenPackage",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_ThePoorSheep_NPC_Olaf": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TheWayToTheLeuchtwald_NPC_Olaf": {
+   "items": [
+    "key_tristanBillKey",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TrainRunespells_NPC_Farina": {
+   "items": [
+    "flow_energyProjectile",
+    "item_runestone"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_TryToTakeMoneyFromPlayer_NPC_Ruslan": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_VoteFromBoris_NPC_Boris": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_WayToLibrary_KilianStart_NPC_Kilian": {
+   "items": [
+    "armor_chest_ruinenlager_fighter_druid_name",
+    "armor_chest_ruinenlager_fighter_fight_name",
+    "armor_chest_ruinenlager_fighter_heavy_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_WayToTheMine_NPC_Esdert": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_WoodcampKillRipper_NPC_Cengiz": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_Woodcamp_Tutorial_2-handed_SwordAndShield_NPC_Blaan": {
+   "items": [
+    "weapon_shield_woodenBoard",
+    "weapon_sword_baton"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_WorkOnFarmEnd_NPC_Georg": {
+   "items": [
+    "misc_currency",
+    "weapon_spear_georg"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Quest_YourOwnRunestone_NPC_Lio": {
+   "items": [
+    "armor_chest_nemeton_guardian_druid_name",
+    "armor_chest_nemeton_guardian_heavy_name",
+    "armor_chest_nemeton_guardian_light_name",
+    "flow_energyProjectile",
+    "item_runestone"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_RedTower_Stage05_EndDialogue": {
+   "items": [
+    "helmet_brutus_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_RedTower_Stage05_EndDialogue_Part2": {
+   "items": [
+    "helmet_brutus_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Second_Root_Magiecamp": {
+   "items": [
+    "item_talismanJourneyToTheRoots"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sheep_01": {
+   "items": [
+    "helmet_mask_sheep_name",
+    "item_bogwheat"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sheep_02": {
+   "items": [
+    "helmet_mask_sheep_name",
+    "item_bogwheat"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sheep_03": {
+   "items": [
+    "helmet_mask_sheep_name",
+    "item_bogwheat"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sheep_04": {
+   "items": [
+    "helmet_mask_sheep_name",
+    "item_bogwheat"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sheep_Generic_01": {
+   "items": [
+    "item_bogwheat"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_Default_NPC_Jurek": {
+   "items": [
+    "helmet_straw_name",
+    "item_beer"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_PreApo_DrugBusiness_NPC_Delani": {
+   "items": [
+    "item_redHerb",
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_PreApo_FoodForFarmer_NPC_Raya": {
+   "items": [
+    "item_farmersFood"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_PreApo_FoodForRaya_NPC_Raya": {
+   "items": [
+    "item_farmersFood"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_PreApo_GiveFood_NPC_Dylara": {
+   "items": [
+    "item_farmersFood"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_PreApo_NPC_DialogueDummy_Stephan1": {
+   "items": [
+    "misc_currency"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_PreApo_Quest_FoodForFamers_NPC_Delani": {
+   "items": [
+    "item_letterToAsmus_sealed",
+    "key_chest_delani",
+    "recipe_farmersmeal"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_PreApo_Quest_IronForFarmers_NPC_Jerzy": {
+   "items": [
+    "item_bogIron",
+    "item_farmersFood"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Sub_PreApo_Quest_LostShoes_NPC_Dylara": {
+   "items": [
+    "armor_feet_shoe_lost"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_TeleportToBanditMine": {
+   "items": [
+    "armor_chest_miner_name"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Test_NPCs_Equipment_Talents": {
+   "items": [
+    "weapon_sword_branch"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Test_NPCs_OpenLetter": {
+   "items": [
+    "item_letterMehlunaToBady"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Test_NPCs_TakeItems": {
+   "items": [
+    "item_silverore"
+   ],
+   "kind": "DialogueTree"
+  },
+  "DT_Third_Root_Magiecamp": {
+   "items": [
+    "item_talismanJourneyToTheRoots"
+   ],
+   "kind": "DialogueTree"
+  },
+  "QuestGraph_LetterToAsmus": {
+   "items": [
+    "item_letterToAsmus_sealed"
+   ],
+   "kind": "QuestGraph"
+  }
+ },
+ "items": {
+  "Raven Mask": {
+   "buy": 100,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Laudine",
+    "DT_PreApo_Intent_1_NPC_Lukan",
+    "DT_Quest_EndingPart_1_NPC_Henik"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "armor_chest_druid_atlanter": {
+   "buy": 1000,
+   "graphs": [
+    "DT_PreApo_1_NPC_Bardok",
+    "DT_Quest_CraftAtlanterGear_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 200
+  },
+  "armor_chest_heavy_atlanter": {
+   "buy": 1000,
+   "graphs": [
+    "DT_PreApo_1_NPC_Bardok",
+    "DT_Quest_CraftAtlanterGear_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 200
+  },
+  "armor_chest_leather_magielager_name": {
+   "buy": 200,
+   "graphs": [
+    "DT_Quest_JourneyToTheRoots_NPC_Diemo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "armor_chest_leather_name": {
+   "buy": 750,
+   "graphs": [
+    "DT_DialogueDummy_Stephan1_TradingTest",
+    "DT_PreApo_1_NPC_Femke",
+    "DT_PreApo_Greet_1_NPC_Gawan",
+    "DT_PreApo_Intent_1_NPC_Olaf",
+    "DT_PreApo_Intro_1_NPC_Femke",
+    "DT_PreApo_Intro_1_NPC_Harald",
+    "DT_PreApo_Intro_1_NPC_Palina",
+    "DT_Quest_BuyArmor_NPC_Femke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 150
+  },
+  "armor_chest_lendha_heavy_name": {
+   "buy": 1200,
+   "graphs": [
+    "DT_PreApo_Intro_1_NPC_Harald",
+    "DT_Quest_GaveArmor_NPC_Molvina",
+    "DT_Quest_TalkAboutFaction_NPC_Pwyll"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 240
+  },
+  "armor_chest_lendha_name": {
+   "buy": 1200,
+   "graphs": [
+    "DT_PreApo_Intro_1_NPC_Harald",
+    "DT_Quest_GaveArmor_NPC_Molvina",
+    "DT_Quest_TalkAboutFaction_NPC_Pwyll"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 240
+  },
+  "armor_chest_light_atlanter": {
+   "buy": 1000,
+   "graphs": [
+    "DT_PreApo_1_NPC_Bardok",
+    "DT_Quest_CraftAtlanterGear_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 200
+  },
+  "armor_chest_miner_name": {
+   "buy": 200,
+   "graphs": [
+    "DT_PreApo_Intro_1_NPC_Lothar",
+    "DT_PreApo_Intro_1_NPC_Palina",
+    "DT_TeleportToBanditMine"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "armor_chest_nemeton_guardian_druid_name": {
+   "buy": 1800,
+   "graphs": [
+    "DT_Quest_YourOwnRunestone_NPC_Lio"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 350
+  },
+  "armor_chest_nemeton_guardian_heavy_name": {
+   "buy": 1800,
+   "graphs": [
+    "DT_Quest_YourOwnRunestone_NPC_Lio"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 350
+  },
+  "armor_chest_nemeton_guardian_light_name": {
+   "buy": 1800,
+   "graphs": [
+    "DT_Quest_YourOwnRunestone_NPC_Lio"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 350
+  },
+  "armor_chest_ruinenlager_fighter_druid_name": {
+   "buy": 1800,
+   "graphs": [
+    "DT_Quest_WayToLibrary_KilianStart_NPC_Kilian"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 350
+  },
+  "armor_chest_ruinenlager_fighter_fight_name": {
+   "buy": 1800,
+   "graphs": [
+    "DT_Quest_WayToLibrary_KilianStart_NPC_Kilian"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 350
+  },
+  "armor_chest_ruinenlager_fighter_heavy_name": {
+   "buy": 1800,
+   "graphs": [
+    "DT_Quest_WayToLibrary_KilianStart_NPC_Kilian"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 350
+  },
+  "armor_chest_ruinenlager_gladiator": {
+   "buy": 500,
+   "graphs": [
+    "DT_Quest_FightingAreaT2_NPC_Morvin"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 100
+  },
+  "armor_chest_ruinenlager_heavy_name": {
+   "buy": 1200,
+   "graphs": [
+    "DT_PreApo_Intro_1_NPC_Harald",
+    "DT_Quest_JoinRuinenlager_NPC_Kilian",
+    "DT_Quest_TalkAboutFaction_NPC_Pwyll"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 240
+  },
+  "armor_chest_ruinenlager_name": {
+   "buy": 1200,
+   "graphs": [
+    "DT_PreApo_Intro_1_NPC_Harald",
+    "DT_Quest_JoinRuinenlager_NPC_Kilian",
+    "DT_Quest_TalkAboutFaction_NPC_Pwyll"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 240
+  },
+  "armor_chest_tunic_name": {
+   "buy": 100,
+   "graphs": [
+    "DT_PreApo_Greet_1_NPC_Cengiz",
+    "DT_PreApo_Intro_1_NPC_Palina",
+    "DT_Quest_ManpowerForTheBridge_NPC_Cengiz"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "armor_feet_shoe_lost": {
+   "buy": 0,
+   "graphs": [
+    "DT_Sub_PreApo_Quest_LostShoes_NPC_Dylara"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "cons_Familiar_Firefly": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Diemo",
+    "DT_Quest_Diemo_Funken_NPC_Diemo",
+    "DT_Quest_ExpeditionNemeton_EnterRuin_NPC_Mombert",
+    "DT_Quest_ExpeditionNemeton_ReachedSchleier_NPC_Mombert",
+    "DT_Quest_ExpeditionStates_NPC_Eugen",
+    "DT_Quest_IntroducePlayerToExpedition_NPC_Eugen",
+    "DT_Quest_StartExpedition_NPC_Molvina",
+    "DT_Quest_TaronsLastPigletEnding_NPC_Taron"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "cons_flow_conflagration": {
+   "buy": 350,
+   "graphs": [
+    "DT_Main_Canary"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 70
+  },
+  "cons_flow_energyProjectile": {
+   "buy": 150,
+   "graphs": [
+    "DT_Quest_DeepMine_AfterStoneFall_NPC_Jendra"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 30
+  },
+  "flow_energyProjectile": {
+   "buy": 25,
+   "graphs": [
+    "DT_Quest_TrainRunespells_NPC_Farina",
+    "DT_Quest_YourOwnRunestone_NPC_Lio"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 25
+  },
+  "flow_travelForm": {
+   "buy": 1,
+   "graphs": [
+    "DT_FleshBoss_Cutscene_TeleportOut"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "flow_wound": {
+   "buy": 25,
+   "graphs": [
+    "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 25
+  },
+  "helmet_brutus_name": {
+   "buy": 150,
+   "graphs": [
+    "DT_EntityInfo_Table_Brutus",
+    "DT_Quest_Nemeton_EndSequence_NPC_Henik",
+    "DT_RedTower_Stage05_EndDialogue",
+    "DT_RedTower_Stage05_EndDialogue_Part2"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 30
+  },
+  "helmet_earprotection_name": {
+   "buy": 40,
+   "graphs": [
+    "DT_PreApo_1_NPC_Andrick",
+    "DT_PreApo_Greet_1_NPC_Roisin",
+    "DT_PreApo_Intent_1_NPC_Henik",
+    "DT_Quest_BeautySleep_GiveAndrickEarplugs_NPC_Andrick",
+    "DT_Quest_ConfrontGeroAfterHeFled_NPC_Gero",
+    "DT_Quest_ConfrontWithEarPlugs_NPC_Roisin"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 5
+  },
+  "helmet_gladiator_name": {
+   "buy": 300,
+   "graphs": [
+    "DT_Quest_EndCutsceneArenamaster_NPC_Morvin"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 60
+  },
+  "helmet_mask_arrogant_name": {
+   "buy": 100,
+   "graphs": [
+    "DT_Quest_TalkInChapter4_NPC_Pwyll"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "helmet_mask_empathetic_name": {
+   "buy": 100,
+   "graphs": [
+    "DT_Quest_TalkInChapter4_NPC_Pwyll"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "helmet_mask_frog_name": {
+   "buy": 100,
+   "graphs": [
+    "DT_Quest_GavePlayerMask_NPC_Elgar"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "helmet_mask_rational_name": {
+   "buy": 100,
+   "graphs": [
+    "DT_Quest_TalkInChapter4_NPC_Pwyll"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "helmet_mask_sheep_name": {
+   "buy": 50,
+   "graphs": [
+    "DT_Sheep_01",
+    "DT_Sheep_02",
+    "DT_Sheep_03",
+    "DT_Sheep_04"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 10
+  },
+  "helmet_straw_name": {
+   "buy": 50,
+   "graphs": [
+    "DT_Sub_Default_NPC_Jurek"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 10
+  },
+  "item_VoragoFragment_0": {
+   "buy": 0,
+   "graphs": [
+    "DT_Perceptible_Vorago_Lightning"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_VoragoFragment_1": {
+   "buy": 0,
+   "graphs": [
+    "DT_Perceptible_Vorago_Lightning"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_aditroast": {
+   "buy": 80,
+   "graphs": [
+    "DT_Quest_ReactionToFood_NPC_Shona"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 16
+  },
+  "item_agilostew": {
+   "buy": 90,
+   "graphs": [
+    "DT_Quest_PayErdmiete_NPC_Agilo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "item_alraune": {
+   "buy": 500,
+   "graphs": [
+    "DT_Main_Alraune",
+    "DT_Main_Alraune_Henik",
+    "DT_Quest_DeepInTheSwamp_NPC_Henik",
+    "DT_Quest_DeepInTheSwamp_NPC_Henik_ExplainAlraune",
+    "DT_Quest_GiveAlrauneInstantly_NPC_Henik"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 100
+  },
+  "item_apple": {
+   "buy": 5,
+   "graphs": [
+    "DT_PreApo_1_NPC_Gilwar",
+    "DT_PreApo_1_NPC_Sheep_Liesl",
+    "DT_PreApo_Intent_1_NPC_Enya",
+    "DT_PreApo_Intro_1_NPC_Evi",
+    "DT_Quest_FeedingTheSheep_NPC_Evi",
+    "DT_Quest_PayErdmiete_NPC_Agilo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "item_armorring_0": {
+   "buy": 250,
+   "graphs": [
+    "DT_DialogueDummy_Kai_Gestures",
+    "DT_PreApo_1_NPC_Locke",
+    "DT_Quest_AcceptTrinket_NPC_Locke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "item_atlanteanarmorparts": {
+   "buy": 1000,
+   "graphs": [
+    "DT_PreApo_1_NPC_Bardok",
+    "DT_Quest_CraftAtlanterGear_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 250
+  },
+  "item_atlanterAcademyText": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Berni"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_bear_claw": {
+   "buy": 100,
+   "graphs": [
+    "DT_Quest_ChunnaicFavourCraftsmenSmith_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "item_bearfur": {
+   "buy": 200,
+   "graphs": [
+    "DT_PreApo_1_NPC_Gilwar"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "item_beartrap": {
+   "buy": 150,
+   "graphs": [
+    "DT_PreApo_1_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 30
+  },
+  "item_beer": {
+   "buy": 20,
+   "graphs": [
+    "DT_PreApo_1_NPC_Bernold",
+    "DT_PreApo_1_NPC_Bonny",
+    "DT_PreApo_1_NPC_Margitte",
+    "DT_PreApo_Generic_1_NPC_Henik",
+    "DT_PreApo_Greet_1_NPC_Henik",
+    "DT_PreApo_Greet_1_NPC_Josi",
+    "DT_PreApo_Greet_1_NPC_Melf",
+    "DT_PreApo_Intent_1_NPC_Gawan",
+    "DT_PreApo_Intro_1_NPC_Eugen",
+    "DT_PreApo_Intro_1_NPC_Henik",
+    "DT_Quest_AlcoholForSecretReveal_NPC_Melf",
+    "DT_Quest_DeepInTheSwamp_NPC_Bonny_IntroQuest",
+    "DT_Quest_DeepInTheSwamp_NPC_Henik",
+    "DT_Quest_FireFestival_NPC_Asmus",
+    "DT_Quest_FireFestival_NPC_Karotte",
+    "DT_Quest_GetInformationAboutEugen_NPC_Boris",
+    "DT_Quest_OnlyOneThingHelps_NPC_Cengiz",
+    "DT_Quest_Quest_ShotsForRipperIntent_NPC_Eugen",
+    "DT_Sub_Default_NPC_Jurek"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 4
+  },
+  "item_berry": {
+   "buy": 8,
+   "graphs": [
+    "DT_Main_Canary",
+    "DT_PreApo_1_NPC_Shona",
+    "DT_Quest_PayErdmiete_NPC_Agilo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_bloodbornering": {
+   "buy": 500,
+   "graphs": [
+    "DT_Perceptable_MysteriousLantern",
+    "DT_Perceptable_RavenVessel"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 125
+  },
+  "item_bogIron": {
+   "buy": 5,
+   "graphs": [
+    "DT_Sub_PreApo_Quest_IronForFarmers_NPC_Jerzy"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "item_bogwheat": {
+   "buy": 10,
+   "graphs": [
+    "DT_Quest_FeedSheep_NPC_Sheep",
+    "DT_Sheep_01",
+    "DT_Sheep_02",
+    "DT_Sheep_03",
+    "DT_Sheep_04",
+    "DT_Sheep_Generic_01"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_brutus_seal_active": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_Ede_Relict_NPC_Ede"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_brutus_seal_inactive": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_Ede_Relict_NPC_Ede"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_callashroom": {
+   "buy": 10,
+   "graphs": [
+    "DT_Quest_EverybodyUnderstandsThat_NPC_Humbert"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_callashroom_extract": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_AskHumbertForCallashroom_NPC_Humbert",
+    "DT_Quest_EveryBodyUnderstandsThat_NPC_Olga",
+    "DT_Quest_HumbertGivesPlayerExtract_NPC_Humbert"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_chunnaic_diamond": {
+   "buy": 300,
+   "graphs": [
+    "DT_PreApo_1_NPC_Chunnaic",
+    "DT_PreApo_1_NPC_Locke",
+    "DT_Quest_AcceptDiamond_NPC_Locke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 60
+  },
+  "item_earthroot": {
+   "buy": 12,
+   "graphs": [
+    "DT_EntityInfo_ManipulateLeynasBox",
+    "DT_Quest_Da hilft nur eines_NPC_Larea",
+    "DT_Quest_OnlyOneThingHelps_NPC_Bombus",
+    "DT_Quest_PickUpBadysFood_NPC_Tiaa"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 3
+  },
+  "item_energycrystal_aufwald_charged": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Jero",
+    "DT_PreApo_Intent_1_NPC_Jero 1",
+    "DT_PreApo_Intent_1_NPC_Molvina"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_energycrystal_aufwald_empty": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Obsidian_CentralStation",
+    "DT_PreApo_1_NPC_Molvina",
+    "DT_PreApo_Intent_1_NPC_Manes",
+    "DT_Quest_ReachedMombertAfterAuwaldDungeon_NPC_Mombert"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_energycrystal_brutus_charged": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Jero",
+    "DT_PreApo_Intent_1_NPC_Jero 1",
+    "DT_PreApo_Intent_1_NPC_Molvina"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_energycrystal_brutus_empty": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Obsidian_CentralStation",
+    "DT_PreApo_1_NPC_Molvina",
+    "DT_PreApo_Intent_1_NPC_Manes"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_energycrystal_cityDungeon_charged": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Jero",
+    "DT_PreApo_Intent_1_NPC_Jero 1",
+    "DT_PreApo_Intent_1_NPC_Molvina"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_energycrystal_cityDungeon_empty": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Obsidian_CentralStation",
+    "DT_PreApo_Intent_1_NPC_Manes"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_entryMine": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intro_1_NPC_Levin",
+    "DT_PreApo_Intro_1_NPC_Lothar"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_farmersFood": {
+   "buy": 110,
+   "graphs": [
+    "DT_PreApo_1_NPC_Bonny",
+    "DT_Sub_PreApo_FoodForFarmer_NPC_Raya",
+    "DT_Sub_PreApo_FoodForRaya_NPC_Raya",
+    "DT_Sub_PreApo_GiveFood_NPC_Dylara",
+    "DT_Sub_PreApo_Quest_IronForFarmers_NPC_Jerzy"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 22
+  },
+  "item_fish_bass": {
+   "buy": 18,
+   "graphs": [
+    "DT_PreApo_1_NPC_Dunja",
+    "DT_PreApo_1_NPC_Mikesch",
+    "DT_PreApo_Intro_1_NPC_Mikesch"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 4
+  },
+  "item_fish_trout": {
+   "buy": 18,
+   "graphs": [
+    "DT_PreApo_1_NPC_Dunja",
+    "DT_PreApo_Intro_1_NPC_Mikesch"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 4
+  },
+  "item_flowPlant_0": {
+   "buy": 20,
+   "graphs": [
+    "DT_PreApo_1_NPC_Gilwar"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 4
+  },
+  "item_fogstew": {
+   "buy": 140,
+   "graphs": [
+    "DT_PreApo_1_NPC_Helma",
+    "DT_Quest_AnOldRecipe_NPC_Roarke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 28
+  },
+  "item_headdress_magicamp": {
+   "buy": 50,
+   "graphs": [
+    "DT_Quest_AnOldRecipe_NPC_Roarke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 10
+  },
+  "item_healthPlant_0": {
+   "buy": 10,
+   "graphs": [
+    "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan",
+    "DT_Quest_OnlyOneThingHelps_NPC_Bombus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_heart": {
+   "buy": 100,
+   "graphs": [
+    "DT_PreApo_1_NPC_Adalgis"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "item_honey": {
+   "buy": 40,
+   "graphs": [
+    "DT_EntityInfo_BeehiveBeehiveDialogueLeft",
+    "DT_EntityInfo_BeehiveBeehiveDialogueMiddle",
+    "DT_EntityInfo_BeehiveBeehiveDialogueRight"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 8
+  },
+  "item_honeyMead": {
+   "buy": 120,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Jola",
+    "DT_PreApo_Intro_1_NPC_Eugen",
+    "DT_Quest_BetThatInteractions_NPC_Bady",
+    "DT_Quest_BirkasNewLifeEnding_NPC_Birka",
+    "DT_Quest_GetInformationAboutEugen_NPC_Boris",
+    "DT_Quest_JoinGladiators_NPC_Morvin",
+    "DT_Quest_PlayerDrink_NPC_Eugen",
+    "DT_Quest_ShotsForRipperIntro_NPC_Eugen"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 24
+  },
+  "item_ironStone": {
+   "buy": 17,
+   "graphs": [
+    "DT_Main_BaitPoo_03",
+    "DT_Quest_DeepMine_AfterStoneFall_NPC_Jendra"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 3
+  },
+  "item_karottegladius_broken": {
+   "buy": 250,
+   "graphs": [
+    "DT_PreApo_1_NPC_Chunnaic",
+    "DT_Quest_PlayerAcceptKarotteWeaponQuest_NPC_Karotte"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "item_kiepe_rubble": {
+   "buy": 10,
+   "graphs": [
+    "DT_PreApo_1_NPC_Willi"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_letterCityDungeon_0": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Corpse_CityDungeon_0"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterCityDungeon_1": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Corpse_CityDungeon_1"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterCityDungeon_2": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Corpse_CityDungeon_2"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterCityDungeon_3": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Corpse_CityDungeon_3"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterMehlunaToBady": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_BetThatInteractions_NPC_Bady",
+    "DT_Test_NPCs_OpenLetter"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterTableBrutus_0": {
+   "buy": 0,
+   "graphs": [
+    "DT_EntityInfo_Table_Brutus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterTableBrutus_1": {
+   "buy": 0,
+   "graphs": [
+    "DT_EntityInfo_Table_Brutus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterTableBrutus_2": {
+   "buy": 0,
+   "graphs": [
+    "DT_EntityInfo_Table_Brutus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterTableBrutus_3": {
+   "buy": 0,
+   "graphs": [
+    "DT_EntityInfo_Table_Brutus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterToAsmus_open": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_LetterToAsmus_NPC_Asmus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterToAsmus_sealed": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_LetterToAsmus_NPC_Asmus",
+    "DT_Sub_PreApo_Quest_FoodForFamers_NPC_Delani",
+    "QuestGraph_LetterToAsmus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letter_Reija": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Greet_1_NPC_Reija"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_letterfromolafaboutBrutus": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Olaf"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_logwood": {
+   "buy": 5,
+   "graphs": [
+    "DT_PreApo_1_NPC_Adwin",
+    "DT_PreApo_1_NPC_Jendrik",
+    "DT_PreApo_1_NPC_Swenn",
+    "DT_PreApo_Intro_1_NPC_Harald",
+    "DT_Quest_GettingInvolved_NPC_Jendrik"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "item_luminousTruffle": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_CookingWithRoarke_NPC_Roarke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_marinatedmeatleg": {
+   "buy": 140,
+   "graphs": [
+    "DT_PreApo_1_NPC_Ester",
+    "DT_PreApo_1_NPC_Tiaa",
+    "DT_Quest_GiveBadyWeaponAndFood_NPC_Bady",
+    "DT_Quest_PickUpBadysFood_NPC_Tiaa"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 28
+  },
+  "item_mastersmemory": {
+   "buy": 600,
+   "graphs": [
+    "DT_PreApo_1_NPC_Meluna",
+    "DT_PreApo_Greet_1_NPC_Bady"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 125
+  },
+  "item_meat_raw": {
+   "buy": 8,
+   "graphs": [
+    "DT_Main_Critter_Dog_Badass_02",
+    "DT_PreApo_1_NPC_Tiaa"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_meat_stringy": {
+   "buy": 5,
+   "graphs": [
+    "DT_Main_CookingFire",
+    "DT_Main_Critter_Dog_Badass_02",
+    "DT_Main_Critter_Dog_Shy_01",
+    "DT_PreApo_1_NPC_Shona",
+    "DT_Quest_GiveShonaMeat_NPC_Shona"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "item_mikeschLetter": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Boris",
+    "DT_PreApo_1_NPC_Palina",
+    "DT_PreApo_Intro_1_NPC_Palina",
+    "DT_Quest_TalkAboutFaction_NPC_Pwyll"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_mineRelic": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Ede",
+    "DT_PreApo_Greet_1_NPC_Wind",
+    "DT_Quest_TalkAboutAldrik_NPC_Olaf"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_mudLotus": {
+   "buy": 100,
+   "graphs": [
+    "DT_PreApo_1_NPC_Adalgis"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "item_mumbertDiarrhoea": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_FireFestival_NPC_Asmus",
+    "DT_Quest_FireFestival_NPC_Humbert"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_mushroom": {
+   "buy": 10,
+   "graphs": [
+    "DT_Gate_BrutusMine_Kolina",
+    "DT_Main_CookingFire"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_packageBrutusMineWeapons": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_EscapeFromMine_NPC_Baltus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_paperchasestone_band": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Rura",
+    "DT_Quest_CleanseTalisman_NPC_Myrte"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_paperchasestone_cleansed": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_CleanseTalisman_NPC_Myrte"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_paperchasestone_raw": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Olga",
+    "DT_PreApo_1_NPC_Rura"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_permaherb_life": {
+   "buy": 200,
+   "graphs": [
+    "DT_Quest_FavourOfCraftsmenGardener_NPC_Humbert"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "item_permaherb_strength": {
+   "buy": 200,
+   "graphs": [
+    "DT_PreApo_1_NPC_Aidan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "item_permapotion_strength": {
+   "buy": 800,
+   "graphs": [
+    "DT_PreApo_1_NPC_Aidan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 160
+  },
+  "item_pigglet_food": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Piglet_Cay",
+    "DT_PreApo_1_NPC_Piglet_Chris",
+    "DT_PreApo_1_NPC_Piglet_Han",
+    "DT_PreApo_1_NPC_Piglet_Julian",
+    "DT_PreApo_1_NPC_Piglet_Kai",
+    "DT_Quest_AnOldRecipe_NPC_Piglet_Cay",
+    "DT_Quest_FreedomForThePiglets_NPC_Piglet_Chris",
+    "DT_Quest_FreedomForThePiglets_NPC_Piglet_Han",
+    "DT_Quest_FreedomForThePiglets_NPC_Piglet_Julian",
+    "DT_Quest_FreedomForThePiglets_NPC_Piglet_Kai",
+    "DT_Quest_FreedomForThePiglets_NPC_Roarke",
+    "DT_Quest_StartQuestAnOldRecipe_NPC_Roarke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_potion_health_0": {
+   "buy": 100,
+   "graphs": [
+    "DT_PreApo_Greet_1_NPC_Evi",
+    "DT_Quest_Da hilft nur eines_NPC_Larea",
+    "DT_Quest_Eugen_Expedition_ReachedAnkerpunkt_NPC_Eugen",
+    "DT_Quest_ExpeditionNemeton_ReachedAnkerpunkt_NPC_Mombert",
+    "DT_Quest_LareaDeathScene_NPC_Larea"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "item_potion_health_1": {
+   "buy": 250,
+   "graphs": [
+    "DT_PreApo_Greet_1_NPC_Jendra"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "item_potion_respec": {
+   "buy": 250,
+   "graphs": [
+    "DT_PreApo_1_NPC_Aidan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "item_redGlyphStone": {
+   "buy": 300,
+   "graphs": [
+    "DT_PreApo_1_NPC_Lobo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 150
+  },
+  "item_redHerb": {
+   "buy": 10,
+   "graphs": [
+    "DT_Main_BaitPoo_02",
+    "DT_PreApo_Intent_1_NPC_Ida",
+    "DT_Quest_ReactToRustmossTheft_NPC_Ida",
+    "DT_Quest_StoleRustmossDialogue_NPC_Elgar",
+    "DT_Sub_PreApo_DrugBusiness_NPC_Delani"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_ripper_head_huntTheRipper": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Olaf",
+    "DT_Quest_HuntTheRippers_NPC_Olaf"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_roastedMeat": {
+   "buy": 24,
+   "graphs": [
+    "DT_PreApo_Greet_1_NPC_Bruna",
+    "DT_PreApo_Intent_1_NPC_Hasso",
+    "DT_Quest_HuntTheRippers_NPC_Olaf"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 6
+  },
+  "item_roastedcallamushroom": {
+   "buy": 140,
+   "graphs": [
+    "DT_PreApo_Greet_1_NPC_Bruna"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 28
+  },
+  "item_ruinherb": {
+   "buy": 10,
+   "graphs": [
+    "DT_PreApo_1_NPC_Aidan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_runestone": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_TrainRunespells_NPC_Farina",
+    "DT_Quest_YourOwnRunestone_NPC_Lio"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_runestone_empty": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Cuna",
+    "DT_PreApo_Intro_1_NPC_Elnea"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_rustmoss_BadFromGera": {
+   "buy": 0,
+   "graphs": [
+    "DT_EntityInfo_ManipulateLeynasBox",
+    "DT_PreApo_1_NPC_Leyna",
+    "DT_PreApo_Intent_1_NPC_Gera"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_rustymosspipe": {
+   "buy": 35,
+   "graphs": [
+    "DT_EntityInfo_StealFromFriedelsTable",
+    "DT_Main_NPC_RuinenlagerHauer01",
+    "DT_Main_NPC_RuinenlagerHauer02",
+    "DT_PreApo_1_NPC_Conor",
+    "DT_PreApo_1_NPC_Cord",
+    "DT_PreApo_1_NPC_Grit",
+    "DT_PreApo_1_NPC_Kora",
+    "DT_PreApo_1_NPC_Liandra",
+    "DT_PreApo_1_NPC_Lore",
+    "DT_PreApo_1_NPC_Meluna",
+    "DT_PreApo_1_NPC_Mog",
+    "DT_PreApo_1_NPC_Sagar",
+    "DT_PreApo_1_NPC_Senga",
+    "DT_PreApo_1_NPC_Sorcha",
+    "DT_PreApo_1_NPC_Wind",
+    "DT_PreApo_Greet_1_NPC_Blanda",
+    "DT_PreApo_Intro_1_NPC_Leyna",
+    "DT_PreApo_Intro_1_NPC_Liandra",
+    "DT_Quest_HauerDialogRostmoos_NPC_Grit",
+    "DT_Quest_JobForBoris_NPC_Cord_TalkingAboutLife",
+    "DT_Quest_JobForBoris_NPC_Grit",
+    "DT_Quest_JobForBoris_NPC_Kora_SellRostmoos",
+    "DT_Quest_JobForBoris_NPC_Liandra",
+    "DT_Quest_JobForBoris_NPC_Mog",
+    "DT_Quest_JobForBoris_NPC_Senga",
+    "DT_Quest_LucrativesBusiness_NPC_Boris_Intro"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 7
+  },
+  "item_salve_healing": {
+   "buy": 30,
+   "graphs": [
+    "DT_PreApo_1_NPC_Kora",
+    "DT_PreApo_1_NPC_Sine",
+    "DT_PreApo_Greet_1_NPC_Evi",
+    "DT_PreApo_Greet_1_NPC_Sine",
+    "DT_PreApo_Intent_1_NPC_Bruna",
+    "DT_Quest_Da hilft nur eines_NPC_Larea",
+    "DT_Quest_DeepMine_AfterStoneFall_NPC_Jendra",
+    "DT_Quest_LareaDeathScene_NPC_Larea",
+    "DT_Quest_OnlyOneThingHelps_NPC_Bombus",
+    "DT_Quest_ResolveINeedToWorkAgain_NPC_Agnessa"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 6
+  },
+  "item_sealstone_past": {
+   "buy": 1500,
+   "graphs": [
+    "DT_PreApo_1_NPC_Boris",
+    "DT_PreApo_1_NPC_Ede",
+    "DT_Quest_Ede_Relict_NPC_Ede"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 150
+  },
+  "item_shadowmushroom": {
+   "buy": 25,
+   "graphs": [
+    "DT_Quest_ResolveINeedToWorkAgain_NPC_Agnessa"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 5
+  },
+  "item_sheepfur": {
+   "buy": 16,
+   "graphs": [
+    "DT_PreApo_1_NPC_Femke",
+    "DT_PreApo_1_NPC_Gilwar"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 4
+  },
+  "item_shinyStone": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Idefix",
+    "DT_PreApo_Intro_1_NPC_Molvina",
+    "DT_Quest_JoinRuinenlager_NPC_Kilian"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_signOfAtonement": {
+   "buy": 80,
+   "graphs": [
+    "DT_Main_NPC_Judge_Template",
+    "DT_PreApo_1_NPC_Roarke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "item_silberringmind_1": {
+   "buy": 400,
+   "graphs": [
+    "DT_PreApo_1_NPC_Helma"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 80
+  },
+  "item_silberringskill_0": {
+   "buy": 200,
+   "graphs": [
+    "DT_Main_Critter_Cat_Friendly_01"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "item_silverore": {
+   "buy": 10,
+   "graphs": [
+    "DT_Dialogue_PlayerHasCrime",
+    "DT_PreApo_1_NPC_Gero",
+    "DT_PreApo_1_NPC_Jendra",
+    "DT_PreApo_Greet_1_NPC_Ella",
+    "DT_PreApo_Greet_1_NPC_Merik",
+    "DT_PreApo_Intent_1_NPC_Emko",
+    "DT_PreApo_Intent_1_NPC_Mursel",
+    "DT_PreApo_Intent_1_NPC_Ruslan",
+    "DT_PreApo_Intro_1_NPC_Finlay",
+    "DT_Quest_BeautySleep_AndrickGivesReward_NPC_Andrick",
+    "DT_Quest_ConfrontWithEarPlugs_NPC_Roisin",
+    "DT_Quest_ConfrontationAfterPickaxeBroke_NPC_Merik",
+    "DT_Quest_ForceMurselToLetAgnessaRest_NPC_Mursel",
+    "DT_Quest_OfferScamPickaxe_NPC_Merik",
+    "DT_Quest_PostBrawlReactionWhenToldTruthToKessia_NPC_Finlay",
+    "DT_Quest_ReactionAfterPlayerSleptInBettenhaus_NPC_Mursel",
+    "DT_Quest_ReactionToFood_NPC_Shona",
+    "DT_Quest_ResolveINeedToWorkAgain_NPC_Agnessa",
+    "DT_Quest_TakeSilverFromPlayer_NPC_Katsa",
+    "DT_Quest_TalkToKessiaAboutSecretPlace_NPC_Kessia",
+    "DT_Quest_TellRuslanToLeaveAlmarAlone_NPC_Ruslan",
+    "DT_Quest_TryToTakeMoneyFromPlayer_NPC_Ruslan",
+    "DT_Test_NPCs_TakeItems"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "item_silverringstrength_0": {
+   "buy": 200,
+   "graphs": [
+    "DT_PreApo_Greet_1_NPC_Owain"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "item_spiritVessel_greatTusk": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_ExpeditionRuinenlager_NPC_Eugen"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_stalker_egg": {
+   "buy": 125,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Babsi"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 25
+  },
+  "item_stew_tiaa_manipulated": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Ester",
+    "DT_Quest_GiveBadyWeaponAndFood_NPC_Bady",
+    "DT_Quest_PickUpBadysFood_NPC_Tiaa"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_stolenPackage": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Boris",
+    "DT_PreApo_Intent_1_NPC_Afrin",
+    "DT_Quest_LucrativeBusinessTransitionFromOutcast_NPC_Asmus",
+    "DT_Quest_LucrativesBusiness_NPC_Boris_Intro",
+    "DT_Quest_TheOutcast_NPC_Asmus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_strangeFossil": {
+   "buy": 0,
+   "graphs": [
+    "DT_Perceptable_MysteriousLantern",
+    "DT_Perceptable_MyteriousPodest_Fossil",
+    "DT_Perceptable_RavenVessel",
+    "DT_Perceptable_Schlund_Skeleton_Fossil"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_talismanJourneyToTheRoots": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Root_Magiecamp",
+    "DT_PreApo_Intent_1_NPC_Diemo",
+    "DT_Quest_JourneyToTheRoots_NPC_Diemo",
+    "DT_Second_Root_Magiecamp",
+    "DT_Third_Root_Magiecamp"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "item_tarnishedSilverCup": {
+   "buy": 125,
+   "graphs": [
+    "DT_PreApo_1_NPC_Enya",
+    "DT_PreApo_1_NPC_Locke",
+    "DT_Quest_AcceptRelic_NPC_Locke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 25
+  },
+  "item_tendonofglory": {
+   "buy": 500,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Bertine"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 125
+  },
+  "item_trinket_doriansHeirloom": {
+   "buy": 450,
+   "graphs": [
+    "DT_PreApo_1_NPC_Molvina",
+    "DT_PreApo_Intent_1_NPC_Manes"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 100
+  },
+  "item_windtalisman": {
+   "buy": 500,
+   "graphs": [
+    "DT_PreApo_1_NPC_Adalgis"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 125
+  },
+  "item_yellowGlyphStone": {
+   "buy": 300,
+   "graphs": [
+    "DT_Quest_Gawan_Ripper_End_NPC_Gawan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 150
+  },
+  "key_ShadyDistrict": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_IntroShadyDistrict_NPC_Boris"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "key_chest_delani": {
+   "buy": 0,
+   "graphs": [
+    "DT_Sub_PreApo_Quest_FoodForFamers_NPC_Delani"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "key_chest_mineBanditMainKey": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Mali"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "key_extractor": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Obsidian_CentralStation_FleshDungeon"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "key_harald": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_Intro_1_NPC_Harald"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "key_ratcellar": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_RatQuestIntroduction_NPC_Bernold"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "key_sleepingTavernKey": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Olaf",
+    "DT_PreApo_Intent_1_NPC_Olaf"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "key_tavernKey": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_TalkAboutAldrik_NPC_Olaf"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "key_tristanBillKey": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_TheWayToTheLeuchtwald_NPC_Olaf"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "letter_leru_hint01": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_Leru_TalkedAboutFirstFossil_NPC_Leru"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "letter_leru_hint02": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_LeruSecondFossil_NPC_Leru"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "letter_leru_hint03": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_LeruAfterPlayerHasThreeFossils_NPC_Leru"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "misc_bagOfCurrency_big": {
+   "buy": 25,
+   "graphs": [
+    "DT_Quest_FavourOfCraftsmenGardener_NPC_Gerion"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 5
+  },
+  "misc_caveSystem": {
+   "buy": 200,
+   "graphs": [
+    "DT_PreApo_1_NPC_Amella"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "misc_currency": {
+   "buy": 1,
+   "graphs": [
+    "DT_Dialogue_PlayerHasCrime",
+    "DT_EntityInfo_StealFromFriedelsTable",
+    "DT_EntityInfo_Well",
+    "DT_Main_BaitPoo_01",
+    "DT_Main_NPC_Judge_Template",
+    "DT_PreApo_1_NPC_Ada",
+    "DT_PreApo_1_NPC_Adwin",
+    "DT_PreApo_1_NPC_Aidan",
+    "DT_PreApo_1_NPC_Amella",
+    "DT_PreApo_1_NPC_Angus",
+    "DT_PreApo_1_NPC_Banner",
+    "DT_PreApo_1_NPC_Bardok",
+    "DT_PreApo_1_NPC_Bernold",
+    "DT_PreApo_1_NPC_Boris",
+    "DT_PreApo_1_NPC_Caspara",
+    "DT_PreApo_1_NPC_Chunnaic",
+    "DT_PreApo_1_NPC_Ede",
+    "DT_PreApo_1_NPC_Enya",
+    "DT_PreApo_1_NPC_Ester",
+    "DT_PreApo_1_NPC_Femke",
+    "DT_PreApo_1_NPC_Friedel",
+    "DT_PreApo_1_NPC_Gerdwin",
+    "DT_PreApo_1_NPC_Gilwar",
+    "DT_PreApo_1_NPC_Henik",
+    "DT_PreApo_1_NPC_Junali",
+    "DT_PreApo_1_NPC_Kerr",
+    "DT_PreApo_1_NPC_Kilian",
+    "DT_PreApo_1_NPC_Kora",
+    "DT_PreApo_1_NPC_Leru",
+    "DT_PreApo_1_NPC_Leyna",
+    "DT_PreApo_1_NPC_Liandra",
+    "DT_PreApo_1_NPC_Marten",
+    "DT_PreApo_1_NPC_Meluna",
+    "DT_PreApo_1_NPC_Morvin",
+    "DT_PreApo_1_NPC_Olaf",
+    "DT_PreApo_1_NPC_Sagar",
+    "DT_PreApo_1_NPC_Willi",
+    "DT_PreApo_Busy_1_NPC_Mottek",
+    "DT_PreApo_Generic_1_NPC_Mottek",
+    "DT_PreApo_Greet_1_NPC_Berni",
+    "DT_PreApo_Greet_1_NPC_Dark",
+    "DT_PreApo_Greet_1_NPC_Elgar",
+    "DT_PreApo_Greet_1_NPC_Gawan",
+    "DT_PreApo_Greet_1_NPC_Marten",
+    "DT_PreApo_Greet_1_NPC_Owain",
+    "DT_PreApo_Intent_1_NPC_Adalgis",
+    "DT_PreApo_Intent_1_NPC_Asmus",
+    "DT_PreApo_Intent_1_NPC_BorisBandit_A",
+    "DT_PreApo_Intent_1_NPC_Cengiz",
+    "DT_PreApo_Intent_1_NPC_Chunnaic",
+    "DT_PreApo_Intent_1_NPC_Emre",
+    "DT_PreApo_Intent_1_NPC_Mog",
+    "DT_PreApo_Intent_1_NPC_Morvin",
+    "DT_PreApo_Intent_1_NPC_Myrte",
+    "DT_PreApo_Intent_1_NPC_Teigen",
+    "DT_PreApo_Intro_1_NPC_Adela",
+    "DT_PreApo_Intro_1_NPC_Frithjof",
+    "DT_PreApo_Intro_1_NPC_Marten",
+    "DT_PreApo_Intro_1_NPC_Reija",
+    "DT_PreApo_Intro_1_NPC_Tristan",
+    "DT_Quest_AcceptDiamond_NPC_Locke",
+    "DT_Quest_AcceptTrinket_NPC_Locke",
+    "DT_Quest_AuwaldDungeonIntro_NPC_Kilian",
+    "DT_Quest_BanditMine_EvictingAdalgis_NPC_Mottek",
+    "DT_Quest_BanditsOnTheBridge_NPC_Angus",
+    "DT_Quest_BirkasNewLifeEnding_NPC_Birka",
+    "DT_Quest_BlandGoToBed_NPC_Blanda",
+    "DT_Quest_BuyArmor_NPC_Femke",
+    "DT_Quest_CaughtDivineBeast_NPC_Mombert",
+    "DT_Quest_ChooseResolutionBlackhead_NPC_Owain",
+    "DT_Quest_CompletedQuestInIntro_NPC_Elgar",
+    "DT_Quest_Da hilft nur eines_NPC_Larea",
+    "DT_Quest_DebtQuest_NPC_Lindon",
+    "DT_Quest_Debt_GetListFromBoris_NPC_Boris",
+    "DT_Quest_Debt_GetMoneyFromLore_NPC_Lore",
+    "DT_Quest_Debt_GetMoneyFromMeluna_NPC_Meluna",
+    "DT_Quest_Debt_GetMoneyFromMog_NPC_Mog",
+    "DT_Quest_DeepInTheSwamp_NPC_Henik",
+    "DT_Quest_Doppelganger_NPC_Fulk",
+    "DT_Quest_Ede_Relict_NPC_Ede",
+    "DT_Quest_EndCutsceneArenamaster_NPC_Morvin",
+    "DT_Quest_EscortMottekToMine_NPC_Mottek",
+    "DT_Quest_FavourOfCraftsmenGardener_NPC_Gerion",
+    "DT_Quest_FavourOfCraftsmenGardener_NPC_Humbert",
+    "DT_Quest_FeedingTheSheep_NPC_Olaf",
+    "DT_Quest_Field_NPC_Georg",
+    "DT_Quest_FightingAreaT2_NPC_Morvin",
+    "DT_Quest_GaveMoneyToWilli_NPC_Willi",
+    "DT_Quest_GawanSheepHub_NPC_Gawan",
+    "DT_Quest_Gawan_Ripper_End_NPC_Gawan",
+    "DT_Quest_Georg_FoundHasso_NPC_Georg",
+    "DT_Quest_GerdwinTalkAboutZoltan_NPC_Gerdwin",
+    "DT_Quest_GetBetValue_NPC_Morvin",
+    "DT_Quest_GetInformationAboutEugen_NPC_Boris",
+    "DT_Quest_Gra_GaveWeapon_NPC_Gra",
+    "DT_Quest_HuntTheRippers_NPC_Olaf",
+    "DT_Quest_JobForBoris_NPC_Boris_FinishQuests",
+    "DT_Quest_JobForBoris_NPC_Cord_TalkingAboutLife",
+    "DT_Quest_JobForBoris_NPC_Grit",
+    "DT_Quest_JobForBoris_NPC_Kora_SellRostmoos",
+    "DT_Quest_JobForBoris_NPC_Liandra",
+    "DT_Quest_JobForBoris_NPC_Mog",
+    "DT_Quest_JobForBoris_NPC_Senga",
+    "DT_Quest_JunaliQuestReaction_NPC_Karotte",
+    "DT_Quest_KilianEndExpeditionTransitionToAcademy_NPC_Kilian",
+    "DT_Quest_LastOfferGawanEnter_NPC_Gawan",
+    "DT_Quest_LendMoney_NPC_Friedel",
+    "DT_Quest_LetterToAsmus_NPC_Asmus",
+    "DT_Quest_LucrativeBusiness_NPC_Boris_BorisEndDialog",
+    "DT_Quest_LucrativesBusiness_NPC_Asmus",
+    "DT_Quest_LucrativesBusiness_SellLetter_NPC_Boris",
+    "DT_Quest_ManpowerForTheBridge_NPC_Cengiz",
+    "DT_Quest_OnlyOneThingHelps_NPC_Cengiz",
+    "DT_Quest_PayBet_NPC_Dark",
+    "DT_Quest_PayMoneFastTravel_NPC_Lobo",
+    "DT_Quest_PickUpListFromBoris_NPC_Boris",
+    "DT_Quest_PlaceBetsForArenaFight_NPC_Morvin",
+    "DT_Quest_PlayerAcceptKarotteWeaponQuest_NPC_Karotte",
+    "DT_Quest_RatQuestIntroduction_NPC_Bernold",
+    "DT_Quest_ResolutionShadyDistrictQuest_NPC_Boris",
+    "DT_Quest_ReturnOrKeepTheRing_NPC_Tuz",
+    "DT_Quest_RipperReward_NPC_Larea",
+    "DT_Quest_StartWorkerWorker_NPC_Jola",
+    "DT_Quest_StolenWeapons_NPC_Angus_JudgeKendrick",
+    "DT_Quest_TalkAboutOutcomeOfBetThatFight_NPC_Morvin",
+    "DT_Quest_TheBlackheadResolution_NPC_Cengiz",
+    "DT_Quest_TheDoppelgangers_NPC_Baldo",
+    "DT_Quest_TheDoppelgangers_NPC_Jola",
+    "DT_Quest_TheOutcastRework_NPC_Afrin",
+    "DT_Quest_TheOutcast_NPC_Asmus",
+    "DT_Quest_ThePoorSheep_NPC_Olaf",
+    "DT_Quest_TheWayToTheLeuchtwald_NPC_Olaf",
+    "DT_Quest_VoteFromBoris_NPC_Boris",
+    "DT_Quest_WayToTheMine_NPC_Esdert",
+    "DT_Quest_WoodcampKillRipper_NPC_Cengiz",
+    "DT_Quest_WorkOnFarmEnd_NPC_Georg",
+    "DT_Sub_PreApo_DrugBusiness_NPC_Delani",
+    "DT_Sub_PreApo_NPC_DialogueDummy_Stephan1"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "misc_emptyTraderBag": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Lobo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "misc_lockpick_simple": {
+   "buy": 16,
+   "graphs": [
+    "DT_EntityInfo_ManipulateLeynasBox",
+    "DT_PreApo_1_NPC_Wind"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 4
+  },
+  "misc_riddle_butterfly": {
+   "buy": 75,
+   "graphs": [
+    "DT_PreApo_1_NPC_Kerr",
+    "DT_Quest_ButterfliesAllAround_NPC_Kerr"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 15
+  },
+  "misc_riddle_deer": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_RedTowerPedestral_2"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "misc_riddle_eagle": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_RedTowerPedestral_0"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "misc_riddle_fox": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_RedTowerPedestral_1"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "misc_traderBag": {
+   "buy": 0,
+   "graphs": [
+    "DT_PreApo_1_NPC_Lobo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "misc_worldmap": {
+   "buy": 200,
+   "graphs": [
+    "DT_PreApo_Intro_1_NPC_Asmus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "misc_worldmap_detailed": {
+   "buy": 200,
+   "graphs": [
+    "DT_Quest_LeruShowMeAfter_NPC_Leru"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "note_debtorlist": {
+   "buy": 0,
+   "graphs": [
+    "DT_EntityInfo_StealFromFriedelsTable",
+    "DT_PreApo_1_NPC_Bady",
+    "DT_PreApo_1_NPC_Boris",
+    "DT_PreApo_1_NPC_Lore",
+    "DT_PreApo_1_NPC_Meluna",
+    "DT_PreApo_1_NPC_Mog",
+    "DT_Quest_BetThatInteractions_NPC_Bady",
+    "DT_Quest_DebtQuest_NPC_Lindon",
+    "DT_Quest_PickUpListFromBoris_NPC_Boris"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "note_evidence_boris": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_LucrativesBusiness_NPC_Asmus",
+    "DT_Quest_LucrativesBusiness_SellLetter_NPC_Boris"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "recipe_agilostew": {
+   "buy": 50,
+   "graphs": [
+    "DT_Quest_PayErdmiete_NPC_Agilo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 10
+  },
+  "recipe_farmersmeal": {
+   "buy": 50,
+   "graphs": [
+    "DT_Sub_PreApo_Quest_FoodForFamers_NPC_Delani"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 10
+  },
+  "recipe_flow_dash": {
+   "buy": 200,
+   "graphs": [
+    "DT_Quest_GettingInvolved_ChoopWoodTogether_NPC_Jendrik"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "recipe_flow_spartanKick": {
+   "buy": 200,
+   "graphs": [
+    "DT_Quest_FeedingTheSheep_NPC_Olaf"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "recipe_flow_wound": {
+   "buy": 200,
+   "graphs": [
+    "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "recipe_rootstew": {
+   "buy": 50,
+   "graphs": [
+    "DT_Quest_CookingWithRoarke_NPC_Roarke"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 10
+  },
+  "ring_aldo_name": {
+   "buy": 320,
+   "graphs": [
+    "DT_Quest_Doppelganger_NPC_Fulk",
+    "DT_Quest_TheDoppelgangers_NPC_Baldo"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 75
+  },
+  "ring_tuz_name": {
+   "buy": 0,
+   "graphs": [
+    "DT_Main_Poo_Liesl",
+    "DT_PreApo_1_NPC_Andarta",
+    "DT_PreApo_Greet_1_NPC_Andarta",
+    "DT_Quest_ReturnOrKeepTheRing_NPC_Andarta",
+    "DT_Quest_ReturnOrKeepTheRing_NPC_Tuz"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "tool_pickaxe_silberhauer": {
+   "buy": 5,
+   "graphs": [
+    "DT_PreApo_1_NPC_Almar",
+    "DT_PreApo_1_NPC_Merik",
+    "DT_Quest_ConfrontationAfterPickaxeBroke_NPC_Merik",
+    "DT_Quest_OfferScamPickaxe_NPC_Merik"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "tool_torch": {
+   "buy": 10,
+   "graphs": [
+    "DT_PreApo_1_NPC_Angus",
+    "DT_PreApo_1_NPC_Leyna",
+    "DT_PreApo_Intro_1_NPC_Kolina",
+    "DT_PreApo_Intro_1_NPC_Reija",
+    "DT_Quest_DeepMine_AfterStoneFall_NPC_Jendra",
+    "DT_Quest_Eugen_Expedition_EnterLeuchtwald_NPC_Eugen",
+    "DT_Quest_ExpeditionNemeton_EnterRuin_NPC_Mombert"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "weapon_axe_bady_dull": {
+   "buy": 320,
+   "graphs": [
+    "DT_PreApo_1_NPC_Bardok",
+    "DT_Quest_GiveBadyWeaponAndFood_NPC_Bady",
+    "DT_Quest_SharpenBadysWeapon_NPC_Bardok"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 0
+  },
+  "weapon_axe_bady_sharp": {
+   "buy": 320,
+   "graphs": [
+    "DT_PreApo_Greet_1_NPC_Bardok",
+    "DT_Quest_GiveBadyWeaponAndFood_NPC_Bady"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "weapon_axe_blaansoldsword": {
+   "buy": 1,
+   "graphs": [
+    "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "weapon_axe_bronzeTusk": {
+   "buy": 16,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_MiningChef",
+    "DT_PreApo_Intro_1_NPC_Lothar",
+    "DT_Quest_Day1_FirstTalkWithBoss_NPC_Hasso"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "weapon_axe_doubleAxe": {
+   "buy": 700,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Bardok",
+    "DT_Quest_GetWeaponFromChunnaic_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 87
+  },
+  "weapon_axe_jawboneAxe": {
+   "buy": 120,
+   "graphs": [
+    "DT_Quest_EscapeFromMine_NPC_Baltus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 15
+  },
+  "weapon_axe_oldAxe": {
+   "buy": 400,
+   "graphs": [
+    "DT_Quest_BadyReactsToFightOutcome_NPC_Bady",
+    "DT_Quest_DeepInTheSwamp_NPC_Henik"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "weapon_axe_snaga": {
+   "buy": 90,
+   "graphs": [
+    "DT_PreApo_1_NPC_Gra",
+    "DT_Quest_Gra_GaveWeapon_NPC_Gra"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 60
+  },
+  "weapon_axe_woodSplitter": {
+   "buy": 16,
+   "graphs": [
+    "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan",
+    "DT_Quest_ChooseResolutionBlackhead_NPC_Owain",
+    "DT_Quest_GettingInvolved_ChoopWoodTogether_NPC_Jendrik",
+    "DT_Quest_GettingInvolved_NPC_Jendrik"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 2
+  },
+  "weapon_barehands": {
+   "buy": 0,
+   "graphs": [
+    "DT_Quest_PlayerAcceptKarotteWeaponQuest_NPC_Karotte"
+   ],
+   "in_quest_category": false,
+   "quest_valued": true,
+   "sell": 0
+  },
+  "weapon_bow_longBow": {
+   "buy": 800,
+   "graphs": [
+    "DT_Main_Corpse_Faol"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 150
+  },
+  "weapon_dagger_breadKnife": {
+   "buy": 60,
+   "graphs": [
+    "DT_PreApo_1_NPC_Gilwar"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 8
+  },
+  "weapon_dagger_coarseDagger": {
+   "buy": 700,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Bardok",
+    "DT_Quest_GetWeaponFromChunnaic_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 88
+  },
+  "weapon_dagger_wornBronzeDagger": {
+   "buy": 400,
+   "graphs": [
+    "DT_Quest_TalkAboutOutcomeOfBetThatFight_NPC_Morvin"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 50
+  },
+  "weapon_shield_woodenBoard": {
+   "buy": 7,
+   "graphs": [
+    "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan",
+    "DT_Quest_Woodcamp_Tutorial_2-handed_SwordAndShield_NPC_Blaan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "weapon_sling_simpleSlingshot": {
+   "buy": 100,
+   "graphs": [
+    "DT_Quest_Da hilft nur eines_NPC_Larea"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 13
+  },
+  "weapon_spear_bronzeSpear": {
+   "buy": 600,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Bardok",
+    "DT_Quest_GetWeaponFromChunnaic_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 75
+  },
+  "weapon_spear_georg": {
+   "buy": 300,
+   "graphs": [
+    "DT_Quest_WorkOnFarmEnd_NPC_Georg"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "weapon_spear_woodenSpear": {
+   "buy": 100,
+   "graphs": [
+    "DT_Quest_EscapeFromMine_NPC_Baltus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 13
+  },
+  "weapon_sword_baton": {
+   "buy": 8,
+   "graphs": [
+    "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan",
+    "DT_Quest_Woodcamp_Tutorial_2-handed_SwordAndShield_NPC_Blaan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "weapon_sword_branch": {
+   "buy": 8,
+   "graphs": [
+    "DT_Test_NPCs_Equipment_Talents"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "weapon_sword_bronzeShortSword_intro": {
+   "buy": 160,
+   "graphs": [
+    "DT_PreApo_1_NPC_Idefix"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 20
+  },
+  "weapon_sword_carimasoldsword": {
+   "buy": 1,
+   "graphs": [
+    "DT_Quest_BattleBuddiesStartBlaan_NPC_Blaan"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 1
+  },
+  "weapon_sword_coarseBroadsword": {
+   "buy": 700,
+   "graphs": [
+    "DT_PreApo_1_NPC_Karotte"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 88
+  },
+  "weapon_sword_crudeIronBlade": {
+   "buy": 600,
+   "graphs": [
+    "DT_PreApo_Intent_1_NPC_Bardok",
+    "DT_Quest_GetWeaponFromChunnaic_NPC_Chunnaic"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 75
+  },
+  "weapon_sword_jendra": {
+   "buy": 300,
+   "graphs": [
+    "DT_Quest_DeepMine_AfterStoneFall_NPC_Jendra"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "weapon_sword_karottegladius": {
+   "buy": 300,
+   "graphs": [
+    "DT_PreApo_1_NPC_Chunnaic",
+    "DT_PreApo_1_NPC_Karotte"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 40
+  },
+  "weapon_sword_nailClub": {
+   "buy": 100,
+   "graphs": [
+    "DT_Quest_EscapeFromMine_NPC_Baltus"
+   ],
+   "in_quest_category": false,
+   "quest_valued": false,
+   "sell": 13
+  }
+ },
+ "ordinary": [
+  "Raven Mask",
+  "armor_chest_druid_atlanter",
+  "armor_chest_heavy_atlanter",
+  "armor_chest_leather_magielager_name",
+  "armor_chest_leather_name",
+  "armor_chest_lendha_heavy_name",
+  "armor_chest_lendha_name",
+  "armor_chest_light_atlanter",
+  "armor_chest_miner_name",
+  "armor_chest_nemeton_guardian_druid_name",
+  "armor_chest_nemeton_guardian_heavy_name",
+  "armor_chest_nemeton_guardian_light_name",
+  "armor_chest_ruinenlager_fighter_druid_name",
+  "armor_chest_ruinenlager_fighter_fight_name",
+  "armor_chest_ruinenlager_fighter_heavy_name",
+  "armor_chest_ruinenlager_gladiator",
+  "armor_chest_ruinenlager_heavy_name",
+  "armor_chest_ruinenlager_name",
+  "armor_chest_tunic_name",
+  "cons_flow_conflagration",
+  "cons_flow_energyProjectile",
+  "flow_energyProjectile",
+  "flow_travelForm",
+  "flow_wound",
+  "helmet_brutus_name",
+  "helmet_earprotection_name",
+  "helmet_gladiator_name",
+  "helmet_mask_arrogant_name",
+  "helmet_mask_empathetic_name",
+  "helmet_mask_frog_name",
+  "helmet_mask_rational_name",
+  "helmet_mask_sheep_name",
+  "helmet_straw_name",
+  "item_aditroast",
+  "item_agilostew",
+  "item_alraune",
+  "item_apple",
+  "item_armorring_0",
+  "item_atlanteanarmorparts",
+  "item_bear_claw",
+  "item_bearfur",
+  "item_beartrap",
+  "item_beer",
+  "item_berry",
+  "item_bloodbornering",
+  "item_bogIron",
+  "item_bogwheat",
+  "item_callashroom",
+  "item_chunnaic_diamond",
+  "item_earthroot",
+  "item_farmersFood",
+  "item_fish_bass",
+  "item_fish_trout",
+  "item_flowPlant_0",
+  "item_fogstew",
+  "item_headdress_magicamp",
+  "item_healthPlant_0",
+  "item_heart",
+  "item_honey",
+  "item_honeyMead",
+  "item_ironStone",
+  "item_karottegladius_broken",
+  "item_kiepe_rubble",
+  "item_logwood",
+  "item_marinatedmeatleg",
+  "item_mastersmemory",
+  "item_meat_raw",
+  "item_meat_stringy",
+  "item_mudLotus",
+  "item_mushroom",
+  "item_permaherb_life",
+  "item_permaherb_strength",
+  "item_permapotion_strength",
+  "item_potion_health_0",
+  "item_potion_health_1",
+  "item_potion_respec",
+  "item_redGlyphStone",
+  "item_redHerb",
+  "item_roastedMeat",
+  "item_roastedcallamushroom",
+  "item_ruinherb",
+  "item_rustymosspipe",
+  "item_salve_healing",
+  "item_sealstone_past",
+  "item_shadowmushroom",
+  "item_sheepfur",
+  "item_signOfAtonement",
+  "item_silberringmind_1",
+  "item_silberringskill_0",
+  "item_silverore",
+  "item_silverringstrength_0",
+  "item_stalker_egg",
+  "item_tarnishedSilverCup",
+  "item_tendonofglory",
+  "item_trinket_doriansHeirloom",
+  "item_windtalisman",
+  "item_yellowGlyphStone",
+  "letter_leru_hint01",
+  "letter_leru_hint02",
+  "letter_leru_hint03",
+  "misc_bagOfCurrency_big",
+  "misc_caveSystem",
+  "misc_currency",
+  "misc_lockpick_simple",
+  "misc_riddle_butterfly",
+  "misc_worldmap",
+  "misc_worldmap_detailed",
+  "recipe_agilostew",
+  "recipe_farmersmeal",
+  "recipe_flow_dash",
+  "recipe_flow_spartanKick",
+  "recipe_flow_wound",
+  "recipe_rootstew",
+  "ring_aldo_name",
+  "tool_pickaxe_silberhauer",
+  "tool_torch",
+  "weapon_axe_bady_dull",
+  "weapon_axe_bady_sharp",
+  "weapon_axe_blaansoldsword",
+  "weapon_axe_bronzeTusk",
+  "weapon_axe_doubleAxe",
+  "weapon_axe_jawboneAxe",
+  "weapon_axe_oldAxe",
+  "weapon_axe_snaga",
+  "weapon_axe_woodSplitter",
+  "weapon_bow_longBow",
+  "weapon_dagger_breadKnife",
+  "weapon_dagger_coarseDagger",
+  "weapon_dagger_wornBronzeDagger",
+  "weapon_shield_woodenBoard",
+  "weapon_sling_simpleSlingshot",
+  "weapon_spear_bronzeSpear",
+  "weapon_spear_georg",
+  "weapon_spear_woodenSpear",
+  "weapon_sword_baton",
+  "weapon_sword_branch",
+  "weapon_sword_bronzeShortSword_intro",
+  "weapon_sword_carimasoldsword",
+  "weapon_sword_coarseBroadsword",
+  "weapon_sword_crudeIronBlade",
+  "weapon_sword_jendra",
+  "weapon_sword_karottegladius",
+  "weapon_sword_nailClub"
+ ]
+}

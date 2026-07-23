@@ -123,14 +123,27 @@ namespace ArchipelagoDrova
         // IInventoryContainer, not Inventory: knocked-out NPCs route their inventory through
         // Init() into _runtimeContainer, and OwnerInventory is the interface-typed union of both.
         //
-        // Containers with extracted authored loot are stripped of EXACTLY that loot, nothing more.
+        // Containers with known vanilla loot are stripped of EXACTLY that loot, nothing more.
         // A container can legitimately hold items that are not vanilla loot: the player uses chests
         // as storage, and both capture sequences (Lothar, bandit mine) stow the player's entire
         // inventory in a chest through DS_TransferInventoryNode. Wiping everything non-protected
-        // deleted those. Containers without authored data (corpses, quickloot pickups,
-        // random-loot-only chests) keep the old full strip: nothing can be stashed in them between
-        // spawn and looting, so everything present is vanilla loot.
-        private static void Strip(IInventoryContainer inventory, string apName, string matchedGuid, string source)
+        // deleted those. Containers with no known loot at all (corpses, quickloot pickups) keep the
+        // old full strip: nothing can be stashed in them between spawn and looting, so everything
+        // present is vanilla loot.
+        //
+        // The authored list alone is NOT the full vanilla contents. A container with an
+        // Inventory_LootBhvr rolls its own loot at spawn: the authored _fixLoot slots PLUS a per-save
+        // random draw from the flavour table (capped by _maxLootAmount/_maxLootSellValue). That draw
+        // is invisible to static extraction - it is empty in the shipped bundles - and, crucially, it
+        // lives only in the Inventory, not the preset: the preset's _generatedLoot is not persisted,
+        // so it reads back empty after a load. Reading the preset therefore misses it; the only
+        // reliable statement is "this container generates loot, so everything in it is the game's".
+        // When a loot behaviour is present we drop the authored restriction and strip every
+        // non-protected item. Safe because the two cutscene-transfer chests are excluded outright,
+        // storage chests have no loot behaviour, and reopening is caught by the already-checked guard,
+        // so nothing the player owns is in a loot container on its first open.
+        private static void Strip(IInventoryContainer inventory, string apName, string matchedGuid, string source,
+            Inventory lootSource = null)
         {
             if (inventory == null || inventory.IsEmpty)
             {
@@ -138,7 +151,7 @@ namespace ArchipelagoDrova
             }
 
             Dictionary<string, int> authoredLeft = null;
-            if (LocationTable.TryGetAuthoredLoot(matchedGuid, out string[] authored))
+            if (!GeneratesLoot(lootSource) && LocationTable.TryGetAuthoredLoot(matchedGuid, out string[] authored))
             {
                 authoredLeft = new Dictionary<string, int>(authored.Length, StringComparer.OrdinalIgnoreCase);
                 foreach (var entry in authored)
@@ -205,6 +218,19 @@ namespace ArchipelagoDrova
         }
 
         /// <summary>
+        /// True when this container rolls its own loot - i.e. carries an Inventory_LootBhvr on the
+        /// same GameObject as its inventory (nests, vases, boxes, random-loot chests). Such a
+        /// container's entire first-open contents are game loot (authored slots plus the per-save
+        /// random roll), so it is stripped in full rather than matched against the authored list.
+        /// A plain storage / cutscene-transfer inventory has no loot behaviour and keeps the
+        /// authored-only strip.
+        /// </summary>
+        private static bool GeneratesLoot(Inventory lootSource)
+        {
+            return lootSource != null && lootSource.GetComponent<Inventory_LootBhvr>() != null;
+        }
+
+        /// <summary>
         /// Runs just before the loot window is built (chests, containers and, via the LootKnockout
         /// override, corpses and mugged NPCs), so emptying the container here yields a clean empty
         /// window instead of desyncing an already-rendered slot view. OwnerInventory is populated by
@@ -232,9 +258,19 @@ namespace ArchipelagoDrova
                     return;
                 }
 
+                if (ContainerTracker.IsLocationChecked(apName))
+                {
+                    // Already looted once: its vanilla contents are gone and the AP item was granted, so
+                    // whatever is in there now belongs to the player. Chests are storage.
+                    return;
+                }
+
                 // OwnerInventory, not _ownerInventory: for knocked-out NPCs the real inventory
                 // lives in the runtime container that Init() installed, and _ownerInventory is null.
-                Strip(__instance.OwnerInventory, apName, guid, "opened");
+                // _ownerInventory is the concrete Inventory the loot preset lives on; it is null for
+                // knocked-out NPCs (their inventory is the runtime container), which simply means no
+                // preset to consult and the authored/full-strip path stands.
+                Strip(__instance.OwnerInventory, apName, guid, "opened", __instance._ownerInventory);
             }
             catch (Exception e)
             {
@@ -296,10 +332,16 @@ namespace ArchipelagoDrova
                     return;
                 }
 
+                if (ContainerTracker.IsLocationChecked(apName))
+                {
+                    return;
+                }
+
                 // Interop interfaces have no implicit class->interface conversion; Cast goes
                 // through the il2cpp type system, where Inventory does implement the interface.
                 var lootInventory = __instance.LootInventory;
-                Strip(lootInventory == null ? null : lootInventory.Cast<IInventoryContainer>(), apName, guid, "loot all");
+                Strip(lootInventory == null ? null : lootInventory.Cast<IInventoryContainer>(), apName, guid,
+                    "loot all", lootInventory);
             }
             catch (Exception e)
             {

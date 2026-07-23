@@ -2,15 +2,17 @@ import collections
 
 from ..items import (
     BONUS_ITEM_NAMES,
+    QUEST_SUPPLY_NAMES,
     BONUS_ONLY_NAMES,
     CAPPED_BONUS_ITEMS,
-    CONSUMABLE_CHUNK_NAMES,
     FILLER_ITEM_NAMES,
     ITEM_DATA,
     ITEM_NAME_GROUPS,
     ITEM_NAME_TO_ID,
-    JUNK_ITEM_NAMES,
     PROGRESSION_ITEM_NAMES,
+    QUEST_SUPPLY_ITEMS,
+    REPEATABLE_LOOT,
+    SUPPLY_GROUP_OPTIONS,
     USEFUL_ITEM_NAMES,
 )
 from .bases import DrovaTestBase
@@ -53,10 +55,46 @@ class TestItemTable(DrovaTestBase):
             self.assertGreater(len(USEFUL_ITEM_NAMES) + len(FILLER_ITEM_NAMES), len(PROGRESSION_ITEM_NAMES))
 
         with self.subTest("Every bonus name is a real item"):
-            self.assertTrue(CONSUMABLE_CHUNK_NAMES)
-            self.assertTrue(JUNK_ITEM_NAMES)
+            self.assertTrue(REPEATABLE_LOOT)
             for name in BONUS_ITEM_NAMES:
                 self.assertIn(name, ITEM_NAME_TO_ID)
+
+        with self.subTest("The bulk draw mirrors Drova's own loot frequencies"):
+            # Every repeatable name must carry a positive weight, or random.choices would either
+            # reject the table or hand out an item the game never drops.
+            for name, weight in REPEATABLE_LOOT:
+                self.assertGreater(weight, 0, name)
+            # The staples the world litters the map with must outweigh the tier-0 healing potion,
+            # which is the regression this weighting exists to prevent.
+            weights = dict(REPEATABLE_LOOT)
+            self.assertGreater(weights["Item Berry"], weights["Item Potion Health 0"])
+            self.assertGreater(weights["Item Logwood"], weights["Item Potion Health 0"])
+
+        with self.subTest("Cooked food repeats despite never dropping in the world"):
+            # Fishpan/Fogstew/Rootstew are recipe outputs with world_count 0; without the nominal
+            # floor they would sit at one pool copy forever. They must be repeatable, and the natural
+            # staples the world litters must still outweigh them.
+            for name in ("Item Fishpan", "Item Fogstew", "Item Rootstew", "Item Roastofthepast"):
+                self.assertIn(name, weights, name)
+                self.assertGreater(weights[name], 0, name)
+                self.assertGreater(weights["Item Berry"], weights[name], name)
+
+        with self.subTest("Quest-needed items are all in the pool and can repeat"):
+            # Every name the floor can place has to exist and be legal to duplicate, or a large seed
+            # fails its "only bonus rewards repeat" invariant the moment the floor fires.
+            self.assertTrue(QUEST_SUPPLY_ITEMS)
+            for name, amount, group in QUEST_SUPPLY_ITEMS:
+                self.assertIn(name, ITEM_NAME_TO_ID, name)
+                self.assertIn(name, BONUS_ITEM_NAMES, name)
+                self.assertGreaterEqual(amount, 1, name)
+                self.assertIn(group, SUPPLY_GROUP_OPTIONS, name)
+            # The specific items playtesting called out; the ids come from Items_en.loc.
+            for name in ("Item Logwood", "Item Apple", "Item Berry", "Item Silverore", "Item Ironore",
+                         "Item Alraune", "Item Ruinherb", "Item Permaherb Strength",
+                         "Item Permaherb Mind", "Item Permaherb Life", "Item Permaherb Skill",
+                         "Item Permaherb Flow", "Item Salve Healing", "Item HealthPlant 0",
+                         "Item HealthPlant 1", "Item HealthPlant 2", "Item Meat Raw"):
+                self.assertIn(name, QUEST_SUPPLY_NAMES, name)
 
     def test_item_name_groups(self) -> None:
         for group in ("Keys", "Flow Abilities", "Energy Crystals", "Weapons", "Armor"):

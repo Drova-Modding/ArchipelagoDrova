@@ -107,6 +107,9 @@ Drova - Forsaken Kin:
   randomize_teleporters: false # shuffle which cave each entrance leads into (36 two-way links, never strands you)
   randomize_runes: false      # re-roll which drawn-rune pattern opens which rune door; all hints (notes + plates) stay truthful
   start_with_tools: true      # start with the Silver Smasher pickaxe + a junk spear for the mining/fishing minigames
+  quest_item_supply: 8        # guaranteed units of each quest-needed ordinary item (logs, ore, herbs); 0 disables
+  permanent_herb_supply: 5    # the five permanent stat herbs get their own dial: each one is a +1 stat
+  mandragora_supply: 7        # Mandragora top-up, separate because it sells for 100 gold
 
   death_link: false
 ```
@@ -173,15 +176,20 @@ so the riddles are solvable the intended way, just not from memory.
 junk spear so the mining and fishing minigames (and their checks under `randomize_resources`)
 are available from the start.
 
-**Items** (816): 62 progression (15 keys, 3 charged energy crystals, 43 player flow abilities),
-221 useful (weapons, armor, helmets, maps), 522 filler (consumables, recipes, quest items), plus
-tiered experience, learning point and permanent stat grants. Once every distinct item is placed,
+**Items** (626): 62 progression (15 keys, 3 charged energy crystals, 43 player flow abilities),
+310 useful (weapons, armor, helmets, trinkets, maps), 254 filler (consumables, recipes, materials,
+coins), plus tiered experience, learning point and permanent stat grants. Coins are ordinary items:
+Drova has no separate money counter, so a currency grant is just an item stack in your bag. Once every distinct item is placed,
 the remaining locations hold repeatable bonus rewards: a capped handful of big tiers (one or two
 +1000 XP / +5 LP per seed, up to ten each of +1 Strength / +1 Dexterity / +1 Mind / +5 max health,
-a few +250/+100/+50 XP and +1/+2 LP), and the bulk drawn weighted from
-consumable chunks (45%: arrows, potions, food, throwables, bombs, traps, iron/silver ore) and
-+5/+10 XP (30%) and animal trophies / coins / junk (25%) — so long runs keep finding supplies
-instead of drowning in +250 XP.
+a few +250/+100/+50 XP and +1/+2 LP), and the bulk split between +5/+10 XP (30%) and ordinary
+world loot (70%). That loot is drawn at **Drova's own frequencies**: a static sweep of the game
+counts how often a full playthrough finds each item across world pickups, destroyable vases and
+boxes, mining/herb/fishing spots and authored container loot, and those counts are the draw
+weights. So the overflow looks like the map does — mushrooms, berries, logs, ore, arrows and
+feathers, with healing potions about as rare as they are in the game (~2% of finds) instead of a
+uniform pick that made a 5x stack of tier-1 potions as likely as a handful of berries. Items the
+world never drops, and anything worth more than 30, stay once-each and are never handed out in bulk.
 
 **Goal**: reach the outro. Dying does not route through the outro, so it cannot trigger a false goal.
 
@@ -192,6 +200,22 @@ Drova forks between Nemeton and the Remnants (Ruinenlager); joining one locks th
 and traders, plus neutral ones, become locations.
 
 ## Vanilla loot
+
+Quests that need ordinary items are supplied by the pool. A static sweep of every quest and
+dialogue graph records which items each one references (`tools/investigations/quest_items.md` lists
+them per quest); the ones that are *not* flagged as quest property but *are* consumed by a quest —
+logs for Jendrik, three apples and five berries for Agilo, ten meat for Tiaa, silver and iron ore
+through the pit, healing ointment for Larea, Basaltroot / Ruin Blossom / Mandragora for the herb
+hand-ins — get a guaranteed floor of pool copies on top of the ordinary once-each entry. The floor
+is a *floor*, not a budget — the ordinary weighted draw keeps adding more on top, so a big seed ends
+up with hundreds of logs and ore where a small one has the guaranteed fifteen. It ignores the price
+cap and rarity weighting the rest of the pool uses: a quest asking for seven of something does not
+care that it is expensive or rare. No locations are removed for this.
+
+Three dials, because they are three different decisions: `quest_item_supply` (default 8) for ordinary
+fetch materials, `permanent_herb_supply` (5) for the five herbs that are also permanent +1 stat
+raises, and `mandragora_supply` (7) for Mandragora, which sells for 100 gold. Set any of them to 0 to
+turn that floor off.
 
 By default (`suppress_vanilla_loot: true`) a randomized container hands you **only** the Archipelago
 item, the way most randomizers behave. Set it to `false` and a container gives you **both** its vanilla

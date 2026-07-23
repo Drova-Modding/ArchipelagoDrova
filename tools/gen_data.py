@@ -84,6 +84,73 @@ CHEST_SLOTS_SRC = os.path.join(REPO, "tools", "extracted", "chest_slots.json")
 # copies are intentionally redundant.
 ITEM_VALUES_SRC = os.path.join(REPO, "tools", "extracted", "item_values.json")
 
+# Vanilla loot frequency (tools/extract_locations/extract_loot_distribution.py): how many times a
+# full sweep of Drova hands the player each item, counted over world pickups, destroyable loot
+# tables, resource spots and authored container slots. Carried into items.json as `world_count` so
+# the apworld can weight its repeatable overflow the way the game weights its own loot instead of
+# drawing uniformly (which made a 5x stack of healing potions as likely as a handful of berries).
+LOOT_DIST_SRC = os.path.join(REPO, "tools", "extracted", "loot_distribution.json")
+
+# Items every quest/dialogue graph references (tools/extract_locations/extract_quest_items.py).
+# Quests routinely ask for things the game does NOT flag as quest property - logs for Jendrik's
+# woodpile, silver ore for half the prologue, mushrooms for "Missing". With suppression on, the
+# vanilla copies are gone, so the ONLY way to hand one over is to receive it from the pool. Rather
+# than pull those objects out of the location table (which costs checks and still leaves the item
+# unobtainable if nobody sends it), the pool guarantees a working supply of each: see
+# QUEST_SUPPLY_ITEM_IDS and the quest_supply flag carried into items.json.
+QUEST_ITEMS_SRC = os.path.join(REPO, "tools", "extracted", "quest_items.json")
+
+# Playtest additions. The graph sweep reads the item PPtrs a graph references, which misses any
+# hand-in whose item lives inside the compressed Odin node blob, and its "is this quest logic?"
+# filter only trusts DT_Quest_* / QuestGraph names. Both under-report, and playtesting found the
+# gaps - so these are listed by hand, with the quest that needs them. English names in comments
+# because that is how they come back from testers; ids resolved through Localization/en/Items_en.loc.
+# The floor is split into groups so the yaml can tune them apart: handing out ten logs and handing
+# out nine permanent +1 Strength herbs are not the same decision, and Mandragora is a 100-gold root
+# whose count testers want to match vanilla's eight. Anything flagged and not listed here is an
+# ordinary fetch material and follows the general quest_item_supply option.
+SUPPLY_GROUP_IDS = {
+    "permanent_herb": {
+        "item_permaherb_strength",  # Basaltroot
+        "item_permaherb_mind",      # Brainfood Plant
+        "item_permaherb_life",      # Hawthorne
+        "item_permaherb_skill",     # Cliff Lichen
+        "item_permaherb_flow",      # Luminous Bass
+    },
+    "mandragora": {"item_alraune"},
+}
+
+
+def supply_group(rid):
+    for group, ids in SUPPLY_GROUP_IDS.items():
+        if rid in ids:
+            return group
+    return "quest"
+
+
+QUEST_SUPPLY_EXTRA_IDS = {
+    "item_alraune",             # Mandragora - Henik, "Deep in the Swamp" (~7 in vanilla)
+    "item_ruinherb",            # Ruin Blossom - Aidan (its only graph is DT_PreApo_1_NPC_Aidan,
+                                #   which the DT_Quest_ name filter skipped)
+    "item_permaherb_strength",  # Basaltroot   - Aidan
+    "item_permaherb_mind",      # Brainfood Plant
+    "item_permaherb_life",      # Hawthorne
+    "item_permaherb_skill",     # Cliff Lichen
+    "item_permaherb_flow",      # Luminous Bass
+    "item_healthPlant_1",       # healing plants: testers ask for the higher tiers too
+    "item_healthPlant_2",
+    "item_meat_raw",            # ten meat for Tiaa (monster drops make this the easy one)
+    "item_ironore",             # "silver and iron" - the pit runs on both
+}
+
+# Coins. Drova has no separate money counter: Inventory.GetCurrencyFromInventory() looks up the
+# ItemStack whose Item carries ItemBhvr_ICurrency and reads its Amount, so money IS the
+# misc_currency stack in the bag and the client's ordinary AddItem grant path pays the player with
+# no special casing. Worth including precisely because coins are the single most common thing the
+# vanilla world drops (383 of ~4700 finds), so leaving them out skewed the whole distribution.
+# The purses are separate items that pay out a chunk when used.
+CURRENCY_IDS = {"misc_currency", "misc_bagOfCurrency", "misc_bagOfCurrency_big"}
+
 # Objects that report loot but carry no inventory component, so there is nothing to open and the
 # check could never be sent. Verified in game: Corpse_Stalker is not interactable, while
 # Critter_Crow (which does have Saveable_Inventory) loots fine. An unreachable location is worse
@@ -230,6 +297,56 @@ def _load_item_values():
 ITEM_VALUES = _load_item_values()
 
 
+def _load_quest_supply_items():
+    """Ordinary items a quest can consume, which the pool must therefore supply in usable numbers.
+
+    Two filters:
+      * ORDINARY only - anything the game already flags (IsQuestItem / quest category / Misc_Key) is
+        never suppressed in the first place, so the player keeps finding it in the world.
+      * referenced by quest logic - a DT_Quest_* dialogue or a QuestGraph. Ambient chatter
+        (DT_PreApo_*, DT_EntityInfo_*) mentions beer and torches constantly without consuming any.
+
+    Deliberately NOT filtered on shop availability: buying ten logs is a fallback, not a plan, and
+    the pool supply costs nothing but a few overflow slots. Items with no world presence drop out -
+    they are quest rewards handed over by an NPC, which suppression never touches.
+    """
+    if not os.path.exists(QUEST_ITEMS_SRC):
+        print("WARNING: %s missing - quest-critical ordinary items are unprotected" % QUEST_ITEMS_SRC)
+        return set()
+    with open(QUEST_ITEMS_SRC, encoding="utf-8") as fh:
+        data = json.load(fh)
+    ordinary = set(data.get("ordinary") or ())
+    referenced = set()
+    for name, graph in (data.get("graphs") or {}).items():
+        if not (name.startswith("DT_Quest_") or graph.get("kind") == "QuestGraph"):
+            continue
+        referenced.update(graph.get("items") or ())
+    world = set()
+    if os.path.exists(LOOT_DIST_SRC):
+        with open(LOOT_DIST_SRC, encoding="utf-8") as fh:
+            world = set((json.load(fh).get("totals") or {}))
+    # Coins are fungible - a quest that wants payment takes money earned anywhere - and the pool
+    # already hands currency out weighted by how much the world drops, so a floor would do nothing.
+    return ((ordinary & referenced & world) | QUEST_SUPPLY_EXTRA_IDS) - CURRENCY_IDS
+
+
+QUEST_SUPPLY_ITEM_IDS = _load_quest_supply_items()
+
+
+def _load_world_counts():
+    """readable id -> expected number of vanilla finds across the whole map (see LOOT_DIST_SRC)."""
+    if not os.path.exists(LOOT_DIST_SRC):
+        print("WARNING: %s missing - every item gets world_count 0 and the apworld falls back to "
+              "an unweighted overflow draw" % LOOT_DIST_SRC)
+        return {}
+    with open(LOOT_DIST_SRC, encoding="utf-8") as fh:
+        totals = json.load(fh).get("totals") or {}
+    return {rid: round(rec.get("count", 0.0), 2) for rid, rec in totals.items()}
+
+
+WORLD_COUNTS = _load_world_counts()
+
+
 def is_quest_valued(rid):
     """The game's own Item.IsQuestItem: buy == 0 && sell == 0. Unknown ids count as sellable,
     because excluding something we have no data for is the risky direction (pool-only loss)."""
@@ -242,6 +359,33 @@ def is_quest_valued(rid):
 # of the Viper) are Armor_Trinket - equippable accessories with passive effects.
 SUB_ARMOR_EQUIP = {12, 13, 14, 15}   # Armor_Helmet / Armor_Trinket / Armor_Quiver / Armor_Bag
 SUB_MISC_KEY = 24                    # Misc_Key: glyph stones, seal stones, quest-gate props
+SUB_CONSUMABLE_FOOD = 17             # cooked meals and drinks - recipe outputs, not world drops
+
+# The prefix rules below cover the id families Drova actually uses for gear, keys and consumables,
+# but a handful of items sit on one-off prefixes their author never reused - tool_torch,
+# consumable_potion_darkbrew_healing, throwing_knife/throwing_ensnare, quiver_simple_name,
+# ring_aldo_name. Nothing about them is special: the loot-distribution sweep finds torches 36 times
+# and darkbrew potions 25, more than most things already in the pool. So instead of adding a prefix
+# rule per straggler, unmatched ids fall through to the authored subcategory, which is the real
+# taxonomy anyway. The value sets are read off what the prefix rules already accept.
+SUB_FALLBACK_FILLER = {
+    16,   # Consumable_Potion        potions, brews, salves
+    17,   # Consumable_Food          cooked meals, drinks
+    18,   # Consumable_Plant         herbs, health/flow plants
+    19,   # Consumable_Raw           fish, raw meat
+    21,   # Misc_Material            animal parts, trophies, coins, ore
+    22,   # Misc_Gatherable          apples, eggs, honey, mushrooms
+    27,   # Consumable_Custom        single-use flow scrolls
+    34,   # Consumable_Throwable     throwing knives, bombs, traps, torches
+}
+SUB_FALLBACK_USEFUL = SUB_ARMOR_EQUIP | {SUB_MISC_KEY}
+
+# Fallback exclusions - things whose subcategory says "ordinary loot" but which must stay vanilla:
+#   riddle offerings gate the riddle doors the rune randomizer works with (Misc_Material by
+#     subcategory, keys in everything but name),
+#   the AI heal potion is NPC-only (buy 0 / sell 1, so the quest-value test does not catch it).
+FALLBACK_EXCLUDE_PREFIXES = ("misc_riddle_",)
+FALLBACK_EXCLUDE_IDS = {"consumable_potion_aiheal"}
 
 
 def item_subcategory(rid):
@@ -279,9 +423,10 @@ def classify(rid):
         # Internal intro prop: it has no localization at all (renders as "Id: weapon_axe_..."),
         # the real player pickaxe is tool_pickaxe_silberhauer below.
         return None, False
-    if rid.startswith("tool_"):
+    if rid.startswith("tool_pickaxe"):
         # Minigame tools. Only the Silver Smasher (the sturdy pickaxe Merik sells) is worth
-        # granting; the broken variant is a quest prop and the torch is ambient equipment.
+        # granting; the broken variant is a quest prop. tool_torch is not handled here - it is an
+        # ordinary throwable-category consumable and reaches the subcategory fallback below.
         return ("useful", True) if rid == "tool_pickaxe_silberhauer" else (None, False)
     if rid.startswith("weapon_"):
         if is_quest_valued(rid):
@@ -315,6 +460,19 @@ def classify(rid):
         if item_subcategory(rid) == SUB_MISC_KEY:
             return "useful", True
         return "filler", True
+    # Everything else: trust the authored subcategory rather than the id prefix (see
+    # SUB_FALLBACK_* above). Same sellability gate as the prefix rules - a zero-value item is
+    # quest property by the game's own definition.
+    if rid in CURRENCY_IDS:
+        return "filler", True
+    if rid.startswith(FALLBACK_EXCLUDE_PREFIXES) or rid in FALLBACK_EXCLUDE_IDS:
+        return None, False
+    if not is_quest_valued(rid):
+        sub = item_subcategory(rid)
+        if sub in SUB_FALLBACK_USEFUL:
+            return "useful", True
+        if sub in SUB_FALLBACK_FILLER:
+            return "filler", True
     return None, False
 
 
@@ -325,15 +483,26 @@ def classify(rid):
 # readable id; the amount is a client-side grant quantity only (the apworld ignores it, so changing it
 # never renumbers ids or affects generation). Tune the sizes and token lists freely.
 #
-# Only the item_ namespace holds stackable consumables; abilities (flow_/cons_flow_), gear (weapon_/
-# armor_/helmet_), keys, recipes and maps (misc_) are other prefixes and always grant one. This prefix
-# gate also stops "arrow" catching the flow_poisonArrow ability.
+# Stacking is gated to the consumable namespaces: item_ plus the three one-off prefixes the
+# subcategory fallback in classify() lets through (tool_torch, throwing_knife/throwing_ensnare,
+# consumable_potion_darkbrew_healing - all ordinary consumables their author happened to name
+# differently). Abilities (flow_/cons_flow_), gear (weapon_/armor_/helmet_), keys, recipes and maps
+# (misc_) always grant one; the gate is also what stops "arrow" catching the flow_poisonArrow ability.
 # NO_STACK wins first, for collisions left inside item_: perma* items are permanent one-time
 # upgrades (permapotion/permaherb) that must stay at 1 even though they contain "potion"/"herb".
 # "extract" keeps item_callashroom_extract (a My Very Own Talisman quest ingredient that
 # "callashroom" would stack to 5) a single-unit grant; at amount 1 it also drops out of the
 # repeatable consumable-chunk bonus pool, so a seed hands out at most one.
-NO_STACK_TOKENS = ("perma", "respec", "extract")
+# "alraune" (Mandragora) is a rare quest root worth 100 gold and quests count it one at a time, so a
+# grant hands over exactly one - which also keeps the mandragora_supply option honest: N means N.
+NO_STACK_TOKENS = ("perma", "respec", "extract", "alraune")
+
+STACKABLE_PREFIXES = ("item_", "tool_torch", "throwing_", "consumable_", "misc_currency")
+
+# Coins per misc_currency grant. Vanilla drops 2638 coins over 383 finds (~7 a pile); 10 keeps the
+# pool's total payout in the same order as the world's once the draw weights are applied. The purses
+# are single items that pay out on use, so they stay at 1.
+CURRENCY_STACK = 10
 
 # Vanilla-rare consumables that must not be ordinary spammable filler: they get useful
 # classification (one guaranteed pool copy, never on excluded locations) and, via NO_STACK above,
@@ -343,26 +512,41 @@ STACK_RULES = (
     # (amount, tokens) - first matching rule wins. Tokens are substrings of the lowercased id.
     (20, ("arrow", "bolt")),
     (10, ("throwingknife", "throwingaxe", "splittertrap")),
+    # throwing_knife / throwing_ensnare: the underscore keeps them out of the "throwingknife" token
+    # above, and vanilla drops them in 2-3s, so they sit with the other thrown traps rather than
+    # with the 10-packs.
     (5, ("potion", "salve")),
     # Crafting ore and utility explosives, so the bonus pool can hand them out in useful chunks.
     # "bomb" also catches item_troutskewersbombus (a food); 3 skewers is fine.
-    (5, ("ironstone", "silverstone")),
-    (3, ("bomb", "trap")),
+    (5, ("ironstone", "silverstone", "silverore", "ironore", "logwood")),
+    (3, ("bomb", "trap", "throwing_")),
     (5, ("meat", "fish_", "food", "mushroom", "callashroom", "healthplant", "flowplant",
          "berry", "bread", "cheese", "herb", "plant")),
 )
 
 
+# Gatherables, plants, raw food and cooked food stack even when no token matches: apples,
+# earthroot, bogwheat and povage are picked by the handful in vanilla exactly like the mushrooms and
+# berries the tokens already catch, and a one-apple grant is not a reward. Materials (sub 21: claws,
+# furs, ore, coins) stay out - a stack of five bear claws is a very different thing.
+SUB_STACKABLE = {17, 18, 19, 22}
+SUB_STACK_AMOUNT = 5
+
+
 def stack_amount(rid):
-    """How many units one AP grant of this item hands over. 1 for everything but item_ consumables."""
-    if not rid.startswith("item_"):
+    """How many units one AP grant of this item hands over. 1 for everything but consumables."""
+    if not rid.startswith(STACKABLE_PREFIXES):
         return 1
     low = rid.lower()
+    if rid == "misc_currency":
+        return CURRENCY_STACK
     if any(t in low for t in NO_STACK_TOKENS):
         return 1
     for amount, tokens in STACK_RULES:
         if any(t in low for t in tokens):
             return amount
+    if item_subcategory(rid) in SUB_STACKABLE:
+        return SUB_STACK_AMOUNT
     return 1
 
 
@@ -428,6 +612,19 @@ def build_items(readable_ids):
             # The game's own sell price, so the apworld can tell actual junk from rare valuables
             # (a Tooth of the Viper sells for 100, a plain Feather for 1) without re-deriving it.
             "sell": (ITEM_VALUES.get(rid) or {}).get("sell", 0),
+            # How often vanilla Drova actually gives this item out; 0 for anything the world never
+            # drops (shop-only gear, quest rewards, recipes). The apworld's repeatable overflow is
+            # drawn with these as weights.
+            "world_count": WORLD_COUNTS.get(rid, 0.0),
+            # A quest can ask the player to hand this over, and it is not quest-flagged, so
+            # suppression removes every vanilla copy. The apworld guarantees pool copies of these.
+            "quest_supply": rid in QUEST_SUPPLY_ITEM_IDS,
+            # Cooked food (Consumable_Food) is a recipe output the player makes at a fire, so the
+            # world never drops it and world_count is 0 - which would freeze it at a single pool
+            # copy. The apworld gives this a flat nominal draw weight instead so it can repeat.
+            "cooked_food": classification == "filler" and item_subcategory(rid) == SUB_CONSUMABLE_FOOD,
+            # Which yaml option sizes this item's floor (see SUPPLY_GROUP_IDS).
+            "supply_group": supply_group(rid) if rid in QUEST_SUPPLY_ITEM_IDS else "",
         })
     for name, kind, key, amount, classification in SYNTHETIC:
         items.append({
@@ -437,6 +634,10 @@ def build_items(readable_ids):
             "amount": amount,
             "classification": classification,
             "sell": 0,
+            "world_count": 0.0,
+            "quest_supply": False,
+            "supply_group": "",
+            "cooked_food": False,
         })
 
     names = [i["name"] for i in items]
@@ -873,6 +1074,7 @@ def write_cs(items):
         )
     lines += [
         "        };",
+
         "    }",
         "}",
         "",
@@ -900,6 +1102,14 @@ def main():
     print("items generated   : %d  (id %d..%d)" % (len(items), min(item_ids), max(item_ids)))
     for key, count in sorted(tally(items, "classification").items()):
         print("  %-12s %4d" % (key, count))
+    supply = [i for i in items if i.get("quest_supply")]
+    groups = tally(supply, "supply_group")
+    print("  %-12s %4d  (quest-consumable ordinary items; the pool guarantees copies: %s)"
+          % ("quest_supply", len(supply),
+             ", ".join("%s=%d" % kv for kv in sorted(groups.items()))))
+    with_world = [i for i in items if i.get("world_count")]
+    print("  %-12s %4d  (vanilla loot frequency known; total %.0f finds)"
+          % ("world_count", len(with_world), sum(i["world_count"] for i in with_world)))
 
     print("wrote %s" % write_json(items, "items.json"))
     print("wrote %s" % write_cs(items))

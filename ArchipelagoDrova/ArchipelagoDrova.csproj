@@ -543,7 +543,7 @@
 	<PropertyGroup>
 		<RepoRoot>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\..'))</RepoRoot>
 		<!-- Keep in sync with apworld/drova/archipelago.json "world_version". -->
-		<ReleaseVersion Condition="'$(ReleaseVersion)' == ''">0.3.0</ReleaseVersion>
+		<ReleaseVersion Condition="'$(ReleaseVersion)' == ''">0.4.0</ReleaseVersion>
 		<ApWorldFile>$(RepoRoot)\drova.apworld</ApWorldFile>
 		<ReleaseStageDir>$(MSBuildProjectDirectory)\obj\release-stage\</ReleaseStageDir>
 		<ApStageDir>$(MSBuildProjectDirectory)\obj\release-stage-ap\</ApStageDir>

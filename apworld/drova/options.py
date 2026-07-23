@@ -235,6 +235,66 @@ class TalentLearnChecks(Range):
     default = 0
 
 
+class QuestItemSupply(Range):
+    """
+    How many units of each quest-needed ordinary item the pool guarantees.
+
+    Drova has plenty of fetch quests that ask for things the game does not mark as quest property:
+    logs for Jendrik, three apples and five berries for Agilo, ten meat for Tiaa, silver ore through
+    the whole pit, healing ointment for Larea, Basaltroot / Ruin Blossom / Mandragora for the herb
+    hand-ins. With suppress_vanilla_loot on, the world stops handing those out, so the pool has to.
+
+    This is the floor per item, on top of the single copy every distinct item already gets, and it is
+    a minimum rather than a budget: common things still show up far more often through the ordinary
+    weighted loot draw. It only applies once a seed has more locations than distinct items.
+
+    0 disables the floor entirely.
+    """
+
+    display_name = "Quest Item Supply"
+
+    range_start = 0
+    range_end = 20
+    default = 8
+
+
+class PermanentHerbSupply(Range):
+    """
+    How many of each permanent stat herb the pool guarantees.
+
+    Basaltroot, Brainfood Plant, Hawthorne, Cliff Lichen and Luminous Bass are quest hand-ins AND
+    permanent +1 stat raises, so this is a power dial as much as a supply one: N here is up to +N to
+    five different stats on top of the seed's ordinary +1 attribute rewards. Vanilla places about
+    five of each.
+
+    Separate from Quest Item Supply so a generous stock of logs and ore does not have to mean a
+    generous stock of permanent stats. 0 leaves them as ordinary once-each items.
+    """
+
+    display_name = "Permanent Herb Supply"
+
+    range_start = 0
+    range_end = 20
+    default = 5
+
+
+class MandragoraSupply(Range):
+    """
+    How many Mandragora the pool guarantees.
+
+    Henik's swamp questline asks for them, and vanilla grows eight - as Alraune creatures you kill,
+    not pickups, which is why the randomizer never suppresses the vanilla ones. This is a top-up on
+    a supply that already exists, so it can safely sit low; it has its own dial because a Mandragora
+    sells for 100 gold and a large stock is real money.
+    """
+
+    display_name = "Mandragora Supply"
+
+    range_start = 0
+    range_end = 20
+    default = 7
+
+
 class ConsumableStackSize(Choice):
     """
     How many units one consumable Archipelago item grants in-game.
@@ -279,6 +339,9 @@ class DrovaOptions(PerGameCommonOptions):
     talent_learn_checks: TalentLearnChecks
     suppress_vanilla_loot: SuppressVanillaLoot
     consumable_stack_size: ConsumableStackSize
+    quest_item_supply: QuestItemSupply
+    permanent_herb_supply: PermanentHerbSupply
+    mandragora_supply: MandragoraSupply
     death_link: DeathLink
 
 
@@ -289,7 +352,8 @@ option_groups = [
     ),
     OptionGroup(
         "Gameplay",
-        [SuppressVanillaLoot, ConsumableStackSize, RandomizeTeleporters, RandomizeRunes, StartWithTools],
+        [SuppressVanillaLoot, ConsumableStackSize, QuestItemSupply, PermanentHerbSupply, MandragoraSupply,
+         RandomizeTeleporters, RandomizeRunes, StartWithTools],
     ),
     OptionGroup(
         "Location Pool",

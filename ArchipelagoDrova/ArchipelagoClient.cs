@@ -862,6 +862,34 @@ namespace ArchipelagoDrova
             return id != -1 && _activeLocationIds.Contains(id);
         }
 
+        /// <summary>
+        /// True once this location's check has been sent. Suppression uses it to leave an already-looted
+        /// container alone: the AP item is long since granted, so anything inside it now is the player's
+        /// own - stashed there, or transferred by a cutscene - and re-stripping would eat it.
+        ///
+        /// The local store, not the server: it is persisted per save and re-sent on every connect, so it
+        /// is authoritative even offline, and the check must not depend on being connected.
+        /// </summary>
+        public bool IsLocationChecked(string apLocationName)
+        {
+            if (_session == null || string.IsNullOrEmpty(apLocationName))
+            {
+                return false;
+            }
+
+            long id;
+            try
+            {
+                id = _session.Locations.GetLocationIdFromName(GameName, apLocationName);
+            }
+            catch
+            {
+                return false;
+            }
+
+            return id != -1 && store.State.CheckedLocations.Contains(id);
+        }
+
         private void RefreshLocationCounts()
         {
             try

@@ -278,6 +278,12 @@ namespace ArchipelagoDrova
             return _client != null && _client.IsLocationActiveInSeed(apName);
         }
 
+        /// <summary>True once the check has been sent; see ArchipelagoClient.IsLocationChecked.</summary>
+        public static bool IsLocationChecked(string apName)
+        {
+            return _client != null && _client.IsLocationChecked(apName);
+        }
+
         /// <summary>
         /// True when this behaviour belongs to an object that is an AP location, with its name.
         /// Shared with the loot suppressor, which must only ever touch randomized containers.

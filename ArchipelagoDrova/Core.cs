@@ -5,7 +5,7 @@ using Il2CppDrova;
 using Il2CppDrova.Saveables;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(ArchipelagoDrova.Core), "ArchipelagoDrova", "0.3.0", "TrustNoOneElse")]
+[assembly: MelonInfo(typeof(ArchipelagoDrova.Core), "ArchipelagoDrova", "0.4.0", "TrustNoOneElse")]
 [assembly: MelonGame("Just2D", "Drova")]
 [assembly: MelonAdditionalDependencies("Drova_Modding_API")]
 

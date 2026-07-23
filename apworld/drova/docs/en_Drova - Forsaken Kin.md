@@ -58,7 +58,13 @@ Anything Drova has that can be handed to you:
 - **Consumables, recipes and quest items**
 - **Experience Boosts** (tiered from +5 to +1000 XP) and **Learning Points** (+1/+2/+5)
 - **Permanent stat raises**: +1 Strength / Dexterity / Mind and +5 max health, capped at ten each per seed
-- **Bonus rewards** padding large pools: consumable chunks, animal trophies, coins and junk
+- **Bonus rewards** padding large pools: ordinary world loot — mushrooms, berries, logs, ore,
+  arrows, animal parts — handed out at the same frequencies vanilla Drova drops them, so rare
+  things like high-tier healing potions stay rare
+- **Quest supplies**: anything a quest can ask you to hand over (logs, silver ore, herbs, food,
+  a torch) is guaranteed in the pool in usable numbers, not just once
+- **Cooked food** (Fishpan, Fogstew, Rootstew and the rest) is a recipe output the world never
+  drops, so it gets a flat repeatable rate rather than appearing exactly once per seed
 
 ## What does another world's item look like in Drova?
 
