@@ -178,7 +178,7 @@ so the riddles are solvable the intended way, just not from memory.
 junk spear so the mining and fishing minigames (and their checks under `randomize_resources`)
 are available from the start.
 
-**Allow all items** (`all_items`, off by default): adds the 182 items the pool normally holds back
+**Allow all items** (`all_items`, off by default): adds the 185 items the pool normally holds back
 to the loot table. Drova marks a lot of real equipment as quest property (its buy *and* sell price
 are both zero), so the generator keeps it out by default to avoid handing you story gear early:
 crafted and NPC armour sets, quest-gate props (seals, fragments, keys-in-all-but-name) and the
@@ -213,9 +213,10 @@ feathers, with healing potions about as rare as they are in the game (~2% of fin
 uniform pick that made a 5x stack of tier-1 potions as likely as a handful of berries. Items the
 world never drops, and anything worth more than 30, stay once-each and are never handed out in bulk.
 
-`all_items` adds a further **182** items that Drova flags as quest property (crafted/NPC armour,
-quest-gate props, lore notes); they live in the datapackage either way but are placed once each,
-and only when the option is on.
+`all_items` adds a further **185** items that Drova flags as quest property (crafted/NPC armour, the
+seal/glyph door-key stones, lore notes); they live in the datapackage either way but are placed once
+each, and only when the option is on. The seal/glyph stones are never suppressed in the world, so you
+can always find them normally — the pool copy is just extra, which is why they are opt-in.
 
 **Goal**: reach the outro. Dying does not route through the outro, so it cannot trigger a false goal.
 

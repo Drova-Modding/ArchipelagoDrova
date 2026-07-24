@@ -500,7 +500,7 @@ namespace ArchipelagoDrova.Data
             { "Item Silverringstrength 1", new ItemGrant(GrantKind.Item, "item_silverringstrength_1", 1) },
             { "Item Silverringstrength 2", new ItemGrant(GrantKind.Item, "item_silverringstrength_2", 1) },
             { "Item Skulldew", new ItemGrant(GrantKind.Item, "item_skulldew", 5) },
-            { "Item Slingermunition", new ItemGrant(GrantKind.Item, "item_slingermunition", 1) },
+            { "Item Slingermunition", new ItemGrant(GrantKind.Item, "item_slingermunition", 20) },
             { "Item Spider Thread", new ItemGrant(GrantKind.Item, "item_spider_thread", 5) },
             { "Item SpiritVessel GreatTusk", new ItemGrant(GrantKind.Item, "item_spiritVessel_greatTusk", 1) },
             { "Item Spiritamulet 0", new ItemGrant(GrantKind.Item, "item_spiritamulet_0", 1) },

@@ -380,6 +380,13 @@ SUB_FALLBACK_FILLER = {
 }
 SUB_FALLBACK_USEFUL = SUB_ARMOR_EQUIP | {SUB_MISC_KEY}
 
+# Seal and glyph "signet" stones. These gate the seal/glyph doors and the loot suppressor never
+# strips their vanilla copies, so you can always find them in the world - a base-pool copy is
+# redundant and, worse, hands out a door key as ordinary loot. Kept out of the base pool and made
+# extended-only (all_items / carnage). The other Misc_Key items (lockpicks, map ink, crafting
+# materials, quest props) stay ordinary pool items; only these three stones are pulled.
+SIGNET_STONE_IDS = {"item_redGlyphStone", "item_yellowGlyphStone", "item_sealstone_past"}
+
 # Fallback exclusions - things whose subcategory says "ordinary loot" but which must stay vanilla:
 #   riddle offerings gate the riddle doors the rune randomizer works with (Misc_Material by
 #     subcategory, keys in everything but name),
@@ -407,6 +414,9 @@ def classify(rid):
     intentionally redundant with the never-suppressed vanilla ones.
     """
     if is_junk(rid):
+        return None, False
+    # Seal/glyph door-key stones are extended-only (see SIGNET_STONE_IDS); never in the base pool.
+    if rid in SIGNET_STONE_IDS:
         return None, False
     if rid in RARE_USEFUL_IDS:
         return "useful", True
@@ -508,6 +518,11 @@ def classify_extended(rid):
     if rid.startswith(FALLBACK_EXCLUDE_PREFIXES) or rid in FALLBACK_EXCLUDE_IDS:
         # Riddle offerings gate doors the rune randomizer works with; the AI heal is NPC-only.
         return None, False
+    # Seal/glyph "signet" stones: base classify() excludes them, and they are the point of the
+    # narrow SIGNET_STONE_IDS list. Caught before the quest-value gate because the glyph stones sell
+    # for 150 (not quest-valued) and would otherwise fall through to exclusion.
+    if rid in SIGNET_STONE_IDS:
+        return "useful", True
     if not is_quest_valued(rid):
         # Not quest property - classify() excluded it for some other reason, so leave it out.
         return None, False
@@ -571,7 +586,9 @@ CURRENCY_STACK = 10
 RARE_USEFUL_IDS = {"item_potion_respec"}
 STACK_RULES = (
     # (amount, tokens) - first matching rule wins. Tokens are substrings of the lowercased id.
-    (20, ("arrow", "bolt")),
+    # "slinger" is the sling's ammunition (item_slingermunition): ammo like arrows/bolts, not the
+    # sling weapon itself (weapon_sling_*, which is not a stackable prefix and never reaches here).
+    (20, ("arrow", "bolt", "slinger")),
     (10, ("throwingknife", "throwingaxe", "splittertrap")),
     # throwing_knife / throwing_ensnare: the underscore keeps them out of the "throwingknife" token
     # above, and vanilla drops them in 2-3s, so they sit with the other thrown traps rather than
@@ -678,6 +695,10 @@ def build_items(readable_ids):
             extended = include
         if not include:
             continue
+        # The quest-supply floor exists to replace vanilla copies suppression removes. The seal/glyph
+        # signet stones are never suppressed, so their vanilla copies are always obtainable and the
+        # floor would just leak these extended-only items back into the base pool.
+        quest_supply = rid in QUEST_SUPPLY_ITEM_IDS and rid not in SIGNET_STONE_IDS
         items.append({
             "name": pretty(rid),
             "readable_id": rid,
@@ -695,13 +716,13 @@ def build_items(readable_ids):
             "world_count": WORLD_COUNTS.get(rid, 0.0),
             # A quest can ask the player to hand this over, and it is not quest-flagged, so
             # suppression removes every vanilla copy. The apworld guarantees pool copies of these.
-            "quest_supply": rid in QUEST_SUPPLY_ITEM_IDS,
+            "quest_supply": quest_supply,
             # Cooked food (Consumable_Food) is a recipe output the player makes at a fire, so the
             # world never drops it and world_count is 0 - which would freeze it at a single pool
             # copy. The apworld gives this a flat nominal draw weight instead so it can repeat.
             "cooked_food": classification == "filler" and item_subcategory(rid) == SUB_CONSUMABLE_FOOD,
             # Which yaml option sizes this item's floor (see SUPPLY_GROUP_IDS).
-            "supply_group": supply_group(rid) if rid in QUEST_SUPPLY_ITEM_IDS else "",
+            "supply_group": supply_group(rid) if quest_supply else "",
         })
     for name, kind, key, amount, classification in SYNTHETIC:
         items.append({

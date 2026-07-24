@@ -509,7 +509,10 @@
 	     whereas a non-Melon DLL in Mods/ is skipped by the preprocessor.
 	     Newtonsoft.Json is deliberately NOT deployed - MelonLoader/net6 already supplies 13.0.4,
 	     which wins resolution by filename and satisfies the AP client's v11 reference. -->
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	<!-- SkipDeploy=true skips only the copy into the game folder (useful for building a release while
+	     Drova is running and holding a lock on Mods/ArchipelagoDrova.dll). References still resolve
+	     against the real $(GamePath), and the release packaging below is unaffected. -->
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(SkipDeploy)' != 'true'">
 		<MakeDir Directories="$(GamePath)/UserLibs" />
 		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GamePath)/Mods" />
 		<Copy SourceFiles="$(TargetDir)Archipelago.MultiClient.Net.dll" DestinationFolder="$(GamePath)/UserLibs" />

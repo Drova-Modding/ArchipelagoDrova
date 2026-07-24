@@ -6135,7 +6135,7 @@
   "amount": 1,
   "classification": "useful",
   "cooked_food": false,
-  "extended": false,
+  "extended": true,
   "id": 4762466,
   "kind": "Item",
   "name": "Item RedGlyphStone",
@@ -6527,14 +6527,14 @@
   "amount": 1,
   "classification": "useful",
   "cooked_food": false,
-  "extended": false,
+  "extended": true,
   "id": 4762494,
   "kind": "Item",
   "name": "Item Sealstone Past",
-  "quest_supply": true,
+  "quest_supply": false,
   "readable_id": "item_sealstone_past",
   "sell": 150,
-  "supply_group": "quest",
+  "supply_group": "",
   "world_count": 5.0
  },
  {
@@ -6902,7 +6902,7 @@
   "world_count": 44.0
  },
  {
-  "amount": 1,
+  "amount": 20,
   "classification": "filler",
   "cooked_food": false,
   "extended": false,
@@ -7353,14 +7353,14 @@
   "amount": 1,
   "classification": "useful",
   "cooked_food": false,
-  "extended": false,
+  "extended": true,
   "id": 4762552,
   "kind": "Item",
   "name": "Item YellowGlyphStone",
-  "quest_supply": true,
+  "quest_supply": false,
   "readable_id": "item_yellowGlyphStone",
   "sell": 150,
-  "supply_group": "quest",
+  "supply_group": "",
   "world_count": 1.0
  },
  {
