@@ -155,9 +155,51 @@ class RandomizeTeleporters(Toggle):
     shuffled: the Red Tower, the Library, both factions' home interiors, and quest dungeons keep
     their vanilla connections, and every shuffled entrance is reachable on foot, so this changes
     exploration without adding any logic requirements.
+
+    Ignored when Carnage Mode is on, which shuffles every pairable gate instead.
     """
 
     display_name = "Randomize Teleporters"
+
+
+class AllItems(Toggle):
+    """
+    Put every grantable item into the pool, including the ones normally held back.
+
+    Drova marks a lot of real equipment as quest property (its buy and sell price are both zero),
+    and the generator normally keeps those out so a check can never hand you story gear early:
+    crafted and NPC armour sets, quest-gate props (seals, fragments, keys-in-all-but-name) and the
+    world's lore notes and letters. Turning this on adds all of them to the loot pool, so you can
+    find a spare armour set or a bundle you would otherwise only get from a quest.
+
+    Genuinely unusable entries are still excluded either way - creature ability "weapons", boss
+    ability scrolls, cosmetics and authoring leftovers - because they only show up as dead weight in
+    the bag. This never changes logic (the world has almost none); it only widens what can drop.
+    """
+
+    display_name = "Allow All Items"
+
+
+class Carnage(Toggle):
+    """
+    Maximum chaos, and the seed is allowed to break.
+
+    Three things happen at once, each overriding its normal safety rail:
+      - Every pairable cave gate is shuffled, not just the 36 safe ones - faction interiors, quest
+        dungeons and the rest are all in the pool. Links stay two-way so you can always walk back,
+        but an entrance can now drop you somewhere the story never meant you to reach.
+      - Vanilla loot suppression is forced on, and its protections are dropped: keys, quest items,
+        energy crystals and riddle offerings are stripped from randomized containers along with
+        everything else. Only the item's authored vanilla contents are removed, so anything you (or
+        a cutscene) stashed in a chest is still safe - but a key can now be locked behind its own
+        door, which is exactly the soft-lock the normal mode avoids.
+
+    Because progression items can end up unreachable in the world, a Carnage seed may not be
+    completable solo without other players sending those items. Turn it on for the spectacle, not
+    for a guaranteed finish. Does not force Allow All Items - that stays a separate switch.
+    """
+
+    display_name = "Carnage Mode"
 
 
 class EnemyKillChecks(Range):
@@ -331,6 +373,8 @@ class DrovaOptions(PerGameCommonOptions):
     randomize_muggings: RandomizeMuggings
     randomize_teleporters: RandomizeTeleporters
     randomize_runes: RandomizeRunes
+    all_items: AllItems
+    carnage: Carnage
     start_with_tools: StartWithTools
     enemy_kill_checks: EnemyKillChecks
     enemy_kill_interval: EnemyKillInterval
@@ -353,7 +397,7 @@ option_groups = [
     OptionGroup(
         "Gameplay",
         [SuppressVanillaLoot, ConsumableStackSize, QuestItemSupply, PermanentHerbSupply, MandragoraSupply,
-         RandomizeTeleporters, RandomizeRunes, StartWithTools],
+         RandomizeTeleporters, RandomizeRunes, AllItems, Carnage, StartWithTools],
     ),
     OptionGroup(
         "Location Pool",

@@ -476,6 +476,67 @@ def classify(rid):
     return None, False
 
 
+def classify_extended(rid):
+    """Classification for the all_items pool: real items classify() drops ONLY because they are
+    quest property (buy == 0 && sell == 0).
+
+    Runs solely for ids classify() already excluded, and adds back the gear/consumable families -
+    crafted and NPC armour, quest-gate props, lore notes, the odd recipe. Everything classify()
+    drops for a structural reason (junk tokens, creature abilities, cosmetics, empty crystals,
+    riddle offerings, the NPC heal, broken props) stays out: those only ever show up as dead weight
+    in the bag, so widening the pool to include them would not be "more loot", just noise.
+
+    Returns (classification, include). Items reached here are quest-valued by definition, so the
+    is_quest_valued gate that stopped them in classify() is simply not applied.
+    """
+    if is_junk(rid):
+        return None, False
+    if rid in FLOW_EXCLUDE:
+        return None, False
+    if rid.startswith(("hair_", "beard_", "deco", "template_", "test_", "mock_", "skin_")):
+        return None, False
+    if rid == "weapon_axe_improvisedpickaxe":
+        return None, False
+    if rid.startswith("tool_pickaxe"):
+        # Only the Silver Smasher is grantable; the broken variant is a quest prop. (The Silver
+        # Smasher is sellable, so it is already in the base pool and never reaches here.)
+        return None, False
+    if rid.startswith("item_energycrystal_"):
+        # Empty crystals are the pre-quest state, charged ones are already progression in the base
+        # pool - neither belongs in the extended top-up.
+        return None, False
+    if rid.startswith(FALLBACK_EXCLUDE_PREFIXES) or rid in FALLBACK_EXCLUDE_IDS:
+        # Riddle offerings gate doors the rune randomizer works with; the AI heal is NPC-only.
+        return None, False
+    if not is_quest_valued(rid):
+        # Not quest property - classify() excluded it for some other reason, so leave it out.
+        return None, False
+
+    if rid.startswith("weapon_"):
+        parts = rid.split("_")
+        return ("useful", True) if len(parts) > 1 and parts[1] in PLAYER_WEAPON_TYPES else (None, False)
+    if rid.startswith("armor_") or rid.startswith("helmet_"):
+        return "useful", True
+    if rid.startswith("recipe_flow_"):
+        return "useful", True
+    if rid.startswith("cons_") or rid.startswith("recipe_"):
+        return "filler", True
+    if rid.startswith("item_"):
+        if item_subcategory(rid) in SUB_ARMOR_EQUIP:
+            return "useful", True
+        if rid.startswith(("item_permapotion_", "item_permaherb_")):
+            return "useful", True
+        if item_subcategory(rid) == SUB_MISC_KEY:
+            return "useful", True
+        return "filler", True
+    sub = item_subcategory(rid)
+    if sub in SUB_FALLBACK_USEFUL:
+        return "useful", True
+    if sub in SUB_FALLBACK_FILLER:
+        return "filler", True
+    return None, False
+
+
 # --- Consumable stack sizes ----------------------------------------------------------------------
 # Every pool item grants exactly one unit by default. That cripples ammo and consumables: a vanilla
 # chest stack of 20 arrows becomes a single arrow, so suppression makes them far scarcer than vanilla.
@@ -589,7 +650,14 @@ def assign_ids(keys, frozen, base):
 
 def load_readable_ids():
     if not os.path.exists(READABLE_IDS):
-        sys.exit("readable_ids.txt not found at %s" % READABLE_IDS)
+        # Fallback for regenerating the item table without the game installed: item_values.json is
+        # committed and its keys are the same readable-id universe (verified to reproduce the shipped
+        # item set exactly). The canonical source is still readable_ids.txt when the game is present.
+        if ITEM_VALUES:
+            print("WARNING: %s not found - deriving readable ids from committed item_values.json"
+                  % READABLE_IDS)
+            return sorted(ITEM_VALUES.keys())
+        sys.exit("readable_ids.txt not found at %s (and item_values.json is empty)" % READABLE_IDS)
     with open(READABLE_IDS, encoding="utf-8", errors="replace") as fh:
         ids = [line.strip() for line in fh if line.strip()]
     if len(ids) != len(set(ids)):
@@ -601,6 +669,13 @@ def build_items(readable_ids):
     items = []
     for rid in sorted(readable_ids):
         classification, include = classify(rid)
+        # Items the base pool excludes only for being quest property are added to the datapackage
+        # anyway (they need frozen ids) but flagged extended, so the apworld places them solely
+        # when all_items is on. Genuine junk (creature abilities, cosmetics) stays fully excluded.
+        extended = False
+        if not include:
+            classification, include = classify_extended(rid)
+            extended = include
         if not include:
             continue
         items.append({
@@ -609,6 +684,8 @@ def build_items(readable_ids):
             "kind": "Item",
             "amount": stack_amount(rid),
             "classification": classification,
+            # Only placed when the all_items option is on (see apworld/drova/items.py).
+            "extended": extended,
             # The game's own sell price, so the apworld can tell actual junk from rare valuables
             # (a Tooth of the Viper sells for 100, a plain Feather for 1) without re-deriving it.
             "sell": (ITEM_VALUES.get(rid) or {}).get("sell", 0),
@@ -633,6 +710,7 @@ def build_items(readable_ids):
             "kind": kind,
             "amount": amount,
             "classification": classification,
+            "extended": False,
             "sell": 0,
             "world_count": 0.0,
             "quest_supply": False,
@@ -1102,6 +1180,11 @@ def main():
     print("items generated   : %d  (id %d..%d)" % (len(items), min(item_ids), max(item_ids)))
     for key, count in sorted(tally(items, "classification").items()):
         print("  %-12s %4d" % (key, count))
+    extended = [i for i in items if i.get("extended")]
+    if extended:
+        print("  %-12s %4d  (quest-property gear/props/notes; placed only with all_items: %s)"
+              % ("extended", len(extended),
+                 ", ".join("%s=%d" % kv for kv in sorted(tally(extended, "classification").items()))))
     supply = [i for i in items if i.get("quest_supply")]
     groups = tally(supply, "supply_group")
     print("  %-12s %4d  (quest-consumable ordinary items; the pool guarantees copies: %s)"

@@ -106,6 +106,8 @@ Drova - Forsaken Kin:
   consumable_stack_size: full # full | small | single - units per consumable grant (ammo never drops below 5)
   randomize_teleporters: false # shuffle which cave each entrance leads into (36 two-way links, never strands you)
   randomize_runes: false      # re-roll which drawn-rune pattern opens which rune door; all hints (notes + plates) stay truthful
+  all_items: false            # add quest-property gear/props/notes to the pool (crafted & NPC armour, seals, letters)
+  carnage: false              # chaos: shuffle EVERY gate, force loot suppression with no protections; seed may soft-lock
   start_with_tools: true      # start with the Silver Smasher pickaxe + a junk spear for the mining/fishing minigames
   quest_item_supply: 8        # guaranteed units of each quest-needed ordinary item (logs, ore, herbs); 0 disables
   permanent_herb_supply: 5    # the five permanent stat herbs get their own dial: each one is a +1 stat
@@ -176,6 +178,26 @@ so the riddles are solvable the intended way, just not from memory.
 junk spear so the mining and fishing minigames (and their checks under `randomize_resources`)
 are available from the start.
 
+**Allow all items** (`all_items`, off by default): adds the 182 items the pool normally holds back
+to the loot table. Drova marks a lot of real equipment as quest property (its buy *and* sell price
+are both zero), so the generator keeps it out by default to avoid handing you story gear early:
+crafted and NPC armour sets, quest-gate props (seals, fragments, keys-in-all-but-name) and the
+world's lore notes and letters. Turn this on to find them like any other loot. Genuinely unusable
+entries stay excluded either way — creature "ability" weapons, boss ability scrolls, cosmetics and
+authoring leftovers — because they only show up as dead weight in the bag. This changes nothing
+about logic; it only widens what can drop.
+
+**Carnage mode** (`carnage`, off by default): the "let it break" switch, three overrides at once.
+Every *pairable* cave gate is shuffled, not just the 36 safe ones — faction interiors, quest
+dungeons, the Library and the rest are all in the pool (links stay two-way, so you can always walk
+back, but a gate can now drop you somewhere the story never meant you to reach). Vanilla-loot
+suppression is forced on *and* its protections are dropped, so keys, quest items, energy crystals
+and riddle offerings are stripped from randomized containers along with everything else — only the
+container's authored vanilla contents are removed, so anything you (or a cutscene) stashed in a
+chest is still safe. Because a key can now sit behind its own door, **a Carnage seed may not be
+completable solo** without other players sending those items; run it for the spectacle. It does not
+turn on `all_items` — that stays a separate switch.
+
 **Items** (626): 62 progression (15 keys, 3 charged energy crystals, 43 player flow abilities),
 310 useful (weapons, armor, helmets, trinkets, maps), 254 filler (consumables, recipes, materials,
 coins), plus tiered experience, learning point and permanent stat grants. Coins are ordinary items:
@@ -190,6 +212,10 @@ weights. So the overflow looks like the map does — mushrooms, berries, logs, o
 feathers, with healing potions about as rare as they are in the game (~2% of finds) instead of a
 uniform pick that made a 5x stack of tier-1 potions as likely as a handful of berries. Items the
 world never drops, and anything worth more than 30, stay once-each and are never handed out in bulk.
+
+`all_items` adds a further **182** items that Drova flags as quest property (crafted/NPC armour,
+quest-gate props, lore notes); they live in the datapackage either way but are placed once each,
+and only when the option is on.
 
 **Goal**: reach the outro. Dying does not route through the outro, so it cannot trigger a false goal.
 

@@ -167,8 +167,10 @@ namespace ArchipelagoDrova
                 // location - stay in the player's bag as ordinary bought goods.
                 if (newChecks > 0 && LootSuppressor.Enabled && ContainerTracker.IsLocationActiveInSeed(apName))
                 {
+                    // Carnage claws back protected stock too (it is a real check there); otherwise
+                    // keys and quest items bought at a shop stay in the bag as vanilla shopping.
                     var boughtItem = itemStack.GetItem();
-                    if (boughtItem && !LootSuppressor.IsProtected(boughtItem))
+                    if (boughtItem && (LootSuppressor.StripProtected || !LootSuppressor.IsProtected(boughtItem)))
                     {
                         PendingRemoval pending;
                         pending.Item = boughtItem;

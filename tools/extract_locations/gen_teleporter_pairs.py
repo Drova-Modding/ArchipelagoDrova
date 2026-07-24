@@ -1,12 +1,18 @@
-"""Freeze the teleporter shuffle pool from the raw gate extraction.
+"""Freeze the teleporter shuffle pools from the raw gate extraction.
 
 Reads teleporters.json (extract_teleporters.py) and emits:
-  - apworld/drova/data/teleporters.json      the shuffleable pairs (mouth/interior gate names)
-  - ArchipelagoDrova/Data/TeleporterTable.g.cs  vanilla link data the client needs to remap
+  - apworld/drova/data/teleporters.json      the shuffleable pairs (mouth/interior gate names):
+        "pairs"      the safe pool (default entrance randomizer)
+        "pairs_full" every cleanly pairable gate (Carnage Mode)
+  - ArchipelagoDrova/Data/TeleporterTable.g.cs  vanilla link data the client needs to remap, for
+        the UNION of gates in either pool.
 
-Pool rule: walk-in cave gates ("Teleporter_*") whose overworld mouth is start-walkable and
-carries no key/faction/story gating. Everything else stays vanilla. The full reasoning and the
-per-gate verdicts live in tools/investigations/teleporter_randomization.md.
+Safe-pool rule: walk-in cave gates ("Teleporter_*") whose overworld mouth is start-walkable and
+carries no key/faction/story gating. Everything else stays vanilla in that pool. The full pool
+drops the exclusion list and takes every gate that pairs cleanly (mutual nearest-anchor partner
+within 120 units, both active), accepting that a shuffle there can strand the player - which is
+Carnage's whole point. The full reasoning and the per-gate verdicts live in
+tools/investigations/teleporter_randomization.md.
 """
 import json, math, os
 
@@ -110,8 +116,50 @@ for name, pname in sorted(partner.items()):
     pairs.append({"mouth": mouth["name"], "interior": interior["name"]})
 
 pairs.sort(key=lambda p: p["mouth"])
-json.dump({"pairs": pairs}, open(OUT_JSON, "w"), indent=1)
-print(f"pool: {len(pairs)} pairs -> {OUT_JSON}")
+
+# --- Carnage pool: every cleanly pairable gate, exclusions dropped ------------------------------
+# Pair EVERY gate by nearest arrival anchor (not just the non-excluded ones), keep only mutual
+# links whose partner sits within 120 units and where both gates are active. The safe pool's
+# mouth/interior distinction is relaxed: some legitimate links are interior<->interior (the Red
+# Tower's floor chain, cave inner segments), so when both ends land in the same map band the pair
+# is oriented deterministically by name instead of asserted apart. Carnage accepts the breakage a
+# shuffle of these can cause; it must never crash generation.
+partner_all = {}
+for g in gates:
+    p, dist = nearest(g["tx"], g["ty"], g)
+    if p is None or dist >= 120:
+        continue  # unpairable (e.g. the Red Tower entrances) - cannot shuffle, stays vanilla
+    partner_all[g["name"]] = p["name"]
+
+pairs_full = []
+for name, pname in sorted(partner_all.items()):
+    if partner_all.get(pname) != name:
+        continue  # non-mutual: skip
+    if name > pname:
+        continue  # emit each pair once
+    a, b = by_name[name], by_name[pname]
+    if not (a["active"] and b["active"]):
+        continue  # an inactive (quest-spawned) gate cannot be relied on to exist
+    a_int, b_int = is_interior(a["x"], a["y"]), is_interior(b["x"], b["y"])
+    if a_int != b_int:
+        mouth, interior = (b, a) if a_int else (a, b)
+    else:
+        # Same map band: no natural mouth/interior. Orient by name so the output is deterministic;
+        # the shuffle rewires both directions regardless of which side is labelled which.
+        mouth, interior = a, b
+    pairs_full.append({"mouth": mouth["name"], "interior": interior["name"]})
+
+pairs_full.sort(key=lambda p: p["mouth"])
+
+# Safe pairs must be a subset of the full pool, so the client table (built from the full union
+# below) always covers a safe-mode seed too.
+safe_names = {p["mouth"] for p in pairs} | {p["interior"] for p in pairs}
+full_names = {p["mouth"] for p in pairs_full} | {p["interior"] for p in pairs_full}
+missing = safe_names - full_names
+assert not missing, f"safe gates missing from full pool: {sorted(missing)}"
+
+json.dump({"pairs": pairs, "pairs_full": pairs_full}, open(OUT_JSON, "w"), indent=1)
+print(f"safe pool: {len(pairs)} pairs, carnage pool: {len(pairs_full)} pairs -> {OUT_JSON}")
 
 def f(v):
     return repr(round(v, 2)).rstrip("0").rstrip(".") + "f" if v == v else "0f"
@@ -128,13 +176,15 @@ lines = [
     "        public static readonly Dictionary<string, TeleporterGate> Generated = new Dictionary<string, TeleporterGate>",
     "        {",
 ]
-for p in pairs:
-    for name in (p["mouth"], p["interior"]):
-        g = by_name[name]
-        other = partner[name]
-        lines.append(
-            f'            {{ "{name}", new TeleporterGate("{other}", {f(g["tx"])}, {f(g["ty"])}, {f(g["dx"])}, {f(g["dy"])}) }},'
-        )
+# The table must cover every gate either pool can name. pairs_full is a superset of the safe pool
+# (asserted above), so emit one entry per gate in it, ordered for a readable diff.
+table_names = sorted({p["mouth"] for p in pairs_full} | {p["interior"] for p in pairs_full})
+for name in table_names:
+    g = by_name[name]
+    other = partner_all[name]
+    lines.append(
+        f'            {{ "{name}", new TeleporterGate("{other}", {f(g["tx"])}, {f(g["ty"])}, {f(g["dx"])}, {f(g["dy"])}) }},'
+    )
 lines += [
     "        };",
     "    }",
@@ -142,4 +192,4 @@ lines += [
     "",
 ]
 open(OUT_CS, "w", encoding="utf-8").write("\n".join(lines))
-print(f"table: {2 * len(pairs)} gates -> {OUT_CS}")
+print(f"table: {len(table_names)} gates -> {OUT_CS}")

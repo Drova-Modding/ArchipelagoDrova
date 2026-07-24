@@ -76,9 +76,19 @@ _BULK_MAX_SELL = 30
 BONUS_ONLY_NAMES = {name for name, _ in CAPPED_BONUS_ITEMS if name != "Learning Point"} | set(SMALL_XP_NAMES)
 
 PROGRESSION_ITEM_NAMES = [item["name"] for item in ITEM_DATA if item["classification"] == "progression"]
+
+# "extended" items exist in the datapackage (they need frozen ids either way) but are only placed
+# when the all_items option is on: real gear the game marks as quest property (crafted/NPC armour,
+# quest-gate props, lore notes). gen_data.py sets the flag; older data without it reads as False.
 USEFUL_ITEM_NAMES = [
     item["name"] for item in ITEM_DATA
     if item["classification"] == "useful" and item["name"] not in BONUS_ONLY_NAMES
+    and not item.get("extended")
+]
+EXTENDED_USEFUL_ITEM_NAMES = [
+    item["name"] for item in ITEM_DATA
+    if item["classification"] == "useful" and item["name"] not in BONUS_ONLY_NAMES
+    and item.get("extended")
 ]
 
 # --- The bulk draw: Drova's own loot frequencies ---------------------------------------------------
@@ -114,6 +124,11 @@ def _repeat_weight(item: dict[str, Any]) -> float:
     """Overflow draw weight for one item, or 0 to exclude it. world_count is how often vanilla hands
     the item over; cooked food substitutes a nominal floor because the world never drops it."""
     if item["classification"] != "filler" or item["kind"] != "Item":
+        return 0.0
+    # Extended (all_items) entries are once-each: they must never enter the bulk draw, or the lore
+    # notes among them (which the world does drop, so world_count > 0) would leak into every seed
+    # through the overflow even when all_items is off. Placed once via the candidate lists instead.
+    if item.get("extended"):
         return 0.0
     if item["readable_id"].startswith("recipe_") or item["readable_id"] in _JUNK_EXCLUDE:
         return 0.0
@@ -194,6 +209,12 @@ BONUS_ITEM_NAMES = (
 FILLER_ITEM_NAMES = [
     item["name"] for item in ITEM_DATA
     if item["classification"] == "filler" and item["name"] not in BONUS_ONLY_NAMES
+    and not item.get("extended")
+]
+EXTENDED_FILLER_ITEM_NAMES = [
+    item["name"] for item in ITEM_DATA
+    if item["classification"] == "filler" and item["name"] not in BONUS_ONLY_NAMES
+    and item.get("extended")
 ]
 
 
@@ -243,7 +264,15 @@ def create_all_items(world: DrovaWorld) -> None:
 
     # Top up with useful items, then filler. Small location pools take a random subset of each so that
     # which weapons and consumables show up varies per seed rather than always being the alphabetical head.
-    for candidates in (USEFUL_ITEM_NAMES, FILLER_ITEM_NAMES):
+    # all_items widens each tier with the extended set (quest-property gear, props and notes); off, those
+    # stay in the datapackage but out of the pool.
+    if world.options.all_items:
+        useful_candidates = USEFUL_ITEM_NAMES + EXTENDED_USEFUL_ITEM_NAMES
+        filler_candidates = FILLER_ITEM_NAMES + EXTENDED_FILLER_ITEM_NAMES
+    else:
+        useful_candidates = USEFUL_ITEM_NAMES
+        filler_candidates = FILLER_ITEM_NAMES
+    for candidates in (useful_candidates, filler_candidates):
         if remaining <= 0:
             break
         if remaining >= len(candidates):

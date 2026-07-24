@@ -26,6 +26,14 @@ namespace ArchipelagoDrova
         /// <summary>Set from slot data on the connection. Off unless the seed asks for it.</summary>
         public static bool Enabled { get; set; }
 
+        /// <summary>
+        /// Carnage: strip even the normally-protected items (keys, quest items, energy crystals,
+        /// riddle offerings) from randomized containers, accepting that the seed can soft-lock.
+        /// Only the item's authored vanilla contents are ever removed, so player-stashed items are
+        /// still safe; this just drops the progression carve-out. Off unless the seed asks for it.
+        /// </summary>
+        public static bool StripProtected { get; set; }
+
         public static void Initialize(HarmonyLib.Harmony harmony)
         {
             // Empty the container BEFORE its loot window is built. The window is created in
@@ -183,7 +191,9 @@ namespace ArchipelagoDrova
                     continue;
                 }
 
-                if (IsProtected(stack.Item))
+                // Carnage drops the progression carve-out: keys and quest items are stripped like
+                // anything else. The authored-loot match below still shields player-stashed items.
+                if (!StripProtected && IsProtected(stack.Item))
                 {
                     kept++;
                     continue;

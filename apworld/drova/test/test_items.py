@@ -5,6 +5,8 @@ from ..items import (
     QUEST_SUPPLY_NAMES,
     BONUS_ONLY_NAMES,
     CAPPED_BONUS_ITEMS,
+    EXTENDED_FILLER_ITEM_NAMES,
+    EXTENDED_USEFUL_ITEM_NAMES,
     FILLER_ITEM_NAMES,
     ITEM_DATA,
     ITEM_NAME_GROUPS,
@@ -35,19 +37,25 @@ class TestItemTable(DrovaTestBase):
             self.assertTrue(USEFUL_ITEM_NAMES)
             self.assertTrue(FILLER_ITEM_NAMES)
             self.assertTrue(BONUS_ONLY_NAMES)
+            # The extended (all_items) set lives in the datapackage but out of the base pool, so it
+            # counts toward ITEM_DATA yet not toward the default useful/filler lists.
+            self.assertTrue(EXTENDED_USEFUL_ITEM_NAMES)
+            self.assertTrue(EXTENDED_FILLER_ITEM_NAMES)
             self.assertEqual(
                 len(PROGRESSION_ITEM_NAMES) + len(USEFUL_ITEM_NAMES) + len(FILLER_ITEM_NAMES)
+                + len(EXTENDED_USEFUL_ITEM_NAMES) + len(EXTENDED_FILLER_ITEM_NAMES)
                 + len(BONUS_ONLY_NAMES),
                 len(ITEM_DATA),
             )
 
         with self.subTest("The classifications are disjoint"):
-            self.assertFalse(set(PROGRESSION_ITEM_NAMES) & set(USEFUL_ITEM_NAMES))
-            self.assertFalse(set(PROGRESSION_ITEM_NAMES) & set(FILLER_ITEM_NAMES))
-            self.assertFalse(set(USEFUL_ITEM_NAMES) & set(FILLER_ITEM_NAMES))
-            self.assertFalse(BONUS_ONLY_NAMES & set(PROGRESSION_ITEM_NAMES))
-            self.assertFalse(BONUS_ONLY_NAMES & set(USEFUL_ITEM_NAMES))
-            self.assertFalse(BONUS_ONLY_NAMES & set(FILLER_ITEM_NAMES))
+            all_lists = (
+                set(PROGRESSION_ITEM_NAMES), set(USEFUL_ITEM_NAMES), set(FILLER_ITEM_NAMES),
+                set(EXTENDED_USEFUL_ITEM_NAMES), set(EXTENDED_FILLER_ITEM_NAMES), BONUS_ONLY_NAMES,
+            )
+            for i, left in enumerate(all_lists):
+                for right in all_lists[i + 1:]:
+                    self.assertFalse(left & right)
 
         with self.subTest("The pool can fill a default seed"):
             # Progression must fit, and useful + filler must be able to top the pool up to any
@@ -144,6 +152,56 @@ class TestSmallPoolFill(DrovaTestBase):
         self.assertLess(len(self.multiworld.itempool), len(ITEM_DATA))
         counts = collections.Counter(item.name for item in self.multiworld.itempool)
         self.assertEqual(max(counts.values()), 1)
+
+
+class TestAllItemsOff(DrovaTestBase):
+    # The default: extended (quest-property) items exist in the datapackage but must never reach a
+    # pool that did not ask for them.
+    options = {
+        "randomize_chests": True,
+        "randomize_containers": True,
+        "randomize_quests": True,
+        "randomize_resources": True,
+        "randomize_caches": True,
+        "randomize_pickups": True,
+    }
+    run_default_tests = False
+
+    def test_extended_items_are_absent(self) -> None:
+        extended = set(EXTENDED_USEFUL_ITEM_NAMES) | set(EXTENDED_FILLER_ITEM_NAMES)
+        placed = {item.name for item in self.multiworld.itempool}
+        self.assertTrue(extended)
+        self.assertFalse(placed & extended)
+
+
+class TestAllItemsOn(DrovaTestBase):
+    # all_items widens the pool with the extended set. A pool this large places every distinct item
+    # once before the overflow starts repeating bonus rewards, so each extended name must appear.
+    options = {
+        "all_items": True,
+        "randomize_chests": True,
+        "randomize_containers": True,
+        "randomize_quests": True,
+        "randomize_resources": True,
+        "randomize_caches": True,
+        "randomize_pickups": True,
+    }
+    run_default_tests = False
+
+    def test_extended_items_are_placed(self) -> None:
+        counts = collections.Counter(item.name for item in self.multiworld.itempool)
+        for name in (*EXTENDED_USEFUL_ITEM_NAMES, *EXTENDED_FILLER_ITEM_NAMES):
+            self.assertGreaterEqual(counts[name], 1, name)
+
+    def test_pool_still_fills_exactly(self) -> None:
+        self.assertEqual(len(self.multiworld.itempool), len(self.multiworld.get_unfilled_locations(self.player)))
+
+    def test_extended_items_do_not_repeat(self) -> None:
+        # Extended gear/props/notes are once-each: none carry a repeat weight, so only real bonus
+        # rewards may appear more than once.
+        counts = collections.Counter(item.name for item in self.multiworld.itempool)
+        repeated = {name for name, count in counts.items() if count > 1}
+        self.assertLessEqual(repeated, BONUS_ITEM_NAMES)
 
 
 class TestLargePoolFill(DrovaTestBase):

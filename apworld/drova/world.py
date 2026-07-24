@@ -50,6 +50,8 @@ class DrovaWorld(World):
             # A Choice stores an int but slot_data carries the key string, so map it back.
             self.options.faction.value = drova_options.Faction.options[passthrough["faction"]]
             self.options.suppress_vanilla_loot.value = int(passthrough["suppress_vanilla_loot"])
+            # Carnage forces suppression on; older rooms predate the key, so default to off.
+            self.options.carnage.value = int(passthrough.get("carnage", 0))
             # slot_data's category keys are the option names minus their randomize_ prefix.
             for category, enabled in passthrough["categories"].items():
                 getattr(self.options, f"randomize_{category}").value = int(enabled)
@@ -61,6 +63,13 @@ class DrovaWorld(World):
             self.options.enemy_kill_interval.value = int(
                 passthrough.get("enemy_kill_interval", self.options.enemy_kill_interval.value)
             )
+
+        # Carnage overrides the individual safety rails: it forces vanilla-loot suppression on (the
+        # client also drops the protections, keys and quest items included) and shuffles the full
+        # teleporter pool below. suppress_vanilla_loot is pure client behaviour and never shapes the
+        # location pool, so overriding it here is enough for both generation and the UT mirror.
+        if self.options.carnage:
+            self.options.suppress_vanilla_loot.value = 1
 
         # Both of these are option mistakes rather than bugs, so fail early with an actionable message
         # instead of letting fill hit an impossible pool much later.
@@ -80,7 +89,10 @@ class DrovaWorld(World):
                 f"Enable more location categories."
             )
 
-        if self.options.randomize_teleporters:
+        # Carnage shuffles every pairable gate and ignores the RandomizeTeleporters toggle entirely.
+        if self.options.carnage:
+            self.teleporter_map = teleporters.full_teleporter_map(self)
+        elif self.options.randomize_teleporters:
             self.teleporter_map = teleporters.shuffled_teleporter_map(self)
 
         if self.options.randomize_runes:
@@ -114,6 +126,9 @@ class DrovaWorld(World):
             "seed_name": self.multiworld.seed_name,
             "death_link": bool(self.options.death_link),
             "suppress_vanilla_loot": bool(self.options.suppress_vanilla_loot),
+            # Carnage: strip the loot suppressor's protections too (keys, quest items, crystals,
+            # riddle offerings). suppress_vanilla_loot is already forced true above when this is set.
+            "carnage": bool(self.options.carnage),
             # Client-side grant sizing only; it never shapes generation, so UT does not re-apply it.
             "consumable_stack_size": self.options.consumable_stack_size.current_key,
             "faction": self.options.faction.current_key,

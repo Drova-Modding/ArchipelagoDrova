@@ -1024,11 +1024,24 @@ namespace ArchipelagoDrova
                 suppress = ToBool(value, false);
             }
 
+            bool carnage = false;
+            if (SlotData != null && SlotData.TryGetValue("carnage", out object carnageValue) && carnageValue != null)
+            {
+                carnage = ToBool(carnageValue, false);
+            }
+            // Carnage forces suppression on regardless of the seed's own flag (the apworld already
+            // forces it too, but be defensive) and drops the progression carve-out.
+            suppress = suppress || carnage;
+
             LootSuppressor.Enabled = suppress;
-            MelonLogger.Msg(suppress
-                ? "Vanilla loot suppression ON: randomized containers give only their Archipelago item, "
-                    + "except keys and quest items."
-                : "Vanilla loot suppression off: containers give their normal contents as well.");
+            LootSuppressor.StripProtected = carnage;
+            MelonLogger.Msg(carnage
+                ? "CARNAGE loot suppression ON: randomized containers give only their Archipelago item, "
+                    + "keys and quest items included. The seed can soft-lock."
+                : suppress
+                    ? "Vanilla loot suppression ON: randomized containers give only their Archipelago item, "
+                        + "except keys and quest items."
+                    : "Vanilla loot suppression off: containers give their normal contents as well.");
         }
 
         /// <summary>
