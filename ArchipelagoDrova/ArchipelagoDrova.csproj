@@ -479,6 +479,9 @@
 		<Compile Include="ArchipelagoStore.cs" />
 		<Compile Include="ContainerTracker.cs" />
 		<Compile Include="Core.cs" />
+		<Compile Include="Data\FloorClueTable.cs" />
+		<Compile Include="Data\FloorClueTable.g.cs" />
+		<Compile Include="Data\ItemLocaTable.g.cs" />
 		<Compile Include="Data\ItemTable.cs" />
 		<Compile Include="Data\ItemTable.g.cs" />
 		<Compile Include="Data\LocationTable.cs" />
@@ -491,8 +494,10 @@
 		<Compile Include="Data\TeleporterTable.cs" />
 		<Compile Include="Data\TeleporterTable.g.cs" />
 		<Compile Include="DeathTracker.cs" />
+		<Compile Include="FloorRiddleShuffler.cs" />
 		<Compile Include="GoalTracker.cs" />
 		<Compile Include="ItemGranter.cs" />
+		<Compile Include="ItemLocaDefaults.cs" />
 		<Compile Include="KillTracker.cs" />
 		<Compile Include="LearnTracker.cs" />
 		<Compile Include="LootSuppressor.cs" />

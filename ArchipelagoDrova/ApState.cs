@@ -28,7 +28,7 @@ namespace ArchipelagoDrova
         /// its id needs the server's data package, which only a live session can provide. Flushed and
         /// emptied on the next successful connection.
         /// </summary>
-        public List<string> PendingLocationNames { get; set; } = new();
+        public List<string> PendingLocationNames { get; set; } = [];
 
         /// <summary>
         /// Total enemies defeated on this save. Monotonic; the enemy-kill milestone locations

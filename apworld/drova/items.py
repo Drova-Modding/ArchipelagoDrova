@@ -19,6 +19,16 @@ ITEM_DATA: list[dict[str, Any]] = json.loads(pkgutil.get_data(__name__, "data/it
 ITEM_NAME_TO_ID: dict[str, int] = {item["name"]: item["id"] for item in ITEM_DATA}
 ITEM_NAME_TO_DATA: dict[str, dict[str, Any]] = {item["name"]: item for item in ITEM_DATA}
 
+# --- Never in the pool ---------------------------------------------------------------------------
+# The pannier (Kiepe) is a carried quest prop, not a reward: it is the back basket the mine questline
+# hands the player to haul rubble and silver ore in, it drives its own carry animation set
+# (Objects/ActorAnimations/Human/Tools/Kiepe) and the empty/full pair is what the HasKiepeWithRubble
+# quest condition reads. A copy handed over by Archipelago is dead weight at best, and a second full
+# pannier in the inventory is a quest state the mine was never written for. Both variants are
+# excluded everywhere the pool draws; they stay in the datapackage, since ids are frozen.
+POOL_EXCLUDED_IDS = {"item_kiepe", "item_kiepe_rubble"}
+POOL_EXCLUDED_NAMES = {item["name"] for item in ITEM_DATA if item["readable_id"] in POOL_EXCLUDED_IDS}
+
 CLASSIFICATIONS = {
     # skip_balancing: the two keys rules.py references stay obtainable in-game regardless (vanilla
     # keys are never suppressed), and nothing else is logic-relevant at all, so progression balancing
@@ -77,18 +87,37 @@ BONUS_ONLY_NAMES = {name for name, _ in CAPPED_BONUS_ITEMS if name != "Learning 
 
 PROGRESSION_ITEM_NAMES = [item["name"] for item in ITEM_DATA if item["classification"] == "progression"]
 
+# The three charged Divine Crystals are progression items that gate nothing: this world has almost no
+# logic, and the client protects crystals from the loot suppressor and never turns their container
+# slots into checks, so the vanilla one is always still where the game put it. A pool copy is a spare
+# in every ordinary seed, and a spare classified progression costs a good location for nothing.
+#
+# Carnage is the exception it exists for: it strips the suppressor's protections, so the world's own
+# crystal can be destroyed and the pool copy becomes the only one. Then it really is progression.
+CRYSTAL_ITEM_NAMES = [
+    item["name"] for item in ITEM_DATA
+    if item["classification"] == "progression" and item["readable_id"].startswith("item_energycrystal_")
+]
+
+
+def progression_item_names(world: DrovaWorld) -> list[str]:
+    """The progression items placed in this seed. See CRYSTAL_ITEM_NAMES for the carnage split."""
+    if world.options.carnage:
+        return PROGRESSION_ITEM_NAMES
+    return [name for name in PROGRESSION_ITEM_NAMES if name not in CRYSTAL_ITEM_NAMES]
+
 # "extended" items exist in the datapackage (they need frozen ids either way) but are only placed
 # when the all_items option is on: real gear the game marks as quest property (crafted/NPC armour,
 # quest-gate props, lore notes). gen_data.py sets the flag; older data without it reads as False.
 USEFUL_ITEM_NAMES = [
     item["name"] for item in ITEM_DATA
     if item["classification"] == "useful" and item["name"] not in BONUS_ONLY_NAMES
-    and not item.get("extended")
+    and item["name"] not in POOL_EXCLUDED_NAMES and not item.get("extended")
 ]
 EXTENDED_USEFUL_ITEM_NAMES = [
     item["name"] for item in ITEM_DATA
     if item["classification"] == "useful" and item["name"] not in BONUS_ONLY_NAMES
-    and item.get("extended")
+    and item["name"] not in POOL_EXCLUDED_NAMES and item.get("extended")
 ]
 
 # --- The bulk draw: Drova's own loot frequencies ---------------------------------------------------
@@ -131,6 +160,8 @@ def _repeat_weight(item: dict[str, Any]) -> float:
     if item.get("extended"):
         return 0.0
     if item["readable_id"].startswith("recipe_") or item["readable_id"] in _JUNK_EXCLUDE:
+        return 0.0
+    if item["readable_id"] in POOL_EXCLUDED_IDS:
         return 0.0
     world = float(item.get("world_count", 0))
     if item.get("cooked_food"):
@@ -209,12 +240,12 @@ BONUS_ITEM_NAMES = (
 FILLER_ITEM_NAMES = [
     item["name"] for item in ITEM_DATA
     if item["classification"] == "filler" and item["name"] not in BONUS_ONLY_NAMES
-    and not item.get("extended")
+    and item["name"] not in POOL_EXCLUDED_NAMES and not item.get("extended")
 ]
 EXTENDED_FILLER_ITEM_NAMES = [
     item["name"] for item in ITEM_DATA
     if item["classification"] == "filler" and item["name"] not in BONUS_ONLY_NAMES
-    and item.get("extended")
+    and item["name"] not in POOL_EXCLUDED_NAMES and item.get("extended")
 ]
 
 
@@ -244,9 +275,15 @@ def create_item_by_name(world: DrovaWorld, name: str) -> DrovaItem:
     return DrovaItem(name, CLASSIFICATIONS[data["classification"]], data["id"], world.player)
 
 
-# The gathering-minigame tools handed out by the start_with_tools option: the sturdy pickaxe
-# Merik sells (mining) and a junk spear (spearfishing). Precollected, so they consume no locations.
-START_TOOL_NAMES = ("Tool Pickaxe Silberhauer", "Weapon Spear WoodenSpear")
+# The gathering-minigame tools handed out by the start_with_tools option: the Bronze Pickaxe
+# (mining) and a junk spear (spearfishing). Precollected, so they consume no locations.
+#
+# The Bronze Pickaxe rather than the Silver Smasher, which is the better tool but the wrong gift:
+# both are authored ItemBhvr_CraftingTool for Hobby_Mining and they are the only two items in the
+# database that are, but the Smasher is _isBreakable with an 80% break chance per swing, so a player
+# who starts with it is back to having no mining tool after a vein or two. The Bronze Pickaxe never
+# breaks. It is tool level 0 against the Smasher's 9, which is the trade.
+START_TOOL_NAMES = ("Weapon Axe BronzeTusk", "Weapon Spear WoodenSpear")
 
 
 def create_all_items(world: DrovaWorld) -> None:
@@ -256,7 +293,7 @@ def create_all_items(world: DrovaWorld) -> None:
 
     # Every progression item always goes into the pool. generate_early has already guaranteed that
     # there are at least as many locations as there are progression items.
-    itempool: list[Item] = [world.create_item(name) for name in PROGRESSION_ITEM_NAMES]
+    itempool: list[Item] = [world.create_item(name) for name in progression_item_names(world)]
 
     # Event locations are already filled, so only unfilled locations need an item.
     number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player))

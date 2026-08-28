@@ -11,7 +11,10 @@ from ..items import (
     ITEM_DATA,
     ITEM_NAME_GROUPS,
     ITEM_NAME_TO_ID,
+    POOL_EXCLUDED_IDS,
+    POOL_EXCLUDED_NAMES,
     PROGRESSION_ITEM_NAMES,
+    progression_item_names,
     QUEST_SUPPLY_ITEMS,
     REPEATABLE_LOOT,
     SUPPLY_GROUP_OPTIONS,
@@ -44,7 +47,7 @@ class TestItemTable(DrovaTestBase):
             self.assertEqual(
                 len(PROGRESSION_ITEM_NAMES) + len(USEFUL_ITEM_NAMES) + len(FILLER_ITEM_NAMES)
                 + len(EXTENDED_USEFUL_ITEM_NAMES) + len(EXTENDED_FILLER_ITEM_NAMES)
-                + len(BONUS_ONLY_NAMES),
+                + len(BONUS_ONLY_NAMES) + len(POOL_EXCLUDED_NAMES),
                 len(ITEM_DATA),
             )
 
@@ -52,6 +55,7 @@ class TestItemTable(DrovaTestBase):
             all_lists = (
                 set(PROGRESSION_ITEM_NAMES), set(USEFUL_ITEM_NAMES), set(FILLER_ITEM_NAMES),
                 set(EXTENDED_USEFUL_ITEM_NAMES), set(EXTENDED_FILLER_ITEM_NAMES), BONUS_ONLY_NAMES,
+                POOL_EXCLUDED_NAMES,
             )
             for i, left in enumerate(all_lists):
                 for right in all_lists[i + 1:]:
@@ -104,6 +108,23 @@ class TestItemTable(DrovaTestBase):
                          "Item HealthPlant 1", "Item HealthPlant 2", "Item Meat Raw"):
                 self.assertIn(name, QUEST_SUPPLY_NAMES, name)
 
+    def test_the_pannier_is_never_in_the_pool(self) -> None:
+        # The Kiepe is a carried quest prop, not a reward (see items.POOL_EXCLUDED_IDS). It keeps its
+        # frozen datapackage id, but no candidate list and no bonus draw may ever offer it.
+        self.assertEqual(POOL_EXCLUDED_NAMES, {"Item Kiepe", "Item Kiepe Rubble"})
+        for name in POOL_EXCLUDED_NAMES:
+            with self.subTest(name):
+                self.assertIn(name, ITEM_NAME_TO_ID)
+                self.assertNotIn(name, USEFUL_ITEM_NAMES)
+                self.assertNotIn(name, FILLER_ITEM_NAMES)
+                self.assertNotIn(name, EXTENDED_USEFUL_ITEM_NAMES)
+                self.assertNotIn(name, EXTENDED_FILLER_ITEM_NAMES)
+                self.assertNotIn(name, BONUS_ITEM_NAMES)
+                self.assertNotIn(name, dict(REPEATABLE_LOOT))
+        for item in ITEM_DATA:
+            if item["readable_id"] in POOL_EXCLUDED_IDS:
+                self.assertIn(item["name"], POOL_EXCLUDED_NAMES)
+
     def test_item_name_groups(self) -> None:
         for group in ("Keys", "Flow Abilities", "Energy Crystals", "Weapons", "Armor"):
             with self.subTest(group):
@@ -137,13 +158,15 @@ class TestSmallPoolFill(DrovaTestBase):
     def test_fill_order_progression_then_useful_then_filler(self) -> None:
         counts = collections.Counter(item.name for item in self.multiworld.itempool)
         pool_size = sum(counts.values())
-        expected_useful = min(len(USEFUL_ITEM_NAMES), pool_size - len(PROGRESSION_ITEM_NAMES))
+        # Carnage is off here, so the crystals are not among the placed progression items.
+        placed_progression = progression_item_names(self.world)
+        expected_useful = min(len(USEFUL_ITEM_NAMES), pool_size - len(placed_progression))
         self.assertEqual(
-            len([name for name in counts if name in PROGRESSION_ITEM_NAMES]), len(PROGRESSION_ITEM_NAMES)
+            len([name for name in counts if name in placed_progression]), len(placed_progression)
         )
         self.assertEqual(len([name for name in counts if name in USEFUL_ITEM_NAMES]), expected_useful)
         # Filler only appears once useful is exhausted, and then only to top the pool up.
-        expected_filler = max(0, pool_size - len(PROGRESSION_ITEM_NAMES) - len(USEFUL_ITEM_NAMES))
+        expected_filler = max(0, pool_size - len(placed_progression) - len(USEFUL_ITEM_NAMES))
         self.assertEqual(len([name for name in counts if name in FILLER_ITEM_NAMES]), expected_filler)
 
     def test_no_unintended_duplicates(self) -> None:
@@ -196,6 +219,12 @@ class TestAllItemsOn(DrovaTestBase):
     def test_pool_still_fills_exactly(self) -> None:
         self.assertEqual(len(self.multiworld.itempool), len(self.multiworld.get_unfilled_locations(self.player)))
 
+    def test_the_pannier_is_absent(self) -> None:
+        # The widest pool this world can build places every distinct item it is allowed to place, so
+        # if the Kiepe can leak in anywhere, it leaks in here.
+        placed = {item.name for item in self.multiworld.itempool}
+        self.assertFalse(placed & POOL_EXCLUDED_NAMES)
+
     def test_extended_items_do_not_repeat(self) -> None:
         # Extended gear/props/notes are once-each: none carry a repeat weight, so only real bonus
         # rewards may appear more than once.
@@ -225,7 +254,8 @@ class TestLargePoolFill(DrovaTestBase):
         counts = collections.Counter(item.name for item in self.multiworld.itempool)
 
         with self.subTest("Every distinct classified item was used"):
-            for name in (*PROGRESSION_ITEM_NAMES, *USEFUL_ITEM_NAMES, *FILLER_ITEM_NAMES):
+            # Carnage is off here, so the crystals are deliberately not among them.
+            for name in (*progression_item_names(self.world), *USEFUL_ITEM_NAMES, *FILLER_ITEM_NAMES):
                 self.assertGreaterEqual(counts[name], 1, name)
 
         with self.subTest("Only bonus rewards repeat"):

@@ -134,8 +134,10 @@ namespace ArchipelagoDrova
         }
 
         /// <summary>
-        /// Wipe the state. Must run on BeforeSaveGameLoaded: a new game never calls Load(), so without
-        /// this the store would silently carry the previous session's data into the fresh save.
+        /// Wipe the state. Runs on BeforeSaveGameLoaded and on every main menu load. The menu is the
+        /// one that matters for a new game: a new game calls neither Load() nor the load event, so
+        /// without it the store carries the previously loaded save's stamp, checked locations and
+        /// item cursor into the fresh save, which <see cref="Save"/> then writes to disk.
         /// </summary>
         public void Reset()
         {

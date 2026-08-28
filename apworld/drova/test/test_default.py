@@ -1,4 +1,4 @@
-from ..items import BONUS_ITEM_NAMES, PROGRESSION_ITEM_NAMES
+from ..items import BONUS_ITEM_NAMES, CRYSTAL_ITEM_NAMES, PROGRESSION_ITEM_NAMES, progression_item_names
 from ..locations import CATEGORY_TO_OPTION, GOAL_LOCATION_NAME, LOCATION_DATA, VICTORY_ITEM_NAME
 from .bases import DrovaTestBase
 
@@ -44,9 +44,19 @@ class TestDefaultOptions(DrovaTestBase):
             self.assertEqual(len(PROGRESSION_ITEM_NAMES), 62)
 
         pool_names = [item.name for item in self.multiworld.itempool]
-        for name in PROGRESSION_ITEM_NAMES:
+        for name in progression_item_names(self.world):
             with self.subTest(name):
                 self.assertIn(name, pool_names)
+
+    def test_crystals_stay_out_of_an_ordinary_pool(self) -> None:
+        # They are spares outside carnage: the client never lets the world's own crystal be
+        # suppressed, so a pool copy would only cost a location.
+        self.assertTrue(CRYSTAL_ITEM_NAMES)
+        pool_names = {item.name for item in self.multiworld.itempool}
+        for name in CRYSTAL_ITEM_NAMES:
+            with self.subTest(name):
+                self.assertNotIn(name, pool_names)
+                self.assertIn(name, self.world.item_name_to_id)
 
     def test_filler_item_name_is_repeatable(self) -> None:
         # get_filler_item_name must be able to be called any number of times, so every name it can
@@ -59,6 +69,7 @@ class TestSlotData(DrovaTestBase):
     options = {
         "faction": "ruinenlager",
         "death_link": True,
+        "death_link_mode": "knockout",
     }
 
     def test_slot_data_shape(self) -> None:
@@ -67,6 +78,11 @@ class TestSlotData(DrovaTestBase):
         with self.subTest("The client reads these two keys"):
             self.assertEqual(slot_data["seed_name"], self.multiworld.seed_name)
             self.assertIs(slot_data["death_link"], True)
+
+        with self.subTest("DeathLink mode is emitted as its key string"):
+            # The client compares it against "knockout"; anything else (an int, an Option) reads as
+            # a kill, which is the wrong default to fail into silently.
+            self.assertEqual(slot_data["death_link_mode"], "knockout")
 
         with self.subTest("Faction is emitted as its key string, not as an int or an Option"):
             self.assertEqual(slot_data["faction"], "ruinenlager")
@@ -92,3 +108,23 @@ class TestSlotData(DrovaTestBase):
 
         slot_data = self.world.fill_slot_data()
         self.assertEqual(json.loads(json.dumps(slot_data)), dict(slot_data))
+
+
+class TestCarnageCrystals(DrovaTestBase):
+    # Carnage strips the loot suppressor's protections, so the world's own crystal can be destroyed
+    # and the pool copy is the only one left. That is the seed where it really is progression.
+    options = {"carnage": True}
+
+    def test_crystals_are_placed(self) -> None:
+        pool_names = {item.name for item in self.multiworld.itempool}
+        for name in CRYSTAL_ITEM_NAMES:
+            with self.subTest(name):
+                self.assertIn(name, pool_names)
+
+    def test_every_progression_item_is_placed(self) -> None:
+        placed = progression_item_names(self.world)
+        self.assertEqual(set(placed), set(PROGRESSION_ITEM_NAMES))
+        pool_names = [item.name for item in self.multiworld.itempool]
+        for name in placed:
+            with self.subTest(name):
+                self.assertIn(name, pool_names)

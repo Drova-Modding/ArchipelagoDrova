@@ -1,4 +1,4 @@
-using Archipelago.MultiClient.Net;
+﻿using Archipelago.MultiClient.Net;
 using Archipelago.MultiClient.Net.BounceFeatures.DeathLink;
 using Archipelago.MultiClient.Net.Enums;
 using Archipelago.MultiClient.Net.Helpers;
@@ -80,7 +80,7 @@ namespace ArchipelagoDrova
         /// disabled still resolves to a real id; suppressing loot or sending a check for one destroys the
         /// vanilla item and sends a check the server drops. Everything acting on a location gates on this.
         /// </summary>
-        private readonly HashSet<long> _activeLocationIds = new();
+        private readonly HashSet<long> _activeLocationIds = [];
 
         /// <summary>
         /// Set when persisted state changed (item granted, check recorded, kill counted) and must be
@@ -749,7 +749,7 @@ namespace ArchipelagoDrova
                 return;
             }
 
-            SendChecks(checkedLocations.ToArray());
+            SendChecks([.. checkedLocations]);
         }
 
         private void SendChecks(long[] ids)
@@ -1082,12 +1082,14 @@ namespace ArchipelagoDrova
         }
 
         /// <summary>
-        /// Hands the seed's rune-riddle shuffle to the rune rewiring. Absent or empty (older
-        /// seeds, option off) means vanilla riddles.
+        /// Hands the seed's rune-riddle shuffle to the rune rewiring, and the library floor
+        /// riddle's stairs sequence to its own rewiring. Absent or empty (older seeds, option
+        /// off) means vanilla riddles.
         /// </summary>
         private void SetupRuneShuffle()
         {
             RuneShuffler.Configure(ReadStringMapSlotData("runes"));
+            FloorRiddleShuffler.Configure(ReadStringListSlotData("floor_runes"));
         }
 
         private Dictionary<string, string> ReadStringMapSlotData(string key)
@@ -1102,6 +1104,20 @@ namespace ArchipelagoDrova
                 }
             }
             return map;
+        }
+
+        private List<string> ReadStringListSlotData(string key)
+        {
+            var list = new List<string>();
+            if (SlotData != null && SlotData.TryGetValue(key, out object value)
+                && value is Newtonsoft.Json.Linq.JArray jsonList)
+            {
+                foreach (var entry in jsonList)
+                {
+                    list.Add(entry.ToString());
+                }
+            }
+            return list;
         }
 
         /// <summary>
@@ -1147,6 +1163,8 @@ namespace ArchipelagoDrova
                 enabled = ToBool(value, enabled);
             }
 
+            SetupDeathLinkMode();
+
             if (!enabled)
             {
                 DeathLinkEnabled = false;
@@ -1166,6 +1184,31 @@ namespace ArchipelagoDrova
                 DeathLinkEnabled = false;
                 MelonLogger.Error("Could not enable DeathLink: " + e);
             }
+        }
+
+        /// <summary>
+        /// What an incoming DeathLink does: kill (the default, and what every seed generated before the
+        /// key did) or knock the player out. Seed-controlled, with config.DeathLinkKnockout as a local
+        /// one-way override - it can turn a killing seed into a knocking one, never the reverse.
+        /// </summary>
+        private void SetupDeathLinkMode()
+        {
+            var mode = DeathLinkMode.Kill;
+            if (SlotData != null && SlotData.TryGetValue("death_link_mode", out object value) && value != null
+                && string.Equals(value.ToString(), "knockout", StringComparison.OrdinalIgnoreCase))
+            {
+                mode = DeathLinkMode.Knockout;
+            }
+            if (config.DeathLinkKnockout)
+            {
+                mode = DeathLinkMode.Knockout;
+            }
+
+            DeathTracker.Mode = mode;
+            DeathTracker.KnockoutSeconds = Math.Max(0.5f, config.DeathLinkKnockoutSeconds);
+            // Clamped below 1: a knockout that leaves the player on full health is just a nap, and above
+            // 1 the game would be handed a percentage it never has to deal with.
+            DeathTracker.KnockoutHealthPercent = Math.Min(1f, Math.Max(0f, config.DeathLinkKnockoutHealthPercent));
         }
 
         private static bool ToBool(object value, bool fallback)

@@ -34,7 +34,7 @@ namespace ArchipelagoDrova
         // Purchases to claw back under suppress_vanilla_loot. Deferred one frame: at
         // RemoveItemFromTrader time CompleteTrading may not have handed the goods to the player yet,
         // so removing immediately could miss them.
-        private static readonly List<PendingRemoval> _pendingRemovals = new();
+        private static readonly List<PendingRemoval> _pendingRemovals = [];
 
         public static void Initialize(ArchipelagoClient archipelagoClient)
         {
@@ -134,6 +134,23 @@ namespace ArchipelagoDrova
                 int bought = itemStack.Amount > 0 ? itemStack.Amount : 1;
                 string[] extraUnits = LocationTable.GetTraderUnitNames(slotKey);
                 int totalUnits = 1 + (extraUnits?.Length ?? 0);
+
+                // The trader_stack_size option cuts the unit tail: the table holds every unit the
+                // game can define (up to 5), but a seed may keep fewer, and those are not locations
+                // at all. Stop the cursor at the first inactive unit so a purchase does not burn
+                // itself on a name the server would drop. Only knowable while connected; offline the
+                // full tail stays eligible and the flush drops whatever the seed left out.
+                if (_client.Connected && extraUnits != null)
+                {
+                    for (int i = 0; i < extraUnits.Length; i++)
+                    {
+                        if (!_client.IsLocationActiveInSeed(extraUnits[i]))
+                        {
+                            totalUnits = 1 + i;
+                            break;
+                        }
+                    }
+                }
 
                 var store = Core.Store;
                 int already = 0;

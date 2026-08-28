@@ -68,6 +68,18 @@ ap_connect <host> <port> <slot> [password]
 
 Settings persist to `<game>/UserData/ArchipelagoDrova/config.json`, so you only enter them once.
 
+That file also carries the local DeathLink knobs, which the connection panel does not show:
+
+| Key | Default | What it does |
+|---|---|---|
+| `DeathLinkKnockout` | `false` | Force incoming DeathLinks to knock you out instead of killing you, whatever the seed asked for. One-way: a local setting can soften a seed's DeathLink, never sharpen it. |
+| `DeathLinkKnockoutSeconds` | `6` | How long a knockout keeps you down. |
+| `DeathLinkKnockoutHealthPercent` | `0` | Health fraction you stand back up on (`0.1` = 10%), or `0` to leave your health alone. It cannot kill you — nothing can hit you while you are down. |
+
+A knockout is the state losing a brawl leaves you in: input blocked, actions cancelled, hit collider
+off. Nothing reloads, so unlike a kill it costs you nothing you did or received since your last save —
+which is why `death_link_mode: knockout` is the friendlier setting for co-op rooms.
+
 The panel's **Show progress** button opens an in-game progress table: checked/total per
 area (Floodplain Forest, Nemeton, The Wilds, ...) broken down by check type (chests, pickups,
 quests, traders, ...). Counts are server truth, so checks collected remotely are included; rows
@@ -93,7 +105,8 @@ Drova - Forsaken Kin:
   randomize_resources: false  # 361 ore veins, herbs
   randomize_caches: false     # 978 hidden caches
   randomize_pickups: false    # 3112 loose world items (very long seed)
-  randomize_traders: false    # ~2320 merchant checks (faction-split); stocked stacks sell up to 5, one per unit
+  randomize_traders: false    # 2324 merchant checks (faction-split); stocked stacks sell one check per unit
+  trader_stack_size: 5        # 1-5: units of a stocked stack that are checks (1 = 890 slots, 3 = 1689, 5 = 2324)
   randomize_muggings: false   # 250 NPC muggings (knock out + loot); opposite-faction NPCs only get filler
   enemy_kill_checks: 0        # 0-50 kill milestones (0 = off)
   enemy_kill_interval: 10     # kills between each milestone
@@ -105,15 +118,16 @@ Drova - Forsaken Kin:
   suppress_vanilla_loot: true # true = only the AP item; false = AP item + vanilla loot (easier)
   consumable_stack_size: full # full | small | single - units per consumable grant (ammo never drops below 5)
   randomize_teleporters: false # shuffle which cave each entrance leads into (36 two-way links, never strands you)
-  randomize_runes: false      # re-roll which drawn-rune pattern opens which rune door; all hints (notes + plates) stay truthful
+  randomize_runes: false      # re-roll rune doors + the library floor riddle; all hints (notes, plates, book images) stay truthful
   all_items: false            # add quest-property gear/props/notes to the pool (crafted & NPC armour, seals, letters)
-  carnage: false              # chaos: shuffle EVERY gate, force loot suppression with no protections; seed may soft-lock
-  start_with_tools: true      # start with the Silver Smasher pickaxe + a junk spear for the mining/fishing minigames
+  carnage: false              # chaos: widen the gate shuffle to EVERY gate (if enabled above), force loot suppression with no protections; seed may soft-lock
+  start_with_tools: true      # start with the Bronze Pickaxe + a junk spear for the mining/fishing minigames
   quest_item_supply: 8        # guaranteed units of each quest-needed ordinary item (logs, ore, herbs); 0 disables
   permanent_herb_supply: 5    # the five permanent stat herbs get their own dial: each one is a +1 stat
   mandragora_supply: 7        # Mandragora top-up, separate because it sells for 100 gold
 
   death_link: false
+  death_link_mode: kill      # kill | knockout - knockout puts you down for a few seconds instead of killing you (no reload, nothing lost)
 ```
 
 Two presets are also available: `minimal` (chests only) and `completionist` (every loot toggle on).
@@ -172,11 +186,16 @@ vanilla connections.
 **Rune shuffle** (`randomize_runes`): re-rolls which of the nine drawn-rune patterns opens which
 rune door. Every hint stays truthful — hint notes (including journal re-reads) and the carved
 riddle plates/clue stones in the world are redrawn to show the pattern the door now requires —
-so the riddles are solvable the intended way, just not from memory.
+so the riddles are solvable the intended way, just not from memory. The library floor riddle's
+stairs sequence is re-rolled too: the clue images in the "Geschichte der Runenmagie" books swap
+to show the new sequence, using hand-pixeled clue art for the two runes the game never
+illustrates (thanks to the community for pixeling those!). The riddle's secret sequence is
+hinted in prose, which cannot be swapped, so it stays vanilla.
 
-**Start tools** (`start_with_tools`, on by default): begin with the Silver Smasher pickaxe and a
-junk spear so the mining and fishing minigames (and their checks under `randomize_resources`)
-are available from the start.
+**Start tools** (`start_with_tools`, on by default): begin with the Bronze Pickaxe and a junk
+spear so the mining and fishing minigames (and their checks under `randomize_resources`) are
+available from the start. Both are unbreakable; the Silver Smasher is the better pickaxe but breaks
+on 80% of swings, which makes it the wrong thing to hand somebody as their only mining tool.
 
 **Allow all items** (`all_items`, off by default): adds the 185 items the pool normally holds back
 to the loot table. Drova marks a lot of real equipment as quest property (its buy *and* sell price
@@ -187,18 +206,23 @@ entries stay excluded either way — creature "ability" weapons, boss ability sc
 authoring leftovers — because they only show up as dead weight in the bag. This changes nothing
 about logic; it only widens what can drop.
 
-**Carnage mode** (`carnage`, off by default): the "let it break" switch, three overrides at once.
-Every *pairable* cave gate is shuffled, not just the 36 safe ones — faction interiors, quest
-dungeons, the Library and the rest are all in the pool (links stay two-way, so you can always walk
-back, but a gate can now drop you somewhere the story never meant you to reach). Vanilla-loot
+**Carnage mode** (`carnage`, off by default): the "let it break" switch. It widens the entrance
+shuffle rather than enabling it — with `randomize_teleporters: true`, every *pairable* cave gate is
+shuffled instead of just the 36 safe ones (faction interiors, quest dungeons, the Library and the
+rest are all in the pool; links stay two-way, so you can always walk back, but a gate can now drop
+you somewhere the story never meant you to reach). Leave that toggle off and a Carnage seed keeps
+vanilla cave links. Vanilla-loot
 suppression is forced on *and* its protections are dropped, so keys, quest items, energy crystals
 and riddle offerings are stripped from randomized containers along with everything else — only the
 container's authored vanilla contents are removed, so anything you (or a cutscene) stashed in a
 chest is still safe. Because a key can now sit behind its own door, **a Carnage seed may not be
 completable solo** without other players sending those items; run it for the spectacle. It does not
-turn on `all_items` — that stays a separate switch.
+turn on `all_items` — that stays a separate switch. It is also the only mode that puts the three
+charged Divine Crystals in the item pool: everywhere else the world's own crystal is protected and
+its slot is never a check, so a pool copy would be a spare occupying a location for nothing.
 
-**Items** (626): 62 progression (15 keys, 3 charged energy crystals, 43 player flow abilities),
+**Items** (626): 62 progression (15 keys, 43 player flow abilities, and the 3 charged energy
+crystals, which are placed under Carnage only — see above),
 310 useful (weapons, armor, helmets, trinkets, maps), 254 filler (consumables, recipes, materials,
 coins), plus tiered experience, learning point and permanent stat grants. Coins are ordinary items:
 Drova has no separate money counter, so a currency grant is just an item stack in your bag. Once every distinct item is placed,
@@ -343,12 +367,50 @@ reads each container's authored `_fixLoot` into `tools/extracted/chest_slots.jso
 multi-item containers their per-item slot locations — re-run it alongside the container extraction
 whenever the game updates.
 
+## Item names the game never wrote
+
+Vanilla hands out only part of its own item database, so a handful of items ship without a name and
+only ever surface here: the randomizer distributes armor and headgear that in vanilla exists on an
+NPC's body and nowhere else. Two shapes of the same gap, over 15 items the mod can grant:
+
+- the item asks for a key nobody authored, and the tooltip reads
+  `[LOCA] Key not found: helmet_ede_bandage_name. Path: Items` (2 items);
+- the item ships with `_hasLocalization` off and names itself `Id: armor_chest_banshee` (13 items).
+
+Both are fixed by `Item.SetLocalization("ArchipelagoDrova")` on gameplay load, which points the item
+at a loca path the mod owns, plus `ArchipelagoDrova_<lang>.loc` files written on the main menu.
+Filling the key where it belongs is not possible: **a loca path is a file**, so writing one key into
+`Items` means overwriting the game's own `Items_<lang>.loc` and losing the 2126 entries in it.
+
+The redirect moves every lookup keyed on `Item._locaPath`, not just the name, so the generated table
+also mirrors the game's own **rarity** keys (`uncommon`, …) and the **weapon type** key
+(`weapon_dagger`) per language — without them the tooltip's "(Uncommon)" line becomes the next
+`[LOCA]` error. That is duplicated game text and goes stale if the game retranslates it, so re-run
+the generator on a game update. If the `.loc` write fails (an install the player cannot write to),
+the redirect is skipped rather than leaving items pointing at a path with no file.
+
+Rebuild `ArchipelagoDrova/Data/ItemLocaTable.g.cs` with
+`python tools/extract_locations/extract_item_loca.py` followed by `gen_item_loca_defaults.py`. Names
+come from the readable id (`misc_lootbag_red` -> "Misc Lootbag Red") unless the generator's `CURATED`
+map gives a better one, so a content patch's new gaps stay covered without another edit. Item names
+are English in every language; the mod ships no translations. Descriptions are left alone: the game
+resolves a missing one to an empty line, which is already true of ~500 items it ships.
+
+The 11 quest letters that also lack a `_name` key are **not** a gap — they name themselves through
+`_customLocaKey` out of `Letters/<chapter>`, and the generator skips them.
+
 ## Trader extraction
 
 `randomize_traders` turns buying an item from a merchant into a check: 890 slots across 46 traders
 (nemeton 402, ruinenlager 301, neutral 187). Trader stock is authored, not loot-rolled, so each slot
 is a real location with stable identity — the merchant's scene-baked guid plus the item's guid, the
 key both `tools/extract_locations/extract_traders.py` and the client's `TraderTracker` resolve.
+
+A slot that stocks a stack sells one check per unit: the base location is unit 1 and units 2..5 are
+their own locations (`<slot>#unitN`), 2324 in total. `trader_stack_size` (1–5, default 5) decides how
+many a seed keeps — 1 → 890, 3 → 1689, 5 → 2324. Five is the extracted ceiling, so bulk-material
+stacks (160× povage) cannot flood the pool; buying past the cap is ordinary vanilla shopping, and the
+client's per-slot cursor stops at the last unit the seed actually created.
 
 Recovering it is a two-asset join the container extractor doesn't do: the stock lives on the merchant
 prefab (`Inventory_Trading._tradingItems`) while the stable guid lives on the scene `LazyActor` that

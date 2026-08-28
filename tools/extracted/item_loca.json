@@ -1,0 +1,6797 @@
+{
+ "Note_BanditMine": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "Raven Mask": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "Test_Armor_Foot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "Test_Armor_Full": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "Test_Armor_Head": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "Test_Armor_Leg": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "Test_Armor_LowHead": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "Test_Armor_WithoutBhvr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "Test_Armor_WithoutStats": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_bandit_T1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_bandit_T2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_bandit_T4": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_banshee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_draugr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_draugr_brutus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_draugr_dagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_draugr_mage": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_draugr_spear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_druid_atlanter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_heavy_atlanter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_leather_magielager_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_leather_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_leather_strong_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_leather_strong_name_player": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_lendha_dylara": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_lendha_heavy_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_lendha_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_light_atlanter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_manshee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_miner_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_nemeton_chief_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_nemeton_craftsman_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_nemeton_guardian_druid_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_nemeton_guardian_heavy_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_nemeton_guardian_light_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_nemeton_merchant_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_nemeton_social_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_ruinenlager_chief_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_ruinenlager_fighter_druid_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_ruinenlager_fighter_fight_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_ruinenlager_fighter_heavy_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_ruinenlager_gladiator": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_ruinenlager_gladiator_noeffect": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_chest_ruinenlager_heavy_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_ruinenlager_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_shirt_ragged_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_tunic_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_tunic_noble_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_chest_tunic_ragged_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_druid_intro": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "armor_feet_shoe_lost": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "armor_underwear_chest": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Arena_Items"
+ },
+ "beard_big_chin": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_chin_mustache": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_draugr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_empty": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_forked": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_full_braided_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_full_braided_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_full_short": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_full_short_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_full_voluminous_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_full_voluminous_long": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_long_mustache_chin_long": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_long_split": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_mustache_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_mustache_small": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_partial_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_partial_forked": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_partial_neck": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_partial_short_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_partial_short_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_partial_spiky": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_spikey": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_three_accessoires": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_two_small_braid": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_twobraided_chin": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "beard_whiskers": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_Familiar_Firefly": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_aggressiveCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_aggressiveCry_npc": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_bady_scream_shockwave": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_battleCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_blink": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_bloodRage": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_bullRush": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_bullRush_bady": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_conflagration": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_conflagration_npc_totarget": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_conjure_ada_npc": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_conjure_ada_npc_fake": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_conjure_ada_npc_instant": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_conjure_dunkle_npc": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_conjure_insects": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_conjure_insects_ebru": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_conjure_pack": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_conjure_rats": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_conjure_ripper": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_conjure_ripper_ebru": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_dash": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_diemo_bramble": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_diemo_conjureboars": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_diemo_explodingshrooms": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_diemo_throwflux": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_energyProjectile": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_execute": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_ferventCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_fireCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_flowForm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_fogForm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_heavyBlow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_heavyBlow_bady": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_infection": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_infection_bady": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_jero_Blink": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_jero_FireZones": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_jero_finisher": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_jero_lightning": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_magicNuke": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_magicVision": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_molvina_crowAttack": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_molvina_finisher": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_molvina_root_aoe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_molvina_thunder": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_molvina_thunder_onplayer": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_natureSpirit_npc": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_obsidianSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_pierce": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_root_aoe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_root_cone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_shockingBlow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_shockingBlow_bady": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "cons_flow_spartanKick": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_thunderstorm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_venomCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_whirlingEnergy": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "cons_flow_wound": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "consumable_potion_aiheal": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "consumable_potion_darkbrew_healing": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "deco1_dirt_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_dirt_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_dirt_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_druid_eyes": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_earring_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_earring_big_glass": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_earring_small": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_earring_small_glass": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_eyepatch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_feathers_red": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_none": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_piercing_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_piercing_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_scar_cheek_left": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_scar_cheek_right": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_scar_eye_left": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_scar_eye_right": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_scar_forehead_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_scar_forehead_small": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_tattoo_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_tattoo_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco1_tattoo_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_dirt_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_dirt_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_dirt_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_druid_eyes": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_earring_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_earring_big_glass": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_earring_small": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_earring_small_glass": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_eyepatch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_feathers_red": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_none": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_piercing_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_piercing_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_scar_cheek_left": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_scar_cheek_right": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_scar_eye_left": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_scar_eye_right": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_scar_forehead_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_scar_forehead_small": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_tattoo_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_tattoo_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco2_tattoo_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_dirt_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_dirt_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_dirt_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_druid_eyes": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_earring_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_earring_big_glass": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_earring_small": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_earring_small_glass": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_eyepatch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_feathers_red": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_none": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_piercing_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_piercing_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_scar_cheek_left": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_scar_cheek_right": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_scar_eye_left": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_scar_eye_right": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_scar_forehead_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_scar_forehead_small": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_tattoo_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_tattoo_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "deco_tattoo_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "flow_aggressiveCry": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_ballista": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_battleCry": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_battleCry_npc": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "flow_blast": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_blink": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_blink_brutus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "flow_blink_brutus_ada": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "flow_blink_draugr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "flow_bloodRage": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_bruntShot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_bullRush": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_conflagration": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_conjure_insects": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_conjure_pack": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_conjure_rats": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_conjure_spiritCall": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_cyclone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_dash": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_dashStab": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_energyProjectile": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_execute": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_ferventCry": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_fireCry": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_flowForm": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_fogForm": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_graspingRoots": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_heavyBlow": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_infection": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_magicNuke": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_magicVision": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_natureTouch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_obsidianSpear": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_pierce": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_poisonArrow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_revive_brutus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "flow_ricochet": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_root_aoe": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_root_cone": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_shockingBlow": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_spartanKick": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_spiritShot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_sunder": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_thunderstorm": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_travelForm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_venomCry": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_whirlingEnergy": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "flow_wound": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "hair_bald": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_balding_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_balding_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_balding_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_balding_4": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_braided_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_braided_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_combed_back": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_curvy": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_lowbun": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_openandbun": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_parted_with_bun": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_ponytail": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_sidebraids": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_sidecut_braided": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_smooth": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_smooth_ponytail": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_updo": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_voluminous": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_voluminous_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_voluminous_ponytail_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_long_voluminous_ponytail_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_mask_backdrop": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_shaggy": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_short_curvy_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_short_curvy_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_short_sidecut": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_short_spiky": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_short_spiky_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_short_voluminous": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_short_voluminous_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "hair_sidecut_ponytail": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "helmet_antlers_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_atlanter_champion": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_atlanter_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_barbarian_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_blindfold_dark_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_blindfold_light_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_brutus_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_cauldron_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_crown_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_draugr_dark_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_draugr_mage_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_draugr_silver_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_earprotection_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_ede_bandage": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_gladiator_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_hood_bandit_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_hood_bandit_t4_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_ironwings_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_leathercap_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_legionare_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mask_arrogant_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mask_death_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mask_empathetic_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mask_frog_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mask_obito_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mask_rational_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mask_sheep_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mask_vodoo_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_mushroom_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_nemeton_guard1_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_nemeton_guard2_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_none": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_onion_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_ruinenlager_guard1_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_ruinenlager_guard2_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "helmet_straw_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_AldriksNote": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_BanditsOnTheBridge": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_HiddenTreasure": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_KendrickGoodsBook": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_KendrickHideout": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_KendrickSagar": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_KendrickThreat": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_Map_Treasure_Forest": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_Map_Treasure_Garden": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_Map_Treasure_GeorgsFarm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_Map_Treasure_Heath": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_Map_Treasure_PrimevalForest": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_Map_Treasure_Rotmoor": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_Map_Treasure_WayToMine": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_MeriksBusiness": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_VoragoFragment_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_VoragoFragment_1": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_Whiskey_StoneWall": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_acidbomb": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_acidsecretion": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_acidtrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_aditroast": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_agilostew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_alraune": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_apple": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_armorring_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_armorring_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_atlanteanarmorparts": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_atlanterAcademyText": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_atlanterRune": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_atlanter_coin": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_atlanter_wine": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_auwaldDungeon": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_beak": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bear_claw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bearfur": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_beartrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_beer": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_berry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_berserkerring": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_berserkerring_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bigligering": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bigquiver": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_blackboard_Butterflies": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_blackboard_woodcamp": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_blanktrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bloodbornering": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bloodquitostinger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bloodthirstamulet": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_boartooth": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_boartusk": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bogIron": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bogwheat": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bomb": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_bottlePost": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_brokenwings": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_brutus_seal_active": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_brutus_seal_inactive": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_callashroom": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_callashroom_extract": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_cavemushroom": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_chunnaic_diamond": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_claw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_cleavageskull": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_crowtrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_diamond": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_diaryKora": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_earthroot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_egg": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_energycrystal_aufwald_charged": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_energycrystal_aufwald_empty": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_energycrystal_brutus_charged": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_energycrystal_brutus_empty": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_energycrystal_cityDungeon_charged": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_energycrystal_cityDungeon_empty": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_engraving_stones": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_entryMine": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_escortLetter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_essence_atlanter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_essence_stone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_essence_void": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_farmersFood": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_feather": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_fish_bass": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_fish_dead": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_fish_trout": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_fishing": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_fishpan": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_flowPlant_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_flowPlant_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_flowcatchertalisman": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_fogears": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_fogstew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_foodpile": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_foodpile_strong": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_forestessence": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_foxpaw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_frogleg": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_furtuft": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_glauglocke": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_gnarlyroot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_golemsalve": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_harpybrew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_harpyiefeather": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_headdress_magicamp": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_headleshen": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_healthPlant_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_healthPlant_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_healthPlant_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_heart": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_herb_past": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_honey": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_honeyMead": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_hunterquiver": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_hunterstrophy": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ironArrow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ironStone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ironbar": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ironlump": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ironore": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_jaggedthrowingknife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_karottegladius_broken": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_kiepe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_kiepe_rubble": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_lanternFruit": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_leather": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Armor": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Arrival": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_AtlanterCreation": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_AtlanterProblems": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_AtlanterRevolt": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_CancelledResearch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_DangerousRunes": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_DangerousTravels": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_DangerousTravels2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_DrivaniusAttitude": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_EmergingFog": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Excalibur": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Extractor2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Eye": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_FirstDownfall": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_ItsMoreDangerous": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_ItsMoreDangerous2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_LightAndDarkness": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_NewsRedTower": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_OlafDiary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_ReijaAndMonko": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Revolt1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Revolt2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Revolt3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_RuneVessel_Nemeton": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_RuneVessel_Ruinenlager": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Senat": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_ShiftingPriorities": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Shrines": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_SpreadingDanger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Stars": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_ThirdDownfall": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_ToTheRuinRaiders": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_WhereIsDrivanius": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_WhereIsDrivanius2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAtlanter_Workerletter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAuwaldDungeon_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAuwaldDungeon_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAuwaldDungeon_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAuwaldDungeon_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAuwaldDungeon_4": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterAuwaldDungeon_5": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_Anatoli": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_BoundaryStone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_Diemo": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_Jero": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_Nemeton": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_Roarke": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_SafeHaven": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_Spark": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCelts_Treason": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCityDungeon_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCityDungeon_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCityDungeon_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCityDungeon_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCityDungeon_GodPaintings": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCityDungeon_Underground_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCityDungeon_Underground_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterCityDungeon_Underground_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterFromEtzel": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterMehlunaToBady": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterRedTower_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterRedTower_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterRedTower_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterRedTower_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterRedTower_5": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterTableBrutus_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterTableBrutus_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterTableBrutus_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterTableBrutus_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterToAsmus_open": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterToAsmus_sealed": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_Reija": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_atlanterDungeon_0": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/AtlanterDungeon",
+   "AtlanterDungeon_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_atlanterDungeon_colony": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/AtlanterDungeon",
+   "Colony_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_atlanterDungeon_drova": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/AtlanterDungeon",
+   "Drova_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_atlanterDungeon_fire": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/AtlanterDungeon",
+   "Fire_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_atlanterDungeon_intro": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/AtlanterDungeon",
+   "Intro_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_fleshboss_0": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/FleshDungeon",
+   "BossDungeon0_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_fleshboss_1": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/FleshDungeon",
+   "BossDungeon1_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_fleshboss_2": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/FleshDungeon",
+   "BossDungeon2_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_fleshboss_intro_fleshmoor": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/FleshDungeon",
+   "IntroFleshMoor_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_fleshboss_pre0": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/FleshDungeon",
+   "Pre0_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_fleshboss_pre1": {
+  "copyName": 0,
+  "customKey": [
+   "Letters/FleshDungeon",
+   "Pre1_Name"
+  ],
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_foresttavern_chapter1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_foresttavern_chapter3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_circleRoom_note1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_circleRoom_note2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_energyRoom_note": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_golemRoom_note1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_golemRoom_note2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_golemRoom_note3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_golemRoom_note4": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_natureRoom_note": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_soundRoom_note": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_soundRoom_note2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_spearRoom_note1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_spearRoom_note2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_library_spearRoom_note3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_shrine_apus_circinus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_shrine_bootes_auriga": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_shrine_cygnus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_shrine_luna": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_shrine_sol": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_shrine_terra_borealis": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_shrine_vela": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letter_sick_siser": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterboard_fragment": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_letterfromolafaboutBrutus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_lifering": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_logwood": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_luminousTruffle": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_lyra": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_magicresring_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_magicresring_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_marinatedmeatleg": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_mastersmemory": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_meat_raw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_meat_stringy": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_mediumquiver": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_mikeschLetter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_mineRelic": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_mudLotus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_mudmash": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_mumbertDiarrhoea": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_mushroom": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_needlelichen": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_packageBrutusMineWeapons": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_packageToMoorlager": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_paperchasestone_band": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_paperchasestone_cleansed": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_paperchasestone_raw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_paperchasestone_rune": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permaherb_flow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permaherb_life": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permaherb_mind": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permaherb_skill": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permaherb_strength": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permapotion_flow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permapotion_life": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permapotion_mind": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permapotion_skill": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_permapotion_strength": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_pigfur": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_pigglet_food": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_playWithKids": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_poisonedThrowingKnife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_poisonedThrowingKnife_npc_fan": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "item_poisonedThrowingKnife_npc_fast": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "item_potion_flow_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_potion_flow_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_potion_health_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_potion_health_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_potion_respec": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_potion_windwalker": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_povage": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_redGlyphStone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_redHerb": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_redmushroomtincture": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_resin": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ring_god": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ripper_head": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ripper_head_huntTheRipper": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ripperfur": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_riptoothchain": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_riverbedmoss": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_rivercharm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_roastedMeat": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_roastedMeat_t2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_roastedTrout": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_roastedcallamushroom": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_roastofthepast": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_rootTrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_rootstew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_rubble": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_rubin": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_rubintalisman": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ruinenlager_bandit": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_ruinherb": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_runestone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_runestone_empty": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_rustmoss_BadFromGera": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_rustymosspipe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_salve_healing": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_sealstone_past": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_searchingForArenaFighter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_searchingGraffiti": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_secret_foglets": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_shadowfur": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_shadowmushroom": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_shaftofpurefury": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_sheepfur": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_shell_01": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_shell_02": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_shiningfur": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_shinyStone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_signOfAtonement": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silberringmind_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silberringmind_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silberringmind_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silberringskill_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silberringskill_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silberringskill_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silverArrow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silverStone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silverlump": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silverore": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silverringstrength_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silverringstrength_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_silverringstrength_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_skulldew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_slingermunition": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_spider_thread": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_spiritVessel_greatTusk": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_spiritamulet_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_spiritamulet_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_splittertrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_splittertrap_npc_ebru_all_arena": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "item_splittertrap_npc_ebru_single": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "item_sprigganheart": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_stalker_egg": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_stalkerfeather": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_stew_tiaa_manipulated": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_stolenPackage": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_strangeFossil": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_talismanJourneyToTheRoots": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_tarnishedSilverCup": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_teeth": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_tendonofglory": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_thornfetish": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_thornyRanke": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_traps": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_treasureMap_auwald": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_trinket_boxer": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_trinket_doriansHeirloom": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_trinket_pureDmg": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_troutskewersbombus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_vipertooth": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_whispersilkbag": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_windtalisman": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_wine": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_woodArrow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "item_yellowGlyphStone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "kai_test": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "kai_test_b": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "kai_test_c": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "key_ShadyDistrict": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_chest_BanditCamp": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_chest_delani": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_chest_mineBanditEntry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_chest_mineBanditMainKey": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_extractor": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_harald": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_harvey": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_mursel_mine": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_ratcellar": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_ruinenexplorer": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_sleepingTavernKey": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_tavernKey": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_tavernKey_Cellar": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "key_tristanBillKey": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "letter_leru_hint01": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "letter_leru_hint02": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "letter_leru_hint03": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "maico_test": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "misc_bagOfCurrency": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_bagOfCurrency_big": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_caveSystem": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_currency": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_emptyTraderBag": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_key_locked_door": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "misc_lockpick_simple": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_lootbag_red": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_map_leuchtwald": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_map_nemeton": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_map_ruincamp": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_map_tristan": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_mapink": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_butterfly": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_club": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_conch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_deer": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_eagle": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_fox": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_horn": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_incense": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_mirror": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_riddle_sundial": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_traderBag": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_worldmap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_worldmap_detailed": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_worldmap_shrines": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "misc_writing_importantdocument": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "note_debtorlist": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "note_evidence_boris": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "note_mineInformation": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "note_naughty_female": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "note_naughty_male": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "quiver_simple_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_acidbomb": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_acidtrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_aditroast": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_agilostew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_beartrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_bigquiver": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_blanktrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_bomb": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_crowfeettrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_elixier_concentration": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_elixier_life": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_elixier_skill": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_elixier_spirit": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_elixier_strength": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_farmersmeal": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_fishpan": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_aggressiveCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_ballista": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_battleCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_blink": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_bloodRage": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_bruntShot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_bullRush": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_conflagration": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_cyclone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_dash": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_dashstab": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_energyProjectile": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_execute": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_ferventCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_fireCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_flowForm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_fogForm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_heavyBlow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_infection": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_magicVision": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_magicnuke": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_obsidianSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_pierce": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_poisonArrow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_ricochet": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_root_aoe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_root_cone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_shockingBlow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_spartanKick": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_sunder": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_thunderstorm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_venomCry": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_whirlingEnergy": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flow_wound": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flowpotion_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_flowpotion_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_fogstew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_foodpile": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_foodpile_strong": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_golemsalve": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_harpybrew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_healingsalve": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_healingsalve_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_healingsalve_3": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_honeybeer": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_hunterstrophy": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_ironarrow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_ironbar": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_ironlump": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_ironstone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_jaggedthrowingknife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_leather": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_lockpick": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_marinatedmeatleg": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_meat_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_meat_cooked": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_mediumquiver": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_mudmash": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_poisonedthrowingknife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_potion_health_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_potion_health_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_potion_windwalker": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_rivercharm": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_roastedcallamushroom": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_roastofthepast": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_rootstew": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_rustymosspipe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silberringmind_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silberringmind_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silberringmind_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silberringskill_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silberringskill_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silberringskill_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silverarrow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silverlump": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silverringstrength_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silverringstrength_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silverringstrength_2": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_silverstone": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_smashironbar": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_spiritamulet_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_spiritamulet_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_splittertrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_test_allrecipes": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "recipe_thronyvine": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_throwingknife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_thrownet": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_troutskewersbombus": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_whispersilkbag": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_woodenarrow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "recipe_yggdrasil": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "ring_aldo_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "ring_tuz_name": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "skinMuscularBrown": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "skinMuscularBrownDark": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "skinMuscularBrownLight": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "skinMuscularWhite": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "template_weapon_axe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Arena_Items"
+ },
+ "template_weapon_bow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Arena_Items"
+ },
+ "template_weapon_shield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "template_weapon_sling": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "template_weapon_spear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Arena_Items"
+ },
+ "template_weapon_sword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "test_item_aimedweapon": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "test_item_block": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "test_item_flowability": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "test_item_flowabilitysecondstat": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "test_item_flowabilitywithsub": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "test_item_primseconattack": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "test_item_weaponthreecombo": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "test_weapon_sword_branch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Debug/IntegrationTest"
+ },
+ "throwing_ensnare": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "throwing_knife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "tool_pickaxe_improvisedpickaxebroken": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "tool_pickaxe_silberhauer": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "tool_torch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "waterrat_young_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_axe_ancientAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_bady_dull": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_bady_sharp": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_barbarianBattleAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_bearSlaughtererAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_beardedAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_berserkAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_blaansoldsword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_bloodReaper": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_broadAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_bronzeTusk": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_coarseBronzeAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_coarseDoubleAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_coarseWarAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_deformedAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_doubleAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_draugr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_greatAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_heavyNailClub": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_highlandAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_improvisedpickaxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_iron-BoundGreatAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_jawboneAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_largeBranch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_lightAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_oldAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_rustyAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_snaga": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_splittingAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_twohanded_mock": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Arena_Items"
+ },
+ "weapon_axe_warAxe": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_axe_woodSplitter": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_babysnapper_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_barehands": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_bigSpider_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bigspider_jump_web": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bigspider_jump_web_auwald": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bigspider_venombite": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bigspider_venombite_auwald": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bloodquito_auwald": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bloodquito_auwald_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bloodquito_kamikaze": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bloodquito_rotmoor": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_boar_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_boar_luminous_primary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_boar_primary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_bow_atlanterBow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_bow_battleBow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_bow_draugr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_bow_huntingBow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_bow_longBow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_bow_reinforcedBow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_bow_shortBow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_bow_simpleBow": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Arena_Items"
+ },
+ "weapon_dagger_blackKnife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_bloodDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_boneKnife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_breadKnife": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_bronzeDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_ceremonialDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_coarseDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_draugr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_eviscerator": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_fang": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_heartSeeker": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_ironDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_ironSpike": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_mosquitoSting": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_pineDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_pointedDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_sacrificialDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_shortBlade": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_silence": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_theKingslayer": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_tombstick": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_dagger_wornBronzeDagger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_defaultcreature": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_diggerpig_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_diggerpig_range": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_eliteRipper": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_eliteRipper_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_fleshBoss_bites_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_fleshBoss_bites_1": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_fleshBoss_combos": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_fleshBoss_melee_0": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_fleshBoss_mixUp": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_fleshBoss_phase01_spells": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_fleshBoss_phase02_spells": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_fleshEye_spells": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_frog_melee_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_frog_melee_primary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_frog_melee_secondary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_frog_range_primary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_golem_melee_hammerDownSingle": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_golem_melee_slaps": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_golem_spells_firetrap": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_golem_spells_root_lighting": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_greattusk_meleesecondary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_greattusk_primary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_leshen_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_leshen_spells": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_leshen_summoning": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_lightboar_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_lightboar_secondary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_moorripper": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_mortarShroom_primary": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_redfox": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_ripper": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_shadowjumper": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_shadowripper": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_shadowripper_ambush": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_shield_adornedWoodenShield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_atlanterShield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_bronzeShield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_draugr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_protection": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_roundShield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_sigilShield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_smallBronzeShield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_smallRoundShield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_smallWoodenShield": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_theWall": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_shield_woodenBoard": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sling_battleSlingshot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sling_coarseSling": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sling_headSlingshot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sling_heavySlingshot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sling_legendarySlingshot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sling_simpleSlingshot": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_snapper_charge": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_snapper_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_snapper_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_snapper_weak_charge": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_snapper_weak_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_spear_ango": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_bloodBlade": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_bronzeSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_combotest": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_spear_deathRitualSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_draugr": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_fishSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_framea": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_georg": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_ger": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_huntingSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_messengerOfTheDivine": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_partisan": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_pilum": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_pitchfork": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_shortSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_silverSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_simpleBronzeSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_spear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_stoneSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_tipOfDeath": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_wingSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_wolfToothSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spear_woodenSpear": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_spitter_charge": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_spitter_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_spitter_special": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_spitter_weak_charge": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_spitter_weak_special": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_sprigga_default": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_sprigga_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_sprigga_yellow_default": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_sprigga_young_yellow_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_stalker_blue_rampage": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_stalker_insane_green": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_stalker_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_stalker_melee_blue": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_stalker_melee_green": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_stonefist_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_stonefist_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_stonefist_special": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_sword_ancientRitualSword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_ancientSword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_baton": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_battleBlade": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_berserkBlade": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_branch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_broadsword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_bronzeShortSword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_bronzeShortSword_intro": {
+  "copyName": 1,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_carimasoldsword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_coarseBroadsword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_crudeIronBlade": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_draugrIronBlade": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_gildedSickle": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_gladius": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_hawk'SClaw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_heavyNailClub": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_jendra": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_karottegladius": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_longsword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_moonSword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_nailClub": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_oldBronzeGladius": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_roughSword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_runeSword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_scavengingScimitar": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_shortSword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_sword": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_swordOfNemeton": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_swordOfTheFaithful": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_sword_warClub": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 1,
+  "path": "Items"
+ },
+ "weapon_test_bleeding": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_test_magictouch": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_test_poison": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_waterambusher_Ambush": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_waterambusher_Melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_waterambusher_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_waterrat_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_bear_greattusk_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_bear_greattusk_melee_body_claw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_bear_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_bear_melee_body_claw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_bear_melee_dash_slam": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_bear_special_rush": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_chaosspirit_fracture_pulse": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_chaosspirit_frenzy": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_foglet_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_foglet_special": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_greattusk_cutscenes": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_greattusk_special01": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_greattusk_special02": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_harpyie_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_harpyie_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_harpyie_range": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_harpyie_special": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_hungryripper_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_lightbear_insane": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_lightbear_melee_body_claw": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_lightbear_melee_dash_slam": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_lightbear_special_rush": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_moorenemy_baneling": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_moorenemy_plant": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_moorenemymelee_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_moorenemyranged_ranged": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_moorenemytank_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_waterdevil_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_worm_melee": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ },
+ "weapon_weapon_worm_range": {
+  "copyName": 0,
+  "customKey": null,
+  "hasLoc": 0,
+  "path": "Items"
+ }
+}

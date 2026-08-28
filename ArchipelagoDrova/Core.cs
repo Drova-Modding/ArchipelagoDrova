@@ -5,7 +5,7 @@ using Il2CppDrova;
 using Il2CppDrova.Saveables;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(ArchipelagoDrova.Core), "ArchipelagoDrova", "0.4.0", "TrustNoOneElse")]
+[assembly: MelonInfo(typeof(ArchipelagoDrova.Core), "ArchipelagoDrova", "0.5.0", "TrustNoOneElse")]
 [assembly: MelonGame("Just2D", "Drova")]
 [assembly: MelonAdditionalDependencies("Drova_Modding_API")]
 
@@ -55,8 +55,8 @@ namespace ArchipelagoDrova
 
             Store = new ArchipelagoStore();
             SaveGameSystem.Instance.AddStore(Store);
-            // A new game never calls Load(), so without this wipe the store would carry the
-            // previous session's data into the fresh save.
+            // Wipes the store before another save's state lands on top of it. This does NOT cover
+            // starting a new game - that fires no load event at all, so the menu load handles it.
             SaveGameSystem.BeforeSaveGameLoaded += OnBeforeSaveGameLoaded;
 
             Client = new ArchipelagoClient(Config, Store, new ItemGranter());
@@ -79,6 +79,7 @@ namespace ArchipelagoDrova
             LootSuppressor.Initialize(HarmonyInstance);
             RuneShuffler.Initialize();
             RuneHintOverlay.Initialize();
+            FloorRiddleShuffler.Initialize();
 
             // Registered after Client.OnSaveGameStateLoaded so the save stamp is validated first.
             Store.OnStateLoaded += QuestTracker.RequestSweep;
@@ -137,6 +138,8 @@ namespace ArchipelagoDrova
                 if (sceneName == SceneNames.GameplayMain)
                 {
                     InGameplayScene = true;
+                    // The item database does not exist before the game manager is up.
+                    ItemLocaDefaults.ApplyToItemDatabase();
                     if (Config.AutoConnect && !Client.Connected)
                     {
                         Client.Connect(Config.Host, Config.Port, Config.SlotName, Config.Password);
@@ -146,6 +149,15 @@ namespace ArchipelagoDrova
                 {
                     InGameplayScene = false;
                     Player = null;
+                    // Both ways into a game come through the menu, and BeforeSaveGameLoaded only
+                    // fires for a LOAD. Without this, starting a new game after playing another
+                    // save inherits that save's AP state - its stamp, its checked locations and its
+                    // item cursor - and Save() then writes all of it into the new save. The stamp
+                    // makes that visible only when the seeds differ; in the same room it is silent.
+                    Store.Reset();
+                    // The localization database exists from here on, and the files have to be on
+                    // disk before the first tooltip is drawn.
+                    ItemLocaDefaults.WriteLocalizationEntries();
                 }
 
             }

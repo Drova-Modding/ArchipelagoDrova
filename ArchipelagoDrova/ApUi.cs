@@ -1,4 +1,4 @@
-using Drova_Modding_API.Access;
+﻿using Drova_Modding_API.Access;
 using Il2CppCommandTerminal;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using MelonLoader;
@@ -26,7 +26,7 @@ namespace ArchipelagoDrova
 
         private readonly ArchipelagoClient _client;
         private readonly ApConfig _config;
-        private readonly List<Toast> _toasts = new();
+        private readonly List<Toast> _toasts = [];
         private readonly ApProgressPanel _progress;
 
         private bool _visible;
@@ -177,7 +177,9 @@ namespace ArchipelagoDrova
             GUI.Label(new Rect(x, y, width, 20f),
                 "Checks: " + _client.LocationsChecked + "/" + _client.LocationsTotal +
                 "   Items: " + _client.ItemsApplied + "/" + _client.ItemsReceived +
-                (_client.DeathLinkEnabled ? "   DeathLink" : ""));
+                (_client.DeathLinkEnabled
+                    ? DeathTracker.Mode == DeathLinkMode.Knockout ? "   DeathLink (KO)" : "   DeathLink"
+                    : ""));
             y += 20f;
 
             if (Core.Store != null && Core.Store.Mismatched)

@@ -40,6 +40,10 @@ class DrovaWorld(World):
     # Pure client data for the same reasons (see runes.py).
     rune_map: dict[str, str] = {}
 
+    # Ordered stairs sequence of the library floor riddle when rune riddles are shuffled, else
+    # empty. Pure client data for the same reasons (see runes.py).
+    floor_rune_sequence: list[str] = []
+
     def generate_early(self) -> None:
         # Universal Tracker regenerates this world locally to learn which locations the room has.
         # That regeneration must mirror the room the player connected to, not whatever their local
@@ -63,10 +67,13 @@ class DrovaWorld(World):
             self.options.enemy_kill_interval.value = int(
                 passthrough.get("enemy_kill_interval", self.options.enemy_kill_interval.value)
             )
+            # Decides how many stack units of each trader slot are locations, so UT must mirror it.
+            self.options.trader_stack_size.value = int(
+                passthrough.get("trader_stack_size", self.options.trader_stack_size.value)
+            )
 
-        # Carnage overrides the individual safety rails: it forces vanilla-loot suppression on (the
-        # client also drops the protections, keys and quest items included) and shuffles the full
-        # teleporter pool below. suppress_vanilla_loot is pure client behaviour and never shapes the
+        # Carnage forces vanilla-loot suppression on and the client drops its protections, keys and
+        # quest items included. suppress_vanilla_loot is pure client behaviour and never shapes the
         # location pool, so overriding it here is enough for both generation and the UT mirror.
         if self.options.carnage:
             self.options.suppress_vanilla_loot.value = 1
@@ -81,7 +88,7 @@ class DrovaWorld(World):
                 f"Enable at least one of: {', '.join(sorted(locations.CATEGORY_TO_OPTION.values()))}."
             )
 
-        progression_count = len(items.PROGRESSION_ITEM_NAMES)
+        progression_count = len(items.progression_item_names(self))
         if len(enabled_locations) < progression_count:
             raise OptionError(
                 f"Drova - Forsaken Kin ({self.player_name}): the enabled location categories only provide "
@@ -89,14 +96,19 @@ class DrovaWorld(World):
                 f"Enable more location categories."
             )
 
-        # Carnage shuffles every pairable gate and ignores the RandomizeTeleporters toggle entirely.
-        if self.options.carnage:
-            self.teleporter_map = teleporters.full_teleporter_map(self)
-        elif self.options.randomize_teleporters:
-            self.teleporter_map = teleporters.shuffled_teleporter_map(self)
+        # The entrance shuffle stays opt-in: carnage WIDENS it to every pairable gate (faction
+        # interiors, quest dungeons) but never turns it on, so randomize_teleporters: false keeps
+        # vanilla links even in a carnage seed.
+        if self.options.randomize_teleporters:
+            self.teleporter_map = (
+                teleporters.full_teleporter_map(self)
+                if self.options.carnage
+                else teleporters.shuffled_teleporter_map(self)
+            )
 
         if self.options.randomize_runes:
             self.rune_map = runes.shuffled_rune_map(self)
+            self.floor_rune_sequence = runes.shuffled_floor_sequence(self)
 
     def create_regions(self) -> None:
         regions.create_and_connect_regions(self)
@@ -125,6 +137,9 @@ class DrovaWorld(World):
         return {
             "seed_name": self.multiworld.seed_name,
             "death_link": bool(self.options.death_link),
+            # What an incoming DeathLink does to the player: "kill" or "knockout". Client-side only.
+            # Absent (older seeds) reads as "kill", which is what they were generated for.
+            "death_link_mode": self.options.death_link_mode.current_key,
             "suppress_vanilla_loot": bool(self.options.suppress_vanilla_loot),
             # Carnage: strip the loot suppressor's protections too (keys, quest items, crystals,
             # riddle offerings). suppress_vanilla_loot is already forced true above when this is set.
@@ -143,6 +158,9 @@ class DrovaWorld(World):
                 "traders": bool(self.options.randomize_traders),
                 "muggings": bool(self.options.randomize_muggings),
             },
+            # Units of a stocked trader stack that are checks. The client stops its per-slot cursor
+            # there; anything past it is ordinary vanilla shopping.
+            "trader_stack_size": int(self.options.trader_stack_size.value),
             # The client sends milestone k once the kill count reaches k * interval, for k in
             # 1..enemy_kill_checks. Location names are "Enemy Kills - {k}".
             "enemy_kill_checks": int(self.options.enemy_kill_checks.value),
@@ -157,6 +175,9 @@ class DrovaWorld(World):
             "teleporters": dict(self.teleporter_map),
             # Original rune pattern -> replacement pattern. Empty when runes are not shuffled.
             "runes": dict(self.rune_map),
+            # Ordered stairs sequence of the library floor riddle. Empty when runes are not
+            # shuffled; the client treats an absent/empty list as the vanilla sequence.
+            "floor_runes": list(self.floor_rune_sequence),
         }
 
     def write_spoiler(self, spoiler_handle) -> None:
@@ -168,3 +189,6 @@ class DrovaWorld(World):
             spoiler_handle.write(f"\nRune shuffle ({self.player_name}):\n")
             for original, replacement in sorted(self.rune_map.items()):
                 spoiler_handle.write(f"    {original} now requires the pattern of {replacement}\n")
+        if self.floor_rune_sequence:
+            spoiler_handle.write(f"\nLibrary floor riddle ({self.player_name}):\n")
+            spoiler_handle.write(f"    stairs sequence: {' -> '.join(self.floor_rune_sequence)}\n")

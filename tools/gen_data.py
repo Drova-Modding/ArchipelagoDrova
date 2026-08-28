@@ -29,7 +29,9 @@ LOCATION_BASE_ID = 4800000
 
 # A trader slot with a stock stack of N sells min(N, this) checks; the rest is vanilla shopping.
 # The distribution is heavy-tailed (median stack 1, max 160 povage), so uncapped would balloon the
-# trader category from ~900 to ~6100 pure money-pump locations.
+# trader category from ~900 to ~6100 pure money-pump locations. This is the DATAPACKAGE ceiling: the
+# trader_stack_size option picks how many of the units a seed keeps, so options.TraderStackSize's
+# range_end must move with it (raising it renumbers nothing, but every unit needs a frozen id first).
 TRADER_UNIT_CAP = 5
 
 # Enemy-kill milestone locations are synthetic: they have no world object and are not extracted.

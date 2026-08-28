@@ -50,10 +50,21 @@ class TestTeleporterShuffle(DrovaTestBase):
         )
 
 
-class TestCarnageTeleporters(DrovaTestBase):
-    # Carnage forces the full shuffle even with the ordinary toggle left off, and forces suppression
-    # on even when the seed explicitly turned it off.
+class TestCarnageWithoutTeleporters(DrovaTestBase):
+    # Carnage widens the entrance shuffle but never turns it on: with the toggle off the seed keeps
+    # vanilla cave links. Suppression is still forced on even though the seed turned it off.
     options = {"carnage": True, "randomize_teleporters": False, "suppress_vanilla_loot": False}
+
+    def test_teleporters_stay_vanilla(self) -> None:
+        self.assertEqual(self.world.fill_slot_data()["teleporters"], {})
+
+    def test_carnage_still_forces_suppression(self) -> None:
+        self.assertTrue(self.world.fill_slot_data()["suppress_vanilla_loot"])
+
+
+class TestCarnageTeleporters(DrovaTestBase):
+    # Toggle on plus carnage: the shuffle covers every pairable gate, not just the safe 36.
+    options = {"carnage": True, "randomize_teleporters": True, "suppress_vanilla_loot": False}
 
     def test_slot_data_is_a_permutation_of_the_full_pool(self) -> None:
         shuffled = self.world.fill_slot_data()["teleporters"]

@@ -111,6 +111,25 @@ class RandomizeTraders(Toggle):
     display_name = "Randomize Traders"
 
 
+class TraderStackSize(Range):
+    """
+    How many units of a stocked stack are location checks. Ignored when Randomize Traders is off.
+
+    A merchant slot that stocks several of an item sells several checks: the first purchase sends the
+    slot's base location, the next ones send "- Unit 2" up to this many. Buying past it is ordinary
+    vanilla shopping. Restocks continue where the last purchase stopped.
+
+    5 is the extracted ceiling, so it cannot go higher; lower values trade trader checks for a shorter
+    seed (1 means one check per slot, no matter how deep the stack).
+    """
+
+    display_name = "Trader Stack Size"
+
+    range_start = 1
+    range_end = 5
+    default = 5
+
+
 class RandomizeMuggings(Toggle):
     """
     Turn mugging an NPC (knocking them out in a brawl and opening their pockets) into a location
@@ -125,11 +144,13 @@ class RandomizeMuggings(Toggle):
 
 class RandomizeRunes(Toggle):
     """
-    Shuffle the rune-drawing riddles: which of the nine drawn-rune patterns opens which rune door
-    is re-rolled per seed, and every hint is updated to match - letter images are swapped, and the
+    Shuffle the rune riddles: which of the nine drawn-rune patterns opens which rune door is
+    re-rolled per seed, and every hint is updated to match - letter images are swapped, and the
     world-art hints (riddle plates, clue stones, painted boards) get a redrawn plate face showing
-    the new pattern. Every riddle stays solvable the intended way; you just cannot draw the answer
-    from memory of a previous run.
+    the new pattern. The library floor riddle's stairs sequence is also re-rolled, with the
+    books' clue images swapped to show the new sequence (its secret sequence stays vanilla).
+    Every riddle stays solvable the intended way; you just cannot answer from memory of a
+    previous run.
     """
 
     display_name = "Randomize Runes"
@@ -137,10 +158,11 @@ class RandomizeRunes(Toggle):
 
 class StartWithTools(DefaultOnToggle):
     """
-    Start with the tools for the two gathering minigames: the Silver Smasher pickaxe (mining) and
-    an Old Spear (spearfishing). They arrive as starting items the moment the client connects, so
-    ore veins and fishing spots - many of which are location checks - are workable from the start
-    without first finding or buying the tools.
+    Start with the tools for the two gathering minigames: the Bronze Pickaxe (mining) and an Old
+    Spear (spearfishing). They arrive as starting items the moment the client connects, so ore veins
+    and fishing spots - many of which are location checks - are workable from the start without
+    first finding or buying the tools. Both are unbreakable, unlike the Silver Smasher, which is a
+    better pickaxe that breaks on 80% of swings.
     """
 
     display_name = "Start With Tools"
@@ -156,7 +178,8 @@ class RandomizeTeleporters(Toggle):
     their vanilla connections, and every shuffled entrance is reachable on foot, so this changes
     exploration without adding any logic requirements.
 
-    Ignored when Carnage Mode is on, which shuffles every pairable gate instead.
+    Carnage Mode widens this to every pairable gate, story ones included, but does not turn it on:
+    leave this off and a Carnage seed still has vanilla cave links.
     """
 
     display_name = "Randomize Teleporters"
@@ -184,10 +207,11 @@ class Carnage(Toggle):
     """
     Maximum chaos, and the seed is allowed to break.
 
-    Three things happen at once, each overriding its normal safety rail:
-      - Every pairable cave gate is shuffled, not just the 36 safe ones - faction interiors, quest
-        dungeons and the rest are all in the pool. Links stay two-way so you can always walk back,
-        but an entrance can now drop you somewhere the story never meant you to reach.
+    Two safety rails come off:
+      - The entrance shuffle, IF you turned Randomize Teleporters on, covers every pairable cave
+        gate instead of the 36 safe ones - faction interiors, quest dungeons and the rest are all in
+        the pool. Links stay two-way so you can always walk back, but an entrance can now drop you
+        somewhere the story never meant you to reach. With that option off, cave links stay vanilla.
       - Vanilla loot suppression is forced on, and its protections are dropped: keys, quest items,
         energy crystals and riddle offerings are stripped from randomized containers along with
         everything else. Only the item's authored vanilla contents are removed, so anything you (or
@@ -359,6 +383,31 @@ class ConsumableStackSize(Choice):
     default = option_full
 
 
+class DeathLinkMode(Choice):
+    """
+    What a DeathLink sent by another player does to you.
+
+    Your own deaths always broadcast a DeathLink; this only decides what an incoming one costs.
+
+    - kill: you die, exactly as if the world had killed you.
+    - knockout: you black out where you stand for a few seconds instead - the state losing a brawl
+      leaves you in. Nothing can hit you while you are down, and nothing reloads.
+
+    Drova has no death penalty other than reloading your last save, which makes a kill expensive in a
+    co-op room: every DeathLink costs the whole session since that save. Knockouts cost you the run of
+    the fight you were in, and nothing else. The mod's config.json can force knockouts locally
+    (`DeathLinkKnockout`) and set how long they last; a local setting can only soften a seed's
+    DeathLink, never sharpen it.
+    """
+
+    display_name = "DeathLink Mode"
+
+    option_kill = 0
+    option_knockout = 1
+
+    default = option_kill
+
+
 @dataclass
 class DrovaOptions(PerGameCommonOptions):
     faction: Faction
@@ -370,6 +419,7 @@ class DrovaOptions(PerGameCommonOptions):
     randomize_caches: RandomizeCaches
     randomize_pickups: RandomizePickups
     randomize_traders: RandomizeTraders
+    trader_stack_size: TraderStackSize
     randomize_muggings: RandomizeMuggings
     randomize_teleporters: RandomizeTeleporters
     randomize_runes: RandomizeRunes
@@ -387,6 +437,7 @@ class DrovaOptions(PerGameCommonOptions):
     permanent_herb_supply: PermanentHerbSupply
     mandragora_supply: MandragoraSupply
     death_link: DeathLink
+    death_link_mode: DeathLinkMode
 
 
 option_groups = [
@@ -410,6 +461,7 @@ option_groups = [
             RandomizeCaches,
             RandomizePickups,
             RandomizeTraders,
+            TraderStackSize,
             RandomizeMuggings,
             EnemyKillChecks,
             EnemyKillInterval,

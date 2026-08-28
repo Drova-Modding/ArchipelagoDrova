@@ -31,7 +31,9 @@ that are neutral or belong to your chosen faction become locations. Pick the fac
 in-game.
 
 You can also turn buying from merchants into checks (Randomize Traders): each item a trader stocks is a location, so
-shopping sends checks. Traders are faction-split like quests, so only your faction's and neutral merchants count.
+shopping sends checks. Traders are faction-split like quests, so only your faction's and neutral merchants count. A slot
+that stocks several of an item sells several checks, up to Trader Stack Size (default 5); lower it for fewer trader
+checks, or set it to 1 for one check per slot.
 
 And you can turn milestones of enemy kills into checks (Enemy Kill Checks). Defeated enemies do not drop Archipelago
 items directly, but every so many kills sends a check, so combat itself becomes a source of checks. Teacher learning
@@ -44,9 +46,11 @@ other, so a cave mouth may lead into a different cave than in vanilla. Links sta
 out the way you came in, so no placement can strand you. Story-critical transitions (the Red Tower, the Library, both
 factions' home interiors and quest dungeons) always keep their vanilla connections.
 
-Randomize Runes re-rolls the rune-drawing riddles: which of the nine drawn-rune patterns opens which rune door
-changes per seed, and the hint notes are updated to show the new pattern - so the riddles stay solvable the intended
-way, but you cannot draw the answers from memory of a previous playthrough.
+Randomize Runes re-rolls the rune riddles: which of the nine drawn-rune patterns opens which rune door changes per
+seed, and the hint notes are updated to show the new pattern - so the riddles stay solvable the intended way, but you
+cannot draw the answers from memory of a previous playthrough. The library floor riddle's stairs sequence is
+re-rolled too, and the clue images in the "History of Runic Magic" books swap to show the new sequence (the riddle's
+secret sequence stays vanilla).
 
 ## What items can appear in other players' worlds?
 
@@ -70,6 +74,15 @@ Anything Drova has that can be handed to you:
 
 Items belonging to other players are not shown in the world itself. When you open a container or finish a quest that
 holds someone else's item, the client sends the check and reports what was found.
+
+## DeathLink
+
+`death_link` broadcasts your deaths to the room and applies everyone else's to you. Because Drova's only
+death penalty is reloading your last save, `death_link_mode: knockout` is worth a look for co-op or long
+sessions: an incoming DeathLink then puts you down on the spot for a few seconds — the state losing a
+brawl leaves you in, and nothing can hit you while you are down — instead of killing you. Nothing
+reloads, so nothing you did or received since your last save is lost. Your own deaths still broadcast
+either way.
 
 ## A note on logic
 

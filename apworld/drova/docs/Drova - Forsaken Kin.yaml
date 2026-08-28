@@ -14,7 +14,8 @@ Drova - Forsaken Kin:
   randomize_resources: false  # 361 ore veins, herbs
   randomize_caches: false     # 978 hidden caches
   randomize_pickups: false    # 3112 loose world items (very long seed)
-  randomize_traders: false    # ~2320 merchant checks (faction-split); stocked stacks sell up to 5, one per unit
+  randomize_traders: false    # 2324 merchant checks (faction-split); stocked stacks sell one check per unit
+  trader_stack_size: 5        # 1-5: units of a stocked stack that are checks (1 = 890 slots, 3 = 1689, 5 = 2324)
   randomize_muggings: false   # 250 NPC muggings (knock out + loot); opposite-faction NPCs only get filler
   enemy_kill_checks: 0        # 0-50 kill milestones (0 = off)
   enemy_kill_interval: 10     # kills between each milestone
@@ -26,12 +27,13 @@ Drova - Forsaken Kin:
   suppress_vanilla_loot: true # true = only the AP item; false = AP item + vanilla loot (easier)
   consumable_stack_size: full # full | small | single - units per consumable grant (ammo never drops below 5)
   randomize_teleporters: false # shuffle which cave each entrance leads into (36 two-way links, never strands you)
-  randomize_runes: false      # re-roll which drawn-rune pattern opens which rune door; all hints (notes + plates) stay truthful
+  randomize_runes: false      # re-roll rune doors + the library floor riddle; all hints (notes, plates, book images) stay truthful
   all_items: false            # add quest-property gear/props/notes to the pool (crafted & NPC armour, seals, letters)
-  carnage: false              # chaos: shuffle EVERY gate + force loot suppression with no protections; seed may soft-lock
-  start_with_tools: true      # start with the Silver Smasher pickaxe + a junk spear for the mining/fishing minigames
+  carnage: false              # chaos: widens the gate shuffle above to EVERY gate + forces loot suppression with no protections; seed may soft-lock
+  start_with_tools: true      # start with the Bronze Pickaxe + a junk spear for the mining/fishing minigames
   quest_item_supply: 8        # 0-20: guaranteed units of each quest-needed ordinary item (logs, ore, herbs, meat)
   permanent_herb_supply: 5    # 0-20: Basaltroot/Brainfood/Hawthorne/Cliff Lichen/Luminous Bass - each is a permanent +1 stat
   mandragora_supply: 7        # 0-20: Mandragora top-up (the vanilla eight are Alraune kills and are never suppressed)
 
   death_link: false
+  death_link_mode: kill      # kill | knockout - knockout puts you down for a few seconds instead of killing you (no reload, nothing lost)

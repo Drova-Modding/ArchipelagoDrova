@@ -1,5 +1,4 @@
 using ArchipelagoDrova.Data;
-using Il2CppDrova.GUI;
 using MelonLoader;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,8 +17,10 @@ namespace ArchipelagoDrova
     ///  - a drawing-target transformer (GUI_Window_Drawing.SetTargetTexture): every pattern
     ///    check goes through here; the transformer returns a mod-built texture holding the
     ///    replacement pattern's pixels.
-    ///  - OnLetterShown (GUI_Window_Letter.ShowLetterContent, the funnel for world letters AND
-    ///    journal re-reads): the handler swaps any DrawRune_* Image sprite in the content.
+    ///  - OnLetterShown (GUI_Window_Letter.ShowLetterContent, world letters) and
+    ///    OnJournalLetterShown (journal re-reads - the journal builds the same content prefab
+    ///    through its own pane, never through GUI_Window_Letter): the handler swaps any
+    ///    DrawRune_* Image sprite in the content.
     ///
     /// Textures are rebuilt from RuneTable pixel data rather than borrowed from other puzzle
     /// instances, because the other puzzle's bundle may not be loaded. Pixels are copied
@@ -41,7 +42,10 @@ namespace ArchipelagoDrova
         public static void Initialize()
         {
             Drova_Modding_API.Access.WindowContentAccess.RegisterDrawingTargetTransformer(TransformDrawingTarget);
-            Drova_Modding_API.Access.WindowContentAccess.OnLetterShown += OnLetterShown;
+            // Physical letters and journal re-reads build the same content prefab through two
+            // different funnels; both must be swept or a journal re-read shows vanilla patterns.
+            Drova_Modding_API.Access.WindowContentAccess.OnLetterShown += window => SwapRuneImages(window);
+            Drova_Modding_API.Access.WindowContentAccess.OnJournalLetterShown += controller => SwapRuneImages(controller);
         }
 
         /// <summary>Called on every connection; empty or null means vanilla riddles.</summary>
@@ -78,15 +82,15 @@ namespace ArchipelagoDrova
             return null;
         }
 
-        private static void OnLetterShown(GUI_Window_Letter window)
+        private static void SwapRuneImages(Component root)
         {
             try
             {
-                if (_map == null || window == null)
+                if (_map == null || root == null)
                 {
                     return;
                 }
-                foreach (var image in window.GetComponentsInChildren<Image>(true))
+                foreach (var image in root.GetComponentsInChildren<Image>(true))
                 {
                     var sprite = image.sprite;
                     if (sprite == null || sprite.name.StartsWith(BuiltPrefix))

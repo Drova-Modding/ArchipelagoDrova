@@ -1,0 +1,14 @@
+{
+ "runes": [
+  "Energy",
+  "Fire",
+  "Root",
+  "Sound",
+  "Summon"
+ ],
+ "vanilla_order": [
+  "Energy",
+  "Root",
+  "Fire"
+ ]
+}

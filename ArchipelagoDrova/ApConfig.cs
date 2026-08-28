@@ -1,4 +1,4 @@
-using MelonLoader;
+﻿using MelonLoader;
 using MelonLoader.Utils;
 using Newtonsoft.Json;
 
@@ -15,6 +15,22 @@ namespace ArchipelagoDrova
         public string Password { get; set; } = "";
         public bool AutoConnect { get; set; }
         public bool DeathLink { get; set; } = false;
+
+        /// <summary>
+        /// Force incoming DeathLinks to knock the player out instead of killing them, whatever the seed
+        /// asked for. One-way on purpose: a local setting may soften a seed's DeathLink, never sharpen it,
+        /// so a room that agreed on knockouts cannot be turned back into kills from one player's config.
+        /// </summary>
+        public bool DeathLinkKnockout { get; set; } = false;
+
+        /// <summary>Seconds a DeathLink knockout keeps the player down.</summary>
+        public float DeathLinkKnockoutSeconds { get; set; } = 6f;
+
+        /// <summary>
+        /// Health fraction a DeathLink knockout leaves the player on (0.1 = 10%), or 0 to leave their
+        /// health alone. It cannot kill: a knocked-out actor takes no hits either.
+        /// </summary>
+        public float DeathLinkKnockoutHealthPercent { get; set; } = 0f;
 
         public static string DataDirectory => Path.Combine(MelonEnvironment.UserDataDirectory, "ArchipelagoDrova");
 

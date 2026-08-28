@@ -57,6 +57,11 @@ COUNT_GATED_CATEGORIES = {
 TRADER_CATEGORY = "Trader"
 TRADER_GROUP = "Traders"
 
+# A trader slot that stocks a stack sells several checks: the base location is unit 1 and the extra
+# units are their own locations, keyed "<slot>#unitN" by tools/gen_data.py (which caps N at 5). How
+# many of them a seed keeps is the trader_stack_size option.
+TRADER_UNIT_KIND = "TraderUnit"
+
 MUGGING_CATEGORY = "Mugging"
 MUGGING_GROUP = "Muggings"
 
@@ -94,6 +99,13 @@ def _location_name_groups() -> dict[str, set[str]]:
 LOCATION_NAME_GROUPS = _location_name_groups()
 
 
+def trader_unit(location: dict[str, Any]) -> int:
+    """Which unit of its stocked stack a trader location is. 1 for everything that is not a unit."""
+    if location["kind"] != TRADER_UNIT_KIND:
+        return 1
+    return int(location["key"].rsplit("#unit", 1)[1])
+
+
 def enabled_location_data(options: DrovaOptions) -> list[dict[str, Any]]:
     """The location records this seed will actually create.
 
@@ -110,6 +122,9 @@ def enabled_location_data(options: DrovaOptions) -> list[dict[str, Any]]:
                 enabled.append(location)
             continue
         if not getattr(options, CATEGORY_TO_OPTION[location["category"]]):
+            continue
+        # Stack units past the seed's trader_stack_size are ordinary vanilla shopping, not checks.
+        if trader_unit(location) > options.trader_stack_size.value:
             continue
         # Joining a faction locks the other's questline and its merchants, so those locations can
         # never be reached. Quests and traders carry a faction; everything else is neutral.

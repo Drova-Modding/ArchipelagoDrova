@@ -1,4 +1,4 @@
-from ..locations import LOCATION_DATA, TRADER_CATEGORY, TRADER_GROUP
+from ..locations import LOCATION_DATA, TRADER_CATEGORY, TRADER_GROUP, TRADER_UNIT_KIND, trader_unit
 from .bases import DrovaTestBase
 
 TRADER_DATA = [location for location in LOCATION_DATA if location["category"] == TRADER_CATEGORY]
@@ -57,3 +57,33 @@ class TestTradersFactionFiltered(DrovaTestBase):
 
     def test_slot_data_reports_traders(self) -> None:
         self.assertIs(self.world.fill_slot_data()["categories"]["traders"], True)
+
+
+class TestTraderStackSize(DrovaTestBase):
+    options = {"randomize_chests": True, "randomize_traders": True, "trader_stack_size": 2}
+    run_default_tests = False
+
+    def test_units_past_the_stack_size_are_not_locations(self) -> None:
+        created = {location.name for location in self.multiworld.get_locations(self.player)}
+        seen_kept, seen_dropped = False, False
+        for location in TRADER_DATA:
+            if location["faction"] not in ("neutral", "nemeton"):
+                continue
+            if trader_unit(location) <= 2:
+                self.assertIn(location["name"], created)
+                seen_kept = True
+            else:
+                self.assertNotIn(location["name"], created)
+                seen_dropped = True
+        # A vacuous pass would hide a filter that dropped or kept everything.
+        self.assertTrue(seen_kept and seen_dropped)
+
+    def test_unit_number_matches_the_name(self) -> None:
+        for location in TRADER_DATA:
+            if location["kind"] == TRADER_UNIT_KIND:
+                self.assertTrue(location["name"].endswith(" - Unit %d" % trader_unit(location)))
+            else:
+                self.assertEqual(trader_unit(location), 1)
+
+    def test_slot_data_reports_the_stack_size(self) -> None:
+        self.assertEqual(self.world.fill_slot_data()["trader_stack_size"], 2)
