@@ -2,9 +2,7 @@
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<!-- Nullable MUST stay disabled: under IL2CPP, System.Runtime.CompilerServices.NullableAttribute
-		     resolves into Il2Cppmscorlib and breaks the build/runtime. -->
-		<Nullable>disable</Nullable>
+		<Nullable>annotations</Nullable>
 		<RootNamespace>ArchipelagoDrova</RootNamespace>
 		<IsPackable>false</IsPackable>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
